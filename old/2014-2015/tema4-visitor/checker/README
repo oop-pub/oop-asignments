@@ -1,0 +1,10 @@
+Pentru a vă testa implementarea, rulați:
+* ''java Tester test_file results_reference_file debug_mode''
+    * test_file - fișierul de test
+    * results_reference_file - fișierul cu valorile rezultat
+    * debug_mode - false pentru a afișa doar mesajul checkerului, true pentru a
+    afișa și alte informații, cum ar fi lista expresiilor și a rezultatelor. În 
+    programul vostru puteți folosi variabila Tester.debug.
+
+Fișierul Tester.class, și cele de test și test_ref trebuie să fie în același 
+director cu .class-urile voastre.

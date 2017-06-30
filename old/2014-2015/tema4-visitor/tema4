@@ -1,0 +1,119 @@
+= Tema 4 - Calculator de buzunar =
+
+
+* Responsabili: [[adriana.draghici@cs.pub.ro | Adriana Drăghici ]] și [[iosifadrianmihai@gmail.com | Adrian Iosif]] 
+* Deadline:  14.01.2015 23:55
+* Data publicării: 17.12.2013
+* Data ultimei modificări: 17.12.2014
+* Data tester-ului: 06.01.2014 16:45
+
+
+== Obiective ==
+  * familiarizarea cu structurarea aplicației prin aplicarea de //design patterns//
+  * folosirea design pattern-ului [[laboratoare:visitor|Visitor]]
+  * familiarizarea cu conceptele de parsare lexicală și semantică 
+
+== Descriere și cerințe ==
+
+Implementați un program care parsează și evaluează //expresii matematice//. Este obligatoriu să structurați codul folosind pattern-ul **Visitor**. 
+
+=== Sintaxa expresiilor ===
+
+  * Expresiile conțin doar numere de tip //Float//, operatori și paranteze, toate separate prin unul sau mai multe spații. 
+  * Operațiile suportate sunt:
+    * binare: ''+, -, *, /, ^'' (ridicarea la putere), în ordine, de la cel mai puțin prioritar:
+      * ''+, -'' 
+      * ''*, /'' 
+      * ''^'' (atenție, spre deosebire de cei de mai sus, este doar asociativ dreapta: 2 ^ 3 ^ 4 = 2 ^ (3 ^ 4))
+    * funcții unare: **''log''** (log in baza 10), **''sqrt''** (radical), **''sin''**, **''cos''**, **''-'' (minus unar, pentru numere negative)**
+      * au prioritate mai mare decat ceilalți operatori
+      * minusul unar poate apărea doar la începutul expresiei, sau imediat după o paranteză deschisă (cu alte cuvinte, nu veți avea expresii de tipul 1 + - 2)
+      * operatorul ''-'' unar aplicat unei funcții trebuie separat prin spațiu: 
+          * ''- sqrt ( 2 )'', nu ''-sqrt ( 2 )''
+  * Expresiile pot conține paranteze ''('', '')'', în orice combinații
+  * **Trebuie verificată corectitudinea //sintactică// a expresiilor**, iar dacă se întâlnește o eroare de sintaxă (operator invalid, număr neparsabil etc), se va arunca o excepție user-defined, numită ''SyntacticException'', iar parsarea expresiei se va termina.
+ 
+Exemple expresii:
+    * ''1 + 2 - 3 * ( 4 + 5 ) / log ( 10 * sqrt ( 100 ) )'' 
+    * ''- 2 * sin ( -5 + 2 ) + 4''
+ 
+Rezultatul parsării unei expresii îl reprezintă rădăcina unui arbore, care va fi apoi parcurs în partea de evaluare. Mai jos observați un arbore de parsare pentru exemplul primei expresii.
+      +
+     / \ 
+    1   -
+       / \
+      2   /
+         / \
+        *   log
+       / \     \
+      3   +     *
+         / \   / \
+        4   5 10  sqrt
+                   |
+                  100
+
+Puteți folosi funcții standard Java de parsare a numerelor (''Float.ParseFloat(String)'') sau funcții standard de operare pe String-uri, care vă pot simplifica generarea arborelui. //Nu sunt permise decât funcționalități Java standard, precum cele menționate anterior sau framework-ul ''Collections''//.
+
+=== Evaluarea expresiilor ===
+  * Expresiile se evaluează în funcție de paranteze și de prioritatea operațiilor. Arborele de parsare pe care îl generați va fi punctul de plecare în calculul rezultatului.
+  * **Trebuie verificată corectitudinea //semantică// a expresiilor** o dată cu parcurgerea structurii, iar dacă se întâlnește o eroare, se va arunca o excepție user-defined, numită ''EvaluatorException'', iar evaluarea expresiei se va termina. Va trebui să tratați erorile de calcul matematic:
+    * împarțirea la 0
+    * log(x) unde x <nowiki><=</nowiki> 0
+    * sqrt(x) unde x < 0
+
+== Implementare ==
+
+Scheletul de cod al temei impune implementarea metodei ''eval'' din clasa //ExpressionParser//. Aceasta metodă primește ca argument expresia ce trebuie parsată și întoarce rezultatul acesteia.
+
+Expresia este dată ca un șir de caractere, care trebuie despărțit în tokens (separate prin spații) pentru fiecare element al expresiei (număr, operator sau paranteză). După parsare, expresia va fi reprezentată ca un arbore binar ca în exemplul din secțiunea anterioară, și această structură de date va fi parcursă de către vizitatori. Un exemplu de algoritm pentru construcția arborelui găsiți în secțiunea [[#Referințe | Referințe]].
+
+Folosiți tipul //double// la parsare și la evaluarea rezultatelor intermediare, și faceți un cast înapoi la float la ultimul rezultat. 
+
+== Precizări ==
+
+=== Notare ===
+* 80 puncte - acordate de vmchecker pentru execuţia cu succes a suitei de teste
+* 10 puncte - existența  și calitatea javadocurilor, comentariilor și readme-ului
+* 10 puncte - calitatea implementarii, respectarea principiilor OOP
+* -5 puncte - absența readme-ului
+* -5 puncte - absența javadoc-ului
+
+Pentru notare se va folosi checker-ul disponibil în secțiunea [[#Resurse|Resurse]], toate testele fiind publice. Găsiți în fișierul README din arhivă detalii de utilizare. Expresiile de test au pondere egală.
+
+=== Corectare === 
+
+Tema se va corecta folosind platforma [[https://vmchecker.cs.pub.ro/ui/#POO |vmchecker]]. Dacă platforma de testare nu acordă niciun punct soluției, atunci acesta va fi punctajul final al implementării temei.
+
+Arhiva trimisă trebuie să conțină în radăcina sa:
+* sursele (clasele date in schelet trebuie sa fie in default package, alte clase pot fi) 
+* readme-ul
+* javadoc sau un script de generare javadoc 
+
+<note important>Tema nu va primi punctajul acordat de vmchecker dacă nu respectă cerințele temei - nu e implementată folosind pattern-ul Visitor. </note>
+  
+ <note warning>Toate soluțiile vor fi verificate folosind un tool de detectare a plagiatului. În cazul detectării unui astfel de caz, atât plagiatorul cât și autorul original vor primi punctaj 0 pe temă și nu li se va permite intrarea în examen.</note> 
+
+Pentru fiecare zi de întârziere se vor scădea câte 5/100 puncte. După 7 zile de la trecerea termenului nu se vor mai putea încărca arhive pe site. 
+
+=== Testare ===
+
+Pentru a vă testa implementarea, rulați în consolă:
+* ''java Tester test_file results_reference_file debug_mode''
+    * test_file - fișierul de test
+    * results_reference_file - fișierul cu valorile rezultat
+    * debug_mode - //false// pentru a afișa doar mesajul checkerului, //true// pentru a afișa și alte informații, cum ar fi lista expresiilor și a rezultatelor. În programul vostru puteți folosi variabila Tester.debug.
+* fișierul ''Tester.class'', și cele de ''test'' și ''test_ref'' trebuie să fie în același director cu .class-urile voastre.
+
+Rezultatul unui test se consideră incorect dacă Abs(rez_vostru - rez_ref) > 0.001.
+
+== Resurse ==
+
+* {{.:tema4:tema4-skel.zip|Schelet temă}}
+* {{.:tema4:tema4-tester.zip|Tester}}
+* <html><a class="media mediafile mf_pdf" href="/poo/teme/tema4?do=export_pdf">PDF enunț temă</a></html>
+
+
+== Referințe ==
+
+* [[http://en.wikipedia.org/wiki/Abstract_syntax_tree |Abstract syntax tree]]
+* [[http://cursuri.cs.pub.ro/~poo/wiki/index.php/Constructie_Parse_Tree | Algoritm constructie arbore de parsare]]
