@@ -1,0 +1,195 @@
+
+= Tema 3 - Bucket Dictionary =
+
+Deadline: 17.12.2014
+Responsabili: Victor Ciurel, Vlad Păunescu
+Data publicarii: 07.12.2014
+Data ultimei modificari: 10.12.2014
+
+==Obiective==
+* Înţelegerea structurii de **tabel de dispersie asociativ** şi implementarea acesteia
+* Întrebuinţarea genericitǎţii pentru extinderea utilizabilitǎţii structurii implementate
+
+==Descrierea problemei==
+
+===Introducere===
+
+**Tabela de dispersie asociativǎ** este o structurǎ de date care asociazǎ **chei** cu **valori**. Aceasta permite cǎutarea eficientǎ a unei valori pe baza cheii corespunzǎtoare. De exemplu, putem avea drept tabelǎ de dispersie o agendǎ telefonicǎ din care sǎ obţinem numǎrul de telefon al unei persoane pe baza numelui sǎu.
+
+Principiul de bazǎ este urmǎtorul: în locul dispunerii într-o singurǎ listǎ liniarǎ a tuturor perechilor cheie-valoare (**entry**-uri) din tabelǎ, acestea sunt grupate în mai multe subliste (**bucket**-uri), pe baza unui anumit criteriu. Astfel, cǎutarea unei chei se va face **doar** în ''bucket''-ul corespunzǎtor, şi nu în toatǎ lista, fapt ce reduce timpul de cǎutare. Pentru stabilirea ''bucket''-ului în care va fi plasat un ''entry'', cheii îi este aplicatǎ o funcţie de dispersie (**hash function**) care întoarce un numǎr întreg, numit cod de dispersie (**hash code**). Pe baza acestuia se determinǎ ''bucket''-ul în care se va introduce intrarea. Iatǎ o tabelǎ de dispersie:
+
+{{.:tabela_de_dispersie.png}}
+
+Sǎ luǎm exemplul **agendei telefonice**. Putem alege drept funcţie de dispersie ''h'' poziţia din alfabet a primei litere a numelui persoanei. De exemplu, ''h("Andrei") = 1'' (litera A ocupǎ poziţia 1 în alfabet). Avem astfel 26 de valori posibile ale funcţiei ''h'' şi introducem în tabelǎ 26 de ''bucket''-uri. Primul va reprezenta lista perechilor (''nume, numar_de_telefon'') pentru care numele încep cu litera A. Al doilea, cu litera B etc. Mai jos se aflǎ o reprezentare principialǎ a agendei. Desigur, în ultima coloanǎ se pot înlǎnţui mai multe intrǎri în acelaşi bucket.
+
+{{.:agenda_telefonica.png}}
+
+Constatǎm cǎ **eficienţa** operaţiei de cǎutare depinde de alegerea **funcţiei de dispersie**. De exemplu, pentru o funcţie de dispersie **constantǎ**, ''h(key) = 1'', pentru orice cheie ''key'', obţinem o unicǎ listǎ înlǎnţuitǎ. În acest caz eficienţa este **cea mai slabǎ**. La polul opus, cu eficienţǎ maximǎ, s-ar afla o funcţie de dispersie **injectivǎ**, care genereazǎ un cod de dispersie **unic** pentru fiecare cheie, astfel cǎ fiecare bucket ar conţine o singurǎ intrare. În practicǎ, astfel de funcţii sunt foarte greu de gǎsit.
+
+===Scopul temei===
+Tema urmǎreşte implementarea unui **tabel de dispersie asociativ**, **generic**, ce va permite stocarea perechilor cheie-valoare, având orice tipuri.
+
+==Cerinţe==
+
+===Implementare(90p)===
+
+====MyHashMap====
+
+Clasa voastrǎ va implementa interfaţa ''MyHashMap<K, V>'' definitǎ de noi, conservând **genericitatea**:
+
+<code java>
+class MyHashMapImpl<K, V> implements MyHashMap<K, V>
+</code>
+
+Interfaţa ''MyHashMap'' conţine şi interfeţele interioare ''Entry<K, V>'' şi ''Bucket<K, V>'', pentru a reprezenta entitǎţile implicate. Va trebui sǎ implementaţi şi aceste interfeţe (puteţi folosi clase interne).
+
+În cadrul implementǎrii voastre va trebui sǎ aveţi acces la ''bucket''-urile tabelei direct prin intermediul unui indice. Folosiţi un **vector de bucket-uri** (''ArrayList'', ''[]'' nu il puteti folosi cu tipuri parametrizate) şi nu o listǎ înlǎnţuitǎ (cum ar fi ''LinkedList''), pentru ca accesul la orice element sǎ se facǎ în **timp constant**. Ideal ar fi ca acest index sǎ fie tocmai **codul de dispersie**. Adesea însǎ, codul are un interval prea mare de valori pentru a putea reprezenta direct indicele într-un vector. Cum, în general, codul de dispersie are tipul ''int'', este puţin probabil sǎ definiţi un vector cu indici între -2 miliarde şi 2 miliarde. De obicei se defineşte un vector cu un numǎr **mai redus** de bucket-uri (ex.: 20) iar codul de dispersie este **translatat** în acest interval. O funcţie de translatare des întrebuinţatǎ în acest sens este ''modulo'': ''translate(hashCode) = |hashCode| % numBuckets''. Aceastǎ funcţie garanteazǎ obţinerea unui indice între ''0'' şi ''numBuckets - 1''. Am folosit valoarea absolută a lui ''hashCode'' deoarece poate fi şi negativ.
+
+Clasa ''Object'' pune la dispoziţie metoda ''hashCode'', care întoarce tocmai codul de dispersie (''int'') asociat unui obiect. Aceasta este echivalentǎ funcţiei de dispersie. Metoda este folositǎ de clasa ''HashMap'' din biblioteca Java. În mod implicit, la definirea unei noi clase ce moşteneşte ''Object'', ''hashCode'' întoarce **adresa de memorie** a obiectului. Acest lucru nu este de foarte mare ajutor. În general metoda trebuie **supradefinitǎ** pentru a întoarce un cod calculat (eficient) pe baza datelor interne ale obiectului.
+
+Majoritatea claselor din biblioteca Java (String, Integer etc.) supradefinesc deja metoda ''hashCode'', astfel cǎ vǎ puteţi baza pe ea. Veţi folosi şi voi aceastǎ metodǎ pentru a obţine **codul de dispersie** al unei chei din tabelǎ, dar îi veţi aplica **translatarea** din paragraful anterior pentru a obţine **indicele** în vectorul de bucket-uri. Procesul de determinare a ''bucket''-ului în care va ajunge o cheie se poate rezuma aşa:
+
+''key -> key.hashCode() -> translatare hashCode -> indice în vectorul de bucket-uri''
+
+Operaţiile de bazǎ ale tabelei, aşa cum rezultǎ şi din interfaţa ''MyHashMap'', vor fi ''get'', ''put'', ''remove'', ''size'', cu aceeaşi funcţionalitate ca cele din clasa ''HashMap'', definitǎ în biblioteca Java. În implementarea voastrǎ puteţi folosi liste, dar **nu** puteţi folosi nici o implementare de tabel de dispersie din bibliotecǎ.
+
+====Dicționar(40p)====
+
+Bunii voștri prieteni Knuth, Morris și Pratt, va roaga să îi ajutați, folosind clasa implementată la subpunctul anterior. Ei vor să realizeze un dicționar de cuvinte cu ajutorul căruia să răspunda la o serie de interogări. Knuth vă pune la dispoziție o listă de cuvinte împreuna cu definițiile lor. Sarcina voastra este să implementați o clasă, bazată pe tabela de dispersie explicata la subpunctul anterior. În acest dicționar veți introduce cuvintele, împreuna cu definițiile lor, din lista lui Knuth. În urma procesării listei, va trebui sa răspundeți la o serie de interogări de forma ''"Care este definiția cuvântului X?"''. **Nu** veți primi interogări pentru cuvinte ce nu apar in listă. Formatul listei lui Knuth si al răspunsului vostru este explicat mai jos.
+
+====Definiții multiple(15p)====
+
+Cum un cuvânt poate avea mai multe întelesuri, în lista lui Knuth poate apărea un cuvânt cu mai multe definiții. În cadrul dicționarului vostru trebuie sa apară toate aceste definiții. Pentru a verifica acest subpunct va trebui să raspundeti la interogări de forma ''"Câte definitii are cuvătul X?"''. Dacă veți primi o interogare de forma ''"Care este definiția cuvântului X?"'', iar cuvântul ''X'' are mai multe definiții, veți răspunde cu prima definiție din listă. **Nu** veți primi interogări pentru cuvinte ce nu apar în listă.
+
+====Definiții duplicate(15p)====
+
+Knuth este foarte obosit și în lista lui de cuvinte s-au mai strecurat greșeli, iar unele cuvinte împreună cu definițiile lor pot apărea de mai multe ori. Knuth vă roagă să corectați aceste greșeli. Astfel, daca în listă va aparea un cuvânt ce exista deja in dicționar si are aceeași definiție cu cea din dicționar, **nu** se va introduce o noua definiție.
+
+====Sinonime(20p)====
+
+Morris ar vrea sa adauge un pic mai multă funcționalitate dicționarului vostru și vă propune să adăugați și sinonimele cuvintelor alături de definițile lor. Astfel, el vă va da o listă de perechi de cuvinte ce sunt sinonime. Aceste cuvinte apar cel puțin o dată în lista lui Knuth. Pentru a verifica acest subpunct va trebui să răspundeți la o serie de interogări de forma ''"Care sunt sinonimele cuvântului X?"''. Formatul listei lui Morris si al raspunsului vostru este explicat mai jos.
+
+Pentru o pereche de sinonime ''X'' și ''Y'', ''X'' va fi sinonim cu ''Y'' și cu toate sinonimele lui ''Y'', ''Y'' va fi sinonim cu ''X'' si cu toate sinonimele lui ''X''.
+
+Exemplu: Dacă primiți perechile de sinonime (''mare'', ''vast'') și (''mare'', ''imens''), rezultatul este: 
+* ''mare'' este sinonim cu ''vast'' și ''imens''
+* ''vast'' este sinonim cu ''mare'' și ''imens''
+* ''imens'' este sinonim cu ''mare'' și ''vast''
+
+Pentru a implementa în mod eficient relațiile de sinonimie vom implementa o relație generală tranzitivă care să se propage la fiecare adăugare de de pereche de chei in map. Pentru a realiza acest lucru, veți folosi o structură de date numită ''DisjointSets'', parametrizată cu un tip ''T''.
+
+Această structură suportă în mod eficient următoarele 3 operații:
+
+* ''addElement(T element)'' -> adaugă un element la structura de date
+* ''mergeSetsOf(T element1, T element2)'' -> unește mulțimile în care se află elementele primite ca parametru. Această operație poate fi folosită pentru adăuga o relație de sinonimie între 2 cuvinte.
+* ''setOf(T element)'' -> returnează un vector cu toate elementele mulțimii în care se află elementul primit ca parametru
+
+Morris vă va descrie în continuare algoritmii ce pot fi folosiți pentru implementarea celor 3 metode. Algoritmii prezentați sunt rudimentari si nu sunt eficienți, fiind axați pe simplitate si nu pe performanță. În cazul în care vreți să învățați mai multe despre structura de date, Morris vă incurajează să implementați versiunea mai eficientă. Pentru o implementare mai eficientă puteti consulta laboratorul de structuri de date de [[http://ocw.cs.pub.ro/courses/sd-ca/laboratoare/laborator-12|aici]], sau puteți sa citiți mai multe despre algoritm de pe [[http://en.wikipedia.org/wiki/Disjoint-set_data_structure|Wikipedia]] sau [[http://www.infoarena.ro/problema/disjoint|infoarena]].
+
+Se vor folosi 2 structuri de date pentru implementare :
+* ''elements'' -> reprezintă un ''ArrayList'' de perechi de tipul **(element, mulțime)**. Aveți in scheletul de cod pusă la dispoziție o clasă ce reprezintă o pereche. Mulțimea este reprezentată printr-un index caracteristic.
+* ''indexes'' -> reprezintă un obiect de tipul ''MyHashMap<T, Integer>'' care reprezintă asocierea între elementele din mulțime și mulțimea in care se află fiecare.
+
+Algoritmul pentru funcția ''addElement'' este următorul :
+* 1. Se creează un obiect de tip ''Entry'' corespunzător elementului nou adăugat. Acesta nu este in relație cu nimeni, deci el este singurul element al propriei mulțimi. Indexul mulțimii este setat automat in constructorul clasei ''Entry'' la numărul de elemente al structurii ''elements''.
+* 2. Obiectul de tip ''Entry'' creat la 1 se adaugă în structura ''elements''.
+* 3. Se actualizează structura ''indexes'' în mod corespunzător (se adaugă o pereche de tipul ''Entry.element'', ''Entry.setIndex'').
+
+Algoritmul pentru funcția ''mergeSetsOf'' :
+* 1. Se iau din structura indexes indicii corespunzători mulțimilor celor 2 elemente primite ca parametru. Ii vom numi pentru simplitate ''idx1'' și ''idx2''.
+* 2. Se iterează peste structura ''elements'', iar toate elementele din mulțimea cu indexul ''max(idx1, idx2)'' vor fi adăugate la mulțimea cu indexul ''min(idx1, idx2)'', cu alte cuvinte li se va schimba câmpul ''setIndex'' în ''min(idx1, idx2)''. De asemenea se actualizează în mod corespunzător structura ''indexes''.
+
+Algoritmul pentru funcția ''getSetOf'' :
+* 1. Se selectează din structura ''indexes'' indexul mulțimii în care se află elementul primit ca parametru.
+* 2. Se iterează peste vectorul ''elements'' si se construiește un ''ArrayList'' cu toate elementele care se află în aceeași mulțime cu elementul primit ca parametru (câmpul ''setIdx'' are aceeași valoare cu indexul preluat la pasul 1).
+
+Exemplu :
+Presupunem că efectuăm următoarele operații :
+addElement(a), addElement(b), addElement( c), mergeSetsOf(a, b), mergeSetsOf(b, c), getSetOf(a)
+După cele 3 operații de tipul addElement structurile de date interne arată in felul următor :
+indexes : (a, 0), (b, 1), (c, 2)
+elements : (a, 0), (b, 1), (c, 2)
+După operația mergeSetsOf(a, b)
+indexes : (a, 0), (b, 0), (c, 2)
+elements : (a, 0), (b, 0), (c, 2)
+După operația mergeSetsOf(b, c)
+indexes : (a, 0), (b, 0), (c, 0)
+elements : (a, 0), (b, 0), (c, 0)
+
+===Analiză(10p)===
+
+Pratt nu e foarte convins că ce ați implementat este cu adevărat mai rapid ca o listă simpla, așa că dorește să realizați o analiză a eficienței. Pentru a analiza eficiența veți cronometra cât durează realizarea unui număr mare de interogări pentru o listă de cuvinte și definiții. Pentru a măsura timpul, puteți folosi ''System.currentTimeMillis()'' înainte și după rulare. Pratt vă va pune la dispoziție acest test, cât de curând posibil. Cronometarea se va face pentru un MyHashMap cu 1 ''bucket'', 10 ''bucket''-uri, respectiv 100 de ''bucket''-uri. In testele puse la dispoziție se gasește un test (test_big), ce poate fi folosit pentru a observa diferenta de timp dintre rulării.
+
+Ce observaţi? (rǎspundeţi în ''README'').
+
+==Mod de testare==
+
+Pentru rezolvarea și testarea programului vostru veți implementa clasa Main (clasa **trebuie** sa se numească Main) cu metoda ''main''. Veți primi ca argumente numărul de ''bucket''-uri din dicționarul vostru, numele fișierului cu lista de cuvinte, numele fișierului de interogări și numele fișierului în care veți răspunde la interogări.
+
+===Format fișier de cuvinte===
+
+Fișierul unde veți primi cuvinte, impreună cu definițiile lor, și perechile de sinonime, va avea următorul format:
+
+* Prima linie va conține doua numere N si M. N va fi numărul definițiilor de cuvinte, iar M va fi numărul de perechi de sinonime
+* Pe următoarele 2 * N linii vor fi definițiile cuvintelor. Fiecare definiție va fi scrisă pe două rânduri, in modul următor:
+** Prima linie din definiție va fi cuvântul definit
+** A doua linie din definiție va fi definiția cuvântului de pe linia precedentă
+* Pe urmatoarele M linii vor fi perechi de sinonime de forma ''cuvant1 cuvant2''
+
+===Format fișier de interogări===
+
+Fișierul unde veți primi lista de interogării va avea urmatorul format:
+* Pe prima linie va fi un număr Q, ce va reprezenta numarul de interogari
+* Pe următoarele Q linii se va găsi câte o interogare de forma ''tip cuvânt'', unde ''tip'' este tipul interogării, iar ''cuvânt'' este cuvântul pentru care se realizează interogarea. Tipurile interogărilor sunt:
+** ''0'' pentru interogări de tipul ''Care este definiția cuvântului X?''
+** ''1'' pentru interogări de tipul ''Câte definiții are cuvântul X?''
+** ''2'' pentru interogări de tipul ''Care sunt sinonimele cuvântului X?''
+
+===Format fișier de output===
+
+Fișierul unde veți afișa rezultatele interogărilor va avea următorul format:
+* Pentru fiecare interogare veți afișa rezultatul pe o linie separată. Pentru cele 3 tipuri de interogări menționate mai sus, veți afișa următoarele răspunsuri:
+** ''definiția'' cuvântului interogat pentru interogări de tipul 0
+** ''numărul'' definițiilor cuvântului interogat pentru interogări de tipul 1
+** ''lista'' cu sinonime ale cuvântului interogat pentru interogări de tipul 2, sinonimele fiind separate prin spații; sinonimele vor fi afișate în **ordine alfabetică**
+
+==Precizǎri generale==
+* **nu** este permisǎ modificarea codului deja existent în interfaţa ''MyHashMap''; este în schimb permisă adăugarea de funcționalități (de exemplu, puteți să adăugați noi metode in cadrul interfeței, dacă acestea sunt relevante)
+* clasa ce va împlementa interfața ''MyHashMap'' va avea un număr de ''bucket''-uri egal cu cel primit ca parametru de către programul vostru
+* **translatarea** codului de dispersie al unei chei în indicele de ''bucket'' se va face în **interiorul** tabelei, nu în implementǎri de ''hashCode()'', pentru ca acest indice depinde de tabela particularǎ pe care o folosim, nefiind intrinsec obiectului
+* **cuvintele** vor fi formate numai din litere mici ale alfabetului englez
+* **definițiile** vor fi formate din caractere alfa-numerice și din semne
+* se garantează că un cuvânt va fi urmat de către definiția sa în fișierul de cuvinte
+* subpunctele pentru Definiții multiple, Definții duplicate si Sinonime sunt **dependente** de subpunctele ce le preced
+* subpunctul Analiza depinde **doar** de subpunctul Dicționar
+* daca lista de sinonime a unui cuvânt este goala, veți răspunde cu o linie goala la respectiva interogare
+* număr de linii din fișierul de output va fi **exact** cât numărul de interogări
+* spațiile de la sfarșitul liniilor sunt ignorate în momentul testării
+
+===Corectare===
+
+Tema se va corecta folosind platforma vmchecker. Daca platforma de testare nu acorda niciun punct soluției, atunci acesta va fi punctajul final al implementării temei.
+
+<note important>**Toate soluțiile vor fi verificate folosind o unealtă de detectare a plagiatului. În cazul detectării unui astfel de caz, atât plagiatorul cât și autorul original vor primi punctaj 0 pe temă și nu li se va permite intrarea în examen!**</note>
+
+===Punctaj===
+
+70p - acordate de vmchecker pentru execuţia cu succes a suitei de teste
+10p - acordate de asistent pentru analiza performanţei
+10p - acordate de asistent pe baza calitǎţii implementării şi a respectǎrii principiilor POO
+10p - acordate de asistent pe baza lizibilitǎţii codului, a calitǎţii comentariilor și javadoc-ului şi a fișierului Readme
+
+===Format Arhivă===
+
+Arhiva trebuie să conţină:
+
+* src/ - directorul cu toate sursele voastre (cu tot cu director)
+* doc/ - fișierele generate de javadoc
+* readme.txt - fișierul readme cu explicații relevante referitoare la temă
+
+==Resurse==
+
+{{.:schelet_tema3.zip|Schelet Tema 3}}\\
+{{.:teste_tema3.zip|Teste Tema 3}}\\
+
+<html><a class="media mediafile mf_pdf" href="/poo/teme/tema3?do=export_pdf">PDF enunț temă</a></html>
