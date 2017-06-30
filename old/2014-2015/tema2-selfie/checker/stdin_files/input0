@@ -1,0 +1,7 @@
+images/image2.jpg output_image0.bmp pre(flash=off) photo(type=raw) post()
+images/image2.jpg output_image1.bmp pre(flash=on) photo(type=normal) post()
+images/image2.jpg output_image2.bmp pre(flash=off;zoom=10,10,100,100) photo(type=normal) post()
+images/image2.jpg output_image3.bmp pre(flash=off) photo(type=normal) post(sepia)
+images/image2.jpg output_image4.bmp pre(flash=off) photo(type=normal) post(black_white)
+images/image2.jpg output_image5.bmp pre(flash=off) photo(type=normal) post(blur)
+exit

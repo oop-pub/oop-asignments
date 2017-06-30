@@ -1,0 +1,8 @@
+images/image32.jpg output_image32.bmp pre(flash=on) photo(type=raw) post(black_white;black_white;black_white)
+images/image9.jpg output_image9.bmp pre(flash=off) photo(type=raw) post(sepia;black_white)
+images/image27.jpg output_image27.bmp pre(flash=auto) photo(type=raw) post(sepia;black_white;sepia)
+images/image14.jpg output_image14.bmp pre(flash=off;zoom=85,47,154,83) photo(type=normal) post(blur;black_white;black_white)
+images/image29.jpg output_image29.bmp pre(flash=on) photo(type=raw) post(black_white;sepia;sepia;black_white;sepia)
+images/image6.jpg output_image6.bmp pre(flash=off) photo(type=normal) post(sepia;black_white;sepia;blur;blur;black_white)
+images/image8.jpg output_image8.bmp pre(flash=auto) photo(type=normal) post(sepia;blur;black_white;sepia;sepia)
+exit

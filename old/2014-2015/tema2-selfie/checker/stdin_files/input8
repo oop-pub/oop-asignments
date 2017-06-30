@@ -1,0 +1,6 @@
+images/image10.jpg output_image10.bmp pre(flash=on) photo(type=normal) post(blur;blur;black_white;sepia)
+images/image15.jpg output_image15.bmp pre(flash=auto) photo(type=raw) post(blur;black_white)
+images/image12.jpg output_image12.bmp pre(flash=off) photo(type=normal) post(black_white;black_white)
+images/image29.jpg output_image29.bmp pre(flash=on) photo(type=raw) post(black_white;black_white;sepia;sepia;black_white)
+images/image31.jpg output_image31.bmp pre(flash=on) photo(type=raw) post(black_white;black_white;black_white;blur)
+exit
