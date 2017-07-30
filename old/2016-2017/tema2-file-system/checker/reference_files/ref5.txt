@@ -1,0 +1,26 @@
+legolas drwx--- legolas
+aragorn drwx--- aragorn
+gandalf drwx--- gandalf
+saruman drwx--- saruman
+frodo drwx--- frodo
+legolas drwx--- legolas
+aragorn drwx--- aragorn
+gandalf drwxrwx gandalf
+saruman drwx--- saruman
+frodo drwx--- frodo
+legolas drwx--- legolas
+aragorn drwx--- aragorn
+gandalf drwxrwx legolas
+saruman drwx--- saruman
+frodo drwx--- frodo
+-6: cd ../saruman: No rights to execute
+-2: rmdir gandalf: No such directory
+-5: touch iceage.pdf: No rights to write
+-3: rmdir /gandalf/iceage.pdf: Not a directory
+-5: rm -r /gandalf: No rights to write
+/ drwxr-x root
+	legolas drwx--- legolas
+		iceage.pdf frwx--- legolas
+	aragorn drwx--x aragorn
+	saruman drwx--- saruman
+	frodo drwx--- frodo

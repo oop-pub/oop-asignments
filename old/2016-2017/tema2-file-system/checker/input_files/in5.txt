@@ -1,0 +1,25 @@
+mkdir /
+adduser legolas
+adduser aragorn
+adduser gandalf
+adduser saruman
+adduser frodo
+ls .
+chmod 77 gandalf
+ls .././.././../.
+deluser gandalf
+ls .
+chuser legolas
+cd ../saruman
+rmdir gandalf
+touch iceage.pdf
+touch /gandalf/iceage.pdf
+chuser root
+chmod 71 aragorn
+chuser legolas
+cd ../.././.././aragorn
+touch iceage.pdf
+rmdir /gandalf/iceage.pdf
+rm -r /gandalf
+chuser root
+rm -r gandalf

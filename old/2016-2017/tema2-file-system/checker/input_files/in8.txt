@@ -1,0 +1,32 @@
+mkdir /
+adduser linustorvalds
+chmod 77 linustorvalds
+adduser dennisritchie
+chuser dennisritchie
+deluser donaldknuth
+adduser donaldknuth
+chuser RD23
+chuser root
+adduser donaldknuth
+cd ../alanturing
+cd donaldknuth
+chuser donaldknuth
+ls artofcomputerprogramming
+ls ../
+chmod 00 artofcomputerprogramming
+chmod 00 ../dennisritchie
+touch artofcomputerprogramming.pdf
+rm lambdacalculus.pdf
+rm -r artofcomputerprogramming.pdf
+rm artofcomputerprogramming.pdf
+cd ../dennisritchie
+chuser dennisritchie
+touch cprogramming.pdf
+chuser root
+rmdir /dennisritchie
+rmdir dennisritchie/cprogramming.pdf
+chuser dennisritchie
+touch cprogramming.pdf
+writetofile cprogramming.pdf "One does not simply see Dennis Ritchie's work"
+cat /dennisritchie/cprogramming.pdf/books.txt
+cat cprogramming.pdf

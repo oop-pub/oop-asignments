@@ -1,0 +1,44 @@
+mkdir /
+adduser annakarenina
+adduser ivankaramazov
+adduser adrianleverkuhn
+adduser ivandenisovici
+adduser juliensorel
+ls .
+rm -r /
+mkdir /
+adduser annakarenina
+adduser ivankaramazov
+cd annakarenina
+chuser annakarenina
+writetofile temp.txt "no way it's gonna be written"
+touch temp.txt
+chmod 00 temp.txt
+ls .
+cd temp.txt
+cd /annakarenina/../.././annakarenina/./trip
+rm temp.txt
+chuser root
+rm temp.txt
+touch temp.txt
+rm annakarenina
+chuser juliensorel
+rm -r .
+rm /temp.txt
+chuser root
+mkdir /annakarenina/dir1
+touch /annakarenina/dir1/file.txt
+chmod 07 annakarenina
+rm -r ..
+rmdir ..
+rmdir .
+mkdir dir1
+cd dir1
+mkdir dir2
+mkdir /dir1/dir3/
+cd ../..
+ls .
+chuser ivankaramazov
+rm -r ../annakarenina
+rmdir ivankaramazov
+rm -r /annakarenina/dir1

@@ -1,0 +1,8 @@
+mkdir /
+adduser anakin
+adduser luke
+cd anakin
+cd ..
+ls .
+deluser luke
+ls .

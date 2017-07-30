@@ -1,0 +1,10 @@
+mkdir /
+adduser chewbacca
+adduser hansolo
+adduser leia
+adduser luke
+adduser darthvader
+adduser jabbathehutt
+ls .
+deluser hansolo
+ls .

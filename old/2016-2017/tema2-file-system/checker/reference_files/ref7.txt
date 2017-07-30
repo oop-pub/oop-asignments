@@ -1,0 +1,39 @@
+annakarenina drwx--- annakarenina
+ivankaramazov drwx--- ivankaramazov
+adrianleverkuhn drwx--- adrianleverkuhn
+ivandenisovici drwx--- ivandenisovici
+juliensorel drwx--- juliensorel
+-13: rm -r /: Cannot delete parent or current directory
+-1: mkdir /: Is a directory
+-9: adduser annakarenina: User already exists
+-9: adduser ivankaramazov: User already exists
+-11: writetofile temp.txt "no way it's gonna be written": No such file
+temp.txt f------ annakarenina
+-3: cd temp.txt: Not a directory
+-2: cd /annakarenina/../.././annakarenina/./trip: No such directory
+-11: rm temp.txt: No such file
+-1: rm annakarenina: Is a directory
+-13: rm -r .: Cannot delete parent or current directory
+-5: rm /temp.txt: No rights to write
+-13: rm -r ..: Cannot delete parent or current directory
+-13: rmdir ..: Cannot delete parent or current directory
+-13: rmdir .: Cannot delete parent or current directory
+annakarenina d---rwx annakarenina
+ivankaramazov drwx--- ivankaramazov
+adrianleverkuhn drwx--- adrianleverkuhn
+ivandenisovici drwx--- ivandenisovici
+juliensorel drwx--- juliensorel
+temp.txt frwx--- root
+dir1 drwx--- root
+-5: rm -r ../annakarenina: No rights to write
+-2: rmdir ivankaramazov: No such directory
+/ drwxr-x root
+	annakarenina d---rwx annakarenina
+	ivankaramazov drwx--- ivankaramazov
+	adrianleverkuhn drwx--- adrianleverkuhn
+	ivandenisovici drwx--- ivandenisovici
+	juliensorel drwx--- juliensorel
+	temp.txt frwx--- root
+	dir1 drwx--- root
+		dir2 drwx--- root
+		dir3 drwx--- root

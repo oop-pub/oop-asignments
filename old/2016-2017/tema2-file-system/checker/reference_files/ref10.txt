@@ -1,0 +1,64 @@
+-1: mkdir var: Is a directory
+-1: mkdir tmp: Is a directory
+bin drwx--- root
+boot drwx--- root
+dev drwx--- root
+etc drwx--- root
+home drwx--- root
+lib drwx--- root
+media drwx--- root
+mnt drwx--- root
+opt drwx--- root
+root drwx--- root
+sbin drwx--- root
+srv drwx--- root
+tmp drwx--- root
+usr drwx--- root
+var drwx--- root
+cache drwx--- root
+log drwx--- root
+spool drwx--- root
+linustorvalds drwx--- root
+clarkkent drwx--- root
+brucewayne drwx--- root
+richardfeynman drwx--- root
+-12: chmod 73 clarkkent: No such file or directory
+-12: chmod 73 brucewayne: No such file or directory
+-12: chmod 73 richardfeynman: No such file or directory
+-2: cd clarkkent: No such directory
+-12: ls clarkkent: No such file or directory
+-6: mkdir /home/linustorvalds/temp: No rights to execute
+-5: touch home: No rights to write
+-1: writetofile home "Can I write here?": Is a directory
+-1: cat home: Is a directory
+-6: cd home: No rights to execute
+-5: touch clarkkent: No rights to write
+mozilla1.txt frwx--- clarkkent
+-13: rmdir /../: Cannot delete parent or current directory
+-4: cat ../linustorvalds/mozilla0.txt: No rights to read
+-2: rmdir media: No such directory
+-14: rmdir home: Non empty directory
+/ drwxr-x root
+	lib drwx--- root
+	media drwx--- root
+	mnt drwx--- root
+	opt drwx--- root
+	root drwx--- root
+	sbin drwx--- root
+	srv drwx--- root
+	tmp drwx--- root
+	usr drwx--- root
+		bin drwx--- root
+		include drwx--- root
+		lib drwx--- root
+		sbin drwx--- root
+	var drwx--- root
+	cache drwx--- root
+	log drwx--- root
+	spool drwx--- root
+	linustorvalds drwxrwx linustorvalds
+		mozilla0.txt frwx--- linustorvalds
+	clarkkent drwxrwx clarkkent
+		mozilla1.txt frwx--- clarkkent
+	brucewayne drwx--- brucewayne
+	richardfeynman drwx--- richardfeynman

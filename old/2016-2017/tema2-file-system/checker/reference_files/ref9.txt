@@ -1,0 +1,58 @@
+-1: mkdir /usr/bin: Is a directory
+-1: mkdir var: Is a directory
+-1: mkdir tmp: Is a directory
+-12: chmod 73 clarkkent: No such file or directory
+-12: chmod 73 brucewayne: No such file or directory
+-12: chmod 73 richardfeynman: No such file or directory
+-5: chmod 73 ./../richardfeynman: No rights to write
+-2: chmod 77 brucewayne/tasks/first.txt: No such directory
+-5: mkdir /linustorvalds2: No rights to write
+-6: ls /usr: No rights to execute
+-4: ls /usr: No rights to read
+-3: mkdir file1: Not a directory
+-3: mkdir file1/file2: Not a directory
+-1: touch dir1: Is a directory
+dir1 drwx--- linustorvalds
+dir2 drwx--- linustorvalds
+file1 frwx--- linustorvalds
+-5: rmdir ../../richardfeynman/dir1: No rights to write
+-1: writetofile dir2 "No way!": Is a directory
+-5: writetofile file1 "No way!": No rights to write
+dir1 drwx--- linustorvalds
+dir2 drwx--- linustorvalds
+file1 f---rwx linustorvalds
+/ drwxr-x root
+	bin drwx--- root
+	boot drwx--- root
+	dev drwx--- root
+	etc drwx--- root
+	home drwx--- root
+		linustorvalds drwx--- root
+		clarkkent drwx--- root
+		brucewayne drwx--- root
+		richardfeynman drwx--- root
+	lib drwx--- root
+	media drwx--- root
+	mnt drwx--- root
+	opt drwx--- root
+	root drwx--- root
+	sbin drwx--- root
+	srv drwx--- root
+	tmp drwx--- root
+	usr drwx--x root
+		bin drwx--- root
+		include drwx--- root
+		lib drwx--- root
+		sbin drwx--- root
+	var drwx--- root
+	cache drwx--- root
+	log drwx--- root
+	spool drwx--- root
+	linustorvalds drwx--- linustorvalds
+		dir1 drwx--- linustorvalds
+		dir2 drwx--- linustorvalds
+		file1 f---rwx linustorvalds
+	clarkkent drwx--- clarkkent
+	brucewayne drwxrwx brucewayne
+	richardfeynman drwx--x richardfeynman
+		dir1 drwx--- linustorvalds

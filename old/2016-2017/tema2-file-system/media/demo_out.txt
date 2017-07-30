@@ -1,0 +1,16 @@
+-2: cd Laurentiu: No such directory
+-6: cd cocojum: No rights to execute
+bam frwx--- Laurentiu
+cocojum dr----- Laurentiu
+-2: chmod 77 /Laurentiu/cocojum/haha/ajja: No such directory
+bam frwx--- Laurentiu
+cocojum drwxrwx Laurentiu
+-10: deluser Theo: No rights to change user status
+-6: cd /Theo: No rights to execute
+Mos Craciun si prietenii sai! Intr-o padure .........
+/ drwxr-x root
+	Ionut drwx--- Ionut
+	Theo drwx--- Ionut
+	Laurentiu drwx--x Laurentiu
+		bam frwx--- Laurentiu
+		cocojum drwxrwx Laurentiu

@@ -1,0 +1,76 @@
+mkdir /
+ls .
+mkdir bin
+mkdir boot
+mkdir dev
+mkdir etc
+mkdir home
+mkdir lib
+mkdir media
+mkdir mnt
+mkdir opt
+mkdir root
+mkdir sbin
+mkdir srv
+mkdir tmp
+mkdir usr
+mkdir var
+cd usr
+mkdir bin
+mkdir include
+mkdir lib
+mkdir sbin
+cd ..
+mkdir var
+mkdir cache
+mkdir log
+mkdir spool
+mkdir tmp
+ls /
+cd ..
+cd ..
+cd home
+adduser linustorvalds
+mkdir linustorvalds
+mkdir clarkkent
+mkdir brucewayne
+mkdir richardfeynman
+ls .
+adduser clarkkent
+adduser brucewayne
+adduser richardfeynman
+chuser clarkkent
+chmod 73 clarkkent
+chuser brucewayne
+chmod 73 brucewayne
+chuser richardfeynman
+chmod 73 richardfeynman
+chuser linustorvalds
+cd clarkkent
+ls clarkkent
+mkdir /home/linustorvalds/temp
+touch mozilla0.txt
+chuser clarkkent
+touch mozilla1.txt
+cd ../../..
+cd ../../
+touch home
+writetofile home "Can I write here?"
+cat home
+cd home
+touch clarkkent
+chmod 77 clarkkent
+ls ./clarkkent
+rmdir /../
+chuser root
+chmod 77 linustorvalds
+chuser clarkkent
+cat ../linustorvalds/mozilla0.txt
+rmdir media
+chuser root
+rmdir bin
+rmdir boot
+rmdir dev
+rmdir etc
+rmdir home
+rm -r /linustorvalds/././../brucewayne/./../var/../home

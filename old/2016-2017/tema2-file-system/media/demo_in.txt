@@ -1,0 +1,24 @@
+mkdir /
+adduser Ionut
+adduser Theo
+adduser Laurentiu
+chuser Laurentiu
+chmod 71 /Laurentiu
+cd Laurentiu
+touch bam
+mkdir cocojum
+chmod 40 /Laurentiu/cocojum/
+cd cocojum
+ls .
+chuser root
+chmod 77 /Laurentiu/cocojum/haha/ajja
+chmod 77 /Laurentiu/cocojum/
+ls /Laurentiu
+chuser Laurentiu
+deluser Theo
+chuser root
+deluser Theo
+chuser Laurentiu
+cd /Theo
+writetofile /Laurentiu/bam Mos Craciun si prietenii sai! Intr-o padure .........
+cat bam

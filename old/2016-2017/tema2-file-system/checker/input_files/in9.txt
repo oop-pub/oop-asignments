@@ -1,0 +1,71 @@
+mkdir /
+ls .
+mkdir bin
+mkdir boot
+mkdir dev
+mkdir etc
+mkdir home
+mkdir lib
+mkdir media
+mkdir mnt
+mkdir opt
+mkdir root
+mkdir sbin
+mkdir srv
+mkdir tmp
+mkdir usr
+mkdir var
+cd usr
+mkdir bin
+mkdir /usr/bin
+mkdir include
+mkdir lib
+mkdir sbin
+cd ..
+mkdir var
+mkdir cache
+mkdir log
+mkdir spool
+mkdir tmp
+cd home
+adduser linustorvalds
+mkdir linustorvalds
+mkdir clarkkent
+mkdir brucewayne
+mkdir richardfeynman
+adduser clarkkent
+adduser brucewayne
+adduser richardfeynman
+chuser clarkkent
+chmod 73 clarkkent
+chuser brucewayne
+chmod 73 brucewayne
+chuser richardfeynman
+chmod 73 richardfeynman
+chuser linustorvalds
+chmod 73 ./../richardfeynman
+chuser root
+chmod 77 richardfeynman
+chmod 77 brucewayne/tasks/first.txt
+chmod 77 brucewayne/
+chuser linustorvalds
+mkdir /linustorvalds2
+ls /usr
+chuser root
+chmod 71 usr
+chuser linustorvalds
+ls /usr
+mkdir dir1
+mkdir dir2
+touch file1
+mkdir file1
+mkdir file1/file2
+touch dir1
+ls ./.././linustorvalds
+mkdir /richardfeynman/dir1
+chmod 71 /richardfeynman
+rmdir ../../richardfeynman/dir1
+writetofile dir2 "No way!"
+chmod 07 file1
+writetofile file1 "No way!"
+ls .

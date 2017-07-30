@@ -1,0 +1,23 @@
+-10: deluser donaldknuth: No rights to change user status
+-10: adduser donaldknuth: No rights to change user status
+-8: chuser RD23: User does not exist
+-2: cd ../alanturing: No such directory
+-12: ls artofcomputerprogramming: No such file or directory
+linustorvalds drwxrwx linustorvalds
+dennisritchie drwx--- dennisritchie
+donaldknuth drwx--- donaldknuth
+-12: chmod 00 artofcomputerprogramming: No such file or directory
+-5: chmod 00 ../dennisritchie: No rights to write
+-11: rm lambdacalculus.pdf: No such file
+-11: rm artofcomputerprogramming.pdf: No such file
+-6: cd ../dennisritchie: No rights to execute
+-14: rmdir /dennisritchie: Non empty directory
+-3: rmdir dennisritchie/cprogramming.pdf: Not a directory
+-7: touch cprogramming.pdf: File already exists
+-3: cat /dennisritchie/cprogramming.pdf/books.txt: Not a directory
+"One does not simply see Dennis Ritchie's work"
+/ drwxr-x root
+	linustorvalds drwxrwx linustorvalds
+	dennisritchie drwx--- dennisritchie
+		cprogramming.pdf frwx--- dennisritchie
+	donaldknuth drwx--- donaldknuth
