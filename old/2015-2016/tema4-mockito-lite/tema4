@@ -1,0 +1,242 @@
+= Tema 4 - Mockito Lite=
+
+
+Responsabil: Daniel Ciocîrlan
+Deadline: <del>**10.01.2016 23:55**</del> **12.01.2016 23:55**
+
+Data publicării: 14.12.2015
+Data tester-ului: 7.1.2016
+
+
+La laborator am lucrat puțin cu framework-ul JUnit și am observat utilitatea //testelor unitare// când comparam rezultatele întoarse de către metode (sau efectele laterale) cu cele așteptate de noi. Totuși, în proiecte reale, aplicațiile Java sunt mult mai complexe decât ce facem la laborator. Testele unitare presupun izolarea componentelor de restul aplicației, de aceea se cheamă unitare, iar cele care care permit legături între module se numesc //teste de integrare//.
+
+Spre exemplu, o metodă relativ simplă poate chema un modul extern complex (e.g. modul specializat de procesare intensă de date, un server sau o bază de date) și apoi să efectueze operații comparativ triviale. Când testăm o astfel de metodă, nu ne interesează datele reale întoarse de baza de date, serverul sau procesorul de date, ci doar corectitudinea operațiilor metodei noastre și atât.
+
+De aceea, deseori se folosesc framework-uri de //mocking// pentru unit tests, care maschează operațiile complexe externe și întorc rezultate //ca și când// modulele externe funcționează corect și instantaneu.
+
+== Obiectivele temei ==
+
+* familiarizarea cu noțiunile de unit testing și mock frameworks
+* folosirea genericității, excepțiilor
+* aplicarea design pattern-urilor
+
+<note important>
+**Citiți cu atenție enunțul (chiar de mai multe ori) și înțelegeți conceptele și cerințele înainte să începeți să scrieți.**
+</note>
+
+== Intro + Part 1. Watchers ==
+
+Vom implementa o variantă ultra-simplificată a framework-ului [[http://mockito.org/|Mockito]]. Pentru că Mockito folosește mult compiler black magic și [[laboratoare:reflection|reflection]], în temă vom avea ceva simplificat și vom lucra cu interfața ''Mockable''.
+
+<code java>
+interface Mockable<A, B> {
+
+  Unit execute();
+  B execute(A arg);
+
+}
+</code>
+
+''Mockable'' este o interfață care expune două tipuri de calcul - unul care //conceptual// nu întoarce nimic (semnătura pare să ne contrazică, dar explicăm imediat), și unul care primește un argument și întoarce un rezultat.
+
+Presupunem lumea noastră ca fiind limitată și în ea lucrăm doar cu obiecte Mockable.
+
+Fie dat un obiect ''Mockable'':
+
+<code java>
+Mockable<Integer, String> realObject = ...
+</code>
+
+Vrem să facem un //mock-object// pentru instanța noastră ''realObject'', astfel:
+
+<code java>
+Mockable<Integer, String> mock = Mockito.mock(realObject);
+</code>
+
+Poate nimic special până aici, dar acum noul nostru Mockable e înzestrat cu extra puteri.
+Vrem ca atunci când obiectului ''mock'' i se apelează, de exemplu, metoda ''execute'' cu parametrul 2, să întoarcă un rezultat dat de noi. "Sintaxa" va fi următoarea.
+
+Brace yourselves.
+
+<code java>
+Mockito.watch().when(mock.execute(2)).thenReturn("3").andBeDoneWithIt();
+</code>
+
+Mai citiți o dată //cu atenție// linia de mai sus.
+
+Acum ignorați pentru moment părțile cu ''watch()'' și ''andBeDoneWithIt()''.
+
+Urmăriți construcția ''.when(mock.execute(2)).thenReturn("3")''. Vrem ca atunci când pe obiectul mock se apelează metoda ''execute'' cu parametrul 2, vom întoarce String-ul "3". Nu ne interesează ce ar fi întors în mod real instanța ''realObject'' de mai devreme. Astfel că atunci când scriem
+
+<code java>
+System.out.println(mock.execute(2));
+</code>
+
+se va afișa la consolă, evident, String-ul "3".
+
+Mai mult decât atât, vrem să putem arunca excepții, la cerere, atunci când se apelează una dintre metode cu un anumit parametru. Exemple:
+
+<code java>
+Mockito.watch().when(mock.execute())
+  .thenThrow(new RuntimeException("hello world")).andBeDoneWithIt().
+Mockito.watch().when(mock.execute(2))
+  .thenThrow(new RuntimeException("not 2 again!")).andBeDoneWithIt().
+</code>
+
+De asemenea, vrem să controlăm comportamentul mock-urilor specificând ordinea rezultatelor întoarse sau a excepțiilor aruncate.
+
+Brace for syntax.
+
+<code java>
+Mockito.watch().when(mock.execute(3))
+  .thenThrow(new RuntimeException("hello world"))
+  .thenReturn("4")
+  .thenReturn("1")
+  .thenThrow(new MySuperException()) // MySuperException e doar un exemplu
+  .andBeDoneWithIt();
+</code>
+
+Când rulăm următorul cod observați ce se va întâmpla.
+
+<code java>
+try{
+  mock.execute(3);
+} catch (Exception e) {
+  System.out.println(e.getMessage()); // "hello world"
+}
+
+System.out.println(mock.execute(3)); // "4"
+System.out.println(mock.execute(3)); // "1"
+System.out.println(mock.execute(3)); // MySuperException neprinsă
+</code>
+=== Extra explicații===
+
+Observați că "sintaxa" construcțiilor înlănțuite seamănă cu limbajul natural - //"Mockito, watch when mock calls execute(2) then return ''"3"'' then throw someException and be done with it"//.
+
+//Veți avea probabil nevoie de structuri auxiliare//. Părțile cu ''watch()'' și ''andBeDoneWithIt()'' sunt puncte în care vă puteți să executați cod special. Depinde, totuși - dacă vă structurați altfel codul, atunci puteți lăsa metodele goale. Trebuie totuși să permiteți construcțiile cu tot cu ''watch'' și ''andBeDoneWithIt'' - ele //nu// sunt opționale și vor face parte din orice //watch//.
+
+Uitați-vă acum la semnătura metodei ''execute()'' din interfața ''Mockable''. Încercați să intuiți de ce avem nevoie de ''Unit''. Ce ne facem dacă vrem să monitorizăm apelul ''mock.execute()'' dacă ''execute()'' ar fi întors ''void''? Cum am fi scris ''....when(mock.execute()).then...''?
+
+Astfel, metoda ''execute'', //conceptual//, nu întoarce nimic. Recomandăm să folosiți un design inteligent pentru a nu vă trezi cu multe ''Unit''-uri întoarse la fiecare nou apel.
+
+== Part 2. Verifiers ==
+
+Vedem deja cum aceste mocked objects sunt importante. Imaginați-vă că fiecare obiect //real// ''Mockable'' interoghează 100 de servere. Acum cu mock-uri, vom întoarce rezultate după cum dorim, fără interacțiuni cu module "grele", externe.
+
+În testarea aplicațiilor se folosește deseori o metrică ce poartă numele de //code coverage//. Spus simplu, se măsoară cât la sută din codul scris a fost testat.
+
+Pentru asta avem nevoie să instrumentăm apelurile metodelor - cu alte cuvinte, să monitorizăm când se apelează. Vom adăuga deci framework-ului nostru capacități de testare a code-flow-ului. Exemplu:
+
+<code java>
+Mockito.verify(mock, Mockito.atLeastOnce()).execute(2);
+</code>
+
+Cu alte cuvinte, când mock-ul nostru face parte dintr-un cod mai complex care (poate) îi apelează cele două metode, la sfârșitul testului vrem să vedem că s-a apelat cel puțin o dată metoda ''execute'' cu parametrul 2.
+
+Vrem să implementăm următoarele strategii de verificare:
+
+  * ''atLeastOnce()'' - cel puțin o dată
+  * ''exactlyOnce()'' - exact o dată
+  * ''times(n)'' - exact de n ori
+  * default - parametrul cu strategie lipsește, echivalent cu ''atLeastOnce''
+
+Exemplu de cod mai jos. Observați cum apelul complex primește un mock-object și nu un obiect "real".
+
+<code java>
+mock.execute();
+callGoogleCrawlers(mock); // alt cod care în spate cheamă mock.execute()
+Mockito.verify(mock, Mockito.times(2)).execute();
+</code>
+
+Dacă verificarea eșuează, se va arunca un **MockitoException** (îl veți scrie voi). Mesajele pentru verificări eșuate vor fi:
+
+  * pentru atLeastOnce - ''"expected at least one call"''
+  * pentru celelalte - ''"expected " + nr_apeluri_așteptate + " calls, got " + nr_apeluri_observate''
+
+== Cerințe ==
+
+Vrem să implementăm un "Mockito lite", având comportamentul descris mai sus.
+
+Ce avem:
+  * interfața ''Mockable<A, B>'' - descrisă la început
+
+Vrem să permitem construcțiile:
+  * ''Mockito.watch().when(...).thenReturn(...).thenThrow(...).thenReturn(...)....andBeDoneWithIt()''
+  * ''Mockito.verify(mock, Mockito.atLeastOnce()).execute(/*param sau nu*/)''
+  * ''Mockito.verify(mock, Mockito.exactlyOnce()).execute(/*param sau nu*/)''
+  * ''Mockito.verify(mock, Mockito.times(n)).execute(/*param sau nu*/)''
+  * ''Mockito.verify(mock).execute(/*param sau nu*/)''
+
+Mai vrem:
+  * să implementăm ''MockitoException'' cu mesajele explicate mai sus dacă verificările de instrumentare eșuează
+  * să implementăm ''Unit''
+=== Ce va conține arhiva ===
+
+Sursele Java + Javadoc.
+
+<note important>
+Sursele voastre vor fi //toate în default package//. Este foarte important pentru scripturile de testare automată.
+</note>
+
+=== Ce putem folosi ===
+
+Orice din biblioteca standard Java. //Chiar orice.//
+
+Observați că nu am menționat nicăieri de alte structuri, tipuri de date sau design patterns.
+**Tot ce este obligatoriu este ca "sintaxa" construcțiilor pe care vi le cerem să compileze și să funcționeze corect.**
+Aveți libertate deplină la structurarea codului, clase, interfețe, generics, ce și cum vreți.
+
+Există și un fel de Java black magic Marauder's Map - Java Reflection. //Nu// vă încurajăm să îl folosiți - tema a fost gândită să o puteți rezolva cu ce ați învățat până acum. Dacă totuși sunteți curioși, există un [[laboratoare:reflection|laborator de reflection]] cu care vă puteți înarma. //But beware - great power, great responsibility.//
+
+=== Ce nu putem folosi ===
+
+Alți colegi - mai mici, egali, sau mai mari.
+
+[[http://mockito.org/|Mockito]] per se. Mockito, de altfel, este un framework [[https://github.com/mockito/mockito|open source]] foarte bine proiectat, și vă puteți uita pe sursele sale dacă sunteți interesați de acest subiect.
+
+=== Test suite ===
+
+Carrier has arrived.
+
+{{.:mockitolite_tests.zip|Teste}}
+
+Testele trebuie să compileze și să ruleze corect (metodele ''execute'' trebuie să întoarcă ''true'').
+
+<note important>
+Testați-vă codul mai mult decât vă permite suita de teste publice. Putem avea teste private.
+</note>
+
+=== Unde predăm tema ===
+
+Pe [[http://vmchecker.cs.pub.ro/|VMChecker]].
+
+=== Punctare ===
+
+* 70 puncte teste
+* 20 puncte design, structură, lizibilitate, modularizare, comentarii
+* 10 puncte documentație - Javadoc, Readme
+* Bonus 10 puncte - Meta-testing. Testați-vă (cu JUnit) framework-ul de testare! Includeți în arhivă un singur fișier **MockitoTests.java** cu testele voastre JUnit.
+
+<note>
+Comentariile tuturor claselor şi metodelor relevante vor trebui să respecte formatul [[https://en.wikipedia.org/wiki/Javadoc|Javadoc]].
+
+Nu uitați de paginile wiki: [[administrativ:barem_teme|indicații pentru teme]] şi [[administrativ:coding_style_ide|coding style]].
+</note>
+
+<note warning>
+Temele vor fi testate împotriva plagiatului. Orice tentativă de copiere va duce la **anularea punctajului** de pe parcursul semestrului şi **repetarea materiei** atât pentru sursă(e) cât şi pentru destinație(ii), fără excepție. //**You shall not pass.**//
+
+Aveți grijă la datele pe care le lăsați (din greșeală sau nu) pe calculatoarele de la laborator, pe stick-uri USB, pe Dropbox/Drive/etc.
+</note>
+
+== Sfaturi ==
+
+* //First and foremost.// **Citiți cu mare atenție enunțul și explicațiile.** De mai multe ori - până înțelegeți //exact// ce vi se cere și care sunt problemele pe care le atacați.
+* Începeți din timp. //Goes without saying.//
+* Alocați suficient timp (o zi sau chiar mai multe) în care doar să vă gândiți la abordare. Tema a fost gândită să nu fie "muncitorească".
+* Aveți libertate deplină. Folosiți-o înțelept.
+
+== Linkuri utile ==
+* [[http://mockito.org/|Mockito]]
+* [[administrativ:barem_teme|Indicații pentru teme]]
+* [[administrativ:coding_style_ide|Coding style]]
