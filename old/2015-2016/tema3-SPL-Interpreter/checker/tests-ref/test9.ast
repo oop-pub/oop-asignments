@@ -1,0 +1,63 @@
+ProgramNode
+	ActNode MathCourse
+		SceneNode MathMidterm
+			AssignmentNode
+				LvalNode Balthazar
+				SquareNode
+					DifferenceNode
+						CubeNode
+							SumNode
+								DifferenceNode
+									ConstantNode 8
+									ConstantNode 1
+								ConstantNode 8
+						CubeNode
+							SumNode
+								SumNode
+									ConstantNode 4
+									ConstantNode 1
+								SumNode
+									ConstantNode 4
+									ConstantNode 2
+			OutputNode Balthazar
+	ActNode Advanced_Math_Course
+		SceneNode FinalTest
+			AssignmentNode
+				LvalNode Agrippa
+				QuotientNode
+					QuotientNode
+						ProductNode
+							DifferenceNode
+								SumNode
+									ConstantNode 1
+									ConstantNode 2
+								SumNode
+									SumNode
+										ConstantNode 8
+										ConstantNode 2
+									SumNode
+										ConstantNode 8
+										SumNode
+											ConstantNode 1
+											ConstantNode 2
+							DifferenceNode
+								SumNode
+									DifferenceNode
+										ConstantNode 8
+										ConstantNode 1
+									DifferenceNode
+										ConstantNode 8
+										ConstantNode 2
+								DifferenceNode
+									RValNode Balthazar
+									ConstantNode 4194304
+						QuotientNode
+							SumNode
+								ConstantNode 8
+								ConstantNode 1
+							DifferenceNode
+								ConstantNode 4
+								ConstantNode 1
+					CubeNode
+						ConstantNode -1
+			OutputNode Agrippa

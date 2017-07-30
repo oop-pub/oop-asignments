@@ -1,0 +1,10 @@
+ProgramNode
+	ActNode I
+		SceneNode I
+	ActNode II
+		SceneNode I
+			AssignmentNode
+				LvalNode Romeo
+				ConstantNode -32
+	ActNode III
+		SceneNode I

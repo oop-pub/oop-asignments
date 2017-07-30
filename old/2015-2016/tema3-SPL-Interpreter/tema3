@@ -1,0 +1,337 @@
+= Tema 3 - Shakespeare Programming Language Interpreter =
+
+
+* Responsabil: [[alexandru.razvan.c@gmail.com|Alexandru Caciulescu]] [[lucia.mcojocaru@gmail.com|Lucia Cojocaru]]
+* Deadline: 13.12.2015
+* Data publicării: 24.11.2015
+* Data ultimei modificări: 03.12.2015
+* Data tester-ului: 30.11.2015
+
+== Obiective ==
+
+
+* Construirea unui AST (Abstract Syntax Tree)
+* Aprofundarea noțiunilor despre design patterns, respectiv Visitor.
+* Respectarea unui coding-style adecvat.
+
+
+== Introducere ==
+
+
+Pentru a le dovedi colegilor de la Facultatea de Litere că și ei se pricep la literatură, studenții de la Calculatoare au început să scrie cod în limbajul SPL (**[[http://shakespearelang.sourceforge.net/|Shakespeare Programming Language]]**). Aceștia și-au dat însă seamă că nu au un mod de a rula noile lor programe deoarece nu există un tool care să le compileze sau să le interpreteze codul. Deoarece sunt harnici și le//** __place__**// POO, studenții au decis să își scrie propriul interpretor de SPL în Java. \m/
+
+
+== Cerințe ==
+
+Va trebui să creați un **[[https://en.wikipedia.org/wiki/Abstract_syntax_tree|arbore sintactic (AST)]]** pornind de la structura limbajului Shakespeare.
+
+Odată creat AST-ul va trebui afisat si interpretat. Pentru asta vom folosi **Visitor Pattern**. Puteți folosi ce obiecte de tip Visitable și de tip Visitor considerați necesare. Este obligatorie folosirea pattern-ului atât pentru interpretare cât și pentru afișare.
+<note warning>Dacă temă nu respectă această cerintă nu va primi punctajul testelor.</note>
+
+<note tip>Pentru rezolvarea acestei teme vi se pune la dispoziție un schelet de cod cu un parser. Nu este obligatoriu să folosiți aceste resurse, dacă doriți să vi le scrieți voi.</note>
+
+**Punctaj (100p)**
+* **80p** teste publice
+* **20p** README, comentarii, JavaDocs, coding style
+
+
+== Descriere ==
+
+=== Shakespeare Programming Language ===
+
+SPL este un limbaj de programare cu o structură fixă, menită să semene cu piesele de [[https://ro.wikipedia.org/wiki/William_Shakespeare|Shakespeare]]. In varianta restrânsă pe care o implementăm în temă, acesta va avea doar instrucțiuni aritmetice și de afișare la consolă. Nu există structuri de date sau clase.
+Limbajul SPL definește o serie de cuvinte cu semnificație specifică programului. Orice alte cuvinte nu vor însemna nimic și sunt ignorate.
+
+Printre cuvintele specifice limbajului SPL distingem:
+  * ** substantive**
+în cadrul acestui Limbaj substantivele reprezintă constante cu valori de 1 sau -1 în funcție de conotația lor.   Un substantiv precum “hero” este considerat pozitiv și va avea valoarea 1. Altul precum “devil” este considerat negativ și va avea valoarea -1. Cele neutre de asemenea se consideră a fi 1 (exemplu: “tree”). Pentru a vă da seama de valoarea lor vom avea liste predefinite de cuvinte, astfel în funcție de lista din care face parte vom cunoaște valoarea asociată.
+  * ** adjective**
+în SPL adjectivele împreună cu substantivele definesc constante. Un substantiv prefixat cu un adjectiv va fi multiplicat cu 2. Astfel numărul de adjective prefixate în fața unui substantiv va conduce la o formulă de forma: val = (2 << nr_adj) * noun
+
+
+<note>Exemplu:
+“stupid fat hero” => val = (2 << 2) * 1 = 4
+“big fat oozing pig” => val = (2 << 3) * (-1) = -8 (pigs are dirty creatures)
+</note>
+
+In cadrul arhivei care conține scheletul se va regăsi** directorul “wordlists”** care va conține toate listele de keyword-uri. Nu este necesară folosirea specifică a fiecărui wordlist, fiecare student poate alege cum va trata (sau nu va trata) diferite cuvinte dintr-o listă anume.
+
+In **schelet** vă este pus la dispoziție un parser pentru a distinge cuvintele cu semnificație pentru limbajul SPL. Acesta se găsește în clasa **Parser** și are metoda **getNext()**. Aceata metodă va returna pentru fiecare cuvânt din text un obiect de tip Token. Un Token este format din valoarea efectivă (cuvântul respectiv) și tipul ei. Există un tip pentru fiecare listă din “wordlists”.
+
+Spre exemplu cuvântul “//evil//” va returna un Token t, care va avea t.value = “//evil//” și t.type = TYPE.negative_adjective. Dacă un cuvânt nu se va regăsi în wordlist va avea tipul TYPE.irrelevant
+
+<note tip>Având acest Parser la dispoziție este la latitudinea fiecărui student cum va implementa generarea și analiza arborelui sintactic.</note>
+
+=== Structura limbajului SPL ===
+
+==== Titlul ====
+Orice program în SPL începe cu un titlu. Titlul se termină la întâlnirea primului caracter punct ‘.’. Titlul este considerat un comentariu și poate conține orice caracter diferit de punct (“.”) de oricâte ori, pe oricâte  linii.
+
+==== Dramatis Personæ ====
+ După titlu, în program sunt declarate personajele. Acestea sunt de fapt variabile de tip **signed integer**. Nu vom întâlni variabile cu alt tip. Toate variabilele pe care le vom folosi trebuie declarate în această secțiune a programului astfel:
+<code>NAME, DESCRIPTION.</code>
+unde
+
+ * **NAME** trebuie să fie al unui personaj real din piesele lui Shakespeare;
+ * **DESCRIPTION** poate fi orice înșiruire de caractere între virgulă și primul punct.
+
+<note important>
+* Fiecare declarație se face până la întâlnirea primul caracter punct ‘.’
+* Numele este urmat obligatoriu de o virgulă, după care urmează descrierea.
+* Descrierea este considerată un comentariu și nu are nici o semnificație.
+</note>
+
+==== Acte și Scene ====
+
+După declarațiile de variabile, în program urmează o serie de acte și scene. Un program are unul sau mai multe acte, fiecare act are una sau mai multe scene.
+
+ O scenă începe cu specificarea personajelor care vor juca în ea. în fiecare scenă trebuie să existe obligatoriu fix 2 personaje. Instrucțiunea prin care facem acest lucu este **Enter**.
+
+La sfârșitul scenei unele din personaje pot ieși (instrucțiunea **Exit**). Pentru a scoate din scenă toate personajele folosim instrucțiunea **Exeunt**. Nu este obligatoriu să scoatem personaje din scenă la terminarea acesteia. Personajele rămase în scenă vor continua să joace în scena următoare.
+Numai personajele aflate în scenă pot spune replici.
+
+Actele și scenele se declară astfel:
+
+<code> Act NUMBER : DESCRIPTION .
+ Scene NUMBER : DESCRIPTION . </code>
+
+ unde
+  *  **NUMBER** este o cifră romana.
+  *  **DESCRIPTION** este o înșiruire de caractere diferite de “.”, tratată ca un comentariu.
+
+
+<note important>
+  *  Fiecare declarație se face până la întâlnirea primul caracter punct “.”
+  *  Descrierea este considerată un comentariu și nu are nici o semnificație.
+</note>
+
+==== Enter, Exit și Exeunt ====
+Pentru a putea spune replici, personajele trebuie să se afle pe scenă. Personajele adresează alte personaje la persoana a doua prin cuvintele cheie precum “you” sau “thou”. Personajele adresate trebuie de asemenea să se afle pe scenă.
+
+Pentru a aduce personaje în scenă folosim instrucțiunea “Enter” urmată de unul sau două personaje.
+
+<code> [ Enter CHAR1 and CHAR2 ] </code>
+
+Pentru a scoate personaje din scenă folosim instrucțiunea “Exit”  urmată de un singur personaj.
+
+<code> [ Exit CHAR ] </code>
+
+Pentru a scoate mai multe sau toate personajele de pe scenă se folosește “Exeunt”:
+
+<code>[ Exeunt ]                     -        ies toate personajele din scenă
+[ Exeunt CHAR ]                -        iese personajul menționat din scenă
+[ Exeunt CHAR1 and CHAR2 ]     -        ies personajele menționate din scenă
+</code>
+
+==== Replici ====
+
+ Când se află pe scenă personajele pot spune replici. Replicile pot fi:
+
+ * **instrucțiuni de afișare la consolă** (“//Open your heart//”)
+ * **instrucțiuni aritmetice și constante** (“//the difference between the square of the difference between my little pony and your big hairy hound and the cube of your sorry little codpiece//”)
+ * atribuiri
+
+==== Instrucțiuni de afișare la consolă ====
+
+ Aceste instrucțiuni afișează valoarea unei variabile, deci cea a unui personaj, la consolă.
+ Există 2 variante:
+ * ”//Open your heart//" : afișează valoarea variabilei ca **număr întreg** la consolă
+ * “//Speak your mind//" : afișează **caracterul ASCII** corespunzător valorii variabilei la consolă
+
+
+==== Instrucțiuni aritmetice și constante ====
+ în cadrul SPL constantele (ex 5, 17, 42 etc.) sunt definite în modul următor, în funcție de un substantiv și numărul de adjective prefixate acestuia. Un substantiv poate avea doar două valori de bază : 1 sau -1. Substantivele cu conotație pozitivă sau neutră sunt considerate 1 , restul -1. Pentru fiecare adjectiv cu care sunt prefixate acestea se inmultuesc cu 2. Să luăm următoarele exemple:
+ * “//flower//”                                                   - va avea valoarea 1
+ * “//pig//”                                                      - va avea valoarea -1
+ * “//big stupid pig//”                                           - va deveni (2 << 2) * (-1) = -4
+ * “//lying stupid fatherless big smelly half-witted coward//”    -   va deveni (2 << 6) * (-1) = -64
+
+Pornind de la aceste constante putem în continuare construi operații matematice în forma [[https://en.wikipedia.org/wiki/Polish_notation|Polish Notation]] (aka. Polish Prefix Notation). Să luăm un exemplu
+
+<code> the difference between the square of the difference between
+my little pony and your big hairy hound and the cube of your
+sorry little codpiece </code>
+
+  * după ce înlocuim constantele după modelul de mai sus vom ajunge la o expresie de forma:
+<code> - (^2) - 2 4 (^3) -4 </code>
+  * după ce prelucrăm expresia vom ajunge la
+<code> 4 - (-64) = 68 </code>
+
+ ==== Atribuiri ====
+
+ Atribuirile se vor face într-o formă similară. Există în principiu 2 feluri de atribuiri:
+ * ** simple vesion:** îi atribuim celuilalt personaj din scenă valoarea -64
+<code>You lying stupid fatherless big smelly half-witted coward ! </code>
+ * **not so simple version:**
+<code>You are as stupid as the difference between a handsome rich
+brave hero and thyself ! </code>
+Notând personajul cu care vorbim cu X, replica precedentă se va transforma în X = 8 - X. Unde prin al doilea X înțelegem valoarea variabilei în acel moment (X_next = 8 - X_current). A se observa ca în atribuiri putem avea în partea stângă numai variabile (caractere) și în partea dreaptă fie o variabilă, fie o constantă numerică, fie instrucțiuni aritmetice.
+
+== Implementare ==
+
+=== Arborele sintactic ===
+
+Pornind de la specificațiile de mai sus, va trebui să construiți un **arbore sintactic** pentru un program SPL. Fiecare tip de operație și Act/Scenă va fi reprezentată de un tip de nod specific în arborele sintactic. Să luăm un exemplu simplu, pentru următorul program:
+
+
+<code java example.spl> A Genius Play by a Genius Man .
+
+Romeo , a young man with a remarkable patience .
+Juliet , random chick .
+Ophelia , some other chick .
+Hamlet , third wheel .
+
+
+	Act I : The Act of Luuuuv .
+	Scene I : Our First Scene .
+
+[ Enter Romeo and Juliet ]
+Romeo:
+Empty scene with no important lines. Life is sad.
+[ Exit Juliet ]
+
+	Scene II : Second Scene .
+
+[ Enter Ophelia ]
+Ophelia:
+We do not like compilers...
+[ Exit Romeo ]
+
+	Scene III : The Sound of Silence .
+
+[ Enter Hamlet ]
+
+[ Exeunt ]
+
+
+	Act II : Shakespeare strikes back .
+	Scene I : The Praising of Alex .
+
+
+[ Enter Ophelia and Hamlet ]
+Hamlet:
+Students love this homework . You stupid lying bastard . Open your heart !
+
+[ Exeunt ]
+
+	Scene II : The Murder of Alex .
+
+[ Enter Romeo sadsa Hamlet ]
+Romeo:
+His death shall be slow and painful , horribly slower than the horribly slow murder with an extremely inefficient weapon .
+
+[ Exeunt ]
+
+	Scene III : The Glory of the Spoon .
+
+[ Enter Gigel Ophelia ]
+Ophelia: Who is Gigel ? He is not a Shakespeare character . OMG !
+
+[ Exeunt ]
+</code>
+
+ Se va genera un AST de forma:
+{{ .tema3:ast.png?600 |}}
+
+ Structură arbore:
+ * **ProgramNode**: root node AST
+ * **Noduri**: acte, scene, assignments, prints, operații
+ * **Frunze**: constante, scene fără dialog, acte fără scene
+ * liniile care nu au nici o valoare din punct de vedere al limbajului nu vor fi luate în considerare
+
+
+<note important> Nu există nici o restricție legată de modul cum numiți și implementați clasele reprezentând nodurile arborelui, atâta timp cât  structura logică a arborelui este cea descrisă în cerința și modul de afișare al arborelui corespunde celui din fisirele output de referință. </note>
+
+
+== Date de intrare. Date de ieșire. ==
+
+==== Intrare ====
+Programele SPL vor fi citite din folderul ''tests''.  In folderul ''tests'' se vor afla fisierele de test (''test1.spl'',''test2.spl'' , etc). Parser-ul din schelet primește calea către fișierul de intrare și îl citește.
+<note warning>Se garantează că nu vor exista greșeli în aceste fișiere. Nu este necesară tratarea eventualelor erori lexicale/sintactice/semantice, deoarece se garantează că nu există.</note>
+
+==== Ieșire ====
+
+Interpretorul va trebui să creeze 2 fișiere in folderul ''output'' pentru fiecare test:
+  -  Un fișier** testx.out** în care se va scrie rezultatul interpretării.
+  -  Un fișier **testx.ast** în care se va scrie structura arborelui sintactic.
+
+
+Structura arborelui va fi scrisă in fisierul** testx.ast** astfel:
+* nodul din care pornește programul se va scrie ca "**ProgramNode**".
+* actele se vor scrie in formatul “**ActNode <nrAct>**” și vor conține scenele.
+* scenele se vor scrie in formatul “**SceneNode <nrScene>**” si vor conține replicile personajelor. Replicile pot fi atribuiri sau afișări.
+* atribuirile pot avea în partea stânga numai o variabilă (adică un caracter), dar în partea dreaptă pot avea fie o constantă, fie o variabilă. Formatul este acesta:
+
+<code>
+ AssignmentNode
+  	 LvalNode character_name
+  	 ConstantNode integer_value
+              SAU RvalNode character_name
+              SAU nod_operatii_aritmetice
+</code>
+
+  * instructiunile de output ("//Speak your mind//" etc):
+
+<code>OutputNode integer_value </code>
+
+* instructiuni aritmetice:
+<code>
+ SumNode
+  	 DifferenceNode
+  	  	 ConstantNode 4
+  	  	 ConstantNode 5
+  	 ConstantNode -3
+</code>
+<note important> Tema va trebui să **indenteze** nodurile cu **TAB** (“\t”). Astfel nodurile copii vor avea un nivel de indentare în plus față de părinți, adică vor avea un TAB în plus. Nodul root pentru program va porni de la nivelul de indentare 0.
+</note>
+Fisierele de iesire pentru exemplul de mai sus ([[http://elf.cs.pub.ro/poo/playground/tema3#arborele-sintactic|example.spl]]) sunt urmatoarele:
+<code java example.out>
+-4
+</code>
+
+<code java example.ast>
+ProgramNode
+	ActNode I
+		SceneNode I
+		SceneNode II
+		SceneNode III
+	ActNode II
+		SceneNode I
+			AssignmentNode
+				LvalNode Ophelia
+				ConstantNode -4
+			OutputNode Ophelia
+		SceneNode II
+		SceneNode III
+</code>
+
+ == Structura arhivei ==
+
+Arhiva pe care o veţi urca pe **Vmchecker** va trebui să conţină în directorul rădăcină:
+  * ''README'' în care să explicaţi
+    * cum aţi construit arborele sintactic
+    * cum aţi aplicat pattern-ul visitor asupra arborelui
+  * alte detalii relevante pentru implementare
+  * directorul ''src'' cu fişiere sursă
+  * directorul ''doc'', generat de javadoc
+  * metoda main trebuie să se afle în clasa ''**Interpreter**'', în fișierul ''**Interpreter.java**'', în pachetul sursă default al proiectului Eclipse
+  * sa existe o metoda ''parse()'' în interiorul clasei **Interpreter** care va genera outputul dorit
+  * nu trebuie sa contine directorul ''wordlists''
+
+
+== Resurse ==
+
+* {{.tema3:spl-interpreter-schelet.zip|Schelet}}
+* {{.tema3:spl-interpreter-tests.zip|Teste}}
+* <html><a class="media mediafile mf_pdf" href="/poo/arhiva/teme/2015/tema3?do=export_pdf">PDF enunț temă</a></html>
+== Referințe ==
+
+
+* [[https://en.wikipedia.org/wiki/Abstract_syntax_tree|Abstract Syntax Tree]]
+* [[https://en.wikipedia.org/wiki/Polish_notation|Polish Prefix Notation]]
+* [[http://shakespearelang.sourceforge.net|Shakespear Programming Language]]
+* [[https://en.wikipedia.org/wiki/Visitor_pattern|Visitor Pattern]]
+* [[https://en.wikipedia.org/wiki/Interpreter_(computing)|Interpreter]]
+* [[laboratoare:visitor| Laboratorul 6 - Visitor]]
+* [[administrativ:barem_teme| Indicatii pentru teme]]
+* [[administrativ:coding_style_ide| Recomandari coding style]]

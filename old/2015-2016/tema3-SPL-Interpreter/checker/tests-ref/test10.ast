@@ -1,0 +1,97 @@
+ProgramNode
+	ActNode I
+		SceneNode I
+			AssignmentNode
+				LvalNode Romeo
+				ConstantNode -64
+			AssignmentNode
+				LvalNode Romeo
+				DifferenceNode
+					ConstantNode 8
+					RValNode Romeo
+			OutputNode Romeo
+			AssignmentNode
+				LvalNode Romeo
+				SumNode
+					ConstantNode -128
+					ConstantNode 32
+			AssignmentNode
+				LvalNode Romeo
+				DifferenceNode
+					SumNode
+						ConstantNode 4
+						ConstantNode 1
+					RValNode Romeo
+			OutputNode Romeo
+			AssignmentNode
+				LvalNode Romeo
+				SumNode
+					RValNode Romeo
+					DifferenceNode
+						ConstantNode 8
+						ConstantNode 1
+			OutputNode Romeo
+			OutputNode Romeo
+		SceneNode II
+			AssignmentNode
+				LvalNode Juliet
+				SumNode
+					SumNode
+						RValNode Romeo
+						ConstantNode 1
+					ConstantNode 2
+			OutputNode Juliet
+		SceneNode III
+			AssignmentNode
+				LvalNode Ophelia
+				ProductNode
+					ConstantNode 4
+					ConstantNode 8
+			OutputNode Ophelia
+			AssignmentNode
+				LvalNode Ophelia
+				ProductNode
+					ConstantNode 8
+					SumNode
+						ConstantNode 1
+						ConstantNode 2
+			AssignmentNode
+				LvalNode Ophelia
+				DifferenceNode
+					RValNode Juliet
+					RValNode Ophelia
+			OutputNode Ophelia
+	ActNode II
+		SceneNode I
+			OutputNode Juliet
+			AssignmentNode
+				LvalNode Juliet
+				SumNode
+					RValNode Juliet
+					DifferenceNode
+						ConstantNode 4
+						ConstantNode 1
+			OutputNode Juliet
+			OutputNode Romeo
+			AssignmentNode
+				LvalNode Romeo
+				RValNode Hamlet
+			AssignmentNode
+				LvalNode Romeo
+				DifferenceNode
+					SquareNode
+						DifferenceNode
+							ConstantNode 2
+							ConstantNode -4
+					CubeNode
+						ConstantNode -4
+			OutputNode Romeo
+		SceneNode II
+			AssignmentNode
+				LvalNode Ophelia
+				QuotientNode
+					RValNode Romeo
+					SumNode
+						ConstantNode 4
+						ConstantNode -1
+			OutputNode Ophelia

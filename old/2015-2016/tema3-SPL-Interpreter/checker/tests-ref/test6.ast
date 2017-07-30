@@ -1,0 +1,26 @@
+ProgramNode
+	ActNode I
+		SceneNode I
+			AssignmentNode
+				LvalNode Juliet
+				ConstantNode 8
+			AssignmentNode
+				LvalNode Juliet
+				DifferenceNode
+					RValNode Romeo
+					RValNode Juliet
+			OutputNode Juliet
+	ActNode II
+	ActNode III
+		SceneNode I
+			AssignmentNode
+				LvalNode Ophelia
+				SumNode
+					ConstantNode 4
+					RValNode Juliet
+			AssignmentNode
+				LvalNode Ophelia
+				DifferenceNode
+					RValNode Romeo
+					RValNode Ophelia
+			OutputNode Ophelia

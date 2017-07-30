@@ -1,0 +1,13 @@
+ProgramNode
+	ActNode I
+		SceneNode I
+		SceneNode II
+		SceneNode III
+	ActNode II
+		SceneNode I
+			AssignmentNode
+				LvalNode Ophelia
+				ConstantNode -4
+			OutputNode Ophelia
+		SceneNode II
+		SceneNode III

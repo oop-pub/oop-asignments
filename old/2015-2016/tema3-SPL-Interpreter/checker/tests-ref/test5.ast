@@ -1,0 +1,20 @@
+ProgramNode
+	ActNode I
+		SceneNode I
+	ActNode II
+		SceneNode I
+			AssignmentNode
+				LvalNode Romeo
+				ConstantNode -32
+	ActNode III
+		SceneNode I
+			AssignmentNode
+				LvalNode Ophelia
+				ConstantNode -64
+			AssignmentNode
+				LvalNode Ophelia
+				DifferenceNode
+					ConstantNode 8
+					RValNode Ophelia
+			OutputNode Ophelia
+			OutputNode Ophelia
