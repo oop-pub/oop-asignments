@@ -1,0 +1,19 @@
+MainNode
+	DeclareNode
+		LvalNode <first>
+		ConstantNode <1337>
+	PrintNode
+		VariableNode <first>
+	DeclareNode
+		LvalNode <second>
+		ConstantNode <0>
+	AssignmentNode
+		LvalNode <second>
+		ConstantNode <10>
+	PrintNode
+		VariableNode <second>
+	AssignmentNode
+		LvalNode <second>
+		RvalNode <first>
+	PrintNode
+		VariableNode <second>

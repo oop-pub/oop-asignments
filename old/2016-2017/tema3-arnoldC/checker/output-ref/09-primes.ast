@@ -1,0 +1,109 @@
+MainNode
+	DeclareNode
+		LvalNode <index>
+		ConstantNode <1>
+	DeclareNode
+		LvalNode <limit>
+		ConstantNode <100>
+	DeclareNode
+		LvalNode <loop>
+		ConstantNode <1>
+	DeclareNode
+		LvalNode <d>
+		ConstantNode <0>
+	DeclareNode
+		LvalNode <primesLoop>
+		ConstantNode <1>
+	DeclareNode
+		LvalNode <isDivisible>
+		ConstantNode <1>
+	DeclareNode
+		LvalNode <isPrime>
+		ConstantNode <1>
+	DeclareNode
+		LvalNode <isGreater>
+		ConstantNode <1>
+	WhileNode
+		ConditionNode <loop>
+		BodyNode
+			AssignmentNode
+				LvalNode <d>
+				ConstantNode <2>
+			AssignmentNode
+				LvalNode <primesLoop>
+				ConstantNode <1>
+			AssignmentNode
+				LvalNode <isDivisible>
+				ConstantNode <0>
+			WhileNode
+				ConditionNode <primesLoop>
+				BodyNode
+					AssignmentNode
+						LvalNode <primesLoop>
+						MultiplicationNode
+							RvalNode <d>
+							RvalNode <d>
+					AssignmentNode
+						LvalNode <primesLoop>
+						GreaterThanNode
+							RvalNode <index>
+							RvalNode <primesLoop>
+					AssignmentNode
+						LvalNode <isDivisible>
+						EqualToNode
+							ModuloNode
+								RvalNode <index>
+								RvalNode <d>
+							ConstantNode <0>
+					IfNode
+						ConditionNode <isDivisible>
+						IfBodyNode
+							AssignmentNode
+								LvalNode <primesLoop>
+								ConstantNode <0>
+					AssignmentNode
+						LvalNode <d>
+						SumNode
+							RvalNode <d>
+							ConstantNode <1>
+			AssignmentNode
+				LvalNode <isPrime>
+				EqualToNode
+					RvalNode <index>
+					ConstantNode <2>
+			AssignmentNode
+				LvalNode <isPrime>
+				OrNode
+					EqualToNode
+						RvalNode <isDivisible>
+						ConstantNode <0>
+					RvalNode <isPrime>
+			AssignmentNode
+				LvalNode <isPrime>
+				OrNode
+					EqualToNode
+						RvalNode <isDivisible>
+						ConstantNode <0>
+					RvalNode <isPrime>
+			AssignmentNode
+				LvalNode <isPrime>
+				AndNode
+					GreaterThanNode
+						RvalNode <index>
+						ConstantNode <1>
+					RvalNode <isPrime>
+			IfNode
+				ConditionNode <isPrime>
+				IfBodyNode
+					PrintNode
+						VariableNode <index>
+			AssignmentNode
+				LvalNode <loop>
+				GreaterThanNode
+					RvalNode <limit>
+					RvalNode <index>
+			AssignmentNode
+				LvalNode <index>
+				SumNode
+					RvalNode <index>
+					ConstantNode <1>

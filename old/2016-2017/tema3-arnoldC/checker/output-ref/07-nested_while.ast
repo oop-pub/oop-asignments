@@ -1,0 +1,85 @@
+MainNode
+	DeclareNode
+		LvalNode <i>
+		ConstantNode <0>
+	DeclareNode
+		LvalNode <j>
+		ConstantNode <0>
+	DeclareNode
+		LvalNode <k>
+		ConstantNode <0>
+	DeclareNode
+		LvalNode <iLimit>
+		ConstantNode <2>
+	DeclareNode
+		LvalNode <jLimit>
+		ConstantNode <2>
+	DeclareNode
+		LvalNode <kLimit>
+		ConstantNode <2>
+	DeclareNode
+		LvalNode <iLoop>
+		ConstantNode <1>
+	DeclareNode
+		LvalNode <jLoop>
+		ConstantNode <1>
+	DeclareNode
+		LvalNode <kLoop>
+		ConstantNode <1>
+	WhileNode
+		ConditionNode <iLoop>
+		BodyNode
+			AssignmentNode
+				LvalNode <jLoop>
+				ConstantNode <1>
+			AssignmentNode
+				LvalNode <j>
+				ConstantNode <0>
+			WhileNode
+				ConditionNode <jLoop>
+				BodyNode
+					AssignmentNode
+						LvalNode <kLoop>
+						ConstantNode <1>
+					AssignmentNode
+						LvalNode <k>
+						ConstantNode <0>
+					WhileNode
+						ConditionNode <kLoop>
+						BodyNode
+							PrintNode
+								VariableNode <i>
+							PrintNode
+								VariableNode <j>
+							PrintNode
+								VariableNode <k>
+							AssignmentNode
+								LvalNode <k>
+								SumNode
+									RvalNode <k>
+									ConstantNode <1>
+							AssignmentNode
+								LvalNode <kLoop>
+								GreaterThanNode
+									RvalNode <kLimit>
+									RvalNode <k>
+					AssignmentNode
+						LvalNode <j>
+						SumNode
+							RvalNode <j>
+							ConstantNode <1>
+					AssignmentNode
+						LvalNode <jLoop>
+						GreaterThanNode
+							RvalNode <jLimit>
+							RvalNode <j>
+			AssignmentNode
+				LvalNode <i>
+				SumNode
+					RvalNode <i>
+					ConstantNode <1>
+			AssignmentNode
+				LvalNode <iLoop>
+				GreaterThanNode
+					RvalNode <iLimit>
+					RvalNode <i>

@@ -1,0 +1,163 @@
+MainNode
+	DeclareNode
+		LvalNode <a>
+		ConstantNode <0>
+	DeclareNode
+		LvalNode <b>
+		ConstantNode <33>
+	DeclareNode
+		LvalNode <c>
+		ConstantNode <7>
+	PrintNode
+		StringNode <a = (b + c) -> 40>
+	AssignmentNode
+		LvalNode <a>
+		SumNode
+			RvalNode <b>
+			RvalNode <c>
+	PrintNode
+		VariableNode <a>
+	PrintNode
+		StringNode <a = (b - c) -> 26>
+	AssignmentNode
+		LvalNode <a>
+		DifferenceNode
+			RvalNode <b>
+			RvalNode <c>
+	PrintNode
+		VariableNode <a>
+	PrintNode
+		StringNode <a = (b * c) -> 231>
+	AssignmentNode
+		LvalNode <a>
+		MultiplicationNode
+			RvalNode <b>
+			RvalNode <c>
+	PrintNode
+		VariableNode <a>
+	PrintNode
+		StringNode <a = (b / c) -> 4>
+	AssignmentNode
+		LvalNode <a>
+		DivisionNode
+			RvalNode <b>
+			RvalNode <c>
+	PrintNode
+		VariableNode <a>
+	PrintNode
+		StringNode <a = (b % c) -> 5>
+	AssignmentNode
+		LvalNode <a>
+		ModuloNode
+			RvalNode <b>
+			RvalNode <c>
+	PrintNode
+		VariableNode <a>
+	PrintNode
+		StringNode <a = (30 == 31) -> 0>
+	AssignmentNode
+		LvalNode <a>
+		EqualToNode
+			ConstantNode <30>
+			ConstantNode <31>
+	PrintNode
+		VariableNode <a>
+	PrintNode
+		StringNode <a = (31 == 31) -> 1>
+	AssignmentNode
+		LvalNode <a>
+		EqualToNode
+			ConstantNode <31>
+			ConstantNode <31>
+	PrintNode
+		VariableNode <a>
+	PrintNode
+		StringNode <a = (30 > 31) -> 0>
+	AssignmentNode
+		LvalNode <a>
+		GreaterThanNode
+			ConstantNode <30>
+			ConstantNode <31>
+	PrintNode
+		VariableNode <a>
+	PrintNode
+		StringNode <a = (31 > 30) -> 1>
+	AssignmentNode
+		LvalNode <a>
+		GreaterThanNode
+			ConstantNode <31>
+			ConstantNode <30>
+	PrintNode
+		VariableNode <a>
+	PrintNode
+		StringNode <a = (0 || 0) -> 0>
+	AssignmentNode
+		LvalNode <a>
+		OrNode
+			ConstantNode <0>
+			ConstantNode <0>
+	PrintNode
+		VariableNode <a>
+	PrintNode
+		StringNode <a = (0 || 100) -> 1>
+	AssignmentNode
+		LvalNode <a>
+		OrNode
+			ConstantNode <0>
+			ConstantNode <100>
+	PrintNode
+		VariableNode <a>
+	PrintNode
+		StringNode <a = (100 || 0) -> 1>
+	AssignmentNode
+		LvalNode <a>
+		OrNode
+			ConstantNode <100>
+			ConstantNode <0>
+	PrintNode
+		VariableNode <a>
+	PrintNode
+		StringNode <a = (100 || 200) -> 1>
+	AssignmentNode
+		LvalNode <a>
+		OrNode
+			ConstantNode <100>
+			ConstantNode <200>
+	PrintNode
+		VariableNode <a>
+	PrintNode
+		StringNode <a = (0 && 0) -> 0>
+	AssignmentNode
+		LvalNode <a>
+		AndNode
+			ConstantNode <0>
+			ConstantNode <0>
+	PrintNode
+		VariableNode <a>
+	PrintNode
+		StringNode <a = (0 && 100) -> 0>
+	AssignmentNode
+		LvalNode <a>
+		AndNode
+			ConstantNode <0>
+			ConstantNode <100>
+	PrintNode
+		VariableNode <a>
+	PrintNode
+		StringNode <a = (100 && 0) -> 0>
+	AssignmentNode
+		LvalNode <a>
+		AndNode
+			ConstantNode <100>
+			ConstantNode <0>
+	PrintNode
+		VariableNode <a>
+	PrintNode
+		StringNode <a = (100 && 200) -> 1>
+	AssignmentNode
+		LvalNode <a>
+		AndNode
+			ConstantNode <100>
+			ConstantNode <200>
+	PrintNode
+		VariableNode <a>

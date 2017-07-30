@@ -1,0 +1,16 @@
+MainNode
+	DeclareNode
+		LvalNode <first>
+		ConstantNode <0>
+	PrintNode
+		VariableNode <first>
+	DeclareNode
+		LvalNode <second>
+		ConstantNode <1>
+	PrintNode
+		VariableNode <second>
+	DeclareNode
+		LvalNode <third>
+		ConstantNode <12345>
+	PrintNode
+		VariableNode <third>

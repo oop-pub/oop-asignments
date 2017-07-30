@@ -1,0 +1,28 @@
+MainNode
+	DeclareNode
+		LvalNode <a>
+		ConstantNode <1>
+	DeclareNode
+		LvalNode <b>
+		ConstantNode <0>
+	DeclareNode
+		LvalNode <c>
+		ConstantNode <0>
+	DeclareNode
+		LvalNode <d>
+		ConstantNode <0>
+	AssignmentNode
+		LvalNode <d>
+		OrNode
+			OrNode
+				RvalNode <a>
+				RvalNode <b>
+			RvalNode <c>
+	IfNode
+		ConditionNode <d>
+		IfBodyNode
+			PrintNode
+				StringNode <(a || b || c) is true>
+		ElseBodyNode
+			PrintNode
+				StringNode <(a || b || c) is not true>

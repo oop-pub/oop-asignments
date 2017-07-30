@@ -1,0 +1,398 @@
+= Tema 3 - ArnoldC Interpreter =
+
+* Responsabil: [[alexandru.razvan.c@gmail.com|Alexandru Caciulescu]] [[razvan.ch95@gmail.com|Razvan Chitu]]
+* Deadline: 16.12.2016
+* Data publicării: 29.11.2016
+* Data ultimei modificări: 29.11.2016
+* Data tester-ului: STANDBY
+
+== Obiective ==
+
+* Construirea unui AST (Abstract Syntax Tree)
+* Aprofundarea noțiunilor despre design patterns, respectiv Visitor.
+* Respectarea unui coding-style adecvat.
+
+== Introducere ==
+
+Fiind mari fani a filmelor cu Arnold Schwarzenegger, studentii de la Calculatoare s-au gandit ca ar fi amuzant sa programeze intr-un limbaj bazat integral pe replicile lui Arnold din diferite filme, astfel ca s-au apucat de ArnoldC (**[[https://github.com/lhartikk/ArnoldC/wiki/ArnoldC|ArnoldC]]**). Aceștia și-au dat însă seamă că nu au un mod de a rula noile lor programe deoarece nu există un tool care să le compileze sau să le interpreteze codul. Deoarece le plac provocarile și mai ales//** __POO__**//, studenții au decis să își scrie propriul interpretor de ArnoldC în Java. **\m/**
+
+== Cerințe ==
+
+Va trebui să creați un **[[https://en.wikipedia.org/wiki/Abstract_syntax_tree|arbore sintactic (AST)]]** pornind de la structura limbajului ArnoldC.
+
+Odată creat AST-ul va trebui afisat si interpretat. Pentru asta vom folosi **Visitor Pattern**. Puteți folosi ce obiecte de tip Visitable și de tip Visitor considerați necesare. Este obligatorie folosirea pattern-ului atât pentru interpretare cât și pentru afișare.
+<note warning>Dacă temă nu respectă această cerintă nu va primi punctajul testelor.</note>
+
+
+**Punctaj (100p)**
+* **90p** teste publice
+* **10p** README, comentarii, JavaDoc, coding style
+
+
+== Descriere ==
+
+=== ArnoldC ===
+
+Este un limbaj de programare cu o structură fixă, avand constructii specifice pentru declararea si folosirea datelor, menit sa fie amuzant. In varianta restrânsă pe care o implementăm în temă, acesta va avea doar instrucțiuni aritmetice, if-uri, while-uri si instructiuni de afișare la consolă. Nu există structuri de date sau clase.
+Limbajul ArnoldC definește o serie de cuvinte cu semnificație specifică programului. Orice alte cuvinte nu vor însemna nimic și sunt ignorate.
+
+
+Printre cuvintele specifice limbajului ArnoldC distingem urmatoarele constructii:
+  * False                             **I LIED**
+  * True                              **NO PROBLEMO**
+  * If                                **BECAUSE I'M GOING TO SAY PLEASE**
+  * Else                              **BULLSHIT**
+  * EndIf                             **YOU HAVE NO RESPECT FOR LOGIC**
+  * While                             **STICK AROUND**
+  * EndWhile                          **CHILL**
+  * PlusOperator                      **GET UP**
+  * MinusOperator                     **GET DOWN**
+  * MultiplicationOperator            **YOU'RE FIRED**
+  * DivisionOperator                  **HE HAD TO SPLIT**
+  * ModuloOperator                    **I LET HIM GO**
+  * EqualTo                           **YOU ARE NOT YOU YOU ARE ME**
+  * GreaterThan                       **LET OFF SOME STEAM BENNET**
+  * Or                                **CONSIDER THAT A DIVORCE**
+  * And                               **KNOCK KNOCK**
+  * DeclareInt                        **HEY CHRISTMAS TREE**
+  * SetInitialValue                   **YOU SET US UP**
+  * BeginMain                         **IT'S SHOWTIME**
+  * EndMain                           **YOU HAVE BEEN TERMINATED**
+  * Print                             **TALK TO THE HAND**
+  * AssignVariable                    **GET TO THE CHOPPER**
+  * SetValue                          **HERE IS MY INVITATION**
+  * EndAssignVariable                 **ENOUGH TALK**
+
+Tema nu contine schelet de cod. Fiecare student este responsabil de cum va retine si interpreta lista de cuvinte cheie.
+
+
+=== Structura limbajului ArnoldC ===
+
+==== Begin/End Main ====
+
+Fiecare program scris in ArnoldC trebuie sa inceapa cu instructiunea BeginMain si sa se termine cu EndMain. Exemplu:
+
+<code>
+IT'S SHOWTIME
+[ ... ]
+YOU HAVE BEEN TERMINATED
+</code>
+
+==== Print ====
+
+Exemplu “Hello World”:
+
+<code>
+IT'S SHOWTIME
+TALK TO THE HAND "hello world"
+YOU HAVE BEEN TERMINATED
+</code>
+
+==== Declarare Variabila ====
+
+<code>
+...
+HEY CHRISTMAS TREE first
+YOU SET US UP @I LIED
+
+HEY CHRISTMAS TREE second
+YOU SET US UP @NO PROBLEMO
+...
+</code>
+
+<note important>
+In exemplul de mai sus am declarat doua variabile, first si second, ca 0, respectiv 1. A se observa ca pe langa cuvintele cheie, atunci cand lucram cu “true” si “false” acestea trebuiesc prefixate cu @ deoarece sunt macro-uri.
+</note>
+
+==== Setare Variabila ====
+
+<code>
+...
+GET TO THE CHOPPER a
+HERE IS MY INVITATION 4
+ENOUGH TALK
+...
+</code>
+
+<note>
+Dupa declararea initiala a unei variabile, aceasta poate fi modificata ca in exemplul anterior. Codul este echivalent cu “a = 4”.
+</note>
+
+==== Operatii matematice ====
+
+<code>
+GET TO THE CHOPPER myVar
+HERE IS MY INVITATION myVar
+GET UP myVar
+YOU'RE FIRED 5
+ENOUGH TALK
+</code>
+
+<note>
+myVar = (myVar + myVar) * 5
+</note>
+
+==== Operatii logice ====
+
+<code>
+GET TO THE CHOPPER d
+HERE IS MY INVITATION a
+CONSIDER THAT A DIVORCE b
+CONSIDER THAT A DIVORCE c
+ENOUGH TALK
+</code>
+
+<note>
+d = ((a || b) || c)
+</note>
+
+==== If-Else ====
+
+<code>
+BECAUSE I'M GOING TO SAY PLEASE d
+TALK TO THE HAND "(a || b || c) is true"
+BULLSHIT
+TALK TO THE HAND "(a || b || c) is not true"
+YOU HAVE NO RESPECT FOR LOGIC
+</code>
+
+<note>
+  If (d) {
+    Print ("(a || b || c) is true");
+  Else
+    Print ("(a || b || c) is not true");
+  }
+</note>
+
+<note important>
+A se observa ca in ArnoldC neavand True si False, instructiunile de if verifica doar ca variabila respectiva (in acest caz “d”) sa fie diferita de 0.
+</note>
+
+==== While ====
+
+Exemplu de program care printeaza numerele de la 1 la 10.
+
+<code>
+IT'S SHOWTIME
+HEY CHRISTMAS TREE isLessThan10
+YOU SET US UP @NO PROBLEMO
+HEY CHRISTMAS TREE n
+YOU SET US UP 0
+STICK AROUND isLessThan10
+GET TO THE CHOPPER n
+HERE IS MY INVITATION n
+GET UP 1
+ENOUGH TALK
+TALK TO THE HAND n
+GET TO THE CHOPPER isLessThan10
+HERE IS MY INVITATION 10
+LET OFF SOME STEAM BENNET n
+ENOUGH TALK
+CHILL
+YOU HAVE BEEN TERMINATED
+</code>
+
+== Implementare ==
+
+=== Arborele sintactic ===
+
+Pornind de la specificațiile de mai sus, va trebui să construiți un **arbore sintactic** pentru un program ArnoldC. Fiecare tip de operație va fi reprezentată de un tip de nod specific în arborele sintactic. Să luăm un exemplu simplu, pentru următorul program:
+
+
+<code example.ac>
+IT'S SHOWTIME
+HEY CHRISTMAS TREE a
+YOU SET US UP @NO PROBLEMO
+HEY CHRISTMAS TREE b
+YOU SET US UP @I LIED
+
+GET TO THE CHOPPER a
+HERE IS MY INVITATION a
+CONSIDER THAT A DIVORCE b
+ENOUGH TALK
+
+BECAUSE I'M GOING TO SAY PLEASE a
+TALK TO THE HAND "(a || b) is true"
+BULLSHIT
+TALK TO THE HAND "(a || b) is not true"
+YOU HAVE NO RESPECT FOR LOGIC
+
+YOU HAVE BEEN TERMINATED
+</code>
+
+
+ Se va genera un AST de forma:
+{{ :teme:tema3:poo-tema3-diagram2.png?700 |}}
+
+
+ Structură arbore:
+ * **MainNode**: root node AST
+ * **Noduri**: assignments, prints, operații, if, while
+ * **Frunze**: constante, variabile
+ * liniile care nu au nici o valoare din punct de vedere al limbajului nu vor fi luate în considerare
+
+
+
+
+<note important> Nu există nici o restricție legată de modul cum numiți și implementați clasele reprezentând nodurile arborelui, atâta timp cât  structura logică a arborelui este cea descrisă în cerința și modul de afișare al arborelui corespunde celui din fisirele output de referință. </note>
+
+
+
+
+== Date de intrare. Date de ieșire. ==
+
+==== Intrare ====
+Programele ArnoldC vor fi citite din folderul ''tests''.  In folderul ''tests'' se vor afla fisierele de test (''test1.ac'',''test2.ac'' , etc). Parser-ul va primicalea către fișierul de intrare și îl citește.
+
+
+<note warning>Se garantează că nu vor exista greșeli în aceste fișiere. Nu este necesară tratarea eventualelor erori lexicale/sintactice/semantice, deoarece se garantează că nu există.</note>
+
+==== Ieșire ====
+
+
+Interpretorul va trebui să creeze 2 fișiere in folderul ''output'' pentru fiecare test:
+  -  Un fișier** testx.out** în care se va scrie rezultatul interpretării.
+  -  Un fișier **testx.ast** în care se va scrie structura arborelui sintactic.
+
+
+
+
+Structura arborelui va fi scrisă in fisierul** testx.ast** astfel:
+* nodul din care pornește programul se va scrie ca "**MainNode**".
+* if-urile se vor scrie in formatul “**IfNode**” și vor conține **ConditionNode <variable>** , **IfBodyNode** si **ElseBodyNode** (ramura de else este optionala).
+* while-urile se vor scrie in formatul “**WhileNode**” si vor conține **ConditionNode <variable>** si **BodyNode**.
+* Atat la **if** cat si la **while** nodurile de Body pot contine in interiorul lor orice alt tip de node in afara de MainNode.
+* atribuirile pot avea în partea stânga numai o variabilă, dar în partea dreaptă pot avea fie o constantă, fie o variabilă. Formatul este acesta:
+
+<code>
+ AssignmentNode
+  	 LvalNode variable_name
+  	 ConstantNode integer_value
+              SAU RvalNode variable_name
+              SAU nod_operatii_aritmetice
+</code>
+
+
+  * instructiunile de output ("//TALK TO THE HAND//" etc):
+
+
+<code>
+PrintNode
+	ConstantNode <integer_value>
+	SAU VariableNode <variable>
+	SAU StringNode <string>
+</code>
+
+
+* instructiuni aritmetice:
+<code>
+ SumNode
+  	 DifferenceNode
+  	  	 ConstantNode <4>
+  	  	 ConstantNode <5>
+  	 ConstantNode -3
+</code>
+<note important> Tema va trebui să **indenteze** nodurile cu **TAB** (“\t”). Astfel nodurile copii vor avea un nivel de indentare în plus față de părinți, adică vor avea un TAB în plus. Nodul root pentru program va porni de la nivelul de indentare 0.
+</note>
+
+
+Avand urmatorul exemplu:
+
+<code arnold example.ac>
+IT'S SHOWTIME
+HEY CHRISTMAS TREE a
+YOU SET US UP @NO PROBLEMO
+HEY CHRISTMAS TREE b
+YOU SET US UP @I LIED
+HEY CHRISTMAS TREE c
+YOU SET US UP @I LIED
+
+HEY CHRISTMAS TREE d
+YOU SET US UP @I LIED
+
+GET TO THE CHOPPER d
+HERE IS MY INVITATION a
+CONSIDER THAT A DIVORCE b
+CONSIDER THAT A DIVORCE c
+ENOUGH TALK
+
+BECAUSE I'M GOING TO SAY PLEASE d
+TALK TO THE HAND "(a || b || c) is true"
+BULLSHIT
+TALK TO THE HAND "(a || b || c) is not true"
+YOU HAVE NO RESPECT FOR LOGIC
+
+YOU HAVE BEEN TERMINATED
+</code>
+
+Fisierele de iesire pentru exemplul anterior sunt urmatoarele:
+<code java example.out>
+(a || b || c) is true
+</code>
+
+
+<code java example.ast>
+MainNode
+	DeclareNode
+		LvalNode <a>
+		ConstantNode <1>
+	DeclareNode
+		LvalNode <b>
+		ConstantNode <0>
+	DeclareNode
+		LvalNode <c>
+		ConstantNode <0>
+	DeclareNode
+		LvalNode <d>
+		ConstantNode <0>
+	AssignmentNode
+		LvalNode <d>
+		OrNode
+			OrNode
+				RvalNode <a>
+				RvalNode <b>
+			RvalNode <c>
+	IfNode
+		ConditionNode <d>
+		IfBodyNode
+			PrintNode
+				StringNode <(a || b || c) is true>
+		ElseBodyNode
+			PrintNode
+				StringNode <(a || b || c) is not true>
+</code>
+
+ == Structura arhivei ==
+
+
+Arhiva pe care o veţi urca pe **Vmchecker** va trebui să conţină în directorul rădăcină:
+  * ''README'' în care să explicaţi
+    * cum aţi construit arborele sintactic
+    * cum aţi aplicat pattern-ul visitor asupra arborelui
+  * alte detalii relevante pentru implementare
+  * directorul ''src'' cu fişiere sursă
+  * ''ArnoldMakefile'' care va contine cel putin regulile:
+    * build - va genera fisierele *.class
+    * run - va rula tema si va genera directorul ''output''
+    * doc - va genera directorul ''docs'' cu Javadoc-ul aferent codului
+    * clean - va sterge tot mai putin codul sursa
+
+
+
+
+== Resurse ==
+
+{{:teme:tema3:arnoldc-tests.zip| arnoldc-tests.zip}}
+== Referințe ==
+
+* [[https://github.com/lhartikk/ArnoldC/wiki/ArnoldC | ArnoldC]]
+* [[https://en.wikipedia.org/wiki/Abstract_syntax_tree|Abstract Syntax Tree]]
+* [[https://en.wikipedia.org/wiki/Visitor_pattern|Visitor Pattern]]
+* [[https://en.wikipedia.org/wiki/Interpreter_(computing)|Interpreter]]
+* [[laboratoare:visitor| Laboratorul 6 - Visitor]]
+* [[administrativ:barem_teme| Indicatii pentru teme]]
+* [[administrativ:coding_style_ide| Recomandari coding style]]
+
+
+
+

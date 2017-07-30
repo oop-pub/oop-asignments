@@ -1,0 +1,84 @@
+MainNode
+	DeclareNode
+		LvalNode <a>
+		ConstantNode <0>
+	DeclareNode
+		LvalNode <b>
+		ConstantNode <0>
+	DeclareNode
+		LvalNode <c>
+		ConstantNode <0>
+	DeclareNode
+		LvalNode <d>
+		ConstantNode <0>
+	DeclareNode
+		LvalNode <e>
+		ConstantNode <0>
+	DeclareNode
+		LvalNode <f>
+		ConstantNode <0>
+	DeclareNode
+		LvalNode <g>
+		ConstantNode <0>
+	DeclareNode
+		LvalNode <h>
+		ConstantNode <0>
+	DeclareNode
+		LvalNode <Nothing>
+		ConstantNode <1>
+	IfNode
+		ConditionNode <a>
+		IfBodyNode
+			PrintNode
+				StringNode <a is true>
+		ElseBodyNode
+			IfNode
+				ConditionNode <b>
+				IfBodyNode
+					PrintNode
+						StringNode <b is true>
+				ElseBodyNode
+					IfNode
+						ConditionNode <c>
+						IfBodyNode
+							PrintNode
+								StringNode <c is true>
+						ElseBodyNode
+							IfNode
+								ConditionNode <d>
+								IfBodyNode
+									PrintNode
+										StringNode <d is true>
+								ElseBodyNode
+									IfNode
+										ConditionNode <e>
+										IfBodyNode
+											PrintNode
+												StringNode <e is true>
+										ElseBodyNode
+											IfNode
+												ConditionNode <f>
+												IfBodyNode
+													PrintNode
+														StringNode <f is true>
+												ElseBodyNode
+													IfNode
+														ConditionNode <g>
+														IfBodyNode
+															PrintNode
+																StringNode <g is true>
+														ElseBodyNode
+															IfNode
+																ConditionNode <h>
+																IfBodyNode
+																	PrintNode
+																		StringNode <h is true>
+																ElseBodyNode
+																	IfNode
+																		ConditionNode <Nothing>
+																		IfBodyNode
+																			PrintNode
+																				StringNode <Nothing is true. Everything is permitted.>
+																		ElseBodyNode
+																			PrintNode
+																				StringNode <This should not get printed>
