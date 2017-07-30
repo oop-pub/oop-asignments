@@ -1,0 +1,11 @@
+----------------------------PRECIZARI CHECKER----------------------------------
+
+Checker-ul poate fi rulat din orice director parinte al fisierelor sursa .java
+care constituie implementarea temei. Comanda cu care se ruleaza este:
+    ./check.sh
+
+Alternativ:
+    bash check.sh
+    
+Directorul care contine scriptul trebuie sa contina NEAPARAT si directoarele
+cu teste ("inputs") si referinte ("refs").
