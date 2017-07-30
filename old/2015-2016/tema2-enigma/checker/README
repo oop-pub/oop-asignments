@@ -1,0 +1,20 @@
+Utilizare checker Tema 2 POO - Enigma
+=====================================
+
+Salut,
+
+Pentru a va testa implementarea Enigmei, trebuie sa puneti in directorul
+radacina al proiectului vostru urmatoarele:
+ - checker.sh
+ - input_files
+ - reference_files
+ dupa care sa rulati ./checker.sh.
+
+ Scriptul va rula metoda main din clasa Main aflata in src/ (default) si va pasa
+ fisier de intrare, pe rand, fisierele din input_files, dupa care va compara
+ rezultatul cu ceea ce se gaseste in reference_files.
+
+ Testele 0...5 verifica implementarea task-ului 2, iar testele 6, 7 verifica
+ implementarea rotoarelor cu 2 notch-uri.
+
+ Succes

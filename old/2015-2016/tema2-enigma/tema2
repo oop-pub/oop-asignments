@@ -1,0 +1,352 @@
+= Tema 2 - Enigma =
+
+* Responsabil: [[cristina.mihaela.ciocan@gmail.com|Cristina Ciocan]], Paul Urziceanu
+* **Deadline: 24.11.2015, 23:59**
+* Data publicării: 06.11.2015
+* Data ultimei modificări: 07.11.2015
+* Data publicării testelor: 15.11.2015
+
+== Obiective ==
+
+  * Construirea unei arhitecturi adecvate pornind de la o problemă dată
+  * Aprofundarea noțiunilor de moștenire și agregare în contextul programării orientate obiect
+  * Respectarea unui coding-style adecvat
+
+
+== Descriere ==
+
+Studenții entuziaști de la POO doresc să descopere o modalitate de a cripta mesajele pe care și le transmit. Dar cum ar putea ajunge să îndeplinească acest scop cu măiestrie? Pentru a le veni în ajutor, echipa de POO le propune implementarea unei faimoase mașini de criptare: Enigma.
+
+Enigma este cea mai cunoscută mașină de criptare datorită influenței masive pe care a avut-o în desfășurarea celui de-al 2-lea Război Mondial. A fost utilizată de către armata Germaniei pentru criptarea comunicației, aceștia afirmând că este imposibil de decodat mesajele obținute cu Enigma. Și totuși acest lucru s-a întâmplat, dar mai degrabă din cauza factorului uman decât a celui tehnic. Hai să vedem de ce era considerată imbatabilă această mașină și cum puteți implementa voi înșivă un asemenea dispozitiv.
+
+Pentru a putea purcede spre rezolvarea acestei chestiuni, mai întâi să vedem ce reprezintă Enigma: componentele sale, funcționalitatea fiecăreia dintre ele și modul în care acestea comunică între ele.
+
+Pentru o primă idee despre funcționarea acestei mașini și pentru a putea urmări ulterior mai ușor detaliile tehnice, puteți viziona [[https://www.youtube.com/watch?v=mcX7iO_XCFA|acest filmuleț]].
+=== Principiul de funcționare. Componente ===
+
+Cum arată o mașină Enigma ? Puteți observa în <imgref image1> , urmând să detaliem componentele sale - ale căror funcționalitate va trebui să o implementați.
+
+
+<imgcaption image1>{{.:enigma_machine.jpg?200 | Mașina Enigma }}</imgcaption> <imgcaption image2|>{{ .:enigma_components.jpg?350 |Componente Enigma}}</imgcaption>
+
+
+
+Pentru a începe codificarea unui cuvânt/a unei propoziții, trebuie să setăm o configurație inițială a acestei mașini pe care o vom detalia în etapa următoare. Ulterior acestei setări inițiale, putem începe să introducem cuvintele pe care dorim să le criptăm, literă cu literă. Acest lucru este realizat prin intermediul unei tastaturi (în continuare vom menționa 'tastatură' = 'keyboard' pe alocuri pentru a facilita întelegerea exemplelor oferite prin imagini sau a informațiilor pe care le-ați putea găsi pe Internet). Ciclul de funcționare prin care trece o literă de la intrare până la ieșire poate fi observat în <imgref image3>:
+
+
+Input keys -> plugboard -> input wheel -> rotors -> reflector (and back) -> rotors -> input wheel -> plugboard -> output lamps
+
+
+<imgcaption image3|>
+{{ .:enigma_functioning_schema.png?400 | Pipeline-ul de funcționare }}</imgcaption>
+
+
+
+==== Tastatura (Input keys) ====
+
+Scopul keyboard-ului este de a prelua input-ul de la utilizator și a-l transmite către următoarea componentă. Din punct de vedere al programării unui asemenea dispozitiv, funcționalitatea tastaturii este insignifiantă, însă trebuie să aveți în vedere faptul că reprezintă modalitatea de transmitere a alfabetului de intrare: ce caractere poate primi mașina și câte sunt.
+
+==== Panoul de comutare (Plugboard) ====
+
+Caracterul preluat drept intrare va trece apoi printr-o primă etapă de criptare, anume printr-un panou de comutare (menționat în continuare 'plugboard' din aceleași considerente menționate mai sus). Rolul acestuia este de a face o primă translație a literei introduse. Translațiile efectuate de plugboard sunt mereu în pereche și sunt cele pe care le vedeți unite cu cabluri în partea din față a mașinii.
+
+Exemplu de configurație a plugboard-ului: [(AF) (CY) (QW)]. Această configurație se interpretează astfel: la primirea literei 'A' la intrare, va fi transmisă litera 'F' către urmatoarea componentă și reciproc. După cum am menționat anterior, translațiile sunt pe perechi, ceea ce înseamnă ca prima literă dintr-o pereche va fi mereu translatată în cea de-a doua, dar și reciproc:
+	'A' -> 'F', 'F' -> 'A', 'C' -> 'Y', 'Y' -> 'C', 'Q' -> 'W', 'W' -> 'Q'
+Caracterele care nu apar în configurația plugboard-ului rămân neschimbate. Urmând exemplul anterior:
+	'B' -> 'B', 'D' -> 'D', 'E' -> 'E', 'G' -> 'G', 'H' -> 'H', 'I' -> 'I', ... 'Z' -> 'Z'
+
+==== Roata de intrare (Input wheel) ====
+
+Această componentă are doar rol electric de a transmite semnalul primit de la plugboard către rotorul la care este conectată. Deoarece nu are scop computațional, nu va trebui să o considerați în cadrul implementării.
+
+==== Rotoarele (Rotors) ====
+
+Rotoarele sunt "bucătăria internă" de criptare și cele mai complexe componente ale mașinii. Are două componente cu rol major:
+  * nucleul
+  * inelul alfabetic
+
+<imgcaption image4|>{{ .:rotor.gif | Componentele unui rotor }}</imgcaption>
+
+**Nucleul** este format din 26 de pini pe partea exterioară (îi puteți observa în <imgref image4>, discul cu pini din partea dreaptă) și 26 de contacte pe partea interioară (piesa din mijloc în imaginea de mai sus). Cei 26 de pini și cele 26 de contacte reprezintă alfabetul: fiecare pin reprezintă o literă și fiecare contact reprezintă o literă. Fiecare fir de legătură din nucleu conectează un pin la un punct de contact. În funcție de sistemul de legătură a firelor din nucleul rotorului, o literă primită la intrare (semnal primit printr-un anumit pin) va fi mapată pe litera corespunzătoare la ieșire (semnal trimis printr-un anumit punct de contact).
+
+După cum puteți observa, ceea ce realizează nucleul este o simplă substituție a fiecărei litere din alfabet. Luând în considerare ca aceste substituții sunt implementate fizic, rotoarele vor avea mapările fixate: dacă un rotor anume mapează semnalul de intrare al pinului de la poziția 'A' pe semnalul de ieșire al punctului de contact de la poziția 'F', această mapare nu se va schimba (nu putem schimba dinamic cablul care face legătura pinului cu punctul de contact).
+
+<note>
+În paragraful anterior am menționat "pinul de la **poziția**..." și "punctul de contact de la **poziția**...", nu pinul 'A' și punctul de contact 'F'. Acest lucru se datorează faptului că masurătorile sunt efectuate față de un punct relativ, rotorul se poate învârti, conexiunile rămânând aceleași. De aceea există un punct de referință în care spunem că rotorul este în poziția A, adică poziția absolută 'A' va fi cea în care se află pinul corespunzător literei 'A'. Dacă rotorul se învârte cu o poziție, semnalul de intrare 'A' va ajunge pe pinul de intrare corespunzător literei 'B'. Vom da un exemplu complet după introducerea explicării noțiunii de inel alfabetic.
+</note>
+
+**Inelul alfabetic** este cel pe care îl observați în imaginea rotorului în partea din stânga. Are rolul de a indica în ce poziție se află rotorul relativ la poziția inițială. De exemplu, dacă în poziția inițială se indică litera 'A', în momentul în care indică litera 'C',  înseamnă că discul s-a rotit cu 2 poziții față de poziția inițială: 'A' -> 'B' -> 'C'. Această literă se poate vedea intr-o fereastră amplasată deasupra rotorului - în imaginea de mai jos puteți observa marginile a 3 rotoare și litera fiecăruia. Acest inel se poate roti, astfel încât litera afișată să nu fie mapată 1-1 cu alfabetul de ieșire. Drept urmare, poziția inițială a fiecărui inel alfabetic, relativă la rotorul de care aparține, va trebui sa facă parte din configurația inițială.
+
+<imgcaption image5|>{{ .:ring_letters.jpg?150 | Ferestrele literelor curente ale inelelor alfabetice }}</imgcaption>
+
+Această componentă, inelul alfabetic, mai are o caracteristică extrem de importantă: în dreptul unei litere, care diferă de la rotor la rotor, are o crestătură (notch), dupa cum puteți vedea în <imgref image6>:
+
+<imgcaption image6|>{{ .:notch.jpg?220 | Crestătura unui rotor }}</imgcaption>
+
+Scopul acestei crestături este de a roti cu 1/26 dintr-o rotație completă rotorul din stânga, mai precis de a declanșa avansarea cu o literă a rotorului din stânga celui curent.
+**Observație:** rotorul din imagine are numere pe banda alfabetică, fiecare număr reprezentând poziția literei echivalente în alfabet (1 -> 'A', 2-> 'B', ...).
+
+Mașina Enigma, în forma ei inițială, conținea un ax pe care erau plasate 3 astfel de rotoare. Deoarece firele de legatură din nucleu ce realizau maparea literelor erau fixe, au fost realizate 8 astfel de tipuri de rotoare, fiecare cu o altă mapare, din care se alegeau 3 pentru a fi introduse ca parte a configurației. Această configurație se schimba zilnic, conform unui plan prestabilit.
+
+Dar de ce era atât de greu de decodificat un mesaj criptat prin câteva etape de substituție? Motivul este faptul ca aceste rotoare se învârteau. Modelul de mișcare era urmatorul:
+ -> la fiecare apăsare a unei taste, rotorul-dreapta (cel mai apropiat de tastatură) se rotea cu o poziție (o literă), în sensul acelor de ceasornic (sens descris și în imaginea de descriere a rotorului). Acest rotație implică faptul ca la următorul pas, la introducerea aceleiași litere la intrare, primul rotor va mapa diferit litera respectivă
+ -> în momentul în care în fereastra asociată primului rotor apare litera notch-ului acestui rotor, se va roti cu o poziție și rotorul din stânga lui, cel din mijloc
+ -> similar, notch-ul rotorului din mijloc va influența mișcarea rotorului-stânga
+
+<note important>
+În cazul rotorului din mijloc putem întâlni o situație specială. Să presupunem că la pasul curent **p** rotorul-dreapta ajunge în poziția în care declanșează rotirea celui din mijloc. Dacă în acest moment rotorul din mijloc ajunge și el în poziția notch-ului său, la **p+1** va declanșa rotirea rotorului-stânga. Situația specială o reprezintă faptul că la **p+1** și rotorul din mijloc se va mai roti o dată (double stepping).
+
+Puteți găsi la [[http://users.telenet.be/d.rijmenants/en/enigmatech.htm#steppingmechanism|acest link]] explicația procesului, împreună cu un exemplu.
+</note>
+
+Cele 8 tipuri de rotoare (și mapările lor) sunt următoarele:
+
+<tabcaption tab1| Tipuri de rotoare>
+^Input^A^B^C^D^E^F^G^H^I^J^K^L^M^N^O^P^Q^R^S^T^U^V^W^X^Y^Z ^
+^Rot I|E|K|M|F|L|G|D|Q|V|Z|N|T|O|W|Y|H|X|U|S|P|A|I|B|R|C|J|
+^Rot II|A|J|D|K|S|I|R|U|X|B|L|H|W|T|M|C|Q|G|Z|N|P|Y|F|V|O|E|
+^Rot III|B|D|F|H|J|L|C|P|R|T|X|V|Z|N|Y|E|I|W|G|A|K|M|U|S|Q|O|
+^Rot IV|E|S|O|V|P|Z|J|A|Y|Q|U|I|R|H|X|L|N|F|T|G|K|D|C|M|W|B|
+^Rot V|V|Z|B|R|G|I|T|Y|U|P|S|D|N|H|L|X|A|W|M|J|Q|O|F|E|C|K|
+^Rot VI|J|P|G|V|O|U|M|F|Y|Q|B|E|N|H|Z|R|D|K|A|S|X|L|I|C|T|W|
+^Rot VII|N|Z|J|H|G|R|C|X|M|Y|S|W|B|O|U|F|A|I|V|L|P|E|K|Q|D|T|
+^Rot VIII|F|K|Q|H|T|L|X|O|C|B|J|S|P|D|Z|R|A|M|E|W|N|I|U|Y|G|V|
+</tabcaption>
+
+
+Crestăturile fiecărui rotor sunt următoarele:
+
+<tabcaption tab2|Rotor Notches>
+^Rotor type^Notch letter^
+| I | 'R' |
+| II | 'F' |
+| III | 'W' |
+| IV | 'K' |
+| V | 'A' |
+| VI, VII, VIII | 'A' **and** 'N' |
+</tabcaption>
+
+
+
+Să vedem un exemplu (preluat de [[http://users.telenet.be/d.rijmenants/en/enigmatech.htm|aici]]):
+
+**Exemplu:** Rotorul este cel de tip I, se rotește la primirea fiecărei litere, șirul de intrare este 'AA':
+<imgcaption image7|>{{ .:1_rotate.jpg | Exemplu de criptare a unei litere }}</imgcaption>
+
+
+Descrierea elementelor din imagine:
+ -> alfabetul aflat în stanga și în dreapta rotorului, vertical (N, M, L, ...), este cel de referință
+ -> banda gri reprezintă inelul alfabetic (nu uitați, și acesta poate fi inițial setat la un offset)
+ -> offset-ul inelului alfabetic va fi diferența dintre litera de pe banda gri din dreptul literei 'A' de referință și litera 'A': în cazul nostru, 'A'-ul de pe bandă este în dreptul 'A'-ului de referință (cel din stânga rotorului) => **spunem că inelul alfabetic se află in poziția 'A'**
+ -> alfabetul din dreapta benzii gri este cel la care mapează rotorul curent caracterele de la intrare (permutările sunt cele descrise în Tabelul 1) => acesta este output-ul
+ -> alfabetul din interiorul rotorului, cel din dreapta, este alfabetul de intrare => input-ul. La fiecare rotație, acesta este alfabetul care avansează cu o poziție
+ -> offset-ul rotorului este, ca și în cazul inelului alfabetic, diferența dintre litera alfabetului de intrare din dreptul 'A'-ului de referință și litera 'A': în cazul nostru, 'A'-ul alfabetului de intrare este în dreptul 'A'-ului de pe banda de referință (cea din dreapta) => **spunem că rotorul este în poziția 'A'**
+
+<note important>
+  * Observați că odată cu rotorul se învârte și inelul alfabetic.
+  * Contactul mecanic care face ca rotorul cel mai apropiat de plugboard să se rotească se realizează imediat după apăsarea tastei, deci înainte de preluarea caracterului drept intrare de către rotor. În exemplul dat, pentru ca ordinea transformărilor să fie cea enumerată, trebuie ca rotorul să se afle inițial în poziția 'Z', astfel încât la apăsarea, prima oară, a tastei 'A' rotorul să treacă de la 'Z' la 'A', urmând transformările enumerate mai jos. Același principiu este valabil în cazul tuturor rotoarelor, în momentul rotirii: prima oară se realizează rotirea, apoi primirea input-ului
+</note>
+
+Primim input 'AA':
+  * primul **'A'** -> input_rotor_I = 'A' + offset(rotor I) = **'A'** -> mapare_rotor_I(input_rotor_I) = **E** -> output_rotor_I = 'E' + offset(inel alfabetic) - offset(rotor I) = **'E'**
+  * rotorul e acum rotit cu o poziție
+  * al 2-lea **'A'** -> input_rotor_I = 'A' + 1 = **'B'** -> mapare_rotor_I(input_rotor_I) = **'K'** -> output_rotor_I = 'K' + 0 - 1 = **'J'**
+
+
+==== Reflectorul (Reflector) ====
+
+Reflectorul este cel "vinovat" pentru una dintre principalele trăsături ale Enigmei: decriptarea unui mesaj de realizează identic cu modalitatea de criptare. Pornind de la aceeași stare inițială, mesajul criptat trebuie introdus literă cu literă, ca și la criptare, iar literele rezultate vor fi direct mesajul în clar.
+
+Rolul reflectorului este de a mai face o substituție a literei pe care o primește, după care trimite semnalul înapoi pe aceeași cale pe care a venit: prin rotoare, în ordine inversă, apoi prin plugboard, iar la final către lampa care aprinde becul de deasupra literei de la ieșire.
+
+Substituțiile realizate de către reflector sunt în oglindă și este necesar ca toate literele să fie mapate: vor fi 13 perechi de litere, fiecare literă dintr-o pereche mapându-se pe cealaltă literă a perechii, similar plugboard-ului.
+
+<note important>
+Semnalul trimis înapoi de la reflector va trece prin rotoare în sens invers: va fi input pentru alfabetul mapat și output pentru alfabetul de input. Drept urmare, pentru fiecare rotor trebuie să rețineți și maparea inversă.
+</note>
+
+Cele 2 tipuri de reflectoare (și mapările lor) sunt următoarele:
+<tabcaption tab3| Tipuri de reflectoare>
+^Reflector B| (AY) (BR) (CU) (DH) (EQ) (FS) (GL) (IP) (JX) (KN) (MO) (TZ) (VW) |
+^Reflector C| (AF) (BV) (CP) (DJ) (EI) (GO) (HY) (KR) (LZ) (MX) (NW) (TQ) (SU) |
+</tabcaption>
+
+
+
+
+
+
+=== Drumul unei litere prin Enigma ===
+
+Acum ca am detaliat componentele și funcționalitatea fiecăreia, să vedem cum parcurge o literă acest traseu mai în detaliu:
+
+<imgcaption image8|>{{ .:data_flow.png }}</imgcaption>
+
+**Pasul 1:** se apasă tasta 'T'
+**Pasul 2:** plugboard-ul primește drept input 'T', pe care îl mapează intern la 'K' și transmite drept output litera 'K'
+**Pasul 3:** roata de intrare primește 'K' și transmite output 'K'
+**Pasul 4:** rotorul-dreapta primește input 'K', output 'U'
+**Pasul 5:** rotorul din mijloc primește input 'U', output 'P'
+**Pasul 6:** rotorul-stânga primește input 'P', output 'H'
+**Pasul 7:** reflectorul oglindește 'H' în 'D' și îl transmite mai departe
+**Pasul 8:** rotorul-stânga realizează o **mapare inversă** și transformă 'D' în 'G'
+**Pasul 9:** rotorul din mijloc realizează o **mapare inversă** și transformă 'G' în 'R'
+**Pasul 10:** rotorul-stânga realizează o **mapare inversă** și transformă 'R' în 'W'
+**Pasul 11:** roata de intrare primește litera 'W' și transmite 'W'
+**Pasul 12:** plugboard-ul mapează 'W' în 'G' și transmite semnalul către panoul luminos
+**Pasul 13:** panoul primește semnalul pentru litera 'G' și aprinde becul corespunzător acesteia
+
+Litera în clar 'T' a fost criptată în litera 'G'.
+
+<note important>
+Pentru a **decripta** mesajul primit, este necesar ca mașina să fie setată în **aceeași stare inițială** ca mașina cu care s-a criptat mesajul.
+</note>
+
+== Arhitectura sistemului ==
+
+Acum că avem o structură fizică a Enigmei, trebuie să vedem cum putem implementa **eficient** această mașină.
+
+Pentru o reprezentare optimă, trebuie să separăm componentele logice. În mod evident, o parte dintre ele vor fi corespondentul componentelor fizice (mașina în sine, rotor, reflector, plugboard). Pasul următor este să definim acțiunile (metodele) și descrierea fiecăreia (membrii).
+
+**Mașina Enigma**
+
+Această componentă este cea care primește caracterele de intrare și returnează șirul criptat. Cum realizează intern acest lucru este un aspect care nu ar trebui să fie vizibil celui care o folosește. Fiind componenta care primește datele de intrare, este totodată și cea care setează starea inițială:
+
+- ce rotoare vor fi folosite și în ce ordine vor fi amplasate (avem 8 tipuri de rotoare, dar numai 3 sunt introduse în interiorul mașinii)
+- starea inițială a fiecărui rotor: poziția rotorului (relativ la alfabetul de referință), poziția inelului alfabetic (relativ la alfabetul de referință)
+- ce reflector va fi folosit dintre cele 2
+- care este alfabetul de intrare
+
+** Alfabetul **
+
+Șirul de caractere din care vom putea primi litere reprezintă alfabetul mașinii. Maximul posibil este alfabetul standard, de 26 de litere, dar putem configura mașina să primească și un subset al acestuia (în cadrul temei). Asupra acestui alfabet se vor efectua ulterior, în fiecare componentă, selecții, rotații, mapări, așadar ar putea fi util ca acesta să implementeze aceste operații separat, pe setul de caractere dat.
+
+
+**Plugboard-ul**
+
+Acesta este următorul în pipeline-ul de funcționare care primește caracterele, le prelucrează conform unei **configurații** și transmite mai departe rotorului-dreapta.
+
+**Rotoarele**
+
+Ca și plugboard-ul, acestea au o **configurație** internă. Pe langă aceasta, trebuie să mai țină în evidență două alte aspecte: rotația și poziția notch-ului.
+
+Ce declanșează ajungerea în poziția notch-ului? Rotația rotorului din stânga. Drept urmare, trebuie să știm și înlănțuirea rotoarelor, ca să putem impune această operație rotorului vecin în stânga. Nu uitați de cazul special al rotorului din mijloc (double stepping).
+
+
+**Reflectorul**
+
+Și această componentă va avea intern o **configurație** care să prelucreze codificarea, decodificarea, maparea, alfabetul etc. Spre deosebire de rotoare, această componentă nu primește semnal și în sens invers.
+
+
+
+<note tip>
+Link-uri utile cu câteva detalii despre principiile urmărite în programarea orientată obiect:
+  * [[http://www.codeproject.com/Articles/768052/Golden-Rules-Of-Good-OOP|10 rules of good OOP]]
+  * [[http://www.javacodegeeks.com/2012/08/10-object-oriented-design-principles.html|10 OO design principles for Java programmers]]
+</note>
+== Cerințe ==
+
+
+<note important>
+Pentru posibile actualizări, schimbări, lămuriri și întrebări vă rugăm urmăriți [[http://cs.curs.pub.ro/2015/mod/forum/view.php?id=2592|forum-ul temei]]
+</note>
+
+=== Task 1 (20p) ===
+
+Să se construiască o ierarhie de clase/interfețe prin care să modelați o mașină Enigma. Aceasta va fi descrisă în README, alături de motivele pentru care ați făcut alegerile respective.
+
+Criterii pe care trebuie să le luați în considerare:
+  * implementarea trebuie să permită o extindere ușoară a modelului (de exemplu, construirea mașinii cu 4 rotoare în loc de 3)
+  * să nu existe cod duplicat - dacă întâlniți această situație, înseamnă că nu ați modularizat corespunzător problema dată
+  * să se urmeze modelul de pipeline al funcționării mașinii - fiecare componentă fizică transmite și primește date **doar** de la vecini => cum modelați o strctură de date de tip pipeline ?
+  * să discerneți corespunzător între situațiile în care aveți nevoie de:
+    * agregare versus moștenire: **are un...** versus **este un**
+    * abstractizare acțiuni: e o acțiune comună mai multor elemente? există o implementare de bază sau fiecare componentă urmărește propriul scenariu și doar descrierea acțiunii este comună?
+
+
+**Ce** trebuie explicat în README:
+  * cum ați ales să structurați proiectul și de ce
+  * de ce ați ales o anumită ierarhie de clase
+  * ce elemente ați considerat comune și cum ați tratat situația
+  * ce funcționalități ați considerat comune și cum ați tratat situația
+  * dacă este cazul, ce impedimente ați avut în structurarea temei și cum le-ați depășit sau de ce v-au blocat
+
+
+**Ce nu** trebuie introdus în README:
+  * denumiri de metode, membri, variabile: ne interesează să vedem logica pe care ați urmat-o, nu să vedem secțiuni de cod
+  * "cod citit": de exemplu, o frază precum "în metoda X parcurg element cu element vectorul Y, cu ajutorul unui indice i ..." nu explică structura programului, este doar o interpretare textuală a codului scris
+  * nu replicați secțiuni din enunț, puneți accentul pe contribuția voastră
+  * este de preferat să dați justificări scurte și la obiect, nu este nevoie să vă afundați în explicații foarte lungi câtă vreme ați acoperit cerințele la un nivel de detaliu clar
+=== Task 2 (60p) ===
+
+Implementarea efectivă a mașinii. Fiecare componentă trebuie să respecte comportamentul descris în enunțul temei, cu excepția rotoarelor: se selectează 3 rotoare doar dintre cele cu un singur notch (I, II, III, IV și V).
+
+**Punctajul pentru rezolvarea acestui task se acordă numai în situația respectării criteriilor de la task-ul 1. Dacă ați menționat în README o arhitectură bună, dar implementați altceva, punctajul pe task-ul 2 nu va fi acordat.**
+
+
+=== Task 3 (10p) ===
+
+Implementarea mașinii cu posibilitatea de alegere a rotoarelor dintre cele 8 posibile, inclusiv cele cu 2 notch-uri.
+
+<note>
+* Comentariile tuturor claselor şi metodelor relevante vor trebui să respecte formatul [[https://en.wikipedia.org/wiki/Javadoc|Javadoc]].
+* Nu uitați de paginile wiki: [[administrativ:barem_teme|indicații pentru teme]] şi [[administrativ:coding_style_ide|coding style]].
+</note>
+
+<note warning>
+Temele vor fi testate împotriva plagiatului. Orice tentativă de copiere va duce la **anularea punctajului** de pe parcursul semestrului şi **repetarea materiei** atât pentru sursă(e) cât şi pentru destinație(ii), fără excepție.
+</note>
+== Date de intrare. Date de ieșire ==
+
+=== Date de intrare ===
+
+Programul vostru la primi la intrare un fișier cu următorul format:
+  * **linia 1**: alfabetul mașinii
+    * **exemplu**: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+  * **linia 2**: perechi de litere care reprezintă configurația plugboard-ului (poate fi și o linie goală!)
+    * **exemplu**: (AC) (BQ)
+  * **linia 3**: 4 numere care reprezintă reflectorul și ce rotoare vor fi folosite dintre cele 8 (considerăm ordinea rotoarelor de la stânga la dreapta, de la rotorul cel mai apropiat de reflector înspre cel mai apropiat de plugboard). Exemplul de mai jos înseamnă că reflectorul folosit va fi de tip B, rotorul-stânga va fi de tip II, cel din mijloc de tip I și cel din dreapta de tip IV. Numerele vor fi separate prin spații (unul sau mai multe)
+    * **exemplu**: B 2 1 4
+  * **linia 4**: 3 litere care reprezintă poziția inițială a inelelor alfabetice ale rotoarelor (ordinea va fi cea de mai sus). Exemplul de mai jos înseamnă că inelele rotoarelor stânga și dreapta vor fi aliniate la poziția de referință 'A', pe când cel din mijloc va fi rotit fața de poziția de referință cu 1 poziție
+    * **exemplu**: ABA
+  * **linia 5**: 3 litere care reprezintă poziția inițială a rotoarelor (ordinea va fi cea de mai sus). Exemplul de mai jos înseamnă că rotorul-stânga și cel din mijloc vor fi aliniate, inițial la poziția 'A' de referință, pe când rotorul-dreapta va fi rotit cu 2 poziții față de 'A'-ul de referință.
+    * **exemplu**: AAC
+    <note important>Nu uitați că inelul alfabetic se deplasează odata cu rotorul</note>
+  * **linia 6**: operația de efectuat: C pentru criptare, D pentru decriptare (litere mari)
+    * **exemplu**: C
+  * **linia 7 - <EOF>**: mesajul care trebuie criptat/decriptat
+
+**Pentru lucrul cu fișiere în Java, puteți urmări [[http://docs.oracle.com/javase/tutorial/essential/io/file.html|acest tutorial]].**
+=== Date de ieșire ===
+
+Se va afișa la standard output mesajul criptat/decriptat.
+
+
+== Format arhivă ==
+
+Arhiva pe care o veţi urca pe **Vmchecker** va trebui să conţină în **directorul rădăcină**:
+
+  * directorul cu pachete şi fişiere sursă ''src'', inclusiv
+  * directorul ''doc'', generat de javadoc
+  * fişierul ''README'' cu descrierea implementării
+  * metoda main trebuie să se afle în clasa Main, în fișierul Main.java, în pachetul sursă default al proiectului Eclipse
+
+
+== Resurse ==
+
+* {{.:checker_tema_2.zip | Tester }}
+* <html><a class="media mediafile mf_pdf" href="/poo/arhiva/teme/2015/tema2?do=export_pdf">PDF enunţ temă</a></html>
+
+
+== Referințe ==
+
+* [[http://enigma.louisedade.co.uk/|Enigma emulator]]
+* [[http://www.codesandciphers.org.uk/enigma/enigma2.htm|The components of the Enigma machine]]
+* [[http://users.telenet.be/d.rijmenants/en/enigmatech.htm|Enigma technical description]]
+* [[http://www.codesandciphers.org.uk/enigma/rotorspec.htm|Enigma's rotors and reflectors technical specifications]]
+* [[https://www.youtube.com/watch?v=mcX7iO_XCFA|'The inner workings of an Enigma' YouTube movie]]
+* [[http://docs.oracle.com/javase/tutorial/essential/io/file.html|Java Basic File I/O]]
+
+* [[administrativ:barem_teme|Indicații pentru teme]]
+* [[administrativ:coding_style_ide|Coding style]]
+
