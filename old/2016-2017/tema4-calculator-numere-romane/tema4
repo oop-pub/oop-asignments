@@ -1,0 +1,212 @@
+= Tema 4 - Calculator cu numere romane =
+
+  * Responsabili: [[laurentiu.stamate@stud.acs.upb.ro|Laurențiu Stamate]], [[adriana.draghici@cs.pub.ro|Adriana Drăghici]]
+  * Deadline soft: 14.01.2017 23:55
+  * Deadline __hard__: __**20.01.2017 23:55**__
+  * Versiune tester: v03-01-2017
+  * Data publicării: 17.12.2016 00:00
+  * Data ultimei modificări: 15.01.2017 00:19
+
+
+== Obiectivele temei ==
+  * __Integrarea cu un mod arhitectural de a rezolva o problemă reală__
+  * Aprofundarea noțiunilor de Design Patterns:
+      * [[https://sourcemaking.com/design_patterns/singleton | Singleton pattern]] - folosit pentru Server și Factory
+      * [[https://sourcemaking.com/design_patterns/factory_method | Factory pattern]] - folosit pentru a separa logica de instanțiere
+      * [[https://sourcemaking.com/design_patterns/observer | Observer pattern]] - folosit pentru a notifica Server-ul de o nouă ecuație de rezolvat
+  * Aprofundarea noțiunilor de moștenire, agregare și interfațare în contextul implementării unei aplicații reale
+  * Aprofundarea noțiunilor din cursul de //Structuri de Date// - forma poloneză a ecuațiilor matematice [[teme:tema4#linkuri-utile| [1]]]
+  * Respectarea unui **coding-style** adecvat
+
+== Cerințele temei ==
+<note warning>
+Toate interfețele trebuie implementate și toate implementările utilizate, într-un fel sau altul, la rezolvarea temei. __**Nu**__ aveți voie să modificați interfețele în niciun fel. O temă care nu respectă acest aspect __**nu va fi punctată**__.
+</note>
+
+<note warning>
+Stiva și/sau coada de operatori/operanzi trebuie să fie __**privată**__ în cadrul clasei ''Server'' și să conțină elemente de tip ''IToken'' (ex. ''Stack<IToken> myStack''). O temă care nu respectă acest aspect __**nu va fi punctată**__.
+</note>
+
+<note warning>
+Este interzisă folosirea operatorului __**instanceof**__. O temă care nu respectă acest aspect __**nu va fi punctată**__.
+</note>
+
+Va trebui să implementați un calculator, care va primi ca input operații matematice scrise în numere romane, să calculați valoarea transformând în numere arabe [[teme:tema4#linkuri-utile| [2]]] și să afișați răspunsul în format roman [[teme:tema4#linkuri-utile| [3]]]. În calcularea valorii trebuie să țineți cont de ordinea operațiilor iar pentru acest lucru o să folosiți forma poloneză [[teme:tema4#linkuri-utile| [1]]].
+
+<note warning>
+Implementările pentru ''IServer'', ''IBracketsFactory'', ''IOperatorsFactory'' și ''IOperandsFactory'' trebuie să fie __**singleton**__. O temă care nu respectă acest aspect __**nu va fi punctată**__.
+</note>
+
+<note warning>
+Implementările pentru ''IBracketsFactory'', ''IOperatorsFactory'' și ''IOperandsFactory'' trebuie să respecte pattern-ul __**Factory**__. O temă care nu respectă acest aspect __**nu va fi punctată**__.
+</note>
+== Descrierea scheletului ==
+
+Scheletul de cod (directorul __//src//__) conține următoarele:
+  * ''checker/fileIO'' - conține logica de I/O și de comparare cu fișierele de referință
+  * ''checker/checkstyle'' - conține utilitarul și regulile de verificare de **coding-style**
+  * ''checker/resources'' - conține fișierele de input și referință
+  * ''homework/interfaces'' - conține interfețele pe care **trebuie** să le implementați
+
+În cadrul fiecărui fișier de interfață veți găsi, în comentarii, o explicare laborioasă a fiecărei metode și a fiecărui câmp.
+
+<note tip>Puteți să aruncați o privire la cum este scris checker-ul ca să vă faceți o idee atât despre cum trebuie //scrisă// tema cât și despre bonus</note>
+
+În rădăcina directorului __//src//__ se află și punctul de intrare al aplicației, clasa ''Main''. În această metodă se inițializează ''Evaluator''-ul și se deschid fișierele de input, output, referință și subscriberi. După care ''Evaluator''-ul face următoarele 3 acțiuni, pe instanța singleton a ''IServer'':
+  * Apelează metoda ''subscribe'' pentru fiecare operator (linie) din fișierul de subscriberi
+  * Apelează metoda ''publish'' pentru fiecare comandă (linie) din fișierul de input
+  * Apelează metoda ''getResults'' și compară cu liniile din fișierul de referință
+== Descrierea fișierelor de intrare ==
+
+Rularea se face în felul următor:
+''$ java Main subscribers_file input_file output_file reference_file''
+
+  * subscribers_file - fișierul de operații suportate de testul curent, cu câte un operator pe linie
+  * input_file - fișierul de intrare cu operațiile matematice în format roman, cu câte o operație pe linie
+  * output_file - fișierul de ieșire, cu câte un rezultat în format roman pe linie
+  * reference_file - fișierul de referință, cu câte un rezultat corect în format roman pe linie
+
+<note important>Pentru operațiile ce nu se pot executa (__**fișierul de subscriberi nu suportă un tip de operație**__, __**împărțirea la zero**__), se va scrie mesajul __[[https://i.imgflip.com/1g0rg5.jpg | IMPOSSIBRU]]__</note>
+
+== Exemplu ==
+
+<file txt sub42>
++
+-
+*
+/
+log
+</file>
+
+  * Operațiile suportate pentru acest test sunt: adunare, scădere, înmulțire, împărțire și logaritm
+
+<file txt in42>
+I + II
+( XX - X ) + [ V - I ]
+[ ( MMM - M ) + sqrt IV ]
+II ^ IV
+I + II + II + log IV
+III / ( I - I )
+</file>
+
+<file txt ref42>
+III
+XIV
+IMPOSSIBRU
+IMPOSSIBRU
+VII
+IMPOSSIBRU
+</file>
+
+  * Linia 3 nu se poate executa deoarece __scăderea__ și __radicalul__ nu sunt suportate
+  * Linia 4 nu se poate executa deoarece __ridicarea la putere__ nu este suportată
+  * Linia 6 nu se poate executa deoarece __împărțirea la zero__ nu este acceptată
+
+== Precizări ==
+  * Alfabetul folosit este următorul:
+
+^    1    ^    5    ^    10   ^    50   ^    100  ^    500  ^    1000    ^
+|    I    |    V    |    X    |    L    |    C    |    D    |    M    |
+
+  * Prioritățile operatorilor sunt următoarele:
+
+^    0    ^    1    ^    2   ^    3   ^
+|    +, -    |    *, /    |    %%^%%    |    sqrt, log    |
+
+  * cel mai mare număr care poate fi scris în numere romane este **3999** iar cel mai mic număr este **-3999**
+  * niciun rezultat final de la o operație nu va sări de **3999** respectiv **-3999**
+  * toate intrările din fișierele de text le veți presupune **valide** din punct de vedere sintactic
+
+<note important>__**NU**__ exista 0 în sistemul de calcul roman însă acesta poate apărea în momentul calcului (__rezultat parțial__) însă __**niciodată**__ nu va apărea în rezultatul final.</note>
+
+  * operații posibile: + (adunare), - (scădere), * (înmulțire), / (împărțire), ^ (ridicare la putere), sqrt (radical), log (logaritm natural)
+  * delimitarii posibili pentru forma poloneză sunt: **(**, **)** (paranteze rotunde), **[**, **]** (paranteze pătrate), **{**, **}**  (acolade)
+  * înainte și după fiecare delimitator va fi un spațiu: "( 2 + 3 )"
+
+<note important>În cazul în care un delimitator este la //începutul// șirului, acesta nu va avea un spațiu //înainte//. În cazul în care un delimitator este la //sfârșitul// șirului, acesta nu va avea un spațiu //după//.</note>
+
+  * fiecare operator are spațiu între operanzi: "2 + 3"
+  * operatorii sqrt și log au un singur operand: "sqrt 4"
+  * operatorul log reprezintă logaritmul natural
+
+<note important>În cazul funcțiilor log și sqrt, rezultatul parțial este de tip __**double**__ (ex. log 4 = 1.38629436112) iar rezultatul final va fi __**întotdeauna**__ un număr întreg și se va rotunji __**inferior**__ pentru a se păstra __**numai**__ partea întreagă (ex. ''1.38629436112 -> I'' (unu în format roman) și ''-1.38629436112 -> - II'' (pentru că ''-2 < -1.38629436112 < -1'')).</note>
+
+  * se asigură că parametrul funcțiilor log și sqrt este întotdeauna pozitiv
+  * se asigură că rezultatul funcțiilor log și sqrt este întotdeauna pozitiv
+  * în cazul împărțirii inexacte între întregi, se calculează rezultatul exact (ex. 5 / 2 = 2.5)
+
+<note important>În cazul în care un rezultat final este mai mic decât 0, numărul în format roman se va afișa astfel: __//- XX//__.</note>
+
+== Punctare ==
+  * **100p** = **90p** teste publice + **10p** README
+  * **50p**
+    * numele fișierelor ([[http://www.oracle.com/technetwork/java/javase/documentation/codeconventions-137760.html#16732 | ref]])
+    * organizarea fișierelor ([[http://www.oracle.com/technetwork/java/javase/documentation/codeconventions-141855.html#3043 | ref]])
+    * indentarea pe verticală și orizontală ([[http://www.oracle.com/technetwork/java/javase/documentation/codeconventions-136091.html#262 | ref]])
+    * declarațiile și inițializările ([[http://www.oracle.com/technetwork/java/javase/documentation/codeconventions-141270.html#2991 | ref]])
+    * numirea claselor, variabilelor, metodelor, etc. ([[http://www.oracle.com/technetwork/java/javase/documentation/codeconventions-135099.html#367 | ref]])
+    * tratarea cazurilor speciale ([[http://www.oracle.com/technetwork/java/javase/documentation/codeconventions-137265.html#529 | ref]])
+    * respectarea unui [[https://i.imgflip.com/1g55p6.jpg | coding style]] (nu neapărat acesta, important este să fiți __**consistenți**__ și __**consecvenți**__)
+
+<note>
+__Nu__ este necesară exportarea de documente [[https://cdn.meme.am/instances/400x/33915926.jpg | Javadoc]] deoarece toate interfețele din schelet sunt documentate.
+</note>
+
+<note important>Pentru a fi eligibil de bonus, tema trebuie să treacă testul de coding-style executat de [[ http://checkstyle.sourceforge.net/ | Checkstyle ]] [[teme:tema4#linkuri-utile| [4]]] însă dacă este picat și numărul de erori depistate depășește 30 (o treime din punctajul obținut pe testele publice), atunci se vor scădea din nota finală iar dacă punctajul este negativ, //acesta se trunchiază la 0//.
+
+Exemple:
+  * ''punctaj_total = 100'' și ''nr_erori = 200'' => ''nota_finala = 0''
+  * ''punctaj_total = 100'' și ''nr_erori = 99'' => ''nota_finala = 1''
+  * ''punctaj_total = 80'' și ''nr_erori = 30'' => ''nota_finala = 80''
+  * ''punctaj_total = 80'' și ''nr_erori = 31'' => ''nota_finala = 49''
+</note>
+
+<note warning>
+Temele vor fi testate împotriva plagiatului. Orice tentativă de copiere va duce la **anularea punctajului** de pe parcursul semestrului şi **repetarea materiei** atât pentru sursă(e) cât şi pentru destinație(ii), fără excepție.
+
+[[https://media.giphy.com/media/8abAbOrQ9rvLG/giphy.gif | You shall indeed not pass !!]]
+</note>
+
+== Structura arhivei ==
+
+Arhiva pe care o veţi urca pe **VMChecker** va trebui să conţină în directorul rădăcină:
+  * fișierul ''README''
+  * fișierul ''Main.java'' modificat (apelarea metodei ''run'' din ''Evaluator'')
+  * directorul ''homework'' cu interfețele din schelet și implementarea __**voastră**__
+
+ <note>
+ __Nu__ încărcați fișierele de test, checker-ul sau documente generate cu JavaDoc.
+ </note>
+
+== Resurse ==
+
+  * {{:teme:tema4:tema4-schelet.zip | Schelet (include ultima versiune a checker-ului)}}
+  * {{:teme:tema4:tema4-checker.zip | Checker v03-01-2017}}
+
+== Changelog ==
+  * 27.12.2016
+    * **[Cerințe]** Adăugare ''Nu aveți voie să modificați interfețele în niciun fel''
+    * **[Checker]** Testul 09, linia 1, parantezele pătrate nu erau închise corespunzător
+    * **[Precizări]** Adăugare tabel cu priorități
+    * **[Checker]** Testul 12/13, linia 4, parantezele rotunde nu erau închise corespunzător
+  * 28.12.2016
+    * **[Checker]** Verificarea și scoaterea caracterului ''\r'' (CR - carriage return)
+    * **[Schelet]** Modificarea semnăturilor metodelor din interfețele de tip factory
+    * **[Cerințe]** Adăugare nouă cerință legat de stiva/coada de operatori/operanzi
+    * **[Punctaj]** Adăugare precizare test bonus
+  * 29.12.2016
+    * **[Checker]** Rezolvare test bonus
+    * **[Punctaj]** Clarificare precizare test bonus
+  * 03.01.2017
+    * **[Precizări]** Adăugare clarificare despre păstrarea părții întregi
+    * **[Checker]** Testul 10, linia 1, parantezele pătrate nu erau închise corespunzător
+  * 15.01.2017
+    * **[Precizări]** Adăugare dată deadline hard
+
+== Linkuri utile ==
+
+  * [[http://ocw.cs.pub.ro/courses/sd-ca/2015/laboratoare/laborator-04#forma_poloneza_inversa_forma_postfixata | [1] - Forma poloneză postfixată algoritm]]
+  * [[http://www.rapidtables.com/convert/number/how-number-to-roman-numerals.htm | [2] - Transformarea din numere arabe în numere romane]]
+  * [[http://www.rapidtables.com/convert/number/how-roman-numerals-to-number.htm | [3] - Transformarea din numere romane în numere arabe]]
+  * [[http://checkstyle.sourceforge.net/ | [4] - Validarea automată a codului în Java]]
+  * [[https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882 | Clean code]]
