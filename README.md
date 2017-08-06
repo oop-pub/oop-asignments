@@ -4,7 +4,7 @@ This repository contains (and is updated each university year):
 
  * content of each homework with detailed explanations of the assignments and automated checkers
  * media, such as photos or diagrams, that are used to better portrait examples as well as sources (where need-be - e.g. the UML diagrams can be exported to XML from [draw.io](https://www.draw.io/))
- * skeletons for homeowrks which require a starting point
+ * skeletons for homeworks which require a starting point
 
 ## Repository folder structure
 
