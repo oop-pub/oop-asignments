@@ -53,7 +53,7 @@ function checkTest
 function checkBonus
 {
 	echo -ne "Bonus\t\t.....................................\t"
-	java -jar checker/checkstyle/checkstyle-7.3-all.jar -c checker/checkstyle/poo_checks.xml *.java  > checkstyle.txt
+	java -jar checker/checkstyle/checkstyle-7.3-all.jar -c checker/checkstyle/poo_checks.xml *  > checkstyle.txt
 	
 	YOUR_BONUS=`cat checkstyle.txt`
 	
