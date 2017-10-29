@@ -11,6 +11,7 @@ BAD_BONUS=0
 function cleanHomework
 {
 	find . -name "*.class" -type f -delete
+	rm -rf "$RESOURCES_DIRECTORY/out"
 }
 
 function compileHomework
@@ -21,12 +22,14 @@ function compileHomework
 	fi
 	
 	javac -g main/Main.java
+	
+	mkdir "$RESOURCES_DIRECTORY/out"
 }
 
 function checkTest
 {
     echo -ne "Test\t$1\t.....................................\t"
-    java main.Main "$RESOURCES_DIRECTORY/in/$1.in" "$RESOURCES_DIRECTORY/out/$1.out"
+    java main.Main "$RESOURCES_DIRECTORY/in/$1.in" "$RESOURCES_DIRECTORY/out/$1.out" > /dev/null
     
 	if [ $? -eq 0 ]; then
         `diff -Bw -u --ignore-all-space $RESOURCES_DIRECTORY/out/$1.out $RESOURCES_DIRECTORY/res/$1.in.res &> /dev/null`
