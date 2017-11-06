@@ -25,26 +25,26 @@ function checkForReadme
 function checkCodeStyle
 {
 	java -jar checkstyle/checkstyle-7.3-all.jar -c checkstyle/poo_checks.xml * > checkstyle.txt
-
+	
 	YOUR_BONUS=`cat checkstyle.txt`
-
+	
 	if [[ "$GOOD_BONUS" != "$YOUR_BONUS" ]]; then
 		BAD_BONUS=`cat checkstyle.txt | grep -o 'Checkstyle ends with [0-9]* errors.' | grep -o '[0-9]*'`
-
-		if [ $BAD_BONUS -lt 30 ]; then
+		
+		if [ $BAD_BONUS -le 30 ]; then
 			echo -ne "Checkstyle erros: $BAD_BONUS ............. OK\n"
 			BAD_BONUS=0
 		else
-			echo -ne "Checkstyle errors: $BAD_BONUS ............. FAILED\n"
+			echo -ne "Checkstyle erros: $BAD_BONUS ............. FAILED\n"
 		fi
 	else
-		echo -ne "Checkstyle errors: 0 ............. OK\n"
+		echo -ne "Checkstyle erros: 0 ............. OK\n"
 	fi
 }
 
 function compileHomework
 {
-	make build &>/dev/null
+	make -f MiniCADMakefile build &>/dev/null
 }
 
 function checkCat
