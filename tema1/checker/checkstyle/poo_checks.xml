@@ -39,6 +39,10 @@
         <property name="basedir" value="${basedir}"/>
     -->
 
+    <module name="SuppressionFilter">
+      <property name="file" value="checker/checkstyle/suppressions.xml" />
+    </module>
+
     <property name="fileExtensions" value="java"/>
 
     <!-- Checks that a package-info.java file exists for each package.     -->
