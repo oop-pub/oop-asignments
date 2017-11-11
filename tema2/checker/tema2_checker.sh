@@ -106,7 +106,10 @@ if [ $? -eq 0 ]; then
 
 		if [ $? -eq 0 ]; then
 
-			diff "drawing.png" "./ref/$imageName" &>/dev/null
+			convert drawing.png drawing.rgba
+			convert "./ref/$imageName" image.rgba
+			cmp {drawing,image}.rgba &>/dev/null
+
 			if [ $? -eq 0 ]; then
 				echo -ne "TEST $nrTest: ............. OK!\n"
 				goodTests=$((goodTests+1))
