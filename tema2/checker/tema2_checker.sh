@@ -54,8 +54,11 @@ function checkCat
 	java Main $readFrom &>/dev/null
 
 	if [ $? -eq 0 ]; then
+		convert drawing.png drawing.rgba
+		convert "./ref/$imageName" image.rgba
+		cmp {drawing,image}.rgba &>/dev/null		
 
-		diff "drawing.png" "./ref/$imageName" &>/dev/null
+		##diff "drawing.png" "./ref/$imageName" &>/dev/null
 		if [ $? -eq 0 ]; then
 			echo -ne "TEST 38: You succeeded in drawing a cat!\n"
 			goodTests=$((goodTests+1))
@@ -76,8 +79,11 @@ function checkOwl
 	java Main $readFrom &>/dev/null
 
 	if [ $? -eq 0 ]; then
+		convert drawing.png drawing.rgba
+		convert "./ref/$imageName" image.rgba
+		cmp {drawing,image}.rgba &>/dev/null
 
-		diff "drawing.png" "./ref/$imageName" &>/dev/null
+		##diff "drawing.png" "./ref/$imageName" &>/dev/null
 		if [ $? -eq 0 ]; then
 			echo -ne "TEST 39: You succeeded in drawing an owl!\n"
 			goodTests=$((goodTests+1))
@@ -109,6 +115,8 @@ if [ $? -eq 0 ]; then
 			convert drawing.png drawing.rgba
 			convert "./ref/$imageName" image.rgba
 			cmp {drawing,image}.rgba &>/dev/null
+
+			##diff "drawing.png" "./ref/$imageName" &>/dev/null
 
 			if [ $? -eq 0 ]; then
 				echo -ne "TEST $nrTest: ............. OK!\n"
