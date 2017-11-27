@@ -1,0 +1,12 @@
+TIME 10
+
+get in_files/1.txt
+key_misses in_files/1.txt
+
+get in_files/2.txt
+key_misses in_files/2.txt
+
+delay 50
+
+get in_files/1.txt
+key_misses in_files/1.txt

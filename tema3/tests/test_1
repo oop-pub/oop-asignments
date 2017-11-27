@@ -1,0 +1,18 @@
+FIFO 2
+
+get in_files/1.txt
+# 1 miss for the first file
+key_misses in_files/1.txt
+
+get in_files/2.txt
+# 1 miss for the second file. both files are now in the cache
+key_misses in_files/2.txt
+
+get in_files/1.txt
+
+# first file is evicted from the cache
+get in_files/3.txt
+
+get in_files/1.txt
+# 2 misses for the first file
+key_misses in_files/1.txt
