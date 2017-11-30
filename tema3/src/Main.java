@@ -1,31 +1,28 @@
 import cachingSystem.FileCache;
-import cachingSystem.classes.*;
-import cachingSystem.interfaces.CacheStalePolicy;
-import dataStructures.classes.Pair;
-import observerPattern.classes.BroadcastListener;
-import observerPattern.classes.StatsListener;
 import observerPattern.classes.KeyStatsListener;
+import observerPattern.classes.StatsListener;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Iterator;
 import java.util.List;
 
 public class Main {
-    private static void testCacheType(FileCache.CacheType type, List<String> paths) {
-        FileCache cache = FileCache.createCache(type);
-        StatsListener<String, String> listener = new StatsListener<>();
-
-        cache.addListener(listener);
-
-        for (String path : paths) {
-            String contents = cache.getFileContents(path);
-        }
-
-        System.out.println(type + ": " + listener.getHits());
-        System.out.println(type + ": " + listener.getMisses());
-        System.out.println(type + ": " + listener.getUpdates());
-    }
+    private static final String FIFO_CACHE = "FIFO";
+    private static final String LRU_CACHE = "LRU";
+    private static final String TIME_AWARE_CACHE = "TIME";
+    private static final String DELAY_COMMAND = "delay";
+    private static final String GET_COMMAND = "get";
+    private static final String TOP_HITS = "top_hits";
+    private static final String TOP_MISSES = "top_misses";
+    private static final String TOP_UPDATES = "top_updates";
+    private static final String KEY_HITS = "key_hits";
+    private static final String KEY_MISSES = "key_misses";
+    private static final String KEY_UPDATES = "key_updates";
+    private static final String TOTAL_HITS = "total_hits";
+    private static final String TOTAL_MISSES = "total_misses";
+    private static final String TOTAL_UPDATES = "total_updates";
 
     private static List<String> readLines(String filePath) {
         try {
@@ -35,16 +32,113 @@ public class Main {
         }
     }
 
+    private static FileCache createFileCache(String command) {
+        String[] tokens = command.split(" ");
+        long parameter = Long.parseLong(tokens[1]);
 
-    public static void main(String[] args) {
+        switch (tokens[0]) {
+            case FIFO_CACHE:
+                return FileCache.createCacheWithCapacity(FileCache.Strategy.FIFO, (int) parameter);
+            case LRU_CACHE:
+                return FileCache.createCacheWithCapacity(FileCache.Strategy.LRU, (int) parameter);
+            case TIME_AWARE_CACHE:
+                return FileCache.createCacheWithExpiration(parameter);
+            default:
+                throw new IllegalArgumentException("Unsupported cache type: " + tokens[0]);
+        }
+    }
+
+    public static void main(String[] args) throws InterruptedException {
         if (args.length == 0) {
-            throw new IllegalArgumentException("Missing path to input file.");
+            throw new IllegalArgumentException("Missing path to test file.");
         }
 
-        List<String> paths = readLines(args[0]);
+        List<String> commands = readLines(args[0]);
 
-        testCacheType(FileCache.CacheType.FIFO, paths);
-        testCacheType(FileCache.CacheType.LIFO, paths);
-        testCacheType(FileCache.CacheType.LRU, paths);
+        Iterator<String> commandIterator = commands.iterator();
+
+        FileCache cache = createFileCache(commandIterator.next());
+        KeyStatsListener<String, String> keyStatsListener = new KeyStatsListener<>();
+        StatsListener<String, String> statsListener = new StatsListener<>();
+
+        cache.addListener(keyStatsListener);
+        cache.addListener(statsListener);
+
+        while (commandIterator.hasNext()) {
+            String command = commandIterator.next().trim();
+            String[] tokens = command.split(" ");
+
+            if (command.isEmpty() || command.startsWith("#")) {
+                continue;
+            }
+
+            switch (tokens[0]) {
+                case DELAY_COMMAND:
+                    long parameter = Long.parseLong(tokens[1]);
+
+                    Thread.sleep(parameter);
+
+                    break;
+                case GET_COMMAND:
+                    System.out.println(cache.getFileContents(tokens[1]));
+
+                    break;
+
+                case TOP_HITS: {
+                    int length = Integer.parseInt(tokens[1]);
+
+                    /* Avoid sort differences by printing values instead of keys */
+                    for (String key : keyStatsListener.getTopHitKeys(length)) {
+                        System.out.print(keyStatsListener.getKeyHits(key) + " ");
+                    }
+
+                    System.out.println();
+
+                    break;
+                }
+                case TOP_MISSES: {
+                    int length = Integer.parseInt(tokens[1]);
+
+                    /* Avoid sort differences by printing values instead of keys */
+                    for (String key : keyStatsListener.getTopMissedKeys(length)) {
+                        System.out.print(keyStatsListener.getKeyMisses(key) + " ");
+                    }
+
+                    System.out.println();
+
+                    break;
+                }
+                case TOP_UPDATES: {
+                    int length = Integer.parseInt(tokens[1]);
+
+                    /* Avoid sort differences by printing values instead of keys */
+                    for (String key : keyStatsListener.getTopUpdatedKeys(length)) {
+                        System.out.print(keyStatsListener.getKeyUpdates(key) + " ");
+                    }
+
+                    System.out.println();
+
+                    break;
+                }
+                case KEY_HITS:
+                    System.out.println(keyStatsListener.getKeyHits(tokens[1]));
+                    break;
+                case KEY_MISSES:
+                    System.out.println(keyStatsListener.getKeyMisses(tokens[1]));
+                    break;
+                case KEY_UPDATES:
+                    System.out.println(keyStatsListener.getKeyUpdates(tokens[1]));
+                    break;
+                case TOTAL_HITS:
+                    System.out.println(statsListener.getHits());
+                    break;
+                case TOTAL_MISSES:
+                    System.out.println(statsListener.getMisses());
+                    break;
+                case TOTAL_UPDATES:
+                    System.out.println(statsListener.getUpdates());
+                    break;
+            }
+        }
     }
 }
