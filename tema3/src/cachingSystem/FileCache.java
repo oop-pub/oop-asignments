@@ -74,6 +74,10 @@ public class FileCache {
         return fileContents;
     }
 
+    public void putFileContents(String path, String contents) {
+        dataCache.put(path, contents);
+    }
+
     public void addListener(CacheListener<String, String> listener) {
         broadcastListener.addListener(listener);
     }

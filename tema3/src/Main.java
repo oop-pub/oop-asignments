@@ -14,6 +14,7 @@ public class Main {
     private static final String TIME_AWARE_CACHE = "TIME";
     private static final String DELAY_COMMAND = "delay";
     private static final String GET_COMMAND = "get";
+    private static final String PUT_COMMAND = "put";
     private static final String TOP_HITS = "top_hits";
     private static final String TOP_MISSES = "top_misses";
     private static final String TOP_UPDATES = "top_updates";
@@ -83,7 +84,10 @@ public class Main {
                     System.out.println(cache.getFileContents(tokens[1]));
 
                     break;
+                case PUT_COMMAND:
+                    cache.putFileContents(tokens[1], tokens[2]);
 
+                    break;
                 case TOP_HITS: {
                     int length = Integer.parseInt(tokens[1]);
 
