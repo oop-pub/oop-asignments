@@ -3,10 +3,8 @@ package cachingSystem.classes;
 import cachingSystem.interfaces.Cache;
 import dataStructures.classes.Pair;
 
-import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.Map;
-import java.util.Stack;
 
 /**
  * The FIFOCache class should be considered a blackbox. All you need is its API!
