@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 import java.util.Iterator;
 import java.util.List;
 
-public class Main {
+public final class Main {
     private static final String FIFO_CACHE = "FIFO";
     private static final String LRU_CACHE = "LRU";
     private static final String TIME_AWARE_CACHE = "TIME";
@@ -24,6 +24,10 @@ public class Main {
     private static final String TOTAL_HITS = "total_hits";
     private static final String TOTAL_MISSES = "total_misses";
     private static final String TOTAL_UPDATES = "total_updates";
+
+    private Main() {
+
+    }
 
     private static List<String> readLines(String filePath) {
         try {
@@ -88,42 +92,39 @@ public class Main {
                     cache.putFileContents(tokens[1], tokens[2]);
 
                     break;
-                case TOP_HITS: {
-                    int length = Integer.parseInt(tokens[1]);
+                case TOP_HITS:
+                    int topHitsLength = Integer.parseInt(tokens[1]);
 
                     /* Avoid sort differences by printing values instead of keys */
-                    for (String key : keyStatsListener.getTopHitKeys(length)) {
+                    for (String key : keyStatsListener.getTopHitKeys(topHitsLength)) {
                         System.out.print(keyStatsListener.getKeyHits(key) + " ");
                     }
 
                     System.out.println();
 
                     break;
-                }
-                case TOP_MISSES: {
-                    int length = Integer.parseInt(tokens[1]);
+                case TOP_MISSES:
+                    int topMissesLength = Integer.parseInt(tokens[1]);
 
                     /* Avoid sort differences by printing values instead of keys */
-                    for (String key : keyStatsListener.getTopMissedKeys(length)) {
+                    for (String key : keyStatsListener.getTopMissedKeys(topMissesLength)) {
                         System.out.print(keyStatsListener.getKeyMisses(key) + " ");
                     }
 
                     System.out.println();
 
                     break;
-                }
-                case TOP_UPDATES: {
-                    int length = Integer.parseInt(tokens[1]);
+                case TOP_UPDATES:
+                    int topUpdatesLength = Integer.parseInt(tokens[1]);
 
                     /* Avoid sort differences by printing values instead of keys */
-                    for (String key : keyStatsListener.getTopUpdatedKeys(length)) {
+                    for (String key : keyStatsListener.getTopUpdatedKeys(topUpdatesLength)) {
                         System.out.print(keyStatsListener.getKeyUpdates(key) + " ");
                     }
 
                     System.out.println();
 
                     break;
-                }
                 case KEY_HITS:
                     System.out.println(keyStatsListener.getKeyHits(tokens[1]));
                     break;
@@ -142,6 +143,8 @@ public class Main {
                 case TOTAL_UPDATES:
                     System.out.println(statsListener.getUpdates());
                     break;
+                default:
+                    continue;
             }
         }
     }

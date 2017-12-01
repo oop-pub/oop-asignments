@@ -5,7 +5,8 @@ import cachingSystem.interfaces.CacheStalePolicy;
 import observerPattern.interfaces.CacheListener;
 
 /**
- * Abstract class that adds support for listeners and stale element policies to the Cache interface
+ * Abstract class that adds support for listeners and stale element policies to the Cache
+ * interface.
  *
  * @param <K> the key type
  * @param <V> the value type

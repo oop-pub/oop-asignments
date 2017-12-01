@@ -1,22 +1,23 @@
 package cachingSystem;
 
-import cachingSystem.classes.*;
+import cachingSystem.classes.ObservableCache;
+import cachingSystem.classes.ObservableFIFOCache;
+import cachingSystem.classes.LRUCache;
+import cachingSystem.classes.TimeAwareCache;
 import cachingSystem.interfaces.CacheStalePolicy;
 import dataStructures.classes.Pair;
 import observerPattern.classes.BroadcastListener;
 import observerPattern.interfaces.CacheListener;
 
-import java.io.File;
-import java.io.FileInputStream;
-
-public class FileCache {
+public final class FileCache {
 
     public enum Strategy {
         FIFO,
         LRU,
     }
 
-    public static cachingSystem.FileCache createCacheWithCapacity(cachingSystem.FileCache.Strategy strategy, int capacity) {
+    public static cachingSystem.FileCache createCacheWithCapacity(
+            cachingSystem.FileCache.Strategy strategy, int capacity) {
         ObservableCache<String, String> dataCache;
 
         switch (strategy) {
