@@ -26,6 +26,7 @@ function checkCodeStyle
         fi
     else
         echo -ne "Checkstyle errors: 0 ............. OK\n"
+        BAD_BONUS=1
     fi
 }
 
