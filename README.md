@@ -43,7 +43,7 @@ old
 * **[3]** - folder with images and diagrams [if need-be]
 * **[4]** - folder with the skeleton code [if need-be]
 * **[5]** - folder with sources of the images/diagrams [if need-be]
-* **[6]** - file with homework details and exercises -- docuwiki code (**must** be the same as the folder name)
+* **[6]** - file with homework details and exercises - docuwiki code (**must** be the same as the folder name)
 * **[7]** - folder with the university year in which the homework was due
 
 ## Contributing
