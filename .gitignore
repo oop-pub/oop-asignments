@@ -70,3 +70,6 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
+# Exclude this from ignore
+!checkstyle*.jar
