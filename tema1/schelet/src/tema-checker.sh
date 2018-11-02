@@ -100,7 +100,7 @@ function checkBonus
 
         WIZARD_SCORE=$(cat $OUT_TEST | grep $WIZARD_OUT | grep -o '[0-9]*')
 #        WIZARD_SCORE="137"
-        PLAYER_SCORE=$(cat $OUT_TEST | grep PLAYER_OUT | grep -o '[0-9]*')
+        PLAYER_SCORE=$(cat $OUT_TEST | grep $PLAYER_OUT | grep -o '[0-9]*')
 #        PLAYER_SCORE="109"
 
         ROUND1_SCORE=$(($WIZARD_SCORE-PLAYER_SCORE))
@@ -127,7 +127,7 @@ function checkBonus
 
             WIZARD_SCORE=$(cat $OUT_TEST | grep $WIZARD_OUT | grep -o '[0-9]*')
 #            WIZARD_SCORE="128"
-            PLAYER_SCORE=$(cat $OUT_TEST | grep PLAYER_OUT | grep -o '[0-9]*')
+            PLAYER_SCORE=$(cat $OUT_TEST | grep $PLAYER_OUT | grep -o '[0-9]*')
 #            PLAYER_SCORE="109"
 
             ROUND2_SCORE=$(($WIZARD_SCORE-PLAYER_SCORE))
