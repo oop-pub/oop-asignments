@@ -1,0 +1,6 @@
+test1 -> touch print
+test2 -> touch writetofile print
+test3 -> touch writetofile cat print
+test4 -> touch writetofile cat print
+test5 -> mkdir cd touch print
+test6 -> rmdir cd touch print rm

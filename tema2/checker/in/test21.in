@@ -1,0 +1,27 @@
+mkdir aa
+cd aa
+touch a
+cd ..
+print
+rmdir aa
+mkdir bb
+cd bb
+touch b
+cd ..
+print
+rmdir bb
+mkdir cc
+cd cc
+touch c
+cd ..
+print
+rmdir cc
+mkdir dd
+cd dd
+touch d
+cd ..
+print
+rmdir dd
+rm a
+print
+exit

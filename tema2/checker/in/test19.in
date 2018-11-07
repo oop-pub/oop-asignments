@@ -1,0 +1,93 @@
+touch a
+touch b
+touch c
+touch d
+touch f
+touch g
+touch h
+touch i
+touch j
+touch k
+touch l
+touch m
+touch n
+touch o
+touch p
+ls 
+writetofile a a
+cat a
+rm a
+cat a
+ls 
+writetofile b b
+cat b
+rm b
+cat b
+ls 
+writetofile c c
+cat c
+rm c
+cat c
+ls 
+writetofile d d
+cat d
+rm d
+cat d
+ls 
+writetofile f f
+cat f
+rm f
+cat f
+ls 
+writetofile g g
+cat g
+rm g
+cat g
+ls 
+writetofile h h
+cat h
+rm h
+cat h
+ls 
+writetofile i i
+cat i
+rm i
+cat i
+ls 
+writetofile j j
+cat j
+rm j
+cat j
+ls 
+writetofile k k
+cat k
+rm k
+cat k
+ls 
+writetofile l l
+cat l
+rm l
+cat l
+ls 
+writetofile m m
+cat m
+rm m
+cat m
+ls 
+writetofile n n
+cat n
+rm n
+cat n
+ls 
+writetofile o o
+cat o
+rm o
+cat o
+ls 
+writetofile p p
+cat p
+rm p
+cat p
+ls 
+ls 
+exit

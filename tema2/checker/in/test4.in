@@ -1,0 +1,12 @@
+vcs branch a
+vcs status
+touch b
+vcs checkout a
+vcs commit -m a
+vcs status
+touch c
+vcs checkout -c 1
+vcs commit -m d
+vcs checkout -c 1
+vcs status
+exit

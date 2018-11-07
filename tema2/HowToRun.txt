@@ -1,0 +1,13 @@
+
+Checkerul se ruleaza prin comanda:
+./tema-checker-local.sh
+
+Pentru a testa doar operatiile de vcs:
+./tema-checker-local.sh vcs
+
+Pentru a testa doar operatiile de fs:
+./tema-checker-local.sh fs
+
+In folderul checker exista 2 fisiere care descriu ce operatii se ruleaza per fiecare test:
+./checker/VCSTestsDescription
+./checker/FSTestsDescription

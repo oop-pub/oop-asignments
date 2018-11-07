@@ -31,7 +31,7 @@ public final class OperationParser {
         // TODO parse vcs operations
 
         return operationFactory
-                .createOperation(OperationType.FILESYSTEM_INVALID_OPERATION, operationArgs);
+                        .createOperation(OperationType.FILESYSTEM_INVALID_OPERATION, operationArgs);
     }
 
     private AbstractOperation parseFileSystemOperation(String newOperation,

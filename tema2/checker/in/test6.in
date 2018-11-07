@@ -1,0 +1,16 @@
+vcs branch a
+vcs status
+vcs branch a
+vcs branch master
+vcs status
+vcs master
+vcs branch b
+vcs status
+vcs branch master
+vcs status
+vcs branch c
+vcs status
+vcs branch c
+vcs branch master
+vcs status
+exit

@@ -1,0 +1,15 @@
+test1 -> touch print status
+test2 -> touch print writetofile status
+test3 -> branch status
+test4 -> checkout branch error
+test5 -> branch status
+test6 -> branch eroare status
+test7 -> branch eroare
+test8 -> commit status
+test9 -> commit status checkout -c
+test10 -> commit log
+test11 -> commit log rollback
+test12 -> checkout branch
+test13 -> commit error
+test14 -> checkout branch error
+test15 -> checkout -c error

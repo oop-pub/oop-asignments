@@ -1,0 +1,15 @@
+touch a
+touch b
+print
+mkdir aa
+cd aa
+touch a
+touch a
+cd ..
+mkdir bb
+cd bb
+touch b
+touch b
+cd ..
+print
+exit
