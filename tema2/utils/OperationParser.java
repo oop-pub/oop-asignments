@@ -30,7 +30,8 @@ public final class OperationParser {
                                                 ArrayList<String> operationArgs) {
         // TODO parse vcs operations
 
-        return null;
+        return operationFactory
+                        .createOperation(OperationType.FILESYSTEM_INVALID_OPERATION, operationArgs);
     }
 
     private AbstractOperation parseFileSystemOperation(String newOperation,
