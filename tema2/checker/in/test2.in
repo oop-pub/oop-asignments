@@ -1,0 +1,34 @@
+touch a
+touch b
+touch c
+touch d
+touch f
+touch g
+touch h
+touch i
+touch j
+touch k
+touch l
+touch m
+touch n
+touch o
+touch p
+print
+writetofile a a
+writetofile b b
+writetofile c c
+writetofile d d
+writetofile f f
+writetofile g g
+writetofile h h
+writetofile i i
+writetofile j j
+writetofile k k
+writetofile l l
+writetofile m m
+writetofile n n
+writetofile o o
+writetofile p p
+print
+vcs status
+exit

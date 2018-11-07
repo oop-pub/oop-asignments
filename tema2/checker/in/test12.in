@@ -1,0 +1,17 @@
+vcs branch a
+vcs status
+vcs checkout a
+vcs status
+vcs checkout master
+vcs status
+vcs branch b
+vcs status
+vcs checkout b
+vcs status
+vcs branch c
+vcs status
+vcs checkout c
+vcs status
+vcs checkout master
+vcs status
+exit

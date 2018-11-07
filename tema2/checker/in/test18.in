@@ -1,0 +1,48 @@
+touch a
+touch b
+touch c
+touch d
+touch f
+touch g
+touch h
+touch i
+touch j
+touch k
+touch l
+touch m
+touch n
+touch o
+touch p
+print
+writetofile a a
+cat a
+writetofile b b
+cat b
+writetofile c c
+cat c
+writetofile d d
+cat d
+writetofile f f
+cat f
+writetofile g g
+cat g
+writetofile h h
+cat h
+writetofile i i
+cat i
+writetofile j j
+cat j
+writetofile k k
+cat k
+writetofile l l
+cat l
+writetofile m m
+cat m
+writetofile n n
+cat n
+writetofile o o
+cat o
+writetofile p p
+cat p
+print
+exit

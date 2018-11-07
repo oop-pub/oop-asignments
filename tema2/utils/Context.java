@@ -72,6 +72,7 @@ public final class Context {
 
     /**
      * Specifies if an operation is vcs trackable or not.
+     * You can use it when you implement rollback/checkout -c functionalities.
      * @param abstractOperation the operation
      * @return whether it's trackable or not
      */

@@ -1,0 +1,21 @@
+touch a
+touch b
+vcs commit -m Add a and b files.
+touch c
+touch d
+vcs commit -m Add c and d files.
+touch f
+touch g
+touch h
+touch i
+touch j
+touch k
+touch l
+touch m
+touch n
+touch o
+touch p
+print
+vcs commit -m Add the rest of files.
+vcs log
+exit
