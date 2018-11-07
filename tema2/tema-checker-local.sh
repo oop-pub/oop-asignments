@@ -16,7 +16,7 @@ function checkForReadme
 {
 	echo -ne "Checking for README: "
 	readme=$( find -iname "README" -size +0c | wc -l )
-	if [[ $readFrom -eq  1 ]]; then
+	if [[ $readme -eq  1 ]]; then
 		echo -ne "- OK! \n"
 		existingReadme=10
 	else
