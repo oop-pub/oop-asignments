@@ -41,9 +41,9 @@ function checkCodeStyle
 {
 	java -jar checker/checkstyle/checkstyle-7.3-all.jar -c checker/checkstyle/poo_checks.xml * > checkstyle.txt
 
-	YOUR_BONUS=`cat checkstyle.txt`
+	YOUR_CODE_STYLE=`cat checkstyle.txt`
 
-	if [[ "$GOOD_BONUS" != "$YOUR_BONUS" ]]; then
+	if [[ "$GOOD_BONUS" != "$YOUR_CODE_STYLE" ]]; then
 		BAD_BONUS=`cat checkstyle.txt | grep -o 'Checkstyle ends with [0-9]* errors.' | grep -o '[0-9]*'`
 
 		if [[ $BAD_BONUS -le 30 ]]; then
