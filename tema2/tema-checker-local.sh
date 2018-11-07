@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-GOOD_BONUS=`echo -ne "Starting audit...\nAudit done.\n"`
-BAD_BONUS=0
+GOOD_CODE_STYLE=`echo -ne "Starting audit...\nAudit done.\n"`
+BAD_CODE_STYLE=0
 totalTests=21
 startTest=1
 goodTests=0
@@ -43,17 +43,17 @@ function checkCodeStyle
 
 	YOUR_CODE_STYLE=`cat checkstyle.txt`
 
-	if [[ "$GOOD_BONUS" != "$YOUR_CODE_STYLE" ]]; then
-		BAD_BONUS=`cat checkstyle.txt | grep -o 'Checkstyle ends with [0-9]* errors.' | grep -o '[0-9]*'`
+	if [[ "$GOOD_CODE_STYLE" != "$YOUR_CODE_STYLE" ]]; then
+		BAD_CODE_STYLE=`cat checkstyle.txt | grep -o 'Checkstyle ends with [0-9]* errors.' | grep -o '[0-9]*'`
 
-		if [[ $BAD_BONUS -le 30 ]]; then
-			echo -ne "Checkstyle erros: $BAD_BONUS .. OK!\n"
-			BAD_BONUS=0
+		if [[ $BAD_CODE_STYLE -le 30 ]]; then
+			echo -ne "Checkstyle erros: $BAD_CODE_STYLE .. OK!\n"
+			BAD_CODE_STYLE=0
 		else
-			echo -ne "Checkstyle erros: $BAD_BONUS .. FAILED!\n"
+			echo -ne "Checkstyle erros: $BAD_CODE_STYLE .. FAILED!\n"
 		fi
-                if [[ $BAD_BONUS -ge 30 ]]; then
-                    BAD_BONUS=`expr $BAD_BONUS - 30`
+                if [[ $BAD_CODE_STYLE -ge 30 ]]; then
+                    BAD_CODE_STYLE=`expr $BAD_CODE_STYLE - 30`
                 fi
 	else
 		echo -ne "Checkstyle erros: 0 .. OK!\n"
@@ -132,7 +132,7 @@ if [ $? -eq 0 ]; then
 	checkCodeStyle
 
 	finalPoints=$((goodTests*90/15))
-	finalPoints=$((finalPoints - BAD_BONUS + existingReadme))
+	finalPoints=$((finalPoints - BAD_CODE_STYLE + existingReadme))
 
 	if [[ $badHomework -eq 1 ]];then
 		finalPoints=0
