@@ -25,7 +25,7 @@ function compileHomework
 function checkTest
 {
     echo -ne "Test\t$1\t.....................................\t"
-    java -cp ".:bin/:jackson-core-2.9.7.jar:jackson-databind-2.9.7.jar:jackson-annotations-2.9.7.jar" Main "$RESOURCES_DIRECTORY/tests/$1.in" > "$RESOURCES_DIRECTORY/out/$1.out"
+    java -cp ".:bin/:jackson-core-2.9.7.jar:jackson-databind-2.9.7.jar:jackson-annotations-2.9.7.jar" Main "$RESOURCES_DIRECTORY/tests/input/$1.in" > "$RESOURCES_DIRECTORY/out/$1.out"
 
 	if [[ $? -eq 0 ]]; then
         `diff -Bw -u --ignore-all-space ${RESOURCES_DIRECTORY}/out/$1.out ${RESOURCES_DIRECTORY}/tests/ref/$1.ref &> /dev/null`
