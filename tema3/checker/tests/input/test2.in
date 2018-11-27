@@ -1,0 +1,189 @@
+{
+  "simulationLength": 5,
+  "nurses": 4,
+  "investigators": 2,
+  "doctors": [
+    {
+      "type": "CARDIOLOGIST",
+      "isSurgeon": true,
+      "maxForTreatment": 20
+    },
+    {
+      "type": "ER_PHYSICIAN",
+      "isSurgeon": true,
+      "maxForTreatment": 30
+    },
+    {
+      "type": "GASTROENTEROLOGIST",
+      "isSurgeon": false,
+      "maxForTreatment": 55
+    },
+    {
+      "type": "GENERAL_SURGEON",
+      "isSurgeon": true,
+      "maxForTreatment": 35
+    },
+    {
+      "type": "INTERNIST",
+      "isSurgeon": false,
+      "maxForTreatment": 60
+    },
+    {
+      "type": "NEUROLOGIST",
+      "isSurgeon": true,
+      "maxForTreatment": 40
+    }
+  ],
+"incomingPatients":[
+    {
+      "id": 0,
+      "name": "Webb Hall",
+      "age": 56,
+      "time": 0,
+      "state": {
+        "illnessName": "HIGH_FEVER",
+        "severity": 31
+      }
+    },
+    {
+      "id": 1,
+      "name": "Bradley Thomas",
+      "age": 43,
+      "time": 0,
+      "state": {
+        "illnessName": "BURNS",
+        "severity": 40
+      }
+    },
+    {
+      "id": 2,
+      "name": "Wilson Carter",
+      "age": 28,
+      "time": 0,
+      "state": {
+        "illnessName": "HIGH_FEVER",
+        "severity": 84
+      }
+    },
+    {
+      "id": 3,
+      "name": "Owen Nelson",
+      "age": 57,
+      "time": 1,
+      "state": {
+        "illnessName": "SPORT_INJURIES",
+        "severity": 5
+      }
+    },
+    {
+      "id": 4,
+      "name": "Harrison Carter",
+      "age": 36,
+      "time": 2,
+      "state": {
+        "illnessName": "FOOD_POISONING",
+        "severity": 86
+      }
+    },
+    {
+      "id": 5,
+      "name": "Stevens Robinson",
+      "age": 18,
+      "time": 2,
+      "state": {
+        "illnessName": "CAR_ACCIDENT",
+        "severity": 38
+      }
+    },
+    {
+      "id": 6,
+      "name": "Lane Carter",
+      "age": 64,
+      "time": 2,
+      "state": {
+        "illnessName": "HIGH_FEVER",
+        "severity": 63
+      }
+    },
+    {
+      "id": 7,
+      "name": "Bennett Sanchez",
+      "age": 12,
+      "time": 2,
+      "state": {
+        "illnessName": "FOOD_POISONING",
+        "severity": 21
+      }
+    },
+    {
+      "id": 8,
+      "name": "Ryan Lee",
+      "age": 31,
+      "time": 2,
+      "state": {
+        "illnessName": "CAR_ACCIDENT",
+        "severity": 88
+      }
+    },
+    {
+      "id": 9,
+      "name": "Green Ramirez",
+      "age": 58,
+      "time": 3,
+      "state": {
+        "illnessName": "SPORT_INJURIES",
+        "severity": 19
+      }
+    },
+    {
+      "id": 10,
+      "name": "Patel Brooks",
+      "age": 41,
+      "time": 3,
+      "state": {
+        "illnessName": "HEART_ATTACK",
+        "severity": 48
+      }
+    },
+    {
+      "id": 11,
+      "name": "Bell Ross",
+      "age": 37,
+      "time": 3,
+      "state": {
+        "illnessName": "HEART_DISEASE",
+        "severity": 74
+      }
+    },
+    {
+      "id": 12,
+      "name": "Andrews Phillips",
+      "age": 13,
+      "time": 3,
+      "state": {
+        "illnessName": "CUTS",
+        "severity": 82
+      }
+    },
+    {
+      "id": 13,
+      "name": "Williamson Thomas",
+      "age": 27,
+      "time": 3,
+      "state": {
+        "illnessName": "BURNS",
+        "severity": 42
+      }
+    },
+    {
+      "id": 14,
+      "name": "Russell Hughes",
+      "age": 51,
+      "time": 4,
+      "state": {
+        "illnessName": "CAR_ACCIDENT",
+        "severity": 88
+      }
+    }
+  ]
+}

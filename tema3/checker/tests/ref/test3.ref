@@ -1,0 +1,213 @@
+~~~~ Patients in round 1 ~~~~
+Barnes Carter is in examinations queue
+Collins Price is in examinations queue
+Foster Murphy is in examinations queue
+
+~~~~ Nurses treat patients ~~~~
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+
+~~~~ Patients in round 2 ~~~~
+Barnes Carter is hospitalized by general surgeon
+Collins Price is operated by erphysician
+Fisher Sanders is in examinations queue
+Foster Murphy is operated by erphysician
+James Anderson is sent home by general surgeon
+James Patterson is in examinations queue
+Martin Bennett is in examinations queue
+Rogers Perry is sent home by erphysician
+Rose Baker is sent home by internist
+Simpson Griffin is in examinations queue
+Stewart Hayes is in examinations queue
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Barnes Carter and patient has 11 more rounds
+Nurse 1 treated Collins Price and patient has 5 more rounds
+Nurse 2 treated Foster Murphy and patient has 5 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+ERPhysician says that Collins Price should remain in hospital
+ERPhysician says that Foster Murphy should remain in hospital
+General Surgeon says that Barnes Carter should remain in hospital
+
+~~~~ Patients in round 3 ~~~~
+Barnes Carter is hospitalized by general surgeon
+Collins Price is operated by erphysician
+Fisher Sanders is transferred to other hospital
+Foster Murphy is operated by erphysician
+Gordon James is in examinations queue
+James Anderson is sent home by general surgeon
+James Patterson is sent home by erphysician
+Martin Bennett is operated by general surgeon
+Poole White is in examinations queue
+Rogers Perry is sent home by erphysician
+Rose Baker is sent home by internist
+Simpson Griffin is sent home by internist
+Stewart Hayes is operated by erphysician
+Stone Ward is in examinations queue
+Wells Roberts is in examinations queue
+Wilson Phillips is in examinations queue
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Barnes Carter and patient has 10 more rounds
+Nurse 1 treated Collins Price and patient has 4 more rounds
+Nurse 2 treated Foster Murphy and patient has 4 more rounds
+Nurse 3 treated Martin Bennett and patient has 12 more rounds
+Nurse 4 treated Stewart Hayes and patient has 5 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+ERPhysician says that Collins Price should remain in hospital
+ERPhysician says that Foster Murphy should remain in hospital
+ERPhysician says that Stewart Hayes should remain in hospital
+General Surgeon says that Barnes Carter should remain in hospital
+General Surgeon says that Martin Bennett should remain in hospital
+
+~~~~ Patients in round 4 ~~~~
+Barnes Carter is hospitalized by general surgeon
+Collins Price is operated by erphysician
+Edwards Jenkins is in examinations queue
+Fisher Sanders is transferred to other hospital
+Foster Murphy is operated by erphysician
+Gordon James is hospitalized by internist
+James Anderson is sent home by general surgeon
+James Patterson is sent home by erphysician
+Johnston Turner is in examinations queue
+Jones Russell is sent home by internist
+Martin Bennett is operated by general surgeon
+Poole White is hospitalized by erphysician
+Rogers Perry is sent home by erphysician
+Rose Baker is sent home by internist
+Simpson Griffin is sent home by internist
+Stewart Hayes is operated by erphysician
+Stone Ward is hospitalized by gastroenterologist
+Wells Roberts is operated by general surgeon
+Wilson Phillips is operated by erphysician
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Barnes Carter and patient has 9 more rounds
+Nurse 1 treated Collins Price and patient has 3 more rounds
+Nurse 2 treated Foster Murphy and patient has 3 more rounds
+Nurse 3 treated Gordon James and patient has 2 more rounds
+Nurse 4 treated Martin Bennett and patient has 11 more rounds
+Nurse 5 treated Poole White and patient has 5 more rounds
+Nurse 6 treated Stewart Hayes and patient has 4 more rounds
+Nurse 7 treated Stone Ward and patient has 24 more rounds
+Nurse 8 treated Wells Roberts and patient has 11 more rounds
+Nurse 9 treated Wilson Phillips and patient has 5 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+ERPhysician sent Collins Price home
+ERPhysician sent Foster Murphy home
+ERPhysician says that Poole White should remain in hospital
+ERPhysician says that Stewart Hayes should remain in hospital
+ERPhysician says that Wilson Phillips should remain in hospital
+General Surgeon sent Barnes Carter home
+General Surgeon says that Martin Bennett should remain in hospital
+General Surgeon says that Wells Roberts should remain in hospital
+Internist says that Gordon James should remain in hospital
+Gastroenterologist says that Stone Ward should remain in hospital
+
+~~~~ Patients in round 5 ~~~~
+Barnes Carter is sent home after treatment
+Collins Price is sent home after treatment
+Edwards Jenkins is operated by general surgeon
+Evans Richardson is in examinations queue
+Fisher Sanders is transferred to other hospital
+Foster Murphy is sent home after treatment
+Gordon James is hospitalized by internist
+Green Foster is in examinations queue
+James Anderson is sent home by general surgeon
+James Patterson is sent home by erphysician
+Johnston Turner is sent home by cardiologist
+Jones Russell is sent home by internist
+Martin Bennett is operated by general surgeon
+Mills Cooper is in examinations queue
+Moore King is in examinations queue
+Poole White is hospitalized by erphysician
+Rogers Perry is sent home by erphysician
+Rose Baker is sent home by internist
+Simpson Griffin is sent home by internist
+Stewart Hayes is operated by erphysician
+Stone Ward is hospitalized by gastroenterologist
+Wells Roberts is operated by general surgeon
+Williams Anderson is in examinations queue
+Wilson Phillips is operated by erphysician
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Edwards Jenkins and patient has 14 more rounds
+Nurse 1 treated Gordon James and patient has 1 more round
+Nurse 2 treated Martin Bennett and patient has 10 more rounds
+Nurse 3 treated Poole White and patient has 4 more rounds
+Nurse 4 treated Stewart Hayes and patient has 3 more rounds
+Nurse 5 treated Stone Ward and patient has 23 more rounds
+Nurse 6 treated Wells Roberts and patient has 10 more rounds
+Nurse 7 treated Wilson Phillips and patient has 4 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+ERPhysician says that Poole White should remain in hospital
+ERPhysician sent Stewart Hayes home
+ERPhysician says that Wilson Phillips should remain in hospital
+General Surgeon says that Edwards Jenkins should remain in hospital
+General Surgeon sent Martin Bennett home
+General Surgeon says that Wells Roberts should remain in hospital
+Internist says that Gordon James should remain in hospital
+Gastroenterologist says that Stone Ward should remain in hospital
+
+~~~~ Patients in round 6 ~~~~
+Barnes Carter is sent home after treatment
+Collins Price is sent home after treatment
+Edwards Jenkins is operated by general surgeon
+Evans Richardson is operated by general surgeon
+Fisher Sanders is transferred to other hospital
+Foster Murphy is sent home after treatment
+Gill Lee is in examinations queue
+Gordon James is hospitalized by internist
+Graham Young is in examinations queue
+Green Foster is hospitalized by general surgeon
+Holmes Long is in examinations queue
+James Anderson is sent home by general surgeon
+James Patterson is sent home by erphysician
+Johnston Taylor is in examinations queue
+Johnston Turner is sent home by cardiologist
+Jones Russell is sent home by internist
+Martin Bennett is sent home after treatment
+Mills Cooper is hospitalized by erphysician
+Mills Green is sent home by internist
+Moore King is hospitalized by erphysician
+Poole White is hospitalized by erphysician
+Rogers Perry is sent home by erphysician
+Rose Baker is sent home by internist
+Scott Reed is sent home by gastroenterologist
+Simpson Griffin is sent home by internist
+Stewart Hayes is sent home after treatment
+Stone Ward is hospitalized by gastroenterologist
+Wells Roberts is operated by general surgeon
+Williams Anderson is hospitalized by internist
+Wilson Phillips is operated by erphysician
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Edwards Jenkins and patient has 13 more rounds
+Nurse 1 treated Evans Richardson and patient has 14 more rounds
+Nurse 2 treated Gordon James and patient has 0 more rounds
+Nurse 3 treated Green Foster and patient has 10 more rounds
+Nurse 4 treated Mills Cooper and patient has 4 more rounds
+Nurse 5 treated Moore King and patient has 6 more rounds
+Nurse 6 treated Poole White and patient has 3 more rounds
+Nurse 7 treated Stone Ward and patient has 22 more rounds
+Nurse 8 treated Wells Roberts and patient has 9 more rounds
+Nurse 9 treated Williams Anderson and patient has 2 more rounds
+Nurse 0 treated Wilson Phillips and patient has 3 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+ERPhysician says that Mills Cooper should remain in hospital
+ERPhysician says that Moore King should remain in hospital
+ERPhysician sent Poole White home
+ERPhysician sent Wilson Phillips home
+General Surgeon says that Edwards Jenkins should remain in hospital
+General Surgeon says that Evans Richardson should remain in hospital
+General Surgeon says that Green Foster should remain in hospital
+General Surgeon sent Wells Roberts home
+Internist sent Gordon James home
+Internist says that Williams Anderson should remain in hospital
+Gastroenterologist sent Stone Ward home
+

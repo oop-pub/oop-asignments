@@ -1,0 +1,19 @@
+Tema 3 - ER Simulator
+
+Enunt:
+http://elf.cs.pub.ro/poo/teme/tema3
+
+Rulare checker pe linux si mac:
+./tema-checker.sh
+
+Rulare checker pe windows:
+./tema-checker-win.sh
+
+Pe windows scriptul nu poate calcula scorul.
+
+Precizari implementare:
+* Fisierele sursa trebuie sa se afle intr-un director numit src/.
+* Entry-point-ul in tema il constituie clasa Main.java. Ea primeste ca parametru un fisier de test.
+* Puteti organiza restul surselor voastre in cate pachete considerati necesar.
+
+

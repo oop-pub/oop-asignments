@@ -1,0 +1,56 @@
+~~~~ Patients in round 1 ~~~~
+Fox Kelly is in examinations queue
+Reid Baker is sent home by erphysician
+
+~~~~ Nurses treat patients ~~~~
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+
+~~~~ Patients in round 2 ~~~~
+Cooper Lee is in examinations queue
+Fox Kelly is transferred to other hospital
+Macdonald Cooper is in examinations queue
+Reid Baker is sent home by erphysician
+Rogers Garcia is sent home by erphysician
+
+~~~~ Nurses treat patients ~~~~
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+
+~~~~ Patients in round 3 ~~~~
+Cooper Lee is operated by cardiologist
+Fox Kelly is transferred to other hospital
+Grant Anderson is in examinations queue
+Macdonald Cooper is transferred to other hospital
+Reid Baker is sent home by erphysician
+Rogers Garcia is sent home by erphysician
+Ward Sanders is in examinations queue
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Cooper Lee and patient has 31 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+Cardiologist says that Cooper Lee should remain in hospital
+
+~~~~ Patients in round 4 ~~~~
+Cooper Lee is operated by cardiologist
+Fisher Coleman is in examinations queue
+Fox Kelly is transferred to other hospital
+Grant Anderson is operated by erphysician
+Macdonald Cooper is transferred to other hospital
+Matthews Perry is in investigations queue
+Reid Baker is sent home by erphysician
+Robinson Gonzalez is in examinations queue
+Rogers Garcia is sent home by erphysician
+Ward Sanders is operated by cardiologist
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Cooper Lee and patient has 30 more rounds
+Nurse 1 treated Grant Anderson and patient has 5 more rounds
+Nurse 2 treated Ward Sanders and patient has 32 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+Cardiologist says that Cooper Lee should remain in hospital
+Cardiologist says that Ward Sanders should remain in hospital
+ERPhysician says that Grant Anderson should remain in hospital
+
