@@ -1,0 +1,802 @@
+~~~~ Patients in round 1 ~~~~
+Armstrong Johnson is in examinations queue
+Baker Ramirez is sent home by internist
+Bradley Clark is in examinations queue
+Collins Simmons is sent home by erphysician
+Collins Young is sent home by internist
+Griffiths Taylor is in examinations queue
+Hill Hughes is sent home by general surgeon
+King Washington is sent home by general surgeon
+West Murphy is in examinations queue
+
+~~~~ Nurses treat patients ~~~~
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+
+~~~~ Patients in round 2 ~~~~
+Armstrong Johnson is sent home by cardiologist
+Baker Ramirez is sent home by internist
+Bradley Clark is sent home by cardiologist
+Collins Simmons is sent home by erphysician
+Collins Young is sent home by internist
+Gardner Hughes is in examinations queue
+Griffiths Taylor is operated by erphysician
+Hill Hughes is sent home by general surgeon
+King Washington is sent home by general surgeon
+Lloyd Peterson is in examinations queue
+Marshall Ward is sent home by gastroenterologist
+Murphy Edwards is sent home by erphysician
+Poole Taylor is sent home by erphysician
+Ryan Patterson is in examinations queue
+West Murphy is operated by general surgeon
+Wright Flores is in examinations queue
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Griffiths Taylor and patient has 4 more rounds
+Nurse 1 treated West Murphy and patient has 13 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+ERPhysician says that Griffiths Taylor should remain in hospital
+General Surgeon says that West Murphy should remain in hospital
+
+~~~~ Patients in round 3 ~~~~
+Armstrong Johnson is sent home by cardiologist
+Baker Ramirez is sent home by internist
+Bradley Clark is sent home by cardiologist
+Bradley Reed is sent home by erphysician
+Collins Simmons is sent home by erphysician
+Collins Young is sent home by internist
+Davis Coleman is in examinations queue
+Dixon Torres is in examinations queue
+Gardner Hughes is operated by erphysician
+George Watson is in examinations queue
+Gill Lopez is in examinations queue
+Griffiths Taylor is operated by erphysician
+Hill Hughes is sent home by general surgeon
+King Washington is sent home by general surgeon
+Lloyd Peterson is operated by general surgeon
+Marshall Ward is sent home by gastroenterologist
+Martin Rogers is sent home by erphysician
+Morris Williams is in examinations queue
+Murphy Edwards is sent home by erphysician
+Owen Green is in examinations queue
+Phillips Campbell is in examinations queue
+Poole Taylor is sent home by erphysician
+Reid Green is in examinations queue
+Reynolds Green is in examinations queue
+Ryan Patterson is hospitalized by internist
+Wells Jenkins is in examinations queue
+West Murphy is operated by general surgeon
+Wright Adams is sent home by erphysician
+Wright Flores is sent home by gastroenterologist
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Gardner Hughes and patient has 5 more rounds
+Nurse 1 treated Griffiths Taylor and patient has 3 more rounds
+Nurse 2 treated Lloyd Peterson and patient has 12 more rounds
+Nurse 3 treated Ryan Patterson and patient has 2 more rounds
+Nurse 4 treated West Murphy and patient has 12 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+ERPhysician says that Gardner Hughes should remain in hospital
+ERPhysician says that Griffiths Taylor should remain in hospital
+Internist says that Ryan Patterson should remain in hospital
+General Surgeon says that Lloyd Peterson should remain in hospital
+General Surgeon says that West Murphy should remain in hospital
+
+~~~~ Patients in round 4 ~~~~
+Armstrong Johnson is sent home by cardiologist
+Baker Edwards is in examinations queue
+Baker Ramirez is sent home by internist
+Bradley Clark is sent home by cardiologist
+Bradley Collins is in examinations queue
+Bradley Reed is sent home by erphysician
+Clark Watson is in examinations queue
+Collins Barnes is sent home by internist
+Collins Simmons is sent home by erphysician
+Collins Young is sent home by internist
+Cook Wood is in examinations queue
+Davies Bailey is in examinations queue
+Davis Coleman is operated by general surgeon
+Dixon Torres is sent home by erphysician
+Gardner Hughes is operated by erphysician
+George Watson is hospitalized by erphysician
+Gill Lopez is hospitalized by cardiologist
+Griffiths Taylor is operated by erphysician
+Harvey Turner is sent home by erphysician
+Hill Hughes is sent home by general surgeon
+Johnson Rodriguez is sent home by cardiologist
+King Washington is sent home by general surgeon
+Lloyd Peterson is operated by general surgeon
+Macdonald Evans is in examinations queue
+Marshall Ward is sent home by gastroenterologist
+Martin Rogers is sent home by erphysician
+Morris Williams is sent home by general surgeon
+Murphy Edwards is sent home by erphysician
+Owen Green is sent home by internist
+Pearce Carter is in examinations queue
+Phillips Campbell is operated by general surgeon
+Poole Taylor is sent home by erphysician
+Reid Green is sent home by erphysician
+Reynolds Green is hospitalized by cardiologist
+Ryan Patterson is hospitalized by internist
+Wells Jenkins is sent home by erphysician
+West Murphy is operated by general surgeon
+Wright Adams is sent home by erphysician
+Wright Flores is sent home by gastroenterologist
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Davis Coleman and patient has 13 more rounds
+Nurse 1 treated Gardner Hughes and patient has 4 more rounds
+Nurse 2 treated George Watson and patient has 7 more rounds
+Nurse 3 treated Gill Lopez and patient has 19 more rounds
+Nurse 4 treated Griffiths Taylor and patient has 2 more rounds
+Nurse 5 treated Lloyd Peterson and patient has 11 more rounds
+Nurse 6 treated Phillips Campbell and patient has 12 more rounds
+Nurse 7 treated Reynolds Green and patient has 27 more rounds
+Nurse 8 treated Ryan Patterson and patient has 1 more round
+Nurse 9 treated West Murphy and patient has 11 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+Cardiologist says that Gill Lopez should remain in hospital
+ERPhysician says that Gardner Hughes should remain in hospital
+ERPhysician sent Griffiths Taylor home
+Internist says that Ryan Patterson should remain in hospital
+General Surgeon says that Davis Coleman should remain in hospital
+General Surgeon says that Lloyd Peterson should remain in hospital
+ERPhysician says that George Watson should remain in hospital
+Cardiologist says that Reynolds Green should remain in hospital
+General Surgeon says that Phillips Campbell should remain in hospital
+General Surgeon says that West Murphy should remain in hospital
+
+~~~~ Patients in round 5 ~~~~
+Armstrong Johnson is sent home by cardiologist
+Armstrong Robinson is in examinations queue
+Baker Edwards is sent home by gastroenterologist
+Baker Ramirez is sent home by internist
+Bradley Clark is sent home by cardiologist
+Bradley Collins is operated by general surgeon
+Bradley Reed is sent home by erphysician
+Clark Watson is sent home by erphysician
+Collins Barnes is sent home by internist
+Collins Simmons is sent home by erphysician
+Collins Young is sent home by internist
+Cook Wood is hospitalized by internist
+Davies Bailey is sent home by gastroenterologist
+Davis Coleman is operated by general surgeon
+Dixon Torres is sent home by erphysician
+Ellis Price is sent home by internist
+Gardner Hughes is operated by erphysician
+George Watson is hospitalized by erphysician
+Gill Lopez is hospitalized by cardiologist
+Gill Ramirez is in examinations queue
+Griffiths Taylor is sent home after treatment
+Harper Wright is sent home by erphysician
+Harvey Turner is sent home by erphysician
+Hill Hughes is sent home by general surgeon
+Jenkins Sanders is in examinations queue
+Johnson Rodriguez is sent home by cardiologist
+King Washington is sent home by general surgeon
+Lloyd Peterson is operated by general surgeon
+Macdonald Evans is hospitalized by erphysician
+Marshall Ward is sent home by gastroenterologist
+Martin Rogers is sent home by erphysician
+Miller Griffin is sent home by general surgeon
+Morris Williams is sent home by general surgeon
+Murphy Edwards is sent home by erphysician
+Owen Green is sent home by internist
+Pearce Carter is operated by general surgeon
+Phillips Campbell is operated by general surgeon
+Poole Taylor is sent home by erphysician
+Reid Green is sent home by erphysician
+Reynolds Green is hospitalized by cardiologist
+Ryan Patterson is hospitalized by internist
+Smith Rodriguez is in examinations queue
+Wells Jenkins is sent home by erphysician
+West Murphy is operated by general surgeon
+Wright Adams is sent home by erphysician
+Wright Flores is sent home by gastroenterologist
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Bradley Collins and patient has 14 more rounds
+Nurse 1 treated Cook Wood and patient has 2 more rounds
+Nurse 2 treated Davis Coleman and patient has 12 more rounds
+Nurse 3 treated Gardner Hughes and patient has 3 more rounds
+Nurse 4 treated George Watson and patient has 6 more rounds
+Nurse 5 treated Gill Lopez and patient has 18 more rounds
+Nurse 6 treated Lloyd Peterson and patient has 10 more rounds
+Nurse 7 treated Macdonald Evans and patient has 5 more rounds
+Nurse 8 treated Pearce Carter and patient has 13 more rounds
+Nurse 9 treated Phillips Campbell and patient has 11 more rounds
+Nurse 10 treated Reynolds Green and patient has 26 more rounds
+Nurse 11 treated Ryan Patterson and patient has 0 more rounds
+Nurse 12 treated West Murphy and patient has 10 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+Cardiologist says that Gill Lopez should remain in hospital
+ERPhysician sent Gardner Hughes home
+Internist sent Ryan Patterson home
+General Surgeon says that Bradley Collins should remain in hospital
+General Surgeon says that Davis Coleman should remain in hospital
+General Surgeon sent Lloyd Peterson home
+ERPhysician says that George Watson should remain in hospital
+ERPhysician says that Macdonald Evans should remain in hospital
+Internist says that Cook Wood should remain in hospital
+Cardiologist says that Reynolds Green should remain in hospital
+General Surgeon says that Pearce Carter should remain in hospital
+General Surgeon says that Phillips Campbell should remain in hospital
+General Surgeon sent West Murphy home
+
+~~~~ Patients in round 6 ~~~~
+Andrews Green is in examinations queue
+Armstrong Johnson is sent home by cardiologist
+Armstrong Robinson is sent home by erphysician
+Baker Edwards is sent home by gastroenterologist
+Baker Ramirez is sent home by internist
+Bradley Clark is sent home by cardiologist
+Bradley Collins is operated by general surgeon
+Bradley Reed is sent home by erphysician
+Brooks Griffin is in examinations queue
+Clark Watson is sent home by erphysician
+Collins Barnes is sent home by internist
+Collins Simmons is sent home by erphysician
+Collins Young is sent home by internist
+Cook Wood is hospitalized by internist
+Davies Bailey is sent home by gastroenterologist
+Davis Coleman is operated by general surgeon
+Dixon Torres is sent home by erphysician
+Ellis Price is sent home by internist
+Gardner Hughes is sent home after treatment
+George Watson is hospitalized by erphysician
+Gill Lopez is hospitalized by cardiologist
+Gill Ramirez is operated by general surgeon
+Griffiths Taylor is sent home after treatment
+Harper Morris is in examinations queue
+Harper Wright is sent home by erphysician
+Harvey Turner is sent home by erphysician
+Hill Hughes is sent home by general surgeon
+Jenkins Sanders is hospitalized by erphysician
+Johnson Rodriguez is sent home by cardiologist
+King Washington is sent home by general surgeon
+Lloyd Peterson is sent home after treatment
+Macdonald Evans is hospitalized by erphysician
+Marshall Ward is sent home by gastroenterologist
+Martin Rogers is sent home by erphysician
+Miller Griffin is sent home by general surgeon
+Morris Williams is sent home by general surgeon
+Murphy Edwards is sent home by erphysician
+Owen Green is sent home by internist
+Patel Clark is in examinations queue
+Pearce Carter is operated by general surgeon
+Pearce Thomas is in examinations queue
+Phillips Campbell is operated by general surgeon
+Poole Taylor is sent home by erphysician
+Reid Green is sent home by erphysician
+Reynolds Green is hospitalized by cardiologist
+Roberts Sanchez is in examinations queue
+Ryan Patterson is sent home after treatment
+Smith Rodriguez is operated by general surgeon
+Wells Jenkins is sent home by erphysician
+West Murphy is sent home after treatment
+Wright Adams is sent home by erphysician
+Wright Flores is sent home by gastroenterologist
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Bradley Collins and patient has 13 more rounds
+Nurse 1 treated Cook Wood and patient has 1 more round
+Nurse 2 treated Davis Coleman and patient has 11 more rounds
+Nurse 3 treated George Watson and patient has 5 more rounds
+Nurse 4 treated Gill Lopez and patient has 17 more rounds
+Nurse 5 treated Gill Ramirez and patient has 14 more rounds
+Nurse 6 treated Jenkins Sanders and patient has 4 more rounds
+Nurse 7 treated Macdonald Evans and patient has 4 more rounds
+Nurse 8 treated Pearce Carter and patient has 12 more rounds
+Nurse 9 treated Phillips Campbell and patient has 10 more rounds
+Nurse 10 treated Reynolds Green and patient has 25 more rounds
+Nurse 11 treated Smith Rodriguez and patient has 12 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+Cardiologist sent Gill Lopez home
+General Surgeon says that Bradley Collins should remain in hospital
+General Surgeon says that Davis Coleman should remain in hospital
+General Surgeon says that Gill Ramirez should remain in hospital
+ERPhysician says that George Watson should remain in hospital
+ERPhysician says that Jenkins Sanders should remain in hospital
+ERPhysician says that Macdonald Evans should remain in hospital
+Internist says that Cook Wood should remain in hospital
+Cardiologist says that Reynolds Green should remain in hospital
+General Surgeon says that Pearce Carter should remain in hospital
+General Surgeon sent Phillips Campbell home
+General Surgeon says that Smith Rodriguez should remain in hospital
+
+~~~~ Patients in round 7 ~~~~
+Andrews Green is hospitalized by general surgeon
+Armstrong Johnson is sent home by cardiologist
+Armstrong Robinson is sent home by erphysician
+Atkinson Martin is in examinations queue
+Baker Edwards is sent home by gastroenterologist
+Baker Ramirez is sent home by internist
+Bradley Clark is sent home by cardiologist
+Bradley Collins is operated by general surgeon
+Bradley Reed is sent home by erphysician
+Brooks Griffin is operated by general surgeon
+Carter Walker is in examinations queue
+Chambers Campbell is in examinations queue
+Clark Watson is sent home by erphysician
+Collins Barnes is sent home by internist
+Collins Simmons is sent home by erphysician
+Collins Young is sent home by internist
+Cook Wood is hospitalized by internist
+Cooper Jenkins is in investigations queue
+Davies Bailey is sent home by gastroenterologist
+Davis Coleman is operated by general surgeon
+Dixon Torres is sent home by erphysician
+Ellis Price is sent home by internist
+Fisher Watson is sent home by erphysician
+Gardner Hughes is sent home after treatment
+George Watson is hospitalized by erphysician
+Gill Lopez is sent home after treatment
+Gill Ramirez is operated by general surgeon
+Gordon Coleman is sent home by gastroenterologist
+Griffiths Taylor is sent home after treatment
+Hamilton Smith is in examinations queue
+Harper Morris is transferred to other hospital
+Harper Wright is sent home by erphysician
+Harvey Turner is sent home by erphysician
+Hill Hughes is sent home by general surgeon
+Hudson James is in examinations queue
+Hudson Jenkins is sent home by cardiologist
+Hudson Rivera is in examinations queue
+Jenkins Sanders is hospitalized by erphysician
+Johnson Rodriguez is sent home by cardiologist
+Khan Reed is in examinations queue
+King Washington is sent home by general surgeon
+Lloyd Peterson is sent home after treatment
+Macdonald Evans is hospitalized by erphysician
+Marshall Ward is sent home by gastroenterologist
+Martin Rogers is sent home by erphysician
+Miller Griffin is sent home by general surgeon
+Moore Bell is sent home by erphysician
+Morgan Sanchez is in examinations queue
+Morris Williams is sent home by general surgeon
+Murphy Edwards is sent home by erphysician
+Owen Green is sent home by internist
+Patel Clark is transferred to other hospital
+Pearce Carter is operated by general surgeon
+Pearce Thomas is hospitalized by internist
+Phillips Campbell is sent home after treatment
+Poole Taylor is sent home by erphysician
+Reid Green is sent home by erphysician
+Reynolds Green is hospitalized by cardiologist
+Richardson Richardson is in investigations queue
+Roberts Sanchez is sent home by gastroenterologist
+Rogers Reed is in examinations queue
+Ryan Patterson is sent home after treatment
+Smith Rodriguez is operated by general surgeon
+Turner Nelson is in examinations queue
+Wells Jenkins is sent home by erphysician
+West Murphy is sent home after treatment
+Wright Adams is sent home by erphysician
+Wright Flores is sent home by gastroenterologist
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Andrews Green and patient has 10 more rounds
+Nurse 1 treated Bradley Collins and patient has 12 more rounds
+Nurse 2 treated Brooks Griffin and patient has 12 more rounds
+Nurse 3 treated Cook Wood and patient has 0 more rounds
+Nurse 4 treated Davis Coleman and patient has 10 more rounds
+Nurse 5 treated George Watson and patient has 4 more rounds
+Nurse 6 treated Gill Ramirez and patient has 13 more rounds
+Nurse 7 treated Jenkins Sanders and patient has 3 more rounds
+Nurse 8 treated Macdonald Evans and patient has 3 more rounds
+Nurse 9 treated Pearce Carter and patient has 11 more rounds
+Nurse 10 treated Pearce Thomas and patient has 2 more rounds
+Nurse 11 treated Reynolds Green and patient has 24 more rounds
+Nurse 12 treated Smith Rodriguez and patient has 11 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+General Surgeon says that Brooks Griffin should remain in hospital
+General Surgeon says that Bradley Collins should remain in hospital
+General Surgeon sent Davis Coleman home
+General Surgeon says that Gill Ramirez should remain in hospital
+ERPhysician sent George Watson home
+ERPhysician says that Jenkins Sanders should remain in hospital
+ERPhysician sent Macdonald Evans home
+Internist sent Cook Wood home
+Internist says that Pearce Thomas should remain in hospital
+Cardiologist sent Reynolds Green home
+General Surgeon says that Andrews Green should remain in hospital
+General Surgeon says that Pearce Carter should remain in hospital
+General Surgeon says that Smith Rodriguez should remain in hospital
+
+~~~~ Patients in round 8 ~~~~
+Ali Williams is in examinations queue
+Andrews Evans is in examinations queue
+Andrews Green is hospitalized by general surgeon
+Armstrong Johnson is sent home by cardiologist
+Armstrong Robinson is sent home by erphysician
+Atkinson Martin is operated by general surgeon
+Baker Edwards is sent home by gastroenterologist
+Baker Ramirez is sent home by internist
+Bradley Clark is sent home by cardiologist
+Bradley Collins is operated by general surgeon
+Bradley Reed is sent home by erphysician
+Brooks Griffin is operated by general surgeon
+Carter Walker is hospitalized by erphysician
+Chambers Campbell is hospitalized by cardiologist
+Chapman Kelly is in examinations queue
+Clark Watson is sent home by erphysician
+Collins Barnes is sent home by internist
+Collins Simmons is sent home by erphysician
+Collins Young is sent home by internist
+Cook Bennett is in examinations queue
+Cook Wood is sent home after treatment
+Cooper Jenkins is in investigations queue
+Davies Bailey is sent home by gastroenterologist
+Davis Coleman is sent home after treatment
+Dixon Torres is sent home by erphysician
+Ellis Price is sent home by internist
+Fisher Watson is sent home by erphysician
+Gardner Hughes is sent home after treatment
+George Watson is sent home after treatment
+Gibson Gonzalez is in examinations queue
+Gill Lopez is sent home after treatment
+Gill Ramirez is operated by general surgeon
+Gordon Coleman is sent home by gastroenterologist
+Griffiths Taylor is sent home after treatment
+Hamilton Smith is operated by erphysician
+Harper Morris is transferred to other hospital
+Harper Wright is sent home by erphysician
+Harvey Turner is sent home by erphysician
+Hill Cooper is in examinations queue
+Hill Hughes is sent home by general surgeon
+Hudson James is sent home by erphysician
+Hudson Jenkins is sent home by cardiologist
+Hudson Rivera is operated by erphysician
+Jenkins Sanders is hospitalized by erphysician
+Johnson Rodriguez is sent home by cardiologist
+Khan Reed is hospitalized by erphysician
+King Washington is sent home by general surgeon
+Lloyd Peterson is sent home after treatment
+Macdonald Evans is sent home after treatment
+Marshall Ward is sent home by gastroenterologist
+Martin Rogers is sent home by erphysician
+Miller Griffin is sent home by general surgeon
+Moore Bell is sent home by erphysician
+Morgan Sanchez is hospitalized by general surgeon
+Morris Williams is sent home by general surgeon
+Murphy Edwards is sent home by erphysician
+Owen Green is sent home by internist
+Patel Clark is transferred to other hospital
+Pearce Carter is operated by general surgeon
+Pearce Thomas is hospitalized by internist
+Phillips Campbell is sent home after treatment
+Poole Taylor is sent home by erphysician
+Reid Green is sent home by erphysician
+Reynolds Green is sent home after treatment
+Richardson Richardson is in investigations queue
+Roberts Lee is in examinations queue
+Roberts Sanchez is sent home by gastroenterologist
+Rogers Reed is transferred to other hospital
+Ryan Patterson is sent home after treatment
+Smith Rodriguez is operated by general surgeon
+Turner Nelson is operated by erphysician
+Ward Evans is in examinations queue
+Wells Jenkins is sent home by erphysician
+West Moore is in examinations queue
+West Murphy is sent home after treatment
+Williamson Nelson is in examinations queue
+Wright Adams is sent home by erphysician
+Wright Flores is sent home by gastroenterologist
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Andrews Green and patient has 9 more rounds
+Nurse 1 treated Atkinson Martin and patient has 12 more rounds
+Nurse 2 treated Bradley Collins and patient has 11 more rounds
+Nurse 3 treated Brooks Griffin and patient has 11 more rounds
+Nurse 4 treated Carter Walker and patient has 6 more rounds
+Nurse 5 treated Chambers Campbell and patient has 21 more rounds
+Nurse 6 treated Gill Ramirez and patient has 12 more rounds
+Nurse 7 treated Hamilton Smith and patient has 6 more rounds
+Nurse 8 treated Hudson Rivera and patient has 5 more rounds
+Nurse 9 treated Jenkins Sanders and patient has 2 more rounds
+Nurse 10 treated Khan Reed and patient has 5 more rounds
+Nurse 11 treated Morgan Sanchez and patient has 10 more rounds
+Nurse 12 treated Pearce Carter and patient has 10 more rounds
+Nurse 13 treated Pearce Thomas and patient has 1 more round
+Nurse 14 treated Smith Rodriguez and patient has 10 more rounds
+Nurse 15 treated Turner Nelson and patient has 5 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+Cardiologist says that Chambers Campbell should remain in hospital
+ERPhysician says that Hamilton Smith should remain in hospital
+ERPhysician says that Hudson Rivera should remain in hospital
+ERPhysician says that Turner Nelson should remain in hospital
+General Surgeon says that Brooks Griffin should remain in hospital
+General Surgeon says that Atkinson Martin should remain in hospital
+General Surgeon sent Bradley Collins home
+General Surgeon says that Gill Ramirez should remain in hospital
+ERPhysician says that Carter Walker should remain in hospital
+ERPhysician sent Jenkins Sanders home
+Internist says that Pearce Thomas should remain in hospital
+ERPhysician says that Khan Reed should remain in hospital
+General Surgeon says that Andrews Green should remain in hospital
+General Surgeon says that Morgan Sanchez should remain in hospital
+General Surgeon sent Pearce Carter home
+General Surgeon says that Smith Rodriguez should remain in hospital
+
+~~~~ Patients in round 9 ~~~~
+Ali Williams is hospitalized by erphysician
+Andrews Evans is hospitalized by internist
+Andrews Green is hospitalized by general surgeon
+Armstrong Johnson is sent home by cardiologist
+Armstrong Robinson is sent home by erphysician
+Atkinson Davis is sent home by internist
+Atkinson Martin is operated by general surgeon
+Baker Edwards is sent home by gastroenterologist
+Baker Ramirez is sent home by internist
+Bradley Clark is sent home by cardiologist
+Bradley Collins is sent home after treatment
+Bradley Reed is sent home by erphysician
+Brooks Griffin is operated by general surgeon
+Campbell Green is in examinations queue
+Carter Walker is hospitalized by erphysician
+Chambers Campbell is hospitalized by cardiologist
+Chapman Kelly is hospitalized by general surgeon
+Clark Watson is sent home by erphysician
+Collins Barnes is sent home by internist
+Collins Simmons is sent home by erphysician
+Collins Young is sent home by internist
+Cook Bennett is hospitalized by general surgeon
+Cook Peterson is in examinations queue
+Cook Wood is sent home after treatment
+Cooper Jenkins is in examinations queue
+Davies Bailey is sent home by gastroenterologist
+Davis Coleman is sent home after treatment
+Dixon Torres is sent home by erphysician
+Ellis Adams is in examinations queue
+Ellis Price is sent home by internist
+Fisher Watson is sent home by erphysician
+Gardner Hughes is sent home after treatment
+George Watson is sent home after treatment
+Gibson Gonzalez is sent home by gastroenterologist
+Gill Lopez is sent home after treatment
+Gill Ramirez is operated by general surgeon
+Gordon Coleman is sent home by gastroenterologist
+Griffiths Taylor is sent home after treatment
+Hamilton Smith is operated by erphysician
+Harper Morris is transferred to other hospital
+Harper Wright is sent home by erphysician
+Harvey Turner is sent home by erphysician
+Hill Cooper is sent home by cardiologist
+Hill Hughes is sent home by general surgeon
+Hudson James is sent home by erphysician
+Hudson Jenkins is sent home by cardiologist
+Hudson Rivera is operated by erphysician
+Jenkins Sanders is sent home after treatment
+Johnson Rodriguez is sent home by cardiologist
+Khan Reed is hospitalized by erphysician
+King Washington is sent home by general surgeon
+Lloyd Peterson is sent home after treatment
+Macdonald Evans is sent home after treatment
+Marshall Ward is sent home by gastroenterologist
+Martin Rogers is sent home by erphysician
+Mcdonald Martinez is sent home by internist
+Miller Griffin is sent home by general surgeon
+Moore Bell is sent home by erphysician
+Morgan Sanchez is hospitalized by general surgeon
+Morris Williams is sent home by general surgeon
+Murphy Edwards is sent home by erphysician
+Owen Green is sent home by internist
+Patel Clark is transferred to other hospital
+Pearce Carter is sent home after treatment
+Pearce Thomas is hospitalized by internist
+Phillips Campbell is sent home after treatment
+Poole Taylor is sent home by erphysician
+Reid Green is sent home by erphysician
+Reynolds Green is sent home after treatment
+Richardson Richardson is in examinations queue
+Roberts Lee is transferred to other hospital
+Roberts Sanchez is sent home by gastroenterologist
+Rogers Reed is transferred to other hospital
+Ryan Patterson is sent home after treatment
+Scott Taylor is in examinations queue
+Smith Rodriguez is operated by general surgeon
+Thomas James is sent home by cardiologist
+Thomas Richardson is in examinations queue
+Turner Nelson is operated by erphysician
+Ward Evans is operated by general surgeon
+Wells Jenkins is sent home by erphysician
+West Moore is hospitalized by erphysician
+West Murphy is sent home after treatment
+Wilkinson Henderson is in examinations queue
+Williamson Nelson is operated by erphysician
+Wright Adams is sent home by erphysician
+Wright Flores is sent home by gastroenterologist
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Ali Williams and patient has 5 more rounds
+Nurse 1 treated Andrews Evans and patient has 2 more rounds
+Nurse 2 treated Andrews Green and patient has 8 more rounds
+Nurse 3 treated Atkinson Martin and patient has 11 more rounds
+Nurse 4 treated Brooks Griffin and patient has 10 more rounds
+Nurse 5 treated Carter Walker and patient has 5 more rounds
+Nurse 6 treated Chambers Campbell and patient has 20 more rounds
+Nurse 7 treated Chapman Kelly and patient has 9 more rounds
+Nurse 8 treated Cook Bennett and patient has 12 more rounds
+Nurse 9 treated Gill Ramirez and patient has 11 more rounds
+Nurse 10 treated Hamilton Smith and patient has 5 more rounds
+Nurse 11 treated Hudson Rivera and patient has 4 more rounds
+Nurse 12 treated Khan Reed and patient has 4 more rounds
+Nurse 13 treated Morgan Sanchez and patient has 9 more rounds
+Nurse 14 treated Pearce Thomas and patient has 0 more rounds
+Nurse 15 treated Smith Rodriguez and patient has 9 more rounds
+Nurse 16 treated Turner Nelson and patient has 4 more rounds
+Nurse 17 treated Ward Evans and patient has 13 more rounds
+Nurse 18 treated West Moore and patient has 6 more rounds
+Nurse 19 treated Williamson Nelson and patient has 5 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+Cardiologist says that Chambers Campbell should remain in hospital
+ERPhysician says that Hamilton Smith should remain in hospital
+ERPhysician says that Hudson Rivera should remain in hospital
+ERPhysician says that Turner Nelson should remain in hospital
+ERPhysician says that Williamson Nelson should remain in hospital
+General Surgeon sent Brooks Griffin home
+General Surgeon says that Ward Evans should remain in hospital
+General Surgeon says that Atkinson Martin should remain in hospital
+General Surgeon says that Cook Bennett should remain in hospital
+General Surgeon sent Gill Ramirez home
+ERPhysician says that Ali Williams should remain in hospital
+ERPhysician says that Carter Walker should remain in hospital
+ERPhysician says that West Moore should remain in hospital
+Internist says that Andrews Evans should remain in hospital
+Internist sent Pearce Thomas home
+ERPhysician says that Khan Reed should remain in hospital
+General Surgeon sent Andrews Green home
+General Surgeon says that Chapman Kelly should remain in hospital
+General Surgeon says that Morgan Sanchez should remain in hospital
+General Surgeon sent Smith Rodriguez home
+
+~~~~ Patients in round 10 ~~~~
+Ali Williams is hospitalized by erphysician
+Andrews Evans is hospitalized by internist
+Andrews Green is sent home after treatment
+Armstrong Johnson is sent home by cardiologist
+Armstrong Robinson is sent home by erphysician
+Atkinson Davis is sent home by internist
+Atkinson Martin is operated by general surgeon
+Baker Edwards is sent home by gastroenterologist
+Baker Ramirez is sent home by internist
+Bradley Clark is sent home by cardiologist
+Bradley Collins is sent home after treatment
+Bradley Reed is sent home by erphysician
+Brooks Griffin is sent home after treatment
+Brown Henderson is in examinations queue
+Butler Lewis is in examinations queue
+Campbell Green is operated by erphysician
+Carter Walker is hospitalized by erphysician
+Chambers Campbell is hospitalized by cardiologist
+Chapman Kelly is hospitalized by general surgeon
+Clark Watson is sent home by erphysician
+Collins Barnes is sent home by internist
+Collins Simmons is sent home by erphysician
+Collins Young is sent home by internist
+Cook Bennett is hospitalized by general surgeon
+Cook Diaz is sent home by cardiologist
+Cook Peterson is sent home by internist
+Cook Wood is sent home after treatment
+Cooper Jenkins is sent home by erphysician
+Cooper Ward is in examinations queue
+Davies Bailey is sent home by gastroenterologist
+Davis Coleman is sent home after treatment
+Davis Perez is sent home by erphysician
+Dean Wright is in examinations queue
+Dixon Torres is sent home by erphysician
+Ellis Adams is hospitalized by erphysician
+Ellis Price is sent home by internist
+Fisher Watson is sent home by erphysician
+Foster Johnson is in examinations queue
+Gardner Hughes is sent home after treatment
+George Watson is sent home after treatment
+Gibson Brooks is sent home by internist
+Gibson Gonzalez is sent home by gastroenterologist
+Gill Lopez is sent home after treatment
+Gill Ramirez is sent home after treatment
+Gordon Coleman is sent home by gastroenterologist
+Grant Washington is in examinations queue
+Griffiths Taylor is sent home after treatment
+Hamilton Rogers is in examinations queue
+Hamilton Smith is operated by erphysician
+Harper Morris is transferred to other hospital
+Harper Wright is sent home by erphysician
+Harvey Turner is sent home by erphysician
+Hill Cooper is sent home by cardiologist
+Hill Hughes is sent home by general surgeon
+Hudson James is sent home by erphysician
+Hudson Jenkins is sent home by cardiologist
+Hudson Rivera is operated by erphysician
+Hunter Wright is sent home by general surgeon
+Jenkins Sanders is sent home after treatment
+Johnson Rodriguez is sent home by cardiologist
+Khan Reed is hospitalized by erphysician
+King Washington is sent home by general surgeon
+Lloyd Peterson is sent home after treatment
+Macdonald Evans is sent home after treatment
+Marshall Ward is sent home by gastroenterologist
+Martin Rogers is sent home by erphysician
+Mcdonald Martinez is sent home by internist
+Miller Griffin is sent home by general surgeon
+Moore Bell is sent home by erphysician
+Morgan Sanchez is hospitalized by general surgeon
+Morris Williams is sent home by general surgeon
+Murphy Edwards is sent home by erphysician
+Owen Green is sent home by internist
+Patel Clark is transferred to other hospital
+Pearce Carter is sent home after treatment
+Pearce Thomas is sent home after treatment
+Phillips Campbell is sent home after treatment
+Poole Taylor is sent home by erphysician
+Reid Green is sent home by erphysician
+Reynolds Green is sent home after treatment
+Richardson Richardson is sent home by gastroenterologist
+Roberts Lee is transferred to other hospital
+Roberts Sanchez is sent home by gastroenterologist
+Rogers Reed is transferred to other hospital
+Ryan Patterson is sent home after treatment
+Scott Taylor is sent home by general surgeon
+Smith Rodriguez is sent home after treatment
+Thomas James is sent home by cardiologist
+Thomas Richardson is transferred to other hospital
+Thompson Anderson is in examinations queue
+Turner Cook is in examinations queue
+Turner Nelson is operated by erphysician
+Ward Evans is operated by general surgeon
+Wells Jenkins is sent home by erphysician
+West Moore is hospitalized by erphysician
+West Murphy is sent home after treatment
+Wilkinson Henderson is hospitalized by erphysician
+Williamson Nelson is operated by erphysician
+Wright Adams is sent home by erphysician
+Wright Flores is sent home by gastroenterologist
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Ali Williams and patient has 4 more rounds
+Nurse 1 treated Andrews Evans and patient has 1 more round
+Nurse 2 treated Atkinson Martin and patient has 10 more rounds
+Nurse 3 treated Campbell Green and patient has 5 more rounds
+Nurse 4 treated Carter Walker and patient has 4 more rounds
+Nurse 5 treated Chambers Campbell and patient has 19 more rounds
+Nurse 6 treated Chapman Kelly and patient has 8 more rounds
+Nurse 7 treated Cook Bennett and patient has 11 more rounds
+Nurse 8 treated Ellis Adams and patient has 6 more rounds
+Nurse 9 treated Hamilton Smith and patient has 4 more rounds
+Nurse 10 treated Hudson Rivera and patient has 3 more rounds
+Nurse 11 treated Khan Reed and patient has 3 more rounds
+Nurse 12 treated Morgan Sanchez and patient has 8 more rounds
+Nurse 13 treated Turner Nelson and patient has 3 more rounds
+Nurse 14 treated Ward Evans and patient has 12 more rounds
+Nurse 15 treated West Moore and patient has 5 more rounds
+Nurse 16 treated Wilkinson Henderson and patient has 6 more rounds
+Nurse 17 treated Williamson Nelson and patient has 4 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+Cardiologist sent Chambers Campbell home
+ERPhysician says that Campbell Green should remain in hospital
+ERPhysician says that Hamilton Smith should remain in hospital
+ERPhysician sent Hudson Rivera home
+ERPhysician sent Turner Nelson home
+ERPhysician says that Williamson Nelson should remain in hospital
+General Surgeon says that Ward Evans should remain in hospital
+ERPhysician says that Ellis Adams should remain in hospital
+General Surgeon sent Atkinson Martin home
+General Surgeon says that Cook Bennett should remain in hospital
+ERPhysician says that Ali Williams should remain in hospital
+ERPhysician says that Carter Walker should remain in hospital
+ERPhysician says that West Moore should remain in hospital
+Internist sent Andrews Evans home
+ERPhysician sent Khan Reed home
+General Surgeon says that Chapman Kelly should remain in hospital
+General Surgeon sent Morgan Sanchez home
+ERPhysician says that Wilkinson Henderson should remain in hospital
+

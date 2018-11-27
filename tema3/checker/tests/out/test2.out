@@ -1,0 +1,89 @@
+~~~~ Patients in round 1 ~~~~
+Bradley Thomas is in examinations queue
+Webb Hall is sent home by internist
+Wilson Carter is in examinations queue
+
+~~~~ Nurses treat patients ~~~~
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+
+~~~~ Patients in round 2 ~~~~
+Bradley Thomas is sent home by general surgeon
+Owen Nelson is sent home by erphysician
+Webb Hall is sent home by internist
+Wilson Carter is operated by erphysician
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Wilson Carter and patient has 5 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+ERPhysician says that Wilson Carter should remain in hospital
+
+~~~~ Patients in round 3 ~~~~
+Bennett Sanchez is in triage queue
+Bradley Thomas is sent home by general surgeon
+Harrison Carter is in examinations queue
+Lane Carter is in investigations queue
+Owen Nelson is sent home by erphysician
+Ryan Lee is in examinations queue
+Stevens Robinson is in investigations queue
+Webb Hall is sent home by internist
+Wilson Carter is operated by erphysician
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Wilson Carter and patient has 4 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+ERPhysician says that Wilson Carter should remain in hospital
+
+~~~~ Patients in round 4 ~~~~
+Andrews Phillips is in examinations queue
+Bell Ross is in examinations queue
+Bennett Sanchez is in triage queue
+Bradley Thomas is sent home by general surgeon
+Green Ramirez is in triage queue
+Harrison Carter is transferred to other hospital
+Lane Carter is in investigations queue
+Owen Nelson is sent home by erphysician
+Patel Brooks is in investigations queue
+Ryan Lee is operated by general surgeon
+Stevens Robinson is in investigations queue
+Webb Hall is sent home by internist
+Williamson Thomas is in investigations queue
+Wilson Carter is operated by erphysician
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Ryan Lee and patient has 13 more rounds
+Nurse 1 treated Wilson Carter and patient has 3 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+ERPhysician sent Wilson Carter home
+General Surgeon says that Ryan Lee should remain in hospital
+
+~~~~ Patients in round 5 ~~~~
+Andrews Phillips is operated by general surgeon
+Bell Ross is hospitalized by internist
+Bennett Sanchez is sent home by gastroenterologist
+Bradley Thomas is sent home by general surgeon
+Green Ramirez is sent home by erphysician
+Harrison Carter is transferred to other hospital
+Lane Carter is in investigations queue
+Owen Nelson is sent home by erphysician
+Patel Brooks is in examinations queue
+Russell Hughes is in examinations queue
+Ryan Lee is operated by general surgeon
+Stevens Robinson is in investigations queue
+Webb Hall is sent home by internist
+Williamson Thomas is in investigations queue
+Wilson Carter is sent home after treatment
+
+~~~~ Nurses treat patients ~~~~
+Nurse 0 treated Andrews Phillips and patient has 12 more rounds
+Nurse 1 treated Bell Ross and patient has 2 more rounds
+Nurse 2 treated Ryan Lee and patient has 12 more rounds
+
+~~~~ Doctors check their hospitalized patients and give verdicts ~~~~
+General Surgeon says that Andrews Phillips should remain in hospital
+General Surgeon says that Ryan Lee should remain in hospital
+Internist says that Bell Ross should remain in hospital
+

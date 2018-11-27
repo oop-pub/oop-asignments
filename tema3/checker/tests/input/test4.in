@@ -1,0 +1,1114 @@
+{
+  "simulationLength": 10,
+  "nurses": 25,
+  "investigators": 10,
+  "doctors": [
+    {
+      "type": "CARDIOLOGIST",
+      "isSurgeon": true,
+      "maxForTreatment": 20
+    },
+    {
+      "type": "ER_PHYSICIAN",
+      "isSurgeon": true,
+      "maxForTreatment": 30
+    },
+    {
+      "type": "GASTROENTEROLOGIST",
+      "isSurgeon": false,
+      "maxForTreatment": 55
+    },
+    {
+      "type": "GENERAL_SURGEON",
+      "isSurgeon": true,
+      "maxForTreatment": 35
+    },
+    {
+      "type": "INTERNIST",
+      "isSurgeon": false,
+      "maxForTreatment": 60
+    },
+    {
+      "type": "NEUROLOGIST",
+      "isSurgeon": true,
+      "maxForTreatment": 40
+    },
+    {
+      "type": "ER_PHYSICIAN",
+      "isSurgeon": false,
+      "maxForTreatment": 37
+    },
+    {
+      "type": "GENERAL_SURGEON",
+      "isSurgeon": false,
+      "maxForTreatment": 19
+    },
+    {
+      "type": "ER_PHYSICIAN",
+      "isSurgeon": false,
+      "maxForTreatment": 20
+    },
+    {
+      "type": "ER_PHYSICIAN",
+      "isSurgeon": false,
+      "maxForTreatment": 15
+    },
+    {
+      "type": "INTERNIST",
+      "isSurgeon": false,
+      "maxForTreatment": 24
+    },
+    {
+      "type": "INTERNIST",
+      "isSurgeon": false,
+      "maxForTreatment": 30
+    },
+    {
+      "type": "GASTROENTEROLOGIST",
+      "isSurgeon": false,
+      "maxForTreatment": 20
+    },
+    {
+      "type": "INTERNIST",
+      "isSurgeon": false,
+      "maxForTreatment": 15
+    },
+    {
+      "type": "GASTROENTEROLOGIST",
+      "isSurgeon": false,
+      "maxForTreatment": 26
+    },
+    {
+      "type": "ER_PHYSICIAN",
+      "isSurgeon": false,
+      "maxForTreatment": 24
+    },
+    {
+      "type": "GASTROENTEROLOGIST",
+      "isSurgeon": false,
+      "maxForTreatment": 18
+    },
+    {
+      "type": "CARDIOLOGIST",
+      "isSurgeon": false,
+      "maxForTreatment": 31
+    },
+    {
+      "type": "ER_PHYSICIAN",
+      "isSurgeon": false,
+      "maxForTreatment": 11
+    },
+    {
+      "type": "GENERAL_SURGEON",
+      "isSurgeon": false,
+      "maxForTreatment": 14
+    },
+    {
+      "type": "ER_PHYSICIAN",
+      "isSurgeon": false,
+      "maxForTreatment": 31
+    }
+  ],
+"incomingPatients":[
+    {
+      "id": 0,
+      "name": "Griffiths Taylor",
+      "age": 55,
+      "time": 0,
+      "state": {
+        "illnessName": "ALLERGIC_REACTION",
+        "severity": 77
+      }
+    },
+    {
+      "id": 1,
+      "name": "Collins Simmons",
+      "age": 36,
+      "time": 0,
+      "state": {
+        "illnessName": "CUTS",
+        "severity": 24
+      }
+    },
+    {
+      "id": 2,
+      "name": "Baker Ramirez",
+      "age": 54,
+      "time": 0,
+      "state": {
+        "illnessName": "HIGH_FEVER",
+        "severity": 49
+      }
+    },
+    {
+      "id": 3,
+      "name": "Armstrong Johnson",
+      "age": 14,
+      "time": 0,
+      "state": {
+        "illnessName": "HEART_ATTACK",
+        "severity": 31
+      }
+    },
+    {
+      "id": 4,
+      "name": "West Murphy",
+      "age": 34,
+      "time": 0,
+      "state": {
+        "illnessName": "SPORT_INJURIES",
+        "severity": 90
+      }
+    },
+    {
+      "id": 5,
+      "name": "Bradley Clark",
+      "age": 67,
+      "time": 0,
+      "state": {
+        "illnessName": "HEART_DISEASE",
+        "severity": 35
+      }
+    },
+    {
+      "id": 6,
+      "name": "King Washington",
+      "age": 43,
+      "time": 0,
+      "state": {
+        "illnessName": "SPORT_INJURIES",
+        "severity": 24
+      }
+    },
+    {
+      "id": 7,
+      "name": "Hill Hughes",
+      "age": 71,
+      "time": 0,
+      "state": {
+        "illnessName": "CAR_ACCIDENT",
+        "severity": 10
+      }
+    },
+    {
+      "id": 8,
+      "name": "Collins Young",
+      "age": 54,
+      "time": 0,
+      "state": {
+        "illnessName": "FOOD_POISONING",
+        "severity": 11
+      }
+    },
+    {
+      "id": 9,
+      "name": "Marshall Ward",
+      "age": 71,
+      "time": 1,
+      "state": {
+        "illnessName": "ALLERGIC_REACTION",
+        "severity": 10
+      }
+    },
+    {
+      "id": 10,
+      "name": "Gardner Hughes",
+      "age": 21,
+      "time": 1,
+      "state": {
+        "illnessName": "BROKEN_BONES",
+        "severity": 81
+      }
+    },
+    {
+      "id": 11,
+      "name": "Lloyd Peterson",
+      "age": 48,
+      "time": 1,
+      "state": {
+        "illnessName": "ABDOMINAL_PAIN",
+        "severity": 79
+      }
+    },
+    {
+      "id": 12,
+      "name": "Ryan Patterson",
+      "age": 40,
+      "time": 1,
+      "state": {
+        "illnessName": "HEART_DISEASE",
+        "severity": 56
+      }
+    },
+    {
+      "id": 13,
+      "name": "Poole Taylor",
+      "age": 21,
+      "time": 1,
+      "state": {
+        "illnessName": "CAR_ACCIDENT",
+        "severity": 6
+      }
+    },
+    {
+      "id": 14,
+      "name": "Murphy Edwards",
+      "age": 68,
+      "time": 1,
+      "state": {
+        "illnessName": "HIGH_FEVER",
+        "severity": 21
+      }
+    },
+    {
+      "id": 15,
+      "name": "Wright Flores",
+      "age": 31,
+      "time": 1,
+      "state": {
+        "illnessName": "ALLERGIC_REACTION",
+        "severity": 26
+      }
+    },
+    {
+      "id": 16,
+      "name": "Reid Green",
+      "age": 25,
+      "time": 2,
+      "state": {
+        "illnessName": "SPORT_INJURIES",
+        "severity": 23
+      }
+    },
+    {
+      "id": 17,
+      "name": "Owen Green",
+      "age": 10,
+      "time": 2,
+      "state": {
+        "illnessName": "HIGH_FEVER",
+        "severity": 34
+      }
+    },
+    {
+      "id": 18,
+      "name": "Morris Williams",
+      "age": 41,
+      "time": 2,
+      "state": {
+        "illnessName": "BURNS",
+        "severity": 13
+      }
+    },
+    {
+      "id": 19,
+      "name": "Wells Jenkins",
+      "age": 32,
+      "time": 2,
+      "state": {
+        "illnessName": "BURNS",
+        "severity": 34
+      }
+    },
+    {
+      "id": 20,
+      "name": "Wright Adams",
+      "age": 51,
+      "time": 2,
+      "state": {
+        "illnessName": "CUTS",
+        "severity": 11
+      }
+    },
+    {
+      "id": 21,
+      "name": "Dixon Torres",
+      "age": 65,
+      "time": 2,
+      "state": {
+        "illnessName": "CUTS",
+        "severity": 40
+      }
+    },
+    {
+      "id": 22,
+      "name": "Gill Lopez",
+      "age": 45,
+      "time": 2,
+      "state": {
+        "illnessName": "HEART_ATTACK",
+        "severity": 49
+      }
+    },
+    {
+      "id": 23,
+      "name": "Martin Rogers",
+      "age": 47,
+      "time": 2,
+      "state": {
+        "illnessName": "CUTS",
+        "severity": 15
+      }
+    },
+    {
+      "id": 24,
+      "name": "George Watson",
+      "age": 37,
+      "time": 2,
+      "state": {
+        "illnessName": "CUTS",
+        "severity": 75
+      }
+    },
+    {
+      "id": 25,
+      "name": "Bradley Reed",
+      "age": 62,
+      "time": 2,
+      "state": {
+        "illnessName": "BURNS",
+        "severity": 5
+      }
+    },
+    {
+      "id": 26,
+      "name": "Phillips Campbell",
+      "age": 72,
+      "time": 2,
+      "state": {
+        "illnessName": "CUTS",
+        "severity": 80
+      }
+    },
+    {
+      "id": 27,
+      "name": "Reynolds Green",
+      "age": 60,
+      "time": 2,
+      "state": {
+        "illnessName": "HEART_ATTACK",
+        "severity": 71
+      }
+    },
+    {
+      "id": 28,
+      "name": "Davis Coleman",
+      "age": 67,
+      "time": 2,
+      "state": {
+        "illnessName": "BURNS",
+        "severity": 88
+      }
+    },
+    {
+      "id": 29,
+      "name": "Johnson Rodriguez",
+      "age": 74,
+      "time": 3,
+      "state": {
+        "illnessName": "HEART_ATTACK",
+        "severity": 29
+      }
+    },
+    {
+      "id": 30,
+      "name": "Collins Barnes",
+      "age": 12,
+      "time": 3,
+      "state": {
+        "illnessName": "PNEUMONIA",
+        "severity": 30
+      }
+    },
+    {
+      "id": 31,
+      "name": "Clark Watson",
+      "age": 65,
+      "time": 3,
+      "state": {
+        "illnessName": "BURNS",
+        "severity": 37
+      }
+    },
+    {
+      "id": 32,
+      "name": "Macdonald Evans",
+      "age": 14,
+      "time": 3,
+      "state": {
+        "illnessName": "SPORT_INJURIES",
+        "severity": 56
+      }
+    },
+    {
+      "id": 33,
+      "name": "Pearce Carter",
+      "age": 57,
+      "time": 3,
+      "state": {
+        "illnessName": "SPORT_INJURIES",
+        "severity": 87
+      }
+    },
+    {
+      "id": 34,
+      "name": "Baker Edwards",
+      "age": 40,
+      "time": 3,
+      "state": {
+        "illnessName": "ABDOMINAL_PAIN",
+        "severity": 32
+      }
+    },
+    {
+      "id": 35,
+      "name": "Davies Bailey",
+      "age": 63,
+      "time": 3,
+      "state": {
+        "illnessName": "ABDOMINAL_PAIN",
+        "severity": 36
+      }
+    },
+    {
+      "id": 36,
+      "name": "Harvey Turner",
+      "age": 21,
+      "time": 3,
+      "state": {
+        "illnessName": "BROKEN_BONES",
+        "severity": 14
+      }
+    },
+    {
+      "id": 37,
+      "name": "Cook Wood",
+      "age": 79,
+      "time": 3,
+      "state": {
+        "illnessName": "ALLERGIC_REACTION",
+        "severity": 61
+      }
+    },
+    {
+      "id": 38,
+      "name": "Bradley Collins",
+      "age": 36,
+      "time": 3,
+      "state": {
+        "illnessName": "CAR_ACCIDENT",
+        "severity": 93
+      }
+    },
+    {
+      "id": 39,
+      "name": "Harper Wright",
+      "age": 12,
+      "time": 4,
+      "state": {
+        "illnessName": "BROKEN_BONES",
+        "severity": 22
+      }
+    },
+    {
+      "id": 40,
+      "name": "Ellis Price",
+      "age": 43,
+      "time": 4,
+      "state": {
+        "illnessName": "HIGH_FEVER",
+        "severity": 6
+      }
+    },
+    {
+      "id": 41,
+      "name": "Armstrong Robinson",
+      "age": 15,
+      "time": 4,
+      "state": {
+        "illnessName": "BROKEN_BONES",
+        "severity": 36
+      }
+    },
+    {
+      "id": 42,
+      "name": "Miller Griffin",
+      "age": 37,
+      "time": 4,
+      "state": {
+        "illnessName": "SPORT_INJURIES",
+        "severity": 14
+      }
+    },
+    {
+      "id": 43,
+      "name": "Smith Rodriguez",
+      "age": 61,
+      "time": 4,
+      "state": {
+        "illnessName": "SPORT_INJURIES",
+        "severity": 84
+      }
+    },
+    {
+      "id": 44,
+      "name": "Gill Ramirez",
+      "age": 66,
+      "time": 4,
+      "state": {
+        "illnessName": "ABDOMINAL_PAIN",
+        "severity": 95
+      }
+    },
+    {
+      "id": 45,
+      "name": "Jenkins Sanders",
+      "age": 17,
+      "time": 4,
+      "state": {
+        "illnessName": "CUTS",
+        "severity": 45
+      }
+    },
+    {
+      "id": 46,
+      "name": "Roberts Sanchez",
+      "age": 68,
+      "time": 5,
+      "state": {
+        "illnessName": "FOOD_POISONING",
+        "severity": 40
+      }
+    },
+    {
+      "id": 47,
+      "name": "Brooks Griffin",
+      "age": 79,
+      "time": 5,
+      "state": {
+        "illnessName": "BURNS",
+        "severity": 79
+      }
+    },
+    {
+      "id": 48,
+      "name": "Harper Morris",
+      "age": 65,
+      "time": 5,
+      "state": {
+        "illnessName": "FOOD_POISONING",
+        "severity": 88
+      }
+    },
+    {
+      "id": 49,
+      "name": "Patel Clark",
+      "age": 35,
+      "time": 5,
+      "state": {
+        "illnessName": "FOOD_POISONING",
+        "severity": 91
+      }
+    },
+    {
+      "id": 50,
+      "name": "Pearce Thomas",
+      "age": 13,
+      "time": 5,
+      "state": {
+        "illnessName": "HIGH_FEVER",
+        "severity": 68
+      }
+    },
+    {
+      "id": 51,
+      "name": "Andrews Green",
+      "age": 55,
+      "time": 5,
+      "state": {
+        "illnessName": "SPORT_INJURIES",
+        "severity": 55
+      }
+    },
+    {
+      "id": 52,
+      "name": "Rogers Reed",
+      "age": 11,
+      "time": 6,
+      "state": {
+        "illnessName": "FOOD_POISONING",
+        "severity": 81
+      }
+    },
+    {
+      "id": 53,
+      "name": "Cooper Jenkins",
+      "age": 42,
+      "time": 6,
+      "state": {
+        "illnessName": "BROKEN_BONES",
+        "severity": 21
+      }
+    },
+    {
+      "id": 54,
+      "name": "Carter Walker",
+      "age": 42,
+      "time": 6,
+      "state": {
+        "illnessName": "BROKEN_BONES",
+        "severity": 73
+      }
+    },
+    {
+      "id": 55,
+      "name": "Chambers Campbell",
+      "age": 17,
+      "time": 6,
+      "state": {
+        "illnessName": "HEART_ATTACK",
+        "severity": 54
+      }
+    },
+    {
+      "id": 56,
+      "name": "Atkinson Martin",
+      "age": 48,
+      "time": 6,
+      "state": {
+        "illnessName": "BURNS",
+        "severity": 83
+      }
+    },
+    {
+      "id": 57,
+      "name": "Hamilton Smith",
+      "age": 15,
+      "time": 6,
+      "state": {
+        "illnessName": "ALLERGIC_REACTION",
+        "severity": 96
+      }
+    },
+    {
+      "id": 58,
+      "name": "Hudson Jenkins",
+      "age": 32,
+      "time": 6,
+      "state": {
+        "illnessName": "HEART_DISEASE",
+        "severity": 9
+      }
+    },
+    {
+      "id": 59,
+      "name": "Gordon Coleman",
+      "age": 49,
+      "time": 6,
+      "state": {
+        "illnessName": "ABDOMINAL_PAIN",
+        "severity": 6
+      }
+    },
+    {
+      "id": 60,
+      "name": "Moore Bell",
+      "age": 14,
+      "time": 6,
+      "state": {
+        "illnessName": "CAR_ACCIDENT",
+        "severity": 22
+      }
+    },
+    {
+      "id": 61,
+      "name": "Turner Nelson",
+      "age": 49,
+      "time": 6,
+      "state": {
+        "illnessName": "BROKEN_BONES",
+        "severity": 86
+      }
+    },
+    {
+      "id": 62,
+      "name": "Hudson Rivera",
+      "age": 66,
+      "time": 6,
+      "state": {
+        "illnessName": "HIGH_FEVER",
+        "severity": 89
+      }
+    },
+    {
+      "id": 63,
+      "name": "Hudson James",
+      "age": 32,
+      "time": 6,
+      "state": {
+        "illnessName": "CAR_ACCIDENT",
+        "severity": 27
+      }
+    },
+    {
+      "id": 64,
+      "name": "Richardson Richardson",
+      "age": 32,
+      "time": 6,
+      "state": {
+        "illnessName": "ABDOMINAL_PAIN",
+        "severity": 29
+      }
+    },
+    {
+      "id": 65,
+      "name": "Khan Reed",
+      "age": 73,
+      "time": 6,
+      "state": {
+        "illnessName": "BROKEN_BONES",
+        "severity": 62
+      }
+    },
+    {
+      "id": 66,
+      "name": "Morgan Sanchez",
+      "age": 44,
+      "time": 6,
+      "state": {
+        "illnessName": "SPORT_INJURIES",
+        "severity": 57
+      }
+    },
+    {
+      "id": 67,
+      "name": "Fisher Watson",
+      "age": 62,
+      "time": 6,
+      "state": {
+        "illnessName": "CAR_ACCIDENT",
+        "severity": 12
+      }
+    },
+    {
+      "id": 68,
+      "name": "Williamson Nelson",
+      "age": 53,
+      "time": 7,
+      "state": {
+        "illnessName": "ALLERGIC_REACTION",
+        "severity": 89
+      }
+    },
+    {
+      "id": 69,
+      "name": "Cook Bennett",
+      "age": 24,
+      "time": 7,
+      "state": {
+        "illnessName": "BURNS",
+        "severity": 63
+      }
+    },
+    {
+      "id": 70,
+      "name": "Ali Williams",
+      "age": 68,
+      "time": 7,
+      "state": {
+        "illnessName": "BURNS",
+        "severity": 60
+      }
+    },
+    {
+      "id": 71,
+      "name": "West Moore",
+      "age": 21,
+      "time": 7,
+      "state": {
+        "illnessName": "HIGH_FEVER",
+        "severity": 65
+      }
+    },
+    {
+      "id": 72,
+      "name": "Gibson Gonzalez",
+      "age": 28,
+      "time": 7,
+      "state": {
+        "illnessName": "ABDOMINAL_PAIN",
+        "severity": 32
+      }
+    },
+    {
+      "id": 73,
+      "name": "Roberts Lee",
+      "age": 65,
+      "time": 7,
+      "state": {
+        "illnessName": "FOOD_POISONING",
+        "severity": 97
+      }
+    },
+    {
+      "id": 74,
+      "name": "Hill Cooper",
+      "age": 19,
+      "time": 7,
+      "state": {
+        "illnessName": "HEART_DISEASE",
+        "severity": 34
+      }
+    },
+    {
+      "id": 75,
+      "name": "Andrews Evans",
+      "age": 60,
+      "time": 7,
+      "state": {
+        "illnessName": "HIGH_FEVER",
+        "severity": 43
+      }
+    },
+    {
+      "id": 76,
+      "name": "Ward Evans",
+      "age": 35,
+      "time": 7,
+      "state": {
+        "illnessName": "BURNS",
+        "severity": 87
+      }
+    },
+    {
+      "id": 77,
+      "name": "Chapman Kelly",
+      "age": 58,
+      "time": 7,
+      "state": {
+        "illnessName": "SPORT_INJURIES",
+        "severity": 49
+      }
+    },
+    {
+      "id": 78,
+      "name": "Atkinson Davis",
+      "age": 76,
+      "time": 8,
+      "state": {
+        "illnessName": "HIGH_FEVER",
+        "severity": 15
+      }
+    },
+    {
+      "id": 79,
+      "name": "Wilkinson Henderson",
+      "age": 52,
+      "time": 8,
+      "state": {
+        "illnessName": "ALLERGIC_REACTION",
+        "severity": 71
+      }
+    },
+    {
+      "id": 80,
+      "name": "Cook Peterson",
+      "age": 45,
+      "time": 8,
+      "state": {
+        "illnessName": "PNEUMONIA",
+        "severity": 40
+      }
+    },
+    {
+      "id": 81,
+      "name": "Scott Taylor",
+      "age": 33,
+      "time": 8,
+      "state": {
+        "illnessName": "CUTS",
+        "severity": 36
+      }
+    },
+    {
+      "id": 82,
+      "name": "Thomas James",
+      "age": 39,
+      "time": 8,
+      "state": {
+        "illnessName": "HEART_DISEASE",
+        "severity": 10
+      }
+    },
+    {
+      "id": 83,
+      "name": "Thomas Richardson",
+      "age": 11,
+      "time": 8,
+      "state": {
+        "illnessName": "PNEUMONIA",
+        "severity": 87
+      }
+    },
+    {
+      "id": 84,
+      "name": "Mcdonald Martinez",
+      "age": 11,
+      "time": 8,
+      "state": {
+        "illnessName": "HEART_DISEASE",
+        "severity": 5
+      }
+    },
+    {
+      "id": 85,
+      "name": "Ellis Adams",
+      "age": 25,
+      "time": 8,
+      "state": {
+        "illnessName": "ALLERGIC_REACTION",
+        "severity": 70
+      }
+    },
+    {
+      "id": 86,
+      "name": "Campbell Green",
+      "age": 56,
+      "time": 8,
+      "state": {
+        "illnessName": "BROKEN_BONES",
+        "severity": 86
+      }
+    },
+    {
+      "id": 87,
+      "name": "Turner Cook",
+      "age": 36,
+      "time": 9,
+      "state": {
+        "illnessName": "HEART_ATTACK",
+        "severity": 38
+      }
+    },
+    {
+      "id": 88,
+      "name": "Hunter Wright",
+      "age": 48,
+      "time": 9,
+      "state": {
+        "illnessName": "CUTS",
+        "severity": 16
+      }
+    },
+    {
+      "id": 89,
+      "name": "Cook Diaz",
+      "age": 44,
+      "time": 9,
+      "state": {
+        "illnessName": "HEART_ATTACK",
+        "severity": 8
+      }
+    },
+    {
+      "id": 90,
+      "name": "Hamilton Rogers",
+      "age": 17,
+      "time": 9,
+      "state": {
+        "illnessName": "HIGH_FEVER",
+        "severity": 19
+      }
+    },
+    {
+      "id": 91,
+      "name": "Thompson Anderson",
+      "age": 30,
+      "time": 9,
+      "state": {
+        "illnessName": "HEART_DISEASE",
+        "severity": 85
+      }
+    },
+    {
+      "id": 92,
+      "name": "Gibson Brooks",
+      "age": 64,
+      "time": 9,
+      "state": {
+        "illnessName": "HEART_DISEASE",
+        "severity": 14
+      }
+    },
+    {
+      "id": 93,
+      "name": "Dean Wright",
+      "age": 49,
+      "time": 9,
+      "state": {
+        "illnessName": "FOOD_POISONING",
+        "severity": 68
+      }
+    },
+    {
+      "id": 94,
+      "name": "Butler Lewis",
+      "age": 55,
+      "time": 9,
+      "state": {
+        "illnessName": "PNEUMONIA",
+        "severity": 70
+      }
+    },
+    {
+      "id": 95,
+      "name": "Cooper Ward",
+      "age": 60,
+      "time": 9,
+      "state": {
+        "illnessName": "HEART_DISEASE",
+        "severity": 37
+      }
+    },
+    {
+      "id": 96,
+      "name": "Grant Washington",
+      "age": 61,
+      "time": 9,
+      "state": {
+        "illnessName": "PNEUMONIA",
+        "severity": 96
+      }
+    },
+    {
+      "id": 97,
+      "name": "Davis Perez",
+      "age": 13,
+      "time": 9,
+      "state": {
+        "illnessName": "BROKEN_BONES",
+        "severity": 10
+      }
+    },
+    {
+      "id": 98,
+      "name": "Foster Johnson",
+      "age": 65,
+      "time": 9,
+      "state": {
+        "illnessName": "HIGH_FEVER",
+        "severity": 92
+      }
+    },
+    {
+      "id": 99,
+      "name": "Brown Henderson",
+      "age": 72,
+      "time": 9,
+      "state": {
+        "illnessName": "FOOD_POISONING",
+        "severity": 79
+      }
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "simulationLength": 4,
+  "nurses": 5,
+  "investigators": 2,
+  "doctors": [
+    {
+      "type": "CARDIOLOGIST",
+      "isSurgeon": true,
+      "maxForTreatment": 20
+    },
+    {
+      "type": "ER_PHYSICIAN",
+      "isSurgeon": true,
+      "maxForTreatment": 30
+    },
+    {
+      "type": "GASTROENTEROLOGIST",
+      "isSurgeon": false,
+      "maxForTreatment": 55
+    },
+    {
+      "type": "GENERAL_SURGEON",
+      "isSurgeon": true,
+      "maxForTreatment": 35
+    },
+    {
+      "type": "INTERNIST",
+      "isSurgeon": false,
+      "maxForTreatment": 60
+    },
+    {
+      "type": "NEUROLOGIST",
+      "isSurgeon": true,
+      "maxForTreatment": 40
+    },
+    {
+      "type": "CARDIOLOGIST",
+      "isSurgeon": false,
+      "maxForTreatment": 12
+    }
+  ],
+"incomingPatients":[
+    {
+      "id": 0,
+      "name": "Reid Baker",
+      "age": 34,
+      "time": 0,
+      "state": {
+        "illnessName": "BROKEN_BONES",
+        "severity": 7
+      }
+    },
+    {
+      "id": 1,
+      "name": "Fox Kelly",
+      "age": 42,
+      "time": 0,
+      "state": {
+        "illnessName": "FOOD_POISONING",
+        "severity": 99
+      }
+    },
+    {
+      "id": 2,
+      "name": "Rogers Garcia",
+      "age": 58,
+      "time": 1,
+      "state": {
+        "illnessName": "BROKEN_BONES",
+        "severity": 27
+      }
+    },
+    {
+      "id": 3,
+      "name": "Cooper Lee",
+      "age": 36,
+      "time": 1,
+      "state": {
+        "illnessName": "HEART_ATTACK",
+        "severity": 88
+      }
+    },
+    {
+      "id": 4,
+      "name": "Macdonald Cooper",
+      "age": 59,
+      "time": 1,
+      "state": {
+        "illnessName": "PNEUMONIA",
+        "severity": 79
+      }
+    },
+    {
+      "id": 5,
+      "name": "Grant Anderson",
+      "age": 44,
+      "time": 2,
+      "state": {
+        "illnessName": "ALLERGIC_REACTION",
+        "severity": 78
+      }
+    },
+    {
+      "id": 6,
+      "name": "Ward Sanders",
+      "age": 50,
+      "time": 2,
+      "state": {
+        "illnessName": "HEART_DISEASE",
+        "severity": 91
+      }
+    },
+    {
+      "id": 7,
+      "name": "Fisher Coleman",
+      "age": 72,
+      "time": 3,
+      "state": {
+        "illnessName": "CUTS",
+        "severity": 71
+      }
+    },
+    {
+      "id": 8,
+      "name": "Robinson Gonzalez",
+      "age": 36,
+      "time": 3,
+      "state": {
+        "illnessName": "FOOD_POISONING",
+        "severity": 98
+      }
+    },
+    {
+      "id": 9,
+      "name": "Matthews Perry",
+      "age": 40,
+      "time": 3,
+      "state": {
+        "illnessName": "BURNS",
+        "severity": 40
+      }
+    }
+  ]
+}

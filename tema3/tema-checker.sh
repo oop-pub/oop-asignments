@@ -2,7 +2,7 @@
 
 ## CONSTANTS ##
 CURRENT_DIRECTORY=`pwd`
-RESOURCES_DIRECTORY="$CURRENT_DIRECTORY/checker/tests"
+RESOURCES_DIRECTORY="$CURRENT_DIRECTORY/checker/"
 GOOD_TESTS=0
 GOOD_CODE_STYLE=`echo -ne "Starting audit...\nAudit done.\n"`
 BAD_CODE_STYLE=0
@@ -13,27 +13,25 @@ function cleanHomework
 {
 	find . -name "*.class" -type f -delete
 	rm -rf "$RESOURCES_DIRECTORY/out"
-	rm -rf "$RESOURCES_DIRECTORY/bonus/out"
 }
 
 function compileHomework
 {
-	javac -g main/Main.java
+	javac -sourcepath src -cp "*:.jar" src/Main.java -d bin
 
 	mkdir "$RESOURCES_DIRECTORY/out"
-	mkdir "$RESOURCES_DIRECTORY/bonus/out"
 }
 
 function checkTest
 {
     echo -ne "Test\t$1\t.....................................\t"
-    java main.Main "$RESOURCES_DIRECTORY/input/$1.in" > "$RESOURCES_DIRECTORY/out/$1.out"
+    java -cp ".:bin/:jackson-core-2.9.7.jar:jackson-databind-2.9.7.jar:jackson-annotations-2.9.7.jar" Main "$RESOURCES_DIRECTORY/tests/$1.in" > "$RESOURCES_DIRECTORY/out/$1.out"
 
-	if [ $? -eq 0 ]; then
-        `diff -Bw -u --ignore-all-space $RESOURCES_DIRECTORY/out/$1.out $RESOURCES_DIRECTORY/ref/$1.out.ref &> /dev/null`
+	if [[ $? -eq 0 ]]; then
+        `diff -Bw -u --ignore-all-space ${RESOURCES_DIRECTORY}/out/$1.out ${RESOURCES_DIRECTORY}/tests/ref/$1.ref &> /dev/null`
         DIFF_RESULT=$?
 
-        if [ $DIFF_RESULT -eq 0 ]; then
+        if [ ${DIFF_RESULT} -eq 0 ]; then
         	echo -ne "OK\n"
 
             GOOD_TESTS=$((GOOD_TESTS+6))
@@ -47,7 +45,7 @@ function checkTest
 
 function cleanOutputFiles
 {
-	rm -r $RESOURCES_DIRECTORY/out/*.out
+	rm -r ${RESOURCES_DIRECTORY}/out/*.out
 }
 
 function checkCheckstyle
@@ -88,18 +86,18 @@ function calculateScore
 cleanHomework
 compileHomework
 
-checkTest "0"
-checkTest "1"
-checkTest "2"
-checkTest "3"
-checkTest "4"
-checkTest "5"
-checkTest "6"
-checkTest "7"
-checkTest "8"
-checkTest "9"
+checkTest "test0"
+checkTest "test1"
+checkTest "test2"
+checkTest "test3"
+checkTest "test4"
+checkTest "test5"
+checkTest "test6"
+checkTest "test7"
+checkTest "test8"
+checkTest "test9"
 
-cleanOuputFiles
+cleanOutputFiles
 
 checkCheckstyle
 
