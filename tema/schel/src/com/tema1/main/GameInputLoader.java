@@ -27,11 +27,12 @@ public class GameInputLoader {
 
 			rounds = fs.nextInt();
 			noPlayers = fs.nextInt();
-			noGoods = fs.nextInt();
 			
 			for(int i = 0; i < noPlayers; ++i)
 				playerOrder.add(fs.nextWord());
 			
+			noGoods = fs.nextInt();
+		
 			for(int i = 0; i < noGoods; ++i)
 				assetsIds.add(fs.nextInt());
 			
