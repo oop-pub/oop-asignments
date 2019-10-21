@@ -10,7 +10,7 @@ BAD_CODE_STYLE=0
 ## FUNCTIONS ##
 function cleanHomework
 {
-	rm dummy
+	rm dummy 2> /dev/null
 	find . -name "*.class" -type f -delete
 	rm -rf "$RESOURCES_DIRECTORY/out"
 }
@@ -34,7 +34,7 @@ function checkTest
         if [ $DIFF_RESULT -eq 0 ]; then
         	echo -ne "OK\n"
 
-            GOOD_TESTS=$((GOOD_TESTS+6))
+            GOOD_TESTS=$((GOOD_TESTS))
         else
            echo -ne "FAIL (files differ)\n"
         fi
@@ -69,7 +69,7 @@ function checkCheckstyle
 
 function calculateScore
 {
-	GOOD_TESTS=$((60-GOOD_TESTS))
+	GOOD_TESTS=$((GOOD_TESTS))
 
 	GOOD_TESTS=`echo "scale=2; $GOOD_TESTS" | bc -l`
 	BAD_CODE_STYLE=`echo "scale=2; $BAD_CODE_STYLE" | bc -l`
@@ -92,8 +92,8 @@ checkTest "test7"
 checkTest "test8"
 checkTest "test9"
 
-#checkCheckstyle
+checkCheckstyle
 
 calculateScore
 
-#cleanHomework
+cleanHomework
