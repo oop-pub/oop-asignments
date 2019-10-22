@@ -6,7 +6,7 @@ import java.util.Map;
 public final class GoodsFactory {
     private static GoodsFactory instance = null;
     private static final int ILLEGAL_PENALTY = 4;
-    private static final int LEGAL_PENALTY = 2
+    private static final int LEGAL_PENALTY = 2;
 
     private static class IllegalGoodsIds {
         public static final int SILK = 20;
