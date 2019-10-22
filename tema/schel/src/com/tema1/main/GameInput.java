@@ -8,7 +8,7 @@ public class GameInput {
     private final List<String> mPlayersOrder;
     private int mRounds;
 
-    GameInput() {
+    public GameInput() {
         mAssetOrder = null;
         mPlayersOrder = null;
         mRounds = -1;
@@ -27,9 +27,9 @@ public class GameInput {
     public final List<String> getPlayerNames() {
         return mPlayersOrder;
     }
-    
+
     public final int getRounds() {
-    	return mRounds;
+        return mRounds;
     }
 
     public final boolean isValidInput() {
