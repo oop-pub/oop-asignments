@@ -1,0 +1,89 @@
+ROUND NUMBER:1
+Subround Number: 0
+0 BASIC 80
+1 GREEDY 80
+2 BASIC 80
+
+
+0 BASIC sack:
+1 GREEDY sack: 5 5 5 
+2 BASIC sack:2 2 2 
+
+0 BASIC table:
+1 GREEDY table:5 5 5 
+2 BASIC table:2 2 2 
+
+Subround Number: 1
+0 BASIC 68
+1 GREEDY 86
+2 BASIC 86
+
+
+0 BASIC sack:9 9 9 
+1 GREEDY sack: 
+2 BASIC sack:4 4 4 4 
+
+0 BASIC table:9 9 9 
+1 GREEDY table:5 5 5 
+2 BASIC table:2 2 2 4 4 4 4 
+
+Subround Number: 2
+0 BASIC 74
+1 GREEDY 72
+2 BASIC 94
+
+
+0 BASIC sack:1 1 1 
+1 GREEDY sack: 3 3 3 
+2 BASIC sack:
+
+0 BASIC table:9 9 9 1 1 1 
+1 GREEDY table:5 5 5 3 3 3 
+2 BASIC table:2 2 2 4 4 4 4 
+
+ROUND NUMBER:2
+Subround Number: 0
+0 BASIC 80
+1 GREEDY 78
+2 BASIC 82
+
+
+0 BASIC sack:
+1 GREEDY sack: 3 3 3 
+2 BASIC sack:3 3 3 
+
+0 BASIC table:9 9 9 1 1 1 
+1 GREEDY table:5 5 5 3 3 3 3 3 3 
+2 BASIC table:2 2 2 4 4 4 4 3 3 3 
+
+Subround Number: 1
+0 BASIC 68
+1 GREEDY 84
+2 BASIC 88
+
+
+0 BASIC sack:6 6 6 6 
+1 GREEDY sack: 
+2 BASIC sack:2 2 2 
+
+0 BASIC table:9 9 9 1 1 1 6 6 6 6 
+1 GREEDY table:5 5 5 3 3 3 3 3 3 
+2 BASIC table:2 2 2 4 4 4 4 3 3 3 2 2 2 
+
+Subround Number: 2
+0 BASIC 76
+1 GREEDY 70
+2 BASIC 94
+
+
+0 BASIC sack:7 7 
+1 GREEDY sack: 7 7 
+2 BASIC sack:
+
+0 BASIC table:9 9 9 1 1 1 6 6 6 6 7 7 
+1 GREEDY table:5 5 5 3 3 3 3 3 3 7 7 
+2 BASIC table:2 2 2 4 4 4 4 3 3 3 2 2 2 
+
+0 BASIC 177
+2 BASIC 176
+1 GREEDY 150
