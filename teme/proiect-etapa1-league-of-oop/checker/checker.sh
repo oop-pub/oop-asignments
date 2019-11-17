@@ -4,8 +4,8 @@
 CURRENT_DIRECTORY=`pwd`
 RESOURCES_DIRECTORY="$CURRENT_DIRECTORY/checker/resources"
 GOOD_TESTS=0
-GOOD_BONUS=`echo -ne "Starting audit...\nAudit done.\n"`
-BAD_BONUS=0
+GOOD_CHECKSTYLE=`echo -ne "Starting audit...\nAudit done.\n"`
+BAD_CHECKSTYLE=0
 
 ## FUNCTIONS ##
 function cleanHomework
@@ -18,11 +18,11 @@ function compileHomework
 {
 	if [ -f "$CURRENT_DIRECTORY/FileIO.jar" ]
 	then
-		unzip FileIO.jar  
+		unzip FileIO.jar
 	fi
-	
+
 	javac -g main/Main.java
-	
+
 	mkdir "$RESOURCES_DIRECTORY/out"
 }
 
@@ -30,7 +30,7 @@ function checkTest
 {
     echo -ne "Test\t$1\t.....................................\t"
     java main.Main "$RESOURCES_DIRECTORY/in/$1.in" "$RESOURCES_DIRECTORY/out/$1.out" > /dev/null
-    
+
 	if [ $? -eq 0 ]; then
         `diff -Bw -u --ignore-all-space $RESOURCES_DIRECTORY/out/$1.out $RESOURCES_DIRECTORY/res/$1.in.res &> /dev/null`
         DIFF_RESULT=$?
@@ -44,7 +44,7 @@ function checkTest
             	GOOD_TESTS=$((GOOD_TESTS+21))
         	else
             	GOOD_TESTS=$((GOOD_TESTS+1))
-        	fi      
+        	fi
         else
            echo -ne "FAIL (files differ)\n"
         fi
@@ -53,24 +53,20 @@ function checkTest
     fi
 }
 
-function checkBonus
+function checkStyle
 {
-	echo -ne "Bonus\t\t.....................................\t"
 	java -jar checker/checkstyle/checkstyle-7.3-all.jar -c checker/checkstyle/poo_checks.xml *  > checkstyle.txt
-	
-	YOUR_BONUS=`cat checkstyle.txt`
-	
-	if [[ "$GOOD_BONUS" != "$YOUR_BONUS" ]]; then
-		echo -ne "FAIL\n"
-		BAD_BONUS=`cat checkstyle.txt | grep -o 'Checkstyle ends with [0-9]* errors.' | grep -o '[0-9]*'`
-		
-		if [[ $BAD_BONUS -lt 30 ]]; then
-			BAD_BONUS=0
+
+	YOUR_CHECKSTYLE=`cat checkstyle.txt`
+
+	if [[ "$GOOD_CHECKSTYLE" != "$YOUR_CHECKSTYLE" ]]; then
+		BAD_CHECKSTYLE=`cat checkstyle.txt | grep -o 'Checkstyle ends with [0-9]* errors.' | grep -o '[0-9]*'`
+
+		if [[ $BAD_CHECKSTYLE -lt 30 ]]; then
+			BAD_CHECKSTYLE=0
 		else
-			BAD_BONUS=20
+			BAD_CHECKSTYLE=20
 		fi
-	else
-		echo -ne "OK\n"
 	fi
 }
 
@@ -79,10 +75,15 @@ function calculateScore
 	GOOD_TESTS=$((60-GOOD_TESTS*6/10))
 
 	GOOD_TESTS=`echo "scale=2; $GOOD_TESTS" | bc -l`
-	BAD_BONUS=`echo "scale=2; $BAD_BONUS" | bc -l`
+	BAD_CHECKSTYLE=`echo "scale=2; $BAD_CHECKSTYLE" | bc -l`
 
 	echo -ne "\n-$GOOD_TESTS failed tests"
-	echo -ne "\n-$BAD_BONUS checkstyle errors\n\n"
+	echo -ne "\n-$BAD_CHECKSTYLE checkstyle errors\n\n"
+}
+
+function checkBonus
+{
+	echo -ne "\nGit bonus will be checked manually\n"
 }
 
 ## MAIN EXECUTION ##
@@ -157,6 +158,9 @@ checkTest "fightWWD"
 checkTest "fightWWL"
 checkTest "fightWWV"
 checkTest "fightWWW"
+
+checkStyle
+
 checkBonus
 
 calculateScore
