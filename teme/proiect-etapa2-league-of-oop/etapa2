@@ -1,0 +1,359 @@
+= Proiect - Etapa 2 - League of OOP =
+
+  * **Data publicarii:** 01.12.2019
+  * **Data ultimei modificari:** 01.12.2019
+  * **Deadline soft:** 05.01.2020 23:55
+  * **Deadline __hard__:** 12.01.2020 23:55
+  * **Responsabili:** [[ionut.birsu@gmail.com|Ionuț Bîrsu]], [[laurentiu.stamate.upb@gmail.com|Laurențiu Stamate]], [[micuanamaria98@yahoo.com|Ana-Maria Micu]], [[firutibogdan@gmail.com|Bogdan-Cristian Firuți]]
+
+
+=== Obiective ===
+
+  * fundamentarea practică a conceptelor de design patterns
+  * dezvoltarea abilităților de organizare și design orientat-obiect
+  * scrierea de cod pornind de la un alt cod existent, prin adăugarea de noi funcționalități 
+  * respectarea unui stil de codare si de comentare
+
+=Scenariu=
+==Introducere==
+După nenumăratele lupte petrecute în ținutul fantastic, luptătorii au început să evolueze, să învețe din greșeli și să îsi perfecționeze **Strategiile**.
+
+Din senin apar **Îngeri** la final de runde, iar aceștia îi pot ajuta sau încurca pe luptătorii noștri bravi. Există îngeri buni care le vor reface viața sau le vor crește rata de damage, dar și îngeri răi care le vor scădea viața sau damage-ul, chiar omorând anumiți jucatori.
+
+Un alt element important este faptul că, auzind de luptele din acest ținut, un **Mare Magician**, a hotărât să nu mai lase luptătorii de capul lor. El dorește să **Observe** când un jucator moare/reînvie, când un înger apare sau când acesta ajută/încurcă pe cineva.
+
+Misiunea voastră este să remodelați jocul pentru a suporta și aceste noi caracteristici.
+
+==Îngeri==
+Pentru a face jocul mai interesant și pentru a ne apropia mai mult de un joc MMO, este nevoie să adăugăm noi funcționalități, iar una dintre acestea ar fi un //helper// care să apara random pe hartă și să ofere sprijin jucătorilor aflați în acea poziție.
+
+Vom introduce un nou tip de personaj, și anume, un înger. El apare la finalul fiecărei runde într-o anumita poziție pe harta, iar dacă in acea căsuță se afla unul sau doi jucători, acesta/aceștia vor primi de la el fie HP, fie damage. Acești îngeri au diferite tipuri. Unii sunt buni si vor să ajute jucătorii, alții sunt răi și vor să îi încurce. Totodată, există și îngeri care vor omorî un jucător, dar și îngeri care vor readuce la viață un jucător.
+
+În cele ce urmează vom detalia tipurile de îngeri întalniți și acțiunile pe care le vor executa.
+
+Aceștia vor executa acțiuni diferite în funcție de clasa pe care le aplică, **la finalul rundei curente**.
+
+**Îngerii vor aplica bonusurile doar dacă personajul este în viață. Doar Spawner va aplica bonusul unui jucător decedat.**
+
+**DamageAngel**
+  * Knight: crește modificatorii de damage cu 15%
+  * Pyromancer: crește modificatorii de damage cu 20%
+  * Rogue: crește modificatorii de damage cu 30%
+  * Wizard: crește modificatorii de damage cu 40%
+
+**DarkAngel**
+  * Knight: scade HP-ul cu 40
+  * Pyromancer: scade HP-ul cu 30
+  * Rogue: scade HP-ul cu 10
+  * Wizard: scade HP-ul cu 20
+
+**Dracula**
+  * Knight: scade modificatorii de damage cu 20% și HP-ul cu 60
+  * Pyromancer: scade modificatorii de damage cu 30% și HP-ul cu 40
+  * Rogue: scade modificatorii de damage cu 10% și HP-ul cu 35
+  * Wizard: scade modificatorii de damage cu 40% și HP-ul cu 20
+
+**GoodBoy**
+  * Knight: crește modificatorii de damage cu 40% și HP-ul cu 20
+  * Pyromancer: crește modificatorii de damage cu 50% și HP-ul cu 30
+  * Rogue: crește modificatorii de damage cu 40% și HP-ul cu 40
+  * Wizard: crește modificatorii de damage cu 30% și HP-ul cu 50
+
+**LevelUpAngel**
+  * Knight: oferă XP cât are nevoie jucătorul pentru a avansa la nivelul următor și crește modificatorii cu 10%
+  * Pyromancer: oferă XP cât are nevoie jucătorul pentru a avansa la nivelul următor și crește modificatorii cu 20%
+  * Rogue: oferă XP cât are nevoie jucătorul pentru a avansa la nivelul următor și crește modificatorii cu 15%
+  * Wizard: oferă XP cât are nevoie jucătorul pentru a avansa la nivelul următor și crește modificatorii cu 25%
+
+**LifeGiver**
+  * Knight: crește HP-ul cu 100
+  * Pyromancer: crește HP-ul cu 80
+  * Rogue: crește HP-ul cu 90
+  * Wizard: crește HP-ul cu 120
+
+**SmallAngel**
+  * Knight: crește modificatorii de damage cu 10% și HP-ul cu 10
+  * Pyromancer: crește modificatorii de damage cu 15% și HP-ul cu 15
+  * Rogue: crește modificatorii de damage cu 5% și HP-ul cu 20
+  * Wizard: crește modificatorii de damage cu 10% și HP-ul cu 25
+
+**Spawner**
+  * Knight: readuce jucătorul la viață și îi setează viața rămasă la 200
+  * Pyromancer: readuce jucătorul la viață și îi setează viața rămasă la 150
+  * Rogue: readuce jucătorul la viață și îi setează viața rămasă la 180
+  * Wizard: readuce jucătorul la viață și îi setează viața rămasă la 120
+
+**TheDoomer**
+  * All: omoară un jucător
+
+**LifeGiver**
+  * Knight: crește XP-ul cu 45
+  * Pyromancer: crește XP-ul cu 50
+  * Rogue: crește XP-ul cu 40
+  * Wizard: crește XP-ul cu 60
+==Strategii==
+După cum spuneam, fiecare tip de jucător și-a dezvoltat o strategie.
+
+Ei au considerat că în anumite cazuri ar fi mai bine să scadă din HP, dar să dea mai mult damage, sau invers. Fiecare după cum s-a gândit că e mai bine. 
+
+Astfel, fiecare clasă a venit cu următoarea logica de atac, **aplicată înainte de a face următoarea mișcare**.
+
+**Knight**
+  * dacă (1/3 * MAX_LEVEL_HP) < CURRENT_HP < (1/2 * MAX_LEVEL_HP), el va renunța la 1/5 din HP-ul curent și va crește coeficienții cu 50%
+  * dacă CURRENT_HP < (1/3 * MAX_LEVEL_HP), el va renunța la 20% din coeficienți și va primi 1/4 din HP-ul curent
+
+**Pyromancer**
+  * dacă (1/4 * MAX_LEVEL_HP) < CURRENT_HP < (1/3 * MAX_LEVEL_HP), el va renunța la 1/4 din HP-ul curent și va crește coeficienții cu 70%
+  * dacă CURRENT_HP < (1/4 * MAX_LEVEL_HP), el va renunța la 30% din coeficienți și va primi 1/3 din HP-ul curent
+
+**Rogue**
+  * dacă (1/7 * MAX_LEVEL_HP) < CURRENT_HP < (1/5 * MAX_LEVEL_HP), el va renunța la 1/7 din HP-ul curent și va crește coeficienții cu 40%
+  * dacă CURRENT_HP < (1/7 * MAX_LEVEL_HP), el va renunța la 10% din coeficienți și va primi 1/2 din HP-ul curent
+
+**Wizard**
+  * dacă (1/4 * MAX_LEVEL_HP) < CURRENT_HP < (1/2 * MAX_LEVEL_HP), el va renunța la 1/10 din HP-ul curent și va crește coeficienții cu 60%
+  * dacă CURRENT_HP < (1/4 * MAX_LEVEL_HP), el va renunța la 20% din coeficienți și va primi 1/5 din HP-ul curent
+
+==Marele Magician==
+El este un personaj aparte în acest joc. Îl putem asemana unui admin.
+Marele Magician a auzit de aceste lupte mirifice și a vrut să le urmărească îndeaproape.
+Totuși, el este un magician ocupat cu vrăji și poțiuni, așa că nu își permite să ocupe tot timpul uitându-se cine se mai lupta cu cine.
+
+El vrea sa studieze comportamentul **Îngerilor**, deoarece au ceva aparte ce ar putea fi folosit la următoarele vrăji. Acel praf magic lăsat în urma lor după ce dispar.
+
+Pentru asta, el vrea să fie notificat, printr-un mecanism implementat de voi, cu poziția unui înger când acesta apare pe harta pentru a colecta praful magic.
+
+Ar vrea să știe și cărui jucător i s-au oferit noi puteri în joc.
+
+Iar cel mai important, pentru Magician, este să cunoască atât personajele care au fost ucise în lupta sau de către îngerii cei răi, cât și personajele care au fost readuse la viață de îngeri.
+==Mențiuni==
+Aceleași ca la prima etapă:
+
+  * Harta nu este circulară și nu veți întâmpina cazuri în care eroul să fie nevoit să iasă din hartă.
+  * Nu vor există cazuri în care să se lupte mai mult de două personaje în același loc.
+  * Incapacitatea înseamnă doar imposibilitatea de mișcare. Campionii aflați sub influența incapacității pot în continuare să își folosească abilitățile.
+  * La abilitățile cu efect prelungit (pe mai multe runde), dacă un personaj se află deja sub efectul unei abilități prelungite și suferă de la o nouă abilitate cu efect prelungit, noul efect îl va înlocui pe cel vechi; dacă, de exemplu, un erou mai are de suferit 5 runde de pe urma unui Paralysis și un Warrior îi aplică un Slam, atunci imobilizarea lui va dura doar o rundă și nu va mai primi damage pe rundele următoare. De asemenea, damage-ul unei abilitati overtime este calculat în functie de level-ul si terenul unde a avut loc batalia si nu se modifică dacă cel afectat se mută pe un alt tip de teren sau dacă adversarul face level up.
+  * Un campion nu primeste experiență dacă omoară un adversar folosind o abilitate cu efect prelungit.
+  * Abilitățile cu efect prelungit țin cont de terenul pe care a avut loc lupta.
+  * Pentru o imeplementare mai ușoară, se va presupune că toate abilitățile se dau simultan, iar acestea țin cont de parametrii inițiali (de la începutul luptei) ai eroilor (HP, level).
+=Cerințe=
+Cerința principală a acestei părti este să porniți de la un cod care deja executa un task și să adăugați noi funcționalități.
+
+Ne putem imagina că am creat un joc care a avut succes, dar oamenii s-au plictisit să facă același lucru în fiecare moment, așa că vrem sa îi readucem pe platforma noastră.
+
+Aceste funcționalități noi ne vor ajuta să îi recâștigăm de partea noastră.
+==Design Patterns==
+
+Dacă în prima etapă aceste lucruri erau optinale, în această etapă utilizarea unui **Factory** pentru crearea eroilor și a unei instanțe **Singleton** pentru hartă sunt **obligatorii** și **vor exista depunctări** în cazul în care acestea nu există.
+
+**Factory** și **Singleton** se vor folosi și la crearea îngerilor, sau a Marelui Magician.
+
+La acestea se vor adăuga următoarele pattern-uri: 
+  * **Strategy** pentru alegerea dinamică a unei strategii în funcție de HP
+  * **Visitor** pentru îngerii care apar pe hartă la anumite poziții
+  * **Observer** pentru notificarea Marelui Magician legata de schimbari
+
+==Exemplu input/output==
+
+În input avem ultimele linii adăugate. După mișcările făcute de jucători am adăugat îngerii pentru fiecare runda, cu poziția unde vor apărea.
+
+În exemplul de mai jos, avem 2 runde, deci încă 2 linii cu îngeri la finalul fișierului.
+La finalul primei runde va apărea un LifeGiver la poziția (0,0), iar la finalul celei de-a doua rundă va apărea un LevelUpAngel la poziția (0,0).
+
+Liniile sunt de forma (<numărul de îngeri din runda curentă> <tip înger 1, coordonata X, coordonata Y> <tip înger 2, coordonata X, coordonata Y> ...):
+
+Exemplu Input:
+<code>
+1 1
+V
+2
+K 0 0
+P 0 0
+2
+__
+__
+1 LifeGiver,0,0
+1 LevelUpAngel,0,0
+</code>
+
+Output asteptat:
+<code>
+~~ Round 1 ~~
+Angel LifeGiver was spawned at 0 0
+LifeGiver helped Knight 0
+LifeGiver helped Pyromancer 1
+
+~~ Round 2 ~~
+Player Knight 0 was killed by Pyromancer 1
+Angel LevelUpAngel was spawned at 0 0
+Pyromancer 1 reached level 1
+LevelUpAngel helped Pyromancer 1
+
+~~ Results ~~
+K dead
+P 1 250 550 0 0
+
+</code>
+
+Explicatie:
+
+* Runda 1:
+<code>
+Ne aflăm pe teren de tip vulcanic, iar personajele sunt Knight și Pyromancer
+
+Damage dat de Knight:
+Execute: 200
+Amplificator de teren: 1.0
+Amplificator de rasa : 1.1
+Total: 220
+
+Slam: 100
+Amplificator de teren: 1.0
+Amplificator de rasa : 0.9
+Total: 90
+
+=> HP_PYROMANCER = 500 - 310 = 190
+
+Damage dat de Pyromancer:
+Fireblast: 350
+Amplificator de teren: 1.25
+Amplificator de rasa : 1.2
+Total: 526
+
+Ignite: 150
+Amplificator de teren: 1.25
+Amplificator de rasa : 1.2
+Total: 226
+
+Damage pentru runda următoare (de la Ignite): 50
+Amplificator de teren: 1.25
+Amplificator de rasa : 1.2
+Total: 76
+
+=> HP_KNIGHT = 900 - 752 = 148
+
+LifeGiver angel adaugă HP:
+=> HP_KNIGHT = 148 + 100 = 248
+=> HP_PYROMANCER = 190 + 80 = 270
+
+</code>
+* Runda 2 
+<code>
+
+Knight va lua 76 damage de la Ignite:
+=> HP_KNIGHT = 248 - 76 = 172
+
+Knight alege strategia de defense:
+=> HP_KNIGHT = 172 + (172 / 4) = 172 + 43 = 215
+
+Damage dat de Knight:
+Execute: 200
+Amplificator de teren: 1.0
+Amplificator de rasa : 0.9 (a scazut cu 0.2 de la strategie)
+Total: 180
+
+Slam: 100
+Amplificator de teren: 1.0
+Amplificator de rasa : 0.7
+Total: 70
+
+=> HP_PYROMANCER = 270 - 180 - 70 = 20
+
+Damage dat de Pyromancer:
+Fireblast: 350
+Amplificator de teren: 1.25
+Amplificator de rasa : 1.2
+Total: 526
+
+Ignite: 150
+Amplificator de teren: 1.25
+Amplificator de rasa : 1.2
+Total: 226
+
+Damage pentru runda următoare (de la Ignite): 50
+Amplificator de teren: 1.25
+Amplificator de rasa : 1.2
+Total: 76
+
+=> HP_KNIGHT = 215 - 752 = -537 (dead)
+=> XP_PYROMANCER = 200 (mai are nevoie de 50 pentru level-up)
+
+LevelUpAngel adaugă experiența necesară pentru level-up:
+=> Knight nu primește nimic deoarece este mort
+=> Pyromancer primește 50 XP și face level 1
+=> HP_PYROMANCER = 550 și XP_PYROMANCER = 250
+</code>
+
+==Indicații==
+
+  * separați conceptele de sine stătătoare în clase separate, nu le îmbinați
+  * gândiți-vă încă de la început cum vă pot ajuta design pattern-urile să aveți o implementare mai eficientă și mai structurată 
+  * **Nu vă apucați să scrieți direct**; alocați timp modelării și abstractizării, pentru că altfel vă puteți trezi cu o temă muncitorească, cu mult cod din care să nu înțelegeți prea multe
+   * vă recomandăm să porniți implementarea de la codul scris în prima etapă a proiectului, la care să adăugați noile funcționalități, dar se poate trimite și o implementare scrisă de la zero, care să nu păstreze codul primei părți, dar care să conțină funcționalitatea primei părți 
+   * etapa a două se poate trimite fără să fi trimis prima etapă a proiectului, insă va fi nevoie să se implementeze și functionalitătile primei etape pentru a putea primi punctajul total pe teste; în acest caz **se va primi punctaj doar pe a doua etapă** 
+  
+
+==Git==
+
+Va sfatuim sa folositi git pentru versionarea codului. Puteti utiliza platforma pusa la dispozitie de facultate ([[https://gitlab.cs.pub.ro/|Gitlab]], utilizand conturile de cs.curs) sau alte solutii externe ([[https://bitbucket.org/|Bitbucket]], [[https://github.com/|Github]]). Pentru a primi bonusul pentru utilizarea git, fiecare commit ar trebui sa reprezinte un feature al temei (asta inseamna ca un singur commit nu este de ajuns, dar nici nu ar trebui sa existe commit-uri pentru fiecare clasa pe care o adaugati). De asemenea, la incarcarea temei, **trebuie sa adaugati folder .git** in arhiva.
+
+<note warning>
+Atentie!
+
+Repository-urile, indiferent de platforma pe care o alegeti, **trebuie sa fie private** !!!
+</note>
+
+
+
+==Punctaj==
+
+  * 80p trecerea testelor
+  * 30p **coding style** (vezi [[teme:etapa2#checkstyle|checkstyle]])
+  * 30p design și organizare
+  * 10p README clar, concis
+  * 5p BONUS pentru folosirea GIT
+  * TOTAL: 155p
+== Checkstyle ==
+Mai jos aveți câteva exemple de concepte de avut în vedere pentru a trece testul de coding-style/checkstyle
+    * numele fișierelor ([[http://www.oracle.com/technetwork/java/javase/documentation/codeconventions-137760.html#16732 | ref]])
+    * organizarea fișierelor ([[http://www.oracle.com/technetwork/java/javase/documentation/codeconventions-141855.html#3043 | ref]])
+    * indentarea pe verticală și orizontală ([[http://www.oracle.com/technetwork/java/javase/documentation/codeconventions-136091.html#262 | ref]])
+    * declarațiile și inițializările ([[http://www.oracle.com/technetwork/java/javase/documentation/codeconventions-141270.html#2991 | ref]])
+    * numirea claselor, variabilelor, metodelor, etc. ([[http://www.oracle.com/technetwork/java/javase/documentation/codeconventions-135099.html#367 | ref]])
+    * tratarea cazurilor speciale ([[http://www.oracle.com/technetwork/java/javase/documentation/codeconventions-137265.html#529 | ref]])
+    * respectarea unui [[https://i.imgflip.com/1g55p6.jpg | coding style]] (nu neapărat acesta, important este să fiți __**consistenți**__ și __**consecvenți**__)
+
+<note important>Dacă numărul de erori depistate de testele de [[ http://checkstyle.sourceforge.net/ | Checkstyle ]] [[teme:tema1#linkuri-utile| [4]]] depășește o treime din punctajul maxim, atunci punctele pentru coding-style nu vor fi acordate iar dacă punctajul este negativ, //acesta se trunchiază la 0//.
+
+Exemple:
+  * ''punctaj_total = 100'' și ''nr_erori = 200'' => ''nota_finala = 80''
+  * ''punctaj_total = 100'' și ''nr_erori = 29'' => ''nota_finala = 100''
+  * ''punctaj_total = 80'' și ''nr_erori = 30'' => ''nota_finala = 80''
+  * ''punctaj_total = 80'' și ''nr_erori = 31'' => ''nota_finala = 60''
+</note>
+
+<note warning>
+Temele vor fi testate împotriva plagiatului. Orice tentativă de copiere va duce la **anularea punctajului** de pe parcursul semestrului şi **repetarea materiei** atât pentru sursă(e) cât şi pentru destinație(ii), fără excepție.
+
+[[https://media.giphy.com/media/8abAbOrQ9rvLG/giphy.gif | You shall indeed not pass !!]]
+</note>
+
+== Structura arhivei ==
+
+Arhiva pe care o veţi urca pe **VMChecker** va trebui să conţină în directorul rădăcină:
+  * fișierul ''README''
+  * fișierul ''main/Main.java'' (entry-point-ul aplicatiei voastre care se află în pachetul ''main'')
+  * alte fișiere **organizate** cu implementarea __**voastră**__
+
+ <note> 
+ __Nu__ încărcați fișierele de test, checker-ul sau documente generate cu JavaDoc.
+ </note>
+
+==Link-uri utile==
+
+  * [[http://checkstyle.sourceforge.net/ | Validarea automată a codului în Java]]
+  * [[https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882 | Clean code]]
+  * [[laboratoare:tutorial-checkstyle]]
+  * [[laboratoare:tutorial-doubledispatch]]
+  * [[administrativ:barem_teme]]
+  * [[https://github.com/oop-pub/teme/tree/master/teme/proiect-etapa2-league-of-oop/checker|Checker repo]]
