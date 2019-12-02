@@ -72,7 +72,7 @@ function checkStyle
 
 function calculateScore
 {
-	GOOD_TESTS=$((60-GOOD_TESTS*6/10))
+	GOOD_TESTS=$((80-GOOD_TESTS*8/10))
 
 	GOOD_TESTS=`echo "scale=2; $GOOD_TESTS" | bc -l`
 	BAD_CHECKSTYLE=`echo "scale=2; $BAD_CHECKSTYLE" | bc -l`
