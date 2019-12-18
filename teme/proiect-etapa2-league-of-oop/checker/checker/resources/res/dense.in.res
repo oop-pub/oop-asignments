@@ -167,15 +167,15 @@ Angel TheDoomer was spawned at 9 0
 
 ~~ Round 17 ~~
 Angel LevelUpAngel was spawned at 0 9
-Knight 39 reached level 1
 LevelUpAngel helped Knight 39
+Knight 39 reached level 1
 Angel LevelUpAngel was spawned at 1 8
 Angel LevelUpAngel was spawned at 2 7
 Angel LevelUpAngel was spawned at 3 6
 Angel LevelUpAngel was spawned at 4 5
 Angel LevelUpAngel was spawned at 5 4
-Wizard 8 reached level 1
 LevelUpAngel helped Wizard 8
+Wizard 8 reached level 1
 Angel LevelUpAngel was spawned at 6 3
 Angel LevelUpAngel was spawned at 7 2
 Angel LevelUpAngel was spawned at 8 1

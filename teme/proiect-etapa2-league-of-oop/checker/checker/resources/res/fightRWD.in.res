@@ -1,9 +1,9 @@
 ~~ Round 1 ~~
 Angel LevelUpAngel was spawned at 0 0
-Rogue 0 reached level 1
 LevelUpAngel helped Rogue 0
-Wizard 1 reached level 1
+Rogue 0 reached level 1
 LevelUpAngel helped Wizard 1
+Wizard 1 reached level 1
 
 ~~ Round 2 ~~
 Angel Spawner was spawned at 0 0

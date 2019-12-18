@@ -1,19 +1,19 @@
 ~~ Round 1 ~~
 Angel LevelUpAngel was spawned at 0 0
+LevelUpAngel helped Rogue 0
 Rogue 0 reached level 1
-LevelUpAngel helped Rogue 0
+LevelUpAngel helped Rogue 1
 Rogue 1 reached level 1
-LevelUpAngel helped Rogue 1
 Angel LevelUpAngel was spawned at 0 0
+LevelUpAngel helped Rogue 0
 Rogue 0 reached level 2
-LevelUpAngel helped Rogue 0
+LevelUpAngel helped Rogue 1
 Rogue 1 reached level 2
-LevelUpAngel helped Rogue 1
 Angel LevelUpAngel was spawned at 0 0
-Rogue 0 reached level 3
 LevelUpAngel helped Rogue 0
-Rogue 1 reached level 3
+Rogue 0 reached level 3
 LevelUpAngel helped Rogue 1
+Rogue 1 reached level 3
 
 ~~ Round 2 ~~
 Angel DamageAngel was spawned at 0 0
