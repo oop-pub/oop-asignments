@@ -10,7 +10,7 @@ GoodBoy helped Rogue 0
 GoodBoy helped Knight 1
 
 ~~ Round 2 ~~
-Player Rogue 0 was killed by Player 1
+Player Rogue 0 was killed by Knight 1
 
 ~~ Results ~~
 R dead
