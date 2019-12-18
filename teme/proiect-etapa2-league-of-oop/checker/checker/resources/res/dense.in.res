@@ -32,7 +32,7 @@ Angel LifeGiver was spawned at 7 2
 
 ~~ Round 4 ~~
 Player Wizard 15 was killed by Pyromancer 26
-Player Rogue 34 was killed by Player 30
+Player Rogue 34 was killed by Knight 30
 Player Wizard 37 was killed by Rogue 43
 Angel DamageAngel was spawned at 1 3
 Angel DarkAngel was spawned at 2 5
@@ -106,7 +106,7 @@ Angel DamageAngel was spawned at 9 13
 Angel GoodBoy was spawned at 15 6
 
 ~~ Round 12 ~~
-Player Rogue 32 was killed by Player 26
+Player Rogue 32 was killed by Pyromancer 26
 Pyromancer 26 reached level 1
 Pyromancer 26 reached level 2
 Pyromancer 26 reached level 3
@@ -151,7 +151,7 @@ Angel TheDoomer was spawned at 8 8
 Angel TheDoomer was spawned at 9 9
 
 ~~ Round 16 ~~
-Player Rogue 1 was killed by Player 19
+Player Rogue 1 was killed by Knight 19
 Angel TheDoomer was spawned at 0 9
 Angel TheDoomer was spawned at 1 8
 Angel TheDoomer was spawned at 2 7
@@ -190,7 +190,7 @@ Angel DamageAngel was spawned at 9 13
 Angel GoodBoy was spawned at 15 6
 
 ~~ Round 19 ~~
-Player Rogue 25 was killed by Player 20
+Player Rogue 25 was killed by Pyromancer 20
 Angel SmallAngel was spawned at 6 0
 Angel SmallAngel was spawned at 2 16
 Angel SmallAngel was spawned at 15 5

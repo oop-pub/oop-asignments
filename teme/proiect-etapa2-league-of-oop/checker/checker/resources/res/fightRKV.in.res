@@ -4,7 +4,7 @@ DamageAngel helped Rogue 0
 DamageAngel helped Knight 1
 
 ~~ Round 2 ~~
-Player Rogue 0 was killed by Player 1
+Player Rogue 0 was killed by Knight 1
 Angel LifeGiver was spawned at 0 0
 LifeGiver helped Knight 1
 Angel LifeGiver was spawned at 0 0

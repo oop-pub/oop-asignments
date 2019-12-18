@@ -10,7 +10,7 @@ XPAngel helped Knight 0
 XPAngel helped Rogue 1
 
 ~~ Round 2 ~~
-Player Rogue 1 was killed by Player 0
+Player Rogue 1 was killed by Knight 0
 Knight 0 reached level 1
 Knight 0 reached level 2
 Angel XPAngel was spawned at 0 0
