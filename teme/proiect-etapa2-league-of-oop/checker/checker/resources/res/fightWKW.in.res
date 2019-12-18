@@ -21,8 +21,8 @@ Angel XPAngel was spawned at 0 0
 XPAngel helped Knight 1
 Knight 1 reached level 3
 Angel LevelUpAngel was spawned at 0 0
-Knight 1 reached level 4
 LevelUpAngel helped Knight 1
+Knight 1 reached level 4
 
 ~~ Results ~~
 W dead

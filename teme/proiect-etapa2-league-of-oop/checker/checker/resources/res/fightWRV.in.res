@@ -14,8 +14,8 @@ Player Wizard 0 was killed by Rogue 1
 Angel XPAngel was spawned at 0 0
 XPAngel helped Rogue 1
 Angel LevelUpAngel was spawned at 0 0
-Rogue 1 reached level 1
 LevelUpAngel helped Rogue 1
+Rogue 1 reached level 1
 Angel Spawner was spawned at 0 0
 Spawner helped Wizard 0
 Player Wizard 0 was brought to life by an angel

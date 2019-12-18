@@ -4,8 +4,8 @@ Angel XPAngel was spawned at 0 0
 XPAngel helped Pyromancer 1
 Pyromancer 1 reached level 1
 Angel LevelUpAngel was spawned at 0 0
-Pyromancer 1 reached level 2
 LevelUpAngel helped Pyromancer 1
+Pyromancer 1 reached level 2
 Angel XPAngel was spawned at 0 0
 XPAngel helped Pyromancer 1
 Pyromancer 1 reached level 3

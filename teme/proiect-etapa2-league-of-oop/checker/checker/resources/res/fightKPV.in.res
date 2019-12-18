@@ -6,8 +6,8 @@ LifeGiver helped Pyromancer 1
 ~~ Round 2 ~~
 Player Knight 0 was killed by Pyromancer 1
 Angel LevelUpAngel was spawned at 0 0
-Pyromancer 1 reached level 1
 LevelUpAngel helped Pyromancer 1
+Pyromancer 1 reached level 1
 
 ~~ Results ~~
 K dead

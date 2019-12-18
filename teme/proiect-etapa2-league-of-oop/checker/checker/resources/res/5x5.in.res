@@ -81,10 +81,10 @@ Angel GoodBoy was spawned at 3 3
 GoodBoy helped Wizard 4
 GoodBoy helped Wizard 5
 Angel LevelUpAngel was spawned at 3 3
-Wizard 4 reached level 1
 LevelUpAngel helped Wizard 4
-Wizard 5 reached level 1
+Wizard 4 reached level 1
 LevelUpAngel helped Wizard 5
+Wizard 5 reached level 1
 
 ~~ Round 15 ~~
 Angel DarkAngel was spawned at 3 2

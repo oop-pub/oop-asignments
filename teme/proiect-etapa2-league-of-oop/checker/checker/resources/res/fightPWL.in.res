@@ -7,8 +7,8 @@ DamageAngel helped Pyromancer 0
 Angel DarkAngel was spawned at 0 0
 DarkAngel hit Pyromancer 0
 Angel LevelUpAngel was spawned at 0 0
-Pyromancer 0 reached level 1
 LevelUpAngel helped Pyromancer 0
+Pyromancer 0 reached level 1
 
 ~~ Round 2 ~~
 Angel XPAngel was spawned at 0 0

@@ -12,8 +12,8 @@ LifeGiver helped Rogue 1
 ~~ Round 2 ~~
 Player Rogue 1 was killed by Knight 0
 Angel LevelUpAngel was spawned at 0 0
-Knight 0 reached level 1
 LevelUpAngel helped Knight 0
+Knight 0 reached level 1
 Angel LifeGiver was spawned at 0 0
 LifeGiver helped Knight 0
 
