@@ -188,6 +188,9 @@ Angel LevelUpAngel was spawned at 15 5
 Angel XPAngel was spawned at 19 4
 Angel DamageAngel was spawned at 9 13
 Angel GoodBoy was spawned at 15 6
+Angel TheDoomer was spawned at 4 0
+TheDoomer hit Pyromancer 26
+Player Pyromancer 26 was killed by an angel
 
 ~~ Round 19 ~~
 Player Rogue 25 was killed by Pyromancer 20
@@ -323,7 +326,7 @@ P 0 0 500 1 18
 P dead
 W dead
 R dead
-P 4 440 306 3 1
+P dead
 P 0 0 180 10 14
 K dead
 W 0 0 375 16 11
