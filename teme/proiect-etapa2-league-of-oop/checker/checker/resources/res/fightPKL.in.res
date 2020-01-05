@@ -17,5 +17,5 @@ Spawner helped Knight 1
 Player Knight 1 was brought to life by an angel
 
 ~~ Results ~~
-P 0 0 150 0 0
-K 0 0 200 0 0
+P 0 200 150 0 0
+K 0 200 200 0 0
