@@ -62,9 +62,7 @@ Pyromancer 1 reached level 12
 Pyromancer 1 reached level 13
 Pyromancer 1 reached level 14
 Angel SmallAngel was spawned at 0 0
-SmallAngel helped Rogue 0
-SmallAngel helped Pyromancer 1
 
 ~~ Results ~~
-R 14 900 1160 0 0
-P 14 900 1200 0 0
+R dead
+P dead

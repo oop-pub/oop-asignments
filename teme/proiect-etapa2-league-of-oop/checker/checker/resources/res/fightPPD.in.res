@@ -18,5 +18,5 @@ Pyromancer 1 reached level 4
 Pyromancer 1 reached level 5
 
 ~~ Results ~~
-P 5 450 750 0 0
-P 5 450 750 0 0
+P dead
+P dead
