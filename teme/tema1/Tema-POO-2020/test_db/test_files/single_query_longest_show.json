@@ -1,0 +1,258 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [],
+        "shows": [
+            {
+                "name": "Carmen Sandiego",
+                "year": "2019",
+                "cast": [
+                    "Gina Rodriguez",
+                    "Finn Wolfhard"
+                ],
+                "genres": [
+                    "Kids",
+                    "Animation"
+                ],
+                "number_of_seasons": 3,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 22
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 22
+                    },
+                    {
+                        "current_season": 3,
+                        "duration": 22
+                    }
+                ]
+            },
+            {
+                "name": "Marvel's Cloak & Dagger",
+                "year": "2018",
+                "cast": [
+                    "Aubrey Joseph",
+                    "Olivia Holt"
+                ],
+                "genres": [
+                    "Action & Adventure",
+                    "Drama",
+                    "Sci-Fi & Fantasy"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 44
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 44
+                    }
+                ]
+            },
+            {
+                "name": "Euphoria",
+                "year": "2019",
+                "cast": [
+                    "Zendaya",
+                    "Hunter Schafer"
+                ],
+                "genres": [
+                    "Drama"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 60
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 60
+                    }
+                ]
+            },
+            {
+                "name": "Summerland",
+                "year": "2004",
+                "cast": [
+                    "Jesse McCartney",
+                    "Taylor Cole"
+                ],
+                "genres": [
+                    "Drama"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 60
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 60
+                    }
+                ]
+            },
+            {
+                "name": "How to Sell Drugs Online (Fast)",
+                "year": "2019",
+                "cast": [
+                    "Maximilian Mundt",
+                    "Lena Klenke"
+                ],
+                "genres": [
+                    "Comedy",
+                    "Crime",
+                    "Drama"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 30
+                    }
+                ]
+            },
+            {
+                "name": "Violet Evergarden",
+                "year": "2018",
+                "cast": [
+                    "Yui Ishikawa",
+                    "Daisuke Namikawa"
+                ],
+                "genres": [
+                    "Animation",
+                    "Sci-Fi & Fantasy",
+                    "Drama"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 25
+                    }
+                ]
+            },
+            {
+                "name": "See",
+                "year": "2019",
+                "cast": [
+                    "Jason Momoa",
+                    "Christian Camargo"
+                ],
+                "genres": [
+                    "Drama",
+                    "Sci-Fi & Fantasy",
+                    "Action & Adventure"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 60
+                    }
+                ]
+            },
+            {
+                "name": "Batwoman",
+                "year": "2019",
+                "cast": [
+                    "Ruby Rose",
+                    "Camrus Johnson"
+                ],
+                "genres": [
+                    "Action & Adventure",
+                    "Sci-Fi & Fantasy",
+                    "Mystery",
+                    "Crime"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 42
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 42
+                    }
+                ]
+            },
+            {
+                "name": "Steven Universe Future",
+                "year": "2019",
+                "cast": [
+                    "Zach Callison",
+                    "Estelle"
+                ],
+                "genres": [
+                    "Animation",
+                    "Kids",
+                    "Action & Adventure",
+                    "Comedy",
+                    "Sci-Fi & Fantasy"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 11
+                    }
+                ]
+            },
+            {
+                "name": "Cobra Kai",
+                "year": "2018",
+                "cast": [
+                    "Ralph Macchio",
+                    "William Zabka"
+                ],
+                "genres": [
+                    "Action & Adventure",
+                    "Drama"
+                ],
+                "number_of_seasons": 3,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 3,
+                        "duration": 30
+                    }
+                ]
+            }
+        ],
+        "users": []
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "query",
+            "object_type": "shows",
+            "number": 7,
+            "filters": {
+                "year": "2004",
+                "genre": "Comedy",
+                "words": null,
+                "awards": null
+            },
+            "sort_type": "asc",
+            "criteria": "longest"
+        }
+    ]
+}

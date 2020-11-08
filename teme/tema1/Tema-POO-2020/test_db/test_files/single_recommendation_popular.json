@@ -1,0 +1,388 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [
+            {
+                "name": "War Machine",
+                "year": "2017",
+                "duration": 122,
+                "genres": [
+                    "Comedy",
+                    "Drama",
+                    "War"
+                ],
+                "actors": [
+                    "Emory Cohen",
+                    "Anthony Michael Hall",
+                    "Brad Pitt"
+                ]
+            },
+            {
+                "name": "London Fields",
+                "year": "2018",
+                "duration": 118,
+                "genres": [
+                    "Crime",
+                    "Mystery",
+                    "Thriller",
+                    "Drama"
+                ],
+                "actors": [
+                    "Johnny Depp",
+                    "Jim Sturgess",
+                    "Amber Heard",
+                    "Theo James"
+                ]
+            },
+            {
+                "name": "A Happening of Monumental Proportions",
+                "year": "2017",
+                "duration": 70,
+                "genres": [
+                    "Comedy"
+                ],
+                "actors": [
+                    "Common",
+                    "Bradley Whitford",
+                    "Allison Janney",
+                    "Keanu Reeves"
+                ]
+            },
+            {
+                "name": "Thor: Ragnarok",
+                "year": "2017",
+                "duration": 131,
+                "genres": [
+                    "Action",
+                    "Adventure",
+                    "Comedy",
+                    "Fantasy"
+                ],
+                "actors": [
+                    "Cate Blanchett",
+                    "Benedict Cumberbatch",
+                    "Scarlett Johansson",
+                    "Tom Hiddleston",
+                    "Chris Hemsworth"
+                ]
+            },
+            {
+                "name": "Ed Wood",
+                "year": "1994",
+                "duration": 127,
+                "genres": [
+                    "Comedy",
+                    "Drama",
+                    "History"
+                ],
+                "actors": [
+                    "Johnny Depp",
+                    "Sarah Jessica Parker",
+                    "Martin Landau"
+                ]
+            }
+        ],
+        "shows": [
+            {
+                "name": "YOU",
+                "year": "2018",
+                "cast": [
+                    "Victoria Pedretti",
+                    "Jenna Ortega"
+                ],
+                "genres": [
+                    "Crime",
+                    "Drama"
+                ],
+                "number_of_seasons": 3,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 46
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 46
+                    },
+                    {
+                        "current_season": 3,
+                        "duration": 46
+                    }
+                ]
+            },
+            {
+                "name": "The Venture Bros.",
+                "year": "2004",
+                "cast": [
+                    "Christopher McCulloch",
+                    "Doc Hammer"
+                ],
+                "genres": [
+                    "Animation",
+                    "Action & Adventure",
+                    "Comedy"
+                ],
+                "number_of_seasons": 7,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 3,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 4,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 5,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 6,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 7,
+                        "duration": 30
+                    }
+                ]
+            },
+            {
+                "name": "Lost",
+                "year": "2004",
+                "cast": [
+                    "Jeff Fahey",
+                    "Naveen Andrews"
+                ],
+                "genres": [
+                    "Action & Adventure",
+                    "Drama",
+                    "Mystery",
+                    "Sci-Fi & Fantasy"
+                ],
+                "number_of_seasons": 6,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 45
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 45
+                    },
+                    {
+                        "current_season": 3,
+                        "duration": 45
+                    },
+                    {
+                        "current_season": 4,
+                        "duration": 45
+                    },
+                    {
+                        "current_season": 5,
+                        "duration": 45
+                    },
+                    {
+                        "current_season": 6,
+                        "duration": 45
+                    }
+                ]
+            },
+            {
+                "name": "Yashahime: Princess Half-Demon",
+                "year": "2020",
+                "cast": [
+                    "Sara Matsumoto",
+                    "Mikako Komatsu"
+                ],
+                "genres": [
+                    "Animation",
+                    "Action & Adventure"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 22
+                    }
+                ]
+            },
+            {
+                "name": "Soulmates",
+                "year": "2020",
+                "cast": [],
+                "genres": [
+                    "Drama",
+                    "Sci-Fi & Fantasy"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 36
+                    }
+                ]
+            }
+        ],
+        "users": [
+            {
+                "username": "culturedCurlew5",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "London Fields",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "War Machine",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Thor: Ragnarok",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "Ed Wood",
+                        "no_views": 3
+                    }
+                ],
+                "favourite": [
+                    "London Fields",
+                    "War Machine",
+                    "Ed Wood",
+                    "Thor: Ragnarok"
+                ]
+            },
+            {
+                "username": "ecstaticRat7",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "Ed Wood",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "A Happening of Monumental Proportions",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "War Machine",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Thor: Ragnarok",
+                        "no_views": 1
+                    }
+                ],
+                "favourite": [
+                    "War Machine",
+                    "A Happening of Monumental Proportions",
+                    "Ed Wood"
+                ]
+            },
+            {
+                "username": "emptyLion4",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "Ed Wood",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "War Machine",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "London Fields",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "A Happening of Monumental Proportions",
+                        "no_views": 3
+                    }
+                ],
+                "favourite": [
+                    "A Happening of Monumental Proportions"
+                ]
+            }
+        ]
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "command",
+            "type": "view",
+            "user": "emptyLion4",
+            "title": "Thor: Ragnarok"
+        },
+        {
+            "action_id": 2,
+            "action_type": "command",
+            "type": "view",
+            "user": "culturedCurlew5",
+            "title": "A Happening of Monumental Proportions"
+        },
+        {
+            "action_id": 3,
+            "action_type": "command",
+            "type": "view",
+            "user": "emptyLion4",
+            "title": "Ed Wood"
+        },
+        {
+            "action_id": 4,
+            "action_type": "command",
+            "type": "view",
+            "user": "ecstaticRat7",
+            "title": "Thor: Ragnarok"
+        },
+        {
+            "action_id": 5,
+            "action_type": "command",
+            "type": "view",
+            "user": "ecstaticRat7",
+            "title": "YOU"
+        },
+        {
+            "action_id": 6,
+            "action_type": "command",
+            "type": "view",
+            "user": "culturedCurlew5",
+            "title": "Lost"
+        },
+        {
+            "action_id": 7,
+            "action_type": "command",
+            "type": "view",
+            "user": "ecstaticRat7",
+            "title": "Yashahime: Princess Half-Demon"
+        },
+        {
+            "action_id": 8,
+            "action_type": "command",
+            "type": "view",
+            "user": "culturedCurlew5",
+            "title": "Yashahime: Princess Half-Demon"
+        },
+        {
+            "action_id": 9,
+            "action_type": "command",
+            "type": "view",
+            "user": "culturedCurlew5",
+            "title": "The Venture Bros."
+        },
+        {
+            "action_id": 10,
+            "action_type": "recommendation",
+            "type": "popular",
+            "username": "culturedCurlew5"
+        }
+    ]
+}

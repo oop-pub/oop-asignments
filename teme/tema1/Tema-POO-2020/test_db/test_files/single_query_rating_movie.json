@@ -1,0 +1,198 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [
+            {
+                "name": "The David S. Pumpkins Halloween Special",
+                "year": "2017",
+                "duration": 21,
+                "genres": [
+                    "Animation",
+                    "Comedy",
+                    "TV Movie"
+                ],
+                "actors": [
+                    "Peter Dinklage",
+                    "Mikey Day",
+                    "Tom Hanks"
+                ]
+            },
+            {
+                "name": "The Professor",
+                "year": "2019",
+                "duration": 90,
+                "genres": [
+                    "Comedy",
+                    "Drama"
+                ],
+                "actors": [
+                    "Johnny Depp",
+                    "Odessa Young",
+                    "Rosemarie DeWitt"
+                ]
+            },
+            {
+                "name": "John Wick: Chapter 2",
+                "year": "2017",
+                "duration": 122,
+                "genres": [
+                    "Thriller",
+                    "Action",
+                    "Crime"
+                ],
+                "actors": [
+                    "Common",
+                    "Laurence Fishburne",
+                    "Keanu Reeves"
+                ]
+            },
+            {
+                "name": "Toy Story 4",
+                "year": "2019",
+                "duration": 100,
+                "genres": [
+                    "Adventure",
+                    "Animation",
+                    "Comedy",
+                    "Family",
+                    "Fantasy"
+                ],
+                "actors": [
+                    "Tim Allen",
+                    "Keanu Reeves",
+                    "Annie Potts",
+                    "Tom Hanks"
+                ]
+            },
+            {
+                "name": "Jojo Rabbit",
+                "year": "2019",
+                "duration": 108,
+                "genres": [
+                    "Comedy",
+                    "War",
+                    "Drama"
+                ],
+                "actors": [
+                    "Thomasin McKenzie",
+                    "Roman Griffin Davis",
+                    "Scarlett Johansson"
+                ]
+            }
+        ],
+        "shows": [],
+        "users": [
+            {
+                "username": "contentEland0",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "The Professor",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "The David S. Pumpkins Halloween Special",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Toy Story 4",
+                        "no_views": 1
+                    }
+                ],
+                "favourite": [
+                    "Toy Story 4"
+                ]
+            },
+            {
+                "username": "boredZebra1",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "John Wick: Chapter 2",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "The Professor",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "Toy Story 4",
+                        "no_views": 3
+                    }
+                ],
+                "favourite": [
+                    "The Professor"
+                ]
+            },
+            {
+                "username": "pitifulGranola5",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "The David S. Pumpkins Halloween Special",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Toy Story 4",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "John Wick: Chapter 2",
+                        "no_views": 2
+                    }
+                ],
+                "favourite": [
+                    "John Wick: Chapter 2"
+                ]
+            }
+        ]
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "command",
+            "type": "rating",
+            "user": "contentEland0",
+            "title": "Toy Story 4",
+            "grade": 2
+        },
+        {
+            "action_id": 2,
+            "action_type": "command",
+            "type": "rating",
+            "user": "boredZebra1",
+            "title": "The David S. Pumpkins Halloween Special",
+            "grade": 2
+        },
+        {
+            "action_id": 3,
+            "action_type": "command",
+            "type": "rating",
+            "user": "pitifulGranola5",
+            "title": "Toy Story 4",
+            "grade": 3
+        },
+        {
+            "action_id": 4,
+            "action_type": "command",
+            "type": "rating",
+            "user": "contentEland0",
+            "title": "Jojo Rabbit",
+            "grade": 8
+        },
+        {
+            "action_id": 5,
+            "action_type": "query",
+            "object_type": "movies",
+            "number": 6,
+            "filters": {
+                "year": "2019",
+                "genre": "Action",
+                "words": null,
+                "awards": null
+            },
+            "sort_type": "desc",
+            "criteria": "ratings"
+        }
+    ]
+}

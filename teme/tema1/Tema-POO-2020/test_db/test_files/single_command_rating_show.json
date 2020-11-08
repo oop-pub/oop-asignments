@@ -1,0 +1,106 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [],
+        "shows": [
+            {
+                "name": "Kakushigoto",
+                "year": "2020",
+                "cast": [
+                    "Hiroshi Kamiya",
+                    "Rie Takahashi"
+                ],
+                "genres": [
+                    "Animation",
+                    "Comedy"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 24
+                    }
+                ]
+            },
+            {
+                "name": "The Dragon Prince",
+                "year": "2018",
+                "cast": [
+                    "Jack DeSena",
+                    "Paula Burrows"
+                ],
+                "genres": [
+                    "Action & Adventure",
+                    "Sci-Fi & Fantasy",
+                    "Animation",
+                    "Family"
+                ],
+                "number_of_seasons": 3,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 27
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 27
+                    },
+                    {
+                        "current_season": 3,
+                        "duration": 27
+                    }
+                ]
+            },
+            {
+                "name": "Home Before Dark",
+                "year": "2020",
+                "cast": [
+                    "Brooklynn Prince",
+                    "Kylie Rogers"
+                ],
+                "genres": [
+                    "Mystery",
+                    "Drama"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 49
+                    }
+                ]
+            }
+        ],
+        "users": [
+            {
+                "username": "mereZebra9",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "Home Before Dark",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "The Dragon Prince",
+                        "no_views": 3
+                    }
+                ],
+                "favourite": [
+                    "The Dragon Prince",
+                    "Home Before Dark"
+                ]
+            }
+        ]
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "command",
+            "type": "rating",
+            "user": "mereZebra9",
+            "title": "The Dragon Prince",
+            "grade": 2,
+            "season": 1
+        }
+    ]
+}
