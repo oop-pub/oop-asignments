@@ -32,6 +32,10 @@ public final class SerialInputData extends ShowInput {
         return numberOfSeasons;
     }
 
+    public ArrayList<Season> getSeasons() {
+        return seasons;
+    }
+
     @Override
     public String toString() {
         return "SerialInputData{" + " title= "

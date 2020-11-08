@@ -57,6 +57,14 @@ public final class ActorInputData {
         return awards;
     }
 
+    public String getCareerDescription() {
+        return careerDescription;
+    }
+
+    public void setCareerDescription(final String careerDescription) {
+        this.careerDescription = careerDescription;
+    }
+
     @Override
     public String toString() {
         return "ActorInputData{"
