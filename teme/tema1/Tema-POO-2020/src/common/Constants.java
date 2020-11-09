@@ -53,7 +53,7 @@ public final class Constants {
     public static final String MESSAGE = "message";
     public static final String QUERY = "query";
     public static final String COMMAND = "command";
-    public static final String RECOMMENDATION = "Recommendation";
+    public static final String RECOMMENDATION = "recommendation";
 
     // checker constants
     public static final String ID_STRING = "id";
