@@ -3,7 +3,10 @@ package main;
 import checker.Checkstyle;
 import checker.Checker;
 import common.Constants;
-import fileio.*;
+import fileio.Input;
+import fileio.InputLoader;
+import fileio.ActionInputData;
+import fileio.Writer;
 import org.json.simple.JSONArray;
 import solvers.ActorQuerySolver;
 import solvers.UserCommandSolver;
@@ -69,7 +72,6 @@ public final class Main {
                               final String filePath2) throws IOException {
         InputLoader inputLoader = new InputLoader(filePath1);
         Input input = inputLoader.readData();
-       
         Writer fileWriter = new Writer(filePath2);
         JSONArray arrayResult = new JSONArray();
 
@@ -79,32 +81,40 @@ public final class Main {
 
         String result;
 
-        for(ActionInputData action : input.getCommands()) {
+        for (ActionInputData action : input.getCommands()) {
 
             switch (action.getActionType()) {
                 case "command":
                     result = UserCommandSolver.solve(action);
-                    arrayResult.add(fileWriter.writeFile(action.getActionId(), null, result));
+                    arrayResult.add(fileWriter.writeFile(action.getActionId(),
+                            null, result));
                     break;
                 case "query":
                     switch (action.getObjectType()) {
                         case "actors" -> {
                             result = ActorQuerySolver.solve(action);
-                            arrayResult.add(fileWriter.writeFile(action.getActionId(), null, result));
+                            arrayResult.add(fileWriter.writeFile(action.getActionId(),
+                                    null, result));
                         }
                         case "users" -> {
                             result = UserQRSolver.solve(action);
-                            arrayResult.add(fileWriter.writeFile(action.getActionId(), null, result));
+                            arrayResult.add(fileWriter.writeFile(action.getActionId(),
+                                    null, result));
                         }
                         case "movies", "shows" -> {
                             result = VideoQuerySolver.solve(action);
-                            arrayResult.add(fileWriter.writeFile(action.getActionId(), null, result));
+                            arrayResult.add(fileWriter.writeFile(action.getActionId(),
+                                    null, result));
+                        }
+                        default -> {
                         }
                     }
                     break;
                 case "recommendation":
                     result = UserQRSolver.recommend(action);
                     arrayResult.add(fileWriter.writeFile(action.getActionId(), null, result));
+                    break;
+                default:
                     break;
             }
 

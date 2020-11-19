@@ -1,15 +1,18 @@
 package actor;
 
 import container.Container;
-import fileio.ActorInputData;
 import users.Users;
 
-import java.util.*;
+import java.util.Map;
+import java.util.List;
+
+import java.util.LinkedList;
+import java.util.HashMap;
 
 public final class Actors implements Container {
 
-    private List<Actor> actors;
-    private Map<String, Actor> actor;
+    private final List<Actor> actors;
+    private final Map<String, Actor> actor;
     private static Actors instance = null;
 
     private Actors() {
@@ -17,11 +20,15 @@ public final class Actors implements Container {
         actor = new HashMap<String, Actor>();
     }
 
+    /**
+     *
+     * @return
+     */
     public static Actors getInstance() {
 
-        if(instance == null) {
+        if (instance == null) {
             synchronized (Users.class) {
-                if(instance == null) {
+                if (instance == null) {
                     instance = new Actors();
                 }
             }
@@ -33,15 +40,27 @@ public final class Actors implements Container {
         return actors;
     }
 
-    public void add(Object actor) {
-        actors.add((Actor)actor);
-        this.actor.put(((Actor)actor).getName(), (Actor)actor);
+    /**
+     *
+     * @param newActor
+     */
+    public void add(final Object newActor) {
+        actors.add((Actor) newActor);
+        actor.put(((Actor) newActor).getName(), (Actor) newActor);
     }
 
-    public Actor get(String name) {
+    /**
+     *
+     * @param name
+     * @return
+     */
+    public Actor get(final String name) {
         return actor.get(name);
     }
 
+    /**
+     *
+     */
     public void purge() {
         actor.clear();
         actors.clear();

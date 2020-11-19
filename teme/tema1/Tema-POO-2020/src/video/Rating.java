@@ -5,7 +5,7 @@ public final class Rating {
     private final double rating;
     private final int season;
 
-    public Rating(double rating, int season) {
+    public Rating(final double rating, final int season) {
         this.rating = rating;
         this.season = season;
     }

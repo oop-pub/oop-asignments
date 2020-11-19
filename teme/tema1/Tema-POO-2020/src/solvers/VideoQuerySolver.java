@@ -9,13 +9,19 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public final class VideoQuerySolver {
-    public static String solve(ActionInputData action) {
+public abstract class VideoQuerySolver {
+
+    /**
+     *
+     * @param action
+     * @return
+     */
+    public static String solve(final ActionInputData action) {
 
         List<Video> filteredVideos = null;
 
         String type;
-        if(action.getObjectType().equals("movies")) {
+        if (action.getObjectType().equals("movies")) {
             type = "MOVIE";
         } else {
             type = "SHOW";
@@ -28,8 +34,9 @@ public final class VideoQuerySolver {
 
         Stream<Video> unorderedVideos = Videos.getInstance().getAll().stream()
                 .filter(video -> video.getType().equals(type))
-                .filter(video -> filter.year == null || video.getReleaseYear() == filter.year)
-                .filter(video -> filter.genre == null || video.hasGenre(filter.genre));
+                .filter(video -> filter.getYear() == null
+                        || video.getReleaseYear() == filter.getYear())
+                .filter(video -> filter.getGenre() == null || video.hasGenre(filter.getGenre()));
 
         switch (action.getCriteria()) {
             case "ratings":

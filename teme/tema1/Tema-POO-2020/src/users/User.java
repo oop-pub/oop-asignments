@@ -1,30 +1,31 @@
 package users;
 
-import actor.Actors;
-import fileio.MovieInputData;
 import fileio.UserInputData;
-import video.*;
+import video.Video;
+import video.Videos;
+import video.Rating;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class User {
+public final class User {
     private String username;
-    private String subscription_type;
+    private String subscriptionType;
     private final List<String> favoriteVideos;
     private final Map<String, Integer> viewedVideos;
     private final Map<String, Rating> ratings;
     private int ratingNum;
 
-    public User(String username, String subscription_type, List<String> favoriteVideos, Map<String, Integer> viewedVideos) {
+    public User(final String username, final String subscriptionType,
+                final List<String> favoriteVideos,
+                final Map<String, Integer> viewedVideos) {
         this.username = username;
-        this.subscription_type = subscription_type;
+        this.subscriptionType = subscriptionType;
         this.favoriteVideos = favoriteVideos;
-        for(String video : favoriteVideos) {
+        for (String video : favoriteVideos) {
             Video vid = Videos.getInstance().get(video);
-            if(vid != null) {
+            if (vid != null) {
                 vid.incrementFavorite();
             }
         }
@@ -34,85 +35,147 @@ public class User {
         ratings = new HashMap<String, Rating>();
     }
 
-    public User(UserInputData user) {
-        this(user.getUsername(), user.getSubscriptionType(), user.getFavoriteMovies(), user.getHistory());
+    public User(final UserInputData user) {
+        this(user.getUsername(), user.getSubscriptionType(),
+                user.getFavoriteMovies(), user.getHistory());
     }
 
     public String getUsername() {
         return username;
     }
 
-    public void setUsername(String username) {
+    public void setUsername(final String username) {
         this.username = username;
     }
 
-    public String getSubscription_type() {
-        return subscription_type;
+    /**
+     *
+     * @return
+     */
+    public String getsubscriptionType() {
+        return subscriptionType;
     }
 
-    public void setSubscription_type(String subscription_type) {
-        this.subscription_type = subscription_type;
+    /**
+     *
+     * @param subscription
+     */
+    public void setsubscriptionType(final String subscription) {
+        subscriptionType = subscription;
     }
 
-    public void addFavorite(String title) {
+    /**
+     *
+     * @param title
+     */
+    public void addFavorite(final String title) {
         Videos.getInstance().get(title).incrementFavorite();
         favoriteVideos.add(title);
     }
 
-    public int view(String title) {
-        Integer num_view = viewedVideos.getOrDefault(title, 0);
+    /**
+     *
+     * @param title
+     * @return
+     */
+    public int view(final String title) {
+        Integer numView = viewedVideos.getOrDefault(title, 0);
         Videos videos = Videos.getInstance();
         Video video = videos.get(title);
         video.incrementViews();
         videos.updateGenre(video);
-        viewedVideos.put(title, num_view + 1);
-        return num_view + 1;
+        viewedVideos.put(title, numView + 1);
+        return numView + 1;
     }
 
-    public boolean checkRated(String title, int noSeason) {
+    /**
+     *
+     * @param title
+     * @param noSeason
+     * @return
+     */
+    public boolean checkRated(final String title, final int noSeason) {
         return ratings.containsKey(title + "@" + noSeason);
     }
 
-    public boolean checkViewed(String title) {
+    /**
+     *
+     * @param title
+     * @return
+     */
+    public boolean checkViewed(final String title) {
         return viewedVideos.containsKey(title);
     }
 
-    public boolean checkFavorite(String title) {
+    /**
+     *
+     * @param title
+     * @return
+     */
+    public boolean checkFavorite(final String title) {
         return favoriteVideos.contains(title);
     }
 
-    public void rate(String title, Rating rating) {
+    /**
+     *
+     * @param title
+     * @param rating
+     */
+    public void rate(final String title, final Rating rating) {
 
         Video video = Videos.getInstance().get(title);
         ratingNum += 1;
-        if(video != null) {
+        if (video != null) {
             video.addRating(rating.getRating(), rating.getSeason());
             ratings.put(title + "@" + rating.getSeason(), rating);
         }
     }
 
+    /**
+     *
+     */
     public void purge() {
         viewedVideos.clear();
         ratings.clear();
     }
 
+    /**
+     *
+     * @return
+     */
     public Map<String, Integer> getViewed() {
         return viewedVideos;
     }
 
+    /**
+     *
+     * @return
+     */
     public boolean isActive() {
         return ratingNum != 0;
     }
+
+    /**
+     *
+     * @return
+     */
     public int getGivenRatingsNum() {
         return ratingNum;
     }
 
+    /**
+     *
+     */
     public void addViewsToVideos() {
         for (Map.Entry<String, Integer> entry : viewedVideos.entrySet()) {
             Videos.getInstance().get(entry.getKey()).incrementViews(entry.getValue());
         }
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public String toString() {
         return username;

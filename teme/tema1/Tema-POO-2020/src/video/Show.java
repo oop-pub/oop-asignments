@@ -1,53 +1,50 @@
 package video;
 
-import actor.Actors;
-import entertainment.Genre;
 import entertainment.Season;
 import fileio.SerialInputData;
 
 import java.util.List;
-import java.util.Map;
 
-public class Show extends Video {
+public final class Show extends Video {
     private int numberOfSeasons;
     private final double[] seasonAddedRatings;
     private final int[] seasonNumberRatings;
-    private int rating;
+    private final int maxSeason = 10000;
 
-    public Show(String title, int release_year, List<String> genres, List<String> cast, int numberOfSeasons, List<Season> seasons) {
-        super(title, release_year, genres, cast);
+    public Show(final String title, final int releaseYear, final List<String> genres,
+                final  List<String> cast, final int numberOfSeasons, final List<Season> seasons) {
+        super(title, releaseYear, genres, cast);
         this.numberOfSeasons = numberOfSeasons;
-        seasonNumberRatings = new int[1000];
-        seasonAddedRatings = new double[1000];
-        rating = 0;
+        seasonNumberRatings = new int[maxSeason];
+        seasonAddedRatings = new double[maxSeason];
+        ratingNum = numberOfSeasons;
         this.label = "SHOW";
         int count = 0;
-        for(Season season : seasons) {
-            seasonNumberRatings[count] = season.getRatings().size();
-            for(double rating : season.getRatings()) {
-                seasonAddedRatings[count] += rating;
-            }
-            this.rating += seasonAddedRatings[count] / seasonNumberRatings[count];
+        for (Season season : seasons) {
             this.duration += season.getDuration();
             count += 1;
         }
     }
 
-    public Show(SerialInputData tvshow) {
-       this(tvshow.getTitle(), tvshow.getYear(), tvshow.getGenres(), tvshow.getCast(), tvshow.getNumberSeason(), tvshow.getSeasons());
+    public Show(final SerialInputData tvshow) {
+       this(tvshow.getTitle(), tvshow.getYear(), tvshow.getGenres(),
+               tvshow.getCast(), tvshow.getNumberSeason(), tvshow.getSeasons());
     }
 
-    public void addRating(double rating, int numberOfSeason) {
+    /**
+     *
+     * @param newRating
+     * @param numberOfSeason
+     */
+    public void addRating(final double newRating, final int numberOfSeason) {
 
         double oldRating = ratingNum == 0 ? 0 : ratingVal / ratingNum;
 
-        if(seasonNumberRatings[numberOfSeason] != 0) {
+        if (seasonNumberRatings[numberOfSeason] != 0) {
             ratingVal -= seasonAddedRatings[numberOfSeason] / seasonNumberRatings[numberOfSeason];
-        } else {
-            ratingNum = Math.max(numberOfSeason, ratingNum);
         }
 
-        seasonAddedRatings[numberOfSeason] += rating;
+        seasonAddedRatings[numberOfSeason] += newRating;
         seasonNumberRatings[numberOfSeason] += 1;
 
         ratingVal += seasonAddedRatings[numberOfSeason] / seasonNumberRatings[numberOfSeason];

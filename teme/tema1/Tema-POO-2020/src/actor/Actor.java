@@ -1,29 +1,25 @@
 package actor;
 
 import fileio.ActorInputData;
-import video.Movie;
-import video.Show;
-import video.Video;
-import video.Videos;
-
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Actor {
+public final class Actor {
 
-    private String name;
-    private String careerDescription;
+    private final String name;
+    private final String careerDescription;
 
-    private List<String> filmography;
-    private Map<ActorsAwards, Integer> awards;
-    private Map<String, Integer> usedWords;
+    private final List<String> filmography;
+    private final Map<ActorsAwards, Integer> awards;
+    private final Map<String, Integer> usedWords;
     private double mediumRatingValue;
     private int mediumRatingNum;
 
     private int awardsNumber;
 
-    public Actor(String name, String careerDescription, List<String> filmography, Map<ActorsAwards, Integer> awards) {
+    public Actor(final String name, final String careerDescription, final List<String> filmography,
+                 final Map<ActorsAwards, Integer> awards) {
         this.name = name;
         this.careerDescription = careerDescription.replaceAll("[^\\w]", " ").toLowerCase();
         this.filmography = filmography;
@@ -36,14 +32,21 @@ public class Actor {
         getUsedWords();
     }
 
-    public Actor(ActorInputData actor) {
-        this(actor.getName(), actor.getCareerDescription(), actor.getFilmography(), actor.getAwards());
+    public Actor(final ActorInputData actor) {
+        this(actor.getName(), actor.getCareerDescription(),
+                actor.getFilmography(), actor.getAwards());
     }
 
-    public boolean descriptionContains(List<String> words) {
 
-        for(String word : words) {
-            if(!usedWords.containsKey(word)) {
+    /**
+     *
+     * @param words
+     * @return
+     */
+    public boolean descriptionContains(final List<String> words) {
+
+        for (String word : words) {
+            if (!usedWords.containsKey(word)) {
                 return false;
             }
         }
@@ -66,9 +69,14 @@ public class Actor {
         return awards;
     }
 
-    public boolean hasAwards(List<String> awards) {
-        for(String award : awards){
-            if(!this.awards.containsKey(ActorsAwards.valueOf(award))) {
+    /**
+     *
+     * @param awardList
+     * @return
+     */
+    public boolean hasAwards(final List<String> awardList) {
+        for (String award : awardList) {
+            if (!awards.containsKey(ActorsAwards.valueOf(award))) {
                 return false;
             }
         }
@@ -76,13 +84,13 @@ public class Actor {
     }
 
     private void getAwardsNum() {
-        for(ActorsAwards award : ActorsAwards.values()) {
+        for (ActorsAwards award : ActorsAwards.values()) {
             awardsNumber += awards.getOrDefault(award, 0);
         }
     }
 
     private void getUsedWords() {
-        for(String word : careerDescription.split(" ")) {
+        for (String word : careerDescription.split(" ")) {
             usedWords.put(word, 1);
         }
     }
@@ -91,17 +99,28 @@ public class Actor {
         return awardsNumber;
     }
 
-    public void modifyRating(double rating, double oldRating) {
+    /**
+     *
+     * @param rating
+     * @param oldRating
+     */
+    public void modifyRating(final double rating, final double oldRating) {
         mediumRatingValue = mediumRatingValue - oldRating + rating;
-        if(oldRating == 0) {
+        if (oldRating == 0) {
             mediumRatingNum += 1;
         }
     }
 
+    /**
+     *
+     * @return
+     */
     public double getRating() {
-        if(mediumRatingNum == 0) {
+
+        if (mediumRatingNum == 0) {
             return 0;
         }
+
         return mediumRatingValue / mediumRatingNum;
     }
 

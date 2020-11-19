@@ -3,22 +3,25 @@ package solvers;
 import actor.Actor;
 import actor.Actors;
 import fileio.ActionInputData;
-import fileio.Writer;
-import org.json.simple.JSONArray;
 
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public final class ActorQuerySolver {
+public abstract class ActorQuerySolver {
 
-    public static String solve(ActionInputData action) {
+    /**
+     *
+     * @param action
+     * @return
+     */
+    public static String solve(final ActionInputData action) {
         List<Actor> actors = Actors.getInstance().getAll();
         List<Actor> filteredActors = null;
         Filter filter = new Filter(
                 action.getFilters().get(2),
-                action.getFilters().get(3)
+                action.getFilters().get(action.getFilters().size() - 1)
         );
         Stream<Actor> unorderedActors = actors.stream();
 
@@ -43,7 +46,8 @@ public final class ActorQuerySolver {
                 break;
             case "awards":
 
-                unorderedActors = unorderedActors.filter(actor -> filter.awards == null || actor.hasAwards(filter.awards));
+                unorderedActors = unorderedActors.filter(actor -> filter.getAwards() == null
+                        || actor.hasAwards(filter.getAwards()));
 
                 if (action.getSortType().equals("asc")) {
                     filteredActors = unorderedActors
@@ -60,7 +64,8 @@ public final class ActorQuerySolver {
                 }
                 break;
             case "filter_description":
-                unorderedActors = unorderedActors.filter(actor -> filter.words == null || actor.descriptionContains(filter.words));
+                unorderedActors = unorderedActors.filter(actor -> filter.getWords() == null
+                        || actor.descriptionContains(filter.getWords()));
                 if (action.getSortType().equals("asc")) {
                     filteredActors = unorderedActors
                             .sorted(Comparator.comparing(Actor::getName))
@@ -70,6 +75,9 @@ public final class ActorQuerySolver {
                             .sorted(Comparator.comparing(Actor::getName).reversed())
                             .collect(Collectors.toList());
                 }
+                break;
+
+            default:
                 break;
         }
 

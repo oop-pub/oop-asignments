@@ -1,10 +1,13 @@
 package video;
 
-import com.sun.source.tree.Tree;
 import container.Container;
 import users.Users;
 
-import java.util.*;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.LinkedList;
+import java.util.HashMap;
+import java.util.List;
 
 public final class Videos implements Container {
 
@@ -16,14 +19,18 @@ public final class Videos implements Container {
     private Videos() {
         videos = new LinkedList<Video>();
         video = new HashMap<String, Video>();
-        popular = new TreeMap<String, Integer>(Collections.reverseOrder());
+        popular = new LinkedHashMap<>();
     }
 
+    /**
+     *
+     * @return
+     */
     public static Videos getInstance() {
 
-        if(instance == null) {
+        if (instance == null) {
             synchronized (Users.class) {
-                if(instance == null) {
+                if (instance == null) {
                     instance = new Videos();
                 }
             }
@@ -31,36 +38,60 @@ public final class Videos implements Container {
         return instance;
     }
 
+    /**
+     *
+     * @return
+     */
     public List<Video> getAll() {
         return videos;
     }
 
-    public void add(Object video) {
+    /**
+     *
+     * @param newVideo
+     */
+    public void add(final Object newVideo) {
 
-        videos.add((Video)video);
-        updateGenre(video);
-        this.video.put(((Video)video).title, (Video)video);
+        videos.add((Video) newVideo);
+        updateGenre(newVideo);
+        video.put(((Video) newVideo).title, (Video) newVideo);
 
     }
 
-    public void updateGenre(Object video) {
-        for(String genre : ((Video) video).genres) {
-            Integer num_view = popular.remove(genre);
-            if(num_view == null) {
-                num_view = 0;
+    /**
+     *
+     * @param newVideo
+     */
+    public void updateGenre(final Object newVideo) {
+        for (String genre : ((Video) newVideo).genres) {
+            Integer numView = popular.remove(genre);
+            if (numView == null) {
+                numView = 0;
             }
-            popular.put(genre, num_view + ((Video) video).getViews());
+            popular.put(genre, numView + ((Video) newVideo).getViews());
         }
     }
 
-    public Map<String, Integer> getPopular(){
+    /**
+     *
+     * @return
+     */
+    public Map<String, Integer> getPopular() {
         return popular;
     }
 
-    public Video get(String title) {
+    /**
+     *
+     * @param title
+     * @return
+     */
+    public Video get(final String title) {
         return video.get(title);
     }
 
+    /**
+     *
+     */
     public void purge() {
         video.clear();
         videos.clear();

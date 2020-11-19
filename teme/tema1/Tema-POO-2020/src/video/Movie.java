@@ -1,27 +1,31 @@
 package video;
 
-import actor.Actor;
-import actor.Actors;
-import entertainment.Genre;
 import fileio.MovieInputData;
 
 import java.util.List;
 
-public class Movie extends Video {
+public final class Movie extends Video {
 
-    public Movie(String title, int release_year, List<String> genres, int duration, List<String> cast, double rating) {
-        super(title, release_year, genres, cast);
+    public Movie(final String title, final int releaseYear, final List<String> genres,
+                 final int duration, final List<String> cast) {
+        super(title, releaseYear, genres, cast);
         this.duration = duration;
         this.label = "MOVIE";
 
     }
 
-    public Movie(MovieInputData movie) {
-        this(movie.getTitle(), movie.getYear(), movie.getGenres(), movie.getDuration(), movie.getCast(), 0);
+    public Movie(final MovieInputData movie) {
+        this(movie.getTitle(), movie.getYear(),
+                movie.getGenres(), movie.getDuration(), movie.getCast());
     }
 
-    public void addRating(double rating, int numberOfSeason) {
-        double oldRating = ratingNum == 0? 0 : ratingVal / ratingNum;
+    /**
+     *
+     * @param rating
+     * @param numberOfSeason
+     */
+    public void addRating(final double rating, final int numberOfSeason) {
+        double oldRating = ratingNum == 0 ? 0 : ratingVal / ratingNum;
         ratingVal += rating;
         ratingNum += 1;
         modifyActorRating(ratingVal / ratingNum, oldRating);

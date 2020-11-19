@@ -1,19 +1,16 @@
 package solvers;
 
-import actor.ActorsAwards;
-
 import java.util.List;
-import java.util.stream.Collectors;
 
 public final class Filter {
 
-    Integer year;
-    String genre;
-    List<String> awards;
-    List<String> words;
+    private Integer year;
+    private String genre;
+    private List<String> awards;
+    private List<String> words;
 
-    public Filter(String year, String genre) { // Constructor for videos
-        if(year == null) {
+    public Filter(final String year, final String genre) { // Constructor for videos
+        if (year == null) {
             this.year = null;
         } else {
             this.year = Integer.parseInt(year);
@@ -21,11 +18,24 @@ public final class Filter {
         this.genre = genre;
     }
 
-    public Filter(List<String> words, List<String> awards) { // Constructor for actors
+    public Filter(final List<String> words, final List<String> awards) { // Constructor for actors
         this.awards = awards;
         this.words = words;
     }
 
+    public Integer getYear() {
+        return year;
+    }
 
+    public String getGenre() {
+        return genre;
+    }
 
+    public List<String> getAwards() {
+        return awards;
+    }
+
+    public List<String> getWords() {
+        return words;
+    }
 }

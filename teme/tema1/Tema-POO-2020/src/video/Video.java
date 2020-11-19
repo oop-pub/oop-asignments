@@ -1,7 +1,6 @@
 package video;
 import actor.Actor;
 import actor.Actors;
-import entertainment.Genre;
 import users.User;
 import users.Users;
 
@@ -10,7 +9,7 @@ import java.util.List;
 public abstract class Video {
 
     protected String title;
-    protected int release_year;
+    protected int releaseYear;
     protected List<String> genres;
     protected double ratingVal;
     protected int ratingNum;
@@ -21,9 +20,10 @@ public abstract class Video {
     protected int favorite;
     protected int duration;
 
-    public Video(String title, int release_year, List<String> genres, List<String> cast) {
+    public Video(final String title, final int releaseYear,
+                 final List<String> genres, final List<String> cast) {
         this.title = title;
-        this.release_year = release_year;
+        this.releaseYear = releaseYear;
         this.genres = genres;
         ratingVal = 0;
         ratingNum = 0;
@@ -33,79 +33,141 @@ public abstract class Video {
         noViews = 0;
     }
 
+    /**
+     *
+     * @return
+     */
     public double getRating() {
         return ratingNum == 0 ? 0 : ratingVal / ratingNum;
     }
 
-    protected void modifyActorRating(double rating, double oldRating) {
-        for(String actor:cast) {
-            if(rating != 0) {
+    /**
+     *
+     * @param rating
+     * @param oldRating
+     */
+    protected void modifyActorRating(final double rating, final double oldRating) {
+        for (String actor:cast) {
+            if (rating != 0) {
                 Actor act = Actors.getInstance().get(actor);
-                if(act != null) {
+                if (act != null) {
                     act.modifyRating(rating, oldRating);
                 }
             }
         }
     }
 
+    /**
+     *
+     */
     private void getDefaultViews() {
-        for(String name:cast) {
+        for (String name:cast) {
             User user = Users.getInstance().get(name);
-            if(user != null) {
-                if(user.getViewed().get(title) != null) {
+            if (user != null) {
+                if (user.getViewed().get(title) != null) {
                     noViews += user.getViewed().get(title);
-                };
+                }
             }
         }
     }
 
+    /**
+     *
+     * @return
+     */
     public int getViews() {
         return noViews;
     }
 
+    /**
+     *
+     * @return
+     */
     public String getTitle() {
         return title;
     }
 
+    /**
+     *
+     * @param rating
+     * @param numberOfSeason
+     */
+
     public abstract void addRating(double rating, int numberOfSeason);
 
+    /**
+     *
+     * @return
+     */
     public String getType() {
         return label;
     }
 
+    /**
+     *
+     * @return
+     */
     public int getReleaseYear() {
-        return release_year;
+        return releaseYear;
     }
 
-    public boolean hasGenre(String genre) {
-        for(String gnr : genres) {
-            if(genre.compareTo(gnr) == 0) {
+    /**
+     *
+     * @param genre
+     * @return
+     */
+
+    public boolean hasGenre(final String genre) {
+        for (String gnr : genres) {
+            if (genre.compareTo(gnr) == 0) {
                 return true;
             }
         }
         return false;
     }
 
+    /**
+     *
+     */
     public void incrementFavorite() {
         favorite += 1;
     }
 
+    /**
+     *
+     * @return
+     */
     public int getFavorite() {
         return favorite;
     }
 
+    /**
+     *
+     * @return
+     */
     public int getDuration() {
         return duration;
     };
 
+    /**
+     *
+     */
     public void incrementViews() {
         noViews += 1;
     }
 
-    public void incrementViews(int n) {
+    /**
+     *
+     * @param
+     */
+    public void incrementViews(final int n) {
         noViews += n;
     }
 
+    /**
+     *
+     * @return
+     */
     @Override
     public String toString() {
         return title;
