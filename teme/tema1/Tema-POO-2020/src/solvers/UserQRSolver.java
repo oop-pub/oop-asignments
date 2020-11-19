@@ -102,8 +102,8 @@ public final class UserQRSolver {
                 }
                 for(Map.Entry<String, Integer> entry : Videos.getInstance().getPopular().entrySet()) {
                     List<Video> filteredVideos = Videos.getInstance().getAll().stream()
-                                        .filter(video -> video.hasGenre(entry.getKey()))
                                         .filter(video -> !user.checkViewed(video.getTitle()))
+                                        .filter(video -> video.hasGenre(entry.getKey()))
                                         .collect(Collectors.toList());
                     if(filteredVideos.isEmpty()) {
                         continue;

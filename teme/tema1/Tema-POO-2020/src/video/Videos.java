@@ -16,7 +16,7 @@ public final class Videos implements Container {
     private Videos() {
         videos = new LinkedList<Video>();
         video = new HashMap<String, Video>();
-        popular = new TreeMap<String, Integer>();
+        popular = new TreeMap<String, Integer>(Collections.reverseOrder());
     }
 
     public static Videos getInstance() {

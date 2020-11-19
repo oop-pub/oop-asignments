@@ -59,7 +59,8 @@ public final class VideoQuerySolver {
                             .collect(Collectors.toList());
                 } else {
                     filteredVideos = unorderedVideos
-                            .sorted(Comparator.comparing(Video::getFavorite))
+                            .sorted(Comparator.comparing(Video::getFavorite)
+                            .thenComparing(Video::getTitle))
                             .limit(action.getNumber())
                             .collect(Collectors.toList());
                 }
@@ -71,12 +72,14 @@ public final class VideoQuerySolver {
             case "longest":
                 if (action.getSortType().equals("desc")) {
                     filteredVideos = unorderedVideos
-                            .sorted(Comparator.comparing(Video::getDuration).reversed())
+                            .sorted(Comparator.comparing(Video::getDuration)
+                                    .thenComparing(Video::getTitle).reversed())
                             .limit(action.getNumber())
                             .collect(Collectors.toList());
                 } else {
                     filteredVideos = unorderedVideos
-                            .sorted(Comparator.comparing(Video::getDuration))
+                            .sorted(Comparator.comparing(Video::getDuration)
+                            .thenComparing(Video::getTitle))
                             .limit(action.getNumber())
                             .collect(Collectors.toList());
                 }
@@ -84,14 +87,16 @@ public final class VideoQuerySolver {
             default:
                 if (action.getSortType().equals("desc")) {
                     filteredVideos = unorderedVideos
-                            .sorted(Comparator.comparing(Video::getViews).reversed())
-                            .limit(action.getNumber())
-                            .collect(Collectors.toList());
+                                    .sorted(Comparator.comparing(Video::getViews)
+                                    .thenComparing(Video::getTitle).reversed())
+                                    .limit(action.getNumber())
+                                    .collect(Collectors.toList());
                 } else {
                     filteredVideos = unorderedVideos
-                            .sorted(Comparator.comparing(Video::getViews))
-                            .limit(action.getNumber())
-                            .collect(Collectors.toList());
+                                    .sorted(Comparator.comparing(Video::getViews)
+                                    .thenComparing(Video::getTitle))
+                                    .limit(action.getNumber())
+                                    .collect(Collectors.toList());
                 }
                 filteredVideos = filteredVideos.stream()
                         .filter(video -> video.getViews() != 0)

@@ -26,7 +26,6 @@ public class Show extends Video {
             seasonNumberRatings[count] = season.getRatings().size();
             for(double rating : season.getRatings()) {
                 seasonAddedRatings[count] += rating;
-
             }
             this.rating += seasonAddedRatings[count] / seasonNumberRatings[count];
             this.duration += season.getDuration();
@@ -39,13 +38,20 @@ public class Show extends Video {
     }
 
     public void addRating(double rating, int numberOfSeason) {
-        double oldRating = this.rating;
-        this.rating -= seasonAddedRatings[numberOfSeason] / seasonNumberRatings[numberOfSeason];
+
+        double oldRating = ratingNum == 0 ? 0 : ratingVal / ratingNum;
+
+        if(seasonNumberRatings[numberOfSeason] != 0) {
+            ratingVal -= seasonAddedRatings[numberOfSeason] / seasonNumberRatings[numberOfSeason];
+        } else {
+            ratingNum = Math.max(numberOfSeason, ratingNum);
+        }
+
         seasonAddedRatings[numberOfSeason] += rating;
         seasonNumberRatings[numberOfSeason] += 1;
 
-        this.rating += seasonAddedRatings[numberOfSeason] / seasonNumberRatings[numberOfSeason];
-        modifyActorRating(this.rating, oldRating);
+        ratingVal += seasonAddedRatings[numberOfSeason] / seasonNumberRatings[numberOfSeason];
+        modifyActorRating(ratingVal / ratingNum, oldRating);
     }
 
 

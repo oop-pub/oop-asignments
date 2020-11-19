@@ -9,13 +9,10 @@ import java.util.List;
 
 public class Movie extends Video {
 
-    private int ratingNum;
-
     public Movie(String title, int release_year, List<String> genres, int duration, List<String> cast, double rating) {
         super(title, release_year, genres, cast);
         this.duration = duration;
         this.label = "MOVIE";
-        ratingNum  = 0;
 
     }
 
@@ -24,11 +21,10 @@ public class Movie extends Video {
     }
 
     public void addRating(double rating, int numberOfSeason) {
-        double aux = this.rating * ratingNum;
-        double oldRating = this.rating;
+        double oldRating = ratingNum == 0? 0 : ratingVal / ratingNum;
+        ratingVal += rating;
         ratingNum += 1;
-        this.rating = (aux + rating) / ratingNum;
-        modifyActorRating(this.rating, oldRating);
+        modifyActorRating(ratingVal / ratingNum, oldRating);
     }
 
 

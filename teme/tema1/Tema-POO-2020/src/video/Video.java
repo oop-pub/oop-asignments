@@ -12,7 +12,8 @@ public abstract class Video {
     protected String title;
     protected int release_year;
     protected List<String> genres;
-    protected  double rating;
+    protected double ratingVal;
+    protected int ratingNum;
     protected List<String> cast;
     protected int noViews;
     protected int isFav;
@@ -24,7 +25,8 @@ public abstract class Video {
         this.title = title;
         this.release_year = release_year;
         this.genres = genres;
-        rating = 0;
+        ratingVal = 0;
+        ratingNum = 0;
         favorite = 0;
         this.cast = cast;
         getDefaultViews();
@@ -32,7 +34,7 @@ public abstract class Video {
     }
 
     public double getRating() {
-        return rating;
+        return ratingNum == 0 ? 0 : ratingVal / ratingNum;
     }
 
     protected void modifyActorRating(double rating, double oldRating) {
