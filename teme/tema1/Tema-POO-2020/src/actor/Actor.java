@@ -3,6 +3,8 @@ package actor;
 import fileio.ActorInputData;
 import video.Movie;
 import video.Show;
+import video.Video;
+import video.Videos;
 
 import java.util.HashMap;
 import java.util.List;
@@ -90,7 +92,7 @@ public class Actor {
     }
 
     public void modifyRating(double rating, double oldRating) {
-        mediumRatingValue = mediumRatingNum - oldRating + rating;
+        mediumRatingValue = mediumRatingValue - oldRating + rating;
         if(oldRating == 0) {
             mediumRatingNum += 1;
         }

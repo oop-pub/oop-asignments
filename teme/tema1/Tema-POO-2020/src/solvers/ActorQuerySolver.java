@@ -25,11 +25,19 @@ public final class ActorQuerySolver {
         switch (action.getCriteria()) {
             case "average":
                 if (action.getSortType().equals("asc")) {
-                    filteredActors = unorderedActors.sorted(Comparator.comparing(Actor::getRating).reversed().thenComparing(Actor::getName))
+                    filteredActors = unorderedActors
+                            .filter(actor -> actor.getRating() != 0)
+                            .sorted(Comparator.comparing(Actor::getRating)
+                            .thenComparing(Actor::getName))
                             .limit(action.getNumber())
                             .collect(Collectors.toList());
+                    for(Actor actor : Actors.getInstance().getAll()) {
+                        System.out.println(actor.getName() + " " + actor.getRating());
+                    }
                 } else {
-                    filteredActors = unorderedActors.sorted(Comparator.comparing(Actor::getRating).thenComparing(Actor::getName))
+                    filteredActors = unorderedActors.sorted(Comparator.comparing(Actor::getRating)
+                            .thenComparing(Actor::getName)
+                            .reversed())
                             .limit(action.getNumber())
                             .collect(Collectors.toList());
                 }

@@ -37,9 +37,11 @@ public abstract class Video {
 
     protected void modifyActorRating(double rating, double oldRating) {
         for(String actor:cast) {
-            Actor act = Actors.getInstance().get(actor);
-            if(act != null) {
-                act.modifyRating(rating, oldRating);
+            if(rating != 0) {
+                Actor act = Actors.getInstance().get(actor);
+                if(act != null) {
+                    act.modifyRating(rating, oldRating);
+                }
             }
         }
     }
