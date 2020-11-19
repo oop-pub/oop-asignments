@@ -1,19 +1,34 @@
 package main;
 
+import actor.Actor;
+import actor.Actors;
 import checker.Checkstyle;
 import checker.Checker;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import common.Constants;
-import fileio.Input;
-import fileio.InputLoader;
-import fileio.Writer;
+import fileio.*;
 import org.json.simple.JSONArray;
+import org.json.zip.None;
+import solvers.ActorQuerySolver;
+import solvers.UserCommandSolver;
+import solvers.UserQuerySolver;
+import solvers.VideoQuerySolver;
+import users.User;
+import users.Users;
+import utils.InputAssumer;
+import video.*;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.security.SecureRandom;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
 import java.util.Objects;
+import java.util.stream.Collectors;
 
 /**
  * The entry point to this homework. It runs the checker that tests your implentation.
@@ -66,12 +81,48 @@ public final class Main {
                               final String filePath2) throws IOException {
         InputLoader inputLoader = new InputLoader(filePath1);
         Input input = inputLoader.readData();
-
+       
         Writer fileWriter = new Writer(filePath2);
         JSONArray arrayResult = new JSONArray();
 
-        //TODO add here the entry point to your implementation
 
+        //TODO add here the entry point to your implementation
+        InputAssumer.transfer(input);
+
+        String result;
+
+        for(ActionInputData action : input.getCommands()) {
+
+            switch (action.getActionType()) {
+                case "command":
+                    result = UserCommandSolver.solve(action);
+                    arrayResult.add(fileWriter.writeFile(action.getActionId(), null, result));
+                    break;
+                case "query":
+                    switch (action.getObjectType()) {
+                        case "actors" -> {
+                            result = ActorQuerySolver.solve(action);
+                            arrayResult.add(fileWriter.writeFile(action.getActionId(), null, result));
+                        }
+                        case "users" -> {
+                            result = UserQuerySolver.solve(action);
+                            arrayResult.add(fileWriter.writeFile(action.getActionId(), null, result));
+                        }
+                        case "movies", "shows" -> {
+                            result = VideoQuerySolver.solve(action);
+                            arrayResult.add(fileWriter.writeFile(action.getActionId(), null, result));
+                        }
+                    }
+                    break;
+                case "recommendation":
+                    result = UserQuerySolver.recommend(action);
+                    arrayResult.add(fileWriter.writeFile(action.getActionId(), null, result));
+                    break;
+            }
+
+        }
+
+        InputAssumer.purgeTestData();
         fileWriter.closeJSON(arrayResult);
     }
 }
