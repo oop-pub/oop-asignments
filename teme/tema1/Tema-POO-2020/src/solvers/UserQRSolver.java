@@ -8,10 +8,11 @@ import video.Videos;
 
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public final class UserQuerySolver {
+public final class UserQRSolver {
     public static String solve(ActionInputData action) {
 
         Stream<User>  unorderedUsers = Users.getInstance().getAll().stream()
@@ -20,8 +21,8 @@ public final class UserQuerySolver {
         List<User> filteredUsers = null;
         if(action.getSortType().compareTo("desc") == 0) {
             filteredUsers = unorderedUsers
-                    .sorted(Comparator.comparing(User::getGivenRatingsNum).reversed()
-                    .thenComparing(User::getUsername))
+                    .sorted(Comparator.comparing(User::getGivenRatingsNum)
+                    .thenComparing(User::getUsername).reversed())
                     .limit(action.getNumber())
                     .collect(Collectors.toList());
         } else {
@@ -45,7 +46,7 @@ public final class UserQuerySolver {
                         return "StandardRecommendation result: " + video.getTitle();
                     }
                 }
-                break;
+                return "StandardRecommendation cannot be applied!";
             case "best_unseen": {
                 String result = "";
                 double rating = -1;
@@ -56,6 +57,9 @@ public final class UserQuerySolver {
                         result = video.getTitle();
                     }
                 }
+                if(result.equals("")) {
+                    return "BestRatedUnseenRecommendation cannot be applied!";
+                }
                 return "BestRatedUnseenRecommendation result: " + result;
             }
             case "favorite": {
@@ -65,13 +69,16 @@ public final class UserQuerySolver {
                 String result = "";
                 double favNum = -1;
                 for (Video video : Videos.getInstance().getAll()) {
-                    if (video.getType().equals("MOVIE")) {
+                    if(!user.checkViewed(video.getTitle())) {
                         double videoFavNum = video.getFavorite();
                         if (videoFavNum > favNum) {
                             favNum = videoFavNum;
                             result = video.getTitle();
                         }
                     }
+                }
+                if(result.equals("")) {
+                    return "FavoriteRecommendation cannot be applied!";
                 }
                 return "FavoriteRecommendation result: " + result;
             }
@@ -85,12 +92,25 @@ public final class UserQuerySolver {
                         .sorted(Comparator.comparing(Video::getRating)
                                 .thenComparing(Video::getTitle))
                         .collect(Collectors.toList());
+                if(filteredMovies.isEmpty()) {
+                    return "SearchRecommendation cannot be applied!";
+                }
                 return String.format("SearchRecommendation result: %s", filteredMovies);
             case "popular":
                 if (user.getSubscription_type().equals("BASIC")) {
                     return "PopularRecommendation cannot be applied!";
                 }
-                break;
+                for(Map.Entry<String, Integer> entry : Videos.getInstance().getPopular().entrySet()) {
+                    List<Video> filteredVideos = Videos.getInstance().getAll().stream()
+                                        .filter(video -> video.hasGenre(entry.getKey()))
+                                        .filter(video -> !user.checkViewed(video.getTitle()))
+                                        .collect(Collectors.toList());
+                    if(filteredVideos.isEmpty()) {
+                        continue;
+                    }
+                    return String.format("PopularRecommendation result: %s", filteredVideos.get(0));
+                }
+                return "PopularRecommendation cannot be applied!";
         }
         return "";
     }

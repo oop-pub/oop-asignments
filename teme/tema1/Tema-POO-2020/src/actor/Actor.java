@@ -75,9 +75,7 @@ public class Actor {
 
     private void getAwardsNum() {
         for(ActorsAwards award : ActorsAwards.values()) {
-            if(awards.containsKey(award)) {
-                awardsNumber += 1;
-            }
+            awardsNumber += awards.getOrDefault(award, 0);
         }
     }
 

@@ -16,14 +16,20 @@ public final class UserCommandSolver {
         if(user != null) {
             switch (action.getType()) {
                 case "favorite":
-                    user.addFavorite(action.getTitle());
-                    result = String.format("success -> %s was added as favourite", action.getTitle());
+                    if(user.checkViewed(action.getTitle())) {
+                        if(!user.checkFavorite(action.getTitle())) {
+                            user.addFavorite(action.getTitle());
+                            result = String.format("success -> %s was added as favourite", action.getTitle());
+                        } else {
+                            result = String.format("error -> %s is already in favourite list", action.getTitle());
+                        }
+                    } else {
+                        result = String.format("error -> %s is not seen", action.getTitle());
+                    }
                     break;
                 case "view":
-
-                    user.view(action.getTitle());
-                    Video video = Videos.getInstance().get(action.getTitle());
-                    result = String.format("success -> %s was viewed with total views of %d", action.getTitle(), video.getViews());
+                    int views = user.view(action.getTitle());
+                    result = String.format("success -> %s was viewed with total views of %d", action.getTitle(), views);
                     break;
                 case "rating":
 

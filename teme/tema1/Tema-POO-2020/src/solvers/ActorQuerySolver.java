@@ -46,8 +46,8 @@ public final class ActorQuerySolver {
                             .collect(Collectors.toList());
                 } else {
                     filteredActors = unorderedActors
-                            .sorted(Comparator.comparing(Actor::getAwardsNumber).reversed()
-                                    .thenComparing(Actor::getName))
+                            .sorted(Comparator.comparing(Actor::getAwardsNumber)
+                                    .thenComparing(Actor::getName).reversed())
                             .limit(action.getNumber())
                             .collect(Collectors.toList());
                 }

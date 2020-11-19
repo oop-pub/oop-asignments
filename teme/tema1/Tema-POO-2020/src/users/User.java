@@ -59,10 +59,14 @@ public class User {
         favoriteVideos.add(title);
     }
 
-    public void view(String title) {
+    public int view(String title) {
         Integer num_view = viewedVideos.getOrDefault(title, 0);
-        Videos.getInstance().get(title).incrementViews();
+        Videos videos = Videos.getInstance();
+        Video video = videos.get(title);
+        video.incrementViews();
+        videos.updateGenre(video);
         viewedVideos.put(title, num_view + 1);
+        return num_view + 1;
     }
 
     public boolean checkRated(String title, int noSeason) {
@@ -71,6 +75,10 @@ public class User {
 
     public boolean checkViewed(String title) {
         return viewedVideos.containsKey(title);
+    }
+
+    public boolean checkFavorite(String title) {
+        return favoriteVideos.contains(title);
     }
 
     public void rate(String title, Rating rating) {

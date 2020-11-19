@@ -53,7 +53,8 @@ public final class VideoQuerySolver {
             case "favorite":
                 if (action.getSortType().equals("desc")) {
                     filteredVideos = unorderedVideos
-                            .sorted(Comparator.comparing(Video::getFavorite).reversed())
+                            .sorted(Comparator.comparing(Video::getFavorite)
+                            .thenComparing(Video::getTitle).reversed())
                             .limit(action.getNumber())
                             .collect(Collectors.toList());
                 } else {
