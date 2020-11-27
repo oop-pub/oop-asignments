@@ -1,0 +1,468 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [
+            {
+                "name": "Only You",
+                "year": "1994",
+                "duration": 115,
+                "genres": [
+                    "Comedy",
+                    "Romance"
+                ],
+                "actors": [
+                    "Marisa Tomei",
+                    "Robert Downey Jr.",
+                    "Bonnie Hunt"
+                ]
+            },
+            {
+                "name": "John Wick: Chapter 2",
+                "year": "2017",
+                "duration": 122,
+                "genres": [
+                    "Thriller",
+                    "Action",
+                    "Crime"
+                ],
+                "actors": [
+                    "Common",
+                    "Laurence Fishburne",
+                    "Keanu Reeves"
+                ]
+            },
+            {
+                "name": "Legends of the Fall",
+                "year": "1994",
+                "duration": 133,
+                "genres": [
+                    "Adventure",
+                    "Drama",
+                    "Romance",
+                    "War",
+                    "Western"
+                ],
+                "actors": [
+                    "Anthony Hopkins",
+                    "Aidan Quinn",
+                    "Brad Pitt"
+                ]
+            },
+            {
+                "name": "Speed",
+                "year": "1994",
+                "duration": 116,
+                "genres": [
+                    "Action",
+                    "Adventure",
+                    "Crime"
+                ],
+                "actors": [
+                    "Sandra Bullock",
+                    "Keanu Reeves",
+                    "Dennis Hopper"
+                ]
+            },
+            {
+                "name": "1917",
+                "year": "2019",
+                "duration": 119,
+                "genres": [
+                    "War",
+                    "Drama",
+                    "Action",
+                    "History"
+                ],
+                "actors": [
+                    "Benedict Cumberbatch",
+                    "Dean-Charles Chapman",
+                    "Mark Strong",
+                    "George MacKay"
+                ]
+            }
+        ],
+        "shows": [
+            {
+                "name": "Falsa Identidad",
+                "year": "2018",
+                "cast": [
+                    "Luis Ernesto Franco",
+                    "Camila Sodi"
+                ],
+                "genres": [
+                    "Crime",
+                    "Action & Adventure"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 27
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 27
+                    }
+                ]
+            },
+            {
+                "name": "Utopia",
+                "year": "2020",
+                "cast": [
+                    "John Cusack",
+                    "Rainn Wilson"
+                ],
+                "genres": [
+                    "Drama",
+                    "Action & Adventure",
+                    "Mystery"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 52
+                    }
+                ]
+            },
+            {
+                "name": "Drake & Josh",
+                "year": "2004",
+                "cast": [
+                    "Drake Bell",
+                    "Josh Peck"
+                ],
+                "genres": [
+                    "Comedy"
+                ],
+                "number_of_seasons": 4,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 3,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 4,
+                        "duration": 30
+                    }
+                ]
+            },
+            {
+                "name": "DARLING in the FRANXX",
+                "year": "2018",
+                "cast": [
+                    "Kana Ichinose",
+                    "Haruka Tomatsu"
+                ],
+                "genres": [
+                    "Action & Adventure",
+                    "Animation",
+                    "Sci-Fi & Fantasy"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 24
+                    }
+                ]
+            },
+            {
+                "name": "Real Girl",
+                "year": "2018",
+                "cast": [],
+                "genres": [
+                    "Animation",
+                    "Comedy",
+                    "Drama"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 23
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 23
+                    }
+                ]
+            }
+        ],
+        "users": [
+            {
+                "username": "ardentFlamingo8",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "Speed",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "1917",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "John Wick: Chapter 2",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Falsa Identidad",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "DARLING in the FRANXX",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "Real Girl",
+                        "no_views": 3
+                    }
+                ],
+                "favourite": [
+                    "1917",
+                    "Real Girl"
+                ]
+            },
+            {
+                "username": "drearyOryx7",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "Legends of the Fall",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "John Wick: Chapter 2",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Speed",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "Real Girl",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "DARLING in the FRANXX",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "Drake & Josh",
+                        "no_views": 3
+                    }
+                ],
+                "favourite": [
+                    "Real Girl",
+                    "DARLING in the FRANXX",
+                    "Legends of the Fall",
+                    "John Wick: Chapter 2",
+                    "Drake & Josh"
+                ]
+            },
+            {
+                "username": "emptyCockatoo9",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "Only You",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "Speed",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "John Wick: Chapter 2",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Utopia",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "Falsa Identidad",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "Real Girl",
+                        "no_views": 1
+                    }
+                ],
+                "favourite": [
+                    "John Wick: Chapter 2",
+                    "Only You",
+                    "Real Girl"
+                ]
+            },
+            {
+                "username": "cynicalRaisins2",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "Legends of the Fall",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "1917",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "John Wick: Chapter 2",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Drake & Josh",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Falsa Identidad",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "Utopia",
+                        "no_views": 1
+                    }
+                ],
+                "favourite": [
+                    "Drake & Josh",
+                    "John Wick: Chapter 2",
+                    "Legends of the Fall",
+                    "Falsa Identidad",
+                    "1917"
+                ]
+            },
+            {
+                "username": "hushedLollies9",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "Legends of the Fall",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "John Wick: Chapter 2",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "Speed",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "DARLING in the FRANXX",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "Drake & Josh",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Falsa Identidad",
+                        "no_views": 3
+                    }
+                ],
+                "favourite": [
+                    "Drake & Josh",
+                    "Legends of the Fall",
+                    "Falsa Identidad"
+                ]
+            }
+        ]
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "command",
+            "type": "rating",
+            "user": "cynicalRaisins2",
+            "title": "Legends of the Fall",
+            "grade": 5
+        },
+        {
+            "action_id": 2,
+            "action_type": "command",
+            "type": "rating",
+            "user": "hushedLollies9",
+            "title": "Only You",
+            "grade": 8
+        },
+        {
+            "action_id": 3,
+            "action_type": "command",
+            "type": "rating",
+            "user": "drearyOryx7",
+            "title": "Legends of the Fall",
+            "grade": 10
+        },
+        {
+            "action_id": 4,
+            "action_type": "command",
+            "type": "rating",
+            "user": "ardentFlamingo8",
+            "title": "Only You",
+            "grade": 8
+        },
+        {
+            "action_id": 5,
+            "action_type": "command",
+            "type": "rating",
+            "user": "ardentFlamingo8",
+            "title": "Drake & Josh",
+            "grade": 8,
+            "season": 3
+        },
+        {
+            "action_id": 6,
+            "action_type": "command",
+            "type": "rating",
+            "user": "ardentFlamingo8",
+            "title": "Utopia",
+            "grade": 4,
+            "season": 1
+        },
+        {
+            "action_id": 7,
+            "action_type": "command",
+            "type": "rating",
+            "user": "ardentFlamingo8",
+            "title": "Drake & Josh",
+            "grade": 9,
+            "season": 3
+        },
+        {
+            "action_id": 8,
+            "action_type": "command",
+            "type": "rating",
+            "user": "cynicalRaisins2",
+            "title": "Drake & Josh",
+            "grade": 6,
+            "season": 2
+        },
+        {
+            "action_id": 9,
+            "action_type": "command",
+            "type": "rating",
+            "user": "ardentFlamingo8",
+            "title": "DARLING in the FRANXX",
+            "grade": 10,
+            "season": 1
+        },
+        {
+            "action_id": 10,
+            "action_type": "query",
+            "object_type": "users",
+            "number": 10,
+            "sort_type": "asc",
+            "criteria": "num_ratings"
+        }
+    ]
+}

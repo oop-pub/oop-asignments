@@ -1,0 +1,370 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [
+            {
+                "name": "The David S. Pumpkins Halloween Special",
+                "year": "2017",
+                "duration": 21,
+                "genres": [
+                    "Animation",
+                    "Comedy",
+                    "TV Movie"
+                ],
+                "actors": [
+                    "Peter Dinklage",
+                    "Mikey Day",
+                    "Tom Hanks"
+                ]
+            },
+            {
+                "name": "To the Bone",
+                "year": "2017",
+                "duration": 107,
+                "genres": [
+                    "Drama"
+                ],
+                "actors": [
+                    "Lily Collins",
+                    "Keanu Reeves",
+                    "Carrie Preston"
+                ]
+            },
+            {
+                "name": "A Beautiful Day in the Neighborhood",
+                "year": "2019",
+                "duration": 109,
+                "genres": [
+                    "Drama"
+                ],
+                "actors": [
+                    "Chris Cooper",
+                    "Matthew Rhys",
+                    "Tom Hanks"
+                ]
+            },
+            {
+                "name": "Mowgli: Legend of the Jungle",
+                "year": "2018",
+                "duration": 105,
+                "genres": [
+                    "Adventure",
+                    "Drama"
+                ],
+                "actors": [
+                    "Andy Serkis",
+                    "Benedict Cumberbatch",
+                    "Christian Bale",
+                    "Rohan Chand"
+                ]
+            },
+            {
+                "name": "John Wick: Chapter 3 - Parabellum",
+                "year": "2019",
+                "duration": 131,
+                "genres": [
+                    "Action",
+                    "Thriller",
+                    "Crime"
+                ],
+                "actors": [
+                    "Laurence Fishburne",
+                    "Halle Berry",
+                    "Keanu Reeves"
+                ]
+            }
+        ],
+        "shows": [
+            {
+                "name": "Harley Quinn",
+                "year": "2019",
+                "cast": [
+                    "Kaley Cuoco",
+                    "Lake Bell"
+                ],
+                "genres": [
+                    "Animation",
+                    "Comedy",
+                    "Crime",
+                    "Sci-Fi & Fantasy"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 23
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 23
+                    }
+                ]
+            },
+            {
+                "name": "The Venture Bros.",
+                "year": "2004",
+                "cast": [
+                    "Christopher McCulloch",
+                    "Doc Hammer"
+                ],
+                "genres": [
+                    "Animation",
+                    "Action & Adventure",
+                    "Comedy"
+                ],
+                "number_of_seasons": 7,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 3,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 4,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 5,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 6,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 7,
+                        "duration": 30
+                    }
+                ]
+            },
+            {
+                "name": "Home Before Dark",
+                "year": "2020",
+                "cast": [
+                    "Brooklynn Prince",
+                    "Kylie Rogers"
+                ],
+                "genres": [
+                    "Mystery",
+                    "Drama"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 49
+                    }
+                ]
+            },
+            {
+                "name": "FBI",
+                "year": "2018",
+                "cast": [
+                    "Missy Peregrym",
+                    "Zeeko Zaki"
+                ],
+                "genres": [
+                    "Crime",
+                    "Drama"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 43
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 43
+                    }
+                ]
+            },
+            {
+                "name": "Kingdom",
+                "year": "2019",
+                "cast": [
+                    "Bae Doo-na",
+                    "Ju Ji-hoon"
+                ],
+                "genres": [
+                    "Drama",
+                    "Action & Adventure",
+                    "Mystery"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 51
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 51
+                    }
+                ]
+            }
+        ],
+        "users": [
+            {
+                "username": "tautTuna7",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "Mowgli: Legend of the Jungle",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "John Wick: Chapter 3 - Parabellum",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "To the Bone",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "A Beautiful Day in the Neighborhood",
+                        "no_views": 2
+                    }
+                ],
+                "favourite": [
+                    "To the Bone",
+                    "Mowgli: Legend of the Jungle",
+                    "John Wick: Chapter 3 - Parabellum"
+                ]
+            },
+            {
+                "username": "worriedCockatoo4",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "To the Bone",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "Mowgli: Legend of the Jungle",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "John Wick: Chapter 3 - Parabellum",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "The David S. Pumpkins Halloween Special",
+                        "no_views": 3
+                    }
+                ],
+                "favourite": [
+                    "To the Bone",
+                    "John Wick: Chapter 3 - Parabellum",
+                    "Mowgli: Legend of the Jungle",
+                    "The David S. Pumpkins Halloween Special"
+                ]
+            },
+            {
+                "username": "puzzledEggs8",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "Mowgli: Legend of the Jungle",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "John Wick: Chapter 3 - Parabellum",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "A Beautiful Day in the Neighborhood",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "To the Bone",
+                        "no_views": 2
+                    }
+                ],
+                "favourite": [
+                    "John Wick: Chapter 3 - Parabellum",
+                    "Mowgli: Legend of the Jungle",
+                    "To the Bone"
+                ]
+            }
+        ]
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "command",
+            "type": "view",
+            "user": "worriedCockatoo4",
+            "title": "Mowgli: Legend of the Jungle"
+        },
+        {
+            "action_id": 2,
+            "action_type": "command",
+            "type": "view",
+            "user": "puzzledEggs8",
+            "title": "A Beautiful Day in the Neighborhood"
+        },
+        {
+            "action_id": 3,
+            "action_type": "command",
+            "type": "view",
+            "user": "puzzledEggs8",
+            "title": "John Wick: Chapter 3 - Parabellum"
+        },
+        {
+            "action_id": 4,
+            "action_type": "command",
+            "type": "view",
+            "user": "tautTuna7",
+            "title": "Mowgli: Legend of the Jungle"
+        },
+        {
+            "action_id": 5,
+            "action_type": "command",
+            "type": "view",
+            "user": "puzzledEggs8",
+            "title": "The Venture Bros."
+        },
+        {
+            "action_id": 6,
+            "action_type": "command",
+            "type": "view",
+            "user": "puzzledEggs8",
+            "title": "The Venture Bros."
+        },
+        {
+            "action_id": 7,
+            "action_type": "command",
+            "type": "view",
+            "user": "worriedCockatoo4",
+            "title": "Home Before Dark"
+        },
+        {
+            "action_id": 8,
+            "action_type": "command",
+            "type": "view",
+            "user": "puzzledEggs8",
+            "title": "Harley Quinn"
+        },
+        {
+            "action_id": 9,
+            "action_type": "command",
+            "type": "view",
+            "user": "worriedCockatoo4",
+            "title": "FBI"
+        },
+        {
+            "action_id": 10,
+            "action_type": "recommendation",
+            "type": "popular",
+            "username": "worriedCockatoo4"
+        }
+    ]
+}

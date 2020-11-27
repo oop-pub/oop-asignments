@@ -1,0 +1,301 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [],
+        "shows": [
+            {
+                "name": "Marvel's Cloak & Dagger",
+                "year": "2018",
+                "cast": [
+                    "Aubrey Joseph",
+                    "Olivia Holt"
+                ],
+                "genres": [
+                    "Action & Adventure",
+                    "Drama",
+                    "Sci-Fi & Fantasy"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 44
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 44
+                    }
+                ]
+            },
+            {
+                "name": "Emily in Paris",
+                "year": "2020",
+                "cast": [
+                    "Lily Collins",
+                    "Ashley Park"
+                ],
+                "genres": [
+                    "Drama",
+                    "Comedy"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 30
+                    }
+                ]
+            },
+            {
+                "name": "Violet Evergarden",
+                "year": "2018",
+                "cast": [
+                    "Yui Ishikawa",
+                    "Daisuke Namikawa"
+                ],
+                "genres": [
+                    "Animation",
+                    "Sci-Fi & Fantasy",
+                    "Drama"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 25
+                    }
+                ]
+            },
+            {
+                "name": "Chronicles of the Yin-Yang War",
+                "year": "2004",
+                "cast": [
+                    "Yukimasa Kishino",
+                    "Kenta Miyake"
+                ],
+                "genres": [
+                    "Animation"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 30
+                    }
+                ]
+            },
+            {
+                "name": "Madlax",
+                "year": "2004",
+                "cast": [
+                    "Satsuki Yukino",
+                    "Toshiyuki Morikawa"
+                ],
+                "genres": [
+                    "Animation",
+                    "Drama",
+                    "Mystery"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 25
+                    }
+                ]
+            },
+            {
+                "name": "The Boys",
+                "year": "2019",
+                "cast": [
+                    "Karl Urban",
+                    "Jack Quaid"
+                ],
+                "genres": [
+                    "Sci-Fi & Fantasy",
+                    "Action & Adventure"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 60
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 60
+                    }
+                ]
+            },
+            {
+                "name": "Tenjho Tenge",
+                "year": "2004",
+                "cast": [
+                    "Shin-ichiro Miki",
+                    "Kenta Miyake"
+                ],
+                "genres": [
+                    "Animation",
+                    "Action & Adventure",
+                    "Comedy"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 25
+                    }
+                ]
+            },
+            {
+                "name": "Kingdom",
+                "year": "2019",
+                "cast": [
+                    "Bae Doo-na",
+                    "Ju Ji-hoon"
+                ],
+                "genres": [
+                    "Drama",
+                    "Action & Adventure",
+                    "Mystery"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 51
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 51
+                    }
+                ]
+            },
+            {
+                "name": "I Am...",
+                "year": "2019",
+                "cast": [],
+                "genres": [
+                    "Drama"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 50
+                    }
+                ]
+            },
+            {
+                "name": "ORESUKI: Are you the only one who loves me?",
+                "year": "2019",
+                "cast": [
+                    "Sachika Misawa",
+                    "Haruka Shiraishi"
+                ],
+                "genres": [
+                    "Animation",
+                    "Comedy",
+                    "Drama"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 24
+                    }
+                ]
+            }
+        ],
+        "users": [
+            {
+                "username": "puzzledLocust1",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "Kingdom",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "I Am...",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "Chronicles of the Yin-Yang War",
+                        "no_views": 1
+                    }
+                ],
+                "favourite": [
+                    "I Am...",
+                    "Kingdom"
+                ]
+            },
+            {
+                "username": "soreSyrup1",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "Emily in Paris",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "ORESUKI: Are you the only one who loves me?",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "The Boys",
+                        "no_views": 2
+                    }
+                ],
+                "favourite": [
+                    "Emily in Paris",
+                    "The Boys",
+                    "ORESUKI: Are you the only one who loves me?"
+                ]
+            },
+            {
+                "username": "betrayedPoultry7",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "I Am...",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Kingdom",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "Marvel's Cloak & Dagger",
+                        "no_views": 3
+                    }
+                ],
+                "favourite": [
+                    "Marvel's Cloak & Dagger",
+                    "Kingdom",
+                    "I Am..."
+                ]
+            }
+        ]
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "query",
+            "object_type": "shows",
+            "number": 9,
+            "filters": {
+                "year": "2004",
+                "genre": "Comedy",
+                "words": null,
+                "awards": null
+            },
+            "sort_type": "desc",
+            "criteria": "most_viewed"
+        }
+    ]
+}

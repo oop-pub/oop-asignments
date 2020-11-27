@@ -1,0 +1,83 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [
+            {
+                "name": "Brexit: The Uncivil War",
+                "year": "2019",
+                "duration": 93,
+                "genres": [
+                    "History",
+                    "TV Movie",
+                    "Drama"
+                ],
+                "actors": [
+                    "Benedict Cumberbatch",
+                    "Rory Kinnear",
+                    "John Heffernan"
+                ]
+            },
+            {
+                "name": "John Wick: Chapter 3 - Parabellum",
+                "year": "2019",
+                "duration": 131,
+                "genres": [
+                    "Action",
+                    "Thriller",
+                    "Crime"
+                ],
+                "actors": [
+                    "Laurence Fishburne",
+                    "Halle Berry",
+                    "Keanu Reeves"
+                ]
+            },
+            {
+                "name": "Even Cowgirls Get the Blues",
+                "year": "1994",
+                "duration": 96,
+                "genres": [
+                    "Western",
+                    "Drama",
+                    "Comedy",
+                    "Romance"
+                ],
+                "actors": [
+                    "Lorraine Bracco",
+                    "Uma Thurman",
+                    "Pat Morita",
+                    "Keanu Reeves"
+                ]
+            }
+        ],
+        "shows": [],
+        "users": [
+            {
+                "username": "mildGelding9",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "Even Cowgirls Get the Blues",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "John Wick: Chapter 3 - Parabellum",
+                        "no_views": 3
+                    }
+                ],
+                "favourite": [
+                    "John Wick: Chapter 3 - Parabellum"
+                ]
+            }
+        ]
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "command",
+            "type": "view",
+            "user": "mildGelding9",
+            "title": "Brexit: The Uncivil War"
+        }
+    ]
+}

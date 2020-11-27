@@ -1,0 +1,310 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [],
+        "shows": [
+            {
+                "name": "Soulmates",
+                "year": "2020",
+                "cast": [],
+                "genres": [
+                    "Drama",
+                    "Sci-Fi & Fantasy"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 36
+                    }
+                ]
+            },
+            {
+                "name": "Kingdom",
+                "year": "2019",
+                "cast": [
+                    "Bae Doo-na",
+                    "Ju Ji-hoon"
+                ],
+                "genres": [
+                    "Drama",
+                    "Action & Adventure",
+                    "Mystery"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 51
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 51
+                    }
+                ]
+            },
+            {
+                "name": "Radiant",
+                "year": "2018",
+                "cast": [
+                    "Yumiri Hanamori",
+                    "Aoi Yuki"
+                ],
+                "genres": [
+                    "Action & Adventure",
+                    "Animation",
+                    "Comedy",
+                    "Sci-Fi & Fantasy"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 24
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 24
+                    }
+                ]
+            },
+            {
+                "name": "Drawn Together",
+                "year": "2004",
+                "cast": [
+                    "Adam Carolla",
+                    "Abbey DiGregorio"
+                ],
+                "genres": [
+                    "Animation",
+                    "Comedy"
+                ],
+                "number_of_seasons": 3,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 3,
+                        "duration": 30
+                    }
+                ]
+            },
+            {
+                "name": "Summerland",
+                "year": "2004",
+                "cast": [
+                    "Jesse McCartney",
+                    "Taylor Cole"
+                ],
+                "genres": [
+                    "Drama"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 60
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 60
+                    }
+                ]
+            },
+            {
+                "name": "Mayans M.C.",
+                "year": "2018",
+                "cast": [
+                    "J. D. Pardo",
+                    "Clayton Cardenas"
+                ],
+                "genres": [
+                    "Crime",
+                    "Drama"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 68
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 68
+                    }
+                ]
+            },
+            {
+                "name": "FBI",
+                "year": "2018",
+                "cast": [
+                    "Missy Peregrym",
+                    "Zeeko Zaki"
+                ],
+                "genres": [
+                    "Crime",
+                    "Drama"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 43
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 43
+                    }
+                ]
+            },
+            {
+                "name": "Utopia",
+                "year": "2020",
+                "cast": [
+                    "John Cusack",
+                    "Rainn Wilson"
+                ],
+                "genres": [
+                    "Drama",
+                    "Action & Adventure",
+                    "Mystery"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 52
+                    }
+                ]
+            },
+            {
+                "name": "The Good Lord Bird",
+                "year": "2020",
+                "cast": [
+                    "Ethan Hawke",
+                    "Daveed Diggs"
+                ],
+                "genres": [
+                    "Drama"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 27
+                    }
+                ]
+            },
+            {
+                "name": "BNA",
+                "year": "2020",
+                "cast": [
+                    "Sumire Morohoshi",
+                    "Yoshimasa Hosoya"
+                ],
+                "genres": [
+                    "Animation",
+                    "Action & Adventure",
+                    "Sci-Fi & Fantasy"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 23
+                    }
+                ]
+            }
+        ],
+        "users": [
+            {
+                "username": "zestyApricots0",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "Utopia",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Mayans M.C.",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "Radiant",
+                        "no_views": 3
+                    }
+                ],
+                "favourite": [
+                    "Utopia"
+                ]
+            },
+            {
+                "username": "pridefulPorpoise4",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "Kingdom",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Drawn Together",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "BNA",
+                        "no_views": 3
+                    }
+                ],
+                "favourite": [
+                    "BNA",
+                    "Kingdom"
+                ]
+            },
+            {
+                "username": "eagerBuck3",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "Radiant",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "FBI",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Utopia",
+                        "no_views": 2
+                    }
+                ],
+                "favourite": [
+                    "Utopia",
+                    "Radiant",
+                    "FBI"
+                ]
+            }
+        ]
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "query",
+            "object_type": "shows",
+            "number": 6,
+            "filters": {
+                "year": "2020",
+                "genre": "Sci-Fi & Fantasy",
+                "words": null,
+                "awards": null
+            },
+            "sort_type": "desc",
+            "criteria": "favorite"
+        }
+    ]
+}

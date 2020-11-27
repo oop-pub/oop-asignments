@@ -1,0 +1,367 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [
+            {
+                "name": "To the Bone",
+                "year": "2017",
+                "duration": 107,
+                "genres": [
+                    "Drama"
+                ],
+                "actors": [
+                    "Lily Collins",
+                    "Keanu Reeves",
+                    "Carrie Preston"
+                ]
+            },
+            {
+                "name": "The Vanishing",
+                "year": "2018",
+                "duration": 108,
+                "genres": [
+                    "Thriller",
+                    "Drama",
+                    "Mystery"
+                ],
+                "actors": [
+                    "Connor Swindells",
+                    "Peter Mullan",
+                    "Gerard Butler"
+                ]
+            },
+            {
+                "name": "Pirates of the Caribbean: Dead Men Tell No Tales",
+                "year": "2017",
+                "duration": 129,
+                "genres": [
+                    "Adventure",
+                    "Action",
+                    "Fantasy",
+                    "Comedy"
+                ],
+                "actors": [
+                    "Johnny Depp",
+                    "Kaya Scodelario",
+                    "Brenton Thwaites"
+                ]
+            },
+            {
+                "name": "Finger Guns",
+                "year": "2019",
+                "duration": 5,
+                "genres": [
+                    "Action",
+                    "Comedy",
+                    "Drama"
+                ],
+                "actors": [
+                    "Lewi Pilgram",
+                    "Will Hedley",
+                    "Keanu Reeves",
+                    "Tommy Metcalf"
+                ]
+            },
+            {
+                "name": "London Fields",
+                "year": "2018",
+                "duration": 118,
+                "genres": [
+                    "Crime",
+                    "Mystery",
+                    "Thriller",
+                    "Drama"
+                ],
+                "actors": [
+                    "Johnny Depp",
+                    "Jim Sturgess",
+                    "Amber Heard",
+                    "Theo James"
+                ]
+            }
+        ],
+        "shows": [
+            {
+                "name": "BNA",
+                "year": "2020",
+                "cast": [
+                    "Sumire Morohoshi",
+                    "Yoshimasa Hosoya"
+                ],
+                "genres": [
+                    "Animation",
+                    "Action & Adventure",
+                    "Sci-Fi & Fantasy"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 23
+                    }
+                ]
+            },
+            {
+                "name": "The Dragon Prince",
+                "year": "2018",
+                "cast": [
+                    "Jack DeSena",
+                    "Paula Burrows"
+                ],
+                "genres": [
+                    "Action & Adventure",
+                    "Sci-Fi & Fantasy",
+                    "Animation",
+                    "Family"
+                ],
+                "number_of_seasons": 3,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 27
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 27
+                    },
+                    {
+                        "current_season": 3,
+                        "duration": 27
+                    }
+                ]
+            },
+            {
+                "name": "Harley Quinn",
+                "year": "2019",
+                "cast": [
+                    "Kaley Cuoco",
+                    "Lake Bell"
+                ],
+                "genres": [
+                    "Animation",
+                    "Comedy",
+                    "Crime",
+                    "Sci-Fi & Fantasy"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 23
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 23
+                    }
+                ]
+            },
+            {
+                "name": "Emily in Paris",
+                "year": "2020",
+                "cast": [
+                    "Lily Collins",
+                    "Ashley Park"
+                ],
+                "genres": [
+                    "Drama",
+                    "Comedy"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 30
+                    }
+                ]
+            },
+            {
+                "name": "Primal",
+                "year": "2019",
+                "cast": [
+                    "Aaron LaPlante",
+                    "Tom Kenny"
+                ],
+                "genres": [
+                    "Action & Adventure",
+                    "Animation",
+                    "Drama"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 23
+                    }
+                ]
+            }
+        ],
+        "users": [
+            {
+                "username": "resolvedLlama2",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "The Vanishing",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "Pirates of the Caribbean: Dead Men Tell No Tales",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Finger Guns",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "To the Bone",
+                        "no_views": 2
+                    }
+                ],
+                "favourite": [
+                    "Pirates of the Caribbean: Dead Men Tell No Tales"
+                ]
+            },
+            {
+                "username": "finickyZebra8",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "To the Bone",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "The Vanishing",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "London Fields",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "Pirates of the Caribbean: Dead Men Tell No Tales",
+                        "no_views": 2
+                    }
+                ],
+                "favourite": [
+                    "London Fields",
+                    "Pirates of the Caribbean: Dead Men Tell No Tales",
+                    "To the Bone",
+                    "The Vanishing"
+                ]
+            },
+            {
+                "username": "vengefulChowder8",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "London Fields",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "Finger Guns",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "To the Bone",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "The Vanishing",
+                        "no_views": 2
+                    }
+                ],
+                "favourite": [
+                    "The Vanishing",
+                    "London Fields",
+                    "To the Bone"
+                ]
+            }
+        ]
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "command",
+            "type": "rating",
+            "user": "finickyZebra8",
+            "title": "The Vanishing",
+            "grade": 6
+        },
+        {
+            "action_id": 2,
+            "action_type": "command",
+            "type": "rating",
+            "user": "resolvedLlama2",
+            "title": "Finger Guns",
+            "grade": 9
+        },
+        {
+            "action_id": 3,
+            "action_type": "command",
+            "type": "rating",
+            "user": "finickyZebra8",
+            "title": "London Fields",
+            "grade": 3
+        },
+        {
+            "action_id": 4,
+            "action_type": "command",
+            "type": "rating",
+            "user": "vengefulChowder8",
+            "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+            "grade": 1
+        },
+        {
+            "action_id": 5,
+            "action_type": "command",
+            "type": "rating",
+            "user": "vengefulChowder8",
+            "title": "The Dragon Prince",
+            "grade": 1,
+            "season": 2
+        },
+        {
+            "action_id": 6,
+            "action_type": "command",
+            "type": "rating",
+            "user": "finickyZebra8",
+            "title": "Harley Quinn",
+            "grade": 3,
+            "season": 1
+        },
+        {
+            "action_id": 7,
+            "action_type": "command",
+            "type": "rating",
+            "user": "finickyZebra8",
+            "title": "Harley Quinn",
+            "grade": 6,
+            "season": 1
+        },
+        {
+            "action_id": 8,
+            "action_type": "command",
+            "type": "rating",
+            "user": "resolvedLlama2",
+            "title": "Primal",
+            "grade": 5,
+            "season": 1
+        },
+        {
+            "action_id": 9,
+            "action_type": "command",
+            "type": "rating",
+            "user": "vengefulChowder8",
+            "title": "The Dragon Prince",
+            "grade": 7,
+            "season": 1
+        },
+        {
+            "action_id": 10,
+            "action_type": "recommendation",
+            "type": "search",
+            "username": "finickyZebra8",
+            "genre": "Action & Adventure"
+        }
+    ]
+}

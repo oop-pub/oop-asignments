@@ -1,0 +1,263 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [
+            {
+                "name": "Finger Guns",
+                "year": "2019",
+                "duration": 5,
+                "genres": [
+                    "Action",
+                    "Comedy",
+                    "Drama"
+                ],
+                "actors": [
+                    "Lewi Pilgram",
+                    "Will Hedley",
+                    "Keanu Reeves",
+                    "Tommy Metcalf"
+                ]
+            },
+            {
+                "name": "A Family Man",
+                "year": "2017",
+                "duration": 108,
+                "genres": [
+                    "Drama"
+                ],
+                "actors": [
+                    "Willem Dafoe",
+                    "Gretchen Mol",
+                    "Gerard Butler"
+                ]
+            },
+            {
+                "name": "Jojo Rabbit",
+                "year": "2019",
+                "duration": 108,
+                "genres": [
+                    "Comedy",
+                    "War",
+                    "Drama"
+                ],
+                "actors": [
+                    "Thomasin McKenzie",
+                    "Roman Griffin Davis",
+                    "Scarlett Johansson"
+                ]
+            },
+            {
+                "name": "The Post",
+                "year": "2017",
+                "duration": 116,
+                "genres": [
+                    "Drama",
+                    "History"
+                ],
+                "actors": [
+                    "Bob Odenkirk",
+                    "Meryl Streep",
+                    "Tom Hanks"
+                ]
+            },
+            {
+                "name": "Sherlock: The Final Problem",
+                "year": "2017",
+                "duration": 90,
+                "genres": [
+                    "Drama",
+                    "Mystery",
+                    "Thriller"
+                ],
+                "actors": [
+                    "Mark Gatiss",
+                    "Benedict Cumberbatch",
+                    "Martin Freeman"
+                ]
+            }
+        ],
+        "shows": [
+            {
+                "name": "Are You Lost?",
+                "year": "2019",
+                "cast": [
+                    "Azumi Waki",
+                    "Hiyori Kouno"
+                ],
+                "genres": [
+                    "Action & Adventure",
+                    "Comedy",
+                    "Drama",
+                    "Animation"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 12
+                    }
+                ]
+            },
+            {
+                "name": "Drake & Josh",
+                "year": "2004",
+                "cast": [
+                    "Drake Bell",
+                    "Josh Peck"
+                ],
+                "genres": [
+                    "Comedy"
+                ],
+                "number_of_seasons": 4,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 3,
+                        "duration": 30
+                    },
+                    {
+                        "current_season": 4,
+                        "duration": 30
+                    }
+                ]
+            },
+            {
+                "name": "Home Before Dark",
+                "year": "2020",
+                "cast": [
+                    "Brooklynn Prince",
+                    "Kylie Rogers"
+                ],
+                "genres": [
+                    "Mystery",
+                    "Drama"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 49
+                    }
+                ]
+            },
+            {
+                "name": "The Dragon Prince",
+                "year": "2018",
+                "cast": [
+                    "Jack DeSena",
+                    "Paula Burrows"
+                ],
+                "genres": [
+                    "Action & Adventure",
+                    "Sci-Fi & Fantasy",
+                    "Animation",
+                    "Family"
+                ],
+                "number_of_seasons": 3,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 27
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 27
+                    },
+                    {
+                        "current_season": 3,
+                        "duration": 27
+                    }
+                ]
+            },
+            {
+                "name": "The Good Lord Bird",
+                "year": "2020",
+                "cast": [
+                    "Ethan Hawke",
+                    "Daveed Diggs"
+                ],
+                "genres": [
+                    "Drama"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 27
+                    }
+                ]
+            }
+        ],
+        "users": [
+            {
+                "username": "lyingRice4",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "Jojo Rabbit",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "A Family Man",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Finger Guns",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "Sherlock: The Final Problem",
+                        "no_views": 1
+                    }
+                ],
+                "favourite": [
+                    "Finger Guns",
+                    "A Family Man"
+                ]
+            },
+            {
+                "username": "dopeyStork0",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "Sherlock: The Final Problem",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "The Post",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "Jojo Rabbit",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "A Family Man",
+                        "no_views": 3
+                    }
+                ],
+                "favourite": [
+                    "A Family Man",
+                    "Jojo Rabbit",
+                    "Sherlock: The Final Problem",
+                    "The Post"
+                ]
+            }
+        ]
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "recommendation",
+            "type": "standard",
+            "username": "lyingRice4"
+        }
+    ]
+}

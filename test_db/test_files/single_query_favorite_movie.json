@@ -1,0 +1,172 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [
+            {
+                "name": "1917",
+                "year": "2019",
+                "duration": 119,
+                "genres": [
+                    "War",
+                    "Drama",
+                    "Action",
+                    "History"
+                ],
+                "actors": [
+                    "Benedict Cumberbatch",
+                    "Dean-Charles Chapman",
+                    "Mark Strong",
+                    "George MacKay"
+                ]
+            },
+            {
+                "name": "Pirates of the Caribbean: Dead Men Tell No Tales",
+                "year": "2017",
+                "duration": 129,
+                "genres": [
+                    "Adventure",
+                    "Action",
+                    "Fantasy",
+                    "Comedy"
+                ],
+                "actors": [
+                    "Johnny Depp",
+                    "Kaya Scodelario",
+                    "Brenton Thwaites"
+                ]
+            },
+            {
+                "name": "Siberia",
+                "year": "2018",
+                "duration": 105,
+                "genres": [
+                    "Crime",
+                    "Romance",
+                    "Thriller"
+                ],
+                "actors": [
+                    "Ana Ularu",
+                    "Keanu Reeves",
+                    "Pasha D. Lychnikoff"
+                ]
+            },
+            {
+                "name": "The Favor",
+                "year": "1994",
+                "duration": 97,
+                "genres": [
+                    "Comedy",
+                    "Romance"
+                ],
+                "actors": [
+                    "Elizabeth McGovern",
+                    "Bill Pullman",
+                    "Harley Jane Kozak",
+                    "Brad Pitt"
+                ]
+            },
+            {
+                "name": "Finger Guns",
+                "year": "2019",
+                "duration": 5,
+                "genres": [
+                    "Action",
+                    "Comedy",
+                    "Drama"
+                ],
+                "actors": [
+                    "Lewi Pilgram",
+                    "Will Hedley",
+                    "Keanu Reeves",
+                    "Tommy Metcalf"
+                ]
+            }
+        ],
+        "shows": [],
+        "users": [
+            {
+                "username": "pridefulMeerkat4",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "Siberia",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "Finger Guns",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "1917",
+                        "no_views": 3
+                    }
+                ],
+                "favourite": [
+                    "1917",
+                    "Siberia"
+                ]
+            },
+            {
+                "username": "holisticGranola4",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "Finger Guns",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "The Favor",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Pirates of the Caribbean: Dead Men Tell No Tales",
+                        "no_views": 1
+                    }
+                ],
+                "favourite": [
+                    "The Favor",
+                    "Finger Guns",
+                    "Pirates of the Caribbean: Dead Men Tell No Tales"
+                ]
+            },
+            {
+                "username": "importedLollies1",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "1917",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "Siberia",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "Pirates of the Caribbean: Dead Men Tell No Tales",
+                        "no_views": 2
+                    }
+                ],
+                "favourite": [
+                    "1917",
+                    "Siberia"
+                ]
+            }
+        ]
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "query",
+            "object_type": "movies",
+            "number": 9,
+            "filters": {
+                "year": "1994",
+                "genre": "Romance",
+                "words": null,
+                "awards": null
+            },
+            "sort_type": "desc",
+            "criteria": "favorite"
+        }
+    ]
+}
