@@ -1,0 +1,47 @@
+Logica structurii:
+	
+	-> Am modelat entitati pentru fiecare tip: User, Actor, Show, Movie
+	-> Pentru ca Show (serial) si Movie au multe in comun am considerat o clasa abstracta parinte pentru ambele: Video
+	-> Din moment ce am entitatile, imi trebuie si o metoda de a le retine. Am apelat la patternul Singleton pentru a crea clasele Videos, Users, Actors. Acestea implementeaza interfata Container, intrucat ele sunt "containere" pentru obiecte.
+	   Retin obiectele prin liste. Pentru maximizarea eficientei in accesarea elementelor am utilizat si map uri -> pentru useri cheia dupa username
+                                   -> pentru video cheia dupa titlu
+			           -> pentru actori cheia dupa nume
+
+	-> Pentru efectuarea operatiilor am creat clasele utilitare:
+			- ActorQuerySolver: se ocupa de query urile pt actori
+			- VideoQuerySolver: analog pt videouri
+			- UserQRSolver: se ocupa atat de query ul pt useri cat si de recomandari
+			- UserCommandSolver: se ocupa de comenzile userilor
+
+	-> Clasa Filter este doar pentru a scrie mai putin cod in anumite circumstante. In campurile unei instante retin filtrele query ului curent
+
+	-> Clasa Rating are ca scop definirea unui obiect care sa mi retina un rating si nr sezonului pt care a fost acordat. De precizat ca eu consider filmele ca avand sezonul 0
+
+Logica implementarii:
+	
+	-> Pentru un cod restrans si usor de inteles am apelat la utilizarea Java Streams.
+
+	-> Comenzile: ->favorite: verific daca videoul este vazut si daca este sau nu deja in lista de favorite. Daca este vazut si nu este in lista de favorite a userului. Dinamic, cresc si numarul de aparitii al videoului in listele de favorite pentru a creste eficienta.
+		      ->view: pur si simplu adaug videoul la lista de vazute ale utilizatorului. In cazul de fata, 'lista' este este de fapt un map cu cheia titlul videoului si valoarea numarul de viziualizari date de utilizatorul curent. Dinamic, cresc si numarul total de vizualizari al videoului
+		      ->rating: verific daca videoul e vizionat si daca a mai primit rating de la userul curent. Daca este vizionat si nu a primit rating, ii dau rating punand in map-ul ratings al utilizatorului ca valoare un obiect Rating la o cheie ce porneste de la titlul videoului. Pentru a face diferentierea intre sezoane, cheia este de fapt concatenarea titlului cu sezonul pe care s-a dat rate, prin intermediul unui caracter special (in cazul de fata "@" ). Filmele au sezonul 0.
+
+	-> Query-urile: -> Actori: -> average: Media unui actor se calculeaza in mod dinamic: de fiecare data cand un video isi modifica ratingul, si actorii sai primesc modificare. Folosesc Streams pentru a sorta, filtra si limita lista de actori dupa criteriul de rating.
+   				   -> awards: filtrez cu Streams lista de actori dupa criteriul de "are premiul", dupa care sortez
+				   -> filter_description: pentru a detecta in descrierea unui actor anumite cuvinte am utilizat urmatoarea strategie: Cand obiectul actor se creaza, caracterele inlocuiesc caracterele speciale (.! etc) cu spatiu prin regex, si retin tot in lower case. Dupa care creez un map cu care sa aflu rapid ce cuvinte au fost folosite. (Fac split dupa spatiu pe careerDescription). Astfel de fiecare data cand va veni un query filter_description pot raspunde rapid. Filtrez si sortez cu Streams.
+			
+			-> Videouri: -> Am adaugat pentru fiecare video un label prin care sa confirm tipul sau ("MOVIE" sau "SHOW")
+				     -> Rating: Calculul rating ului se face dinamic si pentru filme si pentru seriale deci nu va fi nevoie de iterari in plus. Filtrare + sortare
+				      Pentru a calcula eficient rating-ul in cazul seriarelor folosesc 2 array-uri ce au dimensiune numarul de sezoane. 
+				      Astfel seasonAddedRatings[i] reprezinta ratingurile adunate pe sezonul i, iar seasonNumberRatings[i] reprezinta numarul de ratinguri acordate sezonului i.
+				      Dupa cum se poate observa tind sa tin valoarea adunata a ratingurilor si numarul lor ca mai apoi sa fac impartirea cand este cazul.
+				     -> Favorite: Nr de aparitii in listele de favorite este calculat dinamic. Filtrare + sortare
+				     -> Longest: Simplu, din moment ce stiu durata. Filtrare + sortare
+				     -> Most Viewed: Nr de vizualizari e calculat dinamic. (o data cand se creeaza userul si incrementat mereu cand un user mai vizualizeaza).
+			
+                        -> Utilizatori: -> prin campul ratingNum contorizez de cate ori un utilizator a dat rating. Filtrare + sortare
+
+	->Recomandarile: -> Standard: returnez primul video nevazut de utilizator
+			 -> Best_unseen: algoritmul e simplu, pur si simplu calculez cel mai bun film nevazut de utilizator
+			 -> Favorite: calculez video-ul cu cel mai mare nr de aparitii in listele de favorite
+	  	         -> Search: usor folosind Streams
+			 -> Popular: putin mai complicat. In Videos retin un map care are ca si cheie numele unui gen si valoare popularitatea lui ( de cate ori a aparut ). In momentul recomandarii sortez intrarile din map dupa valoare, obtinand cele mai populare genuri in ordine descrescatoare. Parcurgandu-le, caut un video nevazut si la primul ma opresc.s

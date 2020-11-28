@@ -9,14 +9,13 @@ public final class Show extends Video {
     private int numberOfSeasons;
     private final double[] seasonAddedRatings;
     private final int[] seasonNumberRatings;
-    private final int maxSeason = 10000;
 
     public Show(final String title, final int releaseYear, final List<String> genres,
                 final  List<String> cast, final int numberOfSeasons, final List<Season> seasons) {
         super(title, releaseYear, genres, cast);
         this.numberOfSeasons = numberOfSeasons;
-        seasonNumberRatings = new int[maxSeason];
-        seasonAddedRatings = new double[maxSeason];
+        seasonNumberRatings = new int[numberOfSeasons + 1];
+        seasonAddedRatings = new double[numberOfSeasons + 1];
         ratingNum = numberOfSeasons;
         this.label = "SHOW";
         int count = 0;
