@@ -1,0 +1,36 @@
+{
+  "numberOfTurns": 6,
+  "initialData": {
+    "consumers": [{
+      "id": 0,
+      "initialBudget": 100,
+      "monthlyIncome": 20
+    }],
+    "distributors": [{
+      "id": 0,
+      "contractLength": 6,
+      "initialBudget": 200,
+      "initialInfrastructureCost": 30,
+      "initialProductionCost": 10
+    }]
+  },
+  "monthlyUpdates": [{
+    "newConsumers": [],
+    "costsChanges": []
+  },{
+    "newConsumers": [],
+    "costsChanges": []
+  },{
+    "newConsumers": [],
+    "costsChanges": []
+  },{
+    "newConsumers": [],
+    "costsChanges": []
+  },{
+    "newConsumers": [],
+    "costsChanges": []
+  },{
+    "newConsumers": [],
+    "costsChanges": []
+  }]
+}

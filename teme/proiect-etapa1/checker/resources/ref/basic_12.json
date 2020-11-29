@@ -1,0 +1,103 @@
+{
+  "consumers" : [ {
+    "id" : 0,
+    "isBankrupt" : false,
+    "budget" : 207
+  }, {
+    "id" : 1,
+    "isBankrupt" : false,
+    "budget" : 377
+  }, {
+    "id" : 2,
+    "isBankrupt" : false,
+    "budget" : 166
+  }, {
+    "id" : 3,
+    "isBankrupt" : false,
+    "budget" : 491
+  }, {
+    "id" : 4,
+    "isBankrupt" : false,
+    "budget" : 560
+  }, {
+    "id" : 5,
+    "isBankrupt" : false,
+    "budget" : 17
+  }, {
+    "id" : 6,
+    "isBankrupt" : true,
+    "budget" : 20
+  }, {
+    "id" : 7,
+    "isBankrupt" : false,
+    "budget" : 194
+  }, {
+    "id" : 8,
+    "isBankrupt" : false,
+    "budget" : 207
+  }, {
+    "id" : 9,
+    "isBankrupt" : false,
+    "budget" : 199
+  }, {
+    "id" : 10,
+    "isBankrupt" : false,
+    "budget" : 22
+  } ],
+  "distributors" : [ {
+    "id" : 0,
+    "budget" : 340,
+    "isBankrupt" : false,
+    "contracts" : [ {
+      "consumerId" : 0,
+      "price" : 20,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 1,
+      "price" : 20,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 2,
+      "price" : 20,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 3,
+      "price" : 20,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 4,
+      "price" : 20,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 5,
+      "price" : 20,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 7,
+      "price" : 20,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 8,
+      "price" : 20,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 9,
+      "price" : 20,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 10,
+      "price" : 20,
+      "remainedContractMonths" : 0
+    } ]
+  }, {
+    "id" : 1,
+    "budget" : -250,
+    "isBankrupt" : true,
+    "contracts" : [ ]
+  }, {
+    "id" : 2,
+    "budget" : 50,
+    "isBankrupt" : false,
+    "contracts" : [ ]
+  } ]
+}

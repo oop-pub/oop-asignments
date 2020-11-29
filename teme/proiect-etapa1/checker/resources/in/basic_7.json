@@ -1,0 +1,66 @@
+{
+  "numberOfTurns": 6,
+  "initialData": {
+    "consumers": [{
+      "id": 0,
+      "initialBudget": 100,
+      "monthlyIncome": 20
+    },{
+      "id": 1,
+      "initialBudget": 80,
+      "monthlyIncome": 30
+    }],
+    "distributors": [{
+      "id": 0,
+      "contractLength": 2,
+      "initialBudget": 300,
+      "initialInfrastructureCost": 10,
+      "initialProductionCost": 5
+    },{
+      "id": 1,
+      "contractLength": 1,
+      "initialBudget": 200,
+      "initialInfrastructureCost": 20,
+      "initialProductionCost": 15
+    }]
+  },
+  "monthlyUpdates": [{
+    "newConsumers": [],
+    "costsChanges": []
+  },{
+    "newConsumers": [],
+    "costsChanges": []
+  },{
+    "newConsumers": [{
+      "id": 2,
+      "initialBudget": 10,
+      "monthlyIncome": 5
+    }],
+    "costsChanges": [{
+      "id": 0,
+      "infrastructureCost": 20,
+      "productionCost": 16
+    }]
+  },{
+    "newConsumers": [],
+    "costsChanges": []
+  },{
+    "newConsumers": [{
+      "id": 3,
+      "initialBudget": 60,
+      "monthlyIncome": 20
+    }],
+    "costsChanges": [{
+      "id": 0,
+      "infrastructureCost": 30,
+      "productionCost": 15
+    },{
+      "id": 1,
+      "infrastructureCost": 30,
+      "productionCost": 15
+    }]
+  },{
+    "newConsumers": [],
+    "costsChanges": []
+  }]
+}

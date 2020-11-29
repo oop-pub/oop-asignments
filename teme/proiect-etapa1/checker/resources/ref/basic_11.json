@@ -1,0 +1,50 @@
+{
+  "consumers" : [ {
+    "id" : 0,
+    "isBankrupt" : true,
+    "budget" : 41
+  }, {
+    "id" : 1,
+    "isBankrupt" : false,
+    "budget" : 575
+  }, {
+    "id" : 2,
+    "isBankrupt" : false,
+    "budget" : 620
+  }, {
+    "id" : 3,
+    "isBankrupt" : false,
+    "budget" : 121
+  }, {
+    "id" : 4,
+    "isBankrupt" : false,
+    "budget" : 8
+  } ],
+  "distributors" : [ {
+    "id" : 0,
+    "budget" : -200,
+    "isBankrupt" : true,
+    "contracts" : [ ]
+  }, {
+    "id" : 1,
+    "budget" : 325,
+    "isBankrupt" : false,
+    "contracts" : [ {
+      "consumerId" : 1,
+      "price" : 17,
+      "remainedContractMonths" : 2
+    }, {
+      "consumerId" : 2,
+      "price" : 17,
+      "remainedContractMonths" : 2
+    }, {
+      "consumerId" : 3,
+      "price" : 17,
+      "remainedContractMonths" : 2
+    }, {
+      "consumerId" : 4,
+      "price" : 17,
+      "remainedContractMonths" : 2
+    } ]
+  } ]
+}
