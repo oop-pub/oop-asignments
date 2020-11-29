@@ -69,7 +69,7 @@ public final class Constants {
     public static final String OUT_FILE = "out.txt";
     public static final int MIN_LINES = 2;
     public static final int NUM_CHECK_INFO = 3;
-    public static final int MIN_CHECKSTYLE_ERR = 20;
+    public static final int MIN_CHECKSTYLE_ERR = 30;
     public static final int SINGLE_TEST = 2;
     public static final int LARGE_TEST = 3;
     public static final int MAX_LENGTH = 50;
