@@ -2,11 +2,11 @@
   "consumers" : [ {
     "id" : 0,
     "isBankrupt" : false,
-    "budget" : 184
+    "budget" : 189
   }, {
     "id" : 1,
     "isBankrupt" : false,
-    "budget" : 289
+    "budget" : 294
   } ],
   "distributors" : [ {
     "id" : 0,
@@ -23,7 +23,7 @@
     } ]
   }, {
     "id" : 1,
-    "budget" : 44,
+    "budget" : 34,
     "isBankrupt" : false,
     "contracts" : [ ]
   } ]
