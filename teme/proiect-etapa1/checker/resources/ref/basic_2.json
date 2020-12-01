@@ -6,16 +6,16 @@
   }, {
     "id" : 1,
     "isBankrupt" : false,
-    "budget" : 148
+    "budget" : 187
   } ],
   "distributors" : [ {
     "id" : 0,
-    "budget" : 355,
+    "budget" : 356,
     "isBankrupt" : false,
     "contracts" : [ {
       "consumerId" : 1,
-      "price" : 42,
-      "remainedContractMonths" : 0
+      "price" : 11,
+      "remainedContractMonths" : 5
     } ]
   } ]
 }

@@ -2,11 +2,11 @@
   "consumers" : [ {
     "id" : 0,
     "isBankrupt" : false,
-    "budget" : 106
+    "budget" : 98
   }, {
     "id" : 1,
     "isBankrupt" : false,
-    "budget" : 146
+    "budget" : 148
   }, {
     "id" : 2,
     "isBankrupt" : true,
@@ -14,28 +14,28 @@
   }, {
     "id" : 3,
     "isBankrupt" : false,
-    "budget" : 47
+    "budget" : 34
   } ],
   "distributors" : [ {
     "id" : 0,
-    "budget" : 290,
+    "budget" : 304,
     "isBankrupt" : false,
     "contracts" : [ {
-      "consumerId" : 0,
-      "price" : 25,
-      "remainedContractMonths" : 0
-    }, {
-      "consumerId" : 1,
-      "price" : 25,
-      "remainedContractMonths" : 0
-    }, {
       "consumerId" : 3,
       "price" : 33,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 0,
+      "price" : 28,
+      "remainedContractMonths" : 1
+    }, {
+      "consumerId" : 1,
+      "price" : 28,
       "remainedContractMonths" : 1
     } ]
   }, {
     "id" : 1,
-    "budget" : 70,
+    "budget" : 40,
     "isBankrupt" : false,
     "contracts" : [ ]
   } ]

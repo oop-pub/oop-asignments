@@ -2,100 +2,108 @@
   "consumers" : [ {
     "id" : 0,
     "isBankrupt" : false,
-    "budget" : 240
+    "budget" : 257
   }, {
     "id" : 1,
     "isBankrupt" : false,
-    "budget" : 280
+    "budget" : 302
   }, {
     "id" : 2,
     "isBankrupt" : false,
-    "budget" : 241
+    "budget" : 258
   }, {
     "id" : 3,
     "isBankrupt" : false,
-    "budget" : 188
+    "budget" : 203
   }, {
     "id" : 4,
     "isBankrupt" : false,
-    "budget" : 250
+    "budget" : 272
   }, {
     "id" : 5,
     "isBankrupt" : false,
-    "budget" : 242
+    "budget" : 274
   }, {
     "id" : 6,
     "isBankrupt" : false,
-    "budget" : 69
+    "budget" : 76
   }, {
     "id" : 7,
     "isBankrupt" : false,
-    "budget" : 64
+    "budget" : 71
   }, {
     "id" : 8,
     "isBankrupt" : false,
-    "budget" : 78
+    "budget" : 85
   }, {
     "id" : 9,
     "isBankrupt" : false,
-    "budget" : 102
+    "budget" : 109
   }, {
     "id" : 10,
     "isBankrupt" : false,
-    "budget" : 86
+    "budget" : 93
+  }, {
+    "id" : 11,
+    "isBankrupt" : false,
+    "budget" : 107
   } ],
   "distributors" : [ {
     "id" : 0,
-    "budget" : 137,
+    "budget" : 127,
     "isBankrupt" : false,
     "contracts" : [ ]
   }, {
     "id" : 1,
-    "budget" : 272,
+    "budget" : 288,
     "isBankrupt" : false,
     "contracts" : [ {
       "consumerId" : 0,
-      "price" : 14,
+      "price" : 13,
       "remainedContractMonths" : 0
     }, {
       "consumerId" : 1,
-      "price" : 14,
+      "price" : 13,
       "remainedContractMonths" : 0
     }, {
       "consumerId" : 2,
-      "price" : 14,
+      "price" : 13,
       "remainedContractMonths" : 0
     }, {
       "consumerId" : 3,
-      "price" : 14,
+      "price" : 13,
       "remainedContractMonths" : 0
     }, {
       "consumerId" : 4,
-      "price" : 14,
+      "price" : 13,
       "remainedContractMonths" : 0
     }, {
       "consumerId" : 5,
-      "price" : 14,
+      "price" : 13,
       "remainedContractMonths" : 0
     }, {
       "consumerId" : 6,
-      "price" : 14,
+      "price" : 13,
       "remainedContractMonths" : 0
     }, {
       "consumerId" : 7,
-      "price" : 14,
+      "price" : 13,
       "remainedContractMonths" : 0
     }, {
       "consumerId" : 8,
-      "price" : 14,
+      "price" : 13,
       "remainedContractMonths" : 0
     }, {
       "consumerId" : 9,
-      "price" : 14,
+      "price" : 13,
       "remainedContractMonths" : 0
     }, {
       "consumerId" : 10,
-      "price" : 14,
+      "price" : 13,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 11,
+      "price" : 13,
       "remainedContractMonths" : 0
     } ]
   } ]
