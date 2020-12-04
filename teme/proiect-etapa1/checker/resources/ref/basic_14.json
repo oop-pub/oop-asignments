@@ -89,43 +89,7 @@
     "id" : 1,
     "budget" : -9,
     "isBankrupt" : true,
-    "contracts" : [ {
-      "consumerId" : 5,
-      "price" : 26,
-      "remainedContractMonths" : 0
-    }, {
-      "consumerId" : 6,
-      "price" : 31,
-      "remainedContractMonths" : 1
-    }, {
-      "consumerId" : 11,
-      "price" : 31,
-      "remainedContractMonths" : 1
-    }, {
-      "consumerId" : 16,
-      "price" : 31,
-      "remainedContractMonths" : 1
-    }, {
-      "consumerId" : 7,
-      "price" : 31,
-      "remainedContractMonths" : 2
-    }, {
-      "consumerId" : 12,
-      "price" : 31,
-      "remainedContractMonths" : 2
-    }, {
-      "consumerId" : 3,
-      "price" : 31,
-      "remainedContractMonths" : 3
-    }, {
-      "consumerId" : 18,
-      "price" : 31,
-      "remainedContractMonths" : 3
-    }, {
-      "consumerId" : 19,
-      "price" : 32,
-      "remainedContractMonths" : 4
-    } ]
+    "contracts" : [ ]
   }, {
     "id" : 2,
     "budget" : -20,
