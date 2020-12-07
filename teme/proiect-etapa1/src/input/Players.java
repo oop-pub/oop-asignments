@@ -1,20 +1,17 @@
 package input;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Players<T> {
     private List<T> members;
     private Map<Integer, T> memberMap;
 
     public Players() {
-        members = new ArrayList<>();
+        members = new LinkedList<>();
         memberMap = new HashMap<>();
     }
 
-    public List getAll() {
+    public List<T> getAll() {
         return members;
     }
 
@@ -31,5 +28,9 @@ public class Players<T> {
         for(T member : members) {
             this.add(member);
         }
+    }
+
+    public void eliminate(T member) {
+        members.remove(member);
     }
 }
