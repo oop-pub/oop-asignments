@@ -3,15 +3,19 @@ package simulate;
 import input.Distributor;
 import input.InputParser;
 
-public class Contract {
+import java.util.Objects;
+
+public class Contract implements Comparable {
 
     private int distributorId;
     private int subscriptionCount;
+    private Distributor distributor;
     private int length;
-    private float price;
+    private int price;
 
-    public Contract(int distributorId) {
-        this.distributorId = distributorId;
+    public Contract(Distributor distributor) {
+        this.distributor = distributor;
+        calulatePrice();
     }
 
     public int getDistributorId() {
@@ -22,7 +26,7 @@ public class Contract {
         this.distributorId = distributorId;
     }
 
-    public float getPrice() {
+    public int getPrice() {
         return price;
     }
 
@@ -31,8 +35,7 @@ public class Contract {
     }
 
     public void calulatePrice() {
-        Distributor distributor = InputParser.getInstance()
-                                .getDistributors().getById(distributorId);
+
         if (distributor.getContract() == null) {
             distributor.setContract(this);
             length = distributor.getContractLength();
@@ -42,7 +45,7 @@ public class Contract {
                     distributor.getInitialProductionCost() +
                     distributor.getProfit();
         } else {
-            price = Math.round(Math.floor((float)distributor.getInitialInfrastructureCost() /
+            price = (int)Math.round(Math.floor((float)distributor.getInitialInfrastructureCost() /
                     subscriptionCount) + distributor.getInitialProductionCost() +
                     distributor.getProfit());
         }
@@ -52,7 +55,20 @@ public class Contract {
         return subscriptionCount;
     }
 
-    public void increaseSubscriptionCount() {
-        subscriptionCount += 1;
+    public void increaseSubscriptionCount(int number) {
+        subscriptionCount += number;
+    }
+
+    public Distributor getDistributor() {
+        return distributor;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return price - ((Contract)o).price;
+    }
+
+    public int getLength() {
+        return length;
     }
 }

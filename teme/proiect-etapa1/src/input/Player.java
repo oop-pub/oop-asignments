@@ -5,8 +5,8 @@ import simulate.Contract;
 public abstract class Player{
     protected int id;
     protected int initialBudget;
-    private boolean isBankrupt;
-    private Contract contract;
+    protected boolean isBankrupt;
+    protected Contract contract;
 
     public int getId() {
         return id;
@@ -33,9 +33,7 @@ public abstract class Player{
         initialBudget += sum;
     }
 
-    public void pay(int sum) {
-        initialBudget -= sum;
-    }
+    public abstract void pay();
 
     public void setContract(Contract theContract) {
         contract = theContract;
@@ -43,5 +41,11 @@ public abstract class Player{
 
     public Contract getContract() {
         return contract;
+    }
+
+    public abstract void getIncome();
+
+    public boolean isBankrupt() {
+        return isBankrupt;
     }
 }

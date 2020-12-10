@@ -15,12 +15,14 @@ public final class InputParser {
     private final Players<Distributor> distributors;
     private int numberOfTurns;
     private static InputParser instance = null;
-    private JsonNode jsonNode;
     private final ObjectMapper objectMapper;
     private final int currentUpdate;
+    private final ObjectListFactory objectListFactory;
+    private JsonNode jsonNode;
 
     private InputParser() {
         objectMapper = new ObjectMapper();
+        objectListFactory = ObjectListFactory.getInstance();
         consumers = new Players<>();
         distributors = new Players<>();
         currentUpdate = 0;
@@ -33,21 +35,14 @@ public final class InputParser {
         return instance;
     }
 
-    public void parse(String filename) throws IOException {
+    public void parse() throws IOException {
 
-        jsonNode = objectMapper.readTree(new File(filename));
         numberOfTurns = jsonNode.get("numberOfTurns").asInt();
-        consumers.addAll(getData(jsonNode.get("initialData").get("consumers"), Consumer.class));
-        distributors.addAll(getData(jsonNode.get("initialData").get("distributors"), Distributor.class));
-    }
-
-    private <T> List<T> getData(JsonNode location, Class<T> cls) throws IOException {
-
-        JavaType javaType = objectMapper.getTypeFactory().constructParametricType(List.class, cls);
-        return objectMapper.readValue(
-                location.toString(),
-                javaType
-        );
+        JsonNode currentNode = jsonNode.get("initialData");
+        consumers.addAll(objectListFactory.getObjectList(currentNode.get("consumers"),
+                objectMapper, Consumer.class));
+        distributors.addAll(objectListFactory.getObjectList(currentNode.get("distributors"),
+                objectMapper, Distributor.class));
     }
 
     public Players<Consumer> getConsumers() {
@@ -59,16 +54,17 @@ public final class InputParser {
     }
 
     public List<CostChange> getNextUpdates() throws IOException {
+
         JsonNode currentNode = jsonNode.get("monthlyUpdates").get(currentUpdate);
-        consumers.addAll(getData(
-                currentNode.get("newConsumers"),
-                Consumer.class));
+        consumers.addAll(objectListFactory.getObjectList(currentNode.get("newConsumers"),
+                objectMapper, Consumer.class));
 
-        return getData(
-                currentNode.get("costsChanges"),
-                CostChange.class);
+        return objectListFactory.getObjectList(currentNode.get("costsChanges"),
+                objectMapper, CostChange.class);
     }
-
+    public void openFile(String filename) throws IOException {
+        jsonNode = objectMapper.readTree(new File(filename));
+    }
     public int getNumberOfTurns() {
         return numberOfTurns;
     }

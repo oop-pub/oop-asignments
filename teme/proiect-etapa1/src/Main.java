@@ -6,9 +6,11 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
 
-        InputParser.getInstance().parse(args[0]);
+        InputParser inputParser = InputParser.getInstance();
+        inputParser.openFile(args[0]);
+        inputParser.parse();
         Simulator simulator = new Simulator();
-        simulator.simulate(InputParser.getInstance());
+        simulator.simulate(inputParser);
 
     }
 }
