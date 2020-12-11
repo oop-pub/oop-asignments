@@ -2,44 +2,82 @@ package input;
 
 import simulate.Contract;
 
-public abstract class Player{
+public abstract class Player {
     protected int id;
     protected int initialBudget;
     protected boolean isBankrupt;
     protected Contract contract;
 
+    /**
+     *
+     * @return
+     */
     public int getId() {
         return id;
     }
 
-    public void setId(int id) {
+    /**
+     *
+     * @param id
+     */
+    public void setId(final int id) {
         this.id = id;
     }
 
+    /**
+     *
+     * @return
+     */
     public int getInitialBudget() {
         return initialBudget;
     }
 
-    public void setInitialBudget(int initialBudget) {
+    /**
+     *
+     * @param initialBudget
+     */
+    public void setInitialBudget(final int initialBudget) {
         this.initialBudget = initialBudget;
     }
 
-    public void addToBudget(int sum) {
+    /**
+     *
+     * @param sum
+     */
+    public void addToBudget(final int sum) {
         initialBudget += sum;
     }
 
+    /**
+     *
+     */
     public abstract void pay();
 
-    public void setContract(Contract theContract) {
+    /**
+     *
+     * @param theContract
+     */
+    public void setContract(final Contract theContract) {
         contract = theContract;
     }
 
+    /**
+     *
+     * @return
+     */
     public Contract getContract() {
         return contract;
     }
 
+    /**
+     *
+     */
     public abstract void getIncome();
 
+    /**
+     *
+     * @return
+     */
     public boolean isBankrupt() {
         return isBankrupt;
     }

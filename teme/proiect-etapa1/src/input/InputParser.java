@@ -1,6 +1,4 @@
 package input;
-
-import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import simulate.CostChange;
@@ -24,13 +22,21 @@ public final class InputParser {
         objectListFactory = ObjectListFactory.getInstance();
     }
 
+    /**
+     *
+     * @return
+     */
     public static InputParser getInstance() {
-        if(instance == null) {
+        if (instance == null) {
             instance = new InputParser();
         }
         return instance;
     }
 
+    /**
+     *
+     * @throws IOException
+     */
     public void parse() throws IOException {
 
         numberOfTurns = jsonNode.get("numberOfTurns").asInt();
@@ -49,7 +55,13 @@ public final class InputParser {
         return distributors;
     }
 
-    public List<CostChange> getNextUpdates(int currentUpdate) throws IOException {
+    /**
+     *
+     * @param currentUpdate
+     * @return
+     * @throws IOException
+     */
+    public List<CostChange> getNextUpdates(final int currentUpdate) throws IOException {
 
         JsonNode currentNode = jsonNode.get("monthlyUpdates").get(currentUpdate);
         consumers.addAll(objectListFactory.getObjectList(currentNode.get("newConsumers"),
@@ -58,7 +70,13 @@ public final class InputParser {
         return objectListFactory.getObjectList(currentNode.get("costsChanges"),
                 objectMapper, CostChange.class);
     }
-    public void openFile(String filename) throws IOException {
+
+    /**
+     *
+     * @param filename
+     * @throws IOException
+     */
+    public void openFile(final String filename) throws IOException {
         consumers = new Players<>();
         distributors = new Players<>();
         jsonNode = objectMapper.readTree(new File(filename));

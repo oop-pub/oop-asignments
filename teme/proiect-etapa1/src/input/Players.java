@@ -1,8 +1,12 @@
 package input;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 
-public class Players<T> {
+
+public final class Players<T> {
     private List<T> members;
     private Map<Integer, T> memberMap;
 
@@ -15,25 +19,33 @@ public class Players<T> {
         return members;
     }
 
-    public T getById(int id) {
+    /**
+     *
+     * @param id
+     * @return
+     */
+    public T getById(final int id) {
         return memberMap.get(id);
     }
 
-    public void add(T member) {
+    /**
+     *
+     * @param member
+     */
+    public void add(final T member) {
         members.add(member);
-        memberMap.put(((Player)member).getId(), member);
+        memberMap.put(((Player) member).getId(), member);
     }
 
-    public void addAll(List<T> members) {
-        for(T member : members) {
+    /**
+     *
+     * @param newMembers
+     */
+    public void addAll(final List<T> newMembers) {
+        for (T member : newMembers) {
             this.add(member);
         }
     }
-
-    public void eliminate(T member) {
-        members.remove(member);
-    }
-
     public Map<Integer, T> getMap() {
         return memberMap;
     }

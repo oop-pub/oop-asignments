@@ -1,6 +1,6 @@
 package simulate;
 
-public class CostChange {
+public final class CostChange {
     private int id;
     private int infrastructureCost;
     private int productionCost;
@@ -9,7 +9,7 @@ public class CostChange {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(final int id) {
         this.id = id;
     }
 
@@ -17,7 +17,7 @@ public class CostChange {
         return infrastructureCost;
     }
 
-    public void setInfrastructureCost(int infrastructureCost) {
+    public void setInfrastructureCost(final int infrastructureCost) {
         this.infrastructureCost = infrastructureCost;
     }
 
@@ -25,7 +25,7 @@ public class CostChange {
         return productionCost;
     }
 
-    public void setProductionCost(int productionCost) {
+    public void setProductionCost(final int productionCost) {
         this.productionCost = productionCost;
     }
 }

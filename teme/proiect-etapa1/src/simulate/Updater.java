@@ -5,7 +5,8 @@ import input.InputParser;
 
 public final class Updater {
 
-    static void update(CostChange costChange, InputParser input) {
+    private Updater() { }
+    static void update(final CostChange costChange, final InputParser input) {
         Distributor distributor = input.getDistributors()
                 .getById(costChange.getId());
         distributor.setInitialInfrastructureCost(

@@ -2,9 +2,10 @@ package input;
 
 import simulate.Contract;
 
-public class Consumer extends Player {
+public final class Consumer extends Player {
 
     private int monthlyIncome;
+    private static final float PENALTY = (float) 1.2;
 
     private boolean isSubscripted;
 
@@ -18,10 +19,14 @@ public class Consumer extends Player {
         return monthlyIncome;
     }
 
-    public void setMonthlyIncome(int monthlyIncome) {
+    public void setMonthlyIncome(final int monthlyIncome) {
         this.monthlyIncome = monthlyIncome;
     }
 
+    /**
+     *
+     * @return
+     */
     public boolean hasContract() {
         return isSubscripted;
     }
@@ -30,26 +35,32 @@ public class Consumer extends Player {
         return remainingSubscription;
     }
 
-    public void setRemainingSubscription(int remainingSubscription) {
-        this.remainingSubscription = remainingSubscription;
-    }
-
+    /**
+     *
+     */
     public void getIncome() {
         addToBudget(monthlyIncome);
     }
 
+    /**
+     *
+     */
     public void pay() {
-        if(inDebt) {
-            if(Math.round(previousContract.getPrice() * 1.2) + contract.getPrice() <= initialBudget) {
-                initialBudget -= Math.round(previousContract.getPrice() * 1.2) + contract.getPrice();
-                previousContract.getDistributor().addToBudget((int)Math.round(previousContract.getPrice() * 1.2));
+        if (inDebt) {
+            if (Math.round(previousContract.getPrice() * PENALTY)
+                    + contract.getPrice() <= initialBudget) {
+                initialBudget -= Math.round(previousContract.getPrice() * PENALTY)
+                        + contract.getPrice();
+                previousContract.getDistributor().addToBudget(
+                        (int) Math.round(previousContract.getPrice() * PENALTY)
+                );
                 inDebt = false;
                 contract.getDistributor().addToBudget(contract.getPrice());
             } else {
                 isBankrupt = true;
             }
         } else {
-            if(contract.getPrice() <= initialBudget) {
+            if (contract.getPrice() <= initialBudget) {
                 initialBudget -= contract.getPrice();
                 contract.getDistributor().addToBudget(contract.getPrice());
             } else {
@@ -59,26 +70,32 @@ public class Consumer extends Player {
         }
     }
 
+    /**
+     *
+     * @param contract
+     */
     @Override
-    public void setContract(Contract contract) {
+    public void setContract(final Contract contract) {
         this.contract = new Contract(contract);
         remainingSubscription = contract.getLength();
         isSubscripted = true;
     }
 
+    /**
+     *
+     */
     public void checkContractDate() {
         remainingSubscription--;
-        if(remainingSubscription == 0) {
+        if (remainingSubscription == 0) {
             isSubscripted = false;
             contract.getDistributor().getContract().decreaseSubscriptionCount(1);
             contract.getDistributor().removeCustomer(this);
         }
     }
 
-    public Contract getPreviousContract() {
-        return previousContract;
-    }
-
+    /**
+     *
+     */
     public void removeContract() {
         isSubscripted = false;
     }

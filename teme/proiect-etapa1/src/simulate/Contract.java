@@ -1,24 +1,23 @@
 package simulate;
 
 import input.Distributor;
-import input.InputParser;
 
 import java.util.Objects;
 
-public class Contract implements Comparable {
+public final class Contract implements Comparable {
 
     private int distributorId;
     private int subscriptionCount;
-    private Distributor distributor;
+    private final Distributor distributor;
     private int length;
     private int price;
 
-    public Contract(Distributor distributor) {
+    public Contract(final Distributor distributor) {
         this.distributor = distributor;
         calculatePrice();
     }
 
-    public Contract(Contract contract) {
+    public Contract(final Contract contract) {
         this.distributor = contract.distributor;
         this.price = contract.price;
         this.length = contract.length;
@@ -28,7 +27,7 @@ public class Contract implements Comparable {
         return distributorId;
     }
 
-    public void setDistributorId(int distributorId) {
+    public void setDistributorId(final int distributorId) {
         this.distributorId = distributorId;
     }
 
@@ -36,10 +35,14 @@ public class Contract implements Comparable {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(final int price) {
         this.price = price;
     }
 
+    /**
+     *
+     * @return
+     */
     public boolean calculatePrice() {
         int newPrice;
         if (distributor.getContract() == null) {
@@ -47,15 +50,17 @@ public class Contract implements Comparable {
             length = distributor.getContractLength();
         }
         if (subscriptionCount == 0) {
-            newPrice = distributor.getInitialInfrastructureCost() +
-                    distributor.getInitialProductionCost() +
-                    distributor.getProfit();
+            newPrice = distributor.getInitialInfrastructureCost()
+                    + distributor.getInitialProductionCost()
+                    + distributor.getProfit();
         } else {
-            newPrice = (int)Math.round(Math.floor((float)distributor.getInitialInfrastructureCost() /
-                    subscriptionCount) + distributor.getInitialProductionCost() +
-                    distributor.getProfit());
+            newPrice = (int) Math.round(
+                    Math.floor((float) distributor.getInitialInfrastructureCost()
+                            / subscriptionCount) + distributor.getInitialProductionCost()
+                            + distributor.getProfit()
+            );
         }
-        if(newPrice != price) {
+        if (newPrice != price) {
             price = newPrice;
             return true;
         }
@@ -66,10 +71,19 @@ public class Contract implements Comparable {
         return subscriptionCount;
     }
 
-    public void increaseSubscriptionCount(int number) {
+    /**
+     *
+     * @param number
+     */
+    public void increaseSubscriptionCount(final int number) {
         subscriptionCount += number;
     }
-    public void decreaseSubscriptionCount(int number) {
+
+    /**
+     *
+     * @param number
+     */
+    public void decreaseSubscriptionCount(final int number) {
         subscriptionCount -= number;
     }
 
@@ -78,11 +92,11 @@ public class Contract implements Comparable {
     }
 
     @Override
-    public int compareTo(Object o) {
-        if(price != ((Contract)o).price) {
-            return price - ((Contract)o).price;
+    public int compareTo(final Object o) {
+        if (price != ((Contract) o).price) {
+            return price - ((Contract) o).price;
         }
-        return distributor.getId() - ((Contract)o).distributor.getId();
+        return distributor.getId() - ((Contract) o).distributor.getId();
     }
 
     public int getLength() {
@@ -90,15 +104,19 @@ public class Contract implements Comparable {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+    public boolean equals(final Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
         Contract contract = (Contract) o;
-        return distributorId == contract.distributorId &&
-                subscriptionCount == contract.subscriptionCount &&
-                length == contract.length &&
-                price == contract.price &&
-                Objects.equals(distributor, contract.distributor);
+        return distributorId == contract.distributorId
+                && subscriptionCount == contract.subscriptionCount
+                && length == contract.length
+                && price == contract.price
+                && Objects.equals(distributor, contract.distributor);
     }
 
     @Override

@@ -1,6 +1,9 @@
 package simulate;
 
-import input.*;
+import input.Consumer;
+import input.Distributor;
+import input.InputParser;
+import input.Players;
 
 import java.io.IOException;
 import java.util.Iterator;
@@ -8,17 +11,22 @@ import java.util.List;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-public class Simulator {
+public final class Simulator {
 
-    public void simulate(InputParser inputParser) throws IOException {
+    /**
+     *
+     * @param inputParser
+     * @throws IOException
+     */
+    public void simulate(final InputParser inputParser) throws IOException {
             Players<Distributor> distributors = inputParser.getDistributors();
             Players<Consumer> consumers = inputParser.getConsumers();
             List<CostChange> costChanges;
             SortedSet<Contract> contracts = new TreeSet<>();
-            for(Distributor distributor : distributors.getAll()) {
+            for (Distributor distributor : distributors.getAll()) {
                 contracts.add(new Contract(distributor));
             }
-            for(int turn = 0; turn < inputParser.getNumberOfTurns() + 1; turn++) {
+            for (int turn = 0; turn < inputParser.getNumberOfTurns() + 1; turn++) {
                 // get the salary
                 Visa.getIncome(consumers.getAll());
 
@@ -26,9 +34,9 @@ public class Simulator {
                 Distributor luckyDistributor = bestContract.getDistributor();
 
                 // new contracts
-                for(Consumer consumer : consumers.getAll()) {
+                for (Consumer consumer : consumers.getAll()) {
                     consumer.checkContractDate();
-                    if(!consumer.hasContract()) {
+                    if (!consumer.hasContract()) {
                         consumer.setContract(bestContract);
                         luckyDistributor.addCustomer(consumer);
                         bestContract.increaseSubscriptionCount(1);
@@ -40,9 +48,9 @@ public class Simulator {
 
                 // remove the bankrupt consumers
                 Iterator<Consumer> it = consumers.getAll().listIterator();
-                while(it.hasNext()) {
+                while (it.hasNext()) {
                     Consumer consumer = it.next();
-                    if(consumer.isBankrupt()) {
+                    if (consumer.isBankrupt()) {
                         consumer.getContract().getDistributor().getContract()
                                 .decreaseSubscriptionCount(1);
                         consumer.getContract().getDistributor().removeCustomer(consumer);
@@ -52,13 +60,10 @@ public class Simulator {
 
                 // remove the bankrupt distributors
                 Iterator<Distributor> it2 = distributors.getAll().listIterator();
-                while(it2.hasNext()) {
+                while (it2.hasNext()) {
                     Distributor distributor = it2.next();
-                    if(distributor.getId() == 3) {
-                        System.out.println(distributor.getInitialBudget());
-                    }
-                    if(distributor.isBankrupt()) {
-                        for(Consumer consumer : distributor.getCustomers()) {
+                    if (distributor.isBankrupt()) {
+                        for (Consumer consumer : distributor.getCustomers()) {
                             consumer.removeContract();
                             distributor.removeCustomer(consumer);
                         }
@@ -67,7 +72,7 @@ public class Simulator {
                     }
                 }
 
-                if(distributors.getAll().size() == 0) {
+                if (distributors.getAll().size() == 0) {
                     break;
                 }
 
@@ -76,11 +81,11 @@ public class Simulator {
                 contracts.add(bestContract);
 
                 // get updates
-                if(turn != inputParser.getNumberOfTurns()) {
+                if (turn != inputParser.getNumberOfTurns()) {
                     costChanges = inputParser.getNextUpdates(turn);
                     for (CostChange newCost : costChanges) {
                         Distributor distributor = distributors.getById(newCost.getId());
-                        if(!distributor.isBankrupt()) {
+                        if (!distributor.isBankrupt()) {
                             contracts.remove(distributor.getContract());
                             Updater.update(newCost, inputParser);
                             distributor.getContract().calculatePrice();
