@@ -44,15 +44,24 @@ public class Distributor extends Player {
         customers.add(consumer);
     }
 
+    public void removeCustomer(Consumer consumer) {
+        customers.remove(consumer);
+    }
+
     public int getProfit() {
         return (int)Math.round(Math.floor(0.2 * initialProductionCost));
     }
 
-    public void getIncome() {
-        initialBudget += getProfit();
-    }
+    public void getIncome() {}
 
     public void pay() {
-        initialBudget -= initialInfrastructureCost - initialProductionCost * customers.size();
+        initialBudget -= (initialInfrastructureCost + initialProductionCost * customers.size());
+        if(initialBudget < 0) {
+            isBankrupt = true;
+        }
+    }
+
+    public List<Consumer> getCustomers() {
+        return customers;
     }
 }

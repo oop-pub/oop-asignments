@@ -11,21 +11,17 @@ import java.util.List;
 
 public final class InputParser {
 
-    private final Players<Consumer> consumers;
-    private final Players<Distributor> distributors;
+    private Players<Consumer> consumers;
+    private Players<Distributor> distributors;
     private int numberOfTurns;
     private static InputParser instance = null;
     private final ObjectMapper objectMapper;
-    private final int currentUpdate;
     private final ObjectListFactory objectListFactory;
     private JsonNode jsonNode;
 
     private InputParser() {
         objectMapper = new ObjectMapper();
         objectListFactory = ObjectListFactory.getInstance();
-        consumers = new Players<>();
-        distributors = new Players<>();
-        currentUpdate = 0;
     }
 
     public static InputParser getInstance() {
@@ -53,7 +49,7 @@ public final class InputParser {
         return distributors;
     }
 
-    public List<CostChange> getNextUpdates() throws IOException {
+    public List<CostChange> getNextUpdates(int currentUpdate) throws IOException {
 
         JsonNode currentNode = jsonNode.get("monthlyUpdates").get(currentUpdate);
         consumers.addAll(objectListFactory.getObjectList(currentNode.get("newConsumers"),
@@ -63,6 +59,8 @@ public final class InputParser {
                 objectMapper, CostChange.class);
     }
     public void openFile(String filename) throws IOException {
+        consumers = new Players<>();
+        distributors = new Players<>();
         jsonNode = objectMapper.readTree(new File(filename));
     }
     public int getNumberOfTurns() {

@@ -15,7 +15,13 @@ public class Contract implements Comparable {
 
     public Contract(Distributor distributor) {
         this.distributor = distributor;
-        calulatePrice();
+        calculatePrice();
+    }
+
+    public Contract(Contract contract) {
+        this.distributor = contract.distributor;
+        this.price = contract.price;
+        this.length = contract.length;
     }
 
     public int getDistributorId() {
@@ -34,21 +40,26 @@ public class Contract implements Comparable {
         this.price = price;
     }
 
-    public void calulatePrice() {
-
+    public boolean calculatePrice() {
+        int newPrice;
         if (distributor.getContract() == null) {
             distributor.setContract(this);
             length = distributor.getContractLength();
         }
         if (subscriptionCount == 0) {
-            price = distributor.getInitialInfrastructureCost() +
+            newPrice = distributor.getInitialInfrastructureCost() +
                     distributor.getInitialProductionCost() +
                     distributor.getProfit();
         } else {
-            price = (int)Math.round(Math.floor((float)distributor.getInitialInfrastructureCost() /
+            newPrice = (int)Math.round(Math.floor((float)distributor.getInitialInfrastructureCost() /
                     subscriptionCount) + distributor.getInitialProductionCost() +
                     distributor.getProfit());
         }
+        if(newPrice != price) {
+            price = newPrice;
+            return true;
+        }
+        return false;
     }
 
     public int getSubscriptionCount() {
@@ -58,6 +69,9 @@ public class Contract implements Comparable {
     public void increaseSubscriptionCount(int number) {
         subscriptionCount += number;
     }
+    public void decreaseSubscriptionCount(int number) {
+        subscriptionCount -= number;
+    }
 
     public Distributor getDistributor() {
         return distributor;
@@ -65,10 +79,30 @@ public class Contract implements Comparable {
 
     @Override
     public int compareTo(Object o) {
-        return price - ((Contract)o).price;
+        if(price != ((Contract)o).price) {
+            return price - ((Contract)o).price;
+        }
+        return distributor.getId() - ((Contract)o).distributor.getId();
     }
 
     public int getLength() {
         return length;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Contract contract = (Contract) o;
+        return distributorId == contract.distributorId &&
+                subscriptionCount == contract.subscriptionCount &&
+                length == contract.length &&
+                price == contract.price &&
+                Objects.equals(distributor, contract.distributor);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(distributorId, subscriptionCount, distributor, length, price);
     }
 }

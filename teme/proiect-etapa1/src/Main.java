@@ -1,5 +1,6 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
 import input.InputParser;
+import output.OutputWriter;
 import simulate.Simulator;
 
 public class Main {
@@ -11,6 +12,7 @@ public class Main {
         inputParser.parse();
         Simulator simulator = new Simulator();
         simulator.simulate(inputParser);
+        OutputWriter.write(inputParser, args[1]);
 
     }
 }

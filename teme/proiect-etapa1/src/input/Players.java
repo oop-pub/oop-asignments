@@ -8,7 +8,7 @@ public class Players<T> {
 
     public Players() {
         members = new LinkedList<>();
-        memberMap = new HashMap<>();
+        memberMap = new TreeMap<>();
     }
 
     public List<T> getAll() {
@@ -32,5 +32,9 @@ public class Players<T> {
 
     public void eliminate(T member) {
         members.remove(member);
+    }
+
+    public Map<Integer, T> getMap() {
+        return memberMap;
     }
 }

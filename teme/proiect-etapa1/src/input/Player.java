@@ -24,11 +24,6 @@ public abstract class Player{
         this.initialBudget = initialBudget;
     }
 
-    public boolean checkBankruptcy() {
-        isBankrupt = initialBudget < 0;
-        return isBankrupt;
-    }
-
     public void addToBudget(int sum) {
         initialBudget += sum;
     }
