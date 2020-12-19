@@ -1,0 +1,81 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [
+            {
+                "name": "Sherlock: The Final Problem",
+                "year": "2017",
+                "duration": 90,
+                "genres": [
+                    "Drama",
+                    "Mystery",
+                    "Thriller"
+                ],
+                "actors": [
+                    "Mark Gatiss",
+                    "Benedict Cumberbatch",
+                    "Martin Freeman"
+                ]
+            },
+            {
+                "name": "The Circle",
+                "year": "2017",
+                "duration": 110,
+                "genres": [
+                    "Drama",
+                    "Thriller",
+                    "Science Fiction"
+                ],
+                "actors": [
+                    "Emma Watson",
+                    "John Boyega",
+                    "Tom Hanks"
+                ]
+            },
+            {
+                "name": "SPF-18",
+                "year": "2017",
+                "duration": 75,
+                "genres": [
+                    "Romance",
+                    "Drama"
+                ],
+                "actors": [
+                    "Carson Meyer",
+                    "Noah Centineo",
+                    "Keanu Reeves",
+                    "Bianca A. Santos"
+                ]
+            }
+        ],
+        "shows": [],
+        "users": [
+            {
+                "username": "tautBuck1",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "The Circle",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "SPF-18",
+                        "no_views": 1
+                    }
+                ],
+                "favourite": [
+                    "The Circle"
+                ]
+            }
+        ]
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "command",
+            "type": "favorite",
+            "user": "tautBuck1",
+            "title": "SPF-18"
+        }
+    ]
+}

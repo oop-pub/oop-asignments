@@ -1,0 +1,182 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [
+            {
+                "name": "Even Cowgirls Get the Blues",
+                "year": "1994",
+                "duration": 96,
+                "genres": [
+                    "Western",
+                    "Drama",
+                    "Comedy",
+                    "Romance"
+                ],
+                "actors": [
+                    "Lorraine Bracco",
+                    "Uma Thurman",
+                    "Pat Morita",
+                    "Keanu Reeves"
+                ]
+            },
+            {
+                "name": "Always Be My Maybe",
+                "year": "2019",
+                "duration": 101,
+                "genres": [
+                    "Romance",
+                    "Comedy"
+                ],
+                "actors": [
+                    "Ali Wong",
+                    "Keanu Reeves",
+                    "James Saito",
+                    "Randall Park"
+                ]
+            },
+            {
+                "name": "The Bad Batch",
+                "year": "2017",
+                "duration": 119,
+                "genres": [
+                    "Drama",
+                    "Horror",
+                    "Thriller"
+                ],
+                "actors": [
+                    "Suki Waterhouse",
+                    "Giovanni Ribisi",
+                    "Jason Momoa",
+                    "Keanu Reeves"
+                ]
+            },
+            {
+                "name": "The Circle",
+                "year": "2017",
+                "duration": 110,
+                "genres": [
+                    "Drama",
+                    "Thriller",
+                    "Science Fiction"
+                ],
+                "actors": [
+                    "Emma Watson",
+                    "John Boyega",
+                    "Tom Hanks"
+                ]
+            },
+            {
+                "name": "The Current War",
+                "year": "2019",
+                "duration": 105,
+                "genres": [
+                    "Drama",
+                    "History"
+                ],
+                "actors": [
+                    "Benedict Cumberbatch",
+                    "Nicholas Hoult",
+                    "Michael Shannon"
+                ]
+            },
+            {
+                "name": "Interview with the Vampire",
+                "year": "1994",
+                "duration": 123,
+                "genres": [
+                    "Horror",
+                    "Drama",
+                    "Fantasy"
+                ],
+                "actors": [
+                    "Kirsten Dunst",
+                    "Tom Cruise",
+                    "Brad Pitt"
+                ]
+            },
+            {
+                "name": "Thor: Ragnarok",
+                "year": "2017",
+                "duration": 131,
+                "genres": [
+                    "Action",
+                    "Adventure",
+                    "Comedy",
+                    "Fantasy"
+                ],
+                "actors": [
+                    "Cate Blanchett",
+                    "Benedict Cumberbatch",
+                    "Scarlett Johansson",
+                    "Tom Hiddleston",
+                    "Chris Hemsworth"
+                ]
+            },
+            {
+                "name": "American Made",
+                "year": "2017",
+                "duration": 115,
+                "genres": [
+                    "Action",
+                    "Crime",
+                    "Comedy"
+                ],
+                "actors": [
+                    "Sarah Wright",
+                    "Tom Cruise",
+                    "Domhnall Gleeson"
+                ]
+            },
+            {
+                "name": "The Child in Time",
+                "year": "2018",
+                "duration": 90,
+                "genres": [
+                    "TV Movie",
+                    "Drama"
+                ],
+                "actors": [
+                    "Benedict Cumberbatch",
+                    "Stephen Campbell Moore",
+                    "Kelly Macdonald"
+                ]
+            },
+            {
+                "name": "Toy Story 4",
+                "year": "2019",
+                "duration": 100,
+                "genres": [
+                    "Adventure",
+                    "Animation",
+                    "Comedy",
+                    "Family",
+                    "Fantasy"
+                ],
+                "actors": [
+                    "Tim Allen",
+                    "Keanu Reeves",
+                    "Annie Potts",
+                    "Tom Hanks"
+                ]
+            }
+        ],
+        "shows": [],
+        "users": []
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "query",
+            "object_type": "movies",
+            "number": 8,
+            "filters": {
+                "year": "2017",
+                "genre": "Comedy",
+                "words": null,
+                "awards": null
+            },
+            "sort_type": "asc",
+            "criteria": "longest"
+        }
+    ]
+}

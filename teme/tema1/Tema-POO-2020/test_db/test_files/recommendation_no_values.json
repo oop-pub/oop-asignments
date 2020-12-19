@@ -1,0 +1,357 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [
+            {
+                "name": "John Wick: Chapter 2",
+                "year": "2017",
+                "duration": 122,
+                "genres": [
+                    "Thriller",
+                    "Action",
+                    "Crime"
+                ],
+                "actors": [
+                    "Common",
+                    "Laurence Fishburne",
+                    "Keanu Reeves"
+                ]
+            },
+            {
+                "name": "Thor: Ragnarok",
+                "year": "2017",
+                "duration": 131,
+                "genres": [
+                    "Action",
+                    "Adventure",
+                    "Comedy",
+                    "Fantasy"
+                ],
+                "actors": [
+                    "Cate Blanchett",
+                    "Benedict Cumberbatch",
+                    "Scarlett Johansson",
+                    "Tom Hiddleston",
+                    "Chris Hemsworth"
+                ]
+            },
+            {
+                "name": "Toy Story 4",
+                "year": "2019",
+                "duration": 100,
+                "genres": [
+                    "Adventure",
+                    "Animation",
+                    "Comedy",
+                    "Family",
+                    "Fantasy"
+                ],
+                "actors": [
+                    "Tim Allen",
+                    "Keanu Reeves",
+                    "Annie Potts",
+                    "Tom Hanks"
+                ]
+            },
+            {
+                "name": "The Grinch",
+                "year": "2018",
+                "duration": 90,
+                "genres": [
+                    "Animation",
+                    "Family",
+                    "Comedy",
+                    "Fantasy"
+                ],
+                "actors": [
+                    "Benedict Cumberbatch",
+                    "Kenan Thompson",
+                    "Rashida Jones"
+                ]
+            },
+            {
+                "name": "Speed",
+                "year": "1994",
+                "duration": 116,
+                "genres": [
+                    "Action",
+                    "Adventure",
+                    "Crime"
+                ],
+                "actors": [
+                    "Sandra Bullock",
+                    "Keanu Reeves",
+                    "Dennis Hopper"
+                ]
+            }
+        ],
+        "shows": [
+            {
+                "name": "Phil of the Future",
+                "year": "2004",
+                "cast": [
+                    "Amy Bruckner",
+                    "Aly Michalka"
+                ],
+                "genres": [
+                    "Sci-Fi & Fantasy",
+                    "Comedy",
+                    "Family"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 22
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 22
+                    }
+                ]
+            },
+            {
+                "name": "See",
+                "year": "2019",
+                "cast": [
+                    "Jason Momoa",
+                    "Christian Camargo"
+                ],
+                "genres": [
+                    "Drama",
+                    "Sci-Fi & Fantasy",
+                    "Action & Adventure"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 60
+                    }
+                ]
+            },
+            {
+                "name": "Kakushigoto",
+                "year": "2020",
+                "cast": [
+                    "Hiroshi Kamiya",
+                    "Rie Takahashi"
+                ],
+                "genres": [
+                    "Animation",
+                    "Comedy"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 24
+                    }
+                ]
+            },
+            {
+                "name": "I Am Not an Animal",
+                "year": "2004",
+                "cast": [
+                    "Julia Davis",
+                    "Kevin Eldon"
+                ],
+                "genres": [
+                    "Animation",
+                    "Comedy"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 30
+                    }
+                ]
+            },
+            {
+                "name": "Cursed",
+                "year": "2020",
+                "cast": [
+                    "Katherine Langford",
+                    "Devon Terrell"
+                ],
+                "genres": [
+                    "Action & Adventure",
+                    "Sci-Fi & Fantasy"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 60
+                    }
+                ]
+            }
+        ],
+        "users": [
+            {
+                "username": "empathicSwift1",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "The Grinch",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "Thor: Ragnarok",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "John Wick: Chapter 2",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Speed",
+                        "no_views": 3
+                    }
+                ],
+                "favourite": [
+                    "Speed"
+                ]
+            },
+            {
+                "username": "dearTortoise5",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "John Wick: Chapter 2",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "Thor: Ragnarok",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "The Grinch",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "Speed",
+                        "no_views": 1
+                    }
+                ],
+                "favourite": [
+                    "The Grinch",
+                    "John Wick: Chapter 2"
+                ]
+            },
+            {
+                "username": "murkyMandrill7",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "Speed",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Thor: Ragnarok",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "The Grinch",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "John Wick: Chapter 2",
+                        "no_views": 2
+                    }
+                ],
+                "favourite": [
+                    "The Grinch",
+                    "John Wick: Chapter 2"
+                ]
+            }
+        ]
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "command",
+            "type": "rating",
+            "user": "murkyMandrill7",
+            "title": "Toy Story 4",
+            "grade": 7
+        },
+        {
+            "action_id": 2,
+            "action_type": "command",
+            "type": "rating",
+            "user": "empathicSwift1",
+            "title": "The Grinch",
+            "grade": 5
+        },
+        {
+            "action_id": 3,
+            "action_type": "command",
+            "type": "rating",
+            "user": "murkyMandrill7",
+            "title": "The Grinch",
+            "grade": 5
+        },
+        {
+            "action_id": 4,
+            "action_type": "command",
+            "type": "rating",
+            "user": "murkyMandrill7",
+            "title": "Toy Story 4",
+            "grade": 10
+        },
+        {
+            "action_id": 5,
+            "action_type": "command",
+            "type": "rating",
+            "user": "empathicSwift1",
+            "title": "See",
+            "grade": 6,
+            "season": 1
+        },
+        {
+            "action_id": 6,
+            "action_type": "command",
+            "type": "rating",
+            "user": "murkyMandrill7",
+            "title": "See",
+            "grade": 4,
+            "season": 1
+        },
+        {
+            "action_id": 7,
+            "action_type": "command",
+            "type": "rating",
+            "user": "murkyMandrill7",
+            "title": "Cursed",
+            "grade": 3,
+            "season": 1
+        },
+        {
+            "action_id": 8,
+            "action_type": "command",
+            "type": "rating",
+            "user": "murkyMandrill7",
+            "title": "See",
+            "grade": 9,
+            "season": 1
+        },
+        {
+            "action_id": 9,
+            "action_type": "command",
+            "type": "rating",
+            "user": "dearTortoise5",
+            "title": "Cursed",
+            "grade": 3,
+            "season": 1
+        },
+        {
+            "action_id": 10,
+            "action_type": "recommendation",
+            "type": "search",
+            "username": "empathicSwift1",
+            "genre": "French New Wave"
+        }
+    ]
+}

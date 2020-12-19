@@ -1,0 +1,174 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [
+            {
+                "name": "Fantastic Beasts: The Crimes of Grindelwald",
+                "year": "2018",
+                "duration": 134,
+                "genres": [
+                    "Adventure",
+                    "Fantasy",
+                    "Drama"
+                ],
+                "actors": [
+                    "Johnny Depp",
+                    "Eddie Redmayne",
+                    "Katherine Waterston",
+                    "Alison Sudol"
+                ]
+            },
+            {
+                "name": "The Child in Time",
+                "year": "2018",
+                "duration": 90,
+                "genres": [
+                    "TV Movie",
+                    "Drama"
+                ],
+                "actors": [
+                    "Benedict Cumberbatch",
+                    "Stephen Campbell Moore",
+                    "Kelly Macdonald"
+                ]
+            },
+            {
+                "name": "Pirates of the Caribbean: Dead Men Tell No Tales",
+                "year": "2017",
+                "duration": 129,
+                "genres": [
+                    "Adventure",
+                    "Action",
+                    "Fantasy",
+                    "Comedy"
+                ],
+                "actors": [
+                    "Johnny Depp",
+                    "Kaya Scodelario",
+                    "Brenton Thwaites"
+                ]
+            },
+            {
+                "name": "To the Bone",
+                "year": "2017",
+                "duration": 107,
+                "genres": [
+                    "Drama"
+                ],
+                "actors": [
+                    "Lily Collins",
+                    "Keanu Reeves",
+                    "Carrie Preston"
+                ]
+            },
+            {
+                "name": "Brexit: The Uncivil War",
+                "year": "2019",
+                "duration": 93,
+                "genres": [
+                    "History",
+                    "TV Movie",
+                    "Drama"
+                ],
+                "actors": [
+                    "Benedict Cumberbatch",
+                    "Rory Kinnear",
+                    "John Heffernan"
+                ]
+            },
+            {
+                "name": "Marriage Story",
+                "year": "2019",
+                "duration": 137,
+                "genres": [
+                    "Drama"
+                ],
+                "actors": [
+                    "Adam Driver",
+                    "Scarlett Johansson",
+                    "Laura Dern"
+                ]
+            },
+            {
+                "name": "Legends of the Fall",
+                "year": "1994",
+                "duration": 133,
+                "genres": [
+                    "Adventure",
+                    "Drama",
+                    "Romance",
+                    "War",
+                    "Western"
+                ],
+                "actors": [
+                    "Anthony Hopkins",
+                    "Aidan Quinn",
+                    "Brad Pitt"
+                ]
+            },
+            {
+                "name": "Deadpool 2",
+                "year": "2018",
+                "duration": 119,
+                "genres": [
+                    "Action",
+                    "Comedy",
+                    "Adventure"
+                ],
+                "actors": [
+                    "Josh Brolin",
+                    "Ryan Reynolds",
+                    "Morena Baccarin",
+                    "Brad Pitt"
+                ]
+            },
+            {
+                "name": "The Current War",
+                "year": "2019",
+                "duration": 105,
+                "genres": [
+                    "Drama",
+                    "History"
+                ],
+                "actors": [
+                    "Benedict Cumberbatch",
+                    "Nicholas Hoult",
+                    "Michael Shannon"
+                ]
+            },
+            {
+                "name": "Once Upon a Deadpool",
+                "year": "2018",
+                "duration": 117,
+                "genres": [
+                    "Comedy",
+                    "Action"
+                ],
+                "actors": [
+                    "Josh Brolin",
+                    "Hugh Jackman",
+                    "Fred Savage",
+                    "Brad Pitt"
+                ]
+            }
+        ],
+        "shows": [],
+        "users": []
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "query",
+            "object_type": "movies",
+            "number": 8,
+            "filters": {
+                "year": "2018",
+                "genre": "French New Wave",
+                "words": null,
+                "awards": null
+            },
+            "sort_type": "desc",
+            "criteria": "longest"
+        }
+    ]
+}

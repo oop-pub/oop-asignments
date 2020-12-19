@@ -1,0 +1,238 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [
+            {
+                "name": "The Vanishing",
+                "year": "2018",
+                "duration": 108,
+                "genres": [
+                    "Thriller",
+                    "Drama",
+                    "Mystery"
+                ],
+                "actors": [
+                    "Connor Swindells",
+                    "Peter Mullan",
+                    "Gerard Butler"
+                ]
+            },
+            {
+                "name": "North",
+                "year": "1994",
+                "duration": 87,
+                "genres": [
+                    "Comedy",
+                    "Drama",
+                    "Family",
+                    "Fantasy",
+                    "Science Fiction"
+                ],
+                "actors": [
+                    "Jason Alexander",
+                    "Elijah Wood",
+                    "Scarlett Johansson",
+                    "Julia Louis-Dreyfus"
+                ]
+            },
+            {
+                "name": "War Machine",
+                "year": "2017",
+                "duration": 122,
+                "genres": [
+                    "Comedy",
+                    "Drama",
+                    "War"
+                ],
+                "actors": [
+                    "Emory Cohen",
+                    "Anthony Michael Hall",
+                    "Brad Pitt"
+                ]
+            },
+            {
+                "name": "Marriage Story",
+                "year": "2019",
+                "duration": 137,
+                "genres": [
+                    "Drama"
+                ],
+                "actors": [
+                    "Adam Driver",
+                    "Scarlett Johansson",
+                    "Laura Dern"
+                ]
+            },
+            {
+                "name": "Ed Wood",
+                "year": "1994",
+                "duration": 127,
+                "genres": [
+                    "Comedy",
+                    "Drama",
+                    "History"
+                ],
+                "actors": [
+                    "Johnny Depp",
+                    "Sarah Jessica Parker",
+                    "Martin Landau"
+                ]
+            },
+            {
+                "name": "Hail Caesar",
+                "year": "1994",
+                "duration": 100,
+                "genres": [
+                    "Comedy"
+                ],
+                "actors": [
+                    "Leslie Danon",
+                    "Robert Downey Jr.",
+                    "Anthony Michael Hall",
+                    "Bobbie Phillips"
+                ]
+            },
+            {
+                "name": "The Post",
+                "year": "2017",
+                "duration": 116,
+                "genres": [
+                    "Drama",
+                    "History"
+                ],
+                "actors": [
+                    "Bob Odenkirk",
+                    "Meryl Streep",
+                    "Tom Hanks"
+                ]
+            },
+            {
+                "name": "To the Bone",
+                "year": "2017",
+                "duration": 107,
+                "genres": [
+                    "Drama"
+                ],
+                "actors": [
+                    "Lily Collins",
+                    "Keanu Reeves",
+                    "Carrie Preston"
+                ]
+            },
+            {
+                "name": "Natural Born Killers",
+                "year": "1994",
+                "duration": 119,
+                "genres": [
+                    "Crime",
+                    "Thriller",
+                    "Drama"
+                ],
+                "actors": [
+                    "Robert Downey Jr.",
+                    "Woody Harrelson",
+                    "Juliette Lewis"
+                ]
+            },
+            {
+                "name": "John Wick: Chapter 3 - Parabellum",
+                "year": "2019",
+                "duration": 131,
+                "genres": [
+                    "Action",
+                    "Thriller",
+                    "Crime"
+                ],
+                "actors": [
+                    "Laurence Fishburne",
+                    "Halle Berry",
+                    "Keanu Reeves"
+                ]
+            }
+        ],
+        "shows": [],
+        "users": [
+            {
+                "username": "enragedBoars9",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "John Wick: Chapter 3 - Parabellum",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "To the Bone",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "War Machine",
+                        "no_views": 2
+                    }
+                ],
+                "favourite": [
+                    "War Machine",
+                    "To the Bone",
+                    "John Wick: Chapter 3 - Parabellum"
+                ]
+            },
+            {
+                "username": "gloomyHare6",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "John Wick: Chapter 3 - Parabellum",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Natural Born Killers",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "North",
+                        "no_views": 1
+                    }
+                ],
+                "favourite": [
+                    "Natural Born Killers"
+                ]
+            },
+            {
+                "username": "enviousCake3",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "John Wick: Chapter 3 - Parabellum",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "War Machine",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Natural Born Killers",
+                        "no_views": 3
+                    }
+                ],
+                "favourite": [
+                    "John Wick: Chapter 3 - Parabellum"
+                ]
+            }
+        ]
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "query",
+            "object_type": "movies",
+            "number": 7,
+            "filters": {
+                "year": "2017",
+                "genre": "Drama",
+                "words": null,
+                "awards": null
+            },
+            "sort_type": "desc",
+            "criteria": "most_viewed"
+        }
+    ]
+}
