@@ -25,6 +25,8 @@ Biblioteci necesare pentru implementare:
 Tutorial Jackson JSON: 
 <https://ocw.cs.pub.ro/courses/poo-ca-cd/laboratoare/tutorial-json-jackson>
 
+[Puteti folosit si alte biblioteci si sa editati aceasta sectiune]
+
 ## Implementare
 
 ### Entitati
