@@ -25,7 +25,7 @@ Biblioteci necesare pentru implementare:
 Tutorial Jackson JSON: 
 <https://ocw.cs.pub.ro/courses/poo-ca-cd/laboratoare/tutorial-json-jackson>
 
-[Puteti folosit si alte biblioteci si sa editati aceasta sectiune]
+[Puteti sa folositi si alte biblioteci si sa editati aceasta sectiune]
 
 ## Implementare
 
@@ -36,7 +36,7 @@ doar sa ziceti rolul lor si de ce le folositi]
 
 ### Flow
 
-Ce se intampla in fiecare runda, cum comunica entitatile intre ele, ce clasa controleaza flowul etc
+Ce se intampla in fiecare runda (luna), cum comunica entitatile intre ele, ce clasa controleaza flowul etc
 
 ### Elemente de design OOP
 
