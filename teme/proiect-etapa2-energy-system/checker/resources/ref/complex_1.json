@@ -1,0 +1,204 @@
+{
+  "consumers" : [ {
+    "id" : 0,
+    "isBankrupt" : false,
+    "budget" : 564
+  }, {
+    "id" : 1,
+    "isBankrupt" : false,
+    "budget" : 410
+  }, {
+    "id" : 0,
+    "isBankrupt" : false,
+    "budget" : 116
+  }, {
+    "id" : 2,
+    "isBankrupt" : false,
+    "budget" : 96
+  }, {
+    "id" : 1,
+    "isBankrupt" : false,
+    "budget" : 360
+  }, {
+    "id" : 2,
+    "isBankrupt" : false,
+    "budget" : 73
+  } ],
+  "distributors" : [ {
+    "id" : 0,
+    "energyNeededKW" : 3960,
+    "contractCost" : 44,
+    "budget" : 1144,
+    "producerStrategy" : "GREEN",
+    "isBankrupt" : false,
+    "contracts" : [ ]
+  }, {
+    "id" : 1,
+    "energyNeededKW" : 4816,
+    "contractCost" : 78,
+    "budget" : 711,
+    "producerStrategy" : "PRICE",
+    "isBankrupt" : false,
+    "contracts" : [ ]
+  }, {
+    "id" : 2,
+    "energyNeededKW" : 3862,
+    "contractCost" : 37,
+    "budget" : 940,
+    "producerStrategy" : "GREEN",
+    "isBankrupt" : false,
+    "contracts" : [ ]
+  }, {
+    "id" : 3,
+    "energyNeededKW" : 2127,
+    "contractCost" : 22,
+    "budget" : 951,
+    "producerStrategy" : "PRICE",
+    "isBankrupt" : false,
+    "contracts" : [ {
+      "consumerId" : 0,
+      "price" : 56,
+      "remainedContractMonths" : 3
+    }, {
+      "consumerId" : 2,
+      "price" : 51,
+      "remainedContractMonths" : 4
+    }, {
+      "consumerId" : 0,
+      "price" : 26,
+      "remainedContractMonths" : 5
+    }, {
+      "consumerId" : 1,
+      "price" : 26,
+      "remainedContractMonths" : 5
+    }, {
+      "consumerId" : 1,
+      "price" : 26,
+      "remainedContractMonths" : 5
+    }, {
+      "consumerId" : 2,
+      "price" : 22,
+      "remainedContractMonths" : 7
+    } ]
+  }, {
+    "id" : 4,
+    "energyNeededKW" : 4413,
+    "contractCost" : 105,
+    "budget" : 1486,
+    "producerStrategy" : "QUANTITY",
+    "isBankrupt" : false,
+    "contracts" : [ ]
+  } ],
+  "energyProducers" : [ {
+    "id" : 0,
+    "maxDistributors" : 8,
+    "priceKW" : 0.09,
+    "energyType" : "NUCLEAR",
+    "energyPerDistributor" : 5802,
+    "monthlyStats" : [ {
+      "month" : 1,
+      "distributorsIds" : [ 4 ]
+    }, {
+      "month" : 2,
+      "distributorsIds" : [ 4 ]
+    }, {
+      "month" : 3,
+      "distributorsIds" : [ ]
+    }, {
+      "month" : 4,
+      "distributorsIds" : [ ]
+    }, {
+      "month" : 5,
+      "distributorsIds" : [ ]
+    }, {
+      "month" : 6,
+      "distributorsIds" : [ ]
+    }, {
+      "month" : 7,
+      "distributorsIds" : [ 4 ]
+    }, {
+      "month" : 8,
+      "distributorsIds" : [ 4 ]
+    }, {
+      "month" : 9,
+      "distributorsIds" : [ 4 ]
+    }, {
+      "month" : 10,
+      "distributorsIds" : [ 4 ]
+    } ]
+  }, {
+    "id" : 1,
+    "maxDistributors" : 6,
+    "priceKW" : 0.06,
+    "energyType" : "WIND",
+    "energyPerDistributor" : 5389,
+    "monthlyStats" : [ {
+      "month" : 1,
+      "distributorsIds" : [ ]
+    }, {
+      "month" : 2,
+      "distributorsIds" : [ ]
+    }, {
+      "month" : 3,
+      "distributorsIds" : [ ]
+    }, {
+      "month" : 4,
+      "distributorsIds" : [ ]
+    }, {
+      "month" : 5,
+      "distributorsIds" : [ ]
+    }, {
+      "month" : 6,
+      "distributorsIds" : [ ]
+    }, {
+      "month" : 7,
+      "distributorsIds" : [ 1 ]
+    }, {
+      "month" : 8,
+      "distributorsIds" : [ 1 ]
+    }, {
+      "month" : 9,
+      "distributorsIds" : [ 1 ]
+    }, {
+      "month" : 10,
+      "distributorsIds" : [ 1 ]
+    } ]
+  }, {
+    "id" : 2,
+    "maxDistributors" : 9,
+    "priceKW" : 0.04,
+    "energyType" : "HYDRO",
+    "energyPerDistributor" : 4128,
+    "monthlyStats" : [ {
+      "month" : 1,
+      "distributorsIds" : [ 0, 1, 2, 3 ]
+    }, {
+      "month" : 2,
+      "distributorsIds" : [ 0, 1, 2, 3 ]
+    }, {
+      "month" : 3,
+      "distributorsIds" : [ 0, 1, 2, 3, 4 ]
+    }, {
+      "month" : 4,
+      "distributorsIds" : [ 0, 1, 2, 3, 4 ]
+    }, {
+      "month" : 5,
+      "distributorsIds" : [ 0, 1, 2, 3, 4 ]
+    }, {
+      "month" : 6,
+      "distributorsIds" : [ 0, 1, 2, 3, 4 ]
+    }, {
+      "month" : 7,
+      "distributorsIds" : [ 0, 1, 2, 3 ]
+    }, {
+      "month" : 8,
+      "distributorsIds" : [ 0, 1, 2, 3 ]
+    }, {
+      "month" : 9,
+      "distributorsIds" : [ 0, 1, 2, 3 ]
+    }, {
+      "month" : 10,
+      "distributorsIds" : [ 0, 1, 2, 3 ]
+    } ]
+  } ]
+}

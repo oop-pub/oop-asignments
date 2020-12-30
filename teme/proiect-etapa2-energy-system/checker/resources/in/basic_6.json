@@ -1,0 +1,77 @@
+{
+  "numberOfTurns": 6,
+  "initialData": {
+    "consumers": [
+      {
+        "id": 0,
+        "initialBudget": 132,
+        "monthlyIncome": 90
+      }
+    ],
+    "distributors": [
+      {
+        "id": 0,
+        "contractLength": 6,
+        "initialBudget": 146,
+        "initialInfrastructureCost": 14,
+        "energyNeededKW": 2200,
+        "producerStrategy": "QUANTITY"
+      }
+    ],
+    "producers": [
+      {
+        "id": 0,
+        "energyType": "COAL",
+        "maxDistributors": 10,
+        "priceKW": 0.01,
+        "energyPerDistributor": 3695
+      },
+      {
+        "id": 1,
+        "energyType": "WIND",
+        "maxDistributors": 10,
+        "priceKW": 0.01,
+        "energyPerDistributor": 3695
+      },
+      {
+        "id": 2,
+        "energyType": "NUCLEAR",
+        "maxDistributors": 3,
+        "priceKW": 0.02,
+        "energyPerDistributor": 5583
+      }
+    ]
+  },
+  "monthlyUpdates": [
+    {
+      "newConsumers": [],
+      "distributorChanges": [],
+      "producerChanges": []
+    },
+    {
+      "newConsumers": [],
+      "distributorChanges": [],
+      "producerChanges": []
+    },
+    {
+      "newConsumers": [],
+      "distributorChanges": [],
+      "producerChanges": []
+    },
+    {
+      "newConsumers": [],
+      "distributorChanges": [],
+      "producerChanges": []
+    },
+    {
+      "newConsumers": [],
+      "distributorChanges": [],
+      "producerChanges": []
+    },
+    {
+      "newConsumers": [],
+      "distributorChanges": [],
+      "producerChanges": []
+    }
+  ]
+}

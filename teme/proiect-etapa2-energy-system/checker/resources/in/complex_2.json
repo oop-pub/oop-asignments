@@ -1,0 +1,287 @@
+{
+  "numberOfTurns": 10,
+  "initialData": {
+    "consumers": [
+      {
+        "id": 0,
+        "initialBudget": 39,
+        "monthlyIncome": 11
+      },
+      {
+        "id": 1,
+        "initialBudget": 192,
+        "monthlyIncome": 71
+      },
+      {
+        "id": 2,
+        "initialBudget": 73,
+        "monthlyIncome": 29
+      },
+      {
+        "id": 3,
+        "initialBudget": 61,
+        "monthlyIncome": 27
+      },
+      {
+        "id": 4,
+        "initialBudget": 42,
+        "monthlyIncome": 34
+      }
+    ],
+    "distributors": [
+      {
+        "id": 0,
+        "contractLength": 10,
+        "initialBudget": 514,
+        "initialInfrastructureCost": 16,
+        "energyNeededKW": 1227,
+        "producerStrategy": "GREEN"
+      },
+      {
+        "id": 1,
+        "contractLength": 9,
+        "initialBudget": 1574,
+        "initialInfrastructureCost": 16,
+        "energyNeededKW": 3139,
+        "producerStrategy": "GREEN"
+      },
+      {
+        "id": 2,
+        "contractLength": 4,
+        "initialBudget": 1043,
+        "initialInfrastructureCost": 20,
+        "energyNeededKW": 2146,
+        "producerStrategy": "QUANTITY"
+      },
+      {
+        "id": 3,
+        "contractLength": 3,
+        "initialBudget": 1333,
+        "initialInfrastructureCost": 22,
+        "energyNeededKW": 4533,
+        "producerStrategy": "PRICE"
+      },
+      {
+        "id": 4,
+        "contractLength": 8,
+        "initialBudget": 1547,
+        "initialInfrastructureCost": 11,
+        "energyNeededKW": 1276,
+        "producerStrategy": "GREEN"
+      },
+      {
+        "id": 5,
+        "contractLength": 6,
+        "initialBudget": 985,
+        "initialInfrastructureCost": 16,
+        "energyNeededKW": 3660,
+        "producerStrategy": "PRICE"
+      },
+      {
+        "id": 6,
+        "contractLength": 6,
+        "initialBudget": 927,
+        "initialInfrastructureCost": 20,
+        "energyNeededKW": 3264,
+        "producerStrategy": "PRICE"
+      },
+      {
+        "id": 7,
+        "contractLength": 8,
+        "initialBudget": 1841,
+        "initialInfrastructureCost": 24,
+        "energyNeededKW": 1208,
+        "producerStrategy": "GREEN"
+      },
+      {
+        "id": 8,
+        "contractLength": 6,
+        "initialBudget": 841,
+        "initialInfrastructureCost": 15,
+        "energyNeededKW": 4224,
+        "producerStrategy": "PRICE"
+      },
+      {
+        "id": 9,
+        "contractLength": 9,
+        "initialBudget": 1723,
+        "initialInfrastructureCost": 21,
+        "energyNeededKW": 1462,
+        "producerStrategy": "QUANTITY"
+      }
+    ],
+    "producers": [
+      {
+        "id": 0,
+        "energyType": "SOLAR",
+        "maxDistributors": 10,
+        "priceKW": 0.07,
+        "energyPerDistributor": 3845
+      },
+      {
+        "id": 1,
+        "energyType": "SOLAR",
+        "maxDistributors": 9,
+        "priceKW": 0.04,
+        "energyPerDistributor": 2863
+      },
+      {
+        "id": 2,
+        "energyType": "HYDRO",
+        "maxDistributors": 2,
+        "priceKW": 0.05,
+        "energyPerDistributor": 9096
+      },
+      {
+        "id": 3,
+        "energyType": "COAL",
+        "maxDistributors": 4,
+        "priceKW": 0.06,
+        "energyPerDistributor": 8353
+      },
+      {
+        "id": 4,
+        "energyType": "HYDRO",
+        "maxDistributors": 9,
+        "priceKW": 0.02,
+        "energyPerDistributor": 3369
+      },
+      {
+        "id": 5,
+        "energyType": "COAL",
+        "maxDistributors": 2,
+        "priceKW": 0.03,
+        "energyPerDistributor": 4757
+      },
+      {
+        "id": 6,
+        "energyType": "WIND",
+        "maxDistributors": 2,
+        "priceKW": 0.02,
+        "energyPerDistributor": 5728
+      }
+    ]
+  },
+  "monthlyUpdates": [
+    {
+      "newConsumers": [
+        {
+          "id": 1,
+          "initialBudget": 55,
+          "monthlyIncome": 30
+        }
+      ],
+      "distributorChanges": [
+        {
+          "id": 2,
+          "infrastructureCost": 12
+        }
+      ],
+      "producerChanges": []
+    },
+    {
+      "newConsumers": [
+        {
+          "id": 0,
+          "initialBudget": 164,
+          "monthlyIncome": 12
+        }
+      ],
+      "distributorChanges": [],
+      "producerChanges": []
+    },
+    {
+      "newConsumers": [],
+      "distributorChanges": [
+        {
+          "id": 3,
+          "infrastructureCost": 14
+        }
+      ],
+      "producerChanges": [
+        {
+          "id": 4,
+          "energyPerDistributor": 7246
+        }
+      ]
+    },
+    {
+      "newConsumers": [
+        {
+          "id": 7,
+          "initialBudget": 79,
+          "monthlyIncome": 28
+        }
+      ],
+      "distributorChanges": [],
+      "producerChanges": [
+        {
+          "id": 0,
+          "energyPerDistributor": 1746
+        }
+      ]
+    },
+    {
+      "newConsumers": [],
+      "distributorChanges": [],
+      "producerChanges": [
+        {
+          "id": 0,
+          "energyPerDistributor": 2064
+        }
+      ]
+    },
+    {
+      "newConsumers": [],
+      "distributorChanges": [],
+      "producerChanges": []
+    },
+    {
+      "newConsumers": [
+        {
+          "id": 7,
+          "initialBudget": 70,
+          "monthlyIncome": 38
+        }
+      ],
+      "distributorChanges": [
+        {
+          "id": 1,
+          "infrastructureCost": 13
+        }
+      ],
+      "producerChanges": []
+    },
+    {
+      "newConsumers": [
+        {
+          "id": 1,
+          "initialBudget": 124,
+          "monthlyIncome": 37
+        }
+      ],
+      "distributorChanges": [],
+      "producerChanges": []
+    },
+    {
+      "newConsumers": [],
+      "distributorChanges": [],
+      "producerChanges": [
+        {
+          "id": 2,
+          "energyPerDistributor": 2755
+        }
+      ]
+    },
+    {
+      "newConsumers": [],
+      "distributorChanges": [
+        {
+          "id": 8,
+          "infrastructureCost": 19
+        }
+      ],
+      "producerChanges": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+# Tests
+
+## Rulare teste individuale:
+
+Rulat Main#main, cu argumente fisierele de input si output
+
+## BASIC TESTS
+
+Verificarea alegerii in ordinea corecta, distributorului fiind suficient sa ia de la un singur producator
+
+1. 1 distributor - 1 producer
+2. 1 distributor, green strategy - 1 producer cu non renewable energy type
+3. 1 distributor, green strategy - 1 producer - renewable, 1 producer - non renewable
+4. 1 distributor, green strategy - 1 producer - renewable, 1 producer - renewable alt pret, 1 producer - non renewable
+
+5. 1 distributor, price strategy - la fel scenario #3
+6. 1 distributor, quantity strategy - 3 producers cu 3 cantitati diferite
+
+7. 1 distribuitor, price strategy - 3 distribuitori, doi avand cel mai bun pret, dar cantitati diferite
+8. 1 distribuitor, price strategy - 3 distribuitori, doi avand cel mai bun pret si cantitati egale
+
+Verificarea alegerii de la mai multi producatori atunci cand un singur producator nu poate sa ii asigure toata cantitatea
+
+9. 1 distribuitor, green strategy - 1 producer renewable, dar cu mai putina cantitate decat e nevoie, 1 producer non renewable, inca 1 producer renewable
+10. 1 distribuitor, price strategy - 3 produceri cu preturi diferite, si sa fie nevoie sa ia de la 2 dintre ei
+11. 1 distribuitor, quantity strategy - 3 produceri cu cantitati diferite, si sa fie nevoie sa ia de la 2 dintre ei
+
+Verificarea alegerii dupa ce s-au modificat lunar valori de la distributorul ales si are nevoie sa mai ia de la inca cineva
+12. 1 distribuitor, green strategy
+13. 1 distribuitor, price strategy
+14. 1 distribuitor, quantity strategy
+
+Schimbari lunare:
+15. 1 distribuitor, 1 producator
+
+## COMPLEX TESTS
+* multiplii producatori, distribuitori si consumatori, diverse strategii si schimbari lunare
