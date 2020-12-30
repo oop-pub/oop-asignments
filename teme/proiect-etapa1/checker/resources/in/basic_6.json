@@ -1,0 +1,114 @@
+{
+  "numberOfTurns": 10,
+  "initialData": {
+    "consumers": [{
+      "id": 0,
+      "initialBudget": 80,
+      "monthlyIncome": 30
+    },{
+      "id": 1,
+      "initialBudget": 70,
+      "monthlyIncome": 35
+    }],
+    "distributors": [{
+      "id": 0,
+      "contractLength": 2,
+      "initialBudget": 200,
+      "initialInfrastructureCost": 10,
+      "initialProductionCost": 10
+    },{
+      "id": 1,
+      "contractLength": 1,
+      "initialBudget": 200,
+      "initialInfrastructureCost": 20,
+      "initialProductionCost": 15
+    }]
+  },
+  "monthlyUpdates": [{
+    "newConsumers": [{
+      "id": 2,
+      "initialBudget": 100,
+      "monthlyIncome": 30
+    }],
+    "costsChanges": []
+  },{
+    "newConsumers": [{
+      "id": 3,
+      "initialBudget": 60,
+      "monthlyIncome": 28
+    }],
+    "costsChanges": [{
+      "id": 0,
+      "infrastructureCost": 20,
+      "productionCost": 15
+    },{
+      "id": 1,
+      "infrastructureCost": 5,
+      "productionCost": 5
+    }]
+  },{
+    "newConsumers": [{
+      "id": 4,
+      "initialBudget": 90,
+      "monthlyIncome": 35
+    }],
+    "costsChanges": []
+  },{
+    "newConsumers": [{
+      "id": 5,
+      "initialBudget": 50,
+      "monthlyIncome": 45
+    }],
+    "costsChanges": []
+  },{
+    "newConsumers": [{
+      "id": 6,
+      "initialBudget": 40,
+      "monthlyIncome": 20
+    }],
+    "costsChanges": [{
+      "id": 0,
+      "infrastructureCost": 10,
+      "productionCost": 10
+    },{
+      "id": 1,
+      "infrastructureCost": 20,
+      "productionCost": 10
+    }]
+  },{
+    "newConsumers": [{
+      "id": 7,
+      "initialBudget": 40,
+      "monthlyIncome": 20
+    }],
+    "costsChanges": []
+  },{
+    "newConsumers": [{
+      "id": 8,
+      "initialBudget": 60,
+      "monthlyIncome": 20
+    }],
+    "costsChanges": []
+  },{
+    "newConsumers": [{
+      "id": 9,
+      "initialBudget": 90,
+      "monthlyIncome": 20
+    }],
+    "costsChanges": []
+  },{
+    "newConsumers": [{
+      "id": 10,
+      "initialBudget": 80,
+      "monthlyIncome": 20
+    }],
+    "costsChanges": []
+  },{
+    "newConsumers": [{
+      "id": 11,
+      "initialBudget": 100,
+      "monthlyIncome": 20
+    }],
+    "costsChanges": []
+  }]
+}

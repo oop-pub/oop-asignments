@@ -1,0 +1,127 @@
+{
+  "numberOfTurns": 13,
+  "initialData": {
+    "consumers": [{
+      "id": 0,
+      "initialBudget": 60,
+      "monthlyIncome": 15
+    },{
+      "id": 1,
+      "initialBudget": 250,
+      "monthlyIncome": 45
+    },{
+      "id": 2,
+      "initialBudget": 100,
+      "monthlyIncome": 60
+    }],
+    "distributors": [{
+      "id": 0,
+      "contractLength": 5,
+      "initialBudget": 150,
+      "initialInfrastructureCost": 35,
+      "initialProductionCost": 15
+    },{
+      "id": 1,
+      "contractLength": 3,
+      "initialBudget": 80,
+      "initialInfrastructureCost": 15,
+      "initialProductionCost": 5
+    }]
+  },
+  "monthlyUpdates": [{
+    "newConsumers": [],
+    "costsChanges": []
+  },{
+    "newConsumers": [],
+    "costsChanges": [{
+      "id": 0,
+      "infrastructureCost": 15,
+      "productionCost": 10
+    }]
+  },{
+    "newConsumers": [],
+    "costsChanges": [{
+      "id": 0,
+      "infrastructureCost": 25,
+      "productionCost": 15
+    }]
+  },{
+    "newConsumers": [],
+    "costsChanges": [{
+      "id": 1,
+      "infrastructureCost": 20,
+      "productionCost": 10
+    }]
+  },{
+    "newConsumers": [],
+    "costsChanges": [{
+      "id": 1,
+      "infrastructureCost": 30,
+      "productionCost": 15
+    }]
+  },{
+    "newConsumers": [{
+      "id": 3,
+      "initialBudget": 80,
+      "monthlyIncome": 25
+    }],
+    "costsChanges": [{
+      "id": 0,
+      "infrastructureCost": 35,
+      "productionCost": 15
+    }]
+  },{
+    "newConsumers": [],
+    "costsChanges": [{
+      "id": 1,
+      "infrastructureCost": 15,
+      "productionCost": 5
+    }]
+  },{
+    "newConsumers": [],
+    "costsChanges": [{
+      "id": 0,
+      "infrastructureCost": 25,
+      "productionCost": 15
+    }]
+  },{
+    "newConsumers": [],
+    "costsChanges": [{
+      "id": 0,
+      "infrastructureCost": 20,
+      "productionCost": 15
+    }]
+  },{
+    "newConsumers": [],
+    "costsChanges": [{
+      "id": 1,
+      "infrastructureCost": 15,
+      "productionCost": 10
+    }]
+  },{
+    "newConsumers": [],
+    "costsChanges": [{
+      "id": 0,
+      "infrastructureCost": 25,
+      "productionCost": 15
+    }]
+  },{
+    "newConsumers": [{
+      "id": 4,
+      "initialBudget": 20,
+      "monthlyIncome": 5
+    }],
+    "costsChanges": [{
+      "id": 0,
+      "infrastructureCost": 30,
+      "productionCost": 10
+    }]
+  },{
+    "newConsumers": [],
+    "costsChanges": [{
+      "id": 0,
+      "infrastructureCost": 35,
+      "productionCost": 5
+    }]
+  }]
+}

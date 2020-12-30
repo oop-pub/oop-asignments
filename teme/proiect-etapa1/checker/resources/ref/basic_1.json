@@ -1,0 +1,13 @@
+{
+  "consumers" : [ {
+    "id" : 0,
+    "isBankrupt" : true,
+    "budget" : 52
+  } ],
+  "distributors" : [ {
+    "id" : 0,
+    "budget" : 98,
+    "isBankrupt" : false,
+    "contracts" : [ ]
+  } ]
+}

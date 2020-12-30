@@ -1,0 +1,110 @@
+{
+  "consumers" : [ {
+    "id" : 0,
+    "isBankrupt" : false,
+    "budget" : 257
+  }, {
+    "id" : 1,
+    "isBankrupt" : false,
+    "budget" : 302
+  }, {
+    "id" : 2,
+    "isBankrupt" : false,
+    "budget" : 268
+  }, {
+    "id" : 3,
+    "isBankrupt" : false,
+    "budget" : 203
+  }, {
+    "id" : 4,
+    "isBankrupt" : false,
+    "budget" : 272
+  }, {
+    "id" : 5,
+    "isBankrupt" : false,
+    "budget" : 274
+  }, {
+    "id" : 6,
+    "isBankrupt" : false,
+    "budget" : 76
+  }, {
+    "id" : 7,
+    "isBankrupt" : false,
+    "budget" : 71
+  }, {
+    "id" : 8,
+    "isBankrupt" : false,
+    "budget" : 85
+  }, {
+    "id" : 9,
+    "isBankrupt" : false,
+    "budget" : 109
+  }, {
+    "id" : 10,
+    "isBankrupt" : false,
+    "budget" : 93
+  }, {
+    "id" : 11,
+    "isBankrupt" : false,
+    "budget" : 107
+  } ],
+  "distributors" : [ {
+    "id" : 0,
+    "budget" : 117,
+    "isBankrupt" : false,
+    "contracts" : [ ]
+  }, {
+    "id" : 1,
+    "budget" : 288,
+    "isBankrupt" : false,
+    "contracts" : [ {
+      "consumerId" : 0,
+      "price" : 13,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 1,
+      "price" : 13,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 2,
+      "price" : 13,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 3,
+      "price" : 13,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 4,
+      "price" : 13,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 5,
+      "price" : 13,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 6,
+      "price" : 13,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 7,
+      "price" : 13,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 8,
+      "price" : 13,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 9,
+      "price" : 13,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 10,
+      "price" : 13,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 11,
+      "price" : 13,
+      "remainedContractMonths" : 0
+    } ]
+  } ]
+}
