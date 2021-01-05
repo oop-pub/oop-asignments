@@ -24,15 +24,15 @@
     "isBankrupt" : false,
     "budget" : 578
   }, {
-    "id" : 0,
+    "id" : 6,
     "isBankrupt" : false,
     "budget" : 567
   }, {
-    "id" : 4,
+    "id" : 7,
     "isBankrupt" : false,
     "budget" : 301
   }, {
-    "id" : 6,
+    "id" : 8,
     "isBankrupt" : false,
     "budget" : 328
   } ],
@@ -44,7 +44,7 @@
     "producerStrategy" : "PRICE",
     "isBankrupt" : false,
     "contracts" : [ {
-      "consumerId" : 4,
+      "consumerId" : 7,
       "price" : 14,
       "remainedContractMonths" : 0
     } ]
@@ -100,7 +100,7 @@
       "price" : 16,
       "remainedContractMonths" : 1
     }, {
-      "consumerId" : 6,
+      "consumerId" : 8,
       "price" : 16,
       "remainedContractMonths" : 1
     }, {
@@ -108,7 +108,7 @@
       "price" : 7,
       "remainedContractMonths" : 2
     }, {
-      "consumerId" : 0,
+      "consumerId" : 6,
       "price" : 7,
       "remainedContractMonths" : 3
     } ]
