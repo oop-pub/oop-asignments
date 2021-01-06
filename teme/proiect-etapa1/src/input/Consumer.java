@@ -24,7 +24,7 @@ public final class Consumer extends Player {
     }
 
     /**
-     *
+     * Returns true if the consumer has an active contract
      * @return
      */
     public boolean hasContract() {
@@ -36,14 +36,14 @@ public final class Consumer extends Player {
     }
 
     /**
-     *
+     * Raises the budget by the monthly income
      */
     public void getIncome() {
         addToBudget(monthlyIncome);
     }
 
     /**
-     *
+     * Trying to pay the distributor of the current contract
      */
     public void pay() {
         if (inDebt) {
@@ -71,7 +71,7 @@ public final class Consumer extends Player {
     }
 
     /**
-     *
+     * Sets a new contract for the consumer
      * @param contract
      */
     @Override
@@ -82,7 +82,7 @@ public final class Consumer extends Player {
     }
 
     /**
-     *
+     * Checks if the contract expired
      */
     public void checkContractDate() {
         remainingSubscription--;
@@ -94,7 +94,7 @@ public final class Consumer extends Player {
     }
 
     /**
-     *
+     * Removes the current contract
      */
     public void removeContract() {
         isSubscripted = false;

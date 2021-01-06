@@ -9,7 +9,7 @@ public abstract class Player {
     protected Contract contract;
 
     /**
-     *
+     * Returns the id of the player
      * @return
      */
     public int getId() {
@@ -17,7 +17,7 @@ public abstract class Player {
     }
 
     /**
-     *
+     * Sets a new Id
      * @param id
      */
     public void setId(final int id) {
@@ -25,7 +25,7 @@ public abstract class Player {
     }
 
     /**
-     *
+     * Returns the budget
      * @return
      */
     public int getInitialBudget() {
@@ -33,7 +33,7 @@ public abstract class Player {
     }
 
     /**
-     *
+     * Sets the inital budget
      * @param initialBudget
      */
     public void setInitialBudget(final int initialBudget) {
@@ -41,7 +41,7 @@ public abstract class Player {
     }
 
     /**
-     *
+     * Adds a given amount to the budget
      * @param sum
      */
     public void addToBudget(final int sum) {
@@ -49,12 +49,12 @@ public abstract class Player {
     }
 
     /**
-     *
+     * Method for paying the fees
      */
     public abstract void pay();
 
     /**
-     *
+     * Sets a new Contract
      * @param theContract
      */
     public void setContract(final Contract theContract) {
@@ -62,7 +62,7 @@ public abstract class Player {
     }
 
     /**
-     *
+     * Returns the current contract
      * @return
      */
     public Contract getContract() {
@@ -70,12 +70,12 @@ public abstract class Player {
     }
 
     /**
-     *
+     * Adds monthly income if it is the case
      */
     public abstract void getIncome();
 
     /**
-     *
+     * Returns true if player is bankrupt
      * @return
      */
     public boolean isBankrupt() {

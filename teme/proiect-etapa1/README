@@ -1,0 +1,40 @@
+PROIECT Etapa 1
+
+Player: - clasa abstracta menita sa descrie in linii mari metodele si campurile unui player(consumator, distribuitor)
+	- fiecare player are un Contract la care este abonat(Consumator) sau pe care il are dat inspre abonare(distribuitor)
+
+Players: - clasa generica de tip container. Implementarea generica a fost un mic experiment, intrucat aceasta putea fi implementata
+doar pentru obiecte de tip Player
+	 - contine o lista cu playerii si un map id->player pentru acces mai rapid
+
+Contract: - clasa care simuleaza un contract
+	  - are metoda calculatePrice prin care isi calculeaza pretul in functie de campurile distribuitorului
+
+Consumer: - clasa care simuleaza un consumator. Un consumator poaate avea un Contract
+
+Distributor: - clasa care simuleaza un distributor
+
+Visa: - clasa care reprezinta de fapt conceptul transferurilor monetare, ea ocupandu-se de plata darilor pentru playeri, dar si pentru
+primirea unei sume (in cazul consumatorilor salariul)
+
+CostChange: - clasa care retine campurile unei schimbari de cost
+
+Updater: - clasa utilitara care pe baza unui CostChange updateaza campurile unui distribuitor
+
+ObjectListFactory - clasa Factory, implementata dupa pattern-ul Singleton
+		  - contine metoda abstracta getObjectList care creaza si returneaza o lista de obiecte din fisierul de intrare
+(converteste lista de json in list de obiecte)
+
+
+InputParser: - clasa necesara pentru preluarea datelor din fisierul de input
+	     - implementata dupa pattern-ul Singleton, din moment ce nu e nevoie decat de o singura instanta
+	    
+Simulator: -simuleaza logica jocului
+	   -Contractele sunt tinute intr-un TreeSet dupa pret si dupa id, mentinandu-le astfel ordinea crescatoare dupa pret
+	   -In fiecare luna consumatorii primesc salarii, dupa care cei care nu au contract in luna repectiva primesc cel mai bun 
+contract ca pret. Se vor plati darile si de catre consumatori si de catre distribuitori, dupa care se vor scoate cei falimentati din joc
+	   -simularea are nrTurns + 1 pasi pt a lua in considerare si luna de start
+
+OutputWriter: -Scrie outputul.
+	      -Json nu pastreaza ordinea inserarii, asadar am folosit LinkedHashMap care rezolva problema.
+	

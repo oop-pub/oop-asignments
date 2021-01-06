@@ -40,39 +40,29 @@ public final class Contract implements Comparable {
     }
 
     /**
-     *
+     * Calculates the price of a Contract
      * @return
      */
-    public boolean calculatePrice() {
-        int newPrice;
+    public void calculatePrice() {
         if (distributor.getContract() == null) {
             distributor.setContract(this);
             length = distributor.getContractLength();
         }
         if (subscriptionCount == 0) {
-            newPrice = distributor.getInitialInfrastructureCost()
+            price = distributor.getInitialInfrastructureCost()
                     + distributor.getInitialProductionCost()
                     + distributor.getProfit();
         } else {
-            newPrice = (int) Math.round(
+            price = (int) Math.round(
                     Math.floor((float) distributor.getInitialInfrastructureCost()
                             / subscriptionCount) + distributor.getInitialProductionCost()
                             + distributor.getProfit()
             );
         }
-        if (newPrice != price) {
-            price = newPrice;
-            return true;
-        }
-        return false;
-    }
-
-    public int getSubscriptionCount() {
-        return subscriptionCount;
     }
 
     /**
-     *
+     * Increases the number of consumers subscripted to this contract
      * @param number
      */
     public void increaseSubscriptionCount(final int number) {
@@ -80,7 +70,7 @@ public final class Contract implements Comparable {
     }
 
     /**
-     *
+     * Decreases the number of consumers subscripted to this contract
      * @param number
      */
     public void decreaseSubscriptionCount(final int number) {

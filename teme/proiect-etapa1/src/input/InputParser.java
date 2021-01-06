@@ -23,7 +23,7 @@ public final class InputParser {
     }
 
     /**
-     *
+     * Returns the instance
      * @return
      */
     public static InputParser getInstance() {
@@ -34,7 +34,7 @@ public final class InputParser {
     }
 
     /**
-     *
+     * Gets the data from the input file
      * @throws IOException
      */
     public void parse() throws IOException {
@@ -56,7 +56,9 @@ public final class InputParser {
     }
 
     /**
-     *
+     * Gets the new updates
+     * Stores the new consumers
+     * Returns a list of Cost Changes
      * @param currentUpdate
      * @return
      * @throws IOException
@@ -72,7 +74,8 @@ public final class InputParser {
     }
 
     /**
-     *
+     * Initializes the containers for consumers and distributors
+     * Initializes the root json node of the file
      * @param filename
      * @throws IOException
      */

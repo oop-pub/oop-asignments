@@ -16,7 +16,7 @@ public final class OutputWriter {
     private OutputWriter() { }
 
     /**
-     *
+     * Writes the output file
      * @param inputParser
      * @param filename
      * @throws IOException

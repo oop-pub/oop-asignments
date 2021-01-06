@@ -14,7 +14,7 @@ public final class ObjectListFactory {
     }
 
     /**
-     *
+     * Returns the instance
      * @return
      */
     public static ObjectListFactory getInstance() {
@@ -25,7 +25,8 @@ public final class ObjectListFactory {
     }
 
     /**
-     *
+     * Creates and returns a List of Objects from the location given
+     * by a JsonNode
      * @param location
      * @param objectMapper
      * @param cls

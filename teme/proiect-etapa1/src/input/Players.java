@@ -20,7 +20,7 @@ public final class Players<T> {
     }
 
     /**
-     *
+     * Gets an Object by id
      * @param id
      * @return
      */
@@ -29,7 +29,7 @@ public final class Players<T> {
     }
 
     /**
-     *
+     * Adds a new Object
      * @param member
      */
     public void add(final T member) {
@@ -38,7 +38,7 @@ public final class Players<T> {
     }
 
     /**
-     *
+     * Adds a list of Objects
      * @param newMembers
      */
     public void addAll(final List<T> newMembers) {

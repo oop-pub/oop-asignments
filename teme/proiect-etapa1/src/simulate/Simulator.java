@@ -14,7 +14,7 @@ import java.util.TreeSet;
 public final class Simulator {
 
     /**
-     *
+     * Simulates the game
      * @param inputParser
      * @throws IOException
      */
