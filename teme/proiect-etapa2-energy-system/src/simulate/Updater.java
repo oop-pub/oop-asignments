@@ -11,13 +11,19 @@ public final class Updater {
         switch (type) {
             case "D" -> {
                 Distributor distributor = input.getDistributors().getById(change.getId());
-                if (distributor != null)
+                if (distributor != null) {
                     distributor.update(change);
+                }
             }
             case "P" -> {
                 Producer producer = input.getProducers().getById(change.getId());
-                if (producer != null)
+                if (producer != null) {
                     input.getProducers().getById(change.getId()).update(change);
+                }
+            }
+
+            default -> {
+
             }
         }
 

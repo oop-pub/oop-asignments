@@ -1,12 +1,19 @@
 package simulate;
 
-import input.*;
+import input.InputParser;
+import input.Distributor;
+import input.Consumer;
+import input.Players;
+import input.Producer;
 import strategies.GreenStrategy;
 import strategies.PriceStrategy;
 import strategies.QuantityStrategy;
 
 import java.io.IOException;
-import java.util.*;
+import java.util.List;
+import java.util.SortedSet;
+import java.util.TreeSet;
+import java.util.Iterator;
 
 public final class Simulator {
 
@@ -27,6 +34,7 @@ public final class Simulator {
                     case "GREEN" -> distributor.setProducerFinder(new GreenStrategy());
                     case "PRICE" -> distributor.setProducerFinder(new PriceStrategy());
                     case "QUANTITY" -> distributor.setProducerFinder(new QuantityStrategy());
+                    default -> { }
                 }
                 distributor.getProducers(producers.getAll());
                 contracts.add(new Contract(distributor));
@@ -81,31 +89,31 @@ public final class Simulator {
                     break;
                 }
 
-                if(turn != inputParser.getNumberOfTurns()) {
+                if (turn != inputParser.getNumberOfTurns()) {
                     contracts.remove(bestContract);
                     bestContract.calculatePrice();
                     contracts.add(bestContract);
                 }
 
-                if(turn != 0) {
+                if (turn != 0) {
                     //updating producers starting with month 1
                     producerChanges = inputParser.getUpdates(turn - 1, "producerChanges");
-                    for(Change change : producerChanges) {
+                    for (Change change : producerChanges) {
                         Updater.notify(change, inputParser, "P");
                     }
 
                     //updating the viable distributors
-                    for(Distributor distributor : distributors.getAll()) {
-                        if(distributor.getRenewProducers()) {
+                    for (Distributor distributor : distributors.getAll()) {
+                        if (distributor.getRenewProducers()) {
                             distributor.getProducers(producers.getAll());
                         }
-                        if(turn != inputParser.getNumberOfTurns()) {
+                        if (turn != inputParser.getNumberOfTurns()) {
                             contracts.remove(distributor.getContract());
                             distributor.getContract().calculatePrice();
                             contracts.add(distributor.getContract());
                         }
                     }
-                    for(Producer producer : producers.getAll()) {
+                    for (Producer producer : producers.getAll()) {
                         producer.addMonthlyStat(turn);
                     }
                 }
@@ -120,9 +128,6 @@ public final class Simulator {
                             contracts.remove(distributor.getContract());
                             Updater.notify(distributorChange, inputParser, "D");
                             distributor.getContract().calculatePrice();
-                            if(distributor.getContract().getPrice() == 43) {
-                                System.out.println("hheere");
-                            }
                             contracts.add(distributor.getContract());
                         }
                     }

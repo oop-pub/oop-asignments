@@ -1,14 +1,19 @@
 package output;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import input.*;
+import input.InputParser;
+import input.Distributor;
+import input.Consumer;
+import input.Players;
+import input.Producer;
 import org.json.simple.JSONArray;
 
-import java.awt.*;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.*;
 import java.util.List;
+import java.util.Map;
+import java.util.LinkedHashMap;
+import java.util.Collections;
 
 public final class OutputWriter {
     private OutputWriter() { }
@@ -72,7 +77,8 @@ public final class OutputWriter {
             json.put("energyType", entry.getValue().getEnergyType());
             json.put("energyPerDistributor", entry.getValue().getEnergyPerDistributor());
             stats = new JSONArray();
-            for (Map.Entry<Integer, List<Integer>> statEntry: entry.getValue().getMonthlyStats().entrySet()) {
+            for (Map.Entry<Integer, List<Integer>> statEntry: entry.getValue()
+                    .getMonthlyStats().entrySet()) {
                 stat = new LinkedHashMap<>();
                 stat.put("month", statEntry.getKey());
                 Collections.sort(statEntry.getValue());

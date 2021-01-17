@@ -3,7 +3,6 @@ import simulate.Change;
 import strategies.Strategy;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public final class Distributor extends Player {
@@ -12,6 +11,7 @@ public final class Distributor extends Player {
     private int initialInfrastructureCost;
     private int energyNeededKW;
     private static final float PERCENTAGE = (float) 0.2;
+    private static final int DIVIDER = 10;
     private int initialProductionCost;
     private String producerStrategy;
     private final List<Consumer> customers;
@@ -70,7 +70,7 @@ public final class Distributor extends Player {
     }
 
     /**
-     *
+     * Adds a new customer
      * @param consumer
      */
     public void addCustomer(final Consumer consumer) {
@@ -78,7 +78,7 @@ public final class Distributor extends Player {
     }
 
     /**
-     *
+     * Removes a customer
      * @param consumer
      */
     public void removeCustomer(final Consumer consumer) {
@@ -86,7 +86,7 @@ public final class Distributor extends Player {
     }
 
     /**
-     *
+     * Returns the profit
      * @return
      */
     public int getProfit() {
@@ -96,12 +96,7 @@ public final class Distributor extends Player {
     }
 
     /**
-     *
-     */
-    public void getIncome() { }
-
-    /**
-     *
+     * Removes the payed amount
      */
     public void pay() {
         initialBudget -= (initialInfrastructureCost + initialProductionCost * customers.size());
@@ -110,6 +105,10 @@ public final class Distributor extends Player {
         }
     }
 
+    /**
+     * Gets new producers for the distributor
+     * @param producers
+     */
     public void getProducers(List<Producer> producers) {
             if (currentProducers != null) {
                 for (Producer producer : currentProducers) {
@@ -122,14 +121,22 @@ public final class Distributor extends Player {
                 totalCost += (producer.getEnergyPerDistributor() * producer.getPriceKW());
                 producer.addDistributor(this);
             }
-            initialProductionCost = (int) Math.round(Math.floor(totalCost / 10));
+            initialProductionCost = (int) Math.round(Math.floor(totalCost / DIVIDER));
             renewProducers = false;
     }
 
+    /**
+     * returns a list of customers
+     * @return
+     */
     public List<Consumer> getCustomers() {
         return customers;
     }
 
+    /**
+     * updates when a change occurs
+     * @param distributorChange
+     */
     public void update(Change distributorChange) {
         initialInfrastructureCost = distributorChange.getNewValue();
     }

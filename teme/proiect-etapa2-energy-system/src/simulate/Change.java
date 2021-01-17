@@ -1,6 +1,6 @@
 package simulate;
 
-public class Change {
+public final class Change {
     private int id;
     private int newValue;
     public int getId() {
@@ -15,15 +15,15 @@ public class Change {
         return newValue;
     }
 
-    public void setNewValue(int newValue) {
-        this.newValue = newValue;
+    public void setNewValue(int value) {
+        newValue = value;
     }
 
-    public void setEnergyPerDistributor(int newValue) {
-        this.newValue = newValue;
+    public void setEnergyPerDistributor(int value) {
+        newValue = value;
     }
 
-    public void setInfrastructureCost(int newValue) {
-        this.newValue = newValue;
+    public void setInfrastructureCost(int value) {
+        newValue = value;
     }
 }

@@ -72,7 +72,6 @@ public abstract class Player {
     /**
      * Adds monthly income if it is the case
      */
-    public abstract void getIncome();
 
     /**
      * Returns true if player is bankrupt

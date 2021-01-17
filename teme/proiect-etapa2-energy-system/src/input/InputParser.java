@@ -75,6 +75,15 @@ public final class InputParser {
         consumers.addAll(objectListFactory.getObjectList(currentNode.get("newConsumers"),
                 objectMapper, Consumer.class));
     }
+
+    /**
+     * Returns a list of Change objects
+     * from the monthly updates
+     * @param currentUpdate
+     * @param key
+     * @return
+     * @throws IOException
+     */
     public List<Change> getUpdates(final int currentUpdate, String key) throws IOException {
 
         JsonNode currentNode = jsonNode.get("monthlyUpdates").get(currentUpdate);

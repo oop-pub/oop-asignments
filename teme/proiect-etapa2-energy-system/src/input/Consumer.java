@@ -57,8 +57,8 @@ public final class Consumer extends Player {
                 inDebt = false;
                 contract.getDistributor().addToBudget(contract.getPrice());
             } else {
-                if (previousContract != contract &&
-                        Math.round(previousContract.getPrice() * PENALTY) <= initialBudget) {
+                if (previousContract != contract
+                        && Math.round(previousContract.getPrice() * PENALTY) <= initialBudget) {
                     initialBudget -= Math.round(previousContract.getPrice() * PENALTY);
                     previousContract.getDistributor().addToBudget(
                             Math.round(previousContract.getPrice() * PENALTY)
