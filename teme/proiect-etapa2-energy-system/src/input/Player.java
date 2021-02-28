@@ -80,4 +80,11 @@ public abstract class Player {
     public boolean isBankrupt() {
         return isBankrupt;
     }
+
+    /**
+     * Gets the income
+     */
+    public void getIncome() {
+        System.out.println("no Income");
+    }
 }

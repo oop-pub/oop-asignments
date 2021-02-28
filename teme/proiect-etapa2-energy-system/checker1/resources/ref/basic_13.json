@@ -1,0 +1,128 @@
+{
+  "consumers" : [ {
+    "id" : 0,
+    "isBankrupt" : false,
+    "budget" : 169
+  }, {
+    "id" : 1,
+    "isBankrupt" : false,
+    "budget" : 152
+  }, {
+    "id" : 2,
+    "isBankrupt" : false,
+    "budget" : 471
+  }, {
+    "id" : 3,
+    "isBankrupt" : false,
+    "budget" : 280
+  }, {
+    "id" : 4,
+    "isBankrupt" : false,
+    "budget" : 181
+  } ],
+  "distributors" : [ {
+    "id" : 0,
+    "energyNeededKW" : 2530,
+    "contractCost" : 21,
+    "budget" : 165,
+    "producerStrategy" : "PRICE",
+    "isBankrupt" : false,
+    "contracts" : [ {
+      "consumerId" : 1,
+      "price" : 22,
+      "remainedContractMonths" : 0
+    }, {
+      "consumerId" : 2,
+      "price" : 14,
+      "remainedContractMonths" : 1
+    }, {
+      "consumerId" : 3,
+      "price" : 20,
+      "remainedContractMonths" : 2
+    }, {
+      "consumerId" : 4,
+      "price" : 18,
+      "remainedContractMonths" : 4
+    }, {
+      "consumerId" : 0,
+      "price" : 21,
+      "remainedContractMonths" : 5
+    } ]
+  } ],
+  "energyProducers" : [ {
+    "id" : 0,
+    "maxDistributors" : 10,
+    "priceKW" : 0.01,
+    "energyType" : "WIND",
+    "energyPerDistributor" : 1077,
+    "monthlyStats" : [ {
+      "month" : 1,
+      "distributorsIds" : [ 0 ]
+    }, {
+      "month" : 2,
+      "distributorsIds" : [ 0 ]
+    }, {
+      "month" : 3,
+      "distributorsIds" : [ 0 ]
+    }, {
+      "month" : 4,
+      "distributorsIds" : [ 0 ]
+    }, {
+      "month" : 5,
+      "distributorsIds" : [ 0 ]
+    }, {
+      "month" : 6,
+      "distributorsIds" : [ 0 ]
+    } ]
+  }, {
+    "id" : 1,
+    "maxDistributors" : 10,
+    "priceKW" : 0.05,
+    "energyType" : "SOLAR",
+    "energyPerDistributor" : 2300,
+    "monthlyStats" : [ {
+      "month" : 1,
+      "distributorsIds" : [ ]
+    }, {
+      "month" : 2,
+      "distributorsIds" : [ ]
+    }, {
+      "month" : 3,
+      "distributorsIds" : [ ]
+    }, {
+      "month" : 4,
+      "distributorsIds" : [ ]
+    }, {
+      "month" : 5,
+      "distributorsIds" : [ 0 ]
+    }, {
+      "month" : 6,
+      "distributorsIds" : [ 0 ]
+    } ]
+  }, {
+    "id" : 2,
+    "maxDistributors" : 10,
+    "priceKW" : 0.03,
+    "energyType" : "HYDRO",
+    "energyPerDistributor" : 1377,
+    "monthlyStats" : [ {
+      "month" : 1,
+      "distributorsIds" : [ ]
+    }, {
+      "month" : 2,
+      "distributorsIds" : [ 0 ]
+    }, {
+      "month" : 3,
+      "distributorsIds" : [ 0 ]
+    }, {
+      "month" : 4,
+      "distributorsIds" : [ 0 ]
+    }, {
+      "month" : 5,
+      "distributorsIds" : [ 0 ]
+    }, {
+      "month" : 6,
+      "distributorsIds" : [ 0 ]
+    } ]
+  } ]
+}
