@@ -1,0 +1,364 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [
+            {
+                "name": "To the Bone",
+                "year": "2017",
+                "duration": 107,
+                "genres": [
+                    "Drama"
+                ],
+                "actors": [
+                    "Lily Collins",
+                    "Keanu Reeves",
+                    "Carrie Preston"
+                ]
+            },
+            {
+                "name": "The Current War",
+                "year": "2019",
+                "duration": 105,
+                "genres": [
+                    "Drama",
+                    "History"
+                ],
+                "actors": [
+                    "Benedict Cumberbatch",
+                    "Nicholas Hoult",
+                    "Michael Shannon"
+                ]
+            },
+            {
+                "name": "A Family Man",
+                "year": "2017",
+                "duration": 108,
+                "genres": [
+                    "Drama"
+                ],
+                "actors": [
+                    "Willem Dafoe",
+                    "Gretchen Mol",
+                    "Gerard Butler"
+                ]
+            },
+            {
+                "name": "London Fields",
+                "year": "2018",
+                "duration": 118,
+                "genres": [
+                    "Crime",
+                    "Mystery",
+                    "Thriller",
+                    "Drama"
+                ],
+                "actors": [
+                    "Johnny Depp",
+                    "Jim Sturgess",
+                    "Amber Heard",
+                    "Theo James"
+                ]
+            },
+            {
+                "name": "The Professor",
+                "year": "2019",
+                "duration": 90,
+                "genres": [
+                    "Comedy",
+                    "Drama"
+                ],
+                "actors": [
+                    "Johnny Depp",
+                    "Odessa Young",
+                    "Rosemarie DeWitt"
+                ]
+            }
+        ],
+        "shows": [
+            {
+                "name": "Phil of the Future",
+                "year": "2004",
+                "cast": [
+                    "Amy Bruckner",
+                    "Aly Michalka"
+                ],
+                "genres": [
+                    "Sci-Fi & Fantasy",
+                    "Comedy",
+                    "Family"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 22
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 22
+                    }
+                ]
+            },
+            {
+                "name": "Raised by Wolves",
+                "year": "2020",
+                "cast": [
+                    "Amanda Collin",
+                    "Abubakar Salim"
+                ],
+                "genres": [
+                    "Sci-Fi & Fantasy",
+                    "Drama"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 50
+                    }
+                ]
+            },
+            {
+                "name": "Marvel's Cloak & Dagger",
+                "year": "2018",
+                "cast": [
+                    "Aubrey Joseph",
+                    "Olivia Holt"
+                ],
+                "genres": [
+                    "Action & Adventure",
+                    "Drama",
+                    "Sci-Fi & Fantasy"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 44
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 44
+                    }
+                ]
+            },
+            {
+                "name": "Rescue Me",
+                "year": "2004",
+                "cast": [
+                    "Denis Leary",
+                    "Adam Ferrara"
+                ],
+                "genres": [
+                    "Drama",
+                    "Comedy"
+                ],
+                "number_of_seasons": 7,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 60
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 60
+                    },
+                    {
+                        "current_season": 3,
+                        "duration": 60
+                    },
+                    {
+                        "current_season": 4,
+                        "duration": 60
+                    },
+                    {
+                        "current_season": 5,
+                        "duration": 60
+                    },
+                    {
+                        "current_season": 6,
+                        "duration": 60
+                    },
+                    {
+                        "current_season": 7,
+                        "duration": 60
+                    }
+                ]
+            },
+            {
+                "name": "Summerland",
+                "year": "2004",
+                "cast": [
+                    "Jesse McCartney",
+                    "Taylor Cole"
+                ],
+                "genres": [
+                    "Drama"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 60
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 60
+                    }
+                ]
+            }
+        ],
+        "users": [
+            {
+                "username": "aboardMackerel5",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "The Professor",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "To the Bone",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "A Family Man",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "The Current War",
+                        "no_views": 2
+                    }
+                ],
+                "favourite": [
+                    "The Professor",
+                    "A Family Man",
+                    "The Current War",
+                    "To the Bone"
+                ]
+            },
+            {
+                "username": "gleefulBaboon8",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "To the Bone",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "London Fields",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "A Family Man",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "The Professor",
+                        "no_views": 3
+                    }
+                ],
+                "favourite": [
+                    "The Professor",
+                    "To the Bone"
+                ]
+            },
+            {
+                "username": "awedGelding1",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "To the Bone",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "A Family Man",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "London Fields",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "The Current War",
+                        "no_views": 3
+                    }
+                ],
+                "favourite": [
+                    "London Fields"
+                ]
+            }
+        ]
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "command",
+            "type": "favorite",
+            "user": "aboardMackerel5",
+            "title": "The Current War"
+        },
+        {
+            "action_id": 2,
+            "action_type": "command",
+            "type": "favorite",
+            "user": "aboardMackerel5",
+            "title": "The Current War"
+        },
+        {
+            "action_id": 3,
+            "action_type": "command",
+            "type": "favorite",
+            "user": "aboardMackerel5",
+            "title": "To the Bone"
+        },
+        {
+            "action_id": 4,
+            "action_type": "command",
+            "type": "favorite",
+            "user": "aboardMackerel5",
+            "title": "The Professor"
+        },
+        {
+            "action_id": 5,
+            "action_type": "command",
+            "type": "favorite",
+            "user": "aboardMackerel5",
+            "title": "Marvel's Cloak & Dagger"
+        },
+        {
+            "action_id": 6,
+            "action_type": "command",
+            "type": "favorite",
+            "user": "gleefulBaboon8",
+            "title": "Marvel's Cloak & Dagger"
+        },
+        {
+            "action_id": 7,
+            "action_type": "command",
+            "type": "favorite",
+            "user": "awedGelding1",
+            "title": "Raised by Wolves"
+        },
+        {
+            "action_id": 8,
+            "action_type": "command",
+            "type": "favorite",
+            "user": "aboardMackerel5",
+            "title": "Rescue Me"
+        },
+        {
+            "action_id": 9,
+            "action_type": "command",
+            "type": "favorite",
+            "user": "awedGelding1",
+            "title": "Phil of the Future"
+        },
+        {
+            "action_id": 10,
+            "action_type": "recommendation",
+            "type": "favorite",
+            "username": "aboardMackerel5"
+        }
+    ]
+}

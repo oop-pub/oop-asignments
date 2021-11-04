@@ -1,0 +1,329 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [
+            {
+                "name": "North",
+                "year": "1994",
+                "duration": 87,
+                "genres": [
+                    "Comedy",
+                    "Drama",
+                    "Family",
+                    "Fantasy",
+                    "Science Fiction"
+                ],
+                "actors": [
+                    "Jason Alexander",
+                    "Elijah Wood",
+                    "Scarlett Johansson",
+                    "Julia Louis-Dreyfus"
+                ]
+            },
+            {
+                "name": "The Bad Batch",
+                "year": "2017",
+                "duration": 119,
+                "genres": [
+                    "Drama",
+                    "Horror",
+                    "Thriller"
+                ],
+                "actors": [
+                    "Suki Waterhouse",
+                    "Giovanni Ribisi",
+                    "Jason Momoa",
+                    "Keanu Reeves"
+                ]
+            },
+            {
+                "name": "Once Upon a Deadpool",
+                "year": "2018",
+                "duration": 117,
+                "genres": [
+                    "Comedy",
+                    "Action"
+                ],
+                "actors": [
+                    "Josh Brolin",
+                    "Hugh Jackman",
+                    "Fred Savage",
+                    "Brad Pitt"
+                ]
+            },
+            {
+                "name": "The Post",
+                "year": "2017",
+                "duration": 116,
+                "genres": [
+                    "Drama",
+                    "History"
+                ],
+                "actors": [
+                    "Bob Odenkirk",
+                    "Meryl Streep",
+                    "Tom Hanks"
+                ]
+            },
+            {
+                "name": "Everything Is Terrible! Presents: The Great Satan",
+                "year": "2017",
+                "duration": 72,
+                "genres": [
+                    "Horror",
+                    "Comedy",
+                    "Fantasy"
+                ],
+                "actors": [
+                    "Jim Newberry",
+                    "Chuck E. Cheese",
+                    "Gene Simmons",
+                    "Brad Pitt"
+                ]
+            }
+        ],
+        "shows": [
+            {
+                "name": "Violet Evergarden",
+                "year": "2018",
+                "cast": [
+                    "Yui Ishikawa",
+                    "Daisuke Namikawa"
+                ],
+                "genres": [
+                    "Animation",
+                    "Sci-Fi & Fantasy",
+                    "Drama"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 25
+                    }
+                ]
+            },
+            {
+                "name": "Insatiable",
+                "year": "2018",
+                "cast": [
+                    "Debby Ryan",
+                    "Dallas Roberts"
+                ],
+                "genres": [
+                    "Drama",
+                    "Comedy"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 45
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 45
+                    }
+                ]
+            },
+            {
+                "name": "Kingdom",
+                "year": "2019",
+                "cast": [
+                    "Bae Doo-na",
+                    "Ju Ji-hoon"
+                ],
+                "genres": [
+                    "Drama",
+                    "Action & Adventure",
+                    "Mystery"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 51
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 51
+                    }
+                ]
+            },
+            {
+                "name": "DARLING in the FRANXX",
+                "year": "2018",
+                "cast": [
+                    "Kana Ichinose",
+                    "Haruka Tomatsu"
+                ],
+                "genres": [
+                    "Action & Adventure",
+                    "Animation",
+                    "Sci-Fi & Fantasy"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 24
+                    }
+                ]
+            },
+            {
+                "name": "Are You Lost?",
+                "year": "2019",
+                "cast": [
+                    "Azumi Waki",
+                    "Hiyori Kouno"
+                ],
+                "genres": [
+                    "Action & Adventure",
+                    "Comedy",
+                    "Drama",
+                    "Animation"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 12
+                    }
+                ]
+            }
+        ],
+        "users": [
+            {
+                "username": "annoyedLard0",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "Once Upon a Deadpool",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "The Bad Batch",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "The Post",
+                        "no_views": 2
+                    }
+                ],
+                "favourite": [
+                    "The Bad Batch",
+                    "Once Upon a Deadpool",
+                    "The Post"
+                ]
+            },
+            {
+                "username": "solidEagle6",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "The Post",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "Once Upon a Deadpool",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "The Bad Batch",
+                        "no_views": 2
+                    }
+                ],
+                "favourite": [
+                    "Once Upon a Deadpool",
+                    "The Bad Batch",
+                    "The Post"
+                ]
+            }
+        ]
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "command",
+            "type": "rating",
+            "user": "solidEagle6",
+            "title": "The Post",
+            "grade": 10
+        },
+        {
+            "action_id": 2,
+            "action_type": "command",
+            "type": "rating",
+            "user": "solidEagle6",
+            "title": "North",
+            "grade": 2
+        },
+        {
+            "action_id": 3,
+            "action_type": "command",
+            "type": "rating",
+            "user": "solidEagle6",
+            "title": "Everything Is Terrible! Presents: The Great Satan",
+            "grade": 4
+        },
+        {
+            "action_id": 4,
+            "action_type": "command",
+            "type": "rating",
+            "user": "solidEagle6",
+            "title": "The Bad Batch",
+            "grade": 6
+        },
+        {
+            "action_id": 5,
+            "action_type": "command",
+            "type": "rating",
+            "user": "solidEagle6",
+            "title": "Kingdom",
+            "grade": 8,
+            "season": 2
+        },
+        {
+            "action_id": 6,
+            "action_type": "command",
+            "type": "rating",
+            "user": "solidEagle6",
+            "title": "Are You Lost?",
+            "grade": 5,
+            "season": 1
+        },
+        {
+            "action_id": 7,
+            "action_type": "command",
+            "type": "rating",
+            "user": "annoyedLard0",
+            "title": "Insatiable",
+            "grade": 3,
+            "season": 1
+        },
+        {
+            "action_id": 8,
+            "action_type": "command",
+            "type": "rating",
+            "user": "annoyedLard0",
+            "title": "Are You Lost?",
+            "grade": 7,
+            "season": 1
+        },
+        {
+            "action_id": 9,
+            "action_type": "command",
+            "type": "rating",
+            "user": "annoyedLard0",
+            "title": "Are You Lost?",
+            "grade": 2,
+            "season": 1
+        },
+        {
+            "action_id": 10,
+            "action_type": "recommendation",
+            "type": "best_unseen",
+            "username": "solidEagle6"
+        }
+    ]
+}

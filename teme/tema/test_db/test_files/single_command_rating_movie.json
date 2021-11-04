@@ -1,0 +1,85 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [
+            {
+                "name": "Even Cowgirls Get the Blues",
+                "year": "1994",
+                "duration": 96,
+                "genres": [
+                    "Western",
+                    "Drama",
+                    "Comedy",
+                    "Romance"
+                ],
+                "actors": [
+                    "Lorraine Bracco",
+                    "Uma Thurman",
+                    "Pat Morita",
+                    "Keanu Reeves"
+                ]
+            },
+            {
+                "name": "Finger Guns",
+                "year": "2019",
+                "duration": 5,
+                "genres": [
+                    "Action",
+                    "Comedy",
+                    "Drama"
+                ],
+                "actors": [
+                    "Lewi Pilgram",
+                    "Will Hedley",
+                    "Keanu Reeves",
+                    "Tommy Metcalf"
+                ]
+            },
+            {
+                "name": "John Wick: Chapter 2",
+                "year": "2017",
+                "duration": 122,
+                "genres": [
+                    "Thriller",
+                    "Action",
+                    "Crime"
+                ],
+                "actors": [
+                    "Common",
+                    "Laurence Fishburne",
+                    "Keanu Reeves"
+                ]
+            }
+        ],
+        "shows": [],
+        "users": [
+            {
+                "username": "insecureEagle8",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "Finger Guns",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "Even Cowgirls Get the Blues",
+                        "no_views": 2
+                    }
+                ],
+                "favourite": [
+                    "Even Cowgirls Get the Blues"
+                ]
+            }
+        ]
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "command",
+            "type": "rating",
+            "user": "insecureEagle8",
+            "title": "Even Cowgirls Get the Blues",
+            "grade": 6
+        }
+    ]
+}

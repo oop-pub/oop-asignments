@@ -1,0 +1,236 @@
+{
+    "database": {
+        "actors": [],
+        "movies": [],
+        "shows": [
+            {
+                "name": "BNA",
+                "year": "2020",
+                "cast": [
+                    "Sumire Morohoshi",
+                    "Yoshimasa Hosoya"
+                ],
+                "genres": [
+                    "Animation",
+                    "Action & Adventure",
+                    "Sci-Fi & Fantasy"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 23
+                    }
+                ]
+            },
+            {
+                "name": "Marvel's Cloak & Dagger",
+                "year": "2018",
+                "cast": [
+                    "Aubrey Joseph",
+                    "Olivia Holt"
+                ],
+                "genres": [
+                    "Action & Adventure",
+                    "Drama",
+                    "Sci-Fi & Fantasy"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 44
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 44
+                    }
+                ]
+            },
+            {
+                "name": "Falsa Identidad",
+                "year": "2018",
+                "cast": [
+                    "Luis Ernesto Franco",
+                    "Camila Sodi"
+                ],
+                "genres": [
+                    "Crime",
+                    "Action & Adventure"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 27
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 27
+                    }
+                ]
+            },
+            {
+                "name": "ORESUKI: Are you the only one who loves me?",
+                "year": "2019",
+                "cast": [
+                    "Sachika Misawa",
+                    "Haruka Shiraishi"
+                ],
+                "genres": [
+                    "Animation",
+                    "Comedy",
+                    "Drama"
+                ],
+                "number_of_seasons": 1,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 24
+                    }
+                ]
+            },
+            {
+                "name": "7SEEDS",
+                "year": "2019",
+                "cast": [],
+                "genres": [
+                    "Animation",
+                    "Sci-Fi & Fantasy",
+                    "Drama"
+                ],
+                "number_of_seasons": 2,
+                "seasons": [
+                    {
+                        "current_season": 1,
+                        "duration": 24
+                    },
+                    {
+                        "current_season": 2,
+                        "duration": 24
+                    }
+                ]
+            }
+        ],
+        "users": [
+            {
+                "username": "sugaryTacos0",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "Falsa Identidad",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "BNA",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "7SEEDS",
+                        "no_views": 2
+                    }
+                ],
+                "favourite": [
+                    "BNA",
+                    "7SEEDS"
+                ]
+            },
+            {
+                "username": "dreadfulFish3",
+                "subscription": "BASIC",
+                "history": [
+                    {
+                        "name": "7SEEDS",
+                        "no_views": 1
+                    },
+                    {
+                        "name": "ORESUKI: Are you the only one who loves me?",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "Falsa Identidad",
+                        "no_views": 1
+                    }
+                ],
+                "favourite": [
+                    "Falsa Identidad"
+                ]
+            },
+            {
+                "username": "peskyLapwing0",
+                "subscription": "PREMIUM",
+                "history": [
+                    {
+                        "name": "7SEEDS",
+                        "no_views": 2
+                    },
+                    {
+                        "name": "BNA",
+                        "no_views": 3
+                    },
+                    {
+                        "name": "Falsa Identidad",
+                        "no_views": 2
+                    }
+                ],
+                "favourite": [
+                    "BNA",
+                    "Falsa Identidad",
+                    "7SEEDS"
+                ]
+            }
+        ]
+    },
+    "actions": [
+        {
+            "action_id": 1,
+            "action_type": "command",
+            "type": "rating",
+            "user": "dreadfulFish3",
+            "title": "ORESUKI: Are you the only one who loves me?",
+            "grade": 4,
+            "season": 1
+        },
+        {
+            "action_id": 2,
+            "action_type": "command",
+            "type": "rating",
+            "user": "dreadfulFish3",
+            "title": "Falsa Identidad",
+            "grade": 3,
+            "season": 1
+        },
+        {
+            "action_id": 3,
+            "action_type": "command",
+            "type": "rating",
+            "user": "sugaryTacos0",
+            "title": "Marvel's Cloak & Dagger",
+            "grade": 10,
+            "season": 1
+        },
+        {
+            "action_id": 4,
+            "action_type": "command",
+            "type": "rating",
+            "user": "sugaryTacos0",
+            "title": "Falsa Identidad",
+            "grade": 4,
+            "season": 1
+        },
+        {
+            "action_id": 5,
+            "action_type": "query",
+            "object_type": "shows",
+            "number": 7,
+            "filters": {
+                "year": "2020",
+                "genre": "Action & Adventure",
+                "words": null,
+                "awards": null
+            },
+            "sort_type": "desc",
+            "criteria": "ratings"
+        }
+    ]
+}
