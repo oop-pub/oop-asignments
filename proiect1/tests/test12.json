@@ -1,0 +1,201 @@
+{
+  "numberOfYears": 3,
+  "santaBudget": 456,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Mihalache",
+        "firstName": "Alexandra",
+        "age": 19,
+        "city": "Bucuresti",
+        "niceScore": 9,
+        "giftsPreferences": [
+          "Sweets",
+          "Books"
+        ]
+      },
+      {
+        "id": 1,
+        "lastName": "Pop",
+        "firstName": "Alexandra",
+        "age": 12,
+        "city": "Bucuresti",
+        "niceScore": 6,
+        "giftsPreferences": [
+          "Books"
+        ]
+      },
+      {
+        "id": 2,
+        "lastName": "Pop",
+        "firstName": "Mihai",
+        "age": 11,
+        "city": "Brasov",
+        "niceScore": 9,
+        "giftsPreferences": [
+          "Board Games",
+          "Clothes"
+        ]
+      },
+      {
+        "id": 3,
+        "lastName": "Cantemir",
+        "firstName": "Miruna",
+        "age": 17,
+        "city": "Timisoara",
+        "niceScore": 3,
+        "giftsPreferences": [
+          "Toys",
+          "Clothes",
+          "Books"
+        ]
+      },
+      {
+        "id": 4,
+        "lastName": "Popescu",
+        "firstName": "Radu",
+        "age": 16,
+        "city": "Oradea",
+        "niceScore": 6,
+        "giftsPreferences": [
+          "Sweets",
+          "Toys"
+        ]
+      },
+      {
+        "id": 5,
+        "lastName": "Pop",
+        "firstName": "Tudor",
+        "age": 3,
+        "city": "Craiova",
+        "niceScore": 6,
+        "giftsPreferences": [
+          "Books"
+        ]
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Chocolate",
+        "price": 15,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Bike",
+        "price": 25,
+        "category": "Toys"
+      },
+      {
+        "productName": "Gummy Bears",
+        "price": 10,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Shoes",
+        "price": 70,
+        "category": "Clothes"
+      },
+      {
+        "productName": "Uno",
+        "price": 10,
+        "category": "Board Games"
+      },
+      {
+        "productName": "Castle",
+        "price": 15,
+        "category": "Toys"
+      },
+      {
+        "productName": "Handbag",
+        "price": 200,
+        "category": "Clothes"
+      },
+      {
+        "productName": "Diary of a Wimpy Kid",
+        "price": 25,
+        "category": "Books"
+      },
+      {
+        "productName": "Twilight",
+        "price": 30,
+        "category": "Books"
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 456,
+      "newGifts": [],
+      "newChildren": [
+        {
+          "id": 6,
+          "lastName": "Pop",
+          "firstName": "Maria",
+          "age": 17,
+          "city": "Constanta",
+          "niceScore": 8,
+          "giftsPreferences": [
+            "Sweets",
+            "Toys",
+            "Books"
+          ]
+        }
+      ],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 456,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 3,
+          "niceScore": 0,
+          "giftsPreferences": []
+        },
+        {
+          "id": 5,
+          "niceScore": 4,
+          "giftsPreferences": [
+            "Clothes",
+            "Sweets",
+            "Clothes",
+            "Toys"
+          ]
+        }
+      ]
+    },
+    {
+      "newSantaBudget": 0,
+      "newGifts": [],
+      "newChildren": [
+        {
+          "id": 7,
+          "lastName": "Popa",
+          "firstName": "Mihai",
+          "age": 3,
+          "city": "Oradea",
+          "niceScore": 2,
+          "giftsPreferences": [
+            "Sweets",
+            "Toys",
+            "Books"
+          ]
+        },
+        {
+          "id": 8,
+          "lastName": "Popa",
+          "firstName": "Tudor",
+          "age": 10,
+          "city": "Timisoara",
+          "niceScore": 6,
+          "giftsPreferences": [
+            "Sweets"
+          ]
+        }
+      ],
+      "childrenUpdates": []
+    }
+  ]
+}

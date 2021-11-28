@@ -1,0 +1,107 @@
+{
+  "numberOfYears": 3,
+  "santaBudget": 252,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Pop",
+        "firstName": "Diana",
+        "age": 10,
+        "city": "Brasov",
+        "niceScore": 5,
+        "giftsPreferences": [
+          "Books",
+          "Sweets",
+          "Toys"
+        ]
+      },
+      {
+        "id": 1,
+        "lastName": "Stoica",
+        "firstName": "Andreea",
+        "age": 15,
+        "city": "Oradea",
+        "niceScore": 8,
+        "giftsPreferences": [
+          "Board Games"
+        ]
+      },
+      {
+        "id": 2,
+        "lastName": "Ionescu",
+        "firstName": "Alexandra",
+        "age": 8,
+        "city": "Oradea",
+        "niceScore": 4,
+        "giftsPreferences": [
+          "Toys"
+        ]
+      },
+      {
+        "id": 3,
+        "lastName": "Popa",
+        "firstName": "Maria",
+        "age": 16,
+        "city": "Timisoara",
+        "niceScore": 6,
+        "giftsPreferences": [
+          "Sweets",
+          "Toys"
+        ]
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Bike",
+        "price": 25,
+        "category": "Toys"
+      },
+      {
+        "productName": "Doll",
+        "price": 10,
+        "category": "Toys"
+      },
+      {
+        "productName": "Milk and Cookies",
+        "price": 30,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Castle",
+        "price": 15,
+        "category": "Toys"
+      },
+      {
+        "productName": "Diary of a Wimpy Kid",
+        "price": 25,
+        "category": "Books"
+      },
+      {
+        "productName": "Bag of Candy",
+        "price": 20,
+        "category": "Sweets"
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 456,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 850,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 200,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    }
+  ]
+}

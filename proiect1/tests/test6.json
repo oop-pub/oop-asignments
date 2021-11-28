@@ -1,0 +1,107 @@
+{
+  "numberOfYears": 4,
+  "santaBudget": 10,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Popescu",
+        "firstName": "Andreea",
+        "age": 15,
+        "city": "Braila",
+        "niceScore": 7,
+        "giftsPreferences": [
+          "Clothes",
+          "Toys"
+        ]
+      },
+      {
+        "id": 1,
+        "lastName": "Cantemir",
+        "firstName": "Diana",
+        "age": 15,
+        "city": "Brasov",
+        "niceScore": 3,
+        "giftsPreferences": [
+          "Toys",
+          "Board Games"
+        ]
+      },
+      {
+        "id": 2,
+        "lastName": "Ionescu",
+        "firstName": "Miruna",
+        "age": 16,
+        "city": "Oradea",
+        "niceScore": 6,
+        "giftsPreferences": [
+          "Books",
+          "Sweets"
+        ]
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Chocolate",
+        "price": 15,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Iphone",
+        "price": 700,
+        "category": "Technology"
+      },
+      {
+        "productName": "Dress",
+        "price": 45,
+        "category": "Clothes"
+      },
+      {
+        "productName": "Gummy Bears",
+        "price": 10,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Puzzle",
+        "price": 50,
+        "category": "Board Games"
+      },
+      {
+        "productName": "Doll",
+        "price": 10,
+        "category": "Toys"
+      },
+      {
+        "productName": "Castle",
+        "price": 15,
+        "category": "Toys"
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 254,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 200,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 157,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 179,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    }
+  ]
+}

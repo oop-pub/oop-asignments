@@ -1,0 +1,298 @@
+{
+  "numberOfYears": 7,
+  "santaBudget": 223,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Popescu",
+        "firstName": "Andreea",
+        "age": 1,
+        "city": "Brasov",
+        "niceScore": 9,
+        "giftsPreferences": [
+          "Sweets",
+          "Books"
+        ]
+      },
+      {
+        "id": 1,
+        "lastName": "Popescu",
+        "firstName": "Mihai",
+        "age": 8,
+        "city": "Constanta",
+        "niceScore": 4,
+        "giftsPreferences": [
+          "Toys",
+          "Board Games",
+          "Sweets"
+        ]
+      },
+      {
+        "id": 2,
+        "lastName": "Stoica",
+        "firstName": "Alexandra",
+        "age": 9,
+        "city": "Brasov",
+        "niceScore": 6,
+        "giftsPreferences": [
+          "Board Games"
+        ]
+      },
+      {
+        "id": 3,
+        "lastName": "Popescu",
+        "firstName": "Mihai",
+        "age": 17,
+        "city": "Timisoara",
+        "niceScore": 6,
+        "giftsPreferences": [
+          "Toys",
+          "Books"
+        ]
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Harry Potter",
+        "price": 35,
+        "category": "Books"
+      },
+      {
+        "productName": "Bike",
+        "price": 25,
+        "category": "Toys"
+      },
+      {
+        "productName": "Gummy Bears",
+        "price": 10,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Puzzle",
+        "price": 50,
+        "category": "Board Games"
+      },
+      {
+        "productName": "Castle",
+        "price": 15,
+        "category": "Toys"
+      },
+      {
+        "productName": "Monopoly",
+        "price": 30,
+        "category": "Board Games"
+      },
+      {
+        "productName": "Bag of Candy",
+        "price": 20,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Laptop",
+        "price": 500,
+        "category": "Technology"
+      },
+      {
+        "productName": "Diary of a Wimpy Kid",
+        "price": 25,
+        "category": "Books"
+      },
+      {
+        "productName": "Uno",
+        "price": 10,
+        "category": "Board Games"
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 919,
+      "newGifts": [],
+      "newChildren": [
+        {
+          "id": 4,
+          "lastName": "Stoica",
+          "firstName": "Mihai",
+          "age": 5,
+          "city": "Braila",
+          "niceScore": 8,
+          "giftsPreferences": [
+            "Sweets",
+            "Board Games"
+          ]
+        },
+        {
+          "id": 5,
+          "lastName": "Popescu",
+          "firstName": "Miruna",
+          "age": 3,
+          "city": "Cluj-Napoca",
+          "niceScore": 8,
+          "giftsPreferences": [
+            "Toys",
+            "Sweets"
+          ]
+        }
+      ],
+      "childrenUpdates": [
+        {
+          "id": 1,
+          "niceScore": null,
+          "giftsPreferences": [
+            "Books",
+            "Board Games",
+            "Sweets"
+          ]
+        },
+        {
+          "id": 3,
+          "niceScore": 0,
+          "giftsPreferences": []
+        }
+      ]
+    },
+    {
+      "newSantaBudget": 223,
+      "newGifts": [],
+      "newChildren": [
+        {
+          "id": 6,
+          "lastName": "Ionescu",
+          "firstName": "Alexandra",
+          "age": 14,
+          "city": "Braila",
+          "niceScore": 10,
+          "giftsPreferences": [
+            "Toys",
+            "Sweets"
+          ]
+        },
+        {
+          "id": 7,
+          "lastName": "Popa",
+          "firstName": "Tudor",
+          "age": 20,
+          "city": "Braila",
+          "niceScore": 6,
+          "giftsPreferences": [
+            "Sweets",
+            "Board Games"
+          ]
+        }
+      ],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": 8,
+          "giftsPreferences": []
+        }
+      ]
+    },
+    {
+      "newSantaBudget": 223,
+      "newGifts": [
+        {
+          "productName": "Laptop",
+          "price": 500,
+          "category": "Technology"
+        },
+        {
+          "productName": "Diary of a Wimpy Kid",
+          "price": 25,
+          "category": "Books"
+        }
+      ],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 429,
+      "newGifts": [],
+      "newChildren": [
+        {
+          "id": 8,
+          "lastName": "Popescu",
+          "firstName": "Maria",
+          "age": 20,
+          "city": "Iasi",
+          "niceScore": 3,
+          "giftsPreferences": [
+            "Books",
+            "Technology"
+          ]
+        },
+        {
+          "id": 9,
+          "lastName": "Popa",
+          "firstName": "Mihai",
+          "age": 9,
+          "city": "Braila",
+          "niceScore": 7,
+          "giftsPreferences": [
+            "Board Games"
+          ]
+        }
+      ],
+      "childrenUpdates": [
+        {
+          "id": 6,
+          "niceScore": 7,
+          "giftsPreferences": []
+        },
+        {
+          "id": 4,
+          "niceScore": 0,
+          "giftsPreferences": []
+        }
+      ]
+    },
+    {
+      "newSantaBudget": 286,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 9,
+          "niceScore": null,
+          "giftsPreferences": [
+            "Toys",
+            "Board Games",
+            "Toys"
+          ]
+        }
+      ]
+    },
+    {
+      "newSantaBudget": 571,
+      "newGifts": [
+        {
+          "productName": "Uno",
+          "price": 10,
+          "category": "Board Games"
+        }
+      ],
+      "newChildren": [
+        {
+          "id": 10,
+          "lastName": "Mihalache",
+          "firstName": "Andreea",
+          "age": 6,
+          "city": "Bucuresti",
+          "niceScore": 10,
+          "giftsPreferences": [
+            "Board Games",
+            "Books"
+          ]
+        }
+      ],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 619,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    }
+  ]
+}

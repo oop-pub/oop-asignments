@@ -1,0 +1,187 @@
+{
+  "numberOfYears": 4,
+  "santaBudget": 738,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Ionescu",
+        "firstName": "Maria",
+        "age": 6,
+        "city": "Craiova",
+        "niceScore": 9,
+        "giftsPreferences": [
+          "Toys",
+          "Sweets"
+        ]
+      },
+      {
+        "id": 1,
+        "lastName": "Popescu",
+        "firstName": "Mihai",
+        "age": 19,
+        "city": "Brasov",
+        "niceScore": 3,
+        "giftsPreferences": [
+          "Technology"
+        ]
+      },
+      {
+        "id": 2,
+        "lastName": "Ionescu",
+        "firstName": "Miruna",
+        "age": 1,
+        "city": "Cluj-Napoca",
+        "niceScore": 10,
+        "giftsPreferences": [
+          "Toys",
+          "Books"
+        ]
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Harry Potter",
+        "price": 35,
+        "category": "Books"
+      },
+      {
+        "productName": "Bike",
+        "price": 25,
+        "category": "Toys"
+      },
+      {
+        "productName": "Gummy Bears",
+        "price": 10,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Doll",
+        "price": 10,
+        "category": "Toys"
+      },
+      {
+        "productName": "Laptop",
+        "price": 500,
+        "category": "Technology"
+      },
+      {
+        "productName": "Twilight",
+        "price": 30,
+        "category": "Books"
+      },
+      {
+        "productName": "Bag of Candy",
+        "price": 20,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Milk and Cookies",
+        "price": 30,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Chocolate",
+        "price": 15,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Shoes",
+        "price": 70,
+        "category": "Clothes"
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 177,
+      "newGifts": [
+        {
+          "productName": "Milk and Cookies",
+          "price": 30,
+          "category": "Sweets"
+        }
+      ],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 2,
+          "niceScore": null,
+          "giftsPreferences": [
+            "Sweets"
+          ]
+        },
+        {
+          "id": 2,
+          "niceScore": null,
+          "giftsPreferences": [
+            "Sweets",
+            "Technology",
+            "Books"
+          ]
+        }
+      ]
+    },
+    {
+      "newSantaBudget": 738,
+      "newGifts": [
+        {
+          "productName": "Chocolate",
+          "price": 15,
+          "category": "Sweets"
+        }
+      ],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 394,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 1,
+          "niceScore": null,
+          "giftsPreferences": [
+            "Sweets",
+            "Toys"
+          ]
+        }
+      ]
+    },
+    {
+      "newSantaBudget": 738,
+      "newGifts": [
+        {
+          "productName": "Shoes",
+          "price": 70,
+          "category": "Clothes"
+        }
+      ],
+      "newChildren": [
+        {
+          "id": 3,
+          "lastName": "Stoica",
+          "firstName": "Tudor",
+          "age": 7,
+          "city": "Brasov",
+          "niceScore": 6,
+          "giftsPreferences": [
+            "Sweets"
+          ]
+        }
+      ],
+      "childrenUpdates": [
+        {
+          "id": 4,
+          "niceScore": 9,
+          "giftsPreferences": [
+            "Clothes",
+            "Technology",
+            "Toys"
+          ]
+        }
+      ]
+    }
+  ]
+}

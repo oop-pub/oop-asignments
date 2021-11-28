@@ -1,0 +1,355 @@
+{
+  "numberOfYears": 7,
+  "santaBudget": 1902,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Popescu",
+        "firstName": "Radu",
+        "age": 2,
+        "city": "Craiova",
+        "niceScore": 10,
+        "giftsPreferences": [
+          "Clothes",
+          "Toys",
+          "Board Games"
+        ]
+      },
+      {
+        "id": 1,
+        "lastName": "Pop",
+        "firstName": "Matei",
+        "age": 19,
+        "city": "Bucuresti",
+        "niceScore": 8,
+        "giftsPreferences": [
+          "Clothes",
+          "Sweets"
+        ]
+      },
+      {
+        "id": 2,
+        "lastName": "Popescu",
+        "firstName": "Mihai",
+        "age": 9,
+        "city": "Brasov",
+        "niceScore": 10,
+        "giftsPreferences": [
+          "Technology",
+          "Sweets"
+        ]
+      },
+      {
+        "id": 3,
+        "lastName": "Popescu",
+        "firstName": "Tudor",
+        "age": 10,
+        "city": "Timisoara",
+        "niceScore": 6,
+        "giftsPreferences": [
+          "Board Games",
+          "Toys",
+          "Technology",
+          "Books"
+        ]
+      },
+      {
+        "id": 4,
+        "lastName": "Pop",
+        "firstName": "Radu",
+        "age": 1,
+        "city": "Iasi",
+        "niceScore": 10,
+        "giftsPreferences": [
+          "Board Games",
+          "Clothes"
+        ]
+      },
+      {
+        "id": 5,
+        "lastName": "Stoica",
+        "firstName": "Miruna",
+        "age": 19,
+        "city": "Bucuresti",
+        "niceScore": 6,
+        "giftsPreferences": [
+          "Toys",
+          "Sweets"
+        ]
+      },
+      {
+        "id": 6,
+        "lastName": "Cantemir",
+        "firstName": "Radu",
+        "age": 1,
+        "city": "Oradea",
+        "niceScore": 9,
+        "giftsPreferences": [
+          "Board Games",
+          "Toys",
+          "Books"
+        ]
+      },
+      {
+        "id": 7,
+        "lastName": "Ionescu",
+        "firstName": "Mihai",
+        "age": 11,
+        "city": "Braila",
+        "niceScore": 10,
+        "giftsPreferences": [
+          "Board Games",
+          "Toys"
+        ]
+      },
+      {
+        "id": 8,
+        "lastName": "Pop",
+        "firstName": "Tudor",
+        "age": 10,
+        "city": "Constanta",
+        "niceScore": 10,
+        "giftsPreferences": [
+          "Books",
+          "Toys",
+          "Sweets"
+        ]
+      },
+      {
+        "id": 9,
+        "lastName": "Cantemir",
+        "firstName": "Diana",
+        "age": 19,
+        "city": "Craiova",
+        "niceScore": 2,
+        "giftsPreferences": [
+          "Board Games",
+          "Technology",
+          "Toys",
+          "Books"
+        ]
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Harry Potter",
+        "price": 35,
+        "category": "Books"
+      },
+      {
+        "productName": "Chocolate",
+        "price": 15,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Car",
+        "price": 20,
+        "category": "Toys"
+      },
+      {
+        "productName": "Dress",
+        "price": 45,
+        "category": "Clothes"
+      },
+      {
+        "productName": "Gummy Bears",
+        "price": 10,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Puzzle",
+        "price": 50,
+        "category": "Board Games"
+      },
+      {
+        "productName": "Shoes",
+        "price": 70,
+        "category": "Clothes"
+      },
+      {
+        "productName": "Milk and Cookies",
+        "price": 30,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Uno",
+        "price": 10,
+        "category": "Board Games"
+      },
+      {
+        "productName": "Handbag",
+        "price": 200,
+        "category": "Clothes"
+      },
+      {
+        "productName": "Laptop",
+        "price": 500,
+        "category": "Technology"
+      },
+      {
+        "productName": "Diary of a Wimpy Kid",
+        "price": 25,
+        "category": "Books"
+      },
+      {
+        "productName": "Teddy Bear",
+        "price": 5,
+        "category": "Toys"
+      },
+      {
+        "productName": "Monopoly",
+        "price": 30,
+        "category": "Board Games"
+      },
+      {
+        "productName": "Iphone",
+        "price": 700,
+        "category": "Technology"
+      },
+      {
+        "productName": "Bike",
+        "price": 25,
+        "category": "Toys"
+      },
+      {
+        "productName": "Castle",
+        "price": 15,
+        "category": "Toys"
+      },
+      {
+        "productName": "Twilight",
+        "price": 30,
+        "category": "Books"
+      },
+      {
+        "productName": "Diary of a Wimpy Kid",
+        "price": 25,
+        "category": "Books"
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 1902,
+      "newGifts": [],
+      "newChildren": [
+        {
+          "id": 10,
+          "lastName": "Mihalache",
+          "firstName": "Miruna",
+          "age": 8,
+          "city": "Timisoara",
+          "niceScore": 3,
+          "giftsPreferences": [
+            "Clothes"
+          ]
+        },
+        {
+          "id": 11,
+          "lastName": "Ionescu",
+          "firstName": "Miruna",
+          "age": 4,
+          "city": "Braila",
+          "niceScore": 8,
+          "giftsPreferences": [
+            "Technology",
+            "Toys"
+          ]
+        }
+      ],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 175,
+      "newGifts": [
+        {
+          "productName": "Twilight",
+          "price": 30,
+          "category": "Books"
+        }
+      ],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 1902,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 1902,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 9,
+          "niceScore": 5,
+          "giftsPreferences": []
+        },
+        {
+          "id": 5,
+          "niceScore": 3,
+          "giftsPreferences": []
+        }
+      ]
+    },
+    {
+      "newSantaBudget": 1902,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 1902,
+      "newGifts": [],
+      "newChildren": [
+        {
+          "id": 12,
+          "lastName": "Popa",
+          "firstName": "Maria",
+          "age": 7,
+          "city": "Constanta",
+          "niceScore": 3,
+          "giftsPreferences": [
+            "Clothes",
+            "Board Games"
+          ]
+        },
+        {
+          "id": 13,
+          "lastName": "Pop",
+          "firstName": "Maria",
+          "age": 9,
+          "city": "Brasov",
+          "niceScore": 3,
+          "giftsPreferences": [
+            "Clothes",
+            "Toys",
+            "Sweets"
+          ]
+        }
+      ],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 410,
+      "newGifts": [
+        {
+          "productName": "Diary of a Wimpy Kid",
+          "price": 25,
+          "category": "Books"
+        }
+      ],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 6,
+          "niceScore": 0,
+          "giftsPreferences": []
+        }
+      ]
+    }
+  ]
+}
