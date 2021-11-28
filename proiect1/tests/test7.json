@@ -1,0 +1,145 @@
+{
+  "numberOfYears": 5,
+  "santaBudget": 242,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Mihalache",
+        "firstName": "Tudor",
+        "age": 4,
+        "city": "Brasov",
+        "niceScore": 3,
+        "giftsPreferences": [
+          "Books"
+        ]
+      },
+      {
+        "id": 1,
+        "lastName": "Stoica",
+        "firstName": "Miruna",
+        "age": 11,
+        "city": "Timisoara",
+        "niceScore": 2,
+        "giftsPreferences": [
+          "Toys"
+        ]
+      },
+      {
+        "id": 2,
+        "lastName": "Pop",
+        "firstName": "Andreea",
+        "age": 9,
+        "city": "Iasi",
+        "niceScore": 10,
+        "giftsPreferences": [
+          "Sweets",
+          "Toys"
+        ]
+      },
+      {
+        "id": 3,
+        "lastName": "Pop",
+        "firstName": "Miruna",
+        "age": 2,
+        "city": "Craiova",
+        "niceScore": 2,
+        "giftsPreferences": [
+          "Toys"
+        ]
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Harry Potter",
+        "price": 35,
+        "category": "Books"
+      },
+      {
+        "productName": "Doll",
+        "price": 10,
+        "category": "Toys"
+      },
+      {
+        "productName": "Castle",
+        "price": 15,
+        "category": "Toys"
+      },
+      {
+        "productName": "Bike",
+        "price": 25,
+        "category": "Toys"
+      },
+      {
+        "productName": "Lego",
+        "price": 30,
+        "category": "Toys"
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 242,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": 7,
+          "giftsPreferences": []
+        },
+        {
+          "id": 1,
+          "niceScore": 6,
+          "giftsPreferences": []
+        },
+        {
+          "id": 2,
+          "niceScore": 10,
+          "giftsPreferences": []
+        },
+        {
+          "id": 3,
+          "niceScore": 8,
+          "giftsPreferences": []
+        },
+        {
+          "id": 4,
+          "niceScore": 2,
+          "giftsPreferences": []
+        }
+      ]
+    },
+    {
+      "newSantaBudget": 200,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+      ]
+    },
+    {
+      "newSantaBudget": 412,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 376,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 240,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 400,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    }
+  ]
+}

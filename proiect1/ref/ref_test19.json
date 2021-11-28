@@ -1,0 +1,2758 @@
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Alexandra",
+      "city" : "Braila",
+      "age" : 7,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 173.9090909090909,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Pop",
+      "firstName" : "Radu",
+      "city" : "Brasov",
+      "age" : 8,
+      "giftsPreferences" : [ "Clothes", "Toys", "Books" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 139.12727272727273,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Cantemir",
+      "firstName" : "Tudor",
+      "city" : "Bucuresti",
+      "age" : 1,
+      "giftsPreferences" : [ "Sweets", "Board Games", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 347.8181818181818,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 3,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Brasov",
+      "age" : 5,
+      "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 139.12727272727273,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 4,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Craiova",
+      "age" : 7,
+      "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 173.9090909090909,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 5,
+      "lastName" : "Mihalache",
+      "firstName" : "Andreea",
+      "city" : "Braila",
+      "age" : 6,
+      "giftsPreferences" : [ "Toys" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 69.56363636363636,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 6,
+      "lastName" : "Popa",
+      "firstName" : "Tudor",
+      "city" : "Oradea",
+      "age" : 16,
+      "giftsPreferences" : [ "Sweets", "Technology", "Toys", "Board Games" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 104.34545454545454,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 7,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Iasi",
+      "age" : 4,
+      "giftsPreferences" : [ "Technology", "Board Games" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 347.8181818181818,
+      "receivedGifts" : [ {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 8,
+      "lastName" : "Mihalache",
+      "firstName" : "Matei",
+      "city" : "Braila",
+      "age" : 1,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 347.8181818181818,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 9,
+      "lastName" : "Stoica",
+      "firstName" : "Miruna",
+      "city" : "Brasov",
+      "age" : 15,
+      "giftsPreferences" : [ "Technology", "Sweets", "Clothes" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 69.56363636363636,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Alexandra",
+      "city" : "Braila",
+      "age" : 8,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 50.27777777777778,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Pop",
+      "firstName" : "Radu",
+      "city" : "Brasov",
+      "age" : 9,
+      "giftsPreferences" : [ "Clothes", "Toys", "Books" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 40.22222222222222,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Cantemir",
+      "firstName" : "Tudor",
+      "city" : "Bucuresti",
+      "age" : 2,
+      "giftsPreferences" : [ "Sweets", "Board Games", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 100.55555555555556,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 3,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Brasov",
+      "age" : 6,
+      "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 40.22222222222222,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 4,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Craiova",
+      "age" : 8,
+      "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 50.27777777777778,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 5,
+      "lastName" : "Mihalache",
+      "firstName" : "Andreea",
+      "city" : "Braila",
+      "age" : 7,
+      "giftsPreferences" : [ "Toys" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 20.11111111111111,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 6,
+      "lastName" : "Popa",
+      "firstName" : "Tudor",
+      "city" : "Oradea",
+      "age" : 17,
+      "giftsPreferences" : [ "Sweets", "Technology", "Toys", "Board Games" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 30.166666666666664,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 7,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Iasi",
+      "age" : 5,
+      "giftsPreferences" : [ "Technology", "Board Games" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 30.166666666666664,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 8,
+      "lastName" : "Mihalache",
+      "firstName" : "Matei",
+      "city" : "Braila",
+      "age" : 2,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 100.55555555555556,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 9,
+      "lastName" : "Stoica",
+      "firstName" : "Miruna",
+      "city" : "Brasov",
+      "age" : 16,
+      "giftsPreferences" : [ "Technology", "Sweets", "Clothes" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 20.11111111111111,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 10,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Oradea",
+      "age" : 13,
+      "giftsPreferences" : [ "Board Games", "Toys" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 30.166666666666664,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 11,
+      "lastName" : "Cantemir",
+      "firstName" : "Maria",
+      "city" : "Craiova",
+      "age" : 5,
+      "giftsPreferences" : [ "Sweets" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 30.166666666666664,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Alexandra",
+      "city" : "Braila",
+      "age" : 9,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 32.04545454545455,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Pop",
+      "firstName" : "Radu",
+      "city" : "Brasov",
+      "age" : 10,
+      "giftsPreferences" : [ "Clothes", "Toys", "Books" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 25.636363636363637,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Cantemir",
+      "firstName" : "Tudor",
+      "city" : "Bucuresti",
+      "age" : 3,
+      "giftsPreferences" : [ "Sweets", "Board Games", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 64.0909090909091,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 3,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Brasov",
+      "age" : 7,
+      "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 25.636363636363637,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 4,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Craiova",
+      "age" : 9,
+      "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 32.04545454545455,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 5,
+      "lastName" : "Mihalache",
+      "firstName" : "Andreea",
+      "city" : "Braila",
+      "age" : 8,
+      "giftsPreferences" : [ "Toys" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 12.818181818181818,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 6,
+      "lastName" : "Popa",
+      "firstName" : "Tudor",
+      "city" : "Oradea",
+      "age" : 18,
+      "giftsPreferences" : [ "Sweets", "Technology", "Toys", "Board Games" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 19.227272727272727,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 7,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Iasi",
+      "age" : 6,
+      "giftsPreferences" : [ "Technology", "Board Games" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 19.227272727272727,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 8,
+      "lastName" : "Mihalache",
+      "firstName" : "Matei",
+      "city" : "Braila",
+      "age" : 3,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 64.0909090909091,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 9,
+      "lastName" : "Stoica",
+      "firstName" : "Miruna",
+      "city" : "Brasov",
+      "age" : 17,
+      "giftsPreferences" : [ "Technology", "Sweets", "Clothes" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 12.818181818181818,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 10,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Oradea",
+      "age" : 14,
+      "giftsPreferences" : [ "Board Games", "Toys" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 19.227272727272727,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 11,
+      "lastName" : "Cantemir",
+      "firstName" : "Maria",
+      "city" : "Craiova",
+      "age" : 6,
+      "giftsPreferences" : [ "Sweets" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 19.227272727272727,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 12,
+      "lastName" : "Popescu",
+      "firstName" : "Tudor",
+      "city" : "Constanta",
+      "age" : 15,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 64.0909090909091,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 13,
+      "lastName" : "Popescu",
+      "firstName" : "Maria",
+      "city" : "Timisoara",
+      "age" : 14,
+      "giftsPreferences" : [ "Technology", "Toys" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 12.818181818181818,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Alexandra",
+      "city" : "Braila",
+      "age" : 10,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 59.76190476190476,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Pop",
+      "firstName" : "Radu",
+      "city" : "Brasov",
+      "age" : 11,
+      "giftsPreferences" : [ "Clothes", "Toys", "Books" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 47.80952380952381,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Cantemir",
+      "firstName" : "Tudor",
+      "city" : "Bucuresti",
+      "age" : 4,
+      "giftsPreferences" : [ "Sweets", "Board Games", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 119.52380952380952,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 3,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Brasov",
+      "age" : 8,
+      "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 47.80952380952381,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      } ]
+    }, {
+      "id" : 4,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Craiova",
+      "age" : 10,
+      "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 59.76190476190476,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 5,
+      "lastName" : "Mihalache",
+      "firstName" : "Andreea",
+      "city" : "Braila",
+      "age" : 9,
+      "giftsPreferences" : [ "Toys" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 23.904761904761905,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 7,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Iasi",
+      "age" : 7,
+      "giftsPreferences" : [ "Technology", "Board Games" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 35.85714285714286,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 8,
+      "lastName" : "Mihalache",
+      "firstName" : "Matei",
+      "city" : "Braila",
+      "age" : 4,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 119.52380952380952,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 9,
+      "lastName" : "Stoica",
+      "firstName" : "Miruna",
+      "city" : "Brasov",
+      "age" : 18,
+      "giftsPreferences" : [ "Technology", "Sweets", "Clothes" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 23.904761904761905,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 10,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Oradea",
+      "age" : 15,
+      "giftsPreferences" : [ "Board Games", "Toys" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 35.85714285714286,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 11,
+      "lastName" : "Cantemir",
+      "firstName" : "Maria",
+      "city" : "Craiova",
+      "age" : 7,
+      "giftsPreferences" : [ "Sweets" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 35.85714285714286,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 12,
+      "lastName" : "Popescu",
+      "firstName" : "Tudor",
+      "city" : "Constanta",
+      "age" : 16,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 119.52380952380952,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 13,
+      "lastName" : "Popescu",
+      "firstName" : "Maria",
+      "city" : "Timisoara",
+      "age" : 15,
+      "giftsPreferences" : [ "Technology", "Toys" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 23.904761904761905,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Alexandra",
+      "city" : "Braila",
+      "age" : 11,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 43.65217391304348,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Pop",
+      "firstName" : "Radu",
+      "city" : "Brasov",
+      "age" : 12,
+      "giftsPreferences" : [ "Clothes", "Toys", "Books" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 34.92173913043478,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Cantemir",
+      "firstName" : "Tudor",
+      "city" : "Bucuresti",
+      "age" : 5,
+      "giftsPreferences" : [ "Sweets", "Board Games", "Toys" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 34.92173913043478,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 3,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Brasov",
+      "age" : 9,
+      "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 34.92173913043478,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 4,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Craiova",
+      "age" : 11,
+      "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 43.65217391304348,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 5,
+      "lastName" : "Mihalache",
+      "firstName" : "Andreea",
+      "city" : "Braila",
+      "age" : 10,
+      "giftsPreferences" : [ "Toys" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 17.46086956521739,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 7,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Iasi",
+      "age" : 8,
+      "giftsPreferences" : [ "Technology", "Board Games" ],
+      "averageScore" : 6.5,
+      "niceScoreHistory" : [ 3.0, 10.0 ],
+      "assignedBudget" : 56.747826086956515,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 8,
+      "lastName" : "Mihalache",
+      "firstName" : "Matei",
+      "city" : "Braila",
+      "age" : 5,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 17.46086956521739,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 10,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Oradea",
+      "age" : 16,
+      "giftsPreferences" : [ "Board Games", "Toys" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 26.191304347826083,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 11,
+      "lastName" : "Cantemir",
+      "firstName" : "Maria",
+      "city" : "Craiova",
+      "age" : 8,
+      "giftsPreferences" : [ "Sweets" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 26.191304347826083,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 12,
+      "lastName" : "Popescu",
+      "firstName" : "Tudor",
+      "city" : "Constanta",
+      "age" : 17,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 87.30434782608695,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 13,
+      "lastName" : "Popescu",
+      "firstName" : "Maria",
+      "city" : "Timisoara",
+      "age" : 16,
+      "giftsPreferences" : [ "Technology", "Toys" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 17.46086956521739,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 14,
+      "lastName" : "Pop",
+      "firstName" : "Mihai",
+      "city" : "Bucuresti",
+      "age" : 5,
+      "giftsPreferences" : [ "Clothes" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 61.11304347826086,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Alexandra",
+      "city" : "Braila",
+      "age" : 12,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 144.92424242424244,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Pop",
+      "firstName" : "Radu",
+      "city" : "Brasov",
+      "age" : 13,
+      "giftsPreferences" : [ "Clothes", "Toys", "Books" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 115.93939393939394,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Cantemir",
+      "firstName" : "Tudor",
+      "city" : "Bucuresti",
+      "age" : 6,
+      "giftsPreferences" : [ "Sweets", "Board Games", "Toys" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 115.93939393939394,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 3,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Brasov",
+      "age" : 10,
+      "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 115.93939393939394,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 4,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Craiova",
+      "age" : 12,
+      "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 144.92424242424244,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 5,
+      "lastName" : "Mihalache",
+      "firstName" : "Andreea",
+      "city" : "Braila",
+      "age" : 11,
+      "giftsPreferences" : [ "Toys" ],
+      "averageScore" : 5.5,
+      "niceScoreHistory" : [ 2.0, 9.0 ],
+      "assignedBudget" : 159.41666666666666,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 7,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Iasi",
+      "age" : 9,
+      "giftsPreferences" : [ "Technology", "Board Games" ],
+      "averageScore" : 6.5,
+      "niceScoreHistory" : [ 3.0, 10.0 ],
+      "assignedBudget" : 188.40151515151516,
+      "receivedGifts" : [ {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 8,
+      "lastName" : "Mihalache",
+      "firstName" : "Matei",
+      "city" : "Braila",
+      "age" : 6,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 57.96969696969697,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 10,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Oradea",
+      "age" : 17,
+      "giftsPreferences" : [ "Board Games", "Toys" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 86.95454545454545,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 11,
+      "lastName" : "Cantemir",
+      "firstName" : "Maria",
+      "city" : "Craiova",
+      "age" : 9,
+      "giftsPreferences" : [ "Sweets" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 86.95454545454545,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 12,
+      "lastName" : "Popescu",
+      "firstName" : "Tudor",
+      "city" : "Constanta",
+      "age" : 18,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 289.8484848484849,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 13,
+      "lastName" : "Popescu",
+      "firstName" : "Maria",
+      "city" : "Timisoara",
+      "age" : 17,
+      "giftsPreferences" : [ "Technology", "Toys" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 57.96969696969697,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 14,
+      "lastName" : "Pop",
+      "firstName" : "Mihai",
+      "city" : "Bucuresti",
+      "age" : 6,
+      "giftsPreferences" : [ "Clothes" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 202.89393939393938,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      } ]
+    }, {
+      "id" : 15,
+      "lastName" : "Popa",
+      "firstName" : "Andreea",
+      "city" : "Bucuresti",
+      "age" : 13,
+      "giftsPreferences" : [ "Sweets", "Toys" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 144.92424242424244,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Alexandra",
+      "city" : "Braila",
+      "age" : 13,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 44.29280397022332,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Pop",
+      "firstName" : "Radu",
+      "city" : "Brasov",
+      "age" : 14,
+      "giftsPreferences" : [ "Clothes", "Toys", "Books" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 35.434243176178654,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Cantemir",
+      "firstName" : "Tudor",
+      "city" : "Bucuresti",
+      "age" : 7,
+      "giftsPreferences" : [ "Sweets", "Board Games", "Toys" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 35.434243176178654,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 3,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Brasov",
+      "age" : 11,
+      "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 35.434243176178654,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 4,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Craiova",
+      "age" : 13,
+      "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 44.29280397022332,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 5,
+      "lastName" : "Mihalache",
+      "firstName" : "Andreea",
+      "city" : "Braila",
+      "age" : 12,
+      "giftsPreferences" : [ "Toys" ],
+      "averageScore" : 6.666666666666667,
+      "niceScoreHistory" : [ 2.0, 9.0 ],
+      "assignedBudget" : 59.05707196029776,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 7,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Iasi",
+      "age" : 10,
+      "giftsPreferences" : [ "Technology", "Board Games" ],
+      "averageScore" : 6.5,
+      "niceScoreHistory" : [ 3.0, 10.0 ],
+      "assignedBudget" : 57.58064516129031,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 8,
+      "lastName" : "Mihalache",
+      "firstName" : "Matei",
+      "city" : "Braila",
+      "age" : 7,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 17.717121588089327,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 10,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Oradea",
+      "age" : 18,
+      "giftsPreferences" : [ "Board Games", "Toys" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 26.57568238213399,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 11,
+      "lastName" : "Cantemir",
+      "firstName" : "Maria",
+      "city" : "Craiova",
+      "age" : 10,
+      "giftsPreferences" : [ "Sweets" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 26.57568238213399,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 13,
+      "lastName" : "Popescu",
+      "firstName" : "Maria",
+      "city" : "Timisoara",
+      "age" : 18,
+      "giftsPreferences" : [ "Technology", "Toys" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 17.717121588089327,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 14,
+      "lastName" : "Pop",
+      "firstName" : "Mihai",
+      "city" : "Bucuresti",
+      "age" : 7,
+      "giftsPreferences" : [ "Clothes" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 62.009925558312645,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      } ]
+    }, {
+      "id" : 15,
+      "lastName" : "Popa",
+      "firstName" : "Andreea",
+      "city" : "Bucuresti",
+      "age" : 14,
+      "giftsPreferences" : [ "Sweets", "Toys" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 44.29280397022332,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 17,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Brasov",
+      "age" : 13,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Board Games" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 88.58560794044664,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Alexandra",
+      "city" : "Braila",
+      "age" : 14,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 134.40281030444964,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Pop",
+      "firstName" : "Radu",
+      "city" : "Brasov",
+      "age" : 15,
+      "giftsPreferences" : [ "Technology", "Clothes", "Toys", "Books" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 107.52224824355972,
+      "receivedGifts" : [ {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Cantemir",
+      "firstName" : "Tudor",
+      "city" : "Bucuresti",
+      "age" : 8,
+      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 4.0, 10.0 ],
+      "assignedBudget" : 188.1639344262295,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 3,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Brasov",
+      "age" : 12,
+      "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 107.52224824355972,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 4,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Craiova",
+      "age" : 14,
+      "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 134.40281030444964,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 5,
+      "lastName" : "Mihalache",
+      "firstName" : "Andreea",
+      "city" : "Braila",
+      "age" : 13,
+      "giftsPreferences" : [ "Toys" ],
+      "averageScore" : 6.666666666666667,
+      "niceScoreHistory" : [ 2.0, 9.0 ],
+      "assignedBudget" : 179.20374707259953,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 7,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Iasi",
+      "age" : 11,
+      "giftsPreferences" : [ "Technology", "Board Games" ],
+      "averageScore" : 6.5,
+      "niceScoreHistory" : [ 3.0, 10.0 ],
+      "assignedBudget" : 174.72365339578454,
+      "receivedGifts" : [ {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 8,
+      "lastName" : "Mihalache",
+      "firstName" : "Matei",
+      "city" : "Braila",
+      "age" : 8,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 53.76112412177986,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 11,
+      "lastName" : "Cantemir",
+      "firstName" : "Maria",
+      "city" : "Craiova",
+      "age" : 11,
+      "giftsPreferences" : [ "Sweets" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 80.64168618266979,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 14,
+      "lastName" : "Pop",
+      "firstName" : "Mihai",
+      "city" : "Bucuresti",
+      "age" : 8,
+      "giftsPreferences" : [ "Clothes" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 188.1639344262295,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      } ]
+    }, {
+      "id" : 15,
+      "lastName" : "Popa",
+      "firstName" : "Andreea",
+      "city" : "Bucuresti",
+      "age" : 15,
+      "giftsPreferences" : [ "Sweets", "Toys" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 134.40281030444964,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 17,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Brasov",
+      "age" : 14,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Board Games" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 268.8056206088993,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 18,
+      "lastName" : "Popescu",
+      "firstName" : "Diana",
+      "city" : "Timisoara",
+      "age" : 9,
+      "giftsPreferences" : [ "Sweets", "Toys" ],
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 161.28337236533957,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Alexandra",
+      "city" : "Braila",
+      "age" : 15,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 132.23502304147465,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Pop",
+      "firstName" : "Radu",
+      "city" : "Brasov",
+      "age" : 16,
+      "giftsPreferences" : [ "Technology", "Clothes", "Toys", "Books" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 105.78801843317972,
+      "receivedGifts" : [ {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Cantemir",
+      "firstName" : "Tudor",
+      "city" : "Bucuresti",
+      "age" : 9,
+      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 4.0, 10.0 ],
+      "assignedBudget" : 185.1290322580645,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 3,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Brasov",
+      "age" : 13,
+      "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 105.78801843317972,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 4,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Craiova",
+      "age" : 15,
+      "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 132.23502304147465,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 5,
+      "lastName" : "Mihalache",
+      "firstName" : "Andreea",
+      "city" : "Braila",
+      "age" : 14,
+      "giftsPreferences" : [ "Toys" ],
+      "averageScore" : 6.666666666666667,
+      "niceScoreHistory" : [ 2.0, 9.0 ],
+      "assignedBudget" : 176.31336405529953,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 7,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Iasi",
+      "age" : 12,
+      "giftsPreferences" : [ "Technology", "Board Games" ],
+      "averageScore" : 7.666666666666667,
+      "niceScoreHistory" : [ 3.0, 10.0 ],
+      "assignedBudget" : 202.76036866359445,
+      "receivedGifts" : [ {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 8,
+      "lastName" : "Mihalache",
+      "firstName" : "Matei",
+      "city" : "Braila",
+      "age" : 9,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 52.89400921658986,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 11,
+      "lastName" : "Cantemir",
+      "firstName" : "Maria",
+      "city" : "Craiova",
+      "age" : 12,
+      "giftsPreferences" : [ "Sweets" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 79.34101382488478,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 14,
+      "lastName" : "Pop",
+      "firstName" : "Mihai",
+      "city" : "Bucuresti",
+      "age" : 9,
+      "giftsPreferences" : [ "Clothes" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 185.1290322580645,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      } ]
+    }, {
+      "id" : 15,
+      "lastName" : "Popa",
+      "firstName" : "Andreea",
+      "city" : "Bucuresti",
+      "age" : 16,
+      "giftsPreferences" : [ "Sweets", "Toys" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 132.23502304147465,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 17,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Brasov",
+      "age" : 15,
+      "giftsPreferences" : [ "Sweets", "Clothes", "Board Games" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 264.4700460829493,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 18,
+      "lastName" : "Popescu",
+      "firstName" : "Diana",
+      "city" : "Timisoara",
+      "age" : 10,
+      "giftsPreferences" : [ "Sweets", "Toys" ],
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 158.68202764976957,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Alexandra",
+      "city" : "Braila",
+      "age" : 16,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 25.85820895522388,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Pop",
+      "firstName" : "Radu",
+      "city" : "Brasov",
+      "age" : 17,
+      "giftsPreferences" : [ "Technology", "Clothes", "Toys", "Books" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 20.686567164179102,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Cantemir",
+      "firstName" : "Tudor",
+      "city" : "Bucuresti",
+      "age" : 10,
+      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 4.0, 10.0 ],
+      "assignedBudget" : 36.20149253731343,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 3,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Brasov",
+      "age" : 14,
+      "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 20.686567164179102,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 4,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Craiova",
+      "age" : 16,
+      "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 25.85820895522388,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 5,
+      "lastName" : "Mihalache",
+      "firstName" : "Andreea",
+      "city" : "Braila",
+      "age" : 15,
+      "giftsPreferences" : [ "Toys" ],
+      "averageScore" : 6.666666666666667,
+      "niceScoreHistory" : [ 2.0, 9.0 ],
+      "assignedBudget" : 34.47761194029851,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 7,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Iasi",
+      "age" : 13,
+      "giftsPreferences" : [ "Technology", "Board Games" ],
+      "averageScore" : 7.666666666666667,
+      "niceScoreHistory" : [ 3.0, 10.0 ],
+      "assignedBudget" : 39.64925373134328,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 8,
+      "lastName" : "Mihalache",
+      "firstName" : "Matei",
+      "city" : "Braila",
+      "age" : 10,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 10.343283582089551,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 11,
+      "lastName" : "Cantemir",
+      "firstName" : "Maria",
+      "city" : "Craiova",
+      "age" : 13,
+      "giftsPreferences" : [ "Sweets" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 15.514925373134327,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 14,
+      "lastName" : "Pop",
+      "firstName" : "Mihai",
+      "city" : "Bucuresti",
+      "age" : 10,
+      "giftsPreferences" : [ "Clothes" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 36.20149253731343,
+      "receivedGifts" : [ ]
+    }, {
+      "id" : 15,
+      "lastName" : "Popa",
+      "firstName" : "Andreea",
+      "city" : "Bucuresti",
+      "age" : 17,
+      "giftsPreferences" : [ "Sweets", "Toys" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 25.85820895522388,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 17,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Brasov",
+      "age" : 16,
+      "giftsPreferences" : [ "Sweets", "Clothes", "Board Games" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 51.71641791044776,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 18,
+      "lastName" : "Popescu",
+      "firstName" : "Diana",
+      "city" : "Timisoara",
+      "age" : 11,
+      "giftsPreferences" : [ "Sweets", "Toys" ],
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 31.029850746268654,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 19,
+      "lastName" : "Stoica",
+      "firstName" : "Mihai",
+      "city" : "Brasov",
+      "age" : 11,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 36.20149253731343,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 20,
+      "lastName" : "Popa",
+      "firstName" : "Radu",
+      "city" : "Timisoara",
+      "age" : 16,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys", "Books" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 51.71641791044776,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Alexandra",
+      "city" : "Braila",
+      "age" : 17,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 18.304195804195803,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Pop",
+      "firstName" : "Radu",
+      "city" : "Brasov",
+      "age" : 18,
+      "giftsPreferences" : [ "Technology", "Clothes", "Toys", "Books" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 14.643356643356642,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Cantemir",
+      "firstName" : "Tudor",
+      "city" : "Bucuresti",
+      "age" : 11,
+      "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Sweets" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 4.0, 10.0 ],
+      "assignedBudget" : 25.625874125874123,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 3,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Brasov",
+      "age" : 15,
+      "giftsPreferences" : [ "Clothes", "Board Games", "Toys" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 14.643356643356642,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 4,
+      "lastName" : "Ionescu",
+      "firstName" : "Andreea",
+      "city" : "Craiova",
+      "age" : 17,
+      "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 18.304195804195803,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 5,
+      "lastName" : "Mihalache",
+      "firstName" : "Andreea",
+      "city" : "Braila",
+      "age" : 16,
+      "giftsPreferences" : [ "Toys" ],
+      "averageScore" : 6.666666666666667,
+      "niceScoreHistory" : [ 2.0, 9.0 ],
+      "assignedBudget" : 24.405594405594403,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 7,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Iasi",
+      "age" : 14,
+      "giftsPreferences" : [ "Technology", "Board Games" ],
+      "averageScore" : 7.666666666666667,
+      "niceScoreHistory" : [ 3.0, 10.0 ],
+      "assignedBudget" : 28.066433566433563,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 8,
+      "lastName" : "Mihalache",
+      "firstName" : "Matei",
+      "city" : "Braila",
+      "age" : 11,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 7.321678321678321,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 11,
+      "lastName" : "Cantemir",
+      "firstName" : "Maria",
+      "city" : "Craiova",
+      "age" : 14,
+      "giftsPreferences" : [ "Sweets" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 3.0 ],
+      "assignedBudget" : 10.982517482517482,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 14,
+      "lastName" : "Pop",
+      "firstName" : "Mihai",
+      "city" : "Bucuresti",
+      "age" : 11,
+      "giftsPreferences" : [ "Clothes" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 25.625874125874123,
+      "receivedGifts" : [ ]
+    }, {
+      "id" : 15,
+      "lastName" : "Popa",
+      "firstName" : "Andreea",
+      "city" : "Bucuresti",
+      "age" : 18,
+      "giftsPreferences" : [ "Sweets", "Toys" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 18.304195804195803,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 17,
+      "lastName" : "Pop",
+      "firstName" : "Maria",
+      "city" : "Brasov",
+      "age" : 17,
+      "giftsPreferences" : [ "Sweets", "Clothes", "Board Games" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 36.60839160839161,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      } ]
+    }, {
+      "id" : 18,
+      "lastName" : "Popescu",
+      "firstName" : "Diana",
+      "city" : "Timisoara",
+      "age" : 12,
+      "giftsPreferences" : [ "Sweets", "Toys" ],
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 21.965034965034963,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 19,
+      "lastName" : "Stoica",
+      "firstName" : "Mihai",
+      "city" : "Brasov",
+      "age" : 12,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 25.625874125874123,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 20,
+      "lastName" : "Popa",
+      "firstName" : "Radu",
+      "city" : "Timisoara",
+      "age" : 17,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys", "Books" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 36.60839160839161,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 21,
+      "lastName" : "Pop",
+      "firstName" : "Diana",
+      "city" : "Timisoara",
+      "age" : 5,
+      "giftsPreferences" : [ "Toys", "Books" ],
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 21.965034965034963,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    } ]
+  } ]
+}

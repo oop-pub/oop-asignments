@@ -1,0 +1,210 @@
+{
+  "numberOfYears": 4,
+  "santaBudget": 458,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Ionescu",
+        "firstName": "Tudor",
+        "age": 8,
+        "city": "Timisoara",
+        "niceScore": 8,
+        "giftsPreferences": [
+          "Sweets"
+        ]
+      },
+      {
+        "id": 1,
+        "lastName": "Ionescu",
+        "firstName": "Maria",
+        "age": 10,
+        "city": "Brasov",
+        "niceScore": 4,
+        "giftsPreferences": [
+          "Toys"
+        ]
+      },
+      {
+        "id": 2,
+        "lastName": "Popescu",
+        "firstName": "Miruna",
+        "age": 16,
+        "city": "Timisoara",
+        "niceScore": 9,
+        "giftsPreferences": [
+          "Technology",
+          "Board Games",
+          "Sweets"
+        ]
+      },
+      {
+        "id": 3,
+        "lastName": "Pop",
+        "firstName": "Alexandra",
+        "age": 17,
+        "city": "Constanta",
+        "niceScore": 5,
+        "giftsPreferences": [
+          "Books",
+          "Toys"
+        ]
+      },
+      {
+        "id": 4,
+        "lastName": "Stoica",
+        "firstName": "Mihai",
+        "age": 14,
+        "city": "Bucuresti",
+        "niceScore": 7,
+        "giftsPreferences": [
+          "Books",
+          "Sweets"
+        ]
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Chocolate",
+        "price": 15,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Bike",
+        "price": 25,
+        "category": "Toys"
+      },
+      {
+        "productName": "Headphones",
+        "price": 100,
+        "category": "Technology"
+      },
+      {
+        "productName": "Gummy Bears",
+        "price": 10,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Car",
+        "price": 20,
+        "category": "Toys"
+      },
+      {
+        "productName": "Diary of a Wimpy Kid",
+        "price": 25,
+        "category": "Books"
+      },
+      {
+        "productName": "Monopoly",
+        "price": 30,
+        "category": "Board Games"
+      },
+      {
+        "productName": "Twilight",
+        "price": 30,
+        "category": "Books"
+      },
+      {
+        "productName": "Bag of Candy",
+        "price": 20,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Puzzle",
+        "price": 50,
+        "category": "Board Games"
+      },
+      {
+        "productName": "Harry Potter",
+        "price": 35,
+        "category": "Books"
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 987,
+      "newGifts": [],
+      "newChildren": [
+        {
+          "id": 5,
+          "lastName": "Popescu",
+          "firstName": "Mihai",
+          "age": 4,
+          "city": "Craiova",
+          "niceScore": 8,
+          "giftsPreferences": [
+            "Toys"
+          ]
+        }
+      ],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 336,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 5,
+          "niceScore": 9,
+          "giftsPreferences": [
+            "Board Games"
+          ]
+        },
+        {
+          "id": 2,
+          "niceScore": 2,
+          "giftsPreferences": [
+            "Toys",
+            "Toys"
+          ]
+        }
+      ]
+    },
+    {
+      "newSantaBudget": 977,
+      "newGifts": [
+        {
+          "productName": "Puzzle",
+          "price": 50,
+          "category": "Board Games"
+        }
+      ],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 2,
+          "niceScore": 7,
+          "giftsPreferences": [
+            "Board Games",
+            "Books",
+            "Sweets"
+          ]
+        },
+        {
+          "id": 3,
+          "niceScore": 6,
+          "giftsPreferences": [
+            "Books",
+            "Sweets",
+            "Books",
+            "Toys"
+          ]
+        }
+      ]
+    },
+    {
+      "newSantaBudget": 376,
+      "newGifts": [
+        {
+          "productName": "Harry Potter",
+          "price": 35,
+          "category": "Books"
+        }
+      ],
+      "newChildren": [],
+      "childrenUpdates": []
+    }
+  ]
+}

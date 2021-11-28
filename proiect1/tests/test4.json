@@ -1,0 +1,79 @@
+{
+  "numberOfYears": 3,
+  "santaBudget": 263,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Stoica",
+        "firstName": "Miruna",
+        "age": 12,
+        "city": "Iasi",
+        "niceScore": 10,
+        "giftsPreferences": [
+          "Books",
+          "Board Games",
+          "Toys"
+        ]
+      },
+      {
+        "id": 1,
+        "lastName": "Pop",
+        "firstName": "Maria",
+        "age": 4,
+        "city": "Braila",
+        "niceScore": 9,
+        "giftsPreferences": [
+          "Sweets"
+        ]
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Chocolate",
+        "price": 15,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Puzzle",
+        "price": 50,
+        "category": "Board Games"
+      },
+      {
+        "productName": "Bike",
+        "price": 25,
+        "category": "Toys"
+      },
+      {
+        "productName": "Twilight",
+        "price": 30,
+        "category": "Books"
+      },
+      {
+        "productName": "Car",
+        "price": 20,
+        "category": "Toys"
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 328,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 219,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 415,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    }
+  ]
+}

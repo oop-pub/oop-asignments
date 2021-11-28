@@ -1,0 +1,140 @@
+{
+  "numberOfYears": 2,
+  "santaBudget": 0,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Popa",
+        "firstName": "Tudor",
+        "age": 14,
+        "city": "Bucuresti",
+        "niceScore": 9,
+        "giftsPreferences": [
+          "Sweets",
+          "Board Games",
+          "Books"
+        ]
+      },
+      {
+        "id": 1,
+        "lastName": "Mihalache",
+        "firstName": "Matei",
+        "age": 4,
+        "city": "Constanta",
+        "niceScore": 2,
+        "giftsPreferences": [
+          "Toys",
+          "Sweets",
+          "Books"
+        ]
+      },
+      {
+        "id": 2,
+        "lastName": "Ionescu",
+        "firstName": "Matei",
+        "age": 16,
+        "city": "Braila",
+        "niceScore": 7,
+        "giftsPreferences": [
+          "Technology"
+        ]
+      },
+      {
+        "id": 3,
+        "lastName": "Popa",
+        "firstName": "Diana",
+        "age": 8,
+        "city": "Cluj-Napoca",
+        "niceScore": 7,
+        "giftsPreferences": [
+          "Books"
+        ]
+      },
+      {
+        "id": 4,
+        "lastName": "Stoica",
+        "firstName": "Alexandra",
+        "age": 11,
+        "city": "Constanta",
+        "niceScore": 3,
+        "giftsPreferences": [
+          "Sweets",
+          "Board Games",
+          "Books"
+        ]
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Harry Potter",
+        "price": 35,
+        "category": "Books"
+      },
+      {
+        "productName": "Iphone",
+        "price": 700,
+        "category": "Technology"
+      },
+      {
+        "productName": "Puzzle",
+        "price": 50,
+        "category": "Board Games"
+      },
+      {
+        "productName": "Lego",
+        "price": 30,
+        "category": "Toys"
+      },
+      {
+        "productName": "Milk and Cookies",
+        "price": 30,
+        "category": "Sweets"
+      },
+      {
+        "productName": "Uno",
+        "price": 10,
+        "category": "Board Games"
+      },
+      {
+        "productName": "Teddy Bear",
+        "price": 5,
+        "category": "Toys"
+      },
+      {
+        "productName": "Diary of a Wimpy Kid",
+        "price": 25,
+        "category": "Books"
+      },
+      {
+        "productName": "Laptop",
+        "price": 500,
+        "category": "Technology"
+      },
+      {
+        "productName": "Twilight",
+        "price": 30,
+        "category": "Books"
+      },
+      {
+        "productName": "Bag of Candy",
+        "price": 20,
+        "category": "Sweets"
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 200,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 345,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    }
+  ]
+}

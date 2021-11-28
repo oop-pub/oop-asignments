@@ -1,0 +1,106 @@
+{
+  "numberOfYears": 4,
+  "santaBudget": 527,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Stoica",
+        "firstName": "Andreea",
+        "age": 17,
+        "city": "Cluj-Napoca",
+        "niceScore": 2,
+        "giftsPreferences": [
+          "Clothes",
+          "Toys"
+        ]
+      },
+      {
+        "id": 1,
+        "lastName": "Pop",
+        "firstName": "Alexandra",
+        "age": 16,
+        "city": "Iasi",
+        "niceScore": 8,
+        "giftsPreferences": [
+          "Toys"
+        ]
+      },
+      {
+        "id": 2,
+        "lastName": "Popa",
+        "firstName": "Diana",
+        "age": 15,
+        "city": "Brasov",
+        "niceScore": 10,
+        "giftsPreferences": [
+          "Technology",
+          "Clothes"
+        ]
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Bike",
+        "price": 25,
+        "category": "Toys"
+      },
+      {
+        "productName": "Headphones",
+        "price": 100,
+        "category": "Technology"
+      },
+      {
+        "productName": "Shoes",
+        "price": 70,
+        "category": "Clothes"
+      },
+      {
+        "productName": "Castle",
+        "price": 15,
+        "category": "Toys"
+      },
+      {
+        "productName": "Handbag",
+        "price": 200,
+        "category": "Clothes"
+      },
+      {
+        "productName": "Iphone",
+        "price": 700,
+        "category": "Technology"
+      },
+      {
+        "productName": "Doll",
+        "price": 10,
+        "category": "Toys"
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 500,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 657,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 890,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 1200,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    }
+  ]
+}

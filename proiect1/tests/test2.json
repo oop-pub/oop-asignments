@@ -1,0 +1,119 @@
+{
+  "numberOfYears": 3,
+  "santaBudget": 1293,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Popa",
+        "firstName": "Andreea",
+        "age": 20,
+        "city": "Iasi",
+        "niceScore": 8,
+        "giftsPreferences": [
+          "Technology",
+          "Toys",
+          "Clothes"
+        ]
+      },
+      {
+        "id": 1,
+        "lastName": "Mihalache",
+        "firstName": "Tudor",
+        "age": 17,
+        "city": "Oradea",
+        "niceScore": 4,
+        "giftsPreferences": [
+          "Books",
+          "Board Games"
+        ]
+      },
+      {
+        "id": 2,
+        "lastName": "Stoica",
+        "firstName": "Tudor",
+        "age": 3,
+        "city": "Craiova",
+        "niceScore": 9,
+        "giftsPreferences": [
+          "Books",
+          "Clothes"
+        ]
+      },
+      {
+        "id": 3,
+        "lastName": "Pop",
+        "firstName": "Matei",
+        "age": 10,
+        "city": "Craiova",
+        "niceScore": 3,
+        "giftsPreferences": [
+          "Books",
+          "Board Games"
+        ]
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Shoes",
+        "price": 70,
+        "category": "Clothes"
+      },
+      {
+        "productName": "Lego",
+        "price": 30,
+        "category": "Toys"
+      },
+      {
+        "productName": "Handbag",
+        "price": 200,
+        "category": "Clothes"
+      },
+      {
+        "productName": "Teddy Bear",
+        "price": 10,
+        "category": "Toys"
+      },
+      {
+        "productName": "Diary of a Wimpy Kid",
+        "price": 25,
+        "category": "Books"
+      },
+      {
+        "productName": "Monopoly",
+        "price": 30,
+        "category": "Board Games"
+      },
+      {
+        "productName": "Iphone",
+        "price": 700,
+        "category": "Technology"
+      },
+      {
+        "productName": "Puzzle",
+        "price": 50,
+        "category": "Board Games"
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 1467,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 1798,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    },
+    {
+      "newSantaBudget": 1293,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": []
+    }
+  ]
+}
