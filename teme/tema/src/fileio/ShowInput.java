@@ -24,7 +24,7 @@ public abstract class ShowInput {
      * Show genres
      */
     private final ArrayList<String> genres;
-
+    public abstract double average();
     public ShowInput(final String title, final int year,
                      final ArrayList<String> cast, final ArrayList<String> genres) {
         this.title = title;
@@ -48,4 +48,6 @@ public abstract class ShowInput {
     public final ArrayList<String> getGenres() {
         return genres;
     }
+
+
 }

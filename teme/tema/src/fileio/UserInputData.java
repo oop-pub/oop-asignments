@@ -1,6 +1,8 @@
 package fileio;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -25,7 +27,7 @@ public final class UserInputData {
      * Movies added to favorites
      */
     private final ArrayList<String> favoriteMovies;
-
+    private final ArrayList<String> ratedMovies = new ArrayList<>();
     public UserInputData(final String username, final String subscriptionType,
                          final Map<String, Integer> history,
                          final ArrayList<String> favoriteMovies) {
@@ -35,6 +37,7 @@ public final class UserInputData {
         this.history = history;
     }
 
+
     public String getUsername() {
         return username;
     }
@@ -43,12 +46,11 @@ public final class UserInputData {
         return history;
     }
 
-    public String getSubscriptionType() {
-        return subscriptionType;
-    }
-
-    public ArrayList<String> getFavoriteMovies() {
+    public ArrayList<String> getFavMovies() {
         return favoriteMovies;
+    }
+    public ArrayList<String> getRatedMovies() {
+        return ratedMovies;
     }
 
     @Override
@@ -59,4 +61,5 @@ public final class UserInputData {
                 + history + ", favoriteMovies="
                 + favoriteMovies + '}';
     }
+
 }

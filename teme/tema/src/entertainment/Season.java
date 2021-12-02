@@ -28,10 +28,31 @@ public final class Season {
         this.ratings = new ArrayList<>();
     }
 
+    /**
+     *
+     * @return
+     */
+    public double average() {
+        double sum = 0.0;
+
+        switch (ratings.size()) {
+            case 0:
+                return 0.0;
+        }
+        for (int i = 0, ratingsSize = ratings.size(); i < ratingsSize; i++) {
+            Double rating = ratings.get(i);
+            sum = sum + rating;
+        }
+        return sum / ratings.size();
+    }
     public int getDuration() {
         return duration;
     }
 
+    /**
+     *
+     * @param duration
+     */
     public void setDuration(final int duration) {
         this.duration = duration;
     }

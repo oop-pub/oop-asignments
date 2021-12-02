@@ -3,6 +3,7 @@ package fileio;
 import actor.ActorsAwards;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -36,6 +37,11 @@ public final class ActorInputData {
         this.filmography = filmography;
         this.awards = awards;
     }
+    private final Map<String, Double> Averageactor;
+
+    {
+        Averageactor = new HashMap<>();
+    }
 
     public String getName() {
         return name;
@@ -48,7 +54,9 @@ public final class ActorInputData {
     public ArrayList<String> getFilmography() {
         return filmography;
     }
-
+    public Map<String, Double> getActorsAverage() {
+        return Averageactor;
+    }
     public void setFilmography(final ArrayList<String> filmography) {
         this.filmography = filmography;
     }
@@ -63,6 +71,29 @@ public final class ActorInputData {
 
     public void setCareerDescription(final String careerDescription) {
         this.careerDescription = careerDescription;
+    }
+
+    /**
+     *
+     * @return
+     */
+    public Double average() {
+        Double sum = 0.0;
+        for (Map.Entry<String, Double> show : Averageactor.entrySet()) sum += show.getValue();
+
+        return sum / Averageactor.size();
+    }
+
+    /**
+     *
+     * @return
+     */
+    public Integer totalAwards() {
+        Integer sum = 0;
+
+        for (Integer noAwards : awards.values()) sum = sum + noAwards;
+
+        return sum;
     }
 
     @Override

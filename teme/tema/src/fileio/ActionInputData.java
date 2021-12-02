@@ -63,7 +63,7 @@ public final class ActionInputData {
      */
     private final List<List<String>> filters = new ArrayList<>();
 
-    protected ActionInputData(final int actionId, final String actionType,
+    ActionInputData(final int actionId, final String actionType,
                               final String type, final String username, final String genre) {
         this.actionId = actionId;
         this.actionType = actionType;

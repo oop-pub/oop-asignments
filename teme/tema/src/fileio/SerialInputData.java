@@ -31,11 +31,31 @@ public final class SerialInputData extends ShowInput {
     public int getNumberSeason() {
         return numberOfSeasons;
     }
-
+    public double average() {
+        double sum = 0.0;
+        for (int i = 0, seasonsSize = seasons.size(); i < seasonsSize; i++) {
+            Season season = seasons.get(i);
+            sum = sum + season.average();
+        }
+        return sum / numberOfSeasons;
+    }
     public ArrayList<Season> getSeasons() {
         return seasons;
     }
+    /**
+     * This method computes the duration of
+     * a serial by adding all seasons' durations
+     * @return the full duration of a serial
+     */
+    public int serialDuration() {
+        int duration = 0;
 
+        for (Season season : getSeasons()) {
+            duration = duration+ season.getDuration();
+        }
+
+        return duration;
+    }
     @Override
     public String toString() {
         return "SerialInputData{" + " title= "
