@@ -9,10 +9,10 @@
       "giftsPreferences" : [ "Clothes", "Toys" ],
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 42.16,
+      "assignedBudget" : 52.7,
       "receivedGifts" : [ {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
+        "productName" : "Doll",
+        "price" : 10.0,
         "category" : "Toys"
       } ]
     }, {
@@ -24,10 +24,10 @@
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 168.64,
+      "assignedBudget" : 210.8,
       "receivedGifts" : [ {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
+        "productName" : "Doll",
+        "price" : 10.0,
         "category" : "Toys"
       } ]
     }, {
@@ -39,34 +39,15 @@
       "giftsPreferences" : [ "Technology", "Clothes" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 210.79999999999998,
+      "assignedBudget" : 263.5,
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
         "category" : "Technology"
       }, {
-        "productName" : "Dress",
-        "price" : 45.0,
+        "productName" : "Shoes",
+        "price" : 70.0,
         "category" : "Clothes"
-      } ]
-    }, {
-      "id" : 3,
-      "lastName" : "Pop",
-      "firstName" : "Miruna",
-      "city" : "Craiova",
-      "age" : 7,
-      "giftsPreferences" : [ "Toys" ],
-      "averageScore" : 5.0,
-      "niceScoreHistory" : [ 2.0, 8.0 ],
-      "assignedBudget" : 105.39999999999999,
-      "receivedGifts" : [ {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
       } ]
     } ]
   }, {
@@ -79,10 +60,10 @@
       "giftsPreferences" : [ "Clothes", "Toys" ],
       "averageScore" : 2.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 40.0,
+      "assignedBudget" : 50.0,
       "receivedGifts" : [ {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
+        "productName" : "Doll",
+        "price" : 10.0,
         "category" : "Toys"
       } ]
     }, {
@@ -94,10 +75,10 @@
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 160.0,
+      "assignedBudget" : 200.0,
       "receivedGifts" : [ {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
+        "productName" : "Doll",
+        "price" : 10.0,
         "category" : "Toys"
       } ]
     }, {
@@ -109,30 +90,15 @@
       "giftsPreferences" : [ "Technology", "Clothes" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 200.0,
+      "assignedBudget" : 250.0,
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
         "category" : "Technology"
       }, {
-        "productName" : "Dress",
-        "price" : 45.0,
+        "productName" : "Shoes",
+        "price" : 70.0,
         "category" : "Clothes"
-      } ]
-    }, {
-      "id" : 3,
-      "lastName" : "Pop",
-      "firstName" : "Miruna",
-      "city" : "Craiova",
-      "age" : 8,
-      "giftsPreferences" : [ "Toys" ],
-      "averageScore" : 5.0,
-      "niceScoreHistory" : [ 2.0, 8.0 ],
-      "assignedBudget" : 100.0,
-      "receivedGifts" : [ {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
       } ]
     } ]
   }, {
@@ -145,10 +111,10 @@
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 228.52173913043478,
+      "assignedBudget" : 292.0,
       "receivedGifts" : [ {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
+        "productName" : "Doll",
+        "price" : 10.0,
         "category" : "Toys"
       } ]
     }, {
@@ -160,30 +126,15 @@
       "giftsPreferences" : [ "Technology", "Clothes" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 285.6521739130435,
+      "assignedBudget" : 365.0,
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
         "category" : "Technology"
       }, {
-        "productName" : "Dress",
-        "price" : 45.0,
+        "productName" : "Shoes",
+        "price" : 70.0,
         "category" : "Clothes"
-      } ]
-    }, {
-      "id" : 3,
-      "lastName" : "Pop",
-      "firstName" : "Miruna",
-      "city" : "Craiova",
-      "age" : 9,
-      "giftsPreferences" : [ "Toys" ],
-      "averageScore" : 5.0,
-      "niceScoreHistory" : [ 2.0, 8.0 ],
-      "assignedBudget" : 142.82608695652175,
-      "receivedGifts" : [ {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
       } ]
     } ]
   }, {
@@ -196,48 +147,18 @@
       "giftsPreferences" : [ "Technology", "Clothes" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 593.3333333333334,
+      "assignedBudget" : 890.0,
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
         "category" : "Technology"
       }, {
-        "productName" : "Dress",
-        "price" : 45.0,
+        "productName" : "Shoes",
+        "price" : 70.0,
         "category" : "Clothes"
-      } ]
-    }, {
-      "id" : 3,
-      "lastName" : "Pop",
-      "firstName" : "Miruna",
-      "city" : "Craiova",
-      "age" : 10,
-      "giftsPreferences" : [ "Toys" ],
-      "averageScore" : 5.0,
-      "niceScoreHistory" : [ 2.0, 8.0 ],
-      "assignedBudget" : 296.6666666666667,
-      "receivedGifts" : [ {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
       } ]
     } ]
   }, {
-    "children" : [ {
-      "id" : 3,
-      "lastName" : "Pop",
-      "firstName" : "Miruna",
-      "city" : "Craiova",
-      "age" : 11,
-      "giftsPreferences" : [ "Toys" ],
-      "averageScore" : 5.0,
-      "niceScoreHistory" : [ 2.0, 8.0 ],
-      "assignedBudget" : 1200.0,
-      "receivedGifts" : [ {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
-      } ]
-    } ]
+    "children" : [ ]
   } ]
 }

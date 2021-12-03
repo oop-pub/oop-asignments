@@ -1,49 +1,6 @@
 {
   "annualChildren" : [ {
     "children" : [ {
-      "id" : 0,
-      "lastName" : "Mihalache",
-      "firstName" : "Diana",
-      "city" : "Bucuresti",
-      "age" : 17,
-      "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
-      "averageScore" : 3.0,
-      "niceScoreHistory" : [ 9.0, 0.0 ],
-      "assignedBudget" : 50.08108108108108,
-      "receivedGifts" : [ {
-        "productName" : "Gummy Bears",
-        "price" : 10.0,
-        "category" : "Sweets"
-      }, {
-        "productName" : "Uno",
-        "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Diary of a Wimpy Kid",
-        "price" : 25.0,
-        "category" : "Books"
-      }, {
-        "productName" : "Gummy Bears",
-        "price" : 10.0,
-        "category" : "Sweets"
-      }, {
-        "productName" : "Uno",
-        "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Diary of a Wimpy Kid",
-        "price" : 25.0,
-        "category" : "Books"
-      } ]
-    }, {
       "id" : 1,
       "lastName" : "Stoica",
       "firstName" : "Tudor",
@@ -52,7 +9,7 @@
       "giftsPreferences" : [ "Toys", "Books" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 116.85585585585585,
+      "assignedBudget" : 149.09195402298852,
       "receivedGifts" : [ {
         "productName" : "Teddy Bear",
         "price" : 5.0,
@@ -71,7 +28,7 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 166.93693693693692,
+      "assignedBudget" : 212.98850574712645,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -94,7 +51,7 @@
       "giftsPreferences" : [ "Board Games", "Technology" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 166.93693693693692,
+      "assignedBudget" : 212.98850574712645,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -113,7 +70,7 @@
       "giftsPreferences" : [ "Board Games", "Books", "Toys", "Technology" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 166.93693693693692,
+      "assignedBudget" : 212.98850574712645,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -140,7 +97,7 @@
       "giftsPreferences" : [ "Books", "Toys", "Technology", "Sweets" ],
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 150.24324324324323,
+      "assignedBudget" : 191.6896551724138,
       "receivedGifts" : [ {
         "productName" : "Diary of a Wimpy Kid",
         "price" : 25.0,
@@ -167,7 +124,7 @@
       "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Books", "Sweets" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 133.54954954954954,
+      "assignedBudget" : 170.39080459770116,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -198,7 +155,7 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Books", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 166.93693693693692,
+      "assignedBudget" : 212.98850574712645,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -225,7 +182,7 @@
       "giftsPreferences" : [ "Board Games", "Sweets" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 50.08108108108108,
+      "assignedBudget" : 63.896551724137936,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -244,7 +201,7 @@
       "giftsPreferences" : [ "Toys", "Technology", "Sweets" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 50.08108108108108,
+      "assignedBudget" : 63.896551724137936,
       "receivedGifts" : [ {
         "productName" : "Teddy Bear",
         "price" : 5.0,
@@ -263,7 +220,7 @@
       "giftsPreferences" : [ "Technology", "Board Games", "Toys", "Books" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 66.77477477477477,
+      "assignedBudget" : 85.19540229885058,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -286,7 +243,7 @@
       "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 116.85585585585585,
+      "assignedBudget" : 149.09195402298852,
       "receivedGifts" : [ {
         "productName" : "Teddy Bear",
         "price" : 5.0,
@@ -309,7 +266,7 @@
       "giftsPreferences" : [ "Clothes", "Toys" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 100.16216216216216,
+      "assignedBudget" : 127.79310344827587,
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
@@ -318,110 +275,10 @@
         "productName" : "Teddy Bear",
         "price" : 5.0,
         "category" : "Toys"
-      } ]
-    }, {
-      "id" : 13,
-      "lastName" : "Ionescu",
-      "firstName" : "Matei",
-      "city" : "Constanta",
-      "age" : 11,
-      "giftsPreferences" : [ "Technology", "Board Games" ],
-      "averageScore" : 8.0,
-      "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 133.54954954954954,
-      "receivedGifts" : [ {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
-        "productName" : "Uno",
-        "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
-        "productName" : "Uno",
-        "price" : 10.0,
-        "category" : "Board Games"
-      } ]
-    }, {
-      "id" : 14,
-      "lastName" : "Pop",
-      "firstName" : "Diana",
-      "city" : "Bucuresti",
-      "age" : 15,
-      "giftsPreferences" : [ "Toys", "Technology", "Sweets" ],
-      "averageScore" : 3.0,
-      "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 50.08108108108108,
-      "receivedGifts" : [ {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
-      }, {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Gummy Bears",
-        "price" : 10.0,
-        "category" : "Sweets"
-      } ]
-    }, {
-      "id" : 15,
-      "lastName" : "Pop",
-      "firstName" : "Tudor",
-      "city" : "Iasi",
-      "age" : 4,
-      "giftsPreferences" : [ "Toys", "Clothes", "Board Games" ],
-      "averageScore" : 10.0,
-      "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 166.93693693693692,
-      "receivedGifts" : [ {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
-        "productName" : "Uno",
-        "price" : 10.0,
-        "category" : "Board Games"
-      }, {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
-        "productName" : "Uno",
-        "price" : 10.0,
-        "category" : "Board Games"
       } ]
     } ]
   }, {
     "children" : [ {
-      "id" : 0,
-      "lastName" : "Mihalache",
-      "firstName" : "Diana",
-      "city" : "Bucuresti",
-      "age" : 18,
-      "giftsPreferences" : [ "Sweets", "Board Games", "Toys", "Books" ],
-      "averageScore" : 3.0,
-      "niceScoreHistory" : [ 9.0, 0.0 ],
-      "assignedBudget" : 3.887755102040816,
-      "receivedGifts" : [ ]
-    }, {
       "id" : 1,
       "lastName" : "Stoica",
       "firstName" : "Tudor",
@@ -430,7 +287,7 @@
       "giftsPreferences" : [ "Toys", "Books" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 9.071428571428571,
+      "assignedBudget" : 10.337209302325581,
       "receivedGifts" : [ {
         "productName" : "Teddy Bear",
         "price" : 5.0,
@@ -445,7 +302,7 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 12.959183673469388,
+      "assignedBudget" : 14.767441860465116,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -460,7 +317,7 @@
       "giftsPreferences" : [ "Board Games", "Technology" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 12.959183673469388,
+      "assignedBudget" : 14.767441860465116,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -475,7 +332,7 @@
       "giftsPreferences" : [ "Board Games", "Books", "Toys", "Technology" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 10.36734693877551,
+      "assignedBudget" : 11.813953488372093,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -490,7 +347,7 @@
       "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Books", "Sweets" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 10.36734693877551,
+      "assignedBudget" : 11.813953488372093,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -505,7 +362,7 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Books", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 12.959183673469388,
+      "assignedBudget" : 14.767441860465116,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -520,7 +377,7 @@
       "giftsPreferences" : [ "Board Games", "Sweets" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 3.887755102040816,
+      "assignedBudget" : 4.430232558139535,
       "receivedGifts" : [ ]
     }, {
       "id" : 9,
@@ -531,7 +388,7 @@
       "giftsPreferences" : [ "Toys", "Technology", "Sweets" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 3.887755102040816,
+      "assignedBudget" : 4.430232558139535,
       "receivedGifts" : [ ]
     }, {
       "id" : 10,
@@ -542,7 +399,7 @@
       "giftsPreferences" : [ "Technology", "Board Games", "Toys", "Books" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 5.183673469387755,
+      "assignedBudget" : 5.906976744186046,
       "receivedGifts" : [ {
         "productName" : "Teddy Bear",
         "price" : 5.0,
@@ -557,7 +414,7 @@
       "giftsPreferences" : [ "Toys", "Books", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 9.071428571428571,
+      "assignedBudget" : 10.337209302325581,
       "receivedGifts" : [ {
         "productName" : "Teddy Bear",
         "price" : 5.0,
@@ -572,7 +429,7 @@
       "giftsPreferences" : [ "Clothes", "Toys" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 7.775510204081632,
+      "assignedBudget" : 8.86046511627907,
       "receivedGifts" : [ {
         "productName" : "Teddy Bear",
         "price" : 5.0,
@@ -587,37 +444,11 @@
       "giftsPreferences" : [ "Clothes", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 12.959183673469388,
+      "assignedBudget" : 14.767441860465116,
       "receivedGifts" : [ {
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
-      } ]
-    }, {
-      "id" : 14,
-      "lastName" : "Pop",
-      "firstName" : "Diana",
-      "city" : "Bucuresti",
-      "age" : 16,
-      "giftsPreferences" : [ "Toys", "Technology", "Sweets" ],
-      "averageScore" : 3.0,
-      "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 3.887755102040816,
-      "receivedGifts" : [ ]
-    }, {
-      "id" : 15,
-      "lastName" : "Pop",
-      "firstName" : "Tudor",
-      "city" : "Iasi",
-      "age" : 5,
-      "giftsPreferences" : [ "Toys", "Clothes", "Board Games" ],
-      "averageScore" : 6.0,
-      "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 7.775510204081632,
-      "receivedGifts" : [ {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
       } ]
     } ]
   }, {
@@ -630,7 +461,7 @@
       "giftsPreferences" : [ "Toys", "Books" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 132.35714285714286,
+      "assignedBudget" : 140.9891304347826,
       "receivedGifts" : [ {
         "productName" : "Teddy Bear",
         "price" : 5.0,
@@ -649,7 +480,7 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Books" ],
       "averageScore" : 9.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 170.1734693877551,
+      "assignedBudget" : 181.27173913043478,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -672,7 +503,7 @@
       "giftsPreferences" : [ "Board Games", "Technology" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 189.0816326530612,
+      "assignedBudget" : 201.41304347826087,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -691,7 +522,7 @@
       "giftsPreferences" : [ "Board Games", "Books", "Toys", "Technology" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 151.26530612244898,
+      "assignedBudget" : 161.1304347826087,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -718,7 +549,7 @@
       "giftsPreferences" : [ "Board Games", "Clothes", "Toys", "Books", "Sweets" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 151.26530612244898,
+      "assignedBudget" : 161.1304347826087,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -749,7 +580,7 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Books", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 189.0816326530612,
+      "assignedBudget" : 201.41304347826087,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -776,7 +607,7 @@
       "giftsPreferences" : [ "Board Games", "Sweets" ],
       "averageScore" : 7.0,
       "niceScoreHistory" : [ 3.0, 9.0 ],
-      "assignedBudget" : 132.35714285714286,
+      "assignedBudget" : 140.9891304347826,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -795,7 +626,7 @@
       "giftsPreferences" : [ "Toys", "Technology", "Sweets" ],
       "averageScore" : 3.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 56.724489795918366,
+      "assignedBudget" : 60.42391304347826,
       "receivedGifts" : [ {
         "productName" : "Teddy Bear",
         "price" : 5.0,
@@ -814,7 +645,7 @@
       "giftsPreferences" : [ "Technology", "Board Games", "Toys", "Books" ],
       "averageScore" : 4.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 75.63265306122449,
+      "assignedBudget" : 80.56521739130434,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -837,7 +668,7 @@
       "giftsPreferences" : [ "Clothes", "Toys" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 113.44897959183673,
+      "assignedBudget" : 120.84782608695652,
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
@@ -856,7 +687,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 10.0 ],
-      "assignedBudget" : 189.0816326530612,
+      "assignedBudget" : 201.41304347826087,
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
@@ -875,7 +706,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 189.0816326530612,
+      "assignedBudget" : 201.41304347826087,
       "receivedGifts" : [ {
         "productName" : "Teddy Bear",
         "price" : 5.0,
@@ -884,29 +715,6 @@
         "productName" : "Gummy Bears",
         "price" : 10.0,
         "category" : "Sweets"
-      } ]
-    }, {
-      "id" : 15,
-      "lastName" : "Pop",
-      "firstName" : "Tudor",
-      "city" : "Iasi",
-      "age" : 6,
-      "giftsPreferences" : [ "Toys", "Clothes", "Board Games" ],
-      "averageScore" : 6.0,
-      "niceScoreHistory" : [ 6.0 ],
-      "assignedBudget" : 113.44897959183673,
-      "receivedGifts" : [ {
-        "productName" : "Teddy Bear",
-        "price" : 5.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
-        "productName" : "Uno",
-        "price" : 10.0,
-        "category" : "Board Games"
       } ]
     } ]
   }, {
