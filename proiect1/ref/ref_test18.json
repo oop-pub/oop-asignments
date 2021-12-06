@@ -143,18 +143,18 @@
       "firstName" : "Maria",
       "city" : "Brasov",
       "age" : 14,
-      "giftsPreferences" : [ "Toys", "Board Games", "Technology" ],
+      "giftsPreferences" : [ "Board Games", "Toys", "Clothes", "Technology" ],
       "averageScore" : 6.0,
       "niceScoreHistory" : [ 6.0 ],
       "assignedBudget" : 201.0,
       "receivedGifts" : [ {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
-      }, {
         "productName" : "Puzzle",
         "price" : 50.0,
         "category" : "Board Games"
+      }, {
+        "productName" : "Castle",
+        "price" : 15.0,
+        "category" : "Toys"
       } ]
     }, {
       "id" : 4,
