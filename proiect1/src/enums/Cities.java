@@ -11,9 +11,30 @@ public enum Cities {
     CONSTANTA("Constanta"),
 
     @JsonProperty("Buzau")
-    BUZAU("Buzau");
+    BUZAU("Buzau"),
 
-    private final String value;
+    @JsonProperty("Timisoara")
+    TIMISOARA("Timisoara"),
+
+    @JsonProperty("Cluj-Napoca")
+    CLUJ("Cluj-Napoca"),
+
+    @JsonProperty("Iasi")
+    IASI("Iasi"),
+
+    @JsonProperty("Craiova")
+    CRAIOVA("Craiova"),
+
+    @JsonProperty("Brasov")
+    BRASOV("Brasov"),
+
+    @JsonProperty("Braila")
+    BRAILA("Braila"),
+
+    @JsonProperty("Oradea")
+    ORADEA("Oradea");
+
+    private String value;
 
     Cities(final String value) {
         this.value = value;
