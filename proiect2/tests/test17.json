@@ -1,0 +1,167 @@
+{
+  "numberOfYears": 3,
+  "santaBudget": 70,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Cantemir",
+        "firstName": "Diana",
+        "age": 16,
+        "city": "Craiova",
+        "niceScore": 2,
+        "giftsPreferences": [
+          "Clothes",
+          "Technology",
+          "Toys",
+          "Books"
+        ],
+        "niceScoreBonus": 0,
+        "elf": "yellow"
+      },
+      {
+        "id": 1,
+        "lastName": "Stoica",
+        "firstName": "Tudor",
+        "age": 10,
+        "city": "Bucuresti",
+        "niceScore": 10,
+        "giftsPreferences": [
+          "Technology",
+          "Toys",
+          "Books"
+        ],
+        "niceScoreBonus": 0,
+        "elf": "yellow"
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Shoes",
+        "price": 70,
+        "category": "Clothes",
+        "quantity": 7
+      },
+      {
+        "productName": "Lego",
+        "price": 30,
+        "category": "Toys",
+        "quantity": 8
+      },
+      {
+        "productName": "Teddy Bear",
+        "price": 5,
+        "category": "Toys",
+        "quantity": 7
+      },
+      {
+        "productName": "Twilight",
+        "price": 30,
+        "category": "Books",
+        "quantity": 6
+      },
+      {
+        "productName": "Iphone",
+        "price": 700,
+        "category": "Technology",
+        "quantity": 5
+      },
+      {
+        "productName": "Harry Potter",
+        "price": 35,
+        "category": "Books",
+        "quantity": 4
+      },
+      {
+        "productName": "Monopoly",
+        "price": 30,
+        "category": "Board Games",
+        "quantity": 9
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 70,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": 9,
+          "giftsPreferences": [
+            "Technology",
+            "Toys"
+          ],
+          "elf": "yellow"
+        },
+        {
+          "id": 1,
+          "niceScore": null,
+          "giftsPreferences": [
+            "Clothes",
+            "Technology",
+            "Toys",
+            "Board Games"
+          ],
+          "elf": "yellow"
+        }
+      ],
+      "strategy": "id"
+    },
+    {
+      "newSantaBudget": 70,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": 7,
+          "giftsPreferences": [
+            "Technology",
+            "Books"
+          ],
+          "elf": "yellow"
+        },
+        {
+          "id": 1,
+          "niceScore": 4,
+          "giftsPreferences": [
+            "Clothes",
+            "Technology",
+            "Toys",
+            "Books"
+          ],
+          "elf": "yellow"
+        }
+      ],
+      "strategy": "id"
+    },
+    {
+      "newSantaBudget": 70,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": null,
+          "giftsPreferences": [
+            "Clothes",
+            "Toys",
+            "Board Games"
+          ],
+          "elf": "yellow"
+        },
+        {
+          "id": 1,
+          "niceScore": 2,
+          "giftsPreferences": [
+            "Toys"
+          ],
+          "elf": "yellow"
+        }
+      ],
+      "strategy": "id"
+    }
+  ]
+}

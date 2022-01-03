@@ -1,0 +1,59 @@
+{
+  "numberOfYears": 1,
+  "santaBudget": 326,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Cantemir",
+        "firstName": "Maria",
+        "age": 4,
+        "city": "Timisoara",
+        "niceScore": 10,
+        "giftsPreferences": [
+          "Board Games",
+          "Clothes",
+          "Books"
+        ],
+        "niceScoreBonus": 0,
+        "elf": "white"
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Harry Potter",
+        "price": 35,
+        "category": "Books",
+        "quantity": 5
+      },
+      {
+        "productName": "Dress",
+        "price": 45,
+        "category": "Clothes",
+        "quantity": 4
+      },
+      {
+        "productName": "Uno",
+        "price": 10,
+        "category": "Board Games",
+        "quantity": 2
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 326,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": 10,
+          "giftsPreferences": [],
+          "elf": "white"
+        }
+      ],
+      "strategy": "id"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "numberOfYears": 3,
+  "santaBudget": 138,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Popa",
+        "firstName": "Tudor",
+        "age": 10,
+        "city": "Constanta",
+        "niceScore": 5,
+        "giftsPreferences": [
+          "Board Games",
+          "Sweets",
+          "Toys"
+        ],
+        "niceScoreBonus": 0,
+        "elf": "white"
+      },
+      {
+        "id": 1,
+        "lastName": "Pop",
+        "firstName": "Mihai",
+        "age": 17,
+        "city": "Braila",
+        "niceScore": 10,
+        "giftsPreferences": [
+          "Technology",
+          "Toys",
+          "Books"
+        ],
+        "niceScoreBonus": 0,
+        "elf": "white"
+      },
+      {
+        "id": 2,
+        "lastName": "Pop",
+        "firstName": "Andreea",
+        "age": 10,
+        "city": "Timisoara",
+        "niceScore": 9,
+        "giftsPreferences": [
+          "Board Games",
+          "Toys"
+        ],
+        "niceScoreBonus": 0,
+        "elf": "white"
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Puzzle",
+        "price": 50,
+        "category": "Board Games",
+        "quantity": 4
+      },
+      {
+        "productName": "Headphones",
+        "price": 100,
+        "category": "Technology",
+        "quantity": 7
+      },
+      {
+        "productName": "Lego",
+        "price": 30,
+        "category": "Toys",
+        "quantity": 9
+      },
+      {
+        "productName": "Doll",
+        "price": 10,
+        "category": "Toys",
+        "quantity": 4
+      },
+      {
+        "productName": "Monopoly",
+        "price": 30,
+        "category": "Board Games",
+        "quantity": 4
+      },
+      {
+        "productName": "Teddy Bear",
+        "price": 5,
+        "category": "Toys",
+        "quantity": 1
+      },
+      {
+        "productName": "Twilight",
+        "price": 30,
+        "category": "Books",
+        "quantity": 8
+      },
+      {
+        "productName": "Bag of Candy",
+        "price": 20,
+        "category": "Sweets",
+        "quantity": 5
+      },
+      {
+        "productName": "Castle",
+        "price": 15,
+        "category": "Toys",
+        "quantity": 7
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 138,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": 0,
+          "giftsPreferences": [],
+          "elf": "white"
+        },
+        {
+          "id": 1,
+          "niceScore": null,
+          "giftsPreferences": [
+            "Board Games",
+            "Toys"
+          ],
+          "elf": "white"
+        },
+        {
+          "id": 2,
+          "niceScore": null,
+          "giftsPreferences": [
+            "Toys"
+          ],
+          "elf": "white"
+        }
+      ],
+      "strategy": "niceScore"
+    },
+    {
+      "newSantaBudget": 704,
+      "newGifts": [
+        {
+          "productName": "Dress",
+          "price": 45,
+          "category": "Clothes",
+          "quantity": 8
+        }
+      ],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": 3,
+          "giftsPreferences": [
+            "Technology",
+            "Sweets",
+            "Toys"
+          ],
+          "elf": "white"
+        },
+        {
+          "id": 1,
+          "niceScore": 7,
+          "giftsPreferences": [
+            "Board Games"
+          ],
+          "elf": "white"
+        },
+        {
+          "id": 2,
+          "niceScore": 5,
+          "giftsPreferences": [
+            "Technology",
+            "Toys",
+            "Books"
+          ],
+          "elf": "white"
+        }
+      ],
+      "strategy": "niceScore"
+    },
+    {
+      "newSantaBudget": 316,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": null,
+          "giftsPreferences": [
+            "Board Games",
+            "Toys"
+          ],
+          "elf": "white"
+        },
+        {
+          "id": 1,
+          "niceScore": 8,
+          "giftsPreferences": [],
+          "elf": "white"
+        },
+        {
+          "id": 2,
+          "niceScore": 0,
+          "giftsPreferences": [
+            "Technology",
+            "Toys"
+          ],
+          "elf": "white"
+        }
+      ],
+      "strategy": "niceScore"
+    }
+  ]
+}

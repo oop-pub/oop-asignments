@@ -1,0 +1,79 @@
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Tudor",
+      "city" : "Cluj-Napoca",
+      "age" : 14,
+      "giftsPreferences" : [ "Books", "Toys" ],
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 9.375,
+      "receivedGifts" : [ ]
+    }, {
+      "id" : 1,
+      "lastName" : "Cantemir",
+      "firstName" : "Radu",
+      "city" : "Oradea",
+      "age" : 1,
+      "giftsPreferences" : [ "Technology", "Clothes" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 15.625,
+      "receivedGifts" : [ ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Tudor",
+      "city" : "Cluj-Napoca",
+      "age" : 15,
+      "giftsPreferences" : [ "Books", "Toys" ],
+      "averageScore" : 8.0,
+      "niceScoreHistory" : [ 6.0, 9.0 ],
+      "assignedBudget" : 11.11111111111111,
+      "receivedGifts" : [ {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Cantemir",
+      "firstName" : "Radu",
+      "city" : "Oradea",
+      "age" : 2,
+      "giftsPreferences" : [ "Technology", "Clothes" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 7.0, 6.0 ],
+      "assignedBudget" : 13.88888888888889,
+      "receivedGifts" : [ ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Tudor",
+      "city" : "Cluj-Napoca",
+      "age" : 16,
+      "giftsPreferences" : [ "Books", "Toys" ],
+      "averageScore" : 6.5,
+      "niceScoreHistory" : [ 6.0, 9.0, 5.0 ],
+      "assignedBudget" : 9.848484848484848,
+      "receivedGifts" : [ ]
+    }, {
+      "id" : 1,
+      "lastName" : "Cantemir",
+      "firstName" : "Radu",
+      "city" : "Oradea",
+      "age" : 3,
+      "giftsPreferences" : [ "Technology", "Clothes" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 7.0, 6.0, 10.0 ],
+      "assignedBudget" : 15.151515151515152,
+      "receivedGifts" : [ ]
+    } ]
+  } ]
+}
