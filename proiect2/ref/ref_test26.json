@@ -9,23 +9,15 @@
       "giftsPreferences" : [ "Technology", "Books", "Clothes", "Toys", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 439.25,
+      "assignedBudget" : 535.6707317073171,
       "receivedGifts" : [ {
+        "productName" : "Laptop",
+        "price" : 500.0,
+        "category" : "Technology"
+      }, {
         "productName" : "Harry Potter",
         "price" : 35.0,
         "category" : "Books"
-      }, {
-        "productName" : "Dress",
-        "price" : 45.0,
-        "category" : "Clothes"
-      }, {
-        "productName" : "Castle",
-        "price" : 15.0,
-        "category" : "Toys"
-      }, {
-        "productName" : "Gummy Bears",
-        "price" : 10.0,
-        "category" : "Sweets"
       } ]
     }, {
       "id" : 1,
@@ -34,12 +26,12 @@
       "city" : "Brasov",
       "age" : 9,
       "giftsPreferences" : [ "Toys", "Sweets" ],
-      "averageScore" : 10.0,
+      "averageScore" : 8.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 439.25,
+      "assignedBudget" : 428.5365853658537,
       "receivedGifts" : [ {
-        "productName" : "Car",
-        "price" : 20.0,
+        "productName" : "Castle",
+        "price" : 15.0,
         "category" : "Toys"
       }, {
         "productName" : "Gummy Bears",
@@ -53,9 +45,9 @@
       "city" : "Braila",
       "age" : 7,
       "giftsPreferences" : [ "Sweets", "Toys", "Clothes" ],
-      "averageScore" : 10.0,
+      "averageScore" : 4.8,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 439.25,
+      "assignedBudget" : 257.1219512195122,
       "receivedGifts" : [ {
         "productName" : "Gummy Bears",
         "price" : 10.0,
@@ -78,12 +70,8 @@
       "giftsPreferences" : [ "Technology" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 571.025,
-      "receivedGifts" : [ {
-        "productName" : "Laptop",
-        "price" : 500.0,
-        "category" : "Technology"
-      } ]
+      "assignedBudget" : 696.3719512195123,
+      "receivedGifts" : [ ]
     } ]
   }, {
     "children" : [ {
@@ -95,7 +83,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets", "Technology", "Books", "Toys" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 7.0, 9.0 ],
-      "assignedBudget" : 302.9310344827586,
+      "assignedBudget" : 326.57992565055764,
       "receivedGifts" : [ {
         "productName" : "Dress",
         "price" : 45.0,
@@ -120,9 +108,9 @@
       "city" : "Brasov",
       "age" : 10,
       "giftsPreferences" : [ "Toys", "Sweets" ],
-      "averageScore" : 10.0,
+      "averageScore" : 8.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 302.9310344827586,
+      "assignedBudget" : 261.2639405204461,
       "receivedGifts" : [ {
         "productName" : "Car",
         "price" : 20.0,
@@ -139,9 +127,9 @@
       "city" : "Braila",
       "age" : 8,
       "giftsPreferences" : [ "Toys", "Sweets", "Clothes" ],
-      "averageScore" : 10.0,
+      "averageScore" : 7.8,
       "niceScoreHistory" : [ 4.0, 9.0 ],
-      "assignedBudget" : 302.9310344827586,
+      "assignedBudget" : 254.73234200743497,
       "receivedGifts" : [ {
         "productName" : "Bike",
         "price" : 25.0,
@@ -151,8 +139,8 @@
         "price" : 15.0,
         "category" : "Sweets"
       }, {
-        "productName" : "Shoes",
-        "price" : 70.0,
+        "productName" : "Handbag",
+        "price" : 200.0,
         "category" : "Clothes"
       } ]
     }, {
@@ -164,18 +152,18 @@
       "giftsPreferences" : [ "Sweets", "Books", "Clothes", "Technology" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 393.81034482758616,
+      "assignedBudget" : 424.55390334572496,
       "receivedGifts" : [ {
-        "productName" : "Bag of Candy",
-        "price" : 20.0,
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
         "category" : "Sweets"
       }, {
         "productName" : "Harry Potter",
         "price" : 35.0,
         "category" : "Books"
       }, {
-        "productName" : "Handbag",
-        "price" : 200.0,
+        "productName" : "Dress",
+        "price" : 45.0,
         "category" : "Clothes"
       } ]
     }, {
@@ -187,14 +175,14 @@
       "giftsPreferences" : [ "Toys", "Clothes" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 7.0 ],
-      "assignedBudget" : 302.9310344827586,
+      "assignedBudget" : 326.57992565055764,
       "receivedGifts" : [ {
-        "productName" : "Bike",
-        "price" : 25.0,
+        "productName" : "Car",
+        "price" : 20.0,
         "category" : "Toys"
       }, {
-        "productName" : "Handbag",
-        "price" : 200.0,
+        "productName" : "Shoes",
+        "price" : 70.0,
         "category" : "Clothes"
       } ]
     }, {
@@ -206,7 +194,7 @@
       "giftsPreferences" : [ "Clothes" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 242.3448275862069,
+      "assignedBudget" : 261.2639405204461,
       "receivedGifts" : [ {
         "productName" : "Handbag",
         "price" : 200.0,
@@ -221,9 +209,9 @@
       "city" : "Timisoara",
       "age" : 6,
       "giftsPreferences" : [ "Clothes", "Sweets", "Technology", "Books", "Toys" ],
-      "averageScore" : 10.0,
+      "averageScore" : 9.6,
       "niceScoreHistory" : [ 7.0, 9.0, 0.0 ],
-      "assignedBudget" : 76.36363636363637,
+      "assignedBudget" : 78.74519377479402,
       "receivedGifts" : [ {
         "productName" : "Bag of Candy",
         "price" : 20.0,
@@ -242,7 +230,7 @@
       "giftsPreferences" : [ "Sweets", "Technology", "Toys", "Clothes" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 4.0, 6.0 ],
-      "assignedBudget" : 76.36363636363637,
+      "assignedBudget" : 82.02624351541044,
       "receivedGifts" : [ {
         "productName" : "Bag of Candy",
         "price" : 20.0,
@@ -259,9 +247,9 @@
       "city" : "Braila",
       "age" : 9,
       "giftsPreferences" : [ "Technology", "Toys", "Sweets", "Clothes" ],
-      "averageScore" : 10.0,
+      "averageScore" : 7.8,
       "niceScoreHistory" : [ 4.0, 9.0 ],
-      "assignedBudget" : 76.36363636363637,
+      "assignedBudget" : 63.980469942020136,
       "receivedGifts" : [ {
         "productName" : "Bike",
         "price" : 25.0,
@@ -280,10 +268,10 @@
       "giftsPreferences" : [ "Clothes", "Sweets", "Books", "Technology" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 8.0, 5.0 ],
-      "assignedBudget" : 99.27272727272728,
+      "assignedBudget" : 106.63411657003357,
       "receivedGifts" : [ {
-        "productName" : "Milk and Cookies",
-        "price" : 30.0,
+        "productName" : "Bag of Candy",
+        "price" : 20.0,
         "category" : "Sweets"
       }, {
         "productName" : "Harry Potter",
@@ -297,9 +285,9 @@
       "city" : "Iasi",
       "age" : 10,
       "giftsPreferences" : [ "Toys", "Clothes" ],
-      "averageScore" : 10.0,
+      "averageScore" : 8.55,
       "niceScoreHistory" : [ 7.0, 2.0 ],
-      "assignedBudget" : 76.36363636363637,
+      "assignedBudget" : 70.13243820567592,
       "receivedGifts" : [ {
         "productName" : "Bike",
         "price" : 25.0,
@@ -314,7 +302,7 @@
       "giftsPreferences" : [ "Clothes", "Toys", "Sweets" ],
       "averageScore" : 8.666666666666666,
       "niceScoreHistory" : [ 8.0, 9.0 ],
-      "assignedBudget" : 66.18181818181819,
+      "assignedBudget" : 71.08941104668904,
       "receivedGifts" : [ {
         "productName" : "Bike",
         "price" : 25.0,
@@ -333,21 +321,17 @@
       "city" : "Timisoara",
       "age" : 7,
       "giftsPreferences" : [ "Technology", "Clothes", "Sweets", "Books", "Toys" ],
-      "averageScore" : 10.0,
+      "averageScore" : 9.6,
       "niceScoreHistory" : [ 7.0, 9.0, 0.0 ],
-      "assignedBudget" : 255.87378640776703,
+      "assignedBudget" : 310.534519791347,
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
         "category" : "Technology"
       }, {
-        "productName" : "Harry Potter",
-        "price" : 35.0,
-        "category" : "Books"
-      }, {
-        "productName" : "Doll",
-        "price" : 10.0,
-        "category" : "Toys"
+        "productName" : "Handbag",
+        "price" : 200.0,
+        "category" : "Clothes"
       } ]
     }, {
       "id" : 1,
@@ -358,15 +342,19 @@
       "giftsPreferences" : [ "Toys", "Technology", "Sweets", "Clothes" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 4.0, 6.0, 6.0 ],
-      "assignedBudget" : 255.87378640776703,
+      "assignedBudget" : 323.4734581159865,
       "receivedGifts" : [ {
-        "productName" : "Bike",
-        "price" : 25.0,
+        "productName" : "Doll",
+        "price" : 10.0,
         "category" : "Toys"
       }, {
         "productName" : "Headphones",
         "price" : 100.0,
         "category" : "Technology"
+      }, {
+        "productName" : "Milk and Cookies",
+        "price" : 30.0,
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 2,
@@ -375,9 +363,9 @@
       "city" : "Braila",
       "age" : 10,
       "giftsPreferences" : [ "Books", "Sweets", "Technology", "Toys", "Clothes" ],
-      "averageScore" : 10.0,
+      "averageScore" : 7.8,
       "niceScoreHistory" : [ 4.0, 9.0 ],
-      "assignedBudget" : 255.87378640776703,
+      "assignedBudget" : 252.30929733046946,
       "receivedGifts" : [ {
         "productName" : "Harry Potter",
         "price" : 35.0,
@@ -398,13 +386,13 @@
       "city" : "Craiova",
       "age" : 14,
       "giftsPreferences" : [ "Clothes", "Toys", "Sweets", "Books", "Technology" ],
-      "averageScore" : 10.0,
+      "averageScore" : 5.7,
       "niceScoreHistory" : [ 8.0, 5.0, 0.0 ],
-      "assignedBudget" : 332.6359223300971,
+      "assignedBudget" : 239.693832463946,
       "receivedGifts" : [ {
-        "productName" : "Handbag",
-        "price" : 200.0,
-        "category" : "Clothes"
+        "productName" : "Harry Potter",
+        "price" : 35.0,
+        "category" : "Books"
       }, {
         "productName" : "Headphones",
         "price" : 100.0,
@@ -417,10 +405,14 @@
       "city" : "Iasi",
       "age" : 11,
       "giftsPreferences" : [ "Clothes", "Toys", "Sweets" ],
-      "averageScore" : 10.0,
+      "averageScore" : 8.55,
       "niceScoreHistory" : [ 7.0, 2.0 ],
-      "assignedBudget" : 255.87378640776703,
-      "receivedGifts" : [ ]
+      "assignedBudget" : 276.5698066891685,
+      "receivedGifts" : [ {
+        "productName" : "Bike",
+        "price" : 25.0,
+        "category" : "Toys"
+      } ]
     }, {
       "id" : 5,
       "lastName" : "Popescu",
@@ -430,8 +422,16 @@
       "giftsPreferences" : [ "Toys", "Clothes", "Sweets" ],
       "averageScore" : 8.666666666666666,
       "niceScoreHistory" : [ 8.0, 9.0 ],
-      "assignedBudget" : 221.75728155339806,
-      "receivedGifts" : [ ]
+      "assignedBudget" : 280.34366370052163,
+      "receivedGifts" : [ {
+        "productName" : "Bike",
+        "price" : 25.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Handbag",
+        "price" : 200.0,
+        "category" : "Clothes"
+      } ]
     }, {
       "id" : 6,
       "lastName" : "Stoica",
@@ -439,9 +439,9 @@
       "city" : "Cluj-Napoca",
       "age" : 16,
       "giftsPreferences" : [ "Toys", "Sweets" ],
-      "averageScore" : 10.0,
+      "averageScore" : 4.0,
       "niceScoreHistory" : [ 2.0 ],
-      "assignedBudget" : 255.87378640776703,
+      "assignedBudget" : 129.3893832463946,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -454,7 +454,7 @@
       "giftsPreferences" : [ "Technology", "Clothes", "Sweets", "Books", "Toys" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 7.0, 9.0, 0.0, 8.0 ],
-      "assignedBudget" : 105.7627118644068,
+      "assignedBudget" : 122.26304188096988,
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
@@ -469,7 +469,7 @@
       "giftsPreferences" : [ "Toys", "Technology", "Sweets", "Clothes" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 4.0, 6.0, 6.0 ],
-      "assignedBudget" : 105.7627118644068,
+      "assignedBudget" : 122.26304188096988,
       "receivedGifts" : [ {
         "productName" : "Headphones",
         "price" : 100.0,
@@ -482,9 +482,9 @@
       "city" : "Braila",
       "age" : 11,
       "giftsPreferences" : [ "Books", "Sweets", "Technology", "Toys", "Clothes" ],
-      "averageScore" : 10.0,
+      "averageScore" : 6.3999999999999995,
       "niceScoreHistory" : [ 4.0, 9.0, 3.0 ],
-      "assignedBudget" : 105.7627118644068,
+      "assignedBudget" : 78.24834680382071,
       "receivedGifts" : [ ]
     }, {
       "id" : 3,
@@ -493,9 +493,9 @@
       "city" : "Craiova",
       "age" : 15,
       "giftsPreferences" : [ "Technology", "Sweets", "Clothes", "Toys", "Books" ],
-      "averageScore" : 10.0,
+      "averageScore" : 5.7,
       "niceScoreHistory" : [ 8.0, 5.0, 0.0 ],
-      "assignedBudget" : 137.49152542372883,
+      "assignedBudget" : 90.59691403379868,
       "receivedGifts" : [ ]
     }, {
       "id" : 4,
@@ -504,9 +504,9 @@
       "city" : "Iasi",
       "age" : 12,
       "giftsPreferences" : [ "Books", "Technology", "Clothes", "Toys", "Sweets" ],
-      "averageScore" : 10.0,
+      "averageScore" : 7.283333333333333,
       "niceScoreHistory" : [ 7.0, 2.0, 4.0 ],
-      "assignedBudget" : 105.7627118644068,
+      "assignedBudget" : 89.04824883663973,
       "receivedGifts" : [ ]
     }, {
       "id" : 5,
@@ -517,7 +517,7 @@
       "giftsPreferences" : [ "Technology", "Toys", "Clothes", "Sweets" ],
       "averageScore" : 8.666666666666666,
       "niceScoreHistory" : [ 8.0, 9.0 ],
-      "assignedBudget" : 91.66101694915255,
+      "assignedBudget" : 105.96130296350722,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -528,7 +528,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 2.0, 9.0 ],
-      "assignedBudget" : 105.7627118644068,
+      "assignedBudget" : 122.26304188096988,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -539,7 +539,7 @@
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 105.7627118644068,
+      "assignedBudget" : 85.58412931667891,
       "receivedGifts" : [ ]
     } ]
   }, {
@@ -552,7 +552,7 @@
       "giftsPreferences" : [ "Technology", "Clothes", "Sweets", "Books", "Toys" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 7.0, 9.0, 0.0, 8.0, 4.0 ],
-      "assignedBudget" : 123.55179704016912,
+      "assignedBudget" : 150.02310417415413,
       "receivedGifts" : [ ]
     }, {
       "id" : 1,
@@ -563,7 +563,7 @@
       "giftsPreferences" : [ "Books", "Toys", "Technology", "Sweets", "Clothes" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 4.0, 6.0, 6.0 ],
-      "assignedBudget" : 123.55179704016912,
+      "assignedBudget" : 150.02310417415413,
       "receivedGifts" : [ ]
     }, {
       "id" : 2,
@@ -572,9 +572,9 @@
       "city" : "Braila",
       "age" : 12,
       "giftsPreferences" : [ "Clothes", "Books", "Sweets", "Technology", "Toys" ],
-      "averageScore" : 10.0,
+      "averageScore" : 6.2,
       "niceScoreHistory" : [ 4.0, 9.0, 3.0 ],
-      "assignedBudget" : 123.55179704016912,
+      "assignedBudget" : 93.01432458797557,
       "receivedGifts" : [ ]
     }, {
       "id" : 3,
@@ -583,9 +583,9 @@
       "city" : "Craiova",
       "age" : 16,
       "giftsPreferences" : [ "Toys", "Sweets", "Technology", "Clothes", "Books" ],
-      "averageScore" : 10.0,
+      "averageScore" : 4.9399999999999995,
       "niceScoreHistory" : [ 8.0, 5.0, 0.0, 2.0 ],
-      "assignedBudget" : 160.61733615221985,
+      "assignedBudget" : 96.34483750064177,
       "receivedGifts" : [ ]
     }, {
       "id" : 4,
@@ -594,9 +594,9 @@
       "city" : "Iasi",
       "age" : 13,
       "giftsPreferences" : [ "Toys", "Books", "Technology", "Clothes", "Sweets" ],
-      "averageScore" : 10.0,
+      "averageScore" : 7.283333333333333,
       "niceScoreHistory" : [ 7.0, 2.0, 4.0 ],
-      "assignedBudget" : 123.55179704016912,
+      "assignedBudget" : 109.2668275401756,
       "receivedGifts" : [ ]
     }, {
       "id" : 5,
@@ -607,7 +607,7 @@
       "giftsPreferences" : [ "Technology", "Toys", "Clothes", "Sweets" ],
       "averageScore" : 8.833333333333334,
       "niceScoreHistory" : [ 8.0, 9.0, 9.0 ],
-      "assignedBudget" : 109.13742071881606,
+      "assignedBudget" : 132.5204086871695,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -616,9 +616,9 @@
       "city" : "Cluj-Napoca",
       "age" : 18,
       "giftsPreferences" : [ "Toys", "Sweets" ],
-      "averageScore" : 10.0,
+      "averageScore" : 7.666666666666668,
       "niceScoreHistory" : [ 2.0, 9.0, 1.0 ],
-      "assignedBudget" : 123.55179704016912,
+      "assignedBudget" : 115.01771320018486,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -629,7 +629,7 @@
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 3.0, 1.0 ],
-      "assignedBudget" : 123.55179704016912,
+      "assignedBudget" : 105.0161729219079,
       "receivedGifts" : [ ]
     } ]
   } ]

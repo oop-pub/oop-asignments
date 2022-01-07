@@ -9,7 +9,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 446.0,
+      "assignedBudget" : 568.1528662420383,
       "receivedGifts" : [ {
         "productName" : "Bike",
         "price" : 25.0,
@@ -26,9 +26,9 @@
       "city" : "Timisoara",
       "age" : 14,
       "giftsPreferences" : [ "Board Games", "Technology", "Sweets", "Books" ],
-      "averageScore" : 10.0,
+      "averageScore" : 5.7,
       "niceScoreHistory" : [ 3.0 ],
-      "assignedBudget" : 446.0,
+      "assignedBudget" : 226.69299363057326,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -51,9 +51,9 @@
       "city" : "Braila",
       "age" : 13,
       "giftsPreferences" : [ "Toys", "Sweets" ],
-      "averageScore" : 10.0,
+      "averageScore" : 7.366666666666667,
       "niceScoreHistory" : [ 9.0, 4.0 ],
-      "assignedBudget" : 297.33333333333337,
+      "assignedBudget" : 341.0588235294118,
       "receivedGifts" : [ {
         "productName" : "Bike",
         "price" : 25.0,
@@ -70,9 +70,9 @@
       "city" : "Timisoara",
       "age" : 15,
       "giftsPreferences" : [ "Board Games", "Sweets", "Technology", "Books" ],
-      "averageScore" : 10.0,
+      "averageScore" : 1.9,
       "niceScoreHistory" : [ 3.0, 0.0 ],
-      "assignedBudget" : 297.33333333333337,
+      "assignedBudget" : 61.5757785467128,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -95,7 +95,7 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Sweets", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 9.0 ],
-      "assignedBudget" : 297.33333333333337,
+      "assignedBudget" : 324.083044982699,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -122,14 +122,10 @@
       "city" : "Braila",
       "age" : 14,
       "giftsPreferences" : [ "Toys", "Sweets" ],
-      "averageScore" : 10.0,
+      "averageScore" : 9.533333333333333,
       "niceScoreHistory" : [ 9.0, 4.0, 9.0 ],
-      "assignedBudget" : 297.33333333333337,
+      "assignedBudget" : 313.4054054054054,
       "receivedGifts" : [ {
-        "productName" : "Bike",
-        "price" : 25.0,
-        "category" : "Toys"
-      }, {
         "productName" : "Chocolate",
         "price" : 15.0,
         "category" : "Sweets"
@@ -141,9 +137,9 @@
       "city" : "Timisoara",
       "age" : 16,
       "giftsPreferences" : [ "Sweets", "Books", "Board Games", "Technology" ],
-      "averageScore" : 10.0,
+      "averageScore" : 7.6,
       "niceScoreHistory" : [ 3.0, 0.0, 7.0 ],
-      "assignedBudget" : 297.33333333333337,
+      "assignedBudget" : 174.89336609336607,
       "receivedGifts" : [ {
         "productName" : "Chocolate",
         "price" : 15.0,
@@ -166,11 +162,15 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Sweets", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 9.0, 7.0 ],
-      "assignedBudget" : 297.33333333333337,
+      "assignedBudget" : 230.1228501228501,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
         "category" : "Board Games"
+      }, {
+        "productName" : "Bike",
+        "price" : 25.0,
+        "category" : "Toys"
       }, {
         "productName" : "Chocolate",
         "price" : 15.0,
@@ -189,14 +189,10 @@
       "city" : "Braila",
       "age" : 15,
       "giftsPreferences" : [ "Books", "Toys", "Sweets" ],
-      "averageScore" : 10.0,
+      "averageScore" : 9.533333333333333,
       "niceScoreHistory" : [ 9.0, 4.0, 9.0 ],
-      "assignedBudget" : 125.25,
+      "assignedBudget" : 120.81450252951097,
       "receivedGifts" : [ {
-        "productName" : "Diary of a Wimpy Kid",
-        "price" : 25.0,
-        "category" : "Books"
-      }, {
         "productName" : "Chocolate",
         "price" : 15.0,
         "category" : "Sweets"
@@ -210,7 +206,7 @@
       "giftsPreferences" : [ "Sweets", "Books", "Board Games", "Technology" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 3.0, 0.0, 7.0, 10.0 ],
-      "assignedBudget" : 125.25,
+      "assignedBudget" : 88.70994940978078,
       "receivedGifts" : [ {
         "productName" : "Chocolate",
         "price" : 15.0,
@@ -233,7 +229,7 @@
       "giftsPreferences" : [ "Board Games", "Toys", "Sweets", "Books" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 9.0, 7.0, 2.0 ],
-      "assignedBudget" : 125.25,
+      "assignedBudget" : 88.70994940978078,
       "receivedGifts" : [ {
         "productName" : "Uno",
         "price" : 10.0,
@@ -242,6 +238,10 @@
         "productName" : "Chocolate",
         "price" : 15.0,
         "category" : "Sweets"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
       } ]
     }, {
       "id" : 3,
@@ -252,7 +252,7 @@
       "giftsPreferences" : [ "Toys" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 162.825,
+      "assignedBudget" : 164.74704890387858,
       "receivedGifts" : [ ]
     } ]
   } ]
