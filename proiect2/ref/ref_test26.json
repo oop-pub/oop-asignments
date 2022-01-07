@@ -110,7 +110,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 8.0,
       "niceScoreHistory" : [ 4.0 ],
-      "assignedBudget" : 261.2639405204461,
+      "assignedBudget" : 182.8847583643123,
       "receivedGifts" : [ {
         "productName" : "Car",
         "price" : 20.0,
@@ -129,7 +129,7 @@
       "giftsPreferences" : [ "Toys", "Sweets", "Clothes" ],
       "averageScore" : 7.8,
       "niceScoreHistory" : [ 4.0, 9.0 ],
-      "assignedBudget" : 254.73234200743497,
+      "assignedBudget" : 178.3126394052045,
       "receivedGifts" : [ {
         "productName" : "Bike",
         "price" : 25.0,
@@ -138,10 +138,6 @@
         "productName" : "Chocolate",
         "price" : 15.0,
         "category" : "Sweets"
-      }, {
-        "productName" : "Handbag",
-        "price" : 200.0,
-        "category" : "Clothes"
       } ]
     }, {
       "id" : 3,
@@ -152,7 +148,7 @@
       "giftsPreferences" : [ "Sweets", "Books", "Clothes", "Technology" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 8.0 ],
-      "assignedBudget" : 424.55390334572496,
+      "assignedBudget" : 326.57992565055764,
       "receivedGifts" : [ {
         "productName" : "Gummy Bears",
         "price" : 10.0,
@@ -211,7 +207,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets", "Technology", "Books", "Toys" ],
       "averageScore" : 9.6,
       "niceScoreHistory" : [ 7.0, 9.0, 0.0 ],
-      "assignedBudget" : 78.74519377479402,
+      "assignedBudget" : 102.36875190723222,
       "receivedGifts" : [ {
         "productName" : "Bag of Candy",
         "price" : 20.0,
@@ -220,6 +216,10 @@
         "productName" : "Harry Potter",
         "price" : 35.0,
         "category" : "Books"
+      }, {
+        "productName" : "Bike",
+        "price" : 25.0,
+        "category" : "Toys"
       } ]
     }, {
       "id" : 1,
@@ -268,7 +268,7 @@
       "giftsPreferences" : [ "Clothes", "Sweets", "Books", "Technology" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 8.0, 5.0 ],
-      "assignedBudget" : 106.63411657003357,
+      "assignedBudget" : 82.02624351541044,
       "receivedGifts" : [ {
         "productName" : "Bag of Candy",
         "price" : 20.0,
@@ -302,15 +302,11 @@
       "giftsPreferences" : [ "Clothes", "Toys", "Sweets" ],
       "averageScore" : 8.666666666666666,
       "niceScoreHistory" : [ 8.0, 9.0 ],
-      "assignedBudget" : 71.08941104668904,
+      "assignedBudget" : 49.76258773268233,
       "receivedGifts" : [ {
         "productName" : "Bike",
         "price" : 25.0,
         "category" : "Toys"
-      }, {
-        "productName" : "Milk and Cookies",
-        "price" : 30.0,
-        "category" : "Sweets"
       } ]
     } ]
   }, {
@@ -342,7 +338,7 @@
       "giftsPreferences" : [ "Toys", "Technology", "Sweets", "Clothes" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 4.0, 6.0, 6.0 ],
-      "assignedBudget" : 323.4734581159865,
+      "assignedBudget" : 226.43142068119056,
       "receivedGifts" : [ {
         "productName" : "Doll",
         "price" : 10.0,
@@ -374,10 +370,6 @@
         "productName" : "Headphones",
         "price" : 100.0,
         "category" : "Technology"
-      }, {
-        "productName" : "Bike",
-        "price" : 25.0,
-        "category" : "Toys"
       } ]
     }, {
       "id" : 3,
@@ -388,15 +380,11 @@
       "giftsPreferences" : [ "Clothes", "Toys", "Sweets", "Books", "Technology" ],
       "averageScore" : 5.7,
       "niceScoreHistory" : [ 8.0, 5.0, 0.0 ],
-      "assignedBudget" : 239.693832463946,
+      "assignedBudget" : 129.06590978827862,
       "receivedGifts" : [ {
         "productName" : "Harry Potter",
         "price" : 35.0,
         "category" : "Books"
-      }, {
-        "productName" : "Headphones",
-        "price" : 100.0,
-        "category" : "Technology"
       } ]
     }, {
       "id" : 4,
@@ -409,6 +397,10 @@
       "niceScoreHistory" : [ 7.0, 2.0 ],
       "assignedBudget" : 276.5698066891685,
       "receivedGifts" : [ {
+        "productName" : "Handbag",
+        "price" : 200.0,
+        "category" : "Clothes"
+      }, {
         "productName" : "Bike",
         "price" : 25.0,
         "category" : "Toys"
@@ -431,6 +423,10 @@
         "productName" : "Handbag",
         "price" : 200.0,
         "category" : "Clothes"
+      }, {
+        "productName" : "Milk and Cookies",
+        "price" : 30.0,
+        "category" : "Sweets"
       } ]
     }, {
       "id" : 6,
@@ -495,7 +491,7 @@
       "giftsPreferences" : [ "Technology", "Sweets", "Clothes", "Toys", "Books" ],
       "averageScore" : 5.7,
       "niceScoreHistory" : [ 8.0, 5.0, 0.0 ],
-      "assignedBudget" : 90.59691403379868,
+      "assignedBudget" : 69.68993387215284,
       "receivedGifts" : [ ]
     }, {
       "id" : 4,
@@ -506,8 +502,12 @@
       "giftsPreferences" : [ "Books", "Technology", "Clothes", "Toys", "Sweets" ],
       "averageScore" : 7.283333333333333,
       "niceScoreHistory" : [ 7.0, 2.0, 4.0 ],
-      "assignedBudget" : 89.04824883663973,
-      "receivedGifts" : [ ]
+      "assignedBudget" : 115.76272348763165,
+      "receivedGifts" : [ {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      } ]
     }, {
       "id" : 5,
       "lastName" : "Popescu",
@@ -517,7 +517,7 @@
       "giftsPreferences" : [ "Technology", "Toys", "Clothes", "Sweets" ],
       "averageScore" : 8.666666666666666,
       "niceScoreHistory" : [ 8.0, 9.0 ],
-      "assignedBudget" : 105.96130296350722,
+      "assignedBudget" : 74.17291207445506,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -528,7 +528,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 2.0, 9.0 ],
-      "assignedBudget" : 122.26304188096988,
+      "assignedBudget" : 158.94195444526085,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
@@ -552,7 +552,7 @@
       "giftsPreferences" : [ "Technology", "Clothes", "Sweets", "Books", "Toys" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 7.0, 9.0, 0.0, 8.0, 4.0 ],
-      "assignedBudget" : 150.02310417415413,
+      "assignedBudget" : 105.0161729219079,
       "receivedGifts" : [ ]
     }, {
       "id" : 1,
@@ -563,7 +563,7 @@
       "giftsPreferences" : [ "Books", "Toys", "Technology", "Sweets", "Clothes" ],
       "averageScore" : 10.0,
       "niceScoreHistory" : [ 4.0, 6.0, 6.0 ],
-      "assignedBudget" : 150.02310417415413,
+      "assignedBudget" : 195.03003542640036,
       "receivedGifts" : [ ]
     }, {
       "id" : 2,
@@ -585,7 +585,7 @@
       "giftsPreferences" : [ "Toys", "Sweets", "Technology", "Clothes", "Books" ],
       "averageScore" : 4.9399999999999995,
       "niceScoreHistory" : [ 8.0, 5.0, 0.0, 2.0 ],
-      "assignedBudget" : 96.34483750064177,
+      "assignedBudget" : 51.87798942342249,
       "receivedGifts" : [ ]
     }, {
       "id" : 4,
@@ -596,7 +596,7 @@
       "giftsPreferences" : [ "Toys", "Books", "Technology", "Clothes", "Sweets" ],
       "averageScore" : 7.283333333333333,
       "niceScoreHistory" : [ 7.0, 2.0, 4.0 ],
-      "assignedBudget" : 109.2668275401756,
+      "assignedBudget" : 142.04687580222827,
       "receivedGifts" : [ ]
     }, {
       "id" : 5,
@@ -607,7 +607,7 @@
       "giftsPreferences" : [ "Technology", "Toys", "Clothes", "Sweets" ],
       "averageScore" : 8.833333333333334,
       "niceScoreHistory" : [ 8.0, 9.0, 9.0 ],
-      "assignedBudget" : 132.5204086871695,
+      "assignedBudget" : 172.27653129332035,
       "receivedGifts" : [ ]
     }, {
       "id" : 6,
@@ -618,7 +618,7 @@
       "giftsPreferences" : [ "Toys", "Sweets" ],
       "averageScore" : 7.666666666666668,
       "niceScoreHistory" : [ 2.0, 9.0, 1.0 ],
-      "assignedBudget" : 115.01771320018486,
+      "assignedBudget" : 149.5230271602403,
       "receivedGifts" : [ ]
     }, {
       "id" : 8,
