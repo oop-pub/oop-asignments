@@ -1,0 +1,197 @@
+{
+  "numberOfYears": 3,
+  "santaBudget": 633,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Stoica",
+        "firstName": "Tudor",
+        "age": 2,
+        "city": "Timisoara",
+        "niceScore": 4,
+        "giftsPreferences": [
+          "Board Games",
+          "Technology",
+          "Toys"
+        ],
+        "niceScoreBonus": 0,
+        "elf": "white"
+      },
+      {
+        "id": 1,
+        "lastName": "Ionescu",
+        "firstName": "Matei",
+        "age": 14,
+        "city": "Braila",
+        "niceScore": 7,
+        "giftsPreferences": [
+          "Toys",
+          "Technology",
+          "Clothes"
+        ],
+        "niceScoreBonus": 0,
+        "elf": "white"
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Dress",
+        "price": 45,
+        "category": "Clothes",
+        "quantity": 7
+      },
+      {
+        "productName": "Puzzle",
+        "price": 50,
+        "category": "Board Games",
+        "quantity": 1
+      },
+      {
+        "productName": "Doll",
+        "price": 10,
+        "category": "Toys",
+        "quantity": 1
+      },
+      {
+        "productName": "Teddy Bear",
+        "price": 5,
+        "category": "Toys",
+        "quantity": 4
+      },
+      {
+        "productName": "Iphone",
+        "price": 700,
+        "category": "Technology",
+        "quantity": 1
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 633,
+      "newGifts": [
+        {
+          "productName": "Harry Potter",
+          "price": 35,
+          "category": "Books",
+          "quantity": 5
+        }
+      ],
+      "newChildren": [
+        {
+          "id": 2,
+          "lastName": "Popescu",
+          "firstName": "Maria",
+          "age": 10,
+          "city": "Brasov",
+          "niceScore": 7,
+          "giftsPreferences": [
+            "Toys",
+            "Books"
+          ],
+          "niceScoreBonus": 0,
+          "elf": "white"
+        }
+      ],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": 3,
+          "giftsPreferences": [],
+          "elf": "white"
+        },
+        {
+          "id": 1,
+          "niceScore": 1,
+          "giftsPreferences": [],
+          "elf": "white"
+        }
+      ],
+      "strategy": "niceScoreCity"
+    },
+    {
+      "newSantaBudget": 633,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": 9,
+          "giftsPreferences": [
+            "Toys",
+            "Books",
+            "Technology",
+            "Clothes"
+          ],
+          "elf": "white"
+        },
+        {
+          "id": 1,
+          "niceScore": 2,
+          "giftsPreferences": [
+            "Clothes"
+          ],
+          "elf": "white"
+        },
+        {
+          "id": 2,
+          "niceScore": null,
+          "giftsPreferences": [
+            "Board Games"
+          ],
+          "elf": "white"
+        }
+      ],
+      "strategy": "niceScoreCity"
+    },
+    {
+      "newSantaBudget": 724,
+      "newGifts": [],
+      "newChildren": [
+        {
+          "id": 3,
+          "lastName": "Cantemir",
+          "firstName": "Andreea",
+          "age": 5,
+          "city": "Constanta",
+          "niceScore": 9,
+          "giftsPreferences": [
+            "Board Games",
+            "Books"
+          ],
+          "niceScoreBonus": 0,
+          "elf": "white"
+        }
+      ],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": 6,
+          "giftsPreferences": [
+            "Board Games"
+          ],
+          "elf": "white"
+        },
+        {
+          "id": 1,
+          "niceScore": null,
+          "giftsPreferences": [
+            "Toys"
+          ],
+          "elf": "white"
+        },
+        {
+          "id": 2,
+          "niceScore": 3,
+          "giftsPreferences": [
+            "Toys",
+            "Technology"
+          ],
+          "elf": "white"
+        }
+      ],
+      "strategy": "niceScoreCity"
+    }
+  ]
+}

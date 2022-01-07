@@ -1,0 +1,201 @@
+{
+  "numberOfYears": 3,
+  "santaBudget": 892,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Popa",
+        "firstName": "Radu",
+        "age": 12,
+        "city": "Braila",
+        "niceScore": 9,
+        "giftsPreferences": [
+          "Toys",
+          "Sweets"
+        ],
+        "niceScoreBonus": 30,
+        "elf": "yellow"
+      },
+      {
+        "id": 1,
+        "lastName": "Popescu",
+        "firstName": "Miruna",
+        "age": 14,
+        "city": "Timisoara",
+        "niceScore": 3,
+        "giftsPreferences": [
+          "Board Games",
+          "Technology",
+          "Sweets",
+          "Books"
+        ],
+        "niceScoreBonus": 90,
+        "elf": "black"
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Gummy Bears",
+        "price": 10,
+        "category": "Sweets",
+        "quantity": 5
+      },
+      {
+        "productName": "Puzzle",
+        "price": 50,
+        "category": "Board Games",
+        "quantity": 4
+      },
+      {
+        "productName": "Milk and Cookies",
+        "price": 30,
+        "category": "Sweets",
+        "quantity": 9
+      },
+      {
+        "productName": "Uno",
+        "price": 10,
+        "category": "Board Games",
+        "quantity": 9
+      },
+      {
+        "productName": "Diary of a Wimpy Kid",
+        "price": 25,
+        "category": "Books",
+        "quantity": 7
+      },
+      {
+        "productName": "Bike",
+        "price": 25,
+        "category": "Toys",
+        "quantity": 4
+      },
+      {
+        "productName": "Iphone",
+        "price": 700,
+        "category": "Technology",
+        "quantity": 8
+      },
+      {
+        "productName": "Chocolate",
+        "price": 15,
+        "category": "Sweets",
+        "quantity": 7
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 892,
+      "newGifts": [],
+      "newChildren": [
+        {
+          "id": 2,
+          "lastName": "Popa",
+          "firstName": "Miruna",
+          "age": 4,
+          "city": "Brasov",
+          "niceScore": 9,
+          "giftsPreferences": [
+            "Board Games",
+            "Toys",
+            "Sweets",
+            "Books"
+          ],
+          "niceScoreBonus": 90,
+          "elf": "black"
+        }
+      ],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": 4,
+          "giftsPreferences": [],
+          "elf": "black"
+        },
+        {
+          "id": 1,
+          "niceScore": 0,
+          "giftsPreferences": [
+            "Board Games",
+            "Sweets"
+          ],
+          "elf": "black"
+        }
+      ],
+      "strategy": "id"
+    },
+    {
+      "newSantaBudget": 892,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": 9,
+          "giftsPreferences": [],
+          "elf": "white"
+        },
+        {
+          "id": 1,
+          "niceScore": 7,
+          "giftsPreferences": [
+            "Sweets",
+            "Books"
+          ],
+          "elf": "yellow"
+        },
+        {
+          "id": 2,
+          "niceScore": 7,
+          "giftsPreferences": [],
+          "elf": "yellow"
+        }
+      ],
+      "strategy": "niceScoreCity"
+    },
+    {
+      "newSantaBudget": 501,
+      "newGifts": [],
+      "newChildren": [
+        {
+          "id": 3,
+          "lastName": "Popa",
+          "firstName": "Miruna",
+          "age": 8,
+          "city": "Brasov",
+          "niceScore": 8,
+          "giftsPreferences": [
+            "Toys"
+          ],
+          "niceScoreBonus": 70,
+          "elf": "pink"
+        }
+      ],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": null,
+          "giftsPreferences": [
+            "Books"
+          ],
+          "elf": "black"
+        },
+        {
+          "id": 1,
+          "niceScore": 10,
+          "giftsPreferences": [],
+          "elf": "yellow"
+        },
+        {
+          "id": 2,
+          "niceScore": 2,
+          "giftsPreferences": [],
+          "elf": "black"
+        }
+      ],
+      "strategy": "niceScore"
+    }
+  ]
+}

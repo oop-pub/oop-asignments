@@ -1,0 +1,278 @@
+{
+  "numberOfYears": 4,
+  "santaBudget": 100,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Mihalache",
+        "firstName": "Matei",
+        "age": 4,
+        "city": "Oradea",
+        "niceScore": 2,
+        "giftsPreferences": [
+          "Toys",
+          "Books",
+          "Sweets"
+        ],
+        "niceScoreBonus": 0,
+        "elf": "pink"
+      },
+      {
+        "id": 1,
+        "lastName": "Mihalache",
+        "firstName": "Andreea",
+        "age": 4,
+        "city": "Timisoara",
+        "niceScore": 3,
+        "giftsPreferences": [
+          "Toys",
+          "Clothes",
+          "Board Games"
+        ],
+        "niceScoreBonus": 0,
+        "elf": "pink"
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Dress",
+        "price": 45,
+        "category": "Clothes",
+        "quantity": 7
+      },
+      {
+        "productName": "Gummy Bears",
+        "price": 10,
+        "category": "Sweets",
+        "quantity": 2
+      },
+      {
+        "productName": "Puzzle",
+        "price": 50,
+        "category": "Board Games",
+        "quantity": 1
+      },
+      {
+        "productName": "Diary of a Wimpy Kid",
+        "price": 25,
+        "category": "Books",
+        "quantity": 1
+      },
+      {
+        "productName": "Teddy Bear",
+        "price": 5,
+        "category": "Toys",
+        "quantity": 9
+      },
+      {
+        "productName": "Bike",
+        "price": 25,
+        "category": "Toys",
+        "quantity": 8
+      },
+      {
+        "productName": "Castle",
+        "price": 15,
+        "category": "Toys",
+        "quantity": 6
+      },
+      {
+        "productName": "Milk and Cookies",
+        "price": 30,
+        "category": "Sweets",
+        "quantity": 2
+      },
+      {
+        "productName": "Headphones",
+        "price": 100,
+        "category": "Technology",
+        "quantity": 2
+      },
+      {
+        "productName": "Bag of Candy",
+        "price": 20,
+        "category": "Sweets",
+        "quantity": 3
+      },
+      {
+        "productName": "Monopoly",
+        "price": 30,
+        "category": "Board Games",
+        "quantity": 1
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 100,
+      "newGifts": [],
+      "newChildren": [
+        {
+          "id": 2,
+          "lastName": "Mihalache",
+          "firstName": "Diana",
+          "age": 11,
+          "city": "Bucuresti",
+          "niceScore": 10,
+          "giftsPreferences": [
+            "Books",
+            "Sweets",
+            "Clothes"
+          ],
+          "niceScoreBonus": 0,
+          "elf": "pink"
+        },
+        {
+          "id": 3,
+          "lastName": "Stoica",
+          "firstName": "Tudor",
+          "age": 5,
+          "city": "Cluj-Napoca",
+          "niceScore": 6,
+          "giftsPreferences": [
+            "Toys",
+            "Sweets"
+          ],
+          "niceScoreBonus": 0,
+          "elf": "pink"
+        }
+      ],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": 0,
+          "giftsPreferences": [],
+          "elf": "pink"
+        },
+        {
+          "id": 1,
+          "niceScore": 8,
+          "giftsPreferences": [],
+          "elf": "pink"
+        }
+      ],
+      "strategy": "id"
+    },
+    {
+      "newSantaBudget": 100,
+      "newGifts": [
+        {
+          "productName": "Headphones",
+          "price": 100,
+          "category": "Technology",
+          "quantity": 2
+        }
+      ],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": 8,
+          "giftsPreferences": [],
+          "elf": "pink"
+        },
+        {
+          "id": 1,
+          "niceScore": 6,
+          "giftsPreferences": [],
+          "elf": "pink"
+        },
+        {
+          "id": 2,
+          "niceScore": 3,
+          "giftsPreferences": [],
+          "elf": "pink"
+        },
+        {
+          "id": 3,
+          "niceScore": null,
+          "giftsPreferences": [
+            "Sweets"
+          ],
+          "elf": "pink"
+        }
+      ],
+      "strategy": "id"
+    },
+    {
+      "newSantaBudget": 100,
+      "newGifts": [
+        {
+          "productName": "Monopoly",
+          "price": 30,
+          "category": "Board Games",
+          "quantity": 1
+        }
+      ],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": null,
+          "giftsPreferences": [
+            "Clothes",
+            "Board Games"
+          ],
+          "elf": "pink"
+        },
+        {
+          "id": 1,
+          "niceScore": 3,
+          "giftsPreferences": [],
+          "elf": "pink"
+        },
+        {
+          "id": 2,
+          "niceScore": 5,
+          "giftsPreferences": [],
+          "elf": "pink"
+        },
+        {
+          "id": 3,
+          "niceScore": 10,
+          "giftsPreferences": [],
+          "elf": "pink"
+        }
+      ],
+      "strategy": "id"
+    },
+    {
+      "newSantaBudget": 100,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": 2,
+          "giftsPreferences": [
+            "Toys"
+          ],
+          "elf": "pink"
+        },
+        {
+          "id": 1,
+          "niceScore": 10,
+          "giftsPreferences": [],
+          "elf": "pink"
+        },
+        {
+          "id": 2,
+          "niceScore": 9,
+          "giftsPreferences": [
+            "Books",
+            "Sweets"
+          ],
+          "elf": "pink"
+        },
+        {
+          "id": 3,
+          "niceScore": 8,
+          "giftsPreferences": [],
+          "elf": "pink"
+        }
+      ],
+      "strategy": "id"
+    }
+  ]
+}

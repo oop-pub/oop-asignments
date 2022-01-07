@@ -1,0 +1,107 @@
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Mihalache",
+      "firstName" : "Radu",
+      "city" : "Constanta",
+      "age" : 12,
+      "giftsPreferences" : [ "Sweets", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 111.0,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Popa",
+      "firstName" : "Tudor",
+      "city" : "Timisoara",
+      "age" : 2,
+      "giftsPreferences" : [ "Clothes", "Board Games", "Books" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 6.0 ],
+      "assignedBudget" : 111.0,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Mihalache",
+      "firstName" : "Radu",
+      "city" : "Constanta",
+      "age" : 13,
+      "giftsPreferences" : [ "Sweets", "Toys" ],
+      "averageScore" : 4.666666666666667,
+      "niceScoreHistory" : [ 10.0, 2.0 ],
+      "assignedBudget" : 302.59090909090907,
+      "receivedGifts" : [ {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Popa",
+      "firstName" : "Tudor",
+      "city" : "Timisoara",
+      "age" : 3,
+      "giftsPreferences" : [ "Clothes", "Board Games", "Books" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 6.0, 0.0 ],
+      "assignedBudget" : 648.4090909090908,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Mihalache",
+      "firstName" : "Radu",
+      "city" : "Constanta",
+      "age" : 14,
+      "giftsPreferences" : [ "Sweets", "Toys" ],
+      "averageScore" : 7.333333333333333,
+      "niceScoreHistory" : [ 10.0, 2.0, 10.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : [ ]
+    }, {
+      "id" : 1,
+      "lastName" : "Popa",
+      "firstName" : "Tudor",
+      "city" : "Timisoara",
+      "age" : 4,
+      "giftsPreferences" : [ "Clothes", "Board Games", "Books" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 6.0, 0.0, 7.0 ],
+      "assignedBudget" : 0.0,
+      "receivedGifts" : [ ]
+    } ]
+  } ]
+}

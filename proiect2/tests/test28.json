@@ -1,0 +1,532 @@
+{
+    "numberOfYears": 5,
+    "santaBudget": 525,
+    "initialData": {
+        "children": [
+            {
+                "id": 0,
+                "lastName": "Mihalache",
+                "firstName": "Andreea",
+                "age": 11,
+                "city": "Timisoara",
+                "niceScore": 8,
+                "giftsPreferences": [
+                    "Toys",
+                    "Board Games",
+                    "Sweets"
+                ],
+                "niceScoreBonus": 30,
+                "elf": "black"
+            },
+            {
+                "id": 1,
+                "lastName": "Cantemir",
+                "firstName": "Diana",
+                "age": 1,
+                "city": "Timisoara",
+                "niceScore": 5,
+                "giftsPreferences": [
+                    "Books",
+                    "Clothes"
+                ],
+                "niceScoreBonus": 40,
+                "elf": "black"
+            },
+            {
+                "id": 2,
+                "lastName": "Popa",
+                "firstName": "Matei",
+                "age": 19,
+                "city": "Braila",
+                "niceScore": 4,
+                "giftsPreferences": [
+                    "Toys",
+                    "Technology",
+                    "Sweets"
+                ],
+                "niceScoreBonus": 90,
+                "elf": "pink"
+            },
+            {
+                "id": 3,
+                "lastName": "Popa",
+                "firstName": "Andreea",
+                "age": 3,
+                "city": "Constanta",
+                "niceScore": 4,
+                "giftsPreferences": [
+                    "Toys",
+                    "Clothes"
+                ],
+                "niceScoreBonus": 10,
+                "elf": "white"
+            },
+            {
+                "id": 4,
+                "lastName": "Ionescu",
+                "firstName": "Tudor",
+                "age": 8,
+                "city": "Oradea",
+                "niceScore": 3,
+                "giftsPreferences": [
+                    "Books",
+                    "Clothes"
+                ],
+                "niceScoreBonus": 70,
+                "elf": "black"
+            }
+        ],
+        "santaGiftsList": [
+            {
+                "productName": "Twilight",
+                "price": 30,
+                "category": "Books",
+                "quantity": 2
+            },
+            {
+                "productName": "Bag of Candy",
+                "price": 20,
+                "category": "Sweets",
+                "quantity": 7
+            },
+            {
+                "productName": "Harry Potter",
+                "price": 35,
+                "category": "Books",
+                "quantity": 9
+            },
+            {
+                "productName": "Bike",
+                "price": 25,
+                "category": "Toys",
+                "quantity": 5
+            },
+            {
+                "productName": "Headphones",
+                "price": 100,
+                "category": "Technology",
+                "quantity": 7
+            },
+            {
+                "productName": "Dress",
+                "price": 45,
+                "category": "Clothes",
+                "quantity": 2
+            },
+            {
+                "productName": "Lego",
+                "price": 30,
+                "category": "Toys",
+                "quantity": 8
+            },
+            {
+                "productName": "Doll",
+                "price": 10,
+                "category": "Toys",
+                "quantity": 6
+            },
+            {
+                "productName": "Milk and Cookies",
+                "price": 30,
+                "category": "Sweets",
+                "quantity": 1
+            },
+            {
+                "productName": "Uno",
+                "price": 10,
+                "category": "Board Games",
+                "quantity": 6
+            },
+            {
+                "productName": "Castle",
+                "price": 15,
+                "category": "Toys",
+                "quantity": 2
+            },
+            {
+                "productName": "Handbag",
+                "price": 200,
+                "category": "Clothes",
+                "quantity": 8
+            }
+        ]
+    },
+    "annualChanges": [
+        {
+            "newSantaBudget": 552,
+            "newGifts": [],
+            "newChildren": [],
+            "childrenUpdates": [
+                {
+                    "id": 0,
+                    "niceScore": 9,
+                    "giftsPreferences": [
+                        "Clothes",
+                        "Sweets",
+                        "Technology"
+                    ],
+                    "elf": "yellow"
+                },
+                {
+                    "id": 1,
+                    "niceScore": 7,
+                    "giftsPreferences": [],
+                    "elf": "pink"
+                },
+                {
+                    "id": 2,
+                    "niceScore": 1,
+                    "giftsPreferences": [],
+                    "elf": "black"
+                },
+                {
+                    "id": 3,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Clothes"
+                    ],
+                    "elf": "yellow"
+                },
+                {
+                    "id": 4,
+                    "niceScore": 4,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Sweets"
+                    ],
+                    "elf": "yellow"
+                }
+            ],
+            "strategy": "niceScoreCity"
+        },
+        {
+            "newSantaBudget": 525,
+            "newGifts": [],
+            "newChildren": [
+                {
+                    "id": 5,
+                    "lastName": "Cantemir",
+                    "firstName": "Maria",
+                    "age": 15,
+                    "city": "Constanta",
+                    "niceScore": 5,
+                    "giftsPreferences": [
+                        "Clothes"
+                    ],
+                    "niceScoreBonus": 90,
+                    "elf": "white"
+                },
+                {
+                    "id": 6,
+                    "lastName": "Popa",
+                    "firstName": "Tudor",
+                    "age": 13,
+                    "city": "Bucuresti",
+                    "niceScore": 10,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Books",
+                        "Technology",
+                        "Sweets"
+                    ],
+                    "niceScoreBonus": 90,
+                    "elf": "pink"
+                }
+            ],
+            "childrenUpdates": [
+                {
+                    "id": 0,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Board Games",
+                        "Sweets",
+                        "Technology"
+                    ],
+                    "elf": "pink"
+                },
+                {
+                    "id": 1,
+                    "niceScore": 4,
+                    "giftsPreferences": [],
+                    "elf": "pink"
+                },
+                {
+                    "id": 2,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Board Games",
+                        "Sweets"
+                    ],
+                    "elf": "pink"
+                },
+                {
+                    "id": 3,
+                    "niceScore": 5,
+                    "giftsPreferences": [],
+                    "elf": "yellow"
+                },
+                {
+                    "id": 4,
+                    "niceScore": 6,
+                    "giftsPreferences": [],
+                    "elf": "yellow"
+                }
+            ],
+            "strategy": "niceScoreCity"
+        },
+        {
+            "newSantaBudget": 525,
+            "newGifts": [],
+            "newChildren": [],
+            "childrenUpdates": [
+                {
+                    "id": 0,
+                    "niceScore": 6,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Books"
+                    ],
+                    "elf": "pink"
+                },
+                {
+                    "id": 1,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Clothes",
+                        "Technology"
+                    ],
+                    "elf": "pink"
+                },
+                {
+                    "id": 2,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Sweets"
+                    ],
+                    "elf": "white"
+                },
+                {
+                    "id": 3,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Clothes",
+                        "Technology"
+                    ],
+                    "elf": "pink"
+                },
+                {
+                    "id": 4,
+                    "niceScore": 4,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Sweets"
+                    ],
+                    "elf": "pink"
+                },
+                {
+                    "id": 5,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Books",
+                        "Clothes"
+                    ],
+                    "elf": "white"
+                },
+                {
+                    "id": 6,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Toys"
+                    ],
+                    "elf": "black"
+                }
+            ],
+            "strategy": "niceScoreCity"
+        },
+        {
+            "newSantaBudget": 547,
+            "newGifts": [
+                {
+                    "productName": "Dress",
+                    "price": 45,
+                    "category": "Clothes",
+                    "quantity": 2
+                }
+            ],
+            "newChildren": [],
+            "childrenUpdates": [
+                {
+                    "id": 0,
+                    "niceScore": 6,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Books"
+                    ],
+                    "elf": "black"
+                },
+                {
+                    "id": 1,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Books",
+                        "Board Games"
+                    ],
+                    "elf": "yellow"
+                },
+                {
+                    "id": 2,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Books",
+                        "Technology",
+                        "Sweets"
+                    ],
+                    "elf": "white"
+                },
+                {
+                    "id": 3,
+                    "niceScore": 4,
+                    "giftsPreferences": [
+                        "Toys"
+                    ],
+                    "elf": "pink"
+                },
+                {
+                    "id": 4,
+                    "niceScore": 3,
+                    "giftsPreferences": [
+                        "Clothes"
+                    ],
+                    "elf": "black"
+                },
+                {
+                    "id": 5,
+                    "niceScore": 8,
+                    "giftsPreferences": [],
+                    "elf": "yellow"
+                },
+                {
+                    "id": 6,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Books",
+                        "Toys",
+                        "Clothes",
+                        "Board Games"
+                    ],
+                    "elf": "pink"
+                }
+            ],
+            "strategy": "niceScore"
+        },
+        {
+            "newSantaBudget": 946,
+            "newGifts": [
+                {
+                    "productName": "Monopoly",
+                    "price": 30,
+                    "category": "Board Games",
+                    "quantity": 7
+                }
+            ],
+            "newChildren": [
+                {
+                    "id": 7,
+                    "lastName": "Pop",
+                    "firstName": "Alexandra",
+                    "age": 2,
+                    "city": "Braila",
+                    "niceScore": 9,
+                    "giftsPreferences": [
+                        "Clothes"
+                    ],
+                    "niceScoreBonus": 20,
+                    "elf": "yellow"
+                },
+                {
+                    "id": 8,
+                    "lastName": "Stoica",
+                    "firstName": "Alexandra",
+                    "age": 9,
+                    "city": "Oradea",
+                    "niceScore": 9,
+                    "giftsPreferences": [
+                        "Board Games"
+                    ],
+                    "niceScoreBonus": 70,
+                    "elf": "white"
+                }
+            ],
+            "childrenUpdates": [
+                {
+                    "id": 0,
+                    "niceScore": 6,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Books"
+                    ],
+                    "elf": "black"
+                },
+                {
+                    "id": 1,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Books",
+                        "Toys",
+                        "Technology"
+                    ],
+                    "elf": "yellow"
+                },
+                {
+                    "id": 2,
+                    "niceScore": 10,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Clothes",
+                        "Board Games"
+                    ],
+                    "elf": "white"
+                },
+                {
+                    "id": 3,
+                    "niceScore": 5,
+                    "giftsPreferences": [],
+                    "elf": "black"
+                },
+                {
+                    "id": 4,
+                    "niceScore": 9,
+                    "giftsPreferences": [
+                        "Books",
+                        "Board Games"
+                    ],
+                    "elf": "yellow"
+                },
+                {
+                    "id": 5,
+                    "niceScore": 1,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Board Games"
+                    ],
+                    "elf": "black"
+                },
+                {
+                    "id": 6,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Toys"
+                    ],
+                    "elf": "black"
+                }
+            ],
+            "strategy": "niceScore"
+        }
+    ]
+}

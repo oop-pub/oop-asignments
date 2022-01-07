@@ -1,0 +1,338 @@
+{
+    "numberOfYears": 3,
+    "santaBudget": 283,
+    "initialData": {
+        "children": [
+            {
+                "id": 0,
+                "lastName": "Cantemir",
+                "firstName": "Miruna",
+                "age": 4,
+                "city": "Bucuresti",
+                "niceScore": 4,
+                "giftsPreferences": [
+                    "Board Games",
+                    "Toys"
+                ],
+                "niceScoreBonus": 10,
+                "elf": "black"
+            },
+            {
+                "id": 1,
+                "lastName": "Pop",
+                "firstName": "Andreea",
+                "age": 11,
+                "city": "Iasi",
+                "niceScore": 2,
+                "giftsPreferences": [
+                    "Board Games",
+                    "Sweets"
+                ],
+                "niceScoreBonus": 40,
+                "elf": "pink"
+            },
+            {
+                "id": 2,
+                "lastName": "Mihalache",
+                "firstName": "Miruna",
+                "age": 2,
+                "city": "Braila",
+                "niceScore": 7,
+                "giftsPreferences": [
+                    "Books",
+                    "Toys"
+                ],
+                "niceScoreBonus": 30,
+                "elf": "yellow"
+            },
+            {
+                "id": 3,
+                "lastName": "Mihalache",
+                "firstName": "Matei",
+                "age": 14,
+                "city": "Timisoara",
+                "niceScore": 2,
+                "giftsPreferences": [
+                    "Board Games",
+                    "Books",
+                    "Sweets"
+                ],
+                "niceScoreBonus": 40,
+                "elf": "white"
+            }
+        ],
+        "santaGiftsList": [
+            {
+                "productName": "Monopoly",
+                "price": 30,
+                "category": "Board Games",
+                "quantity": 7
+            },
+            {
+                "productName": "Twilight",
+                "price": 30,
+                "category": "Books",
+                "quantity": 5
+            },
+            {
+                "productName": "Car",
+                "price": 20,
+                "category": "Toys",
+                "quantity": 3
+            },
+            {
+                "productName": "Bag of Candy",
+                "price": 20,
+                "category": "Sweets",
+                "quantity": 3
+            },
+            {
+                "productName": "Chocolate",
+                "price": 15,
+                "category": "Sweets",
+                "quantity": 8
+            },
+            {
+                "productName": "Bike",
+                "price": 25,
+                "category": "Toys",
+                "quantity": 7
+            },
+            {
+                "productName": "Puzzle",
+                "price": 50,
+                "category": "Board Games",
+                "quantity": 2
+            },
+            {
+                "productName": "Milk and Cookies",
+                "price": 30,
+                "category": "Sweets",
+                "quantity": 8
+            },
+            {
+                "productName": "Uno",
+                "price": 10,
+                "category": "Board Games",
+                "quantity": 3
+            }
+        ]
+    },
+    "annualChanges": [
+        {
+            "newSantaBudget": 187,
+            "newGifts": [],
+            "newChildren": [
+                {
+                    "id": 4,
+                    "lastName": "Popa",
+                    "firstName": "Mihai",
+                    "age": 8,
+                    "city": "Constanta",
+                    "niceScore": 7,
+                    "giftsPreferences": [
+                        "Board Games",
+                        "Books",
+                        "Sweets"
+                    ],
+                    "niceScoreBonus": 80,
+                    "elf": "yellow"
+                },
+                {
+                    "id": 5,
+                    "lastName": "Mihalache",
+                    "firstName": "Mihai",
+                    "age": 17,
+                    "city": "Cluj-Napoca",
+                    "niceScore": 6,
+                    "giftsPreferences": [
+                        "Board Games",
+                        "Books",
+                        "Toys"
+                    ],
+                    "niceScoreBonus": 50,
+                    "elf": "pink"
+                }
+            ],
+            "childrenUpdates": [
+                {
+                    "id": 0,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Sweets"
+                    ],
+                    "elf": "yellow"
+                },
+                {
+                    "id": 1,
+                    "niceScore": 9,
+                    "giftsPreferences": [
+                        "Books",
+                        "Sweets"
+                    ],
+                    "elf": "black"
+                },
+                {
+                    "id": 2,
+                    "niceScore": 10,
+                    "giftsPreferences": [
+                        "Sweets",
+                        "Toys"
+                    ],
+                    "elf": "yellow"
+                },
+                {
+                    "id": 3,
+                    "niceScore": 10,
+                    "giftsPreferences": [],
+                    "elf": "pink"
+                }
+            ],
+            "strategy": "niceScoreCity"
+        },
+        {
+            "newSantaBudget": 795,
+            "newGifts": [
+                {
+                    "productName": "Castle",
+                    "price": 15,
+                    "category": "Toys",
+                    "quantity": 7
+                }
+            ],
+            "newChildren": [],
+            "childrenUpdates": [
+                {
+                    "id": 0,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Board Games",
+                        "Sweets",
+                        "Toys"
+                    ],
+                    "elf": "white"
+                },
+                {
+                    "id": 1,
+                    "niceScore": 6,
+                    "giftsPreferences": [],
+                    "elf": "white"
+                },
+                {
+                    "id": 2,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Board Games",
+                        "Toys"
+                    ],
+                    "elf": "white"
+                },
+                {
+                    "id": 3,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Board Games",
+                        "Sweets"
+                    ],
+                    "elf": "black"
+                },
+                {
+                    "id": 4,
+                    "niceScore": 5,
+                    "giftsPreferences": [
+                        "Board Games",
+                        "Sweets"
+                    ],
+                    "elf": "pink"
+                },
+                {
+                    "id": 5,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Sweets",
+                        "Toys"
+                    ],
+                    "elf": "white"
+                }
+            ],
+            "strategy": "niceScore"
+        },
+        {
+            "newSantaBudget": 283,
+            "newGifts": [
+                {
+                    "productName": "Harry Potter",
+                    "price": 35,
+                    "category": "Books",
+                    "quantity": 9
+                },
+                {
+                    "productName": "Handbag",
+                    "price": 200,
+                    "category": "Clothes",
+                    "quantity": 9
+                }
+            ],
+            "newChildren": [],
+            "childrenUpdates": [
+                {
+                    "id": 0,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Board Games"
+                    ],
+                    "elf": "pink"
+                },
+                {
+                    "id": 1,
+                    "niceScore": 7,
+                    "giftsPreferences": [
+                        "Board Games",
+                        "Books",
+                        "Toys"
+                    ],
+                    "elf": "white"
+                },
+                {
+                    "id": 2,
+                    "niceScore": 9,
+                    "giftsPreferences": [
+                        "Clothes",
+                        "Board Games",
+                        "Toys"
+                    ],
+                    "elf": "black"
+                },
+                {
+                    "id": 3,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Board Games",
+                        "Clothes",
+                        "Toys"
+                    ],
+                    "elf": "white"
+                },
+                {
+                    "id": 4,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Board Games",
+                        "Sweets",
+                        "Toys"
+                    ],
+                    "elf": "white"
+                },
+                {
+                    "id": 5,
+                    "niceScore": 5,
+                    "giftsPreferences": [
+                        "Board Games"
+                    ],
+                    "elf": "black"
+                }
+            ],
+            "strategy": "niceScoreCity"
+        }
+    ]
+}

@@ -1,0 +1,211 @@
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Stoica",
+      "firstName" : "Tudor",
+      "city" : "Timisoara",
+      "age" : 2,
+      "giftsPreferences" : [ "Board Games", "Technology", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 4.0 ],
+      "assignedBudget" : 372.3529411764706,
+      "receivedGifts" : [ {
+        "productName" : "Puzzle",
+        "price" : 50.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Ionescu",
+      "firstName" : "Matei",
+      "city" : "Braila",
+      "age" : 14,
+      "giftsPreferences" : [ "Toys", "Technology", "Clothes" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 260.6470588235294,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Stoica",
+      "firstName" : "Tudor",
+      "city" : "Timisoara",
+      "age" : 3,
+      "giftsPreferences" : [ "Board Games", "Technology", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 4.0, 3.0 ],
+      "assignedBudget" : 316.5,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Ionescu",
+      "firstName" : "Matei",
+      "city" : "Braila",
+      "age" : 15,
+      "giftsPreferences" : [ "Toys", "Technology", "Clothes" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 7.0, 1.0 ],
+      "assignedBudget" : 94.94999999999999,
+      "receivedGifts" : [ {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Popescu",
+      "firstName" : "Maria",
+      "city" : "Brasov",
+      "age" : 10,
+      "giftsPreferences" : [ "Toys", "Books" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 221.54999999999998,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Harry Potter",
+        "price" : 35.0,
+        "category" : "Books"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Stoica",
+      "firstName" : "Tudor",
+      "city" : "Timisoara",
+      "age" : 4,
+      "giftsPreferences" : [ "Toys", "Books", "Technology", "Clothes", "Board Games" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 4.0, 3.0, 9.0 ],
+      "assignedBudget" : 324.6153846153846,
+      "receivedGifts" : [ {
+        "productName" : "Harry Potter",
+        "price" : 35.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Ionescu",
+      "firstName" : "Matei",
+      "city" : "Braila",
+      "age" : 16,
+      "giftsPreferences" : [ "Clothes", "Toys", "Technology" ],
+      "averageScore" : 2.5,
+      "niceScoreHistory" : [ 7.0, 1.0, 2.0 ],
+      "assignedBudget" : 81.15384615384615,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Popescu",
+      "firstName" : "Maria",
+      "city" : "Brasov",
+      "age" : 11,
+      "giftsPreferences" : [ "Board Games", "Toys", "Books" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 227.23076923076923,
+      "receivedGifts" : [ {
+        "productName" : "Harry Potter",
+        "price" : 35.0,
+        "category" : "Books"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Stoica",
+      "firstName" : "Tudor",
+      "city" : "Timisoara",
+      "age" : 5,
+      "giftsPreferences" : [ "Board Games", "Toys", "Books", "Technology", "Clothes" ],
+      "averageScore" : 5.5,
+      "niceScoreHistory" : [ 4.0, 3.0, 9.0, 6.0 ],
+      "assignedBudget" : 186.65625,
+      "receivedGifts" : [ {
+        "productName" : "Harry Potter",
+        "price" : 35.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Ionescu",
+      "firstName" : "Matei",
+      "city" : "Braila",
+      "age" : 17,
+      "giftsPreferences" : [ "Toys", "Clothes", "Technology" ],
+      "averageScore" : 2.5,
+      "niceScoreHistory" : [ 7.0, 1.0, 2.0 ],
+      "assignedBudget" : 84.84375,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      } ]
+    }, {
+      "id" : 2,
+      "lastName" : "Popescu",
+      "firstName" : "Maria",
+      "city" : "Brasov",
+      "age" : 12,
+      "giftsPreferences" : [ "Toys", "Technology", "Board Games", "Books" ],
+      "averageScore" : 4.333333333333333,
+      "niceScoreHistory" : [ 7.0, 3.0 ],
+      "assignedBudget" : 147.0625,
+      "receivedGifts" : [ ]
+    }, {
+      "id" : 3,
+      "lastName" : "Cantemir",
+      "firstName" : "Andreea",
+      "city" : "Constanta",
+      "age" : 5,
+      "giftsPreferences" : [ "Board Games", "Books" ],
+      "averageScore" : 9.0,
+      "niceScoreHistory" : [ 9.0 ],
+      "assignedBudget" : 305.4375,
+      "receivedGifts" : [ {
+        "productName" : "Harry Potter",
+        "price" : 35.0,
+        "category" : "Books"
+      } ]
+    } ]
+  } ]
+}

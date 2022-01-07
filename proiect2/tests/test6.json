@@ -1,0 +1,116 @@
+{
+  "numberOfYears": 2,
+  "santaBudget": 25,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Cantemir",
+        "firstName": "Tudor",
+        "age": 14,
+        "city": "Cluj-Napoca",
+        "niceScore": 6,
+        "giftsPreferences": [
+          "Books",
+          "Toys"
+        ],
+        "niceScoreBonus": 0,
+        "elf": "white"
+      },
+      {
+        "id": 1,
+        "lastName": "Cantemir",
+        "firstName": "Radu",
+        "age": 1,
+        "city": "Oradea",
+        "niceScore": 7,
+        "giftsPreferences": [
+          "Technology",
+          "Clothes"
+        ],
+        "niceScoreBonus": 0,
+        "elf": "white"
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Iphone",
+        "price": 700,
+        "category": "Technology",
+        "quantity": 7
+      },
+      {
+        "productName": "Doll",
+        "price": 10,
+        "category": "Toys",
+        "quantity": 4
+      },
+      {
+        "productName": "Uno",
+        "price": 10,
+        "category": "Board Games",
+        "quantity": 4
+      },
+      {
+        "productName": "Handbag",
+        "price": 200,
+        "category": "Clothes",
+        "quantity": 9
+      },
+      {
+        "productName": "Diary of a Wimpy Kid",
+        "price": 25,
+        "category": "Books",
+        "quantity": 9
+      },
+      {
+        "productName": "Twilight",
+        "price": 30,
+        "category": "Books",
+        "quantity": 2
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 25,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": 9,
+          "giftsPreferences": [],
+          "elf": "white"
+        },
+        {
+          "id": 1,
+          "niceScore": 6,
+          "giftsPreferences": [],
+          "elf": "white"
+        }
+      ],
+      "strategy": "id"
+    },
+    {
+      "newSantaBudget": 25,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": 5,
+          "giftsPreferences": [],
+          "elf": "white"
+        },
+        {
+          "id": 1,
+          "niceScore": 10,
+          "giftsPreferences": [],
+          "elf": "white"
+        }
+      ],
+      "strategy": "id"
+    }
+  ]
+}

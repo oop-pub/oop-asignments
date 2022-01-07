@@ -1,0 +1,142 @@
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 1,
+      "lastName" : "Ionescu",
+      "firstName" : "Diana",
+      "city" : "Cluj-Napoca",
+      "age" : 10,
+      "giftsPreferences" : [ "Toys", "Clothes", "Sweets" ],
+      "averageScore" : 9.0,
+      "niceScoreHistory" : [ 9.0 ],
+      "assignedBudget" : 593.0,
+      "receivedGifts" : [ {
+        "productName" : "Lego",
+        "price" : 30.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Gummy Bears",
+        "price" : 10.0,
+        "category" : "Sweets"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 1,
+      "lastName" : "Ionescu",
+      "firstName" : "Diana",
+      "city" : "Cluj-Napoca",
+      "age" : 11,
+      "giftsPreferences" : [ "Technology", "Toys", "Clothes", "Sweets" ],
+      "averageScore" : 9.0,
+      "niceScoreHistory" : [ 9.0 ],
+      "assignedBudget" : 184.03448275862067,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Bag of Candy",
+        "price" : 20.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 3,
+      "lastName" : "Pop",
+      "firstName" : "Tudor",
+      "city" : "Brasov",
+      "age" : 2,
+      "giftsPreferences" : [ "Clothes", "Sweets" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 9.0 ],
+      "assignedBudget" : 204.48275862068965,
+      "receivedGifts" : [ {
+        "productName" : "Shoes",
+        "price" : 70.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Milk and Cookies",
+        "price" : 30.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 4,
+      "lastName" : "Stoica",
+      "firstName" : "Diana",
+      "city" : "Craiova",
+      "age" : 4,
+      "giftsPreferences" : [ "Toys", "Sweets" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 204.48275862068965,
+      "receivedGifts" : [ {
+        "productName" : "Milk and Cookies",
+        "price" : 30.0,
+        "category" : "Sweets"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 1,
+      "lastName" : "Ionescu",
+      "firstName" : "Diana",
+      "city" : "Cluj-Napoca",
+      "age" : 12,
+      "giftsPreferences" : [ "Toys", "Clothes", "Sweets", "Technology" ],
+      "averageScore" : 9.0,
+      "niceScoreHistory" : [ 9.0 ],
+      "assignedBudget" : 155.88,
+      "receivedGifts" : [ {
+        "productName" : "Shoes",
+        "price" : 70.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Milk and Cookies",
+        "price" : 30.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 3,
+      "lastName" : "Pop",
+      "firstName" : "Tudor",
+      "city" : "Brasov",
+      "age" : 3,
+      "giftsPreferences" : [ "Clothes", "Sweets" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 9.0 ],
+      "assignedBudget" : 173.2,
+      "receivedGifts" : [ {
+        "productName" : "Shoes",
+        "price" : 70.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Milk and Cookies",
+        "price" : 30.0,
+        "category" : "Sweets"
+      } ]
+    }, {
+      "id" : 4,
+      "lastName" : "Stoica",
+      "firstName" : "Diana",
+      "city" : "Craiova",
+      "age" : 5,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 5.0, 7.0 ],
+      "assignedBudget" : 103.92,
+      "receivedGifts" : [ {
+        "productName" : "Shoes",
+        "price" : 70.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Milk and Cookies",
+        "price" : 30.0,
+        "category" : "Sweets"
+      } ]
+    } ]
+  } ]
+}

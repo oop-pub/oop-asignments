@@ -1,0 +1,90 @@
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 1,
+      "lastName" : "Mihalache",
+      "firstName" : "Andreea",
+      "city" : "Iasi",
+      "age" : 6,
+      "giftsPreferences" : [ "Toys", "Sweets", "Clothes", "Technology" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 508.99999999999994,
+      "receivedGifts" : [ {
+        "productName" : "Castle",
+        "price" : 15.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Bag of Candy",
+        "price" : 20.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 1,
+      "lastName" : "Mihalache",
+      "firstName" : "Andreea",
+      "city" : "Iasi",
+      "age" : 7,
+      "giftsPreferences" : [ "Toys", "Sweets", "Clothes", "Technology" ],
+      "averageScore" : 8.5,
+      "niceScoreHistory" : [ 7.0, 10.0 ],
+      "assignedBudget" : 471.0,
+      "receivedGifts" : [ {
+        "productName" : "Castle",
+        "price" : 15.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Bag of Candy",
+        "price" : 20.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 1,
+      "lastName" : "Mihalache",
+      "firstName" : "Andreea",
+      "city" : "Iasi",
+      "age" : 8,
+      "giftsPreferences" : [ "Toys", "Sweets", "Clothes", "Technology" ],
+      "averageScore" : 8.666666666666666,
+      "niceScoreHistory" : [ 7.0, 10.0, 9.0 ],
+      "assignedBudget" : 471.0,
+      "receivedGifts" : [ {
+        "productName" : "Castle",
+        "price" : 15.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Bag of Candy",
+        "price" : 20.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      } ]
+    } ]
+  } ]
+}

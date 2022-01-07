@@ -1,0 +1,119 @@
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Popa",
+      "firstName" : "Tudor",
+      "city" : "Bucuresti",
+      "age" : 11,
+      "giftsPreferences" : [ "Technology", "Board Games", "Toys" ],
+      "averageScore" : 5.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 255.33333333333334,
+      "receivedGifts" : [ {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Pop",
+      "firstName" : "Diana",
+      "city" : "Iasi",
+      "age" : 1,
+      "giftsPreferences" : [ "Technology" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 510.6666666666667,
+      "receivedGifts" : [ {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Popa",
+      "firstName" : "Tudor",
+      "city" : "Bucuresti",
+      "age" : 12,
+      "giftsPreferences" : [ "Technology", "Board Games", "Toys" ],
+      "averageScore" : 3.0,
+      "niceScoreHistory" : [ 5.0, 2.0 ],
+      "assignedBudget" : 176.76923076923077,
+      "receivedGifts" : [ {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Pop",
+      "firstName" : "Diana",
+      "city" : "Iasi",
+      "age" : 2,
+      "giftsPreferences" : [ "Technology" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 7.0, 5.0 ],
+      "assignedBudget" : 589.2307692307692,
+      "receivedGifts" : [ {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Popa",
+      "firstName" : "Tudor",
+      "city" : "Bucuresti",
+      "age" : 13,
+      "giftsPreferences" : [ "Technology", "Board Games", "Toys" ],
+      "averageScore" : 2.5,
+      "niceScoreHistory" : [ 5.0, 2.0, 2.0 ],
+      "assignedBudget" : 153.2,
+      "receivedGifts" : [ {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Pop",
+      "firstName" : "Diana",
+      "city" : "Iasi",
+      "age" : 3,
+      "giftsPreferences" : [ "Technology" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 7.0, 5.0, 7.0 ],
+      "assignedBudget" : 612.8,
+      "receivedGifts" : [ {
+        "productName" : "Laptop",
+        "price" : 500.0,
+        "category" : "Technology"
+      } ]
+    } ]
+  } ]
+}

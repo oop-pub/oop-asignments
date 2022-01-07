@@ -1,0 +1,177 @@
+{
+  "numberOfYears": 3,
+  "santaBudget": 415,
+  "initialData": {
+    "children": [
+      {
+        "id": 0,
+        "lastName": "Pop",
+        "firstName": "Radu",
+        "age": 5,
+        "city": "Constanta",
+        "niceScore":  8,
+        "giftsPreferences": [
+          "Books",
+          "Books",
+          "Clothes",
+          "Toys"
+        ],
+        "niceScoreBonus": 100,
+        "elf": "white"
+      },
+      {
+        "id": 1,
+        "lastName": "Popa",
+        "firstName": "Andreea",
+        "age": 1,
+        "city": "Bucuresti",
+        "niceScore": 5,
+        "giftsPreferences": [
+          "Clothes"
+        ],
+        "niceScoreBonus": 20,
+        "elf": "white"
+      }
+    ],
+    "santaGiftsList": [
+      {
+        "productName": "Dress",
+        "price": 45,
+        "category": "Clothes",
+        "quantity": 9
+      },
+      {
+        "productName": "Puzzle",
+        "price": 50,
+        "category": "Board Games",
+        "quantity": 9
+      },
+      {
+        "productName": "Shoes",
+        "price": 70,
+        "category": "Clothes",
+        "quantity": 1
+      },
+      {
+        "productName": "Lego",
+        "price": 30,
+        "category": "Toys",
+        "quantity": 2
+      },
+      {
+        "productName": "Uno",
+        "price": 10,
+        "category": "Board Games",
+        "quantity": 7
+      },
+      {
+        "productName": "Handbag",
+        "price": 200,
+        "category": "Clothes",
+        "quantity": 5
+      },
+      {
+        "productName": "Diary of a Wimpy Kid",
+        "price": 25,
+        "category": "Books",
+        "quantity": 6
+      },
+      {
+        "productName": "Bike",
+        "price": 25,
+        "category": "Toys",
+        "quantity": 4
+      },
+      {
+        "productName": "Castle",
+        "price": 15,
+        "category": "Toys",
+        "quantity": 7
+      },
+      {
+        "productName": "Chocolate",
+        "price": 15,
+        "category": "Sweets",
+        "quantity": 1
+      }
+    ]
+  },
+  "annualChanges": [
+    {
+      "newSantaBudget": 588,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": null,
+          "giftsPreferences": [
+            "Toys"
+          ],
+          "elf": "white"
+        },
+        {
+          "id": 1,
+          "niceScore": null,
+          "giftsPreferences": [
+            "Clothes",
+            "Toys"
+          ],
+          "elf": "white"
+        }
+      ],
+      "strategy": "id"
+    },
+    {
+      "newSantaBudget": 580,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": null,
+          "giftsPreferences": [
+            "Clothes",
+            "Sweets",
+            "Toys"
+          ],
+          "elf": "white"
+        },
+        {
+          "id": 1,
+          "niceScore": 7,
+          "giftsPreferences": [
+            "Clothes",
+            "Sweets"
+          ],
+          "elf": "white"
+        }
+      ],
+      "strategy": "id"
+    },
+    {
+      "newSantaBudget": 415,
+      "newGifts": [],
+      "newChildren": [],
+      "childrenUpdates": [
+        {
+          "id": 0,
+          "niceScore": 3,
+          "giftsPreferences": [
+            "Books",
+            "Clothes",
+            "Toys"
+          ],
+          "elf": "white"
+        },
+        {
+          "id": 1,
+          "niceScore": 6,
+          "giftsPreferences": [],
+          "elf": "white"
+        }
+      ],
+      "strategy": "id"
+    }
+  ]
+}

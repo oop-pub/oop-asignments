@@ -1,0 +1,538 @@
+{
+    "numberOfYears": 5,
+    "santaBudget": 1757,
+    "initialData": {
+        "children": [
+            {
+                "id": 0,
+                "lastName": "Popa",
+                "firstName": "Miruna",
+                "age": 4,
+                "city": "Timisoara",
+                "niceScore": 7,
+                "giftsPreferences": [
+                    "Technology",
+                    "Books",
+                    "Clothes",
+                    "Toys",
+                    "Sweets"
+                ],
+                "niceScoreBonus": 80,
+                "elf": "yellow"
+            },
+            {
+                "id": 1,
+                "lastName": "Stoica",
+                "firstName": "Alexandra",
+                "age": 9,
+                "city": "Brasov",
+                "niceScore": 4,
+                "giftsPreferences": [
+                    "Toys",
+                    "Sweets"
+                ],
+                "niceScoreBonus": 100,
+                "elf": "yellow"
+            },
+            {
+                "id": 2,
+                "lastName": "Popescu",
+                "firstName": "Mihai",
+                "age": 7,
+                "city": "Braila",
+                "niceScore": 4,
+                "giftsPreferences": [
+                    "Sweets",
+                    "Toys",
+                    "Clothes"
+                ],
+                "niceScoreBonus": 20,
+                "elf": "white"
+            },
+            {
+                "id": 3,
+                "lastName": "Stoica",
+                "firstName": "Maria",
+                "age": 11,
+                "city": "Craiova",
+                "niceScore": 8,
+                "giftsPreferences": [
+                    "Technology"
+                ],
+                "niceScoreBonus": 90,
+                "elf": "pink"
+            }
+        ],
+        "santaGiftsList": [
+            {
+                "productName": "Laptop",
+                "price": 500,
+                "category": "Technology",
+                "quantity": 1
+            },
+            {
+                "productName": "Car",
+                "price": 20,
+                "category": "Toys",
+                "quantity": 4
+            },
+            {
+                "productName": "Bag of Candy",
+                "price": 20,
+                "category": "Sweets",
+                "quantity": 3
+            },
+            {
+                "productName": "Iphone",
+                "price": 700,
+                "category": "Technology",
+                "quantity": 9
+            },
+            {
+                "productName": "Harry Potter",
+                "price": 35,
+                "category": "Books",
+                "quantity": 7
+            },
+            {
+                "productName": "Chocolate",
+                "price": 15,
+                "category": "Sweets",
+                "quantity": 2
+            },
+            {
+                "productName": "Bike",
+                "price": 25,
+                "category": "Toys",
+                "quantity": 8
+            },
+            {
+                "productName": "Dress",
+                "price": 45,
+                "category": "Clothes",
+                "quantity": 3
+            },
+            {
+                "productName": "Gummy Bears",
+                "price": 10,
+                "category": "Sweets",
+                "quantity": 4
+            },
+            {
+                "productName": "Shoes",
+                "price": 70,
+                "category": "Clothes",
+                "quantity": 1
+            },
+            {
+                "productName": "Milk and Cookies",
+                "price": 30,
+                "category": "Sweets",
+                "quantity": 3
+            },
+            {
+                "productName": "Castle",
+                "price": 15,
+                "category": "Toys",
+                "quantity": 1
+            },
+            {
+                "productName": "Handbag",
+                "price": 200,
+                "category": "Clothes",
+                "quantity": 4
+            }
+        ]
+    },
+    "annualChanges": [
+        {
+            "newSantaBudget": 1757,
+            "newGifts": [],
+            "newChildren": [
+                {
+                    "id": 4,
+                    "lastName": "Ionescu",
+                    "firstName": "Tudor",
+                    "age": 9,
+                    "city": "Iasi",
+                    "niceScore": 7,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Clothes"
+                    ],
+                    "niceScoreBonus": 90,
+                    "elf": "white"
+                },
+                {
+                    "id": 5,
+                    "lastName": "Popescu",
+                    "firstName": "Tudor",
+                    "age": 13,
+                    "city": "Oradea",
+                    "niceScore": 8,
+                    "giftsPreferences": [
+                        "Clothes"
+                    ],
+                    "niceScoreBonus": 0,
+                    "elf": "white"
+                }
+            ],
+            "childrenUpdates": [
+                {
+                    "id": 0,
+                    "niceScore": 9,
+                    "giftsPreferences": [
+                        "Clothes",
+                        "Sweets"
+                    ],
+                    "elf": "yellow"
+                },
+                {
+                    "id": 1,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Sweets"
+                    ],
+                    "elf": "black"
+                },
+                {
+                    "id": 2,
+                    "niceScore": 9,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Sweets"
+                    ],
+                    "elf": "black"
+                },
+                {
+                    "id": 3,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Sweets",
+                        "Books",
+                        "Clothes",
+                        "Technology"
+                    ],
+                    "elf": "yellow"
+                }
+            ],
+            "strategy": "niceScoreCity"
+        },
+        {
+            "newSantaBudget": 448,
+            "newGifts": [
+                {
+                    "productName": "Headphones",
+                    "price": 100,
+                    "category": "Technology",
+                    "quantity": 6
+                }
+            ],
+            "newChildren": [],
+            "childrenUpdates": [
+                {
+                    "id": 0,
+                    "niceScore": 0,
+                    "giftsPreferences": [
+                        "Clothes"
+                    ],
+                    "elf": "pink"
+                },
+                {
+                    "id": 1,
+                    "niceScore": 6,
+                    "giftsPreferences": [
+                        "Sweets",
+                        "Technology",
+                        "Toys",
+                        "Clothes"
+                    ],
+                    "elf": "yellow"
+                },
+                {
+                    "id": 2,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Technology"
+                    ],
+                    "elf": "white"
+                },
+                {
+                    "id": 3,
+                    "niceScore": 5,
+                    "giftsPreferences": [
+                        "Clothes"
+                    ],
+                    "elf": "yellow"
+                },
+                {
+                    "id": 4,
+                    "niceScore": 2,
+                    "giftsPreferences": [],
+                    "elf": "white"
+                },
+                {
+                    "id": 5,
+                    "niceScore": 9,
+                    "giftsPreferences": [
+                        "Clothes",
+                        "Toys",
+                        "Sweets"
+                    ],
+                    "elf": "black"
+                }
+            ],
+            "strategy": "niceScoreCity"
+        },
+        {
+            "newSantaBudget": 1757,
+            "newGifts": [
+                {
+                    "productName": "Doll",
+                    "price": 10,
+                    "category": "Toys",
+                    "quantity": 1
+                }
+            ],
+            "newChildren": [
+                {
+                    "id": 6,
+                    "lastName": "Stoica",
+                    "firstName": "Tudor",
+                    "age": 16,
+                    "city": "Cluj-Napoca",
+                    "niceScore": 2,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Sweets"
+                    ],
+                    "niceScoreBonus": 100,
+                    "elf": "yellow"
+                }
+            ],
+            "childrenUpdates": [
+                {
+                    "id": 0,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Technology"
+                    ],
+                    "elf": "white"
+                },
+                {
+                    "id": 1,
+                    "niceScore": 6,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Technology"
+                    ],
+                    "elf": "black"
+                },
+                {
+                    "id": 2,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Books",
+                        "Sweets"
+                    ],
+                    "elf": "yellow"
+                },
+                {
+                    "id": 3,
+                    "niceScore": 0,
+                    "giftsPreferences": [
+                        "Clothes",
+                        "Toys",
+                        "Sweets"
+                    ],
+                    "elf": "black"
+                },
+                {
+                    "id": 4,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Clothes",
+                        "Toys",
+                        "Sweets"
+                    ],
+                    "elf": "white"
+                },
+                {
+                    "id": 5,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Toys"
+                    ],
+                    "elf": "white"
+                }
+            ],
+            "strategy": "niceScore"
+        },
+        {
+            "newSantaBudget": 832,
+            "newGifts": [],
+            "newChildren": [
+                {
+                    "id": 7,
+                    "lastName": "Pop",
+                    "firstName": "Matei",
+                    "age": 19,
+                    "city": "Constanta",
+                    "niceScore": 8,
+                    "giftsPreferences": [
+                        "Technology"
+                    ],
+                    "niceScoreBonus": 80,
+                    "elf": "black"
+                },
+                {
+                    "id": 8,
+                    "lastName": "Ionescu",
+                    "firstName": "Miruna",
+                    "age": 2,
+                    "city": "Timisoara",
+                    "niceScore": 3,
+                    "giftsPreferences": [
+                        "Toys"
+                    ],
+                    "niceScoreBonus": 0,
+                    "elf": "black"
+                }
+            ],
+            "childrenUpdates": [
+                {
+                    "id": 0,
+                    "niceScore": 8,
+                    "giftsPreferences": [],
+                    "elf": "yellow"
+                },
+                {
+                    "id": 1,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Toys"
+                    ],
+                    "elf": "yellow"
+                },
+                {
+                    "id": 2,
+                    "niceScore": 3,
+                    "giftsPreferences": [],
+                    "elf": "white"
+                },
+                {
+                    "id": 3,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Technology",
+                        "Sweets"
+                    ],
+                    "elf": "white"
+                },
+                {
+                    "id": 4,
+                    "niceScore": 4,
+                    "giftsPreferences": [
+                        "Books",
+                        "Technology"
+                    ],
+                    "elf": "pink"
+                },
+                {
+                    "id": 5,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Technology"
+                    ],
+                    "elf": "black"
+                },
+                {
+                    "id": 6,
+                    "niceScore": 9,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Sweets"
+                    ],
+                    "elf": "pink"
+                }
+            ],
+            "strategy": "id"
+        },
+        {
+            "newSantaBudget": 974,
+            "newGifts": [],
+            "newChildren": [],
+            "childrenUpdates": [
+                {
+                    "id": 0,
+                    "niceScore": 4,
+                    "giftsPreferences": [],
+                    "elf": "black"
+                },
+                {
+                    "id": 1,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Books"
+                    ],
+                    "elf": "pink"
+                },
+                {
+                    "id": 2,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Clothes"
+                    ],
+                    "elf": "yellow"
+                },
+                {
+                    "id": 3,
+                    "niceScore": 2,
+                    "giftsPreferences": [
+                        "Toys",
+                        "Sweets"
+                    ],
+                    "elf": "black"
+                },
+                {
+                    "id": 4,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Toys"
+                    ],
+                    "elf": "pink"
+                },
+                {
+                    "id": 5,
+                    "niceScore": 9,
+                    "giftsPreferences": [
+                        "Technology"
+                    ],
+                    "elf": "pink"
+                },
+                {
+                    "id": 6,
+                    "niceScore": 1,
+                    "giftsPreferences": [],
+                    "elf": "pink"
+                },
+                {
+                    "id": 7,
+                    "niceScore": null,
+                    "giftsPreferences": [
+                        "Sweets"
+                    ],
+                    "elf": "pink"
+                },
+                {
+                    "id": 8,
+                    "niceScore": 1,
+                    "giftsPreferences": [],
+                    "elf": "black"
+                }
+            ],
+            "strategy": "id"
+        }
+    ]
+}

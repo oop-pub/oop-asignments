@@ -1,0 +1,136 @@
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Diana",
+      "city" : "Craiova",
+      "age" : 16,
+      "giftsPreferences" : [ "Clothes", "Technology", "Toys", "Books" ],
+      "averageScore" : 2.0,
+      "niceScoreHistory" : [ 2.0 ],
+      "assignedBudget" : 11.666666666666666,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Stoica",
+      "firstName" : "Tudor",
+      "city" : "Bucuresti",
+      "age" : 10,
+      "giftsPreferences" : [ "Technology", "Toys", "Books" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 58.33333333333333,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Diana",
+      "city" : "Craiova",
+      "age" : 17,
+      "giftsPreferences" : [ "Technology", "Toys", "Clothes", "Books" ],
+      "averageScore" : 6.666666666666667,
+      "niceScoreHistory" : [ 2.0, 9.0 ],
+      "assignedBudget" : 27.999999999999996,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Stoica",
+      "firstName" : "Tudor",
+      "city" : "Bucuresti",
+      "age" : 11,
+      "giftsPreferences" : [ "Clothes", "Technology", "Toys", "Board Games", "Books" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 10.0 ],
+      "assignedBudget" : 41.99999999999999,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Monopoly",
+        "price" : 30.0,
+        "category" : "Board Games"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Diana",
+      "city" : "Craiova",
+      "age" : 18,
+      "giftsPreferences" : [ "Technology", "Books", "Toys", "Clothes" ],
+      "averageScore" : 6.833333333333333,
+      "niceScoreHistory" : [ 2.0, 9.0, 7.0 ],
+      "assignedBudget" : 37.27272727272727,
+      "receivedGifts" : [ {
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Stoica",
+      "firstName" : "Tudor",
+      "city" : "Bucuresti",
+      "age" : 12,
+      "giftsPreferences" : [ "Clothes", "Technology", "Toys", "Books", "Board Games" ],
+      "averageScore" : 6.0,
+      "niceScoreHistory" : [ 10.0, 4.0 ],
+      "assignedBudget" : 32.727272727272734,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 1,
+      "lastName" : "Stoica",
+      "firstName" : "Tudor",
+      "city" : "Bucuresti",
+      "age" : 13,
+      "giftsPreferences" : [ "Toys", "Clothes", "Technology", "Books", "Board Games" ],
+      "averageScore" : 4.0,
+      "niceScoreHistory" : [ 10.0, 4.0, 2.0 ],
+      "assignedBudget" : 70.0,
+      "receivedGifts" : [ {
+        "productName" : "Teddy Bear",
+        "price" : 5.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Twilight",
+        "price" : 30.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Monopoly",
+        "price" : 30.0,
+        "category" : "Board Games"
+      } ]
+    } ]
+  } ]
+}

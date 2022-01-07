@@ -1,0 +1,127 @@
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Maria",
+      "city" : "Cluj-Napoca",
+      "age" : 10,
+      "giftsPreferences" : [ "Sweets", "Technology", "Books" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 405.06666666666666,
+      "receivedGifts" : [ {
+        "productName" : "Milk and Cookies",
+        "price" : 30.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Cantemir",
+      "firstName" : "Radu",
+      "city" : "Braila",
+      "age" : 15,
+      "giftsPreferences" : [ "Toys", "Technology" ],
+      "averageScore" : 8.0,
+      "niceScoreHistory" : [ 8.0 ],
+      "assignedBudget" : 462.93333333333334,
+      "receivedGifts" : [ {
+        "productName" : "Castle",
+        "price" : 15.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Maria",
+      "city" : "Cluj-Napoca",
+      "age" : 11,
+      "giftsPreferences" : [ "Sweets", "Technology", "Books" ],
+      "averageScore" : 7.0,
+      "niceScoreHistory" : [ 7.0 ],
+      "assignedBudget" : 520.8,
+      "receivedGifts" : [ {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Cantemir",
+      "firstName" : "Radu",
+      "city" : "Braila",
+      "age" : 16,
+      "giftsPreferences" : [ "Toys", "Technology" ],
+      "averageScore" : 4.666666666666667,
+      "niceScoreHistory" : [ 8.0, 3.0 ],
+      "assignedBudget" : 347.2,
+      "receivedGifts" : [ {
+        "productName" : "Castle",
+        "price" : 15.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Cantemir",
+      "firstName" : "Maria",
+      "city" : "Cluj-Napoca",
+      "age" : 12,
+      "giftsPreferences" : [ "Sweets", "Technology", "Books" ],
+      "averageScore" : 3.6666666666666665,
+      "niceScoreHistory" : [ 7.0, 2.0 ],
+      "assignedBudget" : 381.91999999999996,
+      "receivedGifts" : [ {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Cantemir",
+      "firstName" : "Radu",
+      "city" : "Braila",
+      "age" : 17,
+      "giftsPreferences" : [ "Toys", "Technology" ],
+      "averageScore" : 4.666666666666667,
+      "niceScoreHistory" : [ 8.0, 3.0 ],
+      "assignedBudget" : 486.08000000000004,
+      "receivedGifts" : [ {
+        "productName" : "Castle",
+        "price" : 15.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Headphones",
+        "price" : 100.0,
+        "category" : "Technology"
+      } ]
+    } ]
+  } ]
+}

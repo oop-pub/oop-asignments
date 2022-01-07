@@ -1,0 +1,179 @@
+{
+  "annualChildren" : [ {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Pop",
+      "firstName" : "Radu",
+      "city" : "Constanta",
+      "age" : 5,
+      "giftsPreferences" : [ "Books", "Clothes", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 8.0 ],
+      "assignedBudget" : 207.5,
+      "receivedGifts" : [ {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Castle",
+        "price" : 15.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Popa",
+      "firstName" : "Andreea",
+      "city" : "Bucuresti",
+      "age" : 1,
+      "giftsPreferences" : [ "Clothes" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 207.5,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Pop",
+      "firstName" : "Radu",
+      "city" : "Constanta",
+      "age" : 6,
+      "giftsPreferences" : [ "Toys", "Books", "Clothes" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 8.0 ],
+      "assignedBudget" : 294.0,
+      "receivedGifts" : [ {
+        "productName" : "Castle",
+        "price" : 15.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Popa",
+      "firstName" : "Andreea",
+      "city" : "Bucuresti",
+      "age" : 2,
+      "giftsPreferences" : [ "Clothes", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 5.0 ],
+      "assignedBudget" : 294.0,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Castle",
+        "price" : 15.0,
+        "category" : "Toys"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Pop",
+      "firstName" : "Radu",
+      "city" : "Constanta",
+      "age" : 7,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys", "Books" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 8.0 ],
+      "assignedBudget" : 290.0,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Chocolate",
+        "price" : 15.0,
+        "category" : "Sweets"
+      }, {
+        "productName" : "Castle",
+        "price" : 15.0,
+        "category" : "Toys"
+      }, {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Popa",
+      "firstName" : "Andreea",
+      "city" : "Bucuresti",
+      "age" : 3,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 5.0, 7.0 ],
+      "assignedBudget" : 290.0,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Castle",
+        "price" : 15.0,
+        "category" : "Toys"
+      } ]
+    } ]
+  }, {
+    "children" : [ {
+      "id" : 0,
+      "lastName" : "Pop",
+      "firstName" : "Radu",
+      "city" : "Constanta",
+      "age" : 8,
+      "giftsPreferences" : [ "Books", "Clothes", "Toys", "Sweets" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 8.0, 3.0 ],
+      "assignedBudget" : 207.5,
+      "receivedGifts" : [ {
+        "productName" : "Diary of a Wimpy Kid",
+        "price" : 25.0,
+        "category" : "Books"
+      }, {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Castle",
+        "price" : 15.0,
+        "category" : "Toys"
+      } ]
+    }, {
+      "id" : 1,
+      "lastName" : "Popa",
+      "firstName" : "Andreea",
+      "city" : "Bucuresti",
+      "age" : 4,
+      "giftsPreferences" : [ "Clothes", "Sweets", "Toys" ],
+      "averageScore" : 10.0,
+      "niceScoreHistory" : [ 5.0, 7.0, 6.0 ],
+      "assignedBudget" : 207.5,
+      "receivedGifts" : [ {
+        "productName" : "Dress",
+        "price" : 45.0,
+        "category" : "Clothes"
+      }, {
+        "productName" : "Castle",
+        "price" : 15.0,
+        "category" : "Toys"
+      } ]
+    } ]
+  } ]
+}
