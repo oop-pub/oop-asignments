@@ -32,7 +32,7 @@ public class Checker {
      */
     private static void calculateScoreAllTests() {
         int totalScore = 0;
-        for (int i = 1; i <= 19; i++) {
+        for (int i = 1; i <= 30; i++) {
             totalScore += calculateScore(i);
         }
         System.out.println("-----------------------------------------------------");
@@ -47,7 +47,7 @@ public class Checker {
      * @param testNumber
      *          the testNumber you want to calculate score for
      * @return
-     *          the score of that test (2 for test : 1) (3 for tests : 2 - 15) (4 for tests : 16 - 19)
+     *          the score of that test (1 for tests : 1 -12 ) (2 for tests : 13 - 19) (3 for tests : 20 - 29) (4 for test : 30)
      */
     public static int calculateScore(Integer testNumber) {
         if (checkOutput(testNumber)) {
@@ -88,12 +88,18 @@ public class Checker {
      * @param testNumber
      *      the testNumber you want to calculate score for
      * @return
-     *      the score of that test (2 for test : 1) (3 for tests : 2 - 15) (4 for tests : 16 - 19)
+     *      the score of that test (1 for tests : 1 -12 ) (2 for tests : 13 - 19) (3 for tests : 20 - 29) (4 for test : 30)
      */
     private static int getScoreForTest(Integer testNumber) {
-        if (testNumber == 1) {
+        if (testNumber >=1 && testNumber <= 12) {
+            return 1;
+        }
+        if (testNumber >=13 && testNumber <= 19) {
             return 2;
         }
-        return (testNumber >1 && testNumber <= 15 ) ? 3 : 4;
+        if (testNumber >=20 && testNumber <= 29) {
+            return 3;
+        }
+        return 4;
     }
 }
