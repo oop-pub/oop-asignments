@@ -195,10 +195,6 @@
       "niceScoreHistory" : [ 4.0, 8.0, 8.0 ],
       "assignedBudget" : 190.12738853503183,
       "receivedGifts" : [ {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      }, {
         "productName" : "Doll",
         "price" : 10.0,
         "category" : "Toys"
@@ -237,13 +233,17 @@
       "niceScoreHistory" : [ 8.0, 5.0 ],
       "assignedBudget" : 133.0891719745223,
       "receivedGifts" : [ {
-        "productName" : "Twilight",
-        "price" : 30.0,
-        "category" : "Books"
-      }, {
         "productName" : "Headphones",
         "price" : 100.0,
         "category" : "Technology"
+      }, {
+        "productName" : "Uno",
+        "price" : 10.0,
+        "category" : "Board Games"
+      }, {
+        "productName" : "Doll",
+        "price" : 10.0,
+        "category" : "Toys"
       } ]
     }, {
       "id" : 4,
@@ -288,12 +288,12 @@
         "price" : 15.0,
         "category" : "Sweets"
       }, {
-        "productName" : "Doll",
-        "price" : 10.0,
+        "productName" : "Castle",
+        "price" : 15.0,
         "category" : "Toys"
       }, {
-        "productName" : "Uno",
-        "price" : 10.0,
+        "productName" : "Monopoly",
+        "price" : 30.0,
         "category" : "Board Games"
       } ]
     }, {
@@ -307,8 +307,8 @@
       "niceScoreHistory" : [ 7.0, 4.0, 5.0, 3.0 ],
       "assignedBudget" : 126.28958702812263,
       "receivedGifts" : [ {
-        "productName" : "Castle",
-        "price" : 15.0,
+        "productName" : "Car",
+        "price" : 20.0,
         "category" : "Toys"
       }, {
         "productName" : "Monopoly",
