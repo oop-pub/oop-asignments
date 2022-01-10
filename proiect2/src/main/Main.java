@@ -16,6 +16,7 @@ public final class Main {
      *          the arguments used to call the main method
      */
     public static void main(final String[] args) {
+
         Checker.calculateScore();
     }
 }

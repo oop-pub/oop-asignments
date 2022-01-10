@@ -19,7 +19,7 @@ public enum ElvesType {
 
     private String value;
 
-    ElvesType(String value) {
+    ElvesType(final String value) {
         this.value = value;
     }
 }

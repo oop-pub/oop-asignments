@@ -14,7 +14,7 @@ public enum CityStrategyEnum {
 
     private String value;
 
-    CityStrategyEnum(String value) {
+    CityStrategyEnum(final String value) {
         this.value = value;
     }
 }
