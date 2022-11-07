@@ -1,6 +1,6 @@
 package main;
 
-import common.Constants;
+import checker.CheckerConstants;
 
 import java.io.File;
 import java.io.IOException;
@@ -22,7 +22,7 @@ public final class Test {
      * @throws IOException in case of exceptions to reading / writing
      */
     public static void main(final String[] args) throws IOException {
-        File directory = new File(Constants.TESTS_PATH);
+        File directory = new File(CheckerConstants.TESTS_PATH);
         File[] inputDir = directory.listFiles();
 
         if (inputDir != null) {
@@ -32,7 +32,7 @@ public final class Test {
             String fileName = scanner.next();
             for (File file : inputDir) {
                 if (file.getName().equalsIgnoreCase(fileName)) {
-                    Main.action(file.getAbsolutePath(), Constants.OUT_FILE);
+                    Main.action(file.getAbsolutePath(), CheckerConstants.OUT_FILE);
                     break;
                 }
             }

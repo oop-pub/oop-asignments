@@ -1,4 +1,3 @@
-
 GOOD_CODE_STYLE=`echo -ne "Starting audit...\nAudit done.\n"`
 BAD_CODE_STYLE=0
 

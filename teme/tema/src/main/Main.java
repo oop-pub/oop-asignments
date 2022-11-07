@@ -1,12 +1,12 @@
 package main;
 
-import checker.Checkstyle;
 import checker.Checker;
-import common.Constants;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectWriter;
+import com.fasterxml.jackson.databind.node.ArrayNode;
+import checker.CheckerConstants;
 import fileio.Input;
-import fileio.InputLoader;
-import fileio.Writer;
-import org.json.simple.JSONArray;
 
 import java.io.File;
 import java.io.IOException;
@@ -26,35 +26,34 @@ public final class Main {
     }
 
     /**
-     * Call the main checker and the coding style checker
+     * DO NOT MODIFY MAIN METHOD
+     * Call the checker
      * @param args from command line
      * @throws IOException in case of exceptions to reading / writing
      */
     public static void main(final String[] args) throws IOException {
-        File directory = new File(Constants.TESTS_PATH);
-        Path path = Paths.get(Constants.RESULT_PATH);
-        if (!Files.exists(path)) {
-            Files.createDirectories(path);
+        File directory = new File(CheckerConstants.TESTS_PATH);
+        Path path = Paths.get(CheckerConstants.RESULT_PATH);
+
+        if (Files.exists(path)) {
+            File resultFile = new File(String.valueOf(path));
+            for (File file : Objects.requireNonNull(resultFile.listFiles())) {
+                file.delete();
+            }
+            resultFile.delete();
         }
-
-        File outputDirectory = new File(Constants.RESULT_PATH);
-
-        Checker checker = new Checker();
-        checker.deleteFiles(outputDirectory.listFiles());
+        Files.createDirectories(path);
 
         for (File file : Objects.requireNonNull(directory.listFiles())) {
-
-            String filepath = Constants.OUT_PATH + file.getName();
+            String filepath = CheckerConstants.OUT_PATH + file.getName();
             File out = new File(filepath);
             boolean isCreated = out.createNewFile();
             if (isCreated) {
-                action(file.getAbsolutePath(), filepath);
+                action(file.getName(), filepath);
             }
         }
 
-        checker.iterateFiles(Constants.RESULT_PATH, Constants.REF_PATH, Constants.TESTS_PATH);
-        Checkstyle test = new Checkstyle();
-        test.testCheckstyle();
+        Checker.calculateScore();
     }
 
     /**
@@ -64,14 +63,15 @@ public final class Main {
      */
     public static void action(final String filePath1,
                               final String filePath2) throws IOException {
-        InputLoader inputLoader = new InputLoader(filePath1);
-        Input input = inputLoader.readData();
+        ObjectMapper objectMapper = new ObjectMapper();
+        Input inputData = objectMapper.readValue(new File(CheckerConstants.TESTS_PATH + filePath1),
+                Input.class);
 
-        Writer fileWriter = new Writer(filePath2);
-        JSONArray arrayResult = new JSONArray();
+        ArrayNode output = objectMapper.createArrayNode();
 
         //TODO add here the entry point to your implementation
 
-        fileWriter.closeJSON(arrayResult);
+        ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
+        objectWriter.writeValue(new File(filePath2), output);
     }
 }

@@ -1,7 +1,5 @@
 package checker;
 
-import common.Constants;
-
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -12,34 +10,49 @@ import java.nio.file.Paths;
  * Checker to verify the coding style
  */
 public final class Checkstyle {
+    private Checkstyle() {
+        //constructor for checkstyle
+    }
     /**
      * DO NOT MODIFY
      */
-    public void testCheckstyle() {
+    public static int testCheckstyle() {
         ProcessBuilder processBuilder = new ProcessBuilder("java", "-jar",
-                Constants.JAR_PATH, "-c", Constants.XML_PATH, "./");
+                "src/checker/checkstyle-8.36.2-all.jar", "-c",
+                "src/checker/poo_checks.xml", "./");
 
         processBuilder.redirectErrorStream(true);
-        File log = new File(Constants.CHECKSTYLE_FILE);
+        File log = new File("checkstyle.txt");
         processBuilder.redirectOutput(log);
 
         try {
             Process process = processBuilder.start();
             process.waitFor();
 
-            Path path = Paths.get(Constants.CHECKSTYLE_FILE);
+            Path path = Paths.get("checkstyle.txt");
             long lineCount = Files.lines(path).count();
 
             long errors = 0;
-            if (lineCount > Constants.MIN_LINES) {
-                errors = lineCount - Constants.NUM_CHECK_INFO;
+            if (lineCount > 2) {
+                errors = lineCount - CheckerConstants.BIG_TEST_POINTS;
             }
-            System.out.println("-----------------------------");
+            System.out.println("-----------------------------------------------------");
             System.out.println("Checkstyle: "
-                    + ((errors <= Constants.MIN_CHECKSTYLE_ERR) ? "Ok" : "Failed"));
+                    + ((errors <= CheckerConstants.MAXIMUM_ERROR_CHECKSTYLE) ? "Ok" : "Failed"));
             System.out.println("Checkstyle errors: " + errors);
+            System.out.println("-----------------------------------------------------");
+            System.out
+                    .println("CHECKSTYLE = "
+                            + ((errors <= CheckerConstants.MAXIMUM_ERROR_CHECKSTYLE)
+                            ? "10/10" : "0/10"));
+            System.out
+                    .println("-----------------------------------------------------");
+            return (errors <= CheckerConstants.MAXIMUM_ERROR_CHECKSTYLE)
+                    ? CheckerConstants.CHECKSTYLE_POINTS : 0;
+
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
+        return 0;
     }
 }

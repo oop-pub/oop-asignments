@@ -1,0 +1,183 @@
+[
+  {
+    "command": "getEnvironmentCardsInHand",
+    "playerIdx": 1,
+    "output": [
+      {
+        "mana": 1,
+        "description": "Standard card: The days are cold and so are we. We hope we can close our eyes again.",
+        "colors": [
+          "White",
+          "Blue"
+        ],
+        "name": "Winterfell"
+      }
+    ]
+  },
+  {
+    "command": "getCardAtPosition",
+    "output": {
+      "mana": 2,
+      "attackDamage": 2,
+      "health": 1,
+      "description": "Standard card: A drink can always be served, with the blood of his enemies.",
+      "colors": [
+        "Red",
+        "Blue",
+        "Pink"
+      ],
+      "name": "Berserker"
+    }
+  },
+  {
+    "command": "getCardAtPosition",
+    "output": {
+      "mana": 1,
+      "attackDamage": 1,
+      "health": 3,
+      "description": "Premium card: His presence is not known even by ghosts, success at all costs.",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "name": "Sentinel"
+    }
+  },
+  {
+    "command": "getEnvironmentCardsInHand",
+    "playerIdx": 1,
+    "output": []
+  },
+  {
+    "command": "getCardAtPosition",
+    "output": {
+      "mana": 1,
+      "attackDamage": 1,
+      "health": 3,
+      "description": "Premium card: His presence is not known even by ghosts, success at all costs.",
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "name": "Sentinel"
+    }
+  },
+  {
+    "command": "getCardAtPosition",
+    "output": {
+      "mana": 2,
+      "attackDamage": 2,
+      "health": 1,
+      "description": "Standard card: A drink can always be served, with the blood of his enemies.",
+      "colors": [
+        "Red",
+        "Blue",
+        "Pink"
+      ],
+      "name": "Berserker"
+    }
+  },
+  {
+    "command": "getPlayerMana",
+    "playerIdx": 1,
+    "output": 15
+  },
+  {
+    "command": "getPlayerMana",
+    "playerIdx": 2,
+    "output": 11
+  },
+  {
+    "command": "getCardsOnTable",
+    "output": [
+      [
+        {
+          "mana": 2,
+          "attackDamage": 2,
+          "health": 1,
+          "description": "Standard card: A drink can always be served, with the blood of his enemies.",
+          "colors": [
+            "Red",
+            "Blue",
+            "Pink"
+          ],
+          "name": "Berserker"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 3,
+          "health": 2,
+          "description": "Premium card: Fear him. Your last breath is now.",
+          "colors": [
+            "Purple",
+            "Yellow"
+          ],
+          "name": "Berserker"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 1,
+          "health": 3,
+          "description": "Standard card: Trained by the best, nothing will catch him off-guard.",
+          "colors": [
+            "Black",
+            "Grey",
+            "Blue"
+          ],
+          "name": "Sentinel"
+        }
+      ],
+      [],
+      [],
+      [
+        {
+          "mana": 1,
+          "attackDamage": 1,
+          "health": 2,
+          "description": "Premium card: His presence is not known even by ghosts, success at all costs.",
+          "colors": [
+            "Black",
+            "White"
+          ],
+          "name": "Sentinel"
+        }
+      ]
+    ]
+  },
+  {
+    "command": "getCardsInHand",
+    "playerIdx": 1,
+    "output": [
+      {
+        "mana": 3,
+        "attackDamage": 0,
+        "health": 1,
+        "description": "Standard card: Thrown from the highest cliff, revenge will be his glory.",
+        "colors": [
+          "Black",
+          "White",
+          "Red"
+        ],
+        "name": "The Cursed One"
+      }
+    ]
+  },
+  {
+    "command": "getCardsInHand",
+    "playerIdx": 2,
+    "output": [
+      {
+        "mana": 3,
+        "attackDamage": 0,
+        "health": 2,
+        "description": "Standard card: Everything is sacred to him, all is but a gift from the saints.",
+        "colors": [
+          "Green",
+          "Yellow",
+          "Blue"
+        ],
+        "name": "Disciple"
+      }
+    ]
+  }
+]

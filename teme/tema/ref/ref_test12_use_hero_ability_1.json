@@ -1,0 +1,161 @@
+[
+  {
+    "command": "getCardAtPosition",
+    "output": {
+      "mana": 1,
+      "attackDamage": 0,
+      "health": 1,
+      "description": "Standard card: Thrown from the highest cliff, revenge will be his glory.",
+      "colors": [
+        "Pink",
+        "Purple"
+      ],
+      "name": "The Cursed One"
+    }
+  },
+  {
+    "command": "getCardAtPosition",
+    "output": {
+      "mana": 1,
+      "attackDamage": 6,
+      "health": 3,
+      "description": "Standard card: Death incarnate. No better time to die than now.",
+      "colors": [
+        "Black",
+        "Yellow"
+      ],
+      "name": "The Ripper"
+    }
+  },
+  {
+    "command": "getFrozenCardsOnTable",
+    "output": []
+  },
+  {
+    "command": "getPlayerTurn",
+    "output": 2
+  },
+  {
+    "command": "getPlayerMana",
+    "playerIdx": 2,
+    "output": 6
+  },
+  {
+    "command": "getPlayerMana",
+    "playerIdx": 1,
+    "output": 6
+  },
+  {
+    "command": "getCardsOnTable",
+    "output": [
+      [
+        {
+          "mana": 1,
+          "attackDamage": 6,
+          "health": 1,
+          "description": "Premium card: Fear him. Your last breath is now.",
+          "colors": [
+            "Red",
+            "Blue",
+            "Pink"
+          ],
+          "name": "Berserker"
+        }
+      ],
+      [
+        {
+          "mana": 1,
+          "attackDamage": 6,
+          "health": 3,
+          "description": "Standard card: Death incarnate. No better time to die than now.",
+          "colors": [
+            "Black",
+            "Yellow"
+          ],
+          "name": "The Ripper"
+        }
+      ],
+      [],
+      [
+        {
+          "mana": 1,
+          "attackDamage": 1,
+          "health": 1,
+          "description": "Standard card: Thrown from the highest cliff, revenge will be his glory.",
+          "colors": [
+            "Pink",
+            "Purple"
+          ],
+          "name": "The Cursed One"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 1,
+          "health": 1,
+          "description": "Standard card: Thrown from the highest cliff, revenge will be his glory.",
+          "colors": [
+            "Black",
+            "White",
+            "Red"
+          ],
+          "name": "The Cursed One"
+        }
+      ]
+    ]
+  },
+  {
+    "command": "getCardsInHand",
+    "playerIdx": 2,
+    "output": [
+      {
+        "mana": 2,
+        "description": "Standard card: The days are cold and so are we. We hope we can close our eyes again.",
+        "colors": [
+          "White",
+          "Grey",
+          "Black"
+        ],
+        "name": "Winterfell"
+      },
+      {
+        "mana": 1,
+        "attackDamage": 7,
+        "health": 6,
+        "description": "Standard card: He has seen everything, his mind has never been asleep since the making of the realm.",
+        "colors": [
+          "Brown",
+          "Blue"
+        ],
+        "name": "Warden"
+      }
+    ]
+  },
+  {
+    "command": "getCardsInHand",
+    "playerIdx": 1,
+    "output": [
+      {
+        "mana": 1,
+        "description": "Premium card: All is white. My mouth is frozen and I must scream.",
+        "colors": [
+          "White",
+          "Grey",
+          "Black"
+        ],
+        "name": "Winterfell"
+      },
+      {
+        "mana": 2,
+        "attackDamage": 6,
+        "health": 4,
+        "description": "Premium card: Insanity is always an option, now it is an absolute.",
+        "colors": [
+          "Yellow",
+          "Orange",
+          "Red"
+        ],
+        "name": "Miraj"
+      }
+    ]
+  }
+]

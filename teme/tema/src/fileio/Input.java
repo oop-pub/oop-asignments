@@ -1,70 +1,48 @@
 package fileio;
 
-import java.util.List;
+import java.util.ArrayList;
 
-/**
- * The class contains information about input
- * <p>
- * DO NOT MODIFY
- */
 public final class Input {
-    /**
-     * List of actors
-     */
-    private final List<ActorInputData> actorsData;
-    /**
-     * List of users
-     */
-    private final List<UserInputData> usersData;
-    /**
-     * List of commands
-     */
-    private final List<ActionInputData> commandsData;
-    /**
-     * List of movies
-     */
-    private final List<MovieInputData> moviesData;
-    /**
-     * List of serials aka tv shows
-     */
-    private final List<SerialInputData> serialsData;
+    private DecksInput playerOneDecks;
+    private DecksInput playerTwoDecks;
+    private ArrayList<GameInput> games;
 
     public Input() {
-        this.actorsData = null;
-        this.usersData = null;
-        this.commandsData = null;
-        this.moviesData = null;
-        this.serialsData = null;
     }
 
-    public Input(final List<ActorInputData> actors, final List<UserInputData> users,
-                 final List<ActionInputData> commands,
-                 final List<MovieInputData> movies,
-                 final List<SerialInputData> serials) {
-        this.actorsData = actors;
-        this.usersData = users;
-        this.commandsData = commands;
-        this.moviesData = movies;
-        this.serialsData = serials;
+    public ArrayList<GameInput> getGames() {
+        return games;
     }
 
-    public List<ActorInputData> getActors() {
-        return actorsData;
+    public void setGames(final ArrayList<GameInput> games) {
+        this.games = games;
     }
 
-    public List<UserInputData> getUsers() {
-        return usersData;
+    public DecksInput getPlayerOneDecks() {
+        return playerOneDecks;
     }
 
-    public List<ActionInputData> getCommands() {
-        return commandsData;
+    public void setPlayerOneDecks(final DecksInput playerOneDecks) {
+        this.playerOneDecks = playerOneDecks;
     }
 
-    public List<MovieInputData> getMovies() {
-        return moviesData;
+    public DecksInput getPlayerTwoDecks() {
+        return playerTwoDecks;
     }
 
-    public List<SerialInputData> getSerials() {
-        return serialsData;
+    public void setPlayerTwoDecks(final DecksInput playerTwoDecks) {
+        this.playerTwoDecks = playerTwoDecks;
+    }
+
+    @Override
+    public String toString() {
+        return "Input{"
+                + "player_one_decks="
+                + playerOneDecks
+                + ", player_two_decks="
+                + playerTwoDecks
+                +  ", games="
+                + games
+                +  '}';
     }
 }

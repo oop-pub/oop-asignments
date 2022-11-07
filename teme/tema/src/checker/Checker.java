@@ -1,143 +1,168 @@
 package checker;
 
-import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import common.Constants;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
+import java.util.Objects;
 
-/**
- * Checker to verify the correctness of the tests.
- */
 public final class Checker {
-    /**.
-     * DO NOT MODIFY
-     * @param directory The name of the output directory.
-     */
-    public void deleteFiles(final File[] directory) {
-        if (directory != null) {
-            for (File file : directory) {
-                if (!file.delete()) {
-                    System.out.println("nu s-a sters");
-                }
-            }
+    private static int gitScore;
+    private static int readmeScore;
+    private static int totalScore = 0;
+
+    private Checker() {
+    }
+
+    private static void calculateScoreGit() {
+        System.out.print(".GIT score = ");
+
+        Path path = Paths.get(".git");
+        if (Files.exists(path)) {
+            gitScore = CheckerConstants.FIVE_POINTS;
+            System.out.println(gitScore + "/5");
+        } else {
+            gitScore = CheckerConstants.ZERO_POINTS;
+            System.out.println(gitScore + "/5");
+        }
+    }
+
+    private static void calculateScoreReadme() {
+        System.out.println("-----------------------------------------------------");
+        System.out.print("README score = ");
+        Path path1 = Paths.get("README");
+        Path path2 = Paths.get("README.md");
+        Path path3 = Paths.get("README.txt");
+
+        if (Files.exists(path1) || Files.exists(path2) || Files.exists(path3)) {
+            readmeScore = CheckerConstants.FIVE_POINTS;
+            System.out.println(readmeScore + "/5");
+
+        } else {
+            readmeScore = CheckerConstants.ZERO_POINTS;
+            System.out.println(readmeScore + "/5");
         }
     }
 
     /**
+     * This method is used to calculate total score of the implementation and checkstyle
+     */
+    public static void calculateScore() throws IOException {
+        System.out.println();
+        calculateScoreAllTests();
+        int checkstyleScore = calculateScoreCheckstyle();
+        calculateScoreGit();
+        calculateScoreReadme();
+
+        int finalScore = totalScore + gitScore + readmeScore + checkstyleScore;
+        System.out.println("-----------------------------------------------------");
+        System.out.println("FINAL SCORE = " + finalScore + "/100");
+
+        if (finalScore == CheckerConstants.MAX_POINTS) {
+            System.out.println("\nAcum ca ai terminat, sigur esti un..."
+                    + " https://www.youtube.com/watch?v=1LZZYemqLyU");
+        }
+    }
+
+    /**
+     * This method is used to calculate the score of checkstyle
+     */
+    private static int calculateScoreCheckstyle() {
+        return Checkstyle.testCheckstyle();
+    }
+
+    /**
+     * This method is used to calculate score of implementation
      *
-     * @param file The file from which the data will be read
-     * @return A list of queryTest objects
-     * @throws IOException in case of exceptions to reading / writing
+     * 18 tests (80 points maximum)
      */
-    public List<QueryTest> createQueries(final File file) throws IOException {
-        ObjectMapper objectMapper = new ObjectMapper();
-        return objectMapper.readValue(file, new TypeReference<List<QueryTest>>() {
-        });
+    private static void calculateScoreAllTests() throws IOException {
+        File directory = new File(CheckerConstants.TESTS_PATH);
+        Path path = Paths.get(CheckerConstants.RESULT_PATH);
+        if (!Files.exists(path)) {
+            Files.createDirectories(path);
+        }
+        List<String> listFile = Arrays.asList(Objects.requireNonNull(directory.list()));
+        Collections.sort(listFile);
+        for (String file : listFile) {
+            totalScore += calculateScore(file);
+        }
+
+        System.out.println("-----------------------------------------------------");
+        System.out.println("TESTS = " + totalScore + "/80");
     }
 
     /**
-     *
-     * @param queryTests1 first query test
-     * @param queryTests2 second query test
-     * @return true if the queries have the same values
+     * This method calculates the score of only one single test
+     * @return the score of that test
      */
-    public boolean compareQueries(final List<QueryTest> queryTests1,
-                                  final List<QueryTest> queryTests2) {
-        if (queryTests1.size() != queryTests2.size()) {
-            return false;
-        }
-
-        for (int i = 0; i < queryTests1.size(); i++) {
-            if (!queryTests1.get(i).equals(queryTests2.get(i))) {
-                return false;
+    public static int calculateScore(final String input) {
+        if (checkOutput(input)) {
+            System.out.print(input + " ");
+            for (int i = 1;  i <= CheckerConstants.LEN_LONGEST_TEST_NAME - input.length(); i++) {
+                System.out.print("-");
             }
+            System.out.println("--------------------------------------------- PASSED (+"
+                    + getScoreForTest(input) + ")");
+            return getScoreForTest(input);
+        } else {
+            System.out.print(input + " ");
+            for (int i = 1; i <= CheckerConstants.LEN_LONGEST_TEST_NAME - input.length(); i++) {
+                System.out.print("-");
+            }
+            System.out.println("--------------------------------------------- FAILED (+0)");
+            return 0;
         }
-
-        return true;
     }
 
     /**
-     * Displays the score obtained after running the tests
-     * @param dirOutPath output directory path
-     * @param dirRefPath references directory path
-     * @param inputPath input directory path
-     * @throws IOException in case of exceptions to reading / writing
+     * @param file the test you want to check
+     * @return
+     *          if the two files are equal or not
      */
-    public void iterateFiles(final String dirOutPath, final String dirRefPath,
-                             final String inputPath) throws IOException {
-        int score = 0;
-        int length;
+    private static boolean checkOutput(final String file) {
+        ObjectMapper mapper = new ObjectMapper();
 
-        File dirOut = new File(dirOutPath);
-        File dirRef = new File(dirRefPath);
-        File input = new File(inputPath);
+        try {
+            JsonNode output = mapper.readTree(new File(CheckerConstants.OUT_PATH + file));
+            JsonNode ref = mapper.readTree(new File(CheckerConstants.REF_PATH + file));
+            return output.equals(ref);
 
-        File[] directoryList = dirOut.listFiles();
-        File[] directoryRef = dirRef.listFiles();
-        File[] inputDir = input.listFiles();
-
-        List<List<QueryTest>> listRefs = new ArrayList<>();
-        List<List<QueryTest>> listOut = new ArrayList<>();
-
-        if (directoryList != null) {
-            Arrays.sort(directoryList);
-            for (File file : directoryList) {
-                listOut.add(createQueries(file));
-            }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-
-        if (directoryRef != null) {
-            Arrays.sort(directoryRef);
-            for (File file : directoryRef) {
-                listRefs.add(createQueries(file));
-            }
-        }
-
-        if (listOut.size() == listRefs.size() && inputDir != null) {
-            Arrays.sort(inputDir);
-            for (int i = 0; i < listOut.size(); i++) {
-
-                length = Constants.MAX_LENGTH - inputDir[i].getName().length();
-                if (compareQueries(listRefs.get(i), listOut.get(i))) {
-
-                    char[] chars = new char[length];
-                    Arrays.fill(chars, ' ');
-                    String s = new String(chars);
-
-                    if (inputDir[i].getName().contains(Constants.LARGE)
-                            || inputDir[i].getName().contains(Constants.NO_VALUES)) {
-                        System.out.println(inputDir[i].getName()
-                                + s
-                                + "PASSED (+"
-                                + Constants.LARGE_TEST
-                                + ")");
-                        score += Constants.LARGE_TEST;
-                    } else {
-                        System.out.println(inputDir[i].getName()
-                                + s
-                                + "PASSED (+"
-                                + Constants.SINGLE_TEST + ")");
-                        score += Constants.SINGLE_TEST;
-                    }
-                } else {
-                    char[] chars = new char[length];
-                    Arrays.fill(chars, ' ');
-                    String s = new String(chars);
-                    System.out.println(inputDir[i].getName()
-                            + s
-                            + "FAILED (+0)");
-                }
-            }
-        }
-
-        System.out.println("-----------------------------");
-        System.out.println("TOTAL = " + score + "/80");
+        return false;
     }
 
+    /**
+     * @param input the test you want to calculate score for
+     * @return  the score of that test
+     */
+    private static int getScoreForTest(final String input) {
 
+        if (input.contains(CheckerConstants.GAME_START)) {
+            return CheckerConstants.GAME_START_POINTS;
+        }
+
+        if (input.contains(CheckerConstants.MULTIPLE_GAMES_VALID)) {
+            return CheckerConstants.MULTIPLE_GAMES_VALID_POINTS;
+        }
+
+        if (input.contains(CheckerConstants.MULTIPLE_GAMES_INVALID)) {
+            return CheckerConstants.MULTIPLE_GAMES_INVALID_POINTS;
+        }
+
+        if (input.contains(CheckerConstants.BIG_GAME)) {
+            return CheckerConstants.BIG_GAME_POINTS;
+        }
+
+        return CheckerConstants.SINGLE_GAME_POINTS;
+    }
 }

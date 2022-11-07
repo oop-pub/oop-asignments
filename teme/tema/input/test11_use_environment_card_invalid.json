@@ -1,0 +1,888 @@
+{
+  "playerOneDecks": {
+    "nrCardsInDeck": 15,
+    "nrDecks": 2,
+    "decks": [
+      [
+        {
+          "mana": 5,
+          "attackDamage": 5,
+          "health": 4,
+          "description": "Standard card: When he is near, close your eyes. They betray your mind.",
+          "colors": [
+            "Red",
+            "Black"
+          ],
+          "name": "Miraj"
+        },
+        {
+          "mana": 2,
+          "description": "Standard card: The days are cold and so are we. We hope we can close our eyes again.",
+          "colors": [
+            "White",
+            "Grey",
+            "Black"
+          ],
+          "name": "Winterfell"
+        },
+        {
+          "mana": 1,
+          "description": "Standard card: Corruption is easy, you always wanted it, now I help you embrace it.",
+          "colors": [
+            "Red",
+            "White",
+            "Grey"
+          ],
+          "name": "Heart Hound"
+        },
+        {
+          "mana": 1,
+          "description": "Standard card: Corruption is easy, you always wanted it, now I help you embrace it.",
+          "colors": [
+            "Green",
+            "Black"
+          ],
+          "name": "Heart Hound"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 1,
+          "health": 7,
+          "description": "Premium card: No matter how many, his body will fight. Save your breath for the Mountain is strong.",
+          "colors": [
+            "Red",
+            "Purple"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 1,
+          "health": 7,
+          "description": "Premium card: No matter how many, his body will fight. Save your breath for the Mountain is strong.",
+          "colors": [
+            "Brown",
+            "Black",
+            "Grey"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 2,
+          "health": 7,
+          "description": "Premium card: No matter how many, his body will fight. Save your breath for the Mountain is strong.",
+          "colors": [
+            "Red",
+            "Purple"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 1,
+          "health": 8,
+          "description": "Premium card: No matter how many, his body will fight. Save your breath for the Mountain is strong.",
+          "colors": [
+            "Brown",
+            "Black",
+            "Grey"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 5,
+          "health": 4,
+          "description": "Premium card: Ravished by the winds of hell, no soul is to be forgiven.",
+          "colors": [
+            "Orange",
+            "Red",
+            "Black"
+          ],
+          "name": "The Ripper"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 6,
+          "health": 4,
+          "description": "Premium card: Ravished by the winds of hell, no soul is to be forgiven.",
+          "colors": [
+            "Black",
+            "Yellow"
+          ],
+          "name": "The Ripper"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 2,
+          "health": 6,
+          "description": "Premium card: You shall not pass, you shall not prevail, you shall perish.",
+          "colors": [
+            "Brown",
+            "Blue"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 1,
+          "health": 7,
+          "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
+          "colors": [
+            "Brown",
+            "Black",
+            "Grey"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 1,
+          "health": 8,
+          "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
+          "colors": [
+            "Brown",
+            "Black",
+            "Grey"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 2,
+          "health": 6,
+          "description": "Premium card: You shall not pass, you shall not prevail, you shall perish.",
+          "colors": [
+            "Brown",
+            "Blue"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 5,
+          "attackDamage": 4,
+          "health": 3,
+          "description": "Premium card: Insanity is always an option, now it is an absolute.",
+          "colors": [
+            "Red",
+            "Black"
+          ],
+          "name": "Miraj"
+        }
+      ],
+      [
+        {
+          "mana": 3,
+          "attackDamage": 3,
+          "health": 6,
+          "description": "Premium card: You shall not pass, you shall not prevail, you shall perish.",
+          "colors": [
+            "Brown",
+            "Blue"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 5,
+          "attackDamage": 4,
+          "health": 4,
+          "description": "Premium card: Insanity is always an option, now it is an absolute.",
+          "colors": [
+            "Yellow",
+            "Orange",
+            "Red"
+          ],
+          "name": "Miraj"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 2,
+          "health": 5,
+          "description": "Standard card: He has seen everything, his mind has never been asleep since the making of the realm.",
+          "colors": [
+            "Brown",
+            "Blue"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 2,
+          "health": 5,
+          "description": "Standard card: He has seen everything, his mind has never been asleep since the making of the realm.",
+          "colors": [
+            "Brown",
+            "Blue"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 5,
+          "health": 4,
+          "description": "Premium card: Ravished by the winds of hell, no soul is to be forgiven.",
+          "colors": [
+            "Orange",
+            "Red",
+            "Black"
+          ],
+          "name": "The Ripper"
+        },
+        {
+          "mana": 5,
+          "attackDamage": 5,
+          "health": 3,
+          "description": "Premium card: Insanity is always an option, now it is an absolute.",
+          "colors": [
+            "Red",
+            "Black"
+          ],
+          "name": "Miraj"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 3,
+          "health": 6,
+          "description": "Premium card: You shall not pass, you shall not prevail, you shall perish.",
+          "colors": [
+            "Black",
+            "White",
+            "Green"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 1,
+          "health": 7,
+          "description": "Premium card: No matter how many, his body will fight. Save your breath for the Mountain is strong.",
+          "colors": [
+            "Brown",
+            "Black",
+            "Grey"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 5,
+          "health": 4,
+          "description": "Premium card: Insanity is always an option, now it is an absolute.",
+          "colors": [
+            "Yellow",
+            "Orange",
+            "Red"
+          ],
+          "name": "Miraj"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 4,
+          "health": 4,
+          "description": "Premium card: Insanity is always an option, now it is an absolute.",
+          "colors": [
+            "Yellow",
+            "Orange",
+            "Red"
+          ],
+          "name": "Miraj"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 6,
+          "health": 3,
+          "description": "Standard card: Death incarnate. No better time to die than now.",
+          "colors": [
+            "Black",
+            "Yellow"
+          ],
+          "name": "The Ripper"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 1,
+          "health": 7,
+          "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
+          "colors": [
+            "Red",
+            "Purple"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 4,
+          "description": "Premium card: The fury of hell is upon us, please kill us.",
+          "colors": [
+            "Red",
+            "Yellow"
+          ],
+          "name": "Firestorm"
+        },
+        {
+          "mana": 3,
+          "description": "Standard card: The dragon was unleashed, run for your lives.",
+          "colors": [
+            "Red",
+            "Yellow"
+          ],
+          "name": "Firestorm"
+        },
+        {
+          "mana": 1,
+          "description": "Premium card: Your mind is ours. Your body is ours. Stop begging.",
+          "colors": [
+            "Green",
+            "Black"
+          ],
+          "name": "Heart Hound"
+        }
+      ]
+    ]
+  },
+  "playerTwoDecks": {
+    "nrCardsInDeck": 15,
+    "nrDecks": 2,
+    "decks": [
+      [
+        {
+          "mana": 1,
+          "description": "Premium card: Your mind is ours. Your body is ours. Stop begging.",
+          "colors": [
+            "Red",
+            "White",
+            "Grey"
+          ],
+          "name": "Heart Hound"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 3,
+          "health": 6,
+          "description": "Premium card: You shall not pass, you shall not prevail, you shall perish.",
+          "colors": [
+            "Brown",
+            "Blue"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 3,
+          "health": 6,
+          "description": "Premium card: You shall not pass, you shall not prevail, you shall perish.",
+          "colors": [
+            "Brown",
+            "Blue"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 3,
+          "health": 5,
+          "description": "Standard card: He has seen everything, his mind has never been asleep since the making of the realm.",
+          "colors": [
+            "Black",
+            "White",
+            "Green"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 3,
+          "health": 6,
+          "description": "Standard card: He has seen everything, his mind has never been asleep since the making of the realm.",
+          "colors": [
+            "Brown",
+            "Blue"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 1,
+          "description": "Standard card: Corruption is easy, you always wanted it, now I help you embrace it.",
+          "colors": [
+            "Red",
+            "White",
+            "Grey"
+          ],
+          "name": "Heart Hound"
+        },
+        {
+          "mana": 5,
+          "attackDamage": 5,
+          "health": 3,
+          "description": "Premium card: Insanity is always an option, now it is an absolute.",
+          "colors": [
+            "Red",
+            "Black"
+          ],
+          "name": "Miraj"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 1,
+          "health": 7,
+          "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
+          "colors": [
+            "Brown",
+            "Black",
+            "Grey"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 6,
+          "health": 3,
+          "description": "Premium card: Ravished by the winds of hell, no soul is to be forgiven.",
+          "colors": [
+            "Orange",
+            "Red",
+            "Black"
+          ],
+          "name": "The Ripper"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 5,
+          "health": 4,
+          "description": "Premium card: Ravished by the winds of hell, no soul is to be forgiven.",
+          "colors": [
+            "Black",
+            "Yellow"
+          ],
+          "name": "The Ripper"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 1,
+          "health": 7,
+          "description": "Premium card: No matter how many, his body will fight. Save your breath for the Mountain is strong.",
+          "colors": [
+            "Brown",
+            "Black",
+            "Grey"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 2,
+          "description": "Premium card: Your mind is ours. Your body is ours. Stop begging.",
+          "colors": [
+            "Green",
+            "Black"
+          ],
+          "name": "Heart Hound"
+        },
+        {
+          "mana": 5,
+          "attackDamage": 4,
+          "health": 3,
+          "description": "Standard card: When he is near, close your eyes. They betray your mind.",
+          "colors": [
+            "Yellow",
+            "Orange",
+            "Red"
+          ],
+          "name": "Miraj"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 2,
+          "health": 8,
+          "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
+          "colors": [
+            "Red",
+            "Purple"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 5,
+          "health": 4,
+          "description": "Premium card: Insanity is always an option, now it is an absolute.",
+          "colors": [
+            "Red",
+            "Black"
+          ],
+          "name": "Miraj"
+        }
+      ],
+      [
+        {
+          "mana": 3,
+          "attackDamage": 2,
+          "health": 8,
+          "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
+          "colors": [
+            "Red",
+            "Purple"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 1,
+          "description": "Standard card: Corruption is easy, you always wanted it, now I help you embrace it.",
+          "colors": [
+            "Green",
+            "Black"
+          ],
+          "name": "Heart Hound"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 5,
+          "health": 3,
+          "description": "Standard card: Death incarnate. No better time to die than now.",
+          "colors": [
+            "Black",
+            "Yellow"
+          ],
+          "name": "The Ripper"
+        },
+        {
+          "mana": 5,
+          "attackDamage": 5,
+          "health": 3,
+          "description": "Premium card: Insanity is always an option, now it is an absolute.",
+          "colors": [
+            "Yellow",
+            "Orange",
+            "Red"
+          ],
+          "name": "Miraj"
+        },
+        {
+          "mana": 2,
+          "description": "Premium card: Your mind is ours. Your body is ours. Stop begging.",
+          "colors": [
+            "Red",
+            "White",
+            "Grey"
+          ],
+          "name": "Heart Hound"
+        },
+        {
+          "mana": 5,
+          "attackDamage": 5,
+          "health": 4,
+          "description": "Standard card: When he is near, close your eyes. They betray your mind.",
+          "colors": [
+            "Yellow",
+            "Orange",
+            "Red"
+          ],
+          "name": "Miraj"
+        },
+        {
+          "mana": 2,
+          "description": "Premium card: Your mind is ours. Your body is ours. Stop begging.",
+          "colors": [
+            "Red",
+            "White",
+            "Grey"
+          ],
+          "name": "Heart Hound"
+        },
+        {
+          "mana": 5,
+          "attackDamage": 5,
+          "health": 3,
+          "description": "Standard card: When he is near, close your eyes. They betray your mind.",
+          "colors": [
+            "Yellow",
+            "Orange",
+            "Red"
+          ],
+          "name": "Miraj"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 5,
+          "health": 4,
+          "description": "Premium card: Insanity is always an option, now it is an absolute.",
+          "colors": [
+            "Red",
+            "Black"
+          ],
+          "name": "Miraj"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 4,
+          "health": 4,
+          "description": "Standard card: When he is near, close your eyes. They betray your mind.",
+          "colors": [
+            "Yellow",
+            "Orange",
+            "Red"
+          ],
+          "name": "Miraj"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 3,
+          "health": 6,
+          "description": "Premium card: You shall not pass, you shall not prevail, you shall perish.",
+          "colors": [
+            "Black",
+            "White",
+            "Green"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 3,
+          "health": 5,
+          "description": "Premium card: You shall not pass, you shall not prevail, you shall perish.",
+          "colors": [
+            "Brown",
+            "Blue"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 3,
+          "health": 6,
+          "description": "Standard card: He has seen everything, his mind has never been asleep since the making of the realm.",
+          "colors": [
+            "Brown",
+            "Blue"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 2,
+          "health": 8,
+          "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
+          "colors": [
+            "Red",
+            "Purple"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 3,
+          "health": 6,
+          "description": "Premium card: You shall not pass, you shall not prevail, you shall perish.",
+          "colors": [
+            "Black",
+            "White",
+            "Green"
+          ],
+          "name": "Warden"
+        }
+      ]
+    ]
+  },
+  "games": [
+    {
+      "startGame": {
+        "playerOneDeckIdx": 1,
+        "playerTwoDeckIdx": 1,
+        "shuffleSeed": 179485,
+        "playerOneHero": {
+          "mana": 2,
+          "description": "Premium card: An army is not sufficient, he is ready obliterate, it is time for chaos.",
+          "colors": [
+            "Red",
+            "Black",
+            "Purple"
+          ],
+          "name": "General Kocioraw"
+        },
+        "playerTwoHero": {
+          "mana": 2,
+          "description": "Standard card: Every ancestor reached glory, now it is his time to rule.",
+          "colors": [
+            "Yellow",
+            "Brown"
+          ],
+          "name": "Lord Royce"
+        },
+        "startingPlayer": 1
+      },
+      "actions": [
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 0
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 1
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "getEnvironmentCardsInHand",
+          "playerIdx": 1
+        },
+        {
+          "command": "useEnvironmentCard",
+          "handIdx": 0,
+          "affectedRow": 1
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "getCardAtPosition",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "command": "getCardAtPosition",
+          "x": 2,
+          "y": 0
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "getEnvironmentCardsInHand",
+          "playerIdx": 1
+        },
+        {
+          "command": "getFrozenCardsOnTable"
+        },
+        {
+          "command": "getPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 0
+        },
+        {
+          "command": "getCardAtPosition",
+          "x": 2,
+          "y": 0
+        },
+        {
+          "command": "getCardAtPosition",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 2
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 0
+        },
+        {
+          "command": "useEnvironmentCard",
+          "handIdx": 0,
+          "affectedRow": 2
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 0
+        },
+        {
+          "command": "useEnvironmentCard",
+          "handIdx": 0,
+          "affectedRow": 3
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 1
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 0
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 0
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 1
+        },
+        {
+          "command": "useEnvironmentCard",
+          "handIdx": 0,
+          "affectedRow": 3
+        },
+        {
+          "command": "useEnvironmentCard",
+          "handIdx": 0,
+          "affectedRow": 1
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "useEnvironmentCard",
+          "handIdx": 0,
+          "affectedRow": 2
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "getPlayerMana",
+          "playerIdx": 1
+        },
+        {
+          "command": "getPlayerMana",
+          "playerIdx": 2
+        },
+        {
+          "command": "getCardsOnTable"
+        },
+        {
+          "command": "getCardsInHand",
+          "playerIdx": 1
+        },
+        {
+          "command": "getCardsInHand",
+          "playerIdx": 2
+        }
+      ]
+    }
+  ]
+}
