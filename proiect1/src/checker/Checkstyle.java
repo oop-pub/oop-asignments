@@ -10,50 +10,50 @@ import java.nio.file.Paths;
  * Checker to verify the coding style
  */
 public final class Checkstyle {
-    public static final String JAR_PATH = "src/checker/checkstyle-8.36.2-all.jar";
-    public static final String XML_PATH = "src/checker/poo_checks.xml";
-    public static final String CHECKSTYLE_FILE = "checkstyle.txt";
-    public static final int MIN_LINES = 2;
-    public static final int NUM_CHECK_INFO = 3;
-    public static final int MIN_CHECKSTYLE_ERR = 30;
-
     private Checkstyle() {
+        //constructor for checkstyle
     }
 
     /**
      * DO NOT MODIFY
      */
-    public static boolean testCheckstyle() {
+    public static int testCheckstyle() {
         ProcessBuilder processBuilder = new ProcessBuilder("java", "-jar",
-                JAR_PATH, "-c", XML_PATH, "./");
+                "src/checker/checkstyle-8.36.2-all.jar", "-c",
+                "src/checker/poo_checks.xml", "./");
 
         processBuilder.redirectErrorStream(true);
-        File log = new File(CHECKSTYLE_FILE);
+        File log = new File("checkstyle.txt");
         processBuilder.redirectOutput(log);
 
         try {
             Process process = processBuilder.start();
             process.waitFor();
 
-            Path path = Paths.get(CHECKSTYLE_FILE);
+            Path path = Paths.get("checkstyle.txt");
             long lineCount = Files.lines(path).count();
 
             long errors = 0;
-            if (lineCount > MIN_LINES) {
-                errors = lineCount - NUM_CHECK_INFO;
+            if (lineCount > 2) {
+                errors = lineCount - CheckStyleConstants.BIG_TEST_POINTS;
             }
-
-            boolean checkstylePassed = errors <= MIN_CHECKSTYLE_ERR;
-
-            System.out.println("-----------------------------");
+            System.out.println("-----------------------------------------------------");
             System.out.println("Checkstyle: "
-                    + (checkstylePassed ? "Ok" : "Failed"));
+                    + ((errors <= CheckStyleConstants.MAXIMUM_ERROR_CHECKSTYLE) ? "Ok" : "Failed"));
             System.out.println("Checkstyle errors: " + errors);
-            return checkstylePassed;
+            System.out.println("-----------------------------------------------------");
+            System.out
+                    .println("CHECKSTYLE = "
+                            + ((errors <= CheckStyleConstants.MAXIMUM_ERROR_CHECKSTYLE)
+                            ? "10/10" : "0/10"));
+            System.out
+                    .println("-----------------------------------------------------");
+            return (errors <= CheckStyleConstants.MAXIMUM_ERROR_CHECKSTYLE)
+                    ? CheckStyleConstants.CHECKSTYLE_POINTS : 0;
+
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();
         }
-
-        return false;
+        return 0;
     }
 }
