@@ -144,11 +144,7 @@ public final class Test {
             runTest(testFileName, config, future);
         }
 
-        boolean checkstylePassed = Checkstyle.testCheckstyle();
-        if (checkstylePassed) {
-            score += config.getCheckstyleScore();
-        }
-
+        score += Checkstyle.testCheckstyle();
         System.out.println("Total score: .......................... " + score + "/" + totalScore);
         System.out.println("Up to "
                 + manualScore
