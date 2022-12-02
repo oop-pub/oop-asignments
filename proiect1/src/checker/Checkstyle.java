@@ -1,7 +1,5 @@
 package checker;
 
-import common.Constants;
-
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -15,12 +13,14 @@ public final class Checkstyle {
     private Checkstyle() {
         //constructor for checkstyle
     }
+
     /**
      * DO NOT MODIFY
      */
     public static int testCheckstyle() {
         ProcessBuilder processBuilder = new ProcessBuilder("java", "-jar",
-                "src/checker/checkstyle-8.36.2-all.jar", "-c", "src/checker/poo_checks.xml", "./");
+                "src/checker/checkstyle-8.36.2-all.jar", "-c",
+                "src/checker/poo_checks.xml", "./");
 
         processBuilder.redirectErrorStream(true);
         File log = new File("checkstyle.txt");
@@ -35,20 +35,21 @@ public final class Checkstyle {
 
             long errors = 0;
             if (lineCount > 2) {
-                errors = lineCount - Constants.BIG_TEST_POINTS;
+                errors = lineCount - CheckStyleConstants.BIG_TEST_POINTS;
             }
             System.out.println("-----------------------------------------------------");
             System.out.println("Checkstyle: "
-                    + ((errors <= Constants.MAXIMUM_ERROR_CHECKSTYLE) ? "Ok" : "Failed"));
+                    + ((errors <= CheckStyleConstants.MAXIMUM_ERROR_CHECKSTYLE) ? "Ok" : "Failed"));
             System.out.println("Checkstyle errors: " + errors);
             System.out.println("-----------------------------------------------------");
             System.out
                     .println("CHECKSTYLE = "
-                            + ((errors <= Constants.MAXIMUM_ERROR_CHECKSTYLE) ? "10/10" : "0/10"));
+                            + ((errors <= CheckStyleConstants.MAXIMUM_ERROR_CHECKSTYLE)
+                            ? "10/10" : "0/10"));
             System.out
                     .println("-----------------------------------------------------");
-            return (errors <= Constants.MAXIMUM_ERROR_CHECKSTYLE)
-                    ? Constants.CHECKSTYLE_POINTS : 0;
+            return (errors <= CheckStyleConstants.MAXIMUM_ERROR_CHECKSTYLE)
+                    ? CheckStyleConstants.CHECKSTYLE_POINTS : 0;
 
         } catch (IOException | InterruptedException e) {
             e.printStackTrace();

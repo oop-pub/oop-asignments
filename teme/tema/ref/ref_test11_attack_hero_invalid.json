@@ -1,6 +1,8 @@
 [
   {
     "command": "getCardAtPosition",
+    "x": 2,
+    "y": 0,
     "output": {
       "mana": 1,
       "attackDamage": 5,
@@ -77,6 +79,8 @@
   },
   {
     "command": "getCardAtPosition",
+    "x": 0,
+    "y": 0,
     "output": {
       "mana": 1,
       "attackDamage": 6,

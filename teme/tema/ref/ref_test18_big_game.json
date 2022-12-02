@@ -85,6 +85,8 @@
   },
   {
     "command": "getCardAtPosition",
+    "x": 2,
+    "y": 0,
     "output": {
       "mana": 4,
       "attackDamage": 5,
@@ -124,6 +126,8 @@
   },
   {
     "command": "getCardAtPosition",
+    "x": 0,
+    "y": 0,
     "output": {
       "mana": 2,
       "attackDamage": 2,
@@ -176,6 +180,8 @@
   },
   {
     "command": "getCardAtPosition",
+    "x": 0,
+    "y": 0,
     "output": {
       "mana": 2,
       "attackDamage": 2,
@@ -202,6 +208,8 @@
   },
   {
     "command": "getCardAtPosition",
+    "x": 2,
+    "y": 0,
     "output": {
       "mana": 4,
       "attackDamage": 5,
@@ -250,6 +258,8 @@
   },
   {
     "command": "getCardAtPosition",
+    "x": 0,
+    "y": 0,
     "output": {
       "mana": 2,
       "attackDamage": 2,

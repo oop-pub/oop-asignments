@@ -392,6 +392,11 @@
           "handIdx": 0
         },
         {
+          "command": "getCardAtPosition",
+          "x": 0,
+          "y": 3
+        },
+        {
           "command": "useEnvironmentCard",
           "handIdx": 0,
           "affectedRow": 3
