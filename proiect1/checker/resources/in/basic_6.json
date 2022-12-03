@@ -22,7 +22,7 @@
   "movies": [
     {
       "name": "John Wick: Chapter 3 - Parabellum",
-      "year": 2019,
+      "year": "2019",
       "duration": 131,
       "genres": [
         "Action",
@@ -40,7 +40,7 @@
     },
     {
       "name": "Titanic",
-      "year": 2019,
+      "year": "2019",
       "duration": 131,
       "genres": [
         "Action",
@@ -192,23 +192,17 @@
     {
       "type": "on page",
       "page": "see details",
-      "feature": "purchase",
-      "objectType": "movie",
-      "movie": "Titanic"
+      "feature": "purchase"
     },
     {
       "type": "on page",
       "page": "see details",
-      "feature": "watch",
-      "objectType": "movie",
-      "movie": "Titanic"
+      "feature": "watch"
     },
     {
       "type": "on page",
       "page": "see details",
-      "feature": "like",
-      "objectType": "movie",
-      "movie": "Titanic"
+      "feature": "like"
     },
     {
       "type": "change page",
@@ -222,39 +216,29 @@
     {
       "type": "on page",
       "page": "see details",
-      "feature": "like",
-      "objectType": "movie",
-      "movie": "John Wick: Chapter 3 - Parabellum"
+      "feature": "like"
     },
     {
       "type": "on page",
       "page": "see details",
       "feature": "rate",
-      "objectType": "movie",
-      "movie": "John Wick: Chapter 3 - Parabellum",
-      "rate": 5
+      "rate": "5"
     },
     {
       "type": "on page",
       "page": "see details",
-      "feature": "watch",
-      "objectType": "movie",
-      "movie": "John Wick: Chapter 3 - Parabellum"
+      "feature": "watch"
     },
     {
       "type": "on page",
       "page": "see details",
-      "feature": "like",
-      "objectType": "movie",
-      "movie": "John Wick: Chapter 3 - Parabellum"
+      "feature": "like"
     },
     {
       "type": "on page",
       "page": "see details",
       "feature": "rate",
-      "objectType": "movie",
-      "movie": "John Wick: Chapter 3 - Parabellum",
-      "rate": 5
+      "rate": "5"
     }
   ]
 }
