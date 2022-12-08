@@ -22,7 +22,7 @@
   "movies": [
     {
       "name": "John Wick: Chapter 3 - Parabellum",
-      "year": "2019",
+      "year": 2019,
       "duration": 131,
       "genres": [
         "Action",
@@ -40,7 +40,7 @@
     },
     {
       "name": "Titanic",
-      "year": "2019",
+      "year": 2019,
       "duration": 131,
       "genres": [
         "Action",
@@ -76,7 +76,6 @@
     },
     {
       "type": "on page",
-      "page": "register",
       "feature": "register",
       "credentials": {
         "name": "Ramsi",
@@ -92,7 +91,6 @@
     },
     {
       "type": "on page",
-      "page": "login",
       "feature": "login",
       "credentials": {
         "name": "Ramsi",
@@ -105,13 +103,11 @@
     },
     {
       "type": "on page",
-      "page": "movies",
       "feature": "search",
       "startsWith": "Iubire din serai"
     },
     {
       "type": "on page",
-      "page": "movies",
       "feature": "filter",
       "filters": {
         "sort": {
@@ -135,7 +131,6 @@
     },
     {
       "type": "on page",
-      "page": "login",
       "feature": "login",
       "credentials": {
         "name": "Eduard",
@@ -148,7 +143,6 @@
     },
     {
       "type": "on page",
-      "page": "login",
       "feature": "login",
       "credentials": {
         "name": "Eduard",
@@ -161,13 +155,11 @@
     },
     {
       "type": "on page",
-      "page": "upgrades",
       "feature": "buy tokens",
       "count": "50"
     },
     {
       "type": "on page",
-      "page": "upgrades",
       "feature": "buy premium account"
     },
     {
@@ -191,18 +183,21 @@
     },
     {
       "type": "on page",
-      "page": "see details",
-      "feature": "purchase"
+      "feature": "purchase",
+      "objectType": "movie",
+      "movie": "Titanic"
     },
     {
       "type": "on page",
-      "page": "see details",
-      "feature": "watch"
+      "feature": "watch",
+      "objectType": "movie",
+      "movie": "Titanic"
     },
     {
       "type": "on page",
-      "page": "see details",
-      "feature": "like"
+      "feature": "like",
+      "objectType": "movie",
+      "movie": "Titanic"
     },
     {
       "type": "change page",
@@ -215,30 +210,35 @@
     },
     {
       "type": "on page",
-      "page": "see details",
-      "feature": "like"
+      "feature": "like",
+      "objectType": "movie",
+      "movie": "John Wick: Chapter 3 - Parabellum"
     },
     {
       "type": "on page",
-      "page": "see details",
       "feature": "rate",
-      "rate": "5"
+      "objectType": "movie",
+      "movie": "John Wick: Chapter 3 - Parabellum",
+      "rate": 5
     },
     {
       "type": "on page",
-      "page": "see details",
-      "feature": "watch"
+      "feature": "watch",
+      "objectType": "movie",
+      "movie": "John Wick: Chapter 3 - Parabellum"
     },
     {
       "type": "on page",
-      "page": "see details",
-      "feature": "like"
+      "feature": "like",
+      "objectType": "movie",
+      "movie": "John Wick: Chapter 3 - Parabellum"
     },
     {
       "type": "on page",
-      "page": "see details",
       "feature": "rate",
-      "rate": "5"
+      "objectType": "movie",
+      "movie": "John Wick: Chapter 3 - Parabellum",
+      "rate": 5
     }
   ]
 }
