@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.concurrent.*;
@@ -133,7 +134,9 @@ public final class Test {
         totalScore = config.getCheckstyleScore();
         int manualScore = config.getReadmeScore() + config.getHomeworkDesignScore();
 
-        for (final File testFile : Objects.requireNonNull(TEST_INPUTS_FILE.listFiles())) {
+        File[] files = Objects.requireNonNull(TEST_INPUTS_FILE.listFiles());
+        Arrays.sort(files);
+        for (final File testFile : files) {
             String testFileName = testFile.getName();
 
             preTestCleanUp();
