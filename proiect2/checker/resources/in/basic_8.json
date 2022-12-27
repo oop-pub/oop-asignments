@@ -610,6 +610,20 @@
      "type" : "back"
     },
     {
+      "type": "on page",
+      "feature": "buy tokens",
+      "count": "1000"
+    },
+    {
+      "type": "back"
+    },
+    {
+      "type": "back"
+    },
+    {"type": "change page",
+    "page":"movies"
+    },
+    {
       "type": "change page",
       "page": "see details",
       "movie": "Comet in Moominland"
