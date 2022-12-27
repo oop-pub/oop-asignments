@@ -374,81 +374,47 @@
   }
 }, {
   "error" : null,
-  "currentMoviesList": [
-    {
-      "name": "John Wick: Chapter 3 - Parabellum",
-      "year": "2019",
-      "duration": 131,
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "actors": [
-        "Laurence Fishburne",
-        "Halle Berry",
-        "Keanu Reeves"
-      ],
-      "countriesBanned": [
-        "Russia"
-      ],
-      "numLikes": 0,
-      "rating": 0.00,
-      "numRatings": 0
+  "currentMoviesList" : [ {
+    "name" : "John Wick: Chapter 3 - Parabellum",
+    "year" : "2019",
+    "duration" : 131,
+    "genres" : [ "Action", "Thriller", "Crime" ],
+    "actors" : [ "Laurence Fishburne", "Halle Berry", "Keanu Reeves" ],
+    "countriesBanned" : [ "Russia" ],
+    "numLikes" : 0,
+    "rating" : 0.00,
+    "numRatings" : 0
+  }, {
+    "name" : "Titanic",
+    "year" : "2019",
+    "duration" : 131,
+    "genres" : [ "Action", "Thriller", "Crime" ],
+    "actors" : [ "Laurence Fishburne", "Halle Berry", "Keanu Reeves" ],
+    "countriesBanned" : [ "Russia" ],
+    "numLikes" : 1,
+    "rating" : 0.00,
+    "numRatings" : 0
+  }, {
+    "name" : "Matrix 2",
+    "year" : "1998",
+    "duration" : 131,
+    "genres" : [ "Action", "Comedy", "Crime" ],
+    "actors" : [ "Laurence Fishburne", "Halle Berry", "Keanu Reeves" ],
+    "countriesBanned" : [ "Ukraine" ],
+    "numLikes" : 0,
+    "rating" : 0.00,
+    "numRatings" : 0
+  } ],
+  "currentUser" : {
+    "credentials" : {
+      "name" : "Eduard",
+      "password" : "secret",
+      "accountType" : "premium",
+      "country" : "Romania",
+      "balance" : "150"
     },
-    {
-      "name": "Titanic",
-      "year": "2019",
-      "duration": 131,
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "actors": [
-        "Laurence Fishburne",
-        "Halle Berry",
-        "Keanu Reeves"
-      ],
-      "countriesBanned": [
-        "Russia"
-      ],
-      "numLikes": 1,
-      "rating": 0.00,
-      "numRatings": 0
-    },
-    {
-      "name": "Matrix 2",
-      "year": "1998",
-      "duration": 131,
-      "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
-      ],
-      "actors": [
-        "Laurence Fishburne",
-        "Halle Berry",
-        "Keanu Reeves"
-      ],
-      "countriesBanned": [
-        "Ukraine"
-      ],
-      "numLikes": 0,
-      "rating": 0.00,
-      "numRatings": 0
-    }
-  ],
-  "currentUser": {
-    "credentials": {
-      "name": "Eduard",
-      "password": "secret",
-      "accountType": "premium",
-      "country": "Romania",
-      "balance": "150"
-    },
-    "tokensCount": 40,
-    "numFreePremiumMovies": 14,
+    "tokensCount" : 40,
+    "numFreePremiumMovies" : 14,
     "purchasedMovies" : [ {
       "name" : "Titanic",
       "year" : "2019",
@@ -463,55 +429,30 @@
     "watchedMovies" : [ {
       "name" : "Titanic",
       "year" : "2019",
-      "duration": 131,
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "actors": [
-        "Laurence Fishburne",
-        "Halle Berry",
-        "Keanu Reeves"
-      ],
-      "countriesBanned": [
-        "Russia"
-      ],
-      "numLikes": 1,
-      "rating": 0.00,
-      "numRatings": 0
-    }
-    ],
-    "likedMovies": [
-      {
-        "name": "Titanic",
-        "year": "2019",
-        "duration": 131,
-        "genres": [
-          "Action",
-          "Thriller",
-          "Crime"
-        ],
-        "actors": [
-          "Laurence Fishburne",
-          "Halle Berry",
-          "Keanu Reeves"
-        ],
-        "countriesBanned": [
-          "Russia"
-        ],
-        "numLikes": 1,
-        "rating": 0.00,
-        "numRatings": 0
-      }
-    ],
-    "ratedMovies": [],
-    "notifications": [
-      {
-        "movieName": "Matrix 2",
-        "message": "ADD"
-      }
-    ]
+      "duration" : 131,
+      "genres" : [ "Action", "Thriller", "Crime" ],
+      "actors" : [ "Laurence Fishburne", "Halle Berry", "Keanu Reeves" ],
+      "countriesBanned" : [ "Russia" ],
+      "numLikes" : 1,
+      "rating" : 0.00,
+      "numRatings" : 0
+    } ],
+    "likedMovies" : [ {
+      "name" : "Titanic",
+      "year" : "2019",
+      "duration" : 131,
+      "genres" : [ "Action", "Thriller", "Crime" ],
+      "actors" : [ "Laurence Fishburne", "Halle Berry", "Keanu Reeves" ],
+      "countriesBanned" : [ "Russia" ],
+      "numLikes" : 1,
+      "rating" : 0.00,
+      "numRatings" : 0
+    } ],
+    "ratedMovies" : [ ],
+    "notifications" : [ {
+      "movieName" : "Matrix 2",
+      "message" : "ADD"
+    } ]
   }
 }, {
   "error" : null,
@@ -550,118 +491,76 @@
     "watchedMovies" : [ {
       "name" : "Titanic",
       "year" : "2019",
-      "duration": 131,
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "actors": [
-        "Laurence Fishburne",
-        "Halle Berry",
-        "Keanu Reeves"
-      ],
-      "countriesBanned": [
-        "Russia"
-      ],
-      "numLikes": 1,
-      "rating": 0.00,
-      "numRatings": 0
-    }
-    ],
-    "likedMovies": [
-      {
-        "name": "Titanic",
-        "year": "2019",
-        "duration": 131,
-        "genres": [
-          "Action",
-          "Thriller",
-          "Crime"
-        ],
-        "actors": [
-          "Laurence Fishburne",
-          "Halle Berry",
-          "Keanu Reeves"
-        ],
-        "countriesBanned": [
-          "Russia"
-        ],
-        "numLikes": 1,
-        "rating": 0.00,
-        "numRatings": 0
-      }
-    ],
-    "ratedMovies": [],
-    "notifications": [
-      {
-        "movieName": "Matrix 2",
-        "message": "ADD"
-      }
-    ]
+      "duration" : 131,
+      "genres" : [ "Action", "Thriller", "Crime" ],
+      "actors" : [ "Laurence Fishburne", "Halle Berry", "Keanu Reeves" ],
+      "countriesBanned" : [ "Russia" ],
+      "numLikes" : 1,
+      "rating" : 0.00,
+      "numRatings" : 0
+    } ],
+    "likedMovies" : [ {
+      "name" : "Titanic",
+      "year" : "2019",
+      "duration" : 131,
+      "genres" : [ "Action", "Thriller", "Crime" ],
+      "actors" : [ "Laurence Fishburne", "Halle Berry", "Keanu Reeves" ],
+      "countriesBanned" : [ "Russia" ],
+      "numLikes" : 1,
+      "rating" : 0.00,
+      "numRatings" : 0
+    } ],
+    "ratedMovies" : [ ],
+    "notifications" : [ {
+      "movieName" : "Matrix 2",
+      "message" : "ADD"
+    } ]
   }
 }, {
-  "error": "Error",
-  "currentMoviesList": [],
-  "currentUser": null
-},
-  {
-    "error": "Error",
-    "currentMoviesList": [],
-    "currentUser": null
-  },
-  {
-    "error": "Error",
-    "currentMoviesList": [],
-    "currentUser": null
-  },
-  {
-    "error": "Error",
-    "currentMoviesList": [],
-    "currentUser": null
-  },
-  {
-    "error": "Error",
-    "currentMoviesList": [],
-    "currentUser": null
-  },
-  {
-    "error": "Error",
-    "currentMoviesList": [],
-    "currentUser": null
-  },
-  {
-    "error": null,
-    "currentMoviesList": null,
-    "currentUser": {
-      "credentials": {
-        "name": "Eduard",
-        "password": "secret",
-        "accountType": "premium",
-        "country": "Romania",
-        "balance": "150"
-      },
-      "tokensCount": 40,
-      "numFreePremiumMovies": 14,
-      "purchasedMovies": [
-        {
-          "name": "Titanic",
-          "year": "2019",
-          "duration": 131,
-          "genres": [
-            "Action",
-            "Thriller",
-            "Crime"
-          ],
-          "actors": [
-            "Laurence Fishburne",
-            "Halle Berry",
-            "Keanu Reeves"
-          ],
-          "countriesBanned": [
-            "Russia"
-          ],
-          "numLikes": 1,
+  "error" : "Error",
+  "currentMoviesList" : [ ],
+  "currentUser" : null
+}, {
+  "error" : "Error",
+  "currentMoviesList" : [ ],
+  "currentUser" : null
+}, {
+  "error" : "Error",
+  "currentMoviesList" : [ ],
+  "currentUser" : null
+}, {
+  "error" : "Error",
+  "currentMoviesList" : [ ],
+  "currentUser" : null
+}, {
+  "error" : "Error",
+  "currentMoviesList" : [ ],
+  "currentUser" : null
+}, {
+  "error" : "Error",
+  "currentMoviesList" : [ ],
+  "currentUser" : null
+}, {
+  "error" : null,
+  "currentMoviesList" : null,
+  "currentUser" : {
+    "credentials" : {
+      "name" : "Eduard",
+      "password" : "secret",
+      "accountType" : "premium",
+      "country" : "Romania",
+      "balance" : "150"
+    },
+    "tokensCount" : 40,
+    "numFreePremiumMovies" : 14,
+    "purchasedMovies" : [ {
+      "name" : "Titanic",
+      "year" : "2019",
+      "duration" : 131,
+      "genres" : [ "Action", "Thriller", "Crime" ],
+      "actors" : [ "Laurence Fishburne", "Halle Berry", "Keanu Reeves" ],
+      "countriesBanned" : [ "Russia" ],
+      "numLikes" : 1,
       "rating" : 0.00,
       "numRatings" : 0
     } ],
@@ -678,36 +577,22 @@
     } ],
     "likedMovies" : [ {
       "name" : "Titanic",
-      "year": "2019",
-      "duration": 131,
-      "genres": [
-        "Action",
-        "Thriller",
-        "Crime"
-      ],
-      "actors": [
-        "Laurence Fishburne",
-        "Halle Berry",
-        "Keanu Reeves"
-      ],
-      "countriesBanned": [
-        "Russia"
-      ],
-      "numLikes": 1,
-      "rating": 0.00,
-      "numRatings": 0
-    }
-    ],
-      "ratedMovies": [],
-      "notifications": [
-        {
-          "movieName": "Matrix 2",
-          "message": "ADD"
-        },
-        {
-          "movieName": "John Wick: Chapter 3 - Parabellum",
-          "message": "Recommendation"
-        }
-      ]
-    }
+      "year" : "2019",
+      "duration" : 131,
+      "genres" : [ "Action", "Thriller", "Crime" ],
+      "actors" : [ "Laurence Fishburne", "Halle Berry", "Keanu Reeves" ],
+      "countriesBanned" : [ "Russia" ],
+      "numLikes" : 1,
+      "rating" : 0.00,
+      "numRatings" : 0
+    } ],
+    "ratedMovies" : [ ],
+    "notifications" : [ {
+      "movieName" : "Matrix 2",
+      "message" : "ADD"
+    }, {
+      "movieName" : "John Wick: Chapter 3 - Parabellum",
+      "message" : "Recommendation"
+    } ]
+  }
 } ]

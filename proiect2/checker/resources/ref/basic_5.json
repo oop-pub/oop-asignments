@@ -44,59 +44,53 @@
   "error" : null,
   "currentMoviesList" : [ ],
   "currentUser" : {
-    "credentials": {
-      "name": "Mihail",
-      "password": "discret",
-      "accountType": "premium",
-      "country": "Russia",
-      "balance": "1337"
+    "credentials" : {
+      "name" : "Mihail",
+      "password" : "discret",
+      "accountType" : "premium",
+      "country" : "Russia",
+      "balance" : "1337"
     },
-    "tokensCount": 0,
-    "numFreePremiumMovies": 15,
-    "purchasedMovies": [],
-    "watchedMovies": [],
-    "likedMovies": [],
-    "ratedMovies": [],
-    "notifications": []
+    "tokensCount" : 0,
+    "numFreePremiumMovies" : 15,
+    "purchasedMovies" : [ ],
+    "watchedMovies" : [ ],
+    "likedMovies" : [ ],
+    "ratedMovies" : [ ],
+    "notifications" : [ ]
   }
-},
-  {
-    "error": "Error",
-    "currentMoviesList": [],
-    "currentUser": null
-  },
-  {
-    "error": "Error",
-    "currentMoviesList": [],
-    "currentUser": null
-  },
-  {
-    "error": "Error",
-    "currentMoviesList": [],
-    "currentUser": null
-  },
-  {
-    "error": "Error",
-    "currentMoviesList": [],
-    "currentUser": null
-  },
-  {
-    "error": "Error",
-    "currentMoviesList": [],
-    "currentUser": null
-  },
-  {
-    "error": null,
-    "currentMoviesList": null,
-    "currentUser": {
-      "credentials": {
-        "name": "Mihail",
-        "password": "discret",
-        "accountType": "premium",
-        "country": "Russia",
-        "balance": "1337"
-      },
-      "tokensCount": 0,
+}, {
+  "error" : "Error",
+  "currentMoviesList" : [ ],
+  "currentUser" : null
+}, {
+  "error" : "Error",
+  "currentMoviesList" : [ ],
+  "currentUser" : null
+}, {
+  "error" : "Error",
+  "currentMoviesList" : [ ],
+  "currentUser" : null
+}, {
+  "error" : "Error",
+  "currentMoviesList" : [ ],
+  "currentUser" : null
+}, {
+  "error" : "Error",
+  "currentMoviesList" : [ ],
+  "currentUser" : null
+}, {
+  "error" : null,
+  "currentMoviesList" : null,
+  "currentUser" : {
+    "credentials" : {
+      "name" : "Mihail",
+      "password" : "discret",
+      "accountType" : "premium",
+      "country" : "Russia",
+      "balance" : "1337"
+    },
+    "tokensCount" : 0,
     "numFreePremiumMovies" : 15,
     "purchasedMovies" : [ ],
     "watchedMovies" : [ ],

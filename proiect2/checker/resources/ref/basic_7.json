@@ -745,45 +745,29 @@
       "country" : "Japan",
       "balance" : "50"
     },
-    "tokensCount": 0,
-    "numFreePremiumMovies": 15,
-    "purchasedMovies": [],
-    "watchedMovies": [],
-    "likedMovies": [],
-    "ratedMovies": [],
-    "notifications": []
+    "tokensCount" : 0,
+    "numFreePremiumMovies" : 15,
+    "purchasedMovies" : [ ],
+    "watchedMovies" : [ ],
+    "likedMovies" : [ ],
+    "ratedMovies" : [ ],
+    "notifications" : [ ]
   }
-},
-  {
-    "error": "Error",
-    "currentMoviesList": [],
-    "currentUser": null
-  },
-  {
-    "error": null,
-    "currentMoviesList": [
-      {
-        "name": "Lord, Save Us from Your Followers",
-        "year": "1998",
-        "duration": 125,
-        "genres": [
-          "Comedy",
-          "Western",
-          "Mystery"
-        ],
-        "actors": [
-          "Camey Ingold",
-          "Grace Volleth",
-          "Jermaine D'Ruel",
-          "Anselma Saxelby"
-        ],
-        "countriesBanned": [
-          "Russia",
-          "Saudi Arabia",
-          "Zimbabwe"
-        ],
-        "numLikes": 0,
-        "rating": 0.00,
+}, {
+  "error" : "Error",
+  "currentMoviesList" : [ ],
+  "currentUser" : null
+}, {
+  "error" : null,
+  "currentMoviesList" : [ {
+    "name" : "Lord, Save Us from Your Followers",
+    "year" : "1998",
+    "duration" : 125,
+    "genres" : [ "Comedy", "Western", "Mystery" ],
+    "actors" : [ "Camey Ingold", "Grace Volleth", "Jermaine D'Ruel", "Anselma Saxelby" ],
+    "countriesBanned" : [ "Russia", "Saudi Arabia", "Zimbabwe" ],
+    "numLikes" : 0,
+    "rating" : 0.00,
     "numRatings" : 0
   }, {
     "name" : "Take the Money and Run",
