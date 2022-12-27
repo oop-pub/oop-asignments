@@ -206,7 +206,7 @@ public final class Test {
     private static String[] createTestArgv(final File testFile, String testFileName) {
         List<String> listArgv = new ArrayList<>();
         listArgv.add(testFile.getAbsolutePath());
-        listArgv.add(CHECKER_RESOURCES_FOLDER + REF_FOLDER + testFileName);
+        listArgv.add(OUT_FILE);
         String[] argv = new String[0];
         return listArgv.toArray(argv);
     }
