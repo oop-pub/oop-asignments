@@ -14,6 +14,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Objects;
+import java.util.Arrays;
 
 /**
  * The entry point to this homework. It runs the checker that tests your implentation.
@@ -44,7 +45,9 @@ public final class Main {
         }
         Files.createDirectories(path);
 
-        for (File file : Objects.requireNonNull(directory.listFiles())) {
+        File[] files = Objects.requireNonNull(directory.listFiles());
+        Arrays.sort(files);
+        for (File file : files) {
             String filepath = CheckerConstants.OUT_PATH + file.getName();
             File out = new File(filepath);
             boolean isCreated = out.createNewFile();
