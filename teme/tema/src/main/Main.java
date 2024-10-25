@@ -14,7 +14,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Objects;
-import java.util.Arrays;
 
 /**
  * The entry point to this homework. It runs the checker that tests your implentation.
@@ -45,9 +44,7 @@ public final class Main {
         }
         Files.createDirectories(path);
 
-        File[] files = Objects.requireNonNull(directory.listFiles());
-        Arrays.sort(files);
-        for (File file : files) {
+        for (File file : Objects.requireNonNull(directory.listFiles())) {
             String filepath = CheckerConstants.OUT_PATH + file.getName();
             File out = new File(filepath);
             boolean isCreated = out.createNewFile();
@@ -72,7 +69,24 @@ public final class Main {
 
         ArrayNode output = objectMapper.createArrayNode();
 
-        //TODO add here the entry point to your implementation
+        /*
+         * TODO Implement your function here
+         *
+         * How to add output to the output array?
+         * There are multiple ways to do this, here is one example:
+         *
+         * ObjectMapper mapper = new ObjectMapper();
+         *
+         * ObjectNode objectNode = mapper.createObjectNode();
+         * objectNode.put("field_name", "field_value");
+         *
+         * ArrayNode arrayNode = mapper.createArrayNode();
+         * arrayNode.add(objectNode);
+         *
+         * output.add(arrayNode);
+         * output.add(objectNode);
+         *
+         */
 
         ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
         objectWriter.writeValue(new File(filePath2), output);

@@ -21,24 +21,22 @@
 
 ## Tests
 
-1. test01_game_start - 3p
-2. test02_place_card - 4p
-3. test03_place_card_invalid - 4p
-4. test04_use_env_card - 4p
-5. test05_use_env_card_invalid - 4p
-6. test06_attack_card - 4p
-7. test07_attack_card_invalid - 4p
-8. test08_use_card_ability - 4p
-9. test09_use_card_ability_invalid -4p
-10. test10_attack_hero - 4p
-11. test11_attack_hero_invalid - 4p
-12. test12_use_hero_ability_1 - 4p
-13. test13_use_hero_ability_2 - 4p
-14. test14_use_hero_ability_1_invalid - 4p
-15. test15_use_hero_ability_2_invalid - 4p
-16. test16_multiple_games_valid - 5p
-17. test17_multiple_games_invalid - 6p
-18. test18_big_game - 10p
+1. test01_game_start - 4p
+2. test02_place_card - 5p
+3. test03_place_card_invalid - 5p
+4. test06_attack_card - 5p
+5. test07_attack_card_invalid - 5p
+6. test08_use_card_ability - 5p
+7. test09_use_card_ability_invalid - 5p
+8. test10_attack_hero - 5p
+9. test11_attack_hero_invalid - 5p
+10. test12_use_hero_ability_1 - 4p
+11. test13_use_hero_ability_2 - 4p
+12. test14_use_hero_ability_invalid_1 - 4p
+13. test15_use_hero_ability_invalid_2 - 4p
+14. test16_multiple_games_valid - 5p
+15. test17_multiple_games_invalid - 5p
+16. test18_big_game - 10p
 
 
 <div align="center"><img src="https://tenor.com/view/homework-time-gif-24854817.gif" width="500px"></div>

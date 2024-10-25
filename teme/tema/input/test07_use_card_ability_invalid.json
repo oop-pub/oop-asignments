@@ -1,0 +1,691 @@
+{
+  "playerOneDecks": {
+    "nrCardsInDeck": 7,
+    "nrDecks": 2,
+    "decks": [
+      [
+        {
+          "mana": 3,
+          "attackDamage": 0,
+          "health": 4,
+          "description": "Premium card: The will of Gods has been spoken, obey and you shall be saved...or not.",
+          "colors": [
+            "Yellow",
+            "White"
+          ],
+          "name": "Disciple"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 1,
+          "health": 8,
+          "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
+          "colors": [
+            "Red",
+            "Purple"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 6,
+          "health": 4,
+          "description": "Premium card: Ravished by the winds of hell, no soul is to be forgiven.",
+          "colors": [
+            "Black",
+            "Yellow"
+          ],
+          "name": "The Ripper"
+        },
+        {
+          "mana": 5,
+          "attackDamage": 5,
+          "health": 3,
+          "description": "Standard card: When he is near, close your eyes. They betray your mind.",
+          "colors": [
+            "Red",
+            "Black"
+          ],
+          "name": "Miraj"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 2,
+          "health": 6,
+          "description": "Standard card: He has seen everything, his mind has never been asleep since the making of the realm.",
+          "colors": [
+            "Brown",
+            "Blue"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 1,
+          "health": 8,
+          "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
+          "colors": [
+            "Brown",
+            "Black",
+            "Grey"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 2,
+          "health": 6,
+          "description": "Standard card: He has seen everything, his mind has never been asleep since the making of the realm.",
+          "colors": [
+            "Black",
+            "White",
+            "Green"
+          ],
+          "name": "Warden"
+        }
+      ],
+      [
+        {
+          "mana": 4,
+          "attackDamage": 2,
+          "health": 7,
+          "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
+          "colors": [
+            "Red",
+            "Purple"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 0,
+          "health": 3,
+          "description": "Standard card: Thrown from the highest cliff, revenge will be his glory.",
+          "colors": [
+            "Black",
+            "White",
+            "Red"
+          ],
+          "name": "The Cursed One"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 5,
+          "health": 3,
+          "description": "Premium card: Insanity is always an option, now it is an absolute.",
+          "colors": [
+            "Red",
+            "Black"
+          ],
+          "name": "Miraj"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 5,
+          "health": 3,
+          "description": "Standard card: When he is near, close your eyes. They betray your mind.",
+          "colors": [
+            "Yellow",
+            "Orange",
+            "Red"
+          ],
+          "name": "Miraj"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 0,
+          "health": 3,
+          "description": "Premium card: Nobody suspects an outcast, not even the Gods.",
+          "colors": [
+            "Pink",
+            "Purple"
+          ],
+          "name": "The Cursed One"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 0,
+          "health": 2,
+          "description": "Premium card: The will of Gods has been spoken, obey and you shall be saved...or not.",
+          "colors": [
+            "Yellow",
+            "White"
+          ],
+          "name": "Disciple"
+        },
+        {
+          "mana": 5,
+          "attackDamage": 4,
+          "health": 4,
+          "description": "Standard card: When he is near, close your eyes. They betray your mind.",
+          "colors": [
+            "Yellow",
+            "Orange",
+            "Red"
+          ],
+          "name": "Miraj"
+        }
+      ]
+    ]
+  },
+  "playerTwoDecks": {
+    "nrCardsInDeck": 7,
+    "nrDecks": 2,
+    "decks": [
+      [
+        {
+          "mana": 2,
+          "attackDamage": 0,
+          "health": 1,
+          "description": "Premium card: Nobody suspects an outcast, not even the Gods.",
+          "colors": [
+            "Pink",
+            "Purple"
+          ],
+          "name": "The Cursed One"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 0,
+          "health": 4,
+          "description": "Standard card: Everything is sacred to him, all is but a gift from the saints.",
+          "colors": [
+            "Green",
+            "Yellow",
+            "Blue"
+          ],
+          "name": "Disciple"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 2,
+          "health": 8,
+          "description": "Premium card: No matter how many, his body will fight. Save your breath for the Mountain is strong.",
+          "colors": [
+            "Brown",
+            "Black",
+            "Grey"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 0,
+          "health": 4,
+          "description": "Premium card: The will of Gods has been spoken, obey and you shall be saved...or not.",
+          "colors": [
+            "Green",
+            "Yellow",
+            "Blue"
+          ],
+          "name": "Disciple"
+        },
+        {
+          "mana": 5,
+          "attackDamage": 4,
+          "health": 4,
+          "description": "Premium card: Insanity is always an option, now it is an absolute.",
+          "colors": [
+            "Red",
+            "Black"
+          ],
+          "name": "Miraj"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 4,
+          "health": 3,
+          "description": "Standard card: When he is near, close your eyes. They betray your mind.",
+          "colors": [
+            "Yellow",
+            "Orange",
+            "Red"
+          ],
+          "name": "Miraj"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 2,
+          "health": 6,
+          "description": "Standard card: He has seen everything, his mind has never been asleep since the making of the realm.",
+          "colors": [
+            "Brown",
+            "Blue"
+          ],
+          "name": "Warden"
+        }
+      ],
+      [
+        {
+          "mana": 4,
+          "attackDamage": 5,
+          "health": 3,
+          "description": "Standard card: Death incarnate. No better time to die than now.",
+          "colors": [
+            "Orange",
+            "Red",
+            "Black"
+          ],
+          "name": "The Ripper"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 0,
+          "health": 3,
+          "description": "Premium card: Nobody suspects an outcast, not even the Gods.",
+          "colors": [
+            "Black",
+            "White",
+            "Red"
+          ],
+          "name": "The Cursed One"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 0,
+          "health": 2,
+          "description": "Premium card: The will of Gods has been spoken, obey and you shall be saved...or not.",
+          "colors": [
+            "Yellow",
+            "White"
+          ],
+          "name": "Disciple"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 2,
+          "health": 8,
+          "description": "Premium card: No matter how many, his body will fight. Save your breath for the Mountain is strong.",
+          "colors": [
+            "Red",
+            "Purple"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 6,
+          "health": 4,
+          "description": "Standard card: Death incarnate. No better time to die than now.",
+          "colors": [
+            "Black",
+            "Yellow"
+          ],
+          "name": "The Ripper"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 3,
+          "health": 5,
+          "description": "Standard card: He has seen everything, his mind has never been asleep since the making of the realm.",
+          "colors": [
+            "Black",
+            "White",
+            "Green"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 5,
+          "health": 3,
+          "description": "Standard card: When he is near, close your eyes. They betray your mind.",
+          "colors": [
+            "Yellow",
+            "Orange",
+            "Red"
+          ],
+          "name": "Miraj"
+        }
+      ]
+    ]
+  },
+  "games": [
+    {
+      "startGame": {
+        "playerOneDeckIdx": 0,
+        "playerTwoDeckIdx": 1,
+        "shuffleSeed": 124579,
+        "playerOneHero": {
+          "mana": 3,
+          "description": "Standard card: Every ancestor reached glory, now it is his time to rule.",
+          "colors": [
+            "Yellow",
+            "Brown"
+          ],
+          "name": "Lord Royce"
+        },
+        "playerTwoHero": {
+          "mana": 2,
+          "description": "Premium card: Her majesty rule is absolute, every non-believer will suffer.",
+          "colors": [
+            "White",
+            "Black",
+            "Grey"
+          ],
+          "name": "Empress Thorina"
+        },
+        "startingPlayer": 2
+      },
+      "actions": [
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 1
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 1
+        },
+        {
+          "command": "getCardAtPosition",
+          "x": 1,
+          "y": 0
+        },
+        {
+          "command": "cardUsesAbility",
+          "cardAttacker": {
+            "x": 1,
+            "y": 0
+          },
+          "cardAttacked": {
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 1
+        },
+        {
+          "command": "cardUsesAbility",
+          "cardAttacker": {
+            "x": 2,
+            "y": 1
+          },
+          "cardAttacked": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 1
+        },
+        {
+          "command": "cardUsesAbility",
+          "cardAttacker": {
+            "x": 1,
+            "y": 0
+          },
+          "cardAttacked": {
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "command": "cardUsesAbility",
+          "cardAttacker": {
+            "x": 0,
+            "y": 0
+          },
+          "cardAttacked": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "getCardsInHand",
+          "playerIdx": 1
+        },
+        {
+          "command": "getPlayerMana",
+          "playerIdx": 1
+        },
+        {
+          "command": "getPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 0
+        },
+        {
+          "command": "cardUsesAbility",
+          "cardAttacker": {
+            "x": 2,
+            "y": 1
+          },
+          "cardAttacked": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "command": "cardUsesAbility",
+          "cardAttacker": {
+            "x": 3,
+            "y": 0
+          },
+          "cardAttacked": {
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 2
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 1
+        },
+        {
+          "command": "cardUsesAbility",
+          "cardAttacker": {
+            "x": 1,
+            "y": 0
+          },
+          "cardAttacked": {
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "command": "cardUsesAbility",
+          "cardAttacker": {
+            "x": 0,
+            "y": 0
+          },
+          "cardAttacked": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "command": "cardUsesAbility",
+          "cardAttacker": {
+            "x": 0,
+            "y": 1
+          },
+          "cardAttacked": {
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 1
+        },
+        {
+          "command": "cardUsesAbility",
+          "cardAttacker": {
+            "x": 3,
+            "y": 0
+          },
+          "cardAttacked": {
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "command": "cardUsesAbility",
+          "cardAttacker": {
+            "x": 2,
+            "y": 1
+          },
+          "cardAttacked": {
+            "x": 1,
+            "y": 1
+          }
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 0
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 0
+        },
+        {
+          "command": "cardUsesAbility",
+          "cardAttacker": {
+            "x": 1,
+            "y": 0
+          },
+          "cardAttacked": {
+            "x": 2,
+            "y": 2
+          }
+        },
+        {
+          "command": "cardUsesAbility",
+          "cardAttacker": {
+            "x": 0,
+            "y": 1
+          },
+          "cardAttacked": {
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "command": "cardUsesAbility",
+          "cardAttacker": {
+            "x": 1,
+            "y": 2
+          },
+          "cardAttacked": {
+            "x": 2,
+            "y": 2
+          }
+        },
+        {
+          "command": "cardUsesAbility",
+          "cardAttacker": {
+            "x": 0,
+            "y": 0
+          },
+          "cardAttacked": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 0
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 0
+        },
+        {
+          "command": "cardUsesAbility",
+          "cardAttacker": {
+            "x": 3,
+            "y": 0
+          },
+          "cardAttacked": {
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "command": "cardUsesAbility",
+          "cardAttacker": {
+            "x": 2,
+            "y": 1
+          },
+          "cardAttacked": {
+            "x": 1,
+            "y": 1
+          }
+        },
+        {
+          "command": "cardUsesAbility",
+          "cardAttacker": {
+            "x": 2,
+            "y": 3
+          },
+          "cardAttacked": {
+            "x": 1,
+            "y": 3
+          }
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "getPlayerMana",
+          "playerIdx": 2
+        },
+        {
+          "command": "getPlayerMana",
+          "playerIdx": 1
+        },
+        {
+          "command": "getCardsOnTable"
+        },
+        {
+          "command": "getCardsInHand",
+          "playerIdx": 2
+        },
+        {
+          "command": "getCardsInHand",
+          "playerIdx": 1
+        }
+      ]
+    }
+  ]
+}
