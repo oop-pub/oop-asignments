@@ -159,6 +159,10 @@ public final class Checker {
             return CheckerConstants.MULTIPLE_GAMES_INVALID_POINTS;
         }
 
+        if (input.contains(CheckerConstants.USE_HERO_ABILITY)) {
+            return CheckerConstants.USE_HERO_ABILITY_POINTS;
+        }
+
         if (input.contains(CheckerConstants.BIG_GAME)) {
             return CheckerConstants.BIG_GAME_POINTS;
         }
