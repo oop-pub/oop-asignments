@@ -392,18 +392,18 @@
           "handIdx": 0
         },
         {
+          "command": "useAttackHero",
+          "cardAttacker": {
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
           "command": "endPlayerTurn"
         },
         {
           "command": "placeCard",
           "handIdx": 0
-        },
-        {
-          "command": "useAttackHero",
-          "cardAttacker": {
-            "x": 0,
-            "y": 0
-          }
         },
         {
           "command": "useAttackHero",
@@ -415,8 +415,8 @@
         {
           "command": "useAttackHero",
           "cardAttacker": {
-            "x": 1,
-            "y": 0
+            "x": 0,
+            "y": 1
           }
         },
         {
@@ -471,32 +471,11 @@
           "playerIdx": 2
         },
         {
-          "command": "useAttackHero",
-          "cardAttacker": {
-            "x": 1,
-            "y": 1
-          }
+          "command": "endPlayerTurn"
         },
         {
-          "command": "useAttackHero",
-          "cardAttacker": {
-            "x": 1,
-            "y": 0
-          }
-        },
-        {
-          "command": "useAttackHero",
-          "cardAttacker": {
-            "x": 0,
-            "y": 0
-          }
-        },
-        {
-          "command": "useAttackHero",
-          "cardAttacker": {
-            "x": 0,
-            "y": 1
-          }
+          "command": "placeCard",
+          "handIdx": 0
         },
         {
           "command": "endPlayerTurn"
@@ -513,18 +492,7 @@
           "handIdx": 0
         },
         {
-          "command": "useAttackHero",
-          "cardAttacker": {
-            "x": 1,
-            "y": 0
-          }
-        },
-        {
-          "command": "useAttackHero",
-          "cardAttacker": {
-            "x": 1,
-            "y": 1
-          }
+          "command": "endPlayerTurn"
         },
         {
           "command": "getPlayerMana",

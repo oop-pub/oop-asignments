@@ -414,10 +414,6 @@
         },
         {
           "command": "placeCard",
-          "handIdx": 1
-        },
-        {
-          "command": "placeCard",
           "handIdx": 0
         },
         {
@@ -443,6 +439,10 @@
         },
         {
           "command": "placeCard",
+          "handIdx": 1
+        },
+        {
+          "command": "placeCard",
           "handIdx": 0
         },
         {
@@ -450,7 +450,7 @@
         },
         {
           "command": "placeCard",
-          "handIdx": 2
+          "handIdx": 0
         },
         {
           "command": "placeCard",
@@ -458,6 +458,10 @@
         },
         {
           "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 0
         },
         {
           "command": "placeCard",

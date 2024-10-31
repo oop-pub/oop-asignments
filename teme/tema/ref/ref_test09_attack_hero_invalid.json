@@ -1,5 +1,21 @@
 [
   {
+    "command": "useAttackHero",
+    "cardAttacker": {
+      "x": 2,
+      "y": 0
+    },
+    "error": "Attacked card is not of type 'Tank'."
+  },
+  {
+    "command": "useAttackHero",
+    "cardAttacker": {
+      "x": 0,
+      "y": 1
+    },
+    "error": "Attacker card has already attacked this turn."
+  },
+  {
     "command": "getCardAtPosition",
     "x": 3,
     "y": 0,
@@ -28,7 +44,7 @@
         "Purple"
       ],
       "name": "King Mudface",
-      "health": 21
+      "health": 25
     }
   },
   {
@@ -101,7 +117,7 @@
         "Purple"
       ],
       "name": "King Mudface",
-      "health": 21
+      "health": 25
     }
   },
   {
@@ -120,17 +136,14 @@
     }
   },
   {
-    "gameEnded": "Player two killed the enemy hero."
-  },
-  {
     "command": "getPlayerMana",
     "playerIdx": 2,
-    "output": 10
+    "output": 16
   },
   {
     "command": "getPlayerMana",
     "playerIdx": 1,
-    "output": 8
+    "output": 12
   },
   {
     "command": "getCardsOnTable",
@@ -218,6 +231,17 @@
             "Black"
           ],
           "name": "The Ripper"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 6,
+          "health": 3,
+          "description": "Premium card: Ravished by the winds of hell, no soul is to be forgiven.",
+          "colors": [
+            "Black",
+            "Yellow"
+          ],
+          "name": "The Ripper"
         }
       ],
       [
@@ -250,7 +274,19 @@
   {
     "command": "getCardsInHand",
     "playerIdx": 2,
-    "output": []
+    "output": [
+      {
+        "mana": 2,
+        "attackDamage": 5,
+        "health": 4,
+        "description": "Premium card: Insanity is always an option, now it is an absolute.",
+        "colors": [
+          "Red",
+          "Black"
+        ],
+        "name": "Miraj"
+      }
+    ]
   },
   {
     "command": "getCardsInHand",
@@ -258,14 +294,15 @@
     "output": [
       {
         "mana": 2,
-        "attackDamage": 6,
-        "health": 3,
-        "description": "Premium card: Ravished by the winds of hell, no soul is to be forgiven.",
+        "attackDamage": 5,
+        "health": 7,
+        "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
         "colors": [
+          "Brown",
           "Black",
-          "Yellow"
+          "Grey"
         ],
-        "name": "The Ripper"
+        "name": "Goliath"
       }
     ]
   }

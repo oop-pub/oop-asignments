@@ -401,11 +401,7 @@
         },
         {
           "command": "placeCard",
-          "handIdx": 0
-        },
-        {
-          "command": "placeCard",
-          "handIdx": 0
+          "handIdx": 1
         },
         {
           "command": "getCardAtPosition",
@@ -415,29 +411,18 @@
         {
           "command": "cardUsesAttack",
           "cardAttacker": {
-            "x": 0,
-            "y": 1
-          },
-          "cardAttacked": {
-            "x": 2,
-            "y": 0
-          }
-        },
-        {
-          "command": "cardUsesAttack",
-          "cardAttacker": {
-            "x": 0,
-            "y": 0
-          },
-          "cardAttacked": {
-            "x": 2,
-            "y": 0
-          }
-        },
-        {
-          "command": "cardUsesAttack",
-          "cardAttacker": {
             "x": 1,
+            "y": 0
+          },
+          "cardAttacked": {
+            "x": 2,
+            "y": 0
+          }
+        },
+        {
+          "command": "cardUsesAttack",
+          "cardAttacker": {
+            "x": 0,
             "y": 0
           },
           "cardAttacked": {
@@ -460,7 +445,18 @@
         {
           "command": "cardUsesAttack",
           "cardAttacker": {
-            "x": 3,
+            "x": 2,
+            "y": 0
+          },
+          "cardAttacked": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "command": "cardUsesAttack",
+          "cardAttacker": {
+            "x": 2,
             "y": 0
           },
           "cardAttacked": {
@@ -476,6 +472,17 @@
           },
           "cardAttacked": {
             "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "command": "cardUsesAttack",
+          "cardAttacker": {
+            "x": 3,
+            "y": 0
+          },
+          "cardAttacked": {
+            "x": 3,
             "y": 0
           }
         },
@@ -495,6 +502,10 @@
         },
         {
           "command": "placeCard",
+          "handIdx": 1
+        },
+        {
+          "command": "placeCard",
           "handIdx": 0
         },
         {
@@ -503,50 +514,6 @@
           "y": 0
         },
         {
-          "command": "cardUsesAttack",
-          "cardAttacker": {
-            "x": 0,
-            "y": 2
-          },
-          "cardAttacked": {
-            "x": 2,
-            "y": 0
-          }
-        },
-        {
-          "command": "cardUsesAttack",
-          "cardAttacker": {
-            "x": 0,
-            "y": 0
-          },
-          "cardAttacked": {
-            "x": 3,
-            "y": 0
-          }
-        },
-        {
-          "command": "cardUsesAttack",
-          "cardAttacker": {
-            "x": 1,
-            "y": 0
-          },
-          "cardAttacked": {
-            "x": 3,
-            "y": 0
-          }
-        },
-        {
-          "command": "cardUsesAttack",
-          "cardAttacker": {
-            "x": 0,
-            "y": 1
-          },
-          "cardAttacked": {
-            "x": 3,
-            "y": 0
-          }
-        },
-        {
           "command": "endPlayerTurn"
         },
         {
@@ -558,28 +525,6 @@
           "handIdx": 0
         },
         {
-          "command": "cardUsesAttack",
-          "cardAttacker": {
-            "x": 3,
-            "y": 0
-          },
-          "cardAttacked": {
-            "x": 1,
-            "y": 0
-          }
-        },
-        {
-          "command": "cardUsesAttack",
-          "cardAttacker": {
-            "x": 2,
-            "y": 0
-          },
-          "cardAttacked": {
-            "x": 1,
-            "y": 0
-          }
-        },
-        {
           "command": "endPlayerTurn"
         },
         {
@@ -587,77 +532,11 @@
           "handIdx": 0
         },
         {
-          "command": "cardUsesAttack",
-          "cardAttacker": {
-            "x": 0,
-            "y": 1
-          },
-          "cardAttacked": {
-            "x": 2,
-            "y": 0
-          }
-        },
-        {
-          "command": "cardUsesAttack",
-          "cardAttacker": {
-            "x": 0,
-            "y": 2
-          },
-          "cardAttacked": {
-            "x": 2,
-            "y": 0
-          }
-        },
-        {
-          "command": "cardUsesAttack",
-          "cardAttacker": {
-            "x": 0,
-            "y": 0
-          },
-          "cardAttacked": {
-            "x": 2,
-            "y": 0
-          }
-        },
-        {
-          "command": "cardUsesAttack",
-          "cardAttacker": {
-            "x": 1,
-            "y": 0
-          },
-          "cardAttacked": {
-            "x": 2,
-            "y": 0
-          }
-        },
-        {
           "command": "endPlayerTurn"
         },
         {
           "command": "placeCard",
           "handIdx": 0
-        },
-        {
-          "command": "cardUsesAttack",
-          "cardAttacker": {
-            "x": 2,
-            "y": 0
-          },
-          "cardAttacked": {
-            "x": 0,
-            "y": 1
-          }
-        },
-        {
-          "command": "cardUsesAttack",
-          "cardAttacker": {
-            "x": 3,
-            "y": 0
-          },
-          "cardAttacked": {
-            "x": 1,
-            "y": 0
-          }
         },
         {
           "command": "endPlayerTurn"
