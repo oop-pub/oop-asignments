@@ -1,0 +1,144 @@
+[
+  {
+    "command": "getPlayerDeck",
+    "playerIdx": 2,
+    "output": [
+      {
+        "mana": 2,
+        "attackDamage": 0,
+        "health": 4,
+        "description": "Standard card: Everything is sacred to him, all is but a gift from the saints.",
+        "colors": [
+          "Green",
+          "Yellow",
+          "Blue"
+        ],
+        "name": "Disciple"
+      },
+      {
+        "mana": 5,
+        "attackDamage": 4,
+        "health": 4,
+        "description": "Premium card: Insanity is always an option, now it is an absolute.",
+        "colors": [
+          "Yellow",
+          "Orange",
+          "Red"
+        ],
+        "name": "Miraj"
+      },
+      {
+        "mana": 4,
+        "attackDamage": 4,
+        "health": 3,
+        "description": "Standard card: When he is near, close your eyes. They betray your mind.",
+        "colors": [
+          "Yellow",
+          "Orange",
+          "Red"
+        ],
+        "name": "Miraj"
+      },
+      {
+        "mana": 4,
+        "attackDamage": 4,
+        "health": 3,
+        "description": "Premium card: Insanity is always an option, now it is an absolute.",
+        "colors": [
+          "Yellow",
+          "Orange",
+          "Red"
+        ],
+        "name": "Miraj"
+      }
+    ]
+  },
+  {
+    "command": "getPlayerDeck",
+    "playerIdx": 1,
+    "output": [
+      {
+        "mana": 4,
+        "attackDamage": 5,
+        "health": 4,
+        "description": "Premium card: Insanity is always an option, now it is an absolute.",
+        "colors": [
+          "Yellow",
+          "Orange",
+          "Red"
+        ],
+        "name": "Miraj"
+      },
+      {
+        "mana": 5,
+        "attackDamage": 4,
+        "health": 4,
+        "description": "Standard card: When he is near, close your eyes. They betray your mind.",
+        "colors": [
+          "Yellow",
+          "Orange",
+          "Red"
+        ],
+        "name": "Miraj"
+      },
+      {
+        "mana": 4,
+        "attackDamage": 2,
+        "health": 8,
+        "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
+        "colors": [
+          "Brown",
+          "Black",
+          "Grey"
+        ],
+        "name": "Goliath"
+      },
+      {
+        "mana": 3,
+        "attackDamage": 6,
+        "health": 3,
+        "description": "Premium card: Ravished by the winds of hell, no soul is to be forgiven.",
+        "colors": [
+          "Orange",
+          "Red",
+          "Black"
+        ],
+        "name": "The Ripper"
+      }
+    ]
+  },
+  {
+    "command": "getPlayerHero",
+    "playerIdx": 1,
+    "output": {
+      "mana": 2,
+      "description": "Standard card: Exact precision is her mantra, emotion is for the weak.",
+      "colors": [
+        "White",
+        "Black",
+        "Grey"
+      ],
+      "name": "Empress Thorina",
+      "health": 30
+    }
+  },
+  {
+    "command": "getPlayerHero",
+    "playerIdx": 2,
+    "output": {
+      "mana": 2,
+      "description": "Standard card: Every ancestor reached glory, now it is his time to rule.",
+      "colors": [
+        "Black",
+        "Red",
+        "Grey"
+      ],
+      "name": "Lord Royce",
+      "health": 30
+    }
+  },
+  {
+    "command": "getPlayerTurn",
+    "output": 2
+  }
+]

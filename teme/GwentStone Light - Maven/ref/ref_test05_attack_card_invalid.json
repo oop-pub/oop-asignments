@@ -1,0 +1,285 @@
+[
+  {
+    "command": "getCardAtPosition",
+    "x": 0,
+    "y": 3,
+    "output": "No card available at that position."
+  },
+  {
+    "command": "getCardAtPosition",
+    "x": 2,
+    "y": 0,
+    "output": {
+      "mana": 3,
+      "attackDamage": 3,
+      "health": 1,
+      "description": "Premium card: You shall not pass, you shall not prevail, you shall perish.",
+      "colors": [
+        "Brown",
+        "Blue"
+      ],
+      "name": "Warden"
+    }
+  },
+  {
+    "command": "cardUsesAttack",
+    "cardAttacker": {
+      "x": 2,
+      "y": 0
+    },
+    "cardAttacked": {
+      "x": 0,
+      "y": 0
+    },
+    "error": "Attacked card is not of type 'Tank'."
+  },
+  {
+    "command": "cardUsesAttack",
+    "cardAttacker": {
+      "x": 2,
+      "y": 0
+    },
+    "cardAttacked": {
+      "x": 1,
+      "y": 0
+    },
+    "error": "Attacker card has already attacked this turn."
+  },
+  {
+    "command": "cardUsesAttack",
+    "cardAttacker": {
+      "x": 3,
+      "y": 0
+    },
+    "cardAttacked": {
+      "x": 3,
+      "y": 0
+    },
+    "error": "Attacked card does not belong to the enemy."
+  },
+  {
+    "command": "getCardsInHand",
+    "playerIdx": 2,
+    "output": [
+      {
+        "mana": 2,
+        "attackDamage": 0,
+        "health": 3,
+        "description": "Premium card: Nobody suspects an outcast, not even the Gods.",
+        "colors": [
+          "Pink",
+          "Purple"
+        ],
+        "name": "The Cursed One"
+      },
+      {
+        "mana": 1,
+        "attackDamage": 3,
+        "health": 1,
+        "description": "Standard card: A drink can always be served, with the blood of his enemies.",
+        "colors": [
+          "Purple",
+          "Yellow"
+        ],
+        "name": "Berserker"
+      }
+    ]
+  },
+  {
+    "command": "getPlayerMana",
+    "playerIdx": 2,
+    "output": 6
+  },
+  {
+    "command": "getPlayerTurn",
+    "output": 2
+  },
+  {
+    "command": "getCardAtPosition",
+    "x": 1,
+    "y": 0,
+    "output": {
+      "mana": 3,
+      "attackDamage": 2,
+      "health": 2,
+      "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
+      "colors": [
+        "Brown",
+        "Black",
+        "Grey"
+      ],
+      "name": "Goliath"
+    }
+  },
+  {
+    "command": "getPlayerMana",
+    "playerIdx": 2,
+    "output": 10
+  },
+  {
+    "command": "getPlayerMana",
+    "playerIdx": 1,
+    "output": 7
+  },
+  {
+    "command": "getCardsOnTable",
+    "output": [
+      [
+        {
+          "mana": 1,
+          "attackDamage": 2,
+          "health": 2,
+          "description": "Premium card: His presence is not known even by ghosts, success at all costs.",
+          "colors": [
+            "Black",
+            "White"
+          ],
+          "name": "Sentinel"
+        },
+        {
+          "mana": 1,
+          "attackDamage": 3,
+          "health": 1,
+          "description": "Standard card: A drink can always be served, with the blood of his enemies.",
+          "colors": [
+            "Purple",
+            "Yellow"
+          ],
+          "name": "Berserker"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 0,
+          "health": 3,
+          "description": "Premium card: Nobody suspects an outcast, not even the Gods.",
+          "colors": [
+            "Pink",
+            "Purple"
+          ],
+          "name": "The Cursed One"
+        }
+      ],
+      [
+        {
+          "mana": 3,
+          "attackDamage": 2,
+          "health": 2,
+          "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
+          "colors": [
+            "Brown",
+            "Black",
+            "Grey"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 4,
+          "health": 3,
+          "description": "Premium card: Insanity is always an option, now it is an absolute.",
+          "colors": [
+            "Yellow",
+            "Orange",
+            "Red"
+          ],
+          "name": "Miraj"
+        }
+      ],
+      [
+        {
+          "mana": 3,
+          "attackDamage": 3,
+          "health": 1,
+          "description": "Premium card: You shall not pass, you shall not prevail, you shall perish.",
+          "colors": [
+            "Brown",
+            "Blue"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 3,
+          "attackDamage": 2,
+          "health": 7,
+          "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
+          "colors": [
+            "Red",
+            "Purple"
+          ],
+          "name": "Goliath"
+        },
+        {
+          "mana": 4,
+          "attackDamage": 4,
+          "health": 3,
+          "description": "Standard card: When he is near, close your eyes. They betray your mind.",
+          "colors": [
+            "Red",
+            "Black"
+          ],
+          "name": "Miraj"
+        }
+      ],
+      [
+        {
+          "mana": 2,
+          "attackDamage": 1,
+          "health": 3,
+          "description": "Standard card: Trained by the best, nothing will catch him off-guard.",
+          "colors": [
+            "Black",
+            "Grey",
+            "Blue"
+          ],
+          "name": "Sentinel"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 0,
+          "health": 2,
+          "description": "Standard card: Everything is sacred to him, all is but a gift from the saints.",
+          "colors": [
+            "Yellow",
+            "White"
+          ],
+          "name": "Disciple"
+        }
+      ]
+    ]
+  },
+  {
+    "command": "getCardsInHand",
+    "playerIdx": 2,
+    "output": [
+      {
+        "mana": 1,
+        "attackDamage": 2,
+        "health": 1,
+        "description": "Standard card: A drink can always be served, with the blood of his enemies.",
+        "colors": [
+          "Red",
+          "Blue",
+          "Pink"
+        ],
+        "name": "Berserker"
+      }
+    ]
+  },
+  {
+    "command": "getCardsInHand",
+    "playerIdx": 1,
+    "output": [
+      {
+        "mana": 4,
+        "attackDamage": 5,
+        "health": 3,
+        "description": "Standard card: Death incarnate. No better time to die than now.",
+        "colors": [
+          "Black",
+          "Yellow"
+        ],
+        "name": "The Ripper"
+      }
+    ]
+  }
+]

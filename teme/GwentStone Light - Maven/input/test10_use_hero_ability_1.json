@@ -1,0 +1,459 @@
+{
+  "playerOneDecks": {
+    "nrCardsInDeck": 7,
+    "nrDecks": 2,
+    "decks": [
+      [
+        {
+          "mana": 1,
+          "attackDamage": 8,
+          "health": 6,
+          "description": "Standard card: He has seen everything, his mind has never been asleep since the making of the realm.",
+          "colors": [
+            "Brown",
+            "Blue"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 1,
+          "attackDamage": 0,
+          "health": 4,
+          "description": "Premium card: The will of Gods has been spoken, obey and you shall be saved...or not.",
+          "colors": [
+            "Green",
+            "Yellow",
+            "Blue"
+          ],
+          "name": "Disciple"
+        },
+        {
+          "mana": 1,
+          "attackDamage": 0,
+          "health": 2,
+          "description": "Premium card: The will of Gods has been spoken, obey and you shall be saved...or not.",
+          "colors": [
+            "Yellow",
+            "White"
+          ],
+          "name": "Disciple"
+        },
+        {
+          "mana": 1,
+          "attackDamage": 5,
+          "health": 2,
+          "description": "Premium card: His presence is not known even by ghosts, success at all costs.",
+          "colors": [
+            "Black",
+            "White"
+          ],
+          "name": "Sentinel"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 0,
+          "health": 2,
+          "description": "Standard card: Everything is sacred to him, all is but a gift from the saints.",
+          "colors": [
+            "Yellow",
+            "White"
+          ],
+          "name": "Disciple"
+        },
+        {
+          "mana": 1,
+          "attackDamage": 0,
+          "health": 2,
+          "description": "Standard card: Everything is sacred to him, all is but a gift from the saints.",
+          "colors": [
+            "Green",
+            "Yellow",
+            "Blue"
+          ],
+          "name": "Disciple"
+        },
+        {
+          "mana": 1,
+          "attackDamage": 6,
+          "health": 3,
+          "description": "Standard card: When he is near, close your eyes. They betray your mind.",
+          "colors": [
+            "Red",
+            "Black"
+          ],
+          "name": "Miraj"
+        }
+      ],
+      [
+        {
+          "mana": 2,
+          "attackDamage": 6,
+          "health": 3,
+          "description": "Premium card: His presence is not known even by ghosts, success at all costs.",
+          "colors": [
+            "Black",
+            "White"
+          ],
+          "name": "Sentinel"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 0,
+          "health": 2,
+          "description": "Premium card: The will of Gods has been spoken, obey and you shall be saved...or not.",
+          "colors": [
+            "Yellow",
+            "White"
+          ],
+          "name": "Disciple"
+        },
+        {
+          "mana": 1,
+          "attackDamage": 6,
+          "health": 2,
+          "description": "Premium card: Fear him. Your last breath is now.",
+          "colors": [
+            "Red",
+            "Blue",
+            "Pink"
+          ],
+          "name": "Berserker"
+        },
+        {
+          "mana": 1,
+          "attackDamage": 7,
+          "health": 5,
+          "description": "Premium card: You shall not pass, you shall not prevail, you shall perish.",
+          "colors": [
+            "Brown",
+            "Blue"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 6,
+          "health": 2,
+          "description": "Standard card: Trained by the best, nothing will catch him off-guard.",
+          "colors": [
+            "Black",
+            "Grey",
+            "Blue"
+          ],
+          "name": "Sentinel"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 6,
+          "health": 4,
+          "description": "Standard card: Death incarnate. No better time to die than now.",
+          "colors": [
+            "Orange",
+            "Red",
+            "Black"
+          ],
+          "name": "The Ripper"
+        },
+        {
+          "mana": 1,
+          "attackDamage": 0,
+          "health": 2,
+          "description": "Standard card: Everything is sacred to him, all is but a gift from the saints.",
+          "colors": [
+            "Yellow",
+            "White"
+          ],
+          "name": "Disciple"
+        }
+      ]
+    ]
+  },
+  "playerTwoDecks": {
+    "nrCardsInDeck": 7,
+    "nrDecks": 2,
+    "decks": [
+      [
+        {
+          "mana": 2,
+          "attackDamage": 5,
+          "health": 1,
+          "description": "Standard card: A drink can always be served, with the blood of his enemies.",
+          "colors": [
+            "Purple",
+            "Yellow"
+          ],
+          "name": "Berserker"
+        },
+        {
+          "mana": 1,
+          "attackDamage": 6,
+          "health": 3,
+          "description": "Standard card: Trained by the best, nothing will catch him off-guard.",
+          "colors": [
+            "Black",
+            "Grey",
+            "Blue"
+          ],
+          "name": "Sentinel"
+        },
+        {
+          "mana": 1,
+          "attackDamage": 5,
+          "health": 4,
+          "description": "Premium card: Ravished by the winds of hell, no soul is to be forgiven.",
+          "colors": [
+            "Black",
+            "Yellow"
+          ],
+          "name": "The Ripper"
+        },
+        {
+          "mana": 1,
+          "attackDamage": 0,
+          "health": 3,
+          "description": "Standard card: Thrown from the highest cliff, revenge will be his glory.",
+          "colors": [
+            "Black",
+            "White",
+            "Red"
+          ],
+          "name": "The Cursed One"
+        },
+        {
+          "mana": 1,
+          "attackDamage": 5,
+          "health": 3,
+          "description": "Standard card: When he is near, close your eyes. They betray your mind.",
+          "colors": [
+            "Red",
+            "Black"
+          ],
+          "name": "Miraj"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 0,
+          "health": 3,
+          "description": "Premium card: Nobody suspects an outcast, not even the Gods.",
+          "colors": [
+            "Black",
+            "White",
+            "Red"
+          ],
+          "name": "The Cursed One"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 6,
+          "health": 4,
+          "description": "Premium card: Ravished by the winds of hell, no soul is to be forgiven.",
+          "colors": [
+            "Black",
+            "Yellow"
+          ],
+          "name": "The Ripper"
+        }
+      ],
+      [
+        {
+          "mana": 1,
+          "attackDamage": 7,
+          "health": 6,
+          "description": "Standard card: He has seen everything, his mind has never been asleep since the making of the realm.",
+          "colors": [
+            "Brown",
+            "Blue"
+          ],
+          "name": "Warden"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 6,
+          "health": 3,
+          "description": "Standard card: Death incarnate. No better time to die than now.",
+          "colors": [
+            "Black",
+            "Yellow"
+          ],
+          "name": "The Ripper"
+        },
+        {
+          "mana": 1,
+          "attackDamage": 6,
+          "health": 2,
+          "description": "Premium card: His presence is not known even by ghosts, success at all costs.",
+          "colors": [
+            "Black",
+            "White"
+          ],
+          "name": "Sentinel"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 0,
+          "health": 2,
+          "description": "Premium card: The will of Gods has been spoken, obey and you shall be saved...or not.",
+          "colors": [
+            "Yellow",
+            "White"
+          ],
+          "name": "Disciple"
+        },
+        {
+          "mana": 1,
+          "attackDamage": 6,
+          "health": 4,
+          "description": "Standard card: Death incarnate. No better time to die than now.",
+          "colors": [
+            "Orange",
+            "Red",
+            "Black"
+          ],
+          "name": "The Ripper"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 6,
+          "health": 2,
+          "description": "Standard card: Trained by the best, nothing will catch him off-guard.",
+          "colors": [
+            "Black",
+            "White"
+          ],
+          "name": "Sentinel"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 8,
+          "health": 6,
+          "description": "Premium card: You shall not pass, you shall not prevail, you shall perish.",
+          "colors": [
+            "Brown",
+            "Blue"
+          ],
+          "name": "Warden"
+        }
+      ]
+    ]
+  },
+  "games": [
+    {
+      "startGame": {
+        "playerOneDeckIdx": 1,
+        "playerTwoDeckIdx": 0,
+        "shuffleSeed": 929885,
+        "playerOneHero": {
+          "mana": 1,
+          "description": "Standard card: His voice is tremor, his ways are dirty, but true to his purpose.",
+          "colors": [
+            "Brown",
+            "Pink",
+            "Purple"
+          ],
+          "name": "King Mudface"
+        },
+        "playerTwoHero": {
+          "mana": 1,
+          "description": "Standard card: Absolute order, a soldier must devote his life to his General.",
+          "colors": [
+            "Green",
+            "Yellow"
+          ],
+          "name": "General Kocioraw"
+        },
+        "startingPlayer": 2
+      },
+      "actions": [
+        {
+          "command": "placeCard",
+          "handIdx": 0
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 0
+        },
+        {
+          "command": "useHeroAbility",
+          "affectedRow": 0
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 1
+        },
+        {
+          "command": "useHeroAbility",
+          "affectedRow": 2
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 0
+        },
+        {
+          "command": "useHeroAbility",
+          "affectedRow": 1
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "placeCard",
+          "handIdx": 0
+        },
+        {
+          "command": "getCardAtPosition",
+          "x": 2,
+          "y": 0
+        },
+        {
+          "command": "getCardAtPosition",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "command": "useHeroAbility",
+          "affectedRow": 3
+        },
+        {
+          "command": "endPlayerTurn"
+        },
+        {
+          "command": "getFrozenCardsOnTable"
+        },
+        {
+          "command": "getPlayerTurn"
+        },
+        {
+          "command": "getPlayerMana",
+          "playerIdx": 2
+        },
+        {
+          "command": "getPlayerMana",
+          "playerIdx": 1
+        },
+        {
+          "command": "getCardsOnTable"
+        },
+        {
+          "command": "getCardsInHand",
+          "playerIdx": 2
+        },
+        {
+          "command": "getCardsInHand",
+          "playerIdx": 1
+        }
+      ]
+    }
+  ]
+}
