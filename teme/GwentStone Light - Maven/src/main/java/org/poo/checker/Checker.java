@@ -22,9 +22,9 @@ public final class Checker {
     }
 
     private static void calculateScoreGit() {
-        System.out.print(".GIT score: ");
+        System.out.print("GIT commit score: ");
 
-        Path path = Paths.get(".git");
+        Path path = Paths.get("git_log.txt");
         if (Files.exists(path)) {
             gitScore = CheckerConstants.FIVE_POINTS;
             System.out.println(gitScore + "/5");
