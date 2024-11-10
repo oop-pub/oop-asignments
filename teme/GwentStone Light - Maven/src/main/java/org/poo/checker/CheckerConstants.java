@@ -13,6 +13,7 @@ public final class CheckerConstants {
     public static final Integer BIG_TEST_POINTS = 3;
     public static final Integer MAXIMUM_ERROR_CHECKSTYLE = 30;
     public static final Integer CHECKSTYLE_POINTS = 10;
+    public static final String CHECKER_PATH = "src/main/java/org/poo/checker";
     public static final String TESTS_PATH = "input/";
     public static final String OUT_PATH = "result/out_";
     public static final String REF_PATH = "ref/ref_";
