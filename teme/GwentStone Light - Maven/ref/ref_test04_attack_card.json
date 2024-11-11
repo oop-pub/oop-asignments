@@ -4,26 +4,28 @@
     "playerIdx": 1,
     "output": [
       {
-        "mana": 5,
-        "attackDamage": 5,
-        "health": 3,
-        "description": "Premium card: Insanity is always an option, now it is an absolute.",
+        "mana": 2,
+        "attackDamage": 3,
+        "health": 6,
+        "description": "Standard card: He has seen everything, his mind has never been asleep since the making of the realm.",
         "colors": [
-          "Red",
-          "Black"
+          "Black",
+          "White",
+          "Green"
         ],
-        "name": "Miraj"
+        "name": "Warden"
       },
       {
         "mana": 4,
-        "attackDamage": 2,
-        "health": 8,
-        "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
+        "attackDamage": 5,
+        "health": 4,
+        "description": "Standard card: When he is near, close your eyes. They betray your mind.",
         "colors": [
-          "Red",
-          "Purple"
+          "Yellow",
+          "Orange",
+          "Red"
         ],
-        "name": "Goliath"
+        "name": "Miraj"
       }
     ]
   },
@@ -44,7 +46,7 @@
   {
     "command": "getPlayerMana",
     "playerIdx": 1,
-    "output": 3
+    "output": 1
   },
   {
     "command": "getPlayerTurn",
@@ -53,35 +55,35 @@
   {
     "command": "getCardsOnTable",
     "output": [
-      [
-        {
-          "mana": 3,
-          "attackDamage": 0,
-          "health": 4,
-          "description": "Premium card: The will of Gods has been spoken, obey and you shall be saved...or not.",
-          "colors": [
-            "Yellow",
-            "White"
-          ],
-          "name": "Disciple"
-        }
-      ],
       [],
       [],
       [
         {
           "mana": 3,
-          "attackDamage": 0,
-          "health": 1,
-          "description": "Standard card: Thrown from the highest cliff, revenge will be his glory.",
+          "attackDamage": 3,
+          "health": 3,
+          "description": "Premium card: You shall not pass, you shall not prevail, you shall perish.",
           "colors": [
             "Black",
             "White",
-            "Red"
+            "Green"
           ],
-          "name": "The Cursed One"
+          "name": "Warden"
+        },
+        {
+          "mana": 2,
+          "attackDamage": 3,
+          "health": 6,
+          "description": "Standard card: He has seen everything, his mind has never been asleep since the making of the realm.",
+          "colors": [
+            "Black",
+            "White",
+            "Green"
+          ],
+          "name": "Warden"
         }
-      ]
+      ],
+      []
     ]
   },
   {
@@ -89,26 +91,15 @@
     "playerIdx": 2,
     "output": [
       {
-        "mana": 2,
-        "attackDamage": 0,
-        "health": 4,
-        "description": "Standard card: Everything is sacred to him, all is but a gift from the saints.",
+        "mana": 5,
+        "attackDamage": 5,
+        "health": 3,
+        "description": "Standard card: When he is near, close your eyes. They betray your mind.",
         "colors": [
-          "Yellow",
-          "White"
+          "Red",
+          "Black"
         ],
-        "name": "Disciple"
-      },
-      {
-        "mana": 2,
-        "attackDamage": 3,
-        "health": 1,
-        "description": "Standard card: A drink can always be served, with the blood of his enemies.",
-        "colors": [
-          "Purple",
-          "Yellow"
-        ],
-        "name": "Berserker"
+        "name": "Miraj"
       }
     ]
   },
@@ -117,26 +108,16 @@
     "playerIdx": 1,
     "output": [
       {
-        "mana": 5,
+        "mana": 4,
         "attackDamage": 5,
-        "health": 3,
-        "description": "Premium card: Insanity is always an option, now it is an absolute.",
+        "health": 4,
+        "description": "Standard card: When he is near, close your eyes. They betray your mind.",
         "colors": [
-          "Red",
-          "Black"
+          "Yellow",
+          "Orange",
+          "Red"
         ],
         "name": "Miraj"
-      },
-      {
-        "mana": 4,
-        "attackDamage": 2,
-        "health": 8,
-        "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
-        "colors": [
-          "Red",
-          "Purple"
-        ],
-        "name": "Goliath"
       }
     ]
   },
@@ -146,47 +127,47 @@
     "output": [
       {
         "mana": 1,
-        "attackDamage": 1,
-        "health": 3,
-        "description": "Standard card: Trained by the best, nothing will catch him off-guard.",
+        "attackDamage": 3,
+        "health": 1,
+        "description": "Premium card: Fear him. Your last breath is now.",
         "colors": [
-          "Black",
-          "Grey",
-          "Blue"
+          "Purple",
+          "Yellow"
         ],
-        "name": "Sentinel"
-      },
-      {
-        "mana": 3,
-        "attackDamage": 1,
-        "health": 7,
-        "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
-        "colors": [
-          "Red",
-          "Purple"
-        ],
-        "name": "Goliath"
+        "name": "Berserker"
       },
       {
         "mana": 2,
         "attackDamage": 0,
-        "health": 3,
-        "description": "Premium card: Nobody suspects an outcast, not even the Gods.",
+        "health": 2,
+        "description": "Standard card: Everything is sacred to him, all is but a gift from the saints.",
         "colors": [
-          "Pink",
-          "Purple"
+          "Green",
+          "Yellow",
+          "Blue"
         ],
-        "name": "The Cursed One"
+        "name": "Disciple"
       },
       {
-        "mana": 4,
+        "mana": 1,
+        "attackDamage": 3,
+        "health": 1,
+        "description": "Premium card: Fear him. Your last breath is now.",
+        "colors": [
+          "Red",
+          "Blue",
+          "Pink"
+        ],
+        "name": "Berserker"
+      },
+      {
+        "mana": 3,
         "attackDamage": 6,
         "health": 3,
         "description": "Standard card: Death incarnate. No better time to die than now.",
         "colors": [
-          "Orange",
-          "Red",
-          "Black"
+          "Black",
+          "Yellow"
         ],
         "name": "The Ripper"
       }
@@ -197,28 +178,27 @@
     "playerIdx": 1,
     "output": [
       {
-        "mana": 5,
+        "mana": 4,
         "attackDamage": 5,
         "health": 3,
-        "description": "Standard card: When he is near, close your eyes. They betray your mind.",
+        "description": "Premium card: Ravished by the winds of hell, no soul is to be forgiven.",
         "colors": [
-          "Yellow",
-          "Orange",
-          "Red"
+          "Black",
+          "Yellow"
         ],
-        "name": "Miraj"
+        "name": "The Ripper"
       },
       {
-        "mana": 3,
-        "attackDamage": 2,
-        "health": 7,
-        "description": "Standard card: A warrior who is never afraid of battle, no matter the costs",
+        "mana": 2,
+        "attackDamage": 0,
+        "health": 1,
+        "description": "Standard card: Thrown from the highest cliff, revenge will be his glory.",
         "colors": [
-          "Brown",
           "Black",
-          "Grey"
+          "White",
+          "Red"
         ],
-        "name": "Goliath"
+        "name": "The Cursed One"
       },
       {
         "mana": 2,
@@ -234,14 +214,14 @@
       },
       {
         "mana": 2,
-        "attackDamage": 0,
-        "health": 1,
-        "description": "Premium card: Nobody suspects an outcast, not even the Gods.",
+        "attackDamage": 3,
+        "health": 6,
+        "description": "Standard card: He has seen everything, his mind has never been asleep since the making of the realm.",
         "colors": [
-          "Pink",
-          "Purple"
+          "Brown",
+          "Blue"
         ],
-        "name": "The Cursed One"
+        "name": "Warden"
       }
     ]
   }
