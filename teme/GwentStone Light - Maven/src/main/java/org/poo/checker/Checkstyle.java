@@ -18,7 +18,7 @@ public final class Checkstyle {
      */
     public static int testCheckstyle() {
         ProcessBuilder processBuilder = new ProcessBuilder("java", "-jar",
-                CheckerConstants.CHECKER_PATH + "/checkstyle-8.36.2-all.jar", "-c",
+                CheckerConstants.CHECKER_PATH + "/checkstyle-10.20.1-all.jar", "-c",
                 CheckerConstants.CHECKER_PATH + "/poo_checks.xml", "./");
 
         processBuilder.redirectErrorStream(true);
