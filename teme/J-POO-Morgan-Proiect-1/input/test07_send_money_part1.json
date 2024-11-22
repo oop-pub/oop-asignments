@@ -1,0 +1,80 @@
+{
+    "users": [
+        {
+            "firstName": "Therese",
+            "lastName": "Chauvin-Riou",
+            "email": "Therese_Chauvin-Riou@hotmail.fr"
+        },
+        {
+            "firstName": "Manuela",
+            "lastName": "Toma",
+            "email": "Manuela_Toma@hotmail.ro"
+        }
+    ],
+    "exchangeRates": [
+        {
+            "from": "USD",
+            "to": "EUR",
+            "rate": 0.9
+        },
+        {
+            "from": "EUR",
+            "to": "RON",
+            "rate": 5.0
+        }
+    ],
+    "commands": [
+        {
+            "command": "addAccount",
+            "email": "Therese_Chauvin-Riou@hotmail.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 1
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 269,
+            "timestamp": 2
+        },
+        {
+            "command": "addAccount",
+            "email": "Manuela_Toma@hotmail.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 3
+        },
+        {
+            "command": "addFunds",
+            "account": "RO69POOB6209498372540635",
+            "amount": 683,
+            "timestamp": 4
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "receiver": "RO69POOB6209498372540635",
+            "amount": 29,
+            "timestamp": 5,
+            "email": "Therese_Chauvin-Riou@hotmail.fr",
+            "description": "Shopping at Galeries Lafayette"
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 6
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO69POOB6209498372540635",
+            "receiver": "RO58POOB7344468893732422",
+            "amount": 1108,
+            "timestamp": 7,
+            "email": "Manuela_Toma@hotmail.ro",
+            "description": "Buying new shoes from Zara"
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 8
+        }
+    ]
+}

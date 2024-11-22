@@ -1,0 +1,68 @@
+[ {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Julie",
+    "lastName" : "Pierce",
+    "email" : "Julie_Pierce@gmail.us",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 0.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  } ],
+  "timestamp" : 2
+}, {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Julie",
+    "lastName" : "Pierce",
+    "email" : "Julie_Pierce@gmail.us",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 0.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "8207906978464446",
+        "status" : "active"
+      }, {
+        "cardNumber" : "7901879264253296",
+        "status" : "active"
+      } ]
+    } ]
+  } ],
+  "timestamp" : 5
+}, {
+  "command" : "deleteCard",
+  "output" : {
+    "timestamp" : 7,
+    "description" : "User not found"
+  },
+  "timestamp" : 7
+}, {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Julie",
+    "lastName" : "Pierce",
+    "email" : "Julie_Pierce@gmail.us",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 0.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "8207906978464446",
+        "status" : "active"
+      }, {
+        "cardNumber" : "7901879264253296",
+        "status" : "active"
+      }, {
+        "cardNumber" : "7004757825892043",
+        "status" : "active"
+      } ]
+    } ]
+  } ],
+  "timestamp" : 8
+} ]

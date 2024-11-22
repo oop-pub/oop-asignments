@@ -1,0 +1,295 @@
+{
+    "users": [
+        {
+            "firstName": "Olivier",
+            "lastName": "Mace",
+            "email": "Olivier_Mace@yahoo.fr"
+        },
+        {
+            "firstName": "Anghel",
+            "lastName": "Albu",
+            "email": "Anghel_Albu@outlook.ro"
+        },
+        {
+            "firstName": "Henriette",
+            "lastName": "Huet",
+            "email": "Henriette_Huet@outlook.fr"
+        },
+        {
+            "firstName": "Franck",
+            "lastName": "Adam",
+            "email": "Franck_Adam@outlook.fr"
+        },
+        {
+            "firstName": "Iuliana",
+            "lastName": "Georgescu",
+            "email": "Iuliana_Georgescu@yahoo.ro"
+        },
+        {
+            "firstName": "Iris",
+            "lastName": "Tabacu",
+            "email": "Iris_Tabacu@gmail.ro"
+        }
+    ],
+    "exchangeRates": [
+        {
+            "from": "USD",
+            "to": "EUR",
+            "rate": 0.9
+        },
+        {
+            "from": "EUR",
+            "to": "RON",
+            "rate": 5.0
+        }
+    ],
+    "commands": [
+        {
+            "command": "addAccount",
+            "email": "Olivier_Mace@yahoo.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 1
+        },
+        {
+            "command": "addAccount",
+            "email": "Henriette_Huet@outlook.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 2
+        },
+        {
+            "command": "addAccount",
+            "email": "Iuliana_Georgescu@yahoo.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 3
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 74,
+            "timestamp": 4
+        },
+        {
+            "command": "addFunds",
+            "account": "RO69POOB6209498372540635",
+            "amount": 161,
+            "timestamp": 5
+        },
+        {
+            "command": "addFunds",
+            "account": "RO90POOB5450777208072365",
+            "amount": 515,
+            "timestamp": 6
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 7
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 851,
+            "timestamp": 8
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 924,
+            "timestamp": 9
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 128,
+            "timestamp": 10
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "8207906978464446",
+            "amount": 142,
+            "currency": "EUR",
+            "timestamp": 11,
+            "description": "Online payment",
+            "commerciant": "McDonalds",
+            "email": "Olivier_Mace@yahoo.fr"
+        },
+        {
+            "command": "createCard",
+            "account": "RO58POOB7344468893732422",
+            "email": "Olivier_Mace@yahoo.fr",
+            "timestamp": 12
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "7901879264253296",
+            "amount": 287,
+            "currency": "EUR",
+            "timestamp": 13,
+            "description": "Online payment",
+            "commerciant": "Microsoft",
+            "email": "Olivier_Mace@yahoo.fr"
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "7901879264253296",
+            "amount": 80,
+            "currency": "USD",
+            "timestamp": 14,
+            "description": "Online payment",
+            "commerciant": "Apple",
+            "email": "Olivier_Mace@yahoo.fr"
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "7901879264253296",
+            "amount": 383,
+            "currency": "EUR",
+            "timestamp": 15,
+            "description": "Online payment",
+            "commerciant": "H&M",
+            "email": "Olivier_Mace@yahoo.fr"
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "7901879264253296",
+            "amount": 374,
+            "currency": "EUR",
+            "timestamp": 16,
+            "description": "Online payment",
+            "commerciant": "H&M",
+            "email": "Olivier_Mace@yahoo.fr"
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "receiver": "RO69POOB6209498372540635",
+            "amount": 413,
+            "timestamp": 17,
+            "email": "Olivier_Mace@yahoo.fr",
+            "description": "Consultation at a private clinic"
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 18
+        },
+        {
+            "command": "addAccount",
+            "email": "Anghel_Albu@outlook.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 19
+        },
+        {
+            "command": "addAccount",
+            "email": "Franck_Adam@outlook.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 20
+        },
+        {
+            "command": "addAccount",
+            "email": "Iris_Tabacu@gmail.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 21
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 647,
+            "timestamp": 22
+        },
+        {
+            "command": "addFunds",
+            "account": "RO69POOB6209498372540635",
+            "amount": 839,
+            "timestamp": 23
+        },
+        {
+            "command": "addFunds",
+            "account": "RO90POOB5450777208072365",
+            "amount": 76,
+            "timestamp": 24
+        },
+        {
+            "command": "addFunds",
+            "account": "RO65POOB8944016386845896",
+            "amount": 813,
+            "timestamp": 25
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB2721178218599590",
+            "amount": 483,
+            "timestamp": 26
+        },
+        {
+            "command": "addFunds",
+            "account": "RO76POOB4035116042454483",
+            "amount": 300,
+            "timestamp": 27
+        },
+        {
+            "command": "splitPayment",
+            "accounts": [
+                "RO58POOB7344468893732422",
+                "RO90POOB5450777208072365",
+                "RO76POOB4035116042454483",
+                "RO58POOB2721178218599590",
+                "RO69POOB6209498372540635",
+                "RO65POOB8944016386845896"
+            ],
+            "amount": 2869,
+            "currency": "USD",
+            "timestamp": 28
+        },
+        {
+            "command": "splitPayment",
+            "accounts": [
+                "RO58POOB7344468893732422",
+                "RO58POOB2721178218599590",
+                "RO65POOB8944016386845896"
+            ],
+            "amount": 2950,
+            "currency": "EUR",
+            "timestamp": 29
+        },
+        {
+            "command": "printTransactions",
+            "email": "Olivier_Mace@yahoo.fr",
+            "timestamp": 30
+        },
+        {
+            "command": "addFunds",
+            "account": "RO76POOB4035116042454483",
+            "amount": 904,
+            "timestamp": 31
+        },
+        {
+            "command": "addFunds",
+            "account": "RO76POOB4035116042454483",
+            "amount": 705,
+            "timestamp": 32
+        },
+        {
+            "command": "splitPayment",
+            "accounts": [
+                "RO58POOB7344468893732422",
+                "RO69POOB6209498372540635",
+                "RO58POOB2721178218599590",
+                "RO76POOB4035116042454483",
+                "RO90POOB5450777208072365"
+            ],
+            "amount": 1979,
+            "currency": "EUR",
+            "timestamp": 33
+        },
+        {
+            "command": "printTransactions",
+            "email": "Iris_Tabacu@gmail.ro",
+            "timestamp": 34
+        }
+    ]
+}

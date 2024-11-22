@@ -1,0 +1,169 @@
+[ {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Marioara",
+    "lastName" : "Gheorghiu",
+    "email" : "Marioara_Gheorghiu@yahoo.ro",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 148.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ]
+    }, {
+      "IBAN" : "RO76POOB4035116042454483",
+      "balance" : 0.0,
+      "currency" : "RON",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Aurelia",
+    "lastName" : "Popa",
+    "email" : "Aurelia_Popa@yahoo.ro",
+    "accounts" : [ {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 174.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Adelaide",
+    "lastName" : "Lefevre",
+    "email" : "Adelaide_Lefevre@yahoo.fr",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 91.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Amber",
+    "lastName" : "Williams",
+    "email" : "Amber_Williams@outlook.us",
+    "accounts" : [ {
+      "IBAN" : "RO65POOB8944016386845896",
+      "balance" : 842.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Alexandria",
+    "lastName" : "Mendes",
+    "email" : "Alexandria_Mendes@yahoo.fr",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB2721178218599590",
+      "balance" : 636.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  } ],
+  "timestamp" : 12
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 13,
+    "description" : "Card not found"
+  },
+  "timestamp" : 13
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 14,
+    "description" : "Card not found"
+  },
+  "timestamp" : 14
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 15,
+    "description" : "Card not found"
+  },
+  "timestamp" : 15
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 16,
+    "description" : "Card not found"
+  },
+  "timestamp" : 16
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 17,
+    "description" : "Card not found"
+  },
+  "timestamp" : 17
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 18,
+    "description" : "Card not found"
+  },
+  "timestamp" : 18
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 1,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 11,
+    "description" : "New account created"
+  } ],
+  "timestamp" : 19
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 2,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 20,
+    "description" : "Monthly rent payment for a flat in Bucharest",
+    "senderIBAN" : "RO69POOB6209498372540635",
+    "receiverIBAN" : "RO58POOB7344468893732422",
+    "amount" : "137.0 RON",
+    "transferType" : "sent"
+  }, {
+    "timestamp" : 21,
+    "description" : "Metro card for public transport",
+    "senderIBAN" : "RO69POOB6209498372540635",
+    "receiverIBAN" : "RO90POOB5450777208072365",
+    "amount" : "12.0 RON",
+    "transferType" : "sent"
+  }, {
+    "timestamp" : 22,
+    "description" : "Insufficient funds"
+  }, {
+    "timestamp" : 23,
+    "description" : "Insufficient funds"
+  }, {
+    "timestamp" : 24,
+    "description" : "Insufficient funds"
+  } ],
+  "timestamp" : 25
+}, {
+  "command" : "setAlias",
+  "output" : {
+    "timestamp" : 26,
+    "description" : "User not found"
+  },
+  "timestamp" : 26
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 4,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 27,
+    "description" : "Weekly groceries from Walmart",
+    "senderIBAN" : "RO65POOB8944016386845896",
+    "receiverIBAN" : "RO90POOB5450777208072365",
+    "amount" : "124.0 USD",
+    "transferType" : "sent"
+  } ],
+  "timestamp" : 28
+} ]

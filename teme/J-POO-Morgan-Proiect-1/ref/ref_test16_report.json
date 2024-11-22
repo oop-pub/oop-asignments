@@ -1,0 +1,145 @@
+[ {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Gary",
+    "lastName" : "James",
+    "email" : "Gary_James@hotmail.us",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 280.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    }, {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 530.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Lia",
+    "lastName" : "Tomescu",
+    "email" : "Lia_Tomescu@outlook.ro",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 859.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ]
+    }, {
+      "IBAN" : "RO65POOB8944016386845896",
+      "balance" : 795.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  } ],
+  "timestamp" : 9
+}, {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Gary",
+    "lastName" : "James",
+    "email" : "Gary_James@hotmail.us",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 133.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "8207906978464446",
+        "status" : "active"
+      } ]
+    }, {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 530.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Lia",
+    "lastName" : "Tomescu",
+    "email" : "Lia_Tomescu@outlook.ro",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 859.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ]
+    }, {
+      "IBAN" : "RO65POOB8944016386845896",
+      "balance" : 795.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  } ],
+  "timestamp" : 14
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 23,
+    "description" : "Card not found"
+  },
+  "timestamp" : 23
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 24,
+    "description" : "Card not found"
+  },
+  "timestamp" : 24
+}, {
+  "command" : "report",
+  "output" : {
+    "IBAN" : "RO58POOB7344468893732422",
+    "balance" : 835.0,
+    "currency" : "USD",
+    "transactions" : [ {
+      "timestamp" : 18,
+      "description" : "Card payment",
+      "amount" : 204.0,
+      "commerciant" : "Zara"
+    } ]
+  },
+  "timestamp" : 25
+}, {
+  "command" : "report",
+  "output" : {
+    "IBAN" : "RO69POOB6209498372540635",
+    "balance" : 4019.3333333333335,
+    "currency" : "USD",
+    "transactions" : [ ]
+  },
+  "timestamp" : 26
+}, {
+  "command" : "report",
+  "output" : {
+    "IBAN" : "RO90POOB5450777208072365",
+    "balance" : 331.0,
+    "currency" : "RON",
+    "transactions" : [ {
+      "timestamp" : 17,
+      "description" : "Electricity and gas bills",
+      "senderIBAN" : "RO90POOB5450777208072365",
+      "receiverIBAN" : "RO69POOB6209498372540635",
+      "amount" : "823.0 RON",
+      "transferType" : "sent"
+    } ]
+  },
+  "timestamp" : 27
+}, {
+  "command" : "report",
+  "output" : {
+    "IBAN" : "RO65POOB8944016386845896",
+    "balance" : 1598.0,
+    "currency" : "RON",
+    "transactions" : [ {
+      "timestamp" : 4,
+      "description" : "New account created"
+    } ]
+  },
+  "timestamp" : 28
+} ]

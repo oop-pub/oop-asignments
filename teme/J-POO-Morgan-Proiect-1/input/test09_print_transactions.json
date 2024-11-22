@@ -1,0 +1,255 @@
+{
+    "users": [
+        {
+            "firstName": "Marioara",
+            "lastName": "Gheorghiu",
+            "email": "Marioara_Gheorghiu@yahoo.ro"
+        },
+        {
+            "firstName": "Aurelia",
+            "lastName": "Popa",
+            "email": "Aurelia_Popa@yahoo.ro"
+        },
+        {
+            "firstName": "Adelaide",
+            "lastName": "Lefevre",
+            "email": "Adelaide_Lefevre@yahoo.fr"
+        },
+        {
+            "firstName": "Amber",
+            "lastName": "Williams",
+            "email": "Amber_Williams@outlook.us"
+        },
+        {
+            "firstName": "Alexandria",
+            "lastName": "Mendes",
+            "email": "Alexandria_Mendes@yahoo.fr"
+        }
+    ],
+    "exchangeRates": [
+        {
+            "from": "USD",
+            "to": "RON",
+            "rate": 0.3
+        },
+        {
+            "from": "USD",
+            "to": "EUR",
+            "rate": 0.8
+        }
+    ],
+    "commands": [
+        {
+            "command": "addAccount",
+            "email": "Marioara_Gheorghiu@yahoo.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 1
+        },
+        {
+            "command": "addAccount",
+            "email": "Aurelia_Popa@yahoo.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 2
+        },
+        {
+            "command": "addAccount",
+            "email": "Adelaide_Lefevre@yahoo.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 3
+        },
+        {
+            "command": "addAccount",
+            "email": "Amber_Williams@outlook.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 4
+        },
+        {
+            "command": "addAccount",
+            "email": "Alexandria_Mendes@yahoo.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 5
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 148,
+            "timestamp": 6
+        },
+        {
+            "command": "addFunds",
+            "account": "RO69POOB6209498372540635",
+            "amount": 174,
+            "timestamp": 7
+        },
+        {
+            "command": "addFunds",
+            "account": "RO90POOB5450777208072365",
+            "amount": 91,
+            "timestamp": 8
+        },
+        {
+            "command": "addFunds",
+            "account": "RO65POOB8944016386845896",
+            "amount": 842,
+            "timestamp": 9
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB2721178218599590",
+            "amount": 636,
+            "timestamp": 10
+        },
+        {
+            "command": "addAccount",
+            "email": "Marioara_Gheorghiu@yahoo.ro",
+            "currency": "RON",
+            "accountType": "savings",
+            "interestRate": 0.33,
+            "timestamp": 11
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 12
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "8207906978464446",
+            "amount": 90,
+            "currency": "RON",
+            "timestamp": 13,
+            "description": "Online payment",
+            "commerciant": "Microsoft",
+            "email": "Marioara_Gheorghiu@yahoo.ro"
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "7901879264253296",
+            "amount": 131,
+            "currency": "RON",
+            "timestamp": 14,
+            "description": "Online payment",
+            "commerciant": "McDonalds",
+            "email": "Aurelia_Popa@yahoo.ro"
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "7004757825892043",
+            "amount": 29,
+            "currency": "USD",
+            "timestamp": 15,
+            "description": "Online payment",
+            "commerciant": "H&M",
+            "email": "Adelaide_Lefevre@yahoo.fr"
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "6796819982034243",
+            "amount": 240,
+            "currency": "USD",
+            "timestamp": 16,
+            "description": "Online payment",
+            "commerciant": "Samsung",
+            "email": "Amber_Williams@outlook.us"
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "4686471658318359",
+            "amount": 360,
+            "currency": "EUR",
+            "timestamp": 17,
+            "description": "Online payment",
+            "commerciant": "KFC",
+            "email": "Alexandria_Mendes@yahoo.fr"
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "1322658752653937",
+            "amount": 105,
+            "currency": "USD",
+            "timestamp": 18,
+            "description": "Online payment",
+            "commerciant": "Zara",
+            "email": "Marioara_Gheorghiu@yahoo.ro"
+        },
+        {
+            "command": "printTransactions",
+            "email": "Marioara_Gheorghiu@yahoo.ro",
+            "timestamp": 19
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO69POOB6209498372540635",
+            "receiver": "RO58POOB7344468893732422",
+            "amount": 137,
+            "timestamp": 20,
+            "email": "Aurelia_Popa@yahoo.ro",
+            "description": "Monthly rent payment for a flat in Bucharest"
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO69POOB6209498372540635",
+            "receiver": "RO90POOB5450777208072365",
+            "amount": 12,
+            "timestamp": 21,
+            "email": "Aurelia_Popa@yahoo.ro",
+            "description": "Metro card for public transport"
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO69POOB6209498372540635",
+            "receiver": "RO65POOB8944016386845896",
+            "amount": 167,
+            "timestamp": 22,
+            "email": "Aurelia_Popa@yahoo.ro",
+            "description": "Cinema tickets for a weekend outing"
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO69POOB6209498372540635",
+            "receiver": "RO58POOB2721178218599590",
+            "amount": 94,
+            "timestamp": 23,
+            "email": "Aurelia_Popa@yahoo.ro",
+            "description": "Cinema tickets for a weekend outing"
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO69POOB6209498372540635",
+            "receiver": "RO76POOB4035116042454483",
+            "amount": 129,
+            "timestamp": 24,
+            "email": "Aurelia_Popa@yahoo.ro",
+            "description": "Cinema tickets for a weekend outing"
+        },
+        {
+            "command": "printTransactions",
+            "email": "Aurelia_Popa@yahoo.ro",
+            "timestamp": 25
+        },
+        {
+            "command": "setAlias",
+            "account": "RO90POOB5450777208072365",
+            "alias": "Entertainment",
+            "timestamp": 26
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO65POOB8944016386845896",
+            "receiver": "RO90POOB5450777208072365",
+            "amount": 124,
+            "timestamp": 27,
+            "email": "Amber_Williams@outlook.us",
+            "description": "Weekly groceries from Walmart"
+        },
+        {
+            "command": "printTransactions",
+            "email": "Amber_Williams@outlook.us",
+            "timestamp": 28
+        }
+    ]
+}

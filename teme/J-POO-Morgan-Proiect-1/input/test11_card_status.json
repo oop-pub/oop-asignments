@@ -1,0 +1,327 @@
+{
+    "users": [
+        {
+            "firstName": "Iacob",
+            "lastName": "Preda",
+            "email": "Iacob_Preda@gmail.ro"
+        },
+        {
+            "firstName": "Saveta",
+            "lastName": "Dobre",
+            "email": "Saveta_Dobre@yahoo.ro"
+        },
+        {
+            "firstName": "Gregory",
+            "lastName": "Lucas",
+            "email": "Gregory_Lucas@yahoo.us"
+        },
+        {
+            "firstName": "Vera",
+            "lastName": "Georgescu",
+            "email": "Vera_Georgescu@hotmail.ro"
+        },
+        {
+            "firstName": "Jacques",
+            "lastName": "du Denis",
+            "email": "Jacques_du_Denis@outlook.fr"
+        },
+        {
+            "firstName": "Aaron",
+            "lastName": "Sharp",
+            "email": "Aaron_Sharp@hotmail.us"
+        }
+    ],
+    "exchangeRates": [
+        {
+            "from": "USD",
+            "to": "RON",
+            "rate": 0.3
+        },
+        {
+            "from": "USD",
+            "to": "EUR",
+            "rate": 0.8
+        }
+    ],
+    "commands": [
+        {
+            "command": "addAccount",
+            "email": "Iacob_Preda@gmail.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 1
+        },
+        {
+            "command": "addAccount",
+            "email": "Iacob_Preda@gmail.ro",
+            "currency": "RON",
+            "accountType": "savings",
+            "interestRate": 0.99,
+            "timestamp": 2
+        },
+        {
+            "command": "addAccount",
+            "email": "Saveta_Dobre@yahoo.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 3
+        },
+        {
+            "command": "addAccount",
+            "email": "Saveta_Dobre@yahoo.ro",
+            "currency": "RON",
+            "accountType": "savings",
+            "interestRate": 0.07,
+            "timestamp": 4
+        },
+        {
+            "command": "addAccount",
+            "email": "Gregory_Lucas@yahoo.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 5
+        },
+        {
+            "command": "addAccount",
+            "email": "Gregory_Lucas@yahoo.us",
+            "currency": "USD",
+            "accountType": "savings",
+            "interestRate": 0.3,
+            "timestamp": 6
+        },
+        {
+            "command": "addAccount",
+            "email": "Vera_Georgescu@hotmail.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 7
+        },
+        {
+            "command": "addAccount",
+            "email": "Vera_Georgescu@hotmail.ro",
+            "currency": "RON",
+            "accountType": "savings",
+            "interestRate": 0.38,
+            "timestamp": 8
+        },
+        {
+            "command": "addAccount",
+            "email": "Jacques_du_Denis@outlook.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 9
+        },
+        {
+            "command": "addAccount",
+            "email": "Jacques_du_Denis@outlook.fr",
+            "currency": "EUR",
+            "accountType": "savings",
+            "interestRate": 0.9,
+            "timestamp": 10
+        },
+        {
+            "command": "addAccount",
+            "email": "Aaron_Sharp@hotmail.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 11
+        },
+        {
+            "command": "addAccount",
+            "email": "Aaron_Sharp@hotmail.us",
+            "currency": "USD",
+            "accountType": "savings",
+            "interestRate": 0.73,
+            "timestamp": 12
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 16,
+            "timestamp": 13
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 210,
+            "timestamp": 14
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 109,
+            "timestamp": 15
+        },
+        {
+            "command": "createCard",
+            "account": "RO58POOB7344468893732422",
+            "email": "Iacob_Preda@gmail.ro",
+            "timestamp": 16
+        },
+        {
+            "command": "createCard",
+            "account": "RO58POOB7344468893732422",
+            "email": "Iacob_Preda@gmail.ro",
+            "timestamp": 17
+        },
+        {
+            "command": "checkCardStatus",
+            "cardNumber": "8207906978464446",
+            "timestamp": 18
+        },
+        {
+            "command": "checkCardStatus",
+            "cardNumber": "8207906978464446",
+            "timestamp": 19
+        },
+        {
+            "command": "checkCardStatus",
+            "cardNumber": "4001829491527416",
+            "timestamp": 20
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 21
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "receiver": "RO69POOB6209498372540635",
+            "amount": 189,
+            "timestamp": 22,
+            "email": "Iacob_Preda@gmail.ro",
+            "description": "Medical checkup at Regina Maria"
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "receiver": "RO90POOB5450777208072365",
+            "amount": 73,
+            "timestamp": 23,
+            "email": "Iacob_Preda@gmail.ro",
+            "description": "Weekly groceries from Carrefour"
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "receiver": "RO65POOB8944016386845896",
+            "amount": 117,
+            "timestamp": 24,
+            "email": "Iacob_Preda@gmail.ro",
+            "description": "Electricity and gas bills"
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "receiver": "RO58POOB2721178218599590",
+            "amount": 160,
+            "timestamp": 25,
+            "email": "Iacob_Preda@gmail.ro",
+            "description": "Buying new shoes from Zara"
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "receiver": "RO76POOB4035116042454483",
+            "amount": 225,
+            "timestamp": 26,
+            "email": "Iacob_Preda@gmail.ro",
+            "description": "Miscellaneous cash expenses"
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "receiver": "RO37POOB7013767509830666",
+            "amount": 94,
+            "timestamp": 27,
+            "email": "Iacob_Preda@gmail.ro",
+            "description": "Cinema tickets for a weekend outing"
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "receiver": "RO19POOB4981055641668812",
+            "amount": 101,
+            "timestamp": 28,
+            "email": "Iacob_Preda@gmail.ro",
+            "description": "Buying new shoes from Zara"
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "receiver": "RO30POOB9523423715747796",
+            "amount": 38,
+            "timestamp": 29,
+            "email": "Iacob_Preda@gmail.ro",
+            "description": "Medical checkup at Regina Maria"
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "receiver": "RO79POOB3616857825600958",
+            "amount": 106,
+            "timestamp": 30,
+            "email": "Iacob_Preda@gmail.ro",
+            "description": "Metro card for public transport"
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "receiver": "RO00POOB5687892910835215",
+            "amount": 73,
+            "timestamp": 31,
+            "email": "Iacob_Preda@gmail.ro",
+            "description": "Weekly groceries from Carrefour"
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "receiver": "RO96POOB6738272785416988",
+            "amount": 107,
+            "timestamp": 32,
+            "email": "Iacob_Preda@gmail.ro",
+            "description": "Monthly rent payment for a flat in Bucharest"
+        },
+        {
+            "command": "printTransactions",
+            "email": "Iacob_Preda@gmail.ro",
+            "timestamp": 33
+        },
+        {
+            "command": "createOneTimeCard",
+            "account": "RO69POOB6209498372540635",
+            "email": "Iacob_Preda@gmail.ro",
+            "timestamp": 34
+        },
+        {
+            "command": "createOneTimeCard",
+            "account": "RO90POOB5450777208072365",
+            "email": "Saveta_Dobre@yahoo.ro",
+            "timestamp": 35
+        },
+        {
+            "command": "checkCardStatus",
+            "cardNumber": "7004757825892043",
+            "timestamp": 36
+        },
+        {
+            "command": "checkCardStatus",
+            "cardNumber": "6796819982034243",
+            "timestamp": 37
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "6796819982034243",
+            "amount": 35,
+            "currency": "RON",
+            "timestamp": 38,
+            "description": "Online payment",
+            "commerciant": "Samsung",
+            "email": "Saveta_Dobre@yahoo.ro"
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 39
+        }
+    ]
+}

@@ -1,0 +1,143 @@
+{
+    "users": [
+        {
+            "firstName": "Olimpiu",
+            "lastName": "Stan",
+            "email": "Olimpiu_Stan@outlook.ro"
+        },
+        {
+            "firstName": "Viviana",
+            "lastName": "Suciu",
+            "email": "Viviana_Suciu@gmail.ro"
+        }
+    ],
+    "exchangeRates": [
+        {
+            "from": "USD",
+            "to": "EUR",
+            "rate": 0.9
+        },
+        {
+            "from": "EUR",
+            "to": "RON",
+            "rate": 5.0
+        }
+    ],
+    "commands": [
+        {
+            "command": "addAccount",
+            "email": "Olimpiu_Stan@outlook.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 1
+        },
+        {
+            "command": "addAccount",
+            "email": "Viviana_Suciu@gmail.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 2
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 625,
+            "timestamp": 3
+        },
+        {
+            "command": "addFunds",
+            "account": "RO69POOB6209498372540635",
+            "amount": 158,
+            "timestamp": 4
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 5
+        },
+        {
+            "command": "addAccount",
+            "email": "Olimpiu_Stan@outlook.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 6
+        },
+        {
+            "command": "addFunds",
+            "account": "RO90POOB5450777208072365",
+            "amount": 286,
+            "timestamp": 7
+        },
+        {
+            "command": "createCard",
+            "account": "RO58POOB7344468893732422",
+            "email": "Olimpiu_Stan@outlook.ro",
+            "timestamp": 8
+        },
+        {
+            "command": "createCard",
+            "account": "RO69POOB6209498372540635",
+            "email": "Viviana_Suciu@gmail.ro",
+            "timestamp": 9
+        },
+        {
+            "command": "createCard",
+            "account": "RO90POOB5450777208072365",
+            "email": "Olimpiu_Stan@outlook.ro",
+            "timestamp": 10
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 11
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "8207906978464446",
+            "amount": 361,
+            "currency": "RON",
+            "timestamp": 12,
+            "description": "Online payment",
+            "commerciant": "H&M",
+            "email": "Olimpiu_Stan@outlook.ro"
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "7901879264253296",
+            "amount": 43,
+            "currency": "EUR",
+            "timestamp": 13,
+            "description": "Online payment",
+            "commerciant": "H&M",
+            "email": "Viviana_Suciu@gmail.ro"
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "7004757825892043",
+            "amount": 61,
+            "currency": "EUR",
+            "timestamp": 14,
+            "description": "Online payment",
+            "commerciant": "Apple",
+            "email": "Olimpiu_Stan@outlook.ro"
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 807,
+            "timestamp": 15
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "8207906978464446",
+            "amount": 357,
+            "currency": "RON",
+            "timestamp": 16,
+            "description": "Online payment",
+            "commerciant": "McDonalds",
+            "email": "Olimpiu_Stan@outlook.ro"
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 17
+        }
+    ]
+}

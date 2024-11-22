@@ -1,0 +1,59 @@
+{
+    "users": [
+        {
+            "firstName": "Joshua",
+            "lastName": "Wood",
+            "email": "Joshua_Wood@gmail.us"
+        }
+    ],
+    "exchangeRates": [],
+    "commands": [
+        {
+            "command": "printUsers",
+            "timestamp": 1
+        },
+        {
+            "command": "addAccount",
+            "email": "Joshua_Wood@gmail.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 2
+        },
+        {
+            "command": "createCard",
+            "account": "RO58POOB7344468893732422",
+            "email": "Joshua_Wood@gmail.us",
+            "timestamp": 3
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 4
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 271,
+            "timestamp": 5
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 6
+        },
+        {
+            "command": "createCard",
+            "account": "RO58POOB7344468893732422",
+            "email": "Joshua_Wood@gmail.us",
+            "timestamp": 7
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 517,
+            "timestamp": 8
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 9
+        }
+    ]
+}
