@@ -1,0 +1,312 @@
+[ {
+  "command" : "checkCardStatus",
+  "output" : {
+    "timestamp" : 20,
+    "description" : "Card not found"
+  },
+  "timestamp" : 20
+}, {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Iacob",
+    "lastName" : "Preda",
+    "email" : "Iacob_Preda@gmail.ro",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 335.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "8207906978464446",
+        "status" : "active"
+      }, {
+        "cardNumber" : "7901879264253296",
+        "status" : "active"
+      } ]
+    }, {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 0.0,
+      "currency" : "RON",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Saveta",
+    "lastName" : "Dobre",
+    "email" : "Saveta_Dobre@yahoo.ro",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 0.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ]
+    }, {
+      "IBAN" : "RO65POOB8944016386845896",
+      "balance" : 0.0,
+      "currency" : "RON",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Gregory",
+    "lastName" : "Lucas",
+    "email" : "Gregory_Lucas@yahoo.us",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB2721178218599590",
+      "balance" : 0.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    }, {
+      "IBAN" : "RO76POOB4035116042454483",
+      "balance" : 0.0,
+      "currency" : "USD",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Vera",
+    "lastName" : "Georgescu",
+    "email" : "Vera_Georgescu@hotmail.ro",
+    "accounts" : [ {
+      "IBAN" : "RO37POOB7013767509830666",
+      "balance" : 0.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ]
+    }, {
+      "IBAN" : "RO19POOB4981055641668812",
+      "balance" : 0.0,
+      "currency" : "RON",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Jacques",
+    "lastName" : "du Denis",
+    "email" : "Jacques_du_Denis@outlook.fr",
+    "accounts" : [ {
+      "IBAN" : "RO30POOB9523423715747796",
+      "balance" : 0.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ]
+    }, {
+      "IBAN" : "RO79POOB3616857825600958",
+      "balance" : 0.0,
+      "currency" : "EUR",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Aaron",
+    "lastName" : "Sharp",
+    "email" : "Aaron_Sharp@hotmail.us",
+    "accounts" : [ {
+      "IBAN" : "RO00POOB5687892910835215",
+      "balance" : 0.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    }, {
+      "IBAN" : "RO96POOB6738272785416988",
+      "balance" : 0.0,
+      "currency" : "USD",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  } ],
+  "timestamp" : 21
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 1,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 16,
+    "description" : "New card created",
+    "card" : "8207906978464446",
+    "cardHolder" : "Iacob_Preda@gmail.ro",
+    "account" : "RO58POOB7344468893732422"
+  }, {
+    "timestamp" : 17,
+    "description" : "New card created",
+    "card" : "7901879264253296",
+    "cardHolder" : "Iacob_Preda@gmail.ro",
+    "account" : "RO58POOB7344468893732422"
+  }, {
+    "timestamp" : 22,
+    "description" : "Medical checkup at Regina Maria",
+    "senderIBAN" : "RO58POOB7344468893732422",
+    "receiverIBAN" : "RO69POOB6209498372540635",
+    "amount" : "189.0 RON",
+    "transferType" : "sent"
+  }, {
+    "timestamp" : 23,
+    "description" : "Weekly groceries from Carrefour",
+    "senderIBAN" : "RO58POOB7344468893732422",
+    "receiverIBAN" : "RO90POOB5450777208072365",
+    "amount" : "73.0 RON",
+    "transferType" : "sent"
+  }, {
+    "timestamp" : 24,
+    "description" : "Insufficient funds"
+  }, {
+    "timestamp" : 25,
+    "description" : "Insufficient funds"
+  }, {
+    "timestamp" : 26,
+    "description" : "Insufficient funds"
+  }, {
+    "timestamp" : 27,
+    "description" : "Insufficient funds"
+  }, {
+    "timestamp" : 28,
+    "description" : "Insufficient funds"
+  }, {
+    "timestamp" : 29,
+    "description" : "Medical checkup at Regina Maria",
+    "senderIBAN" : "RO58POOB7344468893732422",
+    "receiverIBAN" : "RO30POOB9523423715747796",
+    "amount" : "38.0 RON",
+    "transferType" : "sent"
+  }, {
+    "timestamp" : 30,
+    "description" : "Insufficient funds"
+  }, {
+    "timestamp" : 31,
+    "description" : "Insufficient funds"
+  }, {
+    "timestamp" : 32,
+    "description" : "Insufficient funds"
+  }, {
+    "timestamp" : 2,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 22,
+    "description" : "Medical checkup at Regina Maria",
+    "senderIBAN" : "RO58POOB7344468893732422",
+    "receiverIBAN" : "RO69POOB6209498372540635",
+    "amount" : "189.0 RON",
+    "transferType" : "received"
+  } ],
+  "timestamp" : 33
+}, {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Iacob",
+    "lastName" : "Preda",
+    "email" : "Iacob_Preda@gmail.ro",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 35.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "8207906978464446",
+        "status" : "active"
+      }, {
+        "cardNumber" : "7901879264253296",
+        "status" : "active"
+      } ]
+    }, {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 189.0,
+      "currency" : "RON",
+      "type" : "savings",
+      "cards" : [ {
+        "cardNumber" : "7004757825892043",
+        "status" : "active"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Saveta",
+    "lastName" : "Dobre",
+    "email" : "Saveta_Dobre@yahoo.ro",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 38.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "4686471658318359",
+        "status" : "active"
+      } ]
+    }, {
+      "IBAN" : "RO65POOB8944016386845896",
+      "balance" : 0.0,
+      "currency" : "RON",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Gregory",
+    "lastName" : "Lucas",
+    "email" : "Gregory_Lucas@yahoo.us",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB2721178218599590",
+      "balance" : 0.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    }, {
+      "IBAN" : "RO76POOB4035116042454483",
+      "balance" : 0.0,
+      "currency" : "USD",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Vera",
+    "lastName" : "Georgescu",
+    "email" : "Vera_Georgescu@hotmail.ro",
+    "accounts" : [ {
+      "IBAN" : "RO37POOB7013767509830666",
+      "balance" : 0.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ]
+    }, {
+      "IBAN" : "RO19POOB4981055641668812",
+      "balance" : 0.0,
+      "currency" : "RON",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Jacques",
+    "lastName" : "du Denis",
+    "email" : "Jacques_du_Denis@outlook.fr",
+    "accounts" : [ {
+      "IBAN" : "RO30POOB9523423715747796",
+      "balance" : 101.33333333333334,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ]
+    }, {
+      "IBAN" : "RO79POOB3616857825600958",
+      "balance" : 0.0,
+      "currency" : "EUR",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Aaron",
+    "lastName" : "Sharp",
+    "email" : "Aaron_Sharp@hotmail.us",
+    "accounts" : [ {
+      "IBAN" : "RO00POOB5687892910835215",
+      "balance" : 0.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    }, {
+      "IBAN" : "RO96POOB6738272785416988",
+      "balance" : 0.0,
+      "currency" : "USD",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  } ],
+  "timestamp" : 39
+} ]

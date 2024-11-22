@@ -1,0 +1,156 @@
+{
+    "users": [
+        {
+            "firstName": "Severin",
+            "lastName": "Stanescu",
+            "email": "Severin_Stanescu@outlook.ro"
+        },
+        {
+            "firstName": "Plesu",
+            "lastName": "Aane",
+            "email": "Plesu_Aane@outlook.ro"
+        }
+    ],
+    "exchangeRates": [
+        {
+            "from": "USD",
+            "to": "EUR",
+            "rate": 0.9
+        },
+        {
+            "from": "EUR",
+            "to": "RON",
+            "rate": 5.0
+        }
+    ],
+    "commands": [
+        {
+            "command": "addAccount",
+            "email": "Severin_Stanescu@outlook.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 1
+        },
+        {
+            "command": "addAccount",
+            "email": "Plesu_Aane@outlook.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 2
+        },
+        {
+            "command": "createOneTimeCard",
+            "account": "RO58POOB7344468893732422",
+            "email": "Severin_Stanescu@outlook.ro",
+            "timestamp": 3
+        },
+        {
+            "command": "createOneTimeCard",
+            "account": "RO69POOB6209498372540635",
+            "email": "Plesu_Aane@outlook.ro",
+            "timestamp": 4
+        },
+        {
+            "command": "deleteCard",
+            "cardNumber": "8207906978464446",
+            "timestamp": 5
+        },
+        {
+            "command": "deleteCard",
+            "cardNumber": "7901879264253296",
+            "timestamp": 6
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 7
+        },
+        {
+            "command": "addAccount",
+            "email": "Severin_Stanescu@outlook.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 8
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "7004757825892043",
+            "amount": 251,
+            "currency": "USD",
+            "timestamp": 9,
+            "description": "Online payment",
+            "commerciant": "Apple",
+            "email": "Severin_Stanescu@outlook.ro"
+        },
+        {
+            "command": "createCard",
+            "account": "RO58POOB7344468893732422",
+            "email": "Severin_Stanescu@outlook.ro",
+            "timestamp": 10
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "6796819982034243",
+            "amount": 367,
+            "currency": "RON",
+            "timestamp": 11,
+            "description": "Online payment",
+            "commerciant": "Apple",
+            "email": "Severin_Stanescu@outlook.ro"
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 12
+        },
+        {
+            "command": "deleteCard",
+            "cardNumber": "6796819982034243",
+            "timestamp": 13
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "8207906978464446",
+            "amount": 310,
+            "currency": "RON",
+            "timestamp": 14,
+            "description": "Online payment",
+            "commerciant": "H&M",
+            "email": "Severin_Stanescu@outlook.ro"
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 15
+        },
+        {
+            "command": "addFunds",
+            "account": "RO69POOB6209498372540635",
+            "amount": 530,
+            "timestamp": 16
+        },
+        {
+            "command": "addFunds",
+            "account": "RO69POOB6209498372540635",
+            "amount": 791,
+            "timestamp": 17
+        },
+        {
+            "command": "createCard",
+            "account": "RO69POOB6209498372540635",
+            "email": "Plesu_Aane@outlook.ro",
+            "timestamp": 18
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 19
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "4686471658318359",
+            "amount": 1460,
+            "currency": "RON",
+            "timestamp": 20,
+            "description": "Online payment",
+            "commerciant": "Zara",
+            "email": "Plesu_Aane@outlook.ro"
+        }
+    ]
+}

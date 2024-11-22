@@ -1,0 +1,54 @@
+{
+    "users": [
+        {
+            "firstName": "Julie",
+            "lastName": "Pierce",
+            "email": "Julie_Pierce@gmail.us"
+        }
+    ],
+    "exchangeRates": [],
+    "commands": [
+        {
+            "command": "addAccount",
+            "email": "Julie_Pierce@gmail.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 1
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 2
+        },
+        {
+            "command": "createCard",
+            "account": "RO58POOB7344468893732422",
+            "email": "Julie_Pierce@gmail.us",
+            "timestamp": 3
+        },
+        {
+            "command": "createOneTimeCard",
+            "account": "RO58POOB7344468893732422",
+            "email": "Julie_Pierce@gmail.us",
+            "timestamp": 4
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 5
+        },
+        {
+            "command": "createOneTimeCard",
+            "account": "RO58POOB7344468893732422",
+            "email": "Julie_Pierce@gmail.us",
+            "timestamp": 6
+        },
+        {
+            "command": "deleteCard",
+            "cardNumber": "7004757825892043",
+            "timestamp": 7
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 8
+        }
+    ]
+}

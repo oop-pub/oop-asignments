@@ -1,0 +1,226 @@
+{
+    "users": [
+        {
+            "firstName": "Meghan",
+            "lastName": "Richardson",
+            "email": "Meghan_Richardson@gmail.us"
+        },
+        {
+            "firstName": "Matthew",
+            "lastName": "Santiago",
+            "email": "Matthew_Santiago@hotmail.us"
+        }
+    ],
+    "exchangeRates": [
+        {
+            "from": "EUR",
+            "to": "USD",
+            "rate": 0.9
+        },
+        {
+            "from": "EUR",
+            "to": "RON",
+            "rate": 4.2
+        }
+    ],
+    "commands": [
+        {
+            "command": "addAccount",
+            "email": "Meghan_Richardson@gmail.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 1
+        },
+        {
+            "command": "addAccount",
+            "email": "Meghan_Richardson@gmail.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 2
+        },
+        {
+            "command": "addAccount",
+            "email": "Matthew_Santiago@hotmail.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 3
+        },
+        {
+            "command": "addAccount",
+            "email": "Matthew_Santiago@hotmail.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 4
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 229,
+            "timestamp": 5
+        },
+        {
+            "command": "addFunds",
+            "account": "RO69POOB6209498372540635",
+            "amount": 541,
+            "timestamp": 6
+        },
+        {
+            "command": "addFunds",
+            "account": "RO90POOB5450777208072365",
+            "amount": 631,
+            "timestamp": 7
+        },
+        {
+            "command": "addFunds",
+            "account": "RO65POOB8944016386845896",
+            "amount": 311,
+            "timestamp": 8
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 9
+        },
+        {
+            "command": "createCard",
+            "account": "RO58POOB7344468893732422",
+            "email": "Meghan_Richardson@gmail.us",
+            "timestamp": 10
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "8207906978464446",
+            "amount": 77,
+            "currency": "EUR",
+            "timestamp": 11,
+            "description": "Online payment",
+            "commerciant": "McDonalds",
+            "email": "Meghan_Richardson@gmail.us"
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "8207906978464446",
+            "amount": 17,
+            "currency": "USD",
+            "timestamp": 12,
+            "description": "Online payment",
+            "commerciant": "Zara",
+            "email": "Meghan_Richardson@gmail.us"
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "receiver": "RO69POOB6209498372540635",
+            "amount": 11,
+            "timestamp": 13,
+            "email": "Meghan_Richardson@gmail.us",
+            "description": "Uber rides for commuting"
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 14
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 88,
+            "timestamp": 15
+        },
+        {
+            "command": "addFunds",
+            "account": "RO90POOB5450777208072365",
+            "amount": 333,
+            "timestamp": 16
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO90POOB5450777208072365",
+            "receiver": "RO69POOB6209498372540635",
+            "amount": 464,
+            "timestamp": 17,
+            "email": "Matthew_Santiago@hotmail.us",
+            "description": "Visit to a local healthcare clinic"
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "8207906978464446",
+            "amount": 66,
+            "currency": "USD",
+            "timestamp": 18,
+            "description": "Online payment",
+            "commerciant": "Apple",
+            "email": "Meghan_Richardson@gmail.us"
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 209,
+            "timestamp": 19
+        },
+        {
+            "command": "addFunds",
+            "account": "RO69POOB6209498372540635",
+            "amount": 661,
+            "timestamp": 20
+        },
+        {
+            "command": "addFunds",
+            "account": "RO90POOB5450777208072365",
+            "amount": 937,
+            "timestamp": 21
+        },
+        {
+            "command": "addFunds",
+            "account": "RO65POOB8944016386845896",
+            "amount": 148,
+            "timestamp": 22
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "7901879264253296",
+            "amount": 361,
+            "currency": "USD",
+            "timestamp": 23,
+            "description": "Online payment",
+            "commerciant": "Apple",
+            "email": "Matthew_Santiago@hotmail.us"
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "7004757825892043",
+            "amount": 383,
+            "currency": "USD",
+            "timestamp": 24,
+            "description": "Online payment",
+            "commerciant": "Apple",
+            "email": "Matthew_Santiago@hotmail.us"
+        },
+        {
+            "command": "report",
+            "account": "RO58POOB7344468893732422",
+            "startTimestamp": 17,
+            "endTimestamp": 24,
+            "timestamp": 25
+        },
+        {
+            "command": "report",
+            "account": "RO69POOB6209498372540635",
+            "startTimestamp": 15,
+            "endTimestamp": 23,
+            "timestamp": 26
+        },
+        {
+            "command": "report",
+            "account": "RO90POOB5450777208072365",
+            "startTimestamp": 17,
+            "endTimestamp": 24,
+            "timestamp": 27
+        },
+        {
+            "command": "report",
+            "account": "RO65POOB8944016386845896",
+            "startTimestamp": 7,
+            "endTimestamp": 16,
+            "timestamp": 28
+        }
+    ]
+}

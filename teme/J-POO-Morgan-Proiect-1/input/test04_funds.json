@@ -1,0 +1,95 @@
+{
+    "users": [
+        {
+            "firstName": "Edmond",
+            "lastName": "Stan",
+            "email": "Edmond_Stan@gmail.ro"
+        },
+        {
+            "firstName": "Andrei",
+            "lastName": "Toma",
+            "email": "Andrei_Toma@outlook.ro"
+        },
+        {
+            "firstName": "Gabriel",
+            "lastName": "Bousquet",
+            "email": "Gabriel_Bousquet@gmail.fr"
+        }
+    ],
+    "exchangeRates": [],
+    "commands": [
+        {
+            "command": "printUsers",
+            "timestamp": 1
+        },
+        {
+            "command": "addAccount",
+            "email": "Edmond_Stan@gmail.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 2
+        },
+        {
+            "command": "addAccount",
+            "email": "Andrei_Toma@outlook.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 3
+        },
+        {
+            "command": "createCard",
+            "account": "RO58POOB7344468893732422",
+            "email": "Edmond_Stan@gmail.ro",
+            "timestamp": 4
+        },
+        {
+            "command": "createCard",
+            "account": "RO69POOB6209498372540635",
+            "email": "Andrei_Toma@outlook.ro",
+            "timestamp": 5
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 6
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 722,
+            "timestamp": 7
+        },
+        {
+            "command": "addFunds",
+            "account": "RO69POOB6209498372540635",
+            "amount": 466,
+            "timestamp": 8
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 9
+        },
+        {
+            "command": "addAccount",
+            "email": "Gabriel_Bousquet@gmail.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 10
+        },
+        {
+            "command": "addFunds",
+            "account": "RO90POOB5450777208072365",
+            "amount": 282,
+            "timestamp": 11
+        },
+        {
+            "command": "setMinimumBalance",
+            "account": "RO90POOB5450777208072365",
+            "amount": 39,
+            "timestamp": 12
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 13
+        }
+    ]
+}

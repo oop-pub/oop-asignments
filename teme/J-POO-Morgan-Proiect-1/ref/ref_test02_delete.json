@@ -1,0 +1,74 @@
+[ {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Severin",
+    "lastName" : "Stanescu",
+    "email" : "Severin_Stanescu@outlook.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Thibaut",
+    "lastName" : "Richard",
+    "email" : "Thibaut_Richard@outlook.fr",
+    "accounts" : [ ]
+  } ],
+  "timestamp" : 1
+}, {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Severin",
+    "lastName" : "Stanescu",
+    "email" : "Severin_Stanescu@outlook.ro",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 0.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Thibaut",
+    "lastName" : "Richard",
+    "email" : "Thibaut_Richard@outlook.fr",
+    "accounts" : [ {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 0.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  } ],
+  "timestamp" : 4
+}, {
+  "command" : "deleteAccount",
+  "output" : {
+    "timestamp" : 5,
+    "description" : "User not found"
+  },
+  "timestamp" : 5
+}, {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Severin",
+    "lastName" : "Stanescu",
+    "email" : "Severin_Stanescu@outlook.ro",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 0.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Thibaut",
+    "lastName" : "Richard",
+    "email" : "Thibaut_Richard@outlook.fr",
+    "accounts" : [ {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 0.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  } ],
+  "timestamp" : 6
+} ]

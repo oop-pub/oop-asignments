@@ -1,0 +1,125 @@
+[ {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Flavia",
+    "lastName" : "Stanescu",
+    "email" : "Flavia_Stanescu@gmail.ro",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 884.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Taylor",
+    "lastName" : "York",
+    "email" : "Taylor_York@yahoo.us",
+    "accounts" : [ {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 814.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Lucie",
+    "lastName" : "Leconte-Munoz",
+    "email" : "Lucie_Leconte-Munoz@gmail.fr",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 295.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Linda",
+    "lastName" : "Richards",
+    "email" : "Linda_Richards@outlook.us",
+    "accounts" : [ {
+      "IBAN" : "RO65POOB8944016386845896",
+      "balance" : 435.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  } ],
+  "timestamp" : 10
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 11,
+    "description" : "Card not found"
+  },
+  "timestamp" : 11
+}, {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Flavia",
+    "lastName" : "Stanescu",
+    "email" : "Flavia_Stanescu@gmail.ro",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 1266.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Taylor",
+    "lastName" : "York",
+    "email" : "Taylor_York@yahoo.us",
+    "accounts" : [ {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 1422.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Lucie",
+    "lastName" : "Leconte-Munoz",
+    "email" : "Lucie_Leconte-Munoz@gmail.fr",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 366.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Linda",
+    "lastName" : "Richards",
+    "email" : "Linda_Richards@outlook.us",
+    "accounts" : [ {
+      "IBAN" : "RO65POOB8944016386845896",
+      "balance" : 802.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  } ],
+  "timestamp" : 16
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 1,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 9,
+    "description" : "Split payment of 1474.00 USD",
+    "currency" : "USD",
+    "amount" : 368.5,
+    "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB7344468893732422", "RO65POOB8944016386845896", "RO90POOB5450777208072365" ],
+    "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment."
+  }, {
+    "timestamp" : 17,
+    "description" : "Split payment of 780.00 RON",
+    "currency" : "RON",
+    "amount" : 195.0,
+    "involvedAccounts" : [ "RO58POOB7344468893732422", "RO65POOB8944016386845896", "RO90POOB5450777208072365", "RO69POOB6209498372540635" ],
+    "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment."
+  } ],
+  "timestamp" : 19
+} ]

@@ -1,0 +1,171 @@
+{
+    "users": [
+        {
+            "firstName": "Flavia",
+            "lastName": "Stanescu",
+            "email": "Flavia_Stanescu@gmail.ro"
+        },
+        {
+            "firstName": "Taylor",
+            "lastName": "York",
+            "email": "Taylor_York@yahoo.us"
+        },
+        {
+            "firstName": "Lucie",
+            "lastName": "Leconte-Munoz",
+            "email": "Lucie_Leconte-Munoz@gmail.fr"
+        },
+        {
+            "firstName": "Linda",
+            "lastName": "Richards",
+            "email": "Linda_Richards@outlook.us"
+        }
+    ],
+    "exchangeRates": [
+        {
+            "from": "EUR",
+            "to": "USD",
+            "rate": 0.9
+        },
+        {
+            "from": "EUR",
+            "to": "RON",
+            "rate": 4.2
+        }
+    ],
+    "commands": [
+        {
+            "command": "addAccount",
+            "email": "Flavia_Stanescu@gmail.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 1
+        },
+        {
+            "command": "addAccount",
+            "email": "Taylor_York@yahoo.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 2
+        },
+        {
+            "command": "addAccount",
+            "email": "Lucie_Leconte-Munoz@gmail.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 3
+        },
+        {
+            "command": "addAccount",
+            "email": "Linda_Richards@outlook.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 4
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 884,
+            "timestamp": 5
+        },
+        {
+            "command": "addFunds",
+            "account": "RO69POOB6209498372540635",
+            "amount": 814,
+            "timestamp": 6
+        },
+        {
+            "command": "addFunds",
+            "account": "RO90POOB5450777208072365",
+            "amount": 295,
+            "timestamp": 7
+        },
+        {
+            "command": "addFunds",
+            "account": "RO65POOB8944016386845896",
+            "amount": 435,
+            "timestamp": 8
+        },
+        {
+            "command": "splitPayment",
+            "accounts": [
+                "RO69POOB6209498372540635",
+                "RO58POOB7344468893732422",
+                "RO65POOB8944016386845896",
+                "RO90POOB5450777208072365"
+            ],
+            "amount": 1474,
+            "currency": "RON",
+            "timestamp": 9
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 10
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "8207906978464446",
+            "amount": 76,
+            "currency": "RON",
+            "timestamp": 11,
+            "description": "Online payment",
+            "commerciant": "H&M",
+            "email": "Flavia_Stanescu@gmail.ro"
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 382,
+            "timestamp": 12
+        },
+        {
+            "command": "addFunds",
+            "account": "RO69POOB6209498372540635",
+            "amount": 608,
+            "timestamp": 13
+        },
+        {
+            "command": "addFunds",
+            "account": "RO90POOB5450777208072365",
+            "amount": 71,
+            "timestamp": 14
+        },
+        {
+            "command": "addFunds",
+            "account": "RO65POOB8944016386845896",
+            "amount": 367,
+            "timestamp": 15
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 16
+        },
+        {
+            "command": "splitPayment",
+            "accounts": [
+                "RO58POOB7344468893732422",
+                "RO65POOB8944016386845896",
+                "RO90POOB5450777208072365",
+                "RO69POOB6209498372540635"
+            ],
+            "amount": 780,
+            "currency": "USD",
+            "timestamp": 17
+        },
+        {
+            "command": "splitPayment",
+            "accounts": [
+                "RO69POOB6209498372540635",
+                "RO65POOB8944016386845896"
+            ],
+            "amount": 535,
+            "currency": "EUR",
+            "timestamp": 18
+        },
+        {
+            "command": "printTransactions",
+            "email": "Flavia_Stanescu@gmail.ro",
+            "timestamp": 19
+        }
+    ]
+}

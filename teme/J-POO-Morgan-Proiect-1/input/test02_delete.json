@@ -1,0 +1,48 @@
+{
+    "users": [
+        {
+            "firstName": "Severin",
+            "lastName": "Stanescu",
+            "email": "Severin_Stanescu@outlook.ro"
+        },
+        {
+            "firstName": "Thibaut",
+            "lastName": "Richard",
+            "email": "Thibaut_Richard@outlook.fr"
+        }
+    ],
+    "exchangeRates": [],
+    "commands": [
+        {
+            "command": "printUsers",
+            "timestamp": 1
+        },
+        {
+            "command": "addAccount",
+            "email": "Severin_Stanescu@outlook.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 2
+        },
+        {
+            "command": "addAccount",
+            "email": "Thibaut_Richard@outlook.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 3
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 4
+        },
+        {
+            "command": "deleteAccount",
+            "account": "RO58POOB7344468893732422",
+            "timestamp": 5
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 6
+        }
+    ]
+}
