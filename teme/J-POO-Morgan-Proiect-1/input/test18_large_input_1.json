@@ -1,79 +1,79 @@
 {
     "users": [
         {
-            "firstName": "Norman",
-            "lastName": "Thompson-Byrne",
-            "email": "Norman_Thompson-Byrne@icloud.gb"
+            "firstName": "Sachi",
+            "lastName": "Brahmbhatt",
+            "email": "Sachi_Brahmbhatt@protonmail.in"
         },
         {
-            "firstName": "Wilfredo",
-            "lastName": "Real",
-            "email": "Wilfredo_Real@gmx.es"
+            "firstName": "Christian",
+            "lastName": "Pritchard",
+            "email": "Christian_Pritchard@hushmail.nz"
         },
         {
-            "firstName": "Priscilla",
-            "lastName": "Ossola",
-            "email": "Priscilla_Ossola@gmail.it"
+            "firstName": "Josiane",
+            "lastName": "Isella",
+            "email": "Josiane_Isella@mail.com.ch"
         },
         {
-            "firstName": "Christopher",
-            "lastName": "Subramaniam",
-            "email": "Christopher_Subramaniam@protonmail.in"
+            "firstName": "Victoria",
+            "lastName": "Koeman",
+            "email": "Victoria_Koeman@hotmail.nl"
         },
         {
-            "firstName": "Dott.",
-            "lastName": "Dolores Tirabass",
-            "email": "Dott._Dolores_Tirabass@yandex.it"
+            "firstName": "Kate",
+            "lastName": "Jones",
+            "email": "Kate_Jones@mail.com.gb"
         },
         {
-            "firstName": "Jake",
-            "lastName": "Baldwin",
-            "email": "Jake_Baldwin@icloud.gb"
+            "firstName": "Job",
+            "lastName": "Sire-Segerszoen",
+            "email": "Job_Sire-Segerszoen@yandex.nl"
         },
         {
-            "firstName": "Albert",
-            "lastName": "Stancu",
-            "email": "Albert_Stancu@aol.ro"
+            "firstName": "Kate",
+            "lastName": "Patel",
+            "email": "Kate_Patel@gmail.gb"
         },
         {
-            "firstName": "Mekhala",
-            "lastName": "Mahal",
-            "email": "Mekhala_Mahal@zoho.in"
+            "firstName": "Sylvie",
+            "lastName": "Maltais",
+            "email": "Sylvie_Maltais@yandex.ca"
         },
         {
-            "firstName": "Ernest",
-            "lastName": "Gheorghiu",
-            "email": "Ernest_Gheorghiu@hotmail.ro"
+            "firstName": "Marinela",
+            "lastName": "Puscasu",
+            "email": "Marinela_Puscasu@protonmail.ro"
         },
         {
-            "firstName": "Laura",
-            "lastName": "Conrad",
-            "email": "Laura_Conrad@gmx.ch"
+            "firstName": "Carlos",
+            "lastName": "Schmidt",
+            "email": "Carlos_Schmidt@gmail.ch"
         },
         {
-            "firstName": "Brett",
-            "lastName": "Huddleston-Sullivan",
-            "email": "Brett_Huddleston-Sullivan@gmx.nz"
+            "firstName": "Susanne",
+            "lastName": "Felber Baumgartner",
+            "email": "Susanne_Felber_Baumgartner@protonmail.ch"
         },
         {
-            "firstName": "Cecile",
-            "lastName": "Therrien",
-            "email": "Cecile_Therrien@icloud.ca"
+            "firstName": "Maik",
+            "lastName": "Wirth",
+            "email": "Maik_Wirth@yandex.ch"
         },
         {
-            "firstName": "Michael",
-            "lastName": "Baker",
-            "email": "Michael_Baker@hotmail.au"
+            "firstName": "Heather",
+            "lastName": "Sheppard",
+            "email": "Heather_Sheppard@outlook.ch"
         },
         {
-            "firstName": "Lya",
-            "lastName": "Friedli Steiger",
-            "email": "Lya_Friedli_Steiger@gmx.ch"
+            "firstName": "Denis",
+            "lastName": "De la Navodari",
+            "email": "Denis_Navodari@gmail.ro"
         },
         {
-            "firstName": "Fernando",
-            "lastName": "Francisco Javier Montenegro",
-            "email": "Fernando_Francisco_Javier_Montenegro@hushmail.mx"
+            "firstName": "Alexandre-Jonathan",
+            "lastName": "Desrosiers",
+            "email": "Alexandre-Jonathan_Desrosiers@aol.ca"
         }
     ],
     "exchangeRates": [
@@ -136,36 +136,36 @@
     "commands": [
         {
             "command": "addAccount",
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "currency": "GBP",
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "currency": "INR",
             "accountType": "classic",
             "timestamp": 1
         },
         {
             "command": "addAccount",
-            "email": "Wilfredo_Real@gmx.es",
-            "currency": "EUR",
+            "email": "Christian_Pritchard@hushmail.nz",
+            "currency": "NZD",
             "accountType": "classic",
             "timestamp": 2
         },
         {
             "command": "addAccount",
-            "email": "Priscilla_Ossola@gmail.it",
-            "currency": "EUR",
+            "email": "Josiane_Isella@mail.com.ch",
+            "currency": "CHF",
             "accountType": "classic",
             "timestamp": 3
         },
         {
             "command": "addAccount",
-            "email": "Christopher_Subramaniam@protonmail.in",
-            "currency": "INR",
+            "email": "Victoria_Koeman@hotmail.nl",
+            "currency": "EUR",
             "accountType": "classic",
             "timestamp": 4
         },
         {
             "command": "addAccount",
-            "email": "Dott._Dolores_Tirabass@yandex.it",
-            "currency": "EUR",
+            "email": "Kate_Jones@mail.com.gb",
+            "currency": "GBP",
             "accountType": "classic",
             "timestamp": 5
         },
@@ -176,141 +176,141 @@
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 756,
+            "amount": 2725,
             "timestamp": 7
         },
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 387,
+            "amount": 3403,
             "timestamp": 8
         },
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 850,
+            "amount": 10695,
             "timestamp": 9
         },
         {
             "command": "addFunds",
             "account": "RO69POOB6209498372540635",
-            "amount": 104,
+            "amount": 1802,
             "timestamp": 10
         },
         {
             "command": "addFunds",
             "account": "RO69POOB6209498372540635",
-            "amount": 785,
+            "amount": 1879,
             "timestamp": 11
         },
         {
             "command": "addFunds",
             "account": "RO69POOB6209498372540635",
-            "amount": 907,
+            "amount": 138,
             "timestamp": 12
         },
         {
             "command": "addFunds",
             "account": "RO90POOB5450777208072365",
-            "amount": 449,
+            "amount": 4068,
             "timestamp": 13
         },
         {
             "command": "addFunds",
             "account": "RO90POOB5450777208072365",
-            "amount": 842,
+            "amount": 6760,
             "timestamp": 14
         },
         {
             "command": "addFunds",
             "account": "RO90POOB5450777208072365",
-            "amount": 258,
+            "amount": 933,
             "timestamp": 15
         },
         {
             "command": "addFunds",
             "account": "RO65POOB8944016386845896",
-            "amount": 985,
+            "amount": 9921,
             "timestamp": 16
         },
         {
             "command": "addFunds",
             "account": "RO65POOB8944016386845896",
-            "amount": 727,
+            "amount": 3681,
             "timestamp": 17
         },
         {
             "command": "addFunds",
             "account": "RO65POOB8944016386845896",
-            "amount": 382,
+            "amount": 628,
             "timestamp": 18
         },
         {
             "command": "addFunds",
             "account": "RO58POOB2721178218599590",
-            "amount": 106,
+            "amount": 8122,
             "timestamp": 19
         },
         {
             "command": "addFunds",
             "account": "RO58POOB2721178218599590",
-            "amount": 969,
+            "amount": 808,
             "timestamp": 20
         },
         {
             "command": "addFunds",
             "account": "RO58POOB2721178218599590",
-            "amount": 935,
+            "amount": 6400,
             "timestamp": 21
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 1720,
             "receiver": "RO90POOB5450777208072365",
-            "amount": 722,
             "timestamp": 22,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Miscellaneous household items"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Local snacks and street food"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 480,
             "receiver": "RO58POOB2721178218599590",
-            "amount": 1461,
             "timestamp": 23,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Weekly shopping from Tesco"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Weekly groceries from Big Bazaar"
         },
         {
             "command": "sendMoney",
             "account": "RO69POOB6209498372540635",
+            "amount": 843,
             "receiver": "RO58POOB7344468893732422",
-            "amount": 751,
             "timestamp": 24,
-            "email": "Wilfredo_Real@gmx.es",
-            "description": "Netflix subscription renewal"
+            "email": "Christian_Pritchard@hushmail.nz",
+            "description": "Deposit to a Kiwibank savings account"
         },
         {
             "command": "sendMoney",
             "account": "RO69POOB6209498372540635",
+            "amount": 1394,
             "receiver": "RO40POOB0182949152741667",
-            "amount": 89,
             "timestamp": 25,
-            "email": "Wilfredo_Real@gmx.es",
-            "description": "Donation to local animal shelters"
+            "email": "Christian_Pritchard@hushmail.nz",
+            "description": "Purchasing outdoor gear from Kathmandu"
         },
         {
             "command": "report",
+            "startTimestamp": 9,
+            "endTimestamp": 15,
             "account": "RO58POOB7344468893732422",
-            "startTimestamp": 16,
-            "endTimestamp": 21,
             "timestamp": 26
         },
         {
             "command": "report",
-            "account": "RO69POOB1255837963852827",
-            "startTimestamp": 12,
+            "startTimestamp": 13,
             "endTimestamp": 18,
+            "account": "RO69POOB1255837963852827",
             "timestamp": 27
         },
         {
@@ -319,35 +319,35 @@
         },
         {
             "command": "addAccount",
-            "email": "Jake_Baldwin@icloud.gb",
-            "currency": "GBP",
+            "email": "Job_Sire-Segerszoen@yandex.nl",
+            "currency": "EUR",
             "accountType": "classic",
             "timestamp": 29
         },
         {
             "command": "addAccount",
-            "email": "Albert_Stancu@aol.ro",
-            "currency": "RON",
+            "email": "Kate_Patel@gmail.gb",
+            "currency": "GBP",
             "accountType": "classic",
             "timestamp": 30
         },
         {
             "command": "addAccount",
-            "email": "Mekhala_Mahal@zoho.in",
-            "currency": "INR",
+            "email": "Sylvie_Maltais@yandex.ca",
+            "currency": "CAD",
             "accountType": "classic",
             "timestamp": 31
         },
         {
             "command": "addAccount",
-            "email": "Ernest_Gheorghiu@hotmail.ro",
+            "email": "Marinela_Puscasu@protonmail.ro",
             "currency": "RON",
             "accountType": "classic",
             "timestamp": 32
         },
         {
             "command": "addAccount",
-            "email": "Laura_Conrad@gmx.ch",
+            "email": "Carlos_Schmidt@gmail.ch",
             "currency": "CHF",
             "accountType": "classic",
             "timestamp": 33
@@ -355,52 +355,52 @@
         {
             "command": "addFunds",
             "account": "RO76POOB4035116042454483",
-            "amount": 982,
+            "amount": 837,
             "timestamp": 34
         },
         {
             "command": "addFunds",
             "account": "RO37POOB7013767509830666",
-            "amount": 12,
+            "amount": 369,
             "timestamp": 35
         },
         {
             "command": "addFunds",
             "account": "RO19POOB4981055641668812",
-            "amount": 855,
+            "amount": 105,
             "timestamp": 36
         },
         {
             "command": "addFunds",
             "account": "RO30POOB9523423715747796",
-            "amount": 12,
+            "amount": 837,
             "timestamp": 37
         },
         {
             "command": "addFunds",
             "account": "RO79POOB3616857825600958",
-            "amount": 597,
+            "amount": 427,
             "timestamp": 38
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 314,
             "receiver": "RO79POOB3616857825600958",
-            "amount": 367,
             "timestamp": 39,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Holiday booking to Cornwall"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Ola rides for commuting"
         },
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 121,
+            "amount": 556,
             "timestamp": 40
         },
         {
             "command": "createCard",
             "account": "RO58POOB7344468893732422",
-            "email": "Norman_Thompson-Byrne@icloud.gb",
+            "email": "Sachi_Brahmbhatt@protonmail.in",
             "timestamp": 41
         },
         {
@@ -411,225 +411,225 @@
         {
             "command": "payOnline",
             "cardNumber": "8207906978464446",
-            "amount": 272,
-            "currency": "GBP",
+            "amount": 83,
+            "currency": "INR",
             "timestamp": 43,
             "description": "Online payment",
-            "commerciant": "H&M",
-            "email": "Norman_Thompson-Byrne@icloud.gb"
+            "commerciant": "Adidas",
+            "email": "Sachi_Brahmbhatt@protonmail.in"
         },
         {
             "command": "payOnline",
             "cardNumber": "8207906978464446",
-            "amount": 444,
-            "currency": "EUR",
+            "amount": 456,
+            "currency": "AUD",
             "timestamp": 44,
             "description": "Online payment",
-            "commerciant": "Levi's",
-            "email": "Norman_Thompson-Byrne@icloud.gb"
+            "commerciant": "KFC",
+            "email": "Sachi_Brahmbhatt@protonmail.in"
         },
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 947,
+            "amount": 208,
             "timestamp": 45
         },
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 288,
+            "amount": 17200,
             "timestamp": 46
         },
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 730,
+            "amount": 178,
             "timestamp": 47
         },
         {
             "command": "splitPayment",
             "accounts": [
-                "RO19POOB4981055641668812",
+                "RO30POOB9523423715747796",
                 "RO90POOB5450777208072365",
-                "RO76POOB4035116042454483",
                 "RO79POOB3616857825600958",
-                "RO69POOB6209498372540635",
                 "RO58POOB7344468893732422",
-                "RO37POOB7013767509830666",
-                "RO58POOB2721178218599590",
                 "RO65POOB8944016386845896",
-                "RO30POOB9523423715747796"
+                "RO58POOB2721178218599590",
+                "RO69POOB6209498372540635",
+                "RO76POOB4035116042454483",
+                "RO37POOB7013767509830666",
+                "RO19POOB4981055641668812"
             ],
-            "amount": 7919,
-            "currency": "INR",
+            "amount": 9003,
+            "currency": "RON",
             "timestamp": 48
         },
         {
             "command": "payOnline",
             "cardNumber": "8207906978464446",
-            "amount": 120,
-            "currency": "CAD",
+            "amount": 125,
+            "currency": "INR",
             "timestamp": 49,
             "description": "Online payment",
-            "commerciant": "Uniqlo",
-            "email": "Norman_Thompson-Byrne@icloud.gb"
+            "commerciant": "Under Armour",
+            "email": "Sachi_Brahmbhatt@protonmail.in"
         },
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 720,
+            "amount": 616,
             "timestamp": 50
         },
         {
             "command": "payOnline",
             "cardNumber": "8207906978464446",
-            "amount": 202,
-            "currency": "EUR",
+            "amount": 482,
+            "currency": "CNY",
             "timestamp": 51,
             "description": "Online payment",
-            "commerciant": "Sony",
-            "email": "Norman_Thompson-Byrne@icloud.gb"
+            "commerciant": "HP",
+            "email": "Sachi_Brahmbhatt@protonmail.in"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 2183,
             "receiver": "RO69POOB6209498372540635",
-            "amount": 2780,
             "timestamp": 52,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Donation to Cancer Research UK"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "EMI payment for a home loan"
         },
         {
             "command": "printUsers",
             "timestamp": 53
         },
         {
-            "command": "report",
+            "command": "spendingsReport",
+            "startTimestamp": 36,
+            "endTimestamp": 44,
             "account": "RO58POOB7344468893732422",
-            "startTimestamp": 39,
-            "endTimestamp": 51,
             "timestamp": 54
         },
         {
-            "command": "report",
+            "command": "spendingsReport",
+            "startTimestamp": 13,
+            "endTimestamp": 42,
             "account": "RO14POOB3779240285449179",
-            "startTimestamp": 6,
-            "endTimestamp": 51,
             "timestamp": 55
         },
         {
             "command": "addAccount",
-            "email": "Brett_Huddleston-Sullivan@gmx.nz",
-            "currency": "NZD",
+            "email": "Susanne_Felber_Baumgartner@protonmail.ch",
+            "currency": "CHF",
             "accountType": "classic",
             "timestamp": 56
         },
         {
             "command": "addAccount",
-            "email": "Brett_Huddleston-Sullivan@gmx.nz",
-            "currency": "NZD",
+            "email": "Susanne_Felber_Baumgartner@protonmail.ch",
+            "currency": "CHF",
             "accountType": "savings",
-            "interestRate": 0.79,
+            "interestRate": 0.91,
             "timestamp": 57
         },
         {
             "command": "addAccount",
-            "email": "Cecile_Therrien@icloud.ca",
-            "currency": "CAD",
+            "email": "Maik_Wirth@yandex.ch",
+            "currency": "CHF",
             "accountType": "classic",
             "timestamp": 58
         },
         {
             "command": "addAccount",
-            "email": "Cecile_Therrien@icloud.ca",
-            "currency": "CAD",
+            "email": "Maik_Wirth@yandex.ch",
+            "currency": "CHF",
             "accountType": "savings",
-            "interestRate": 0.25,
+            "interestRate": 0.18,
             "timestamp": 59
         },
         {
             "command": "addAccount",
-            "email": "Michael_Baker@hotmail.au",
-            "currency": "AUD",
+            "email": "Heather_Sheppard@outlook.ch",
+            "currency": "CHF",
             "accountType": "classic",
             "timestamp": 60
         },
         {
             "command": "addAccount",
-            "email": "Michael_Baker@hotmail.au",
-            "currency": "AUD",
+            "email": "Heather_Sheppard@outlook.ch",
+            "currency": "CHF",
             "accountType": "savings",
-            "interestRate": 0.44,
+            "interestRate": 0.36,
             "timestamp": 61
         },
         {
             "command": "addAccount",
-            "email": "Lya_Friedli_Steiger@gmx.ch",
-            "currency": "CHF",
+            "email": "Denis_Navodari@gmail.ro",
+            "currency": "RON",
             "accountType": "classic",
             "timestamp": 62
         },
         {
             "command": "addAccount",
-            "email": "Lya_Friedli_Steiger@gmx.ch",
-            "currency": "CHF",
+            "email": "Denis_Navodari@gmail.ro",
+            "currency": "RON",
             "accountType": "savings",
-            "interestRate": 0.02,
+            "interestRate": 0.95,
             "timestamp": 63
         },
         {
             "command": "addAccount",
-            "email": "Fernando_Francisco_Javier_Montenegro@hushmail.mx",
-            "currency": "MXN",
+            "email": "Alexandre-Jonathan_Desrosiers@aol.ca",
+            "currency": "CAD",
             "accountType": "classic",
             "timestamp": 64
         },
         {
             "command": "addAccount",
-            "email": "Fernando_Francisco_Javier_Montenegro@hushmail.mx",
-            "currency": "MXN",
+            "email": "Alexandre-Jonathan_Desrosiers@aol.ca",
+            "currency": "CAD",
             "accountType": "savings",
-            "interestRate": 0.55,
+            "interestRate": 0.45,
             "timestamp": 65
         },
         {
             "command": "addFunds",
             "account": "RO33POOB9999273999620457",
-            "amount": 467,
+            "amount": 76,
             "timestamp": 66
         },
         {
             "command": "addFunds",
             "account": "RO38POOB0964823730995794",
-            "amount": 749,
+            "amount": 1402,
             "timestamp": 67
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 1947,
             "receiver": "RO33POOB9999273999620457",
-            "amount": 1583,
             "timestamp": 68,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Tickets for a West End show"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Monthly rent payment for a flat in Mumbai"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 2167,
             "receiver": "RO38POOB0964823730995794",
-            "amount": 182,
             "timestamp": 69,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Sunday roast at a local pub"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Booking a trip to Goa"
         },
         {
             "command": "sendMoney",
             "account": "RO69POOB6209498372540635",
+            "amount": 1918,
             "receiver": "RO58POOB7344468893732422",
-            "amount": 2276,
             "timestamp": 70,
-            "email": "Wilfredo_Real@gmx.es",
-            "description": "Miscellaneous online shopping"
+            "email": "Christian_Pritchard@hushmail.nz",
+            "description": "Purchasing outdoor gear from Kathmandu"
         },
         {
             "command": "printUsers",
@@ -637,49 +637,49 @@
         },
         {
             "command": "addAccount",
-            "email": "Priscilla_Ossola@gmail.it",
-            "currency": "EUR",
+            "email": "Josiane_Isella@mail.com.ch",
+            "currency": "CHF",
             "accountType": "classic",
             "timestamp": 72
         },
         {
             "command": "createOneTimeCard",
             "account": "RO53POOB7122855990652257",
-            "email": "Priscilla_Ossola@gmail.it",
+            "email": "Josiane_Isella@mail.com.ch",
             "timestamp": 73
         },
         {
             "command": "payOnline",
             "cardNumber": "7901879264253296",
-            "amount": 52,
-            "currency": "NZD",
+            "amount": 115,
+            "currency": "CHF",
             "timestamp": 74,
             "description": "Online payment",
-            "commerciant": "KFC",
-            "email": "Priscilla_Ossola@gmail.it"
+            "commerciant": "Taco Bell",
+            "email": "Josiane_Isella@mail.com.ch"
         },
         {
-            "command": "report",
+            "command": "spendingsReport",
+            "startTimestamp": 5,
+            "endTimestamp": 29,
             "account": "RO53POOB7122855990652257",
-            "startTimestamp": 17,
-            "endTimestamp": 39,
             "timestamp": 75
         },
         {
             "command": "createCard",
             "account": "RO65POOB8944016386845896",
-            "email": "Christopher_Subramaniam@protonmail.in",
+            "email": "Victoria_Koeman@hotmail.nl",
             "timestamp": 76
         },
         {
             "command": "payOnline",
             "cardNumber": "7004757825892043",
-            "amount": 376,
+            "amount": 106,
             "currency": "INR",
             "timestamp": 77,
             "description": "Online payment",
-            "commerciant": "Calvin Klein",
-            "email": "Christopher_Subramaniam@protonmail.in"
+            "commerciant": "Lenovo",
+            "email": "Victoria_Koeman@hotmail.nl"
         },
         {
             "command": "printUsers",
@@ -688,7 +688,7 @@
         {
             "command": "changeInterestRate",
             "account": "RO53POOB7122855990652257",
-            "interestRate": 0.67,
+            "interestRate": 0.99,
             "timestamp": 79
         },
         {
@@ -703,482 +703,503 @@
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 29,
+            "amount": 887,
             "timestamp": 82
         },
         {
             "command": "addFunds",
             "account": "RO69POOB6209498372540635",
-            "amount": 595,
+            "amount": 15122,
             "timestamp": 83
         },
         {
             "command": "addFunds",
             "account": "RO90POOB5450777208072365",
-            "amount": 535,
+            "amount": 897,
             "timestamp": 84
         },
         {
             "command": "addFunds",
             "account": "RO65POOB8944016386845896",
-            "amount": 212,
+            "amount": 419,
             "timestamp": 85
         },
         {
             "command": "addFunds",
             "account": "RO58POOB2721178218599590",
-            "amount": 470,
+            "amount": 349,
             "timestamp": 86
         },
         {
             "command": "addFunds",
             "account": "RO76POOB4035116042454483",
-            "amount": 42,
+            "amount": 117,
             "timestamp": 87
         },
         {
             "command": "addFunds",
             "account": "RO37POOB7013767509830666",
-            "amount": 891,
+            "amount": 4661,
             "timestamp": 88
         },
         {
             "command": "addFunds",
             "account": "RO19POOB4981055641668812",
-            "amount": 111,
+            "amount": 745,
             "timestamp": 89
         },
         {
             "command": "addFunds",
             "account": "RO30POOB9523423715747796",
-            "amount": 188,
+            "amount": 962,
             "timestamp": 90
         },
         {
             "command": "addFunds",
             "account": "RO79POOB3616857825600958",
-            "amount": 430,
+            "amount": 6000,
             "timestamp": 91
         },
         {
             "command": "addFunds",
             "account": "RO00POOB5687892910835215",
-            "amount": 141,
+            "amount": 545,
             "timestamp": 92
         },
         {
             "command": "addFunds",
             "account": "RO96POOB6738272785416988",
-            "amount": 891,
+            "amount": 737,
             "timestamp": 93
         },
         {
             "command": "addFunds",
             "account": "RO33POOB4049920806186500",
-            "amount": 699,
+            "amount": 677,
             "timestamp": 94
         },
         {
             "command": "addFunds",
             "account": "RO69POOB9846198978826791",
-            "amount": 841,
+            "amount": 504,
             "timestamp": 95
         },
         {
             "command": "addFunds",
             "account": "RO98POOB8412955460158769",
-            "amount": 507,
+            "amount": 6923,
             "timestamp": 96
         },
         {
             "command": "addFunds",
             "account": "RO32POOB0130532963818359",
-            "amount": 527,
+            "amount": 20297,
             "timestamp": 97
         },
         {
             "command": "addFunds",
             "account": "RO68POOB1848616931405475",
-            "amount": 946,
+            "amount": 156,
             "timestamp": 98
         },
         {
             "command": "addFunds",
             "account": "RO10POOB4354933866366881",
-            "amount": 245,
+            "amount": 2451,
             "timestamp": 99
         },
         {
             "command": "addFunds",
             "account": "RO33POOB9999273999620457",
-            "amount": 255,
+            "amount": 3690,
             "timestamp": 100
         },
         {
             "command": "addFunds",
             "account": "RO38POOB0964823730995794",
-            "amount": 67,
+            "amount": 673,
             "timestamp": 101
         },
         {
             "command": "addFunds",
             "account": "RO53POOB7122855990652257",
-            "amount": 390,
+            "amount": 367,
             "timestamp": 102
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 3144,
             "receiver": "RO69POOB6209498372540635",
-            "amount": 1385,
             "timestamp": 103,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Tickets for a West End show"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Fee for a coding bootcamp"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 3574,
             "receiver": "RO90POOB5450777208072365",
-            "amount": 3535,
             "timestamp": 104,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Miscellaneous household items"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Donation to a local NGO"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 1688,
             "receiver": "RO65POOB8944016386845896",
-            "amount": 2203,
             "timestamp": 105,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Donation to Cancer Research UK"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Purchasing clothing at FabIndia"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 535,
             "receiver": "RO58POOB2721178218599590",
-            "amount": 4404,
             "timestamp": 106,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Buying a new coat at Marks & Spencer"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Doctor consultation at Apollo Hospital"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 1950,
             "receiver": "RO76POOB4035116042454483",
-            "amount": 2419,
             "timestamp": 107,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Miscellaneous household items"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Local snacks and street food"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 171,
             "receiver": "RO37POOB7013767509830666",
-            "amount": 839,
             "timestamp": 108,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Gas and electricity bills"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Local snacks and street food"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 3225,
             "receiver": "RO19POOB4981055641668812",
-            "amount": 2701,
             "timestamp": 109,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "BBC iPlayer subscription"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Booking a trip to Goa"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 3611,
             "receiver": "RO30POOB9523423715747796",
-            "amount": 4557,
             "timestamp": 110,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Tickets for a West End show"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Ola rides for commuting"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 444,
             "receiver": "RO79POOB3616857825600958",
-            "amount": 1032,
             "timestamp": 111,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Payment for university tuition"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Tickets for a Bollywood movie"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 4320,
             "receiver": "RO00POOB5687892910835215",
-            "amount": 2603,
             "timestamp": 112,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "BBC iPlayer subscription"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Monthly rent payment for a flat in Mumbai"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 364,
             "receiver": "RO96POOB6738272785416988",
-            "amount": 191,
             "timestamp": 113,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Miscellaneous household items"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Fee for a coding bootcamp"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 2282,
             "receiver": "RO33POOB4049920806186500",
-            "amount": 235,
             "timestamp": 114,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Deposit into an ISA savings account"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Fee for a coding bootcamp"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 1088,
             "receiver": "RO69POOB9846198978826791",
-            "amount": 3909,
             "timestamp": 115,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Gas and electricity bills"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Local snacks and street food"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 3067,
             "receiver": "RO98POOB8412955460158769",
-            "amount": 1677,
             "timestamp": 116,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Monthly life insurance premium"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Fee for a coding bootcamp"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 2801,
             "receiver": "RO32POOB0130532963818359",
-            "amount": 811,
             "timestamp": 117,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Holiday booking to Cornwall"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Electricity and gas bills"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 4148,
             "receiver": "RO68POOB1848616931405475",
-            "amount": 3318,
             "timestamp": 118,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Car loan repayment for the month"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Booking a trip to Goa"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 1059,
             "receiver": "RO10POOB4354933866366881",
-            "amount": 4414,
             "timestamp": 119,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Buying a new coat at Marks & Spencer"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Donation to a local NGO"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 493,
             "receiver": "RO33POOB9999273999620457",
-            "amount": 3667,
             "timestamp": 120,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Monthly pass for the London Underground"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Donation to a local NGO"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 961,
             "receiver": "RO38POOB0964823730995794",
-            "amount": 1578,
             "timestamp": 121,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Tickets for a West End show"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Local snacks and street food"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 1021,
             "receiver": "RO53POOB7122855990652257",
-            "amount": 2112,
             "timestamp": 122,
-            "email": "Norman_Thompson-Byrne@icloud.gb",
-            "description": "Sunday roast at a local pub"
+            "email": "Sachi_Brahmbhatt@protonmail.in",
+            "description": "Fee for a coding bootcamp"
         },
         {
             "command": "printTransactions",
-            "email": "Norman_Thompson-Byrne@icloud.gb",
+            "email": "Sachi_Brahmbhatt@protonmail.in",
             "timestamp": 123
         },
         {
             "command": "addFunds",
             "account": "RO00POOB5687892910835215",
-            "amount": 17,
+            "amount": 9830,
             "timestamp": 124
         },
         {
             "command": "addFunds",
             "account": "RO96POOB6738272785416988",
-            "amount": 78,
+            "amount": 162,
             "timestamp": 125
         },
         {
             "command": "addFunds",
             "account": "RO33POOB4049920806186500",
-            "amount": 841,
+            "amount": 834,
             "timestamp": 126
         },
         {
             "command": "addFunds",
             "account": "RO69POOB9846198978826791",
-            "amount": 885,
+            "amount": 29,
             "timestamp": 127
         },
         {
             "command": "addFunds",
             "account": "RO98POOB8412955460158769",
-            "amount": 693,
+            "amount": 384,
             "timestamp": 128
         },
         {
             "command": "addFunds",
             "account": "RO32POOB0130532963818359",
-            "amount": 691,
+            "amount": 143,
             "timestamp": 129
         },
         {
             "command": "addFunds",
             "account": "RO68POOB1848616931405475",
-            "amount": 405,
+            "amount": 7164,
             "timestamp": 130
         },
         {
             "command": "addFunds",
             "account": "RO10POOB4354933866366881",
-            "amount": 28,
+            "amount": 305,
             "timestamp": 131
         },
         {
             "command": "addFunds",
             "account": "RO33POOB9999273999620457",
-            "amount": 834,
+            "amount": 35,
             "timestamp": 132
         },
         {
             "command": "addFunds",
             "account": "RO38POOB0964823730995794",
-            "amount": 205,
+            "amount": 493,
             "timestamp": 133
         },
         {
             "command": "addFunds",
             "account": "RO53POOB7122855990652257",
-            "amount": 527,
+            "amount": 5663,
             "timestamp": 134
         },
         {
             "command": "deleteCard",
+            "email": "Sachi_Brahmbhatt@protonmail.in",
             "cardNumber": "8207906978464446",
             "timestamp": 135
         },
         {
             "command": "deleteCard",
+            "email": "Christian_Pritchard@hushmail.nz",
             "cardNumber": "8207906978464446",
             "timestamp": 136
         },
         {
             "command": "deleteCard",
+            "email": "Josiane_Isella@mail.com.ch",
             "cardNumber": "8207906978464446",
             "timestamp": 137
         },
         {
             "command": "deleteCard",
+            "email": "Victoria_Koeman@hotmail.nl",
             "cardNumber": "7004757825892043",
             "timestamp": 138
         },
         {
             "command": "deleteCard",
+            "email": "Kate_Jones@mail.com.gb",
             "cardNumber": "7004757825892043",
             "timestamp": 139
         },
         {
             "command": "deleteCard",
+            "email": "Job_Sire-Segerszoen@yandex.nl",
             "cardNumber": "7004757825892043",
             "timestamp": 140
         },
         {
             "command": "deleteCard",
+            "email": "Kate_Patel@gmail.gb",
             "cardNumber": "7004757825892043",
             "timestamp": 141
         },
         {
             "command": "deleteCard",
+            "email": "Sylvie_Maltais@yandex.ca",
             "cardNumber": "7004757825892043",
             "timestamp": 142
         },
         {
             "command": "deleteCard",
+            "email": "Marinela_Puscasu@protonmail.ro",
             "cardNumber": "7004757825892043",
             "timestamp": 143
         },
         {
             "command": "deleteCard",
+            "email": "Carlos_Schmidt@gmail.ch",
             "cardNumber": "7004757825892043",
             "timestamp": 144
         },
         {
             "command": "deleteCard",
+            "email": "Susanne_Felber_Baumgartner@protonmail.ch",
             "cardNumber": "7004757825892043",
             "timestamp": 145
         },
         {
             "command": "deleteCard",
+            "email": "Susanne_Felber_Baumgartner@protonmail.ch",
             "cardNumber": "7004757825892043",
             "timestamp": 146
         },
         {
             "command": "deleteCard",
+            "email": "Maik_Wirth@yandex.ch",
             "cardNumber": "7004757825892043",
             "timestamp": 147
         },
         {
             "command": "deleteCard",
+            "email": "Maik_Wirth@yandex.ch",
             "cardNumber": "7004757825892043",
             "timestamp": 148
         },
         {
             "command": "deleteCard",
+            "email": "Heather_Sheppard@outlook.ch",
             "cardNumber": "7004757825892043",
             "timestamp": 149
         },
         {
             "command": "deleteCard",
+            "email": "Heather_Sheppard@outlook.ch",
             "cardNumber": "7004757825892043",
             "timestamp": 150
         },
         {
             "command": "deleteCard",
+            "email": "Denis_Navodari@gmail.ro",
             "cardNumber": "7004757825892043",
             "timestamp": 151
         },
         {
             "command": "deleteCard",
+            "email": "Denis_Navodari@gmail.ro",
             "cardNumber": "7004757825892043",
             "timestamp": 152
         },
         {
             "command": "deleteCard",
+            "email": "Alexandre-Jonathan_Desrosiers@aol.ca",
             "cardNumber": "7004757825892043",
             "timestamp": 153
         },
         {
             "command": "deleteCard",
+            "email": "Alexandre-Jonathan_Desrosiers@aol.ca",
             "cardNumber": "7004757825892043",
             "timestamp": 154
         },
         {
             "command": "deleteCard",
+            "email": "Josiane_Isella@mail.com.ch",
             "cardNumber": "7901879264253296",
             "timestamp": 155
         },
@@ -1188,115 +1209,119 @@
         },
         {
             "command": "setAlias",
+            "email": "Sachi_Brahmbhatt@protonmail.in",
             "account": "RO58POOB7344468893732422",
-            "alias": "Health",
+            "alias": "Events",
             "timestamp": 157
         },
         {
             "command": "setAlias",
+            "email": "Christian_Pritchard@hushmail.nz",
             "account": "RO69POOB6209498372540635",
-            "alias": "Shopping",
+            "alias": "Projects",
             "timestamp": 158
         },
         {
             "command": "setAlias",
+            "email": "Josiane_Isella@mail.com.ch",
             "account": "RO90POOB5450777208072365",
-            "alias": "Kids",
+            "alias": "Family",
             "timestamp": 159
         },
         {
             "command": "setAlias",
+            "email": "Victoria_Koeman@hotmail.nl",
             "account": "RO65POOB8944016386845896",
-            "alias": "Social Media",
+            "alias": "Kids",
             "timestamp": 160
         },
         {
             "command": "sendMoney",
-            "account": "RO69POOB6209498372540635",
-            "receiver": "RO33POOB4049920806186500",
-            "amount": 2090,
+            "account": "RO38POOB0964823730995794",
+            "amount": 199,
+            "receiver": "RO68POOB1848616931405475",
             "timestamp": 161,
-            "email": "Wilfredo_Real@gmx.es",
-            "description": "Monthly home insurance payment"
+            "email": "Alexandre-Jonathan_Desrosiers@aol.ca",
+            "description": "Dental checkup at a private clinic"
         },
         {
             "command": "sendMoney",
-            "account": "RO33POOB4049920806186500",
-            "receiver": "RO69POOB6209498372540635",
-            "amount": 1312,
+            "account": "RO10POOB4354933866366881",
+            "amount": 659,
+            "receiver": "RO33POOB4049920806186500",
             "timestamp": 162,
-            "email": "Cecile_Therrien@icloud.ca",
-            "description": "Electricity and heating bills"
+            "email": "Denis_Navodari@gmail.ro",
+            "description": "Payment for university tuition"
         },
         {
             "command": "sendMoney",
-            "account": "RO79POOB3616857825600958",
-            "receiver": "RO96POOB6738272785416988",
-            "amount": 480,
+            "account": "RO19POOB4981055641668812",
+            "amount": 389,
+            "receiver": "RO68POOB1848616931405475",
             "timestamp": 163,
-            "email": "Laura_Conrad@gmx.ch",
-            "description": "Buying clothes at Manor"
+            "email": "Sylvie_Maltais@yandex.ca",
+            "description": "Monthly student loan repayment"
         },
         {
             "command": "sendMoney",
-            "account": "RO98POOB8412955460158769",
-            "receiver": "RO10POOB4354933866366881",
-            "amount": 963,
+            "account": "RO00POOB5687892910835215",
+            "amount": 240,
+            "receiver": "RO98POOB8412955460158769",
             "timestamp": 164,
-            "email": "Michael_Baker@hotmail.au",
-            "description": "Mortgage payment for the house"
+            "email": "Susanne_Felber_Baumgartner@protonmail.ch",
+            "description": "Weekly shopping from Coop"
         },
         {
             "command": "sendMoney",
-            "account": "RO69POOB6209498372540635",
-            "receiver": "RO10POOB4354933866366881",
-            "amount": 783,
+            "account": "RO37POOB7013767509830666",
+            "amount": 626,
+            "receiver": "RO33POOB9999273999620457",
             "timestamp": 165,
-            "email": "Wilfredo_Real@gmx.es",
-            "description": "Metro pass for daily commutes"
+            "email": "Kate_Patel@gmail.gb",
+            "description": "Donation to Cancer Research UK"
         },
         {
             "command": "report",
+            "startTimestamp": 26,
+            "endTimestamp": 55,
             "account": "RO69POOB6209498372540635",
-            "startTimestamp": 82,
-            "endTimestamp": 125,
             "timestamp": 166
         },
         {
             "command": "report",
+            "startTimestamp": 90,
+            "endTimestamp": 108,
             "account": "RO65POOB8944016386845896",
-            "startTimestamp": 109,
-            "endTimestamp": 160,
             "timestamp": 167
         },
         {
             "command": "createOneTimeCard",
             "account": "RO76POOB4035116042454483",
-            "email": "Jake_Baldwin@icloud.gb",
+            "email": "Job_Sire-Segerszoen@yandex.nl",
             "timestamp": 168
         },
         {
             "command": "payOnline",
             "cardNumber": "6796819982034243",
-            "amount": 440,
-            "currency": "INR",
+            "amount": 110,
+            "currency": "NZD",
             "timestamp": 169,
             "description": "Online payment",
-            "commerciant": "Starbucks",
-            "email": "Jake_Baldwin@icloud.gb"
+            "commerciant": "Huawei",
+            "email": "Job_Sire-Segerszoen@yandex.nl"
         },
         {
-            "command": "report",
+            "command": "spendingsReport",
+            "startTimestamp": 0,
+            "endTimestamp": 137,
             "account": "RO76POOB4035116042454483",
-            "startTimestamp": 150,
-            "endTimestamp": 160,
             "timestamp": 170
         },
         {
-            "command": "report",
+            "command": "spendingsReport",
+            "startTimestamp": 110,
+            "endTimestamp": 131,
             "account": "RO19POOB4981055641668812",
-            "startTimestamp": 140,
-            "endTimestamp": 164,
             "timestamp": 171
         },
         {
@@ -1305,106 +1330,127 @@
         },
         {
             "command": "deleteAccount",
+            "email": "Sachi_Brahmbhatt@protonmail.in",
             "account": "RO58POOB7344468893732422",
             "timestamp": 173
         },
         {
             "command": "deleteAccount",
+            "email": "Christian_Pritchard@hushmail.nz",
             "account": "RO69POOB6209498372540635",
             "timestamp": 174
         },
         {
             "command": "deleteAccount",
+            "email": "Josiane_Isella@mail.com.ch",
             "account": "RO90POOB5450777208072365",
             "timestamp": 175
         },
         {
             "command": "deleteAccount",
+            "email": "Victoria_Koeman@hotmail.nl",
             "account": "RO65POOB8944016386845896",
             "timestamp": 176
         },
         {
             "command": "deleteAccount",
+            "email": "Kate_Jones@mail.com.gb",
             "account": "RO58POOB2721178218599590",
             "timestamp": 177
         },
         {
             "command": "deleteAccount",
+            "email": "Job_Sire-Segerszoen@yandex.nl",
             "account": "RO76POOB4035116042454483",
             "timestamp": 178
         },
         {
             "command": "deleteAccount",
+            "email": "Kate_Patel@gmail.gb",
             "account": "RO37POOB7013767509830666",
             "timestamp": 179
         },
         {
             "command": "deleteAccount",
+            "email": "Sylvie_Maltais@yandex.ca",
             "account": "RO19POOB4981055641668812",
             "timestamp": 180
         },
         {
             "command": "deleteAccount",
+            "email": "Marinela_Puscasu@protonmail.ro",
             "account": "RO30POOB9523423715747796",
             "timestamp": 181
         },
         {
             "command": "deleteAccount",
+            "email": "Carlos_Schmidt@gmail.ch",
             "account": "RO79POOB3616857825600958",
             "timestamp": 182
         },
         {
             "command": "deleteAccount",
+            "email": "Susanne_Felber_Baumgartner@protonmail.ch",
             "account": "RO00POOB5687892910835215",
             "timestamp": 183
         },
         {
             "command": "deleteAccount",
+            "email": "Susanne_Felber_Baumgartner@protonmail.ch",
             "account": "RO96POOB6738272785416988",
             "timestamp": 184
         },
         {
             "command": "deleteAccount",
+            "email": "Maik_Wirth@yandex.ch",
             "account": "RO33POOB4049920806186500",
             "timestamp": 185
         },
         {
             "command": "deleteAccount",
+            "email": "Maik_Wirth@yandex.ch",
             "account": "RO69POOB9846198978826791",
             "timestamp": 186
         },
         {
             "command": "deleteAccount",
+            "email": "Heather_Sheppard@outlook.ch",
             "account": "RO98POOB8412955460158769",
             "timestamp": 187
         },
         {
             "command": "deleteAccount",
+            "email": "Heather_Sheppard@outlook.ch",
             "account": "RO32POOB0130532963818359",
             "timestamp": 188
         },
         {
             "command": "deleteAccount",
+            "email": "Denis_Navodari@gmail.ro",
             "account": "RO68POOB1848616931405475",
             "timestamp": 189
         },
         {
             "command": "deleteAccount",
+            "email": "Denis_Navodari@gmail.ro",
             "account": "RO10POOB4354933866366881",
             "timestamp": 190
         },
         {
             "command": "deleteAccount",
+            "email": "Alexandre-Jonathan_Desrosiers@aol.ca",
             "account": "RO33POOB9999273999620457",
             "timestamp": 191
         },
         {
             "command": "deleteAccount",
+            "email": "Alexandre-Jonathan_Desrosiers@aol.ca",
             "account": "RO38POOB0964823730995794",
             "timestamp": 192
         },
         {
             "command": "deleteAccount",
+            "email": "Josiane_Isella@mail.com.ch",
             "account": "RO53POOB7122855990652257",
             "timestamp": 193
         },
@@ -1414,7 +1460,7 @@
         },
         {
             "command": "printTransactions",
-            "email": "Norman_Thompson-Byrne@icloud.gb",
+            "email": "Sachi_Brahmbhatt@protonmail.in",
             "timestamp": 195
         }
     ]

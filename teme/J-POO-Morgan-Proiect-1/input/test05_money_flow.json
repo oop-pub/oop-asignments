@@ -1,14 +1,14 @@
 {
     "users": [
         {
-            "firstName": "Olimpiu",
-            "lastName": "Stan",
-            "email": "Olimpiu_Stan@outlook.ro"
+            "firstName": "Decebal",
+            "lastName": "Popa",
+            "email": "Decebal_Popa@gmail.ro"
         },
         {
-            "firstName": "Viviana",
-            "lastName": "Suciu",
-            "email": "Viviana_Suciu@gmail.ro"
+            "firstName": "Emmanuel",
+            "lastName": "Munoz de Gautier",
+            "email": "Emmanuel_Munoz_de_Gautier@gmail.fr"
         }
     ],
     "exchangeRates": [
@@ -26,28 +26,28 @@
     "commands": [
         {
             "command": "addAccount",
-            "email": "Olimpiu_Stan@outlook.ro",
+            "email": "Decebal_Popa@gmail.ro",
             "currency": "RON",
             "accountType": "classic",
             "timestamp": 1
         },
         {
             "command": "addAccount",
-            "email": "Viviana_Suciu@gmail.ro",
-            "currency": "RON",
+            "email": "Emmanuel_Munoz_de_Gautier@gmail.fr",
+            "currency": "EUR",
             "accountType": "classic",
             "timestamp": 2
         },
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 625,
+            "amount": 762,
             "timestamp": 3
         },
         {
             "command": "addFunds",
             "account": "RO69POOB6209498372540635",
-            "amount": 158,
+            "amount": 5976,
             "timestamp": 4
         },
         {
@@ -56,7 +56,7 @@
         },
         {
             "command": "addAccount",
-            "email": "Olimpiu_Stan@outlook.ro",
+            "email": "Decebal_Popa@gmail.ro",
             "currency": "RON",
             "accountType": "classic",
             "timestamp": 6
@@ -64,25 +64,25 @@
         {
             "command": "addFunds",
             "account": "RO90POOB5450777208072365",
-            "amount": 286,
+            "amount": 7050,
             "timestamp": 7
         },
         {
             "command": "createCard",
             "account": "RO58POOB7344468893732422",
-            "email": "Olimpiu_Stan@outlook.ro",
+            "email": "Decebal_Popa@gmail.ro",
             "timestamp": 8
         },
         {
             "command": "createCard",
             "account": "RO69POOB6209498372540635",
-            "email": "Viviana_Suciu@gmail.ro",
+            "email": "Emmanuel_Munoz_de_Gautier@gmail.fr",
             "timestamp": 9
         },
         {
             "command": "createCard",
             "account": "RO90POOB5450777208072365",
-            "email": "Olimpiu_Stan@outlook.ro",
+            "email": "Decebal_Popa@gmail.ro",
             "timestamp": 10
         },
         {
@@ -92,48 +92,48 @@
         {
             "command": "payOnline",
             "cardNumber": "8207906978464446",
-            "amount": 361,
+            "amount": 353,
             "currency": "RON",
             "timestamp": 12,
             "description": "Online payment",
-            "commerciant": "H&M",
-            "email": "Olimpiu_Stan@outlook.ro"
+            "commerciant": "McDonalds",
+            "email": "Decebal_Popa@gmail.ro"
         },
         {
             "command": "payOnline",
             "cardNumber": "7901879264253296",
-            "amount": 43,
+            "amount": 101,
             "currency": "EUR",
             "timestamp": 13,
             "description": "Online payment",
-            "commerciant": "H&M",
-            "email": "Viviana_Suciu@gmail.ro"
+            "commerciant": "Apple",
+            "email": "Emmanuel_Munoz_de_Gautier@gmail.fr"
         },
         {
             "command": "payOnline",
             "cardNumber": "7004757825892043",
-            "amount": 61,
-            "currency": "EUR",
+            "amount": 356,
+            "currency": "RON",
             "timestamp": 14,
             "description": "Online payment",
-            "commerciant": "Apple",
-            "email": "Olimpiu_Stan@outlook.ro"
+            "commerciant": "Burger King",
+            "email": "Decebal_Popa@gmail.ro"
         },
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 807,
+            "amount": 136,
             "timestamp": 15
         },
         {
             "command": "payOnline",
             "cardNumber": "8207906978464446",
-            "amount": 357,
+            "amount": 160,
             "currency": "RON",
             "timestamp": 16,
             "description": "Online payment",
-            "commerciant": "McDonalds",
-            "email": "Olimpiu_Stan@outlook.ro"
+            "commerciant": "Burger King",
+            "email": "Decebal_Popa@gmail.ro"
         },
         {
             "command": "printUsers",

@@ -1,24 +1,24 @@
 {
     "users": [
         {
-            "firstName": "Flavia",
-            "lastName": "Stanescu",
-            "email": "Flavia_Stanescu@gmail.ro"
+            "firstName": "Margaux",
+            "lastName": "Nicolas",
+            "email": "Margaux_Nicolas@gmail.fr"
         },
         {
-            "firstName": "Taylor",
-            "lastName": "York",
-            "email": "Taylor_York@yahoo.us"
+            "firstName": "Lucas",
+            "lastName": "Garnier",
+            "email": "Lucas_Garnier@outlook.fr"
         },
         {
-            "firstName": "Lucie",
-            "lastName": "Leconte-Munoz",
-            "email": "Lucie_Leconte-Munoz@gmail.fr"
+            "firstName": "Georgeta",
+            "lastName": "Nistor",
+            "email": "Georgeta_Nistor@outlook.ro"
         },
         {
-            "firstName": "Linda",
-            "lastName": "Richards",
-            "email": "Linda_Richards@outlook.us"
+            "firstName": "Emanoil",
+            "lastName": "Barbu",
+            "email": "Emanoil_Barbu@hotmail.ro"
         }
     ],
     "exchangeRates": [
@@ -36,66 +36,66 @@
     "commands": [
         {
             "command": "addAccount",
-            "email": "Flavia_Stanescu@gmail.ro",
-            "currency": "RON",
+            "email": "Margaux_Nicolas@gmail.fr",
+            "currency": "EUR",
             "accountType": "classic",
             "timestamp": 1
         },
         {
             "command": "addAccount",
-            "email": "Taylor_York@yahoo.us",
-            "currency": "USD",
+            "email": "Lucas_Garnier@outlook.fr",
+            "currency": "EUR",
             "accountType": "classic",
             "timestamp": 2
         },
         {
             "command": "addAccount",
-            "email": "Lucie_Leconte-Munoz@gmail.fr",
-            "currency": "EUR",
+            "email": "Georgeta_Nistor@outlook.ro",
+            "currency": "RON",
             "accountType": "classic",
             "timestamp": 3
         },
         {
             "command": "addAccount",
-            "email": "Linda_Richards@outlook.us",
-            "currency": "USD",
+            "email": "Emanoil_Barbu@hotmail.ro",
+            "currency": "RON",
             "accountType": "classic",
             "timestamp": 4
         },
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 884,
+            "amount": 4782,
             "timestamp": 5
         },
         {
             "command": "addFunds",
             "account": "RO69POOB6209498372540635",
-            "amount": 814,
+            "amount": 5845,
             "timestamp": 6
         },
         {
             "command": "addFunds",
             "account": "RO90POOB5450777208072365",
-            "amount": 295,
+            "amount": 3359,
             "timestamp": 7
         },
         {
             "command": "addFunds",
             "account": "RO65POOB8944016386845896",
-            "amount": 435,
+            "amount": 3461,
             "timestamp": 8
         },
         {
             "command": "splitPayment",
             "accounts": [
                 "RO69POOB6209498372540635",
+                "RO90POOB5450777208072365",
                 "RO58POOB7344468893732422",
-                "RO65POOB8944016386845896",
-                "RO90POOB5450777208072365"
+                "RO65POOB8944016386845896"
             ],
-            "amount": 1474,
-            "currency": "RON",
+            "amount": 1269,
+            "currency": "EUR",
             "timestamp": 9
         },
         {
@@ -104,36 +104,36 @@
         },
         {
             "command": "payOnline",
-            "cardNumber": "8207906978464446",
-            "amount": 76,
-            "currency": "RON",
+            "cardNumber": "4001829491527416",
+            "amount": 288,
+            "currency": "EUR",
             "timestamp": 11,
             "description": "Online payment",
-            "commerciant": "H&M",
-            "email": "Flavia_Stanescu@gmail.ro"
+            "commerciant": "Zara",
+            "email": "Margaux_Nicolas@gmail.fr"
         },
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 382,
+            "amount": 925,
             "timestamp": 12
         },
         {
             "command": "addFunds",
             "account": "RO69POOB6209498372540635",
-            "amount": 608,
+            "amount": 359,
             "timestamp": 13
         },
         {
             "command": "addFunds",
             "account": "RO90POOB5450777208072365",
-            "amount": 71,
+            "amount": 785,
             "timestamp": 14
         },
         {
             "command": "addFunds",
             "account": "RO65POOB8944016386845896",
-            "amount": 367,
+            "amount": 737,
             "timestamp": 15
         },
         {
@@ -144,27 +144,27 @@
             "command": "splitPayment",
             "accounts": [
                 "RO58POOB7344468893732422",
-                "RO65POOB8944016386845896",
                 "RO90POOB5450777208072365",
+                "RO65POOB8944016386845896",
                 "RO69POOB6209498372540635"
             ],
-            "amount": 780,
-            "currency": "USD",
+            "amount": 186,
+            "currency": "EUR",
             "timestamp": 17
         },
         {
             "command": "splitPayment",
             "accounts": [
                 "RO69POOB6209498372540635",
-                "RO65POOB8944016386845896"
+                "RO58POOB7344468893732422"
             ],
-            "amount": 535,
+            "amount": 3197,
             "currency": "EUR",
             "timestamp": 18
         },
         {
             "command": "printTransactions",
-            "email": "Flavia_Stanescu@gmail.ro",
+            "email": "Margaux_Nicolas@gmail.fr",
             "timestamp": 19
         }
     ]

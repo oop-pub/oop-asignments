@@ -1,14 +1,14 @@
 {
     "users": [
         {
-            "firstName": "Gary",
-            "lastName": "James",
-            "email": "Gary_James@hotmail.us"
+            "firstName": "Emanuel",
+            "lastName": "Dumitrescu",
+            "email": "Emanuel_Dumitrescu@gmail.ro"
         },
         {
-            "firstName": "Lia",
-            "lastName": "Tomescu",
-            "email": "Lia_Tomescu@outlook.ro"
+            "firstName": "Jacques",
+            "lastName": "Loiseau",
+            "email": "Jacques_Loiseau@gmail.fr"
         }
     ],
     "exchangeRates": [
@@ -26,54 +26,54 @@
     "commands": [
         {
             "command": "addAccount",
-            "email": "Gary_James@hotmail.us",
-            "currency": "USD",
+            "email": "Emanuel_Dumitrescu@gmail.ro",
+            "currency": "RON",
             "accountType": "classic",
             "timestamp": 1
         },
         {
             "command": "addAccount",
-            "email": "Gary_James@hotmail.us",
-            "currency": "USD",
+            "email": "Emanuel_Dumitrescu@gmail.ro",
+            "currency": "RON",
             "accountType": "classic",
             "timestamp": 2
         },
         {
             "command": "addAccount",
-            "email": "Lia_Tomescu@outlook.ro",
-            "currency": "RON",
+            "email": "Jacques_Loiseau@gmail.fr",
+            "currency": "EUR",
             "accountType": "classic",
             "timestamp": 3
         },
         {
             "command": "addAccount",
-            "email": "Lia_Tomescu@outlook.ro",
-            "currency": "RON",
+            "email": "Jacques_Loiseau@gmail.fr",
+            "currency": "EUR",
             "accountType": "classic",
             "timestamp": 4
         },
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 280,
+            "amount": 838,
             "timestamp": 5
         },
         {
             "command": "addFunds",
             "account": "RO69POOB6209498372540635",
-            "amount": 530,
+            "amount": 216,
             "timestamp": 6
         },
         {
             "command": "addFunds",
             "account": "RO90POOB5450777208072365",
-            "amount": 859,
+            "amount": 791,
             "timestamp": 7
         },
         {
             "command": "addFunds",
             "account": "RO65POOB8944016386845896",
-            "amount": 795,
+            "amount": 586,
             "timestamp": 8
         },
         {
@@ -83,37 +83,37 @@
         {
             "command": "createCard",
             "account": "RO58POOB7344468893732422",
-            "email": "Gary_James@hotmail.us",
+            "email": "Emanuel_Dumitrescu@gmail.ro",
             "timestamp": 10
         },
         {
             "command": "payOnline",
             "cardNumber": "8207906978464446",
-            "amount": 88,
-            "currency": "USD",
+            "amount": 256,
+            "currency": "RON",
             "timestamp": 11,
             "description": "Online payment",
-            "commerciant": "Apple",
-            "email": "Gary_James@hotmail.us"
+            "commerciant": "McDonalds",
+            "email": "Emanuel_Dumitrescu@gmail.ro"
         },
         {
             "command": "payOnline",
             "cardNumber": "8207906978464446",
-            "amount": 59,
+            "amount": 95,
             "currency": "USD",
             "timestamp": 12,
             "description": "Online payment",
-            "commerciant": "Zara",
-            "email": "Gary_James@hotmail.us"
+            "commerciant": "Burger King",
+            "email": "Emanuel_Dumitrescu@gmail.ro"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
+            "amount": 281,
             "receiver": "RO69POOB6209498372540635",
-            "amount": 136,
             "timestamp": 13,
-            "email": "Gary_James@hotmail.us",
-            "description": "Electricity and internet bills"
+            "email": "Emanuel_Dumitrescu@gmail.ro",
+            "description": "Buying new shoes from Zara"
         },
         {
             "command": "printUsers",
@@ -122,104 +122,104 @@
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 300,
+            "amount": 418,
             "timestamp": 15
         },
         {
             "command": "addFunds",
             "account": "RO90POOB5450777208072365",
-            "amount": 152,
+            "amount": 288,
             "timestamp": 16
         },
         {
             "command": "sendMoney",
             "account": "RO90POOB5450777208072365",
+            "amount": 1012,
             "receiver": "RO69POOB6209498372540635",
-            "amount": 823,
             "timestamp": 17,
-            "email": "Lia_Tomescu@outlook.ro",
-            "description": "Electricity and gas bills"
+            "email": "Jacques_Loiseau@gmail.fr",
+            "description": "Water and electricity bills"
         },
         {
             "command": "payOnline",
             "cardNumber": "8207906978464446",
-            "amount": 204,
-            "currency": "USD",
+            "amount": 436,
+            "currency": "RON",
             "timestamp": 18,
             "description": "Online payment",
-            "commerciant": "Zara",
-            "email": "Gary_James@hotmail.us"
+            "commerciant": "Microsoft",
+            "email": "Emanuel_Dumitrescu@gmail.ro"
         },
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 606,
+            "amount": 582,
             "timestamp": 19
         },
         {
             "command": "addFunds",
             "account": "RO69POOB6209498372540635",
-            "amount": 746,
+            "amount": 26,
             "timestamp": 20
         },
         {
             "command": "addFunds",
             "account": "RO90POOB5450777208072365",
-            "amount": 143,
+            "amount": 474,
             "timestamp": 21
         },
         {
             "command": "addFunds",
             "account": "RO65POOB8944016386845896",
-            "amount": 803,
+            "amount": 781,
             "timestamp": 22
         },
         {
             "command": "payOnline",
-            "cardNumber": "7901879264253296",
-            "amount": 210,
-            "currency": "RON",
+            "cardNumber": "4001829491527416",
+            "amount": 119,
+            "currency": "USD",
             "timestamp": 23,
             "description": "Online payment",
-            "commerciant": "Zara",
-            "email": "Lia_Tomescu@outlook.ro"
+            "commerciant": "Burger King",
+            "email": "Jacques_Loiseau@gmail.fr"
         },
         {
             "command": "payOnline",
-            "cardNumber": "7004757825892043",
-            "amount": 405,
-            "currency": "RON",
+            "cardNumber": "6769125583796385",
+            "amount": 285,
+            "currency": "EUR",
             "timestamp": 24,
             "description": "Online payment",
-            "commerciant": "Amazon",
-            "email": "Lia_Tomescu@outlook.ro"
+            "commerciant": "KFC",
+            "email": "Jacques_Loiseau@gmail.fr"
         },
         {
             "command": "report",
+            "startTimestamp": 7,
+            "endTimestamp": 12,
             "account": "RO58POOB7344468893732422",
-            "startTimestamp": 16,
-            "endTimestamp": 20,
             "timestamp": 25
         },
         {
             "command": "report",
+            "startTimestamp": 2,
+            "endTimestamp": 7,
             "account": "RO69POOB6209498372540635",
-            "startTimestamp": 12,
-            "endTimestamp": 16,
             "timestamp": 26
         },
         {
             "command": "report",
-            "account": "RO90POOB5450777208072365",
             "startTimestamp": 13,
-            "endTimestamp": 26,
+            "endTimestamp": 24,
+            "account": "RO90POOB5450777208072365",
             "timestamp": 27
         },
         {
             "command": "report",
+            "startTimestamp": 6,
+            "endTimestamp": 15,
             "account": "RO65POOB8944016386845896",
-            "startTimestamp": 2,
-            "endTimestamp": 13,
             "timestamp": 28
         }
     ]

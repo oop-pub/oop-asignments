@@ -1,52 +1,52 @@
 [ {
   "command" : "printUsers",
   "output" : [ {
-    "firstName" : "Olivier",
-    "lastName" : "Mace",
-    "email" : "Olivier_Mace@yahoo.fr",
+    "firstName" : "Daniel",
+    "lastName" : "Masson",
+    "email" : "Daniel_Masson@outlook.fr",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 74.0,
+      "balance" : 1708.0,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
     } ]
   }, {
-    "firstName" : "Anghel",
-    "lastName" : "Albu",
-    "email" : "Anghel_Albu@outlook.ro",
+    "firstName" : "Cosmin",
+    "lastName" : "Popescu",
+    "email" : "Cosmin_Popescu@yahoo.ro",
     "accounts" : [ ]
   }, {
-    "firstName" : "Henriette",
-    "lastName" : "Huet",
-    "email" : "Henriette_Huet@outlook.fr",
+    "firstName" : "Ryan",
+    "lastName" : "Powell",
+    "email" : "Ryan_Powell@gmail.us",
     "accounts" : [ {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 161.0,
-      "currency" : "EUR",
+      "balance" : 1500.0,
+      "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
     } ]
   }, {
-    "firstName" : "Franck",
-    "lastName" : "Adam",
-    "email" : "Franck_Adam@outlook.fr",
+    "firstName" : "Andrew",
+    "lastName" : "Klein",
+    "email" : "Andrew_Klein@gmail.us",
     "accounts" : [ ]
   }, {
-    "firstName" : "Iuliana",
-    "lastName" : "Georgescu",
-    "email" : "Iuliana_Georgescu@yahoo.ro",
+    "firstName" : "Andrew",
+    "lastName" : "Snyder",
+    "email" : "Andrew_Snyder@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 515.0,
-      "currency" : "RON",
+      "balance" : 615.0,
+      "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
     } ]
   }, {
-    "firstName" : "Iris",
-    "lastName" : "Tabacu",
-    "email" : "Iris_Tabacu@gmail.ro",
+    "firstName" : "Marina",
+    "lastName" : "Diaconescu",
+    "email" : "Marina_Diaconescu@outlook.ro",
     "accounts" : [ ]
   } ],
   "timestamp" : 7
@@ -58,42 +58,14 @@
   },
   "timestamp" : 11
 }, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 13,
-    "description" : "Card not found"
-  },
-  "timestamp" : 13
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 14,
-    "description" : "Card not found"
-  },
-  "timestamp" : 14
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 15,
-    "description" : "Card not found"
-  },
-  "timestamp" : 15
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 16,
-    "description" : "Card not found"
-  },
-  "timestamp" : 16
-}, {
   "command" : "printUsers",
   "output" : [ {
-    "firstName" : "Olivier",
-    "lastName" : "Mace",
-    "email" : "Olivier_Mace@yahoo.fr",
+    "firstName" : "Daniel",
+    "lastName" : "Masson",
+    "email" : "Daniel_Masson@outlook.fr",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 1564.0,
+      "balance" : 9416.4,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -102,41 +74,41 @@
       } ]
     } ]
   }, {
-    "firstName" : "Anghel",
-    "lastName" : "Albu",
-    "email" : "Anghel_Albu@outlook.ro",
+    "firstName" : "Cosmin",
+    "lastName" : "Popescu",
+    "email" : "Cosmin_Popescu@yahoo.ro",
     "accounts" : [ ]
   }, {
-    "firstName" : "Henriette",
-    "lastName" : "Huet",
-    "email" : "Henriette_Huet@outlook.fr",
+    "firstName" : "Ryan",
+    "lastName" : "Powell",
+    "email" : "Ryan_Powell@gmail.us",
     "accounts" : [ {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 574.0,
-      "currency" : "EUR",
+      "balance" : 2861.1111111111113,
+      "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
     } ]
   }, {
-    "firstName" : "Franck",
-    "lastName" : "Adam",
-    "email" : "Franck_Adam@outlook.fr",
+    "firstName" : "Andrew",
+    "lastName" : "Klein",
+    "email" : "Andrew_Klein@gmail.us",
     "accounts" : [ ]
   }, {
-    "firstName" : "Iuliana",
-    "lastName" : "Georgescu",
-    "email" : "Iuliana_Georgescu@yahoo.ro",
+    "firstName" : "Andrew",
+    "lastName" : "Snyder",
+    "email" : "Andrew_Snyder@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 515.0,
-      "currency" : "RON",
+      "balance" : 615.0,
+      "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
     } ]
   }, {
-    "firstName" : "Iris",
-    "lastName" : "Tabacu",
-    "email" : "Iris_Tabacu@gmail.ro",
+    "firstName" : "Marina",
+    "lastName" : "Diaconescu",
+    "email" : "Marina_Diaconescu@outlook.ro",
     "accounts" : [ ]
   } ],
   "timestamp" : 18
@@ -149,28 +121,47 @@
     "timestamp" : 12,
     "description" : "New card created",
     "card" : "8207906978464446",
-    "cardHolder" : "Olivier_Mace@yahoo.fr",
+    "cardHolder" : "Daniel_Masson@outlook.fr",
     "account" : "RO58POOB7344468893732422"
   }, {
+    "timestamp" : 13,
+    "description" : "Card payment",
+    "amount" : 81.0,
+    "commerciant" : "Amazon"
+  }, {
+    "timestamp" : 14,
+    "description" : "Card payment",
+    "amount" : 213.0,
+    "commerciant" : "Microsoft"
+  }, {
+    "timestamp" : 15,
+    "description" : "Card payment",
+    "amount" : 74.60000000000001,
+    "commerciant" : "KFC"
+  }, {
+    "timestamp" : 16,
+    "description" : "Card payment",
+    "amount" : 159.0,
+    "commerciant" : "H&M"
+  }, {
     "timestamp" : 17,
-    "description" : "Consultation at a private clinic",
+    "description" : "Navigo pass for metro rides",
     "senderIBAN" : "RO58POOB7344468893732422",
     "receiverIBAN" : "RO69POOB6209498372540635",
-    "amount" : "413.0 EUR",
+    "amount" : "1225.0 EUR",
     "transferType" : "sent"
   }, {
     "timestamp" : 28,
-    "description" : "Split payment of 2869.00 EUR",
-    "currency" : "EUR",
-    "amount" : 478.1666666666667,
-    "involvedAccounts" : [ "RO58POOB7344468893732422", "RO90POOB5450777208072365", "RO76POOB4035116042454483", "RO58POOB2721178218599590", "RO69POOB6209498372540635", "RO65POOB8944016386845896" ]
+    "description" : "Split payment of 1595.00 USD",
+    "currency" : "USD",
+    "amount" : 265.8333333333333,
+    "involvedAccounts" : [ "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO90POOB5450777208072365", "RO69POOB6209498372540635", "RO65POOB8944016386845896" ]
   }, {
     "timestamp" : 29,
-    "description" : "Split payment of 2950.00 EUR",
-    "currency" : "EUR",
-    "amount" : 983.3333333333334,
-    "involvedAccounts" : [ "RO58POOB7344468893732422", "RO58POOB2721178218599590", "RO65POOB8944016386845896" ],
-    "error" : "Account RO58POOB2721178218599590 has insufficient funds for a split payment."
+    "description" : "Split payment of 3642.00 USD",
+    "currency" : "USD",
+    "amount" : 1214.0,
+    "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB7344468893732422", "RO58POOB2721178218599590" ]
   } ],
   "timestamp" : 30
 }, {
@@ -180,17 +171,10 @@
     "description" : "New account created"
   }, {
     "timestamp" : 28,
-    "description" : "Split payment of 2869.00 EUR",
-    "currency" : "EUR",
-    "amount" : 478.1666666666667,
-    "involvedAccounts" : [ "RO58POOB7344468893732422", "RO90POOB5450777208072365", "RO76POOB4035116042454483", "RO58POOB2721178218599590", "RO69POOB6209498372540635", "RO65POOB8944016386845896" ]
-  }, {
-    "timestamp" : 33,
-    "description" : "Split payment of 1979.00 EUR",
-    "currency" : "EUR",
-    "amount" : 395.8,
-    "involvedAccounts" : [ "RO58POOB7344468893732422", "RO69POOB6209498372540635", "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO90POOB5450777208072365" ],
-    "error" : "Account RO58POOB2721178218599590 has insufficient funds for a split payment."
+    "description" : "Split payment of 1595.00 USD",
+    "currency" : "USD",
+    "amount" : 265.8333333333333,
+    "involvedAccounts" : [ "RO58POOB2721178218599590", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO90POOB5450777208072365", "RO69POOB6209498372540635", "RO65POOB8944016386845896" ]
   } ],
   "timestamp" : 34
 } ]

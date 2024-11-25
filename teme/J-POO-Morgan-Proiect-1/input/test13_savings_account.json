@@ -1,19 +1,19 @@
 {
     "users": [
         {
-            "firstName": "Fabian",
-            "lastName": "Puscasu",
-            "email": "Fabian_Puscasu@gmail.ro"
+            "firstName": "Beniamin",
+            "lastName": "Popa",
+            "email": "Beniamin_Popa@outlook.ro"
         },
         {
-            "firstName": "Norbert",
-            "lastName": "Dochioiu",
-            "email": "Norbert_Dochioiu@outlook.ro"
+            "firstName": "Christine",
+            "lastName": "Carpenter",
+            "email": "Christine_Carpenter@yahoo.us"
         },
         {
-            "firstName": "Gregoire",
-            "lastName": "Chretien",
-            "email": "Gregoire_Chretien@hotmail.fr"
+            "firstName": "Eugen",
+            "lastName": "Barbu",
+            "email": "Eugen_Barbu@gmail.ro"
         }
     ],
     "exchangeRates": [
@@ -31,91 +31,91 @@
     "commands": [
         {
             "command": "addAccount",
-            "email": "Fabian_Puscasu@gmail.ro",
+            "email": "Beniamin_Popa@outlook.ro",
             "currency": "RON",
             "accountType": "savings",
-            "interestRate": 0.19,
+            "interestRate": 0.7,
             "timestamp": 1
         },
         {
             "command": "addAccount",
-            "email": "Norbert_Dochioiu@outlook.ro",
-            "currency": "RON",
+            "email": "Christine_Carpenter@yahoo.us",
+            "currency": "USD",
             "accountType": "savings",
-            "interestRate": 0.56,
+            "interestRate": 0.16,
             "timestamp": 2
         },
         {
             "command": "addAccount",
-            "email": "Gregoire_Chretien@hotmail.fr",
-            "currency": "EUR",
+            "email": "Eugen_Barbu@gmail.ro",
+            "currency": "RON",
             "accountType": "savings",
-            "interestRate": 0.48,
+            "interestRate": 0.39,
             "timestamp": 3
         },
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 673,
+            "amount": 534,
             "timestamp": 4
         },
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 367,
+            "amount": 918,
             "timestamp": 5
         },
         {
             "command": "addFunds",
             "account": "RO69POOB6209498372540635",
-            "amount": 964,
+            "amount": 774,
             "timestamp": 6
         },
         {
             "command": "addFunds",
             "account": "RO69POOB6209498372540635",
-            "amount": 778,
+            "amount": 333,
             "timestamp": 7
         },
         {
             "command": "addFunds",
             "account": "RO90POOB5450777208072365",
-            "amount": 402,
+            "amount": 805,
             "timestamp": 8
         },
         {
             "command": "addFunds",
             "account": "RO90POOB5450777208072365",
-            "amount": 431,
+            "amount": 566,
             "timestamp": 9
         },
         {
             "command": "createCard",
             "account": "RO58POOB7344468893732422",
-            "email": "Fabian_Puscasu@gmail.ro",
+            "email": "Beniamin_Popa@outlook.ro",
             "timestamp": 10
         },
         {
             "command": "createCard",
             "account": "RO69POOB6209498372540635",
-            "email": "Norbert_Dochioiu@outlook.ro",
+            "email": "Christine_Carpenter@yahoo.us",
             "timestamp": 11
         },
         {
             "command": "createCard",
             "account": "RO90POOB5450777208072365",
-            "email": "Gregoire_Chretien@hotmail.fr",
+            "email": "Eugen_Barbu@gmail.ro",
             "timestamp": 12
         },
         {
             "command": "payOnline",
             "cardNumber": "8207906978464446",
-            "amount": 291,
+            "amount": 292,
             "currency": "RON",
             "timestamp": 13,
             "description": "Online payment",
-            "commerciant": "Amazon",
-            "email": "Fabian_Puscasu@gmail.ro"
+            "commerciant": "H&M",
+            "email": "Beniamin_Popa@outlook.ro"
         },
         {
             "command": "printUsers",
@@ -124,27 +124,27 @@
         {
             "command": "changeInterestRate",
             "account": "RO69POOB6209498372540635",
-            "interestRate": 0.09,
+            "interestRate": 0.53,
             "timestamp": 15
         },
         {
             "command": "payOnline",
             "cardNumber": "7901879264253296",
-            "amount": 132,
+            "amount": 429,
             "currency": "USD",
             "timestamp": 16,
             "description": "Online payment",
-            "commerciant": "Amazon",
-            "email": "Norbert_Dochioiu@outlook.ro"
+            "commerciant": "Nike",
+            "email": "Christine_Carpenter@yahoo.us"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
             "receiver": "RO69POOB6209498372540635",
-            "amount": 807,
+            "amount": 1291,
             "timestamp": 17,
-            "email": "Fabian_Puscasu@gmail.ro",
-            "description": "Miscellaneous cash expenses"
+            "email": "Beniamin_Popa@outlook.ro",
+            "description": "Medical checkup at Regina Maria"
         },
         {
             "command": "printUsers",
@@ -152,13 +152,14 @@
         },
         {
             "command": "deleteAccount",
+            "email": "Christine_Carpenter@yahoo.us",
             "account": "RO69POOB6209498372540635",
             "timestamp": 19
         },
         {
             "command": "changeInterestRate",
             "account": "RO69POOB6209498372540635",
-            "interestRate": 0.79,
+            "interestRate": 0.58,
             "timestamp": 20
         },
         {

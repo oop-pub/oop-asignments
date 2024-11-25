@@ -1,14 +1,14 @@
 {
     "users": [
         {
-            "firstName": "Severin",
-            "lastName": "Stanescu",
-            "email": "Severin_Stanescu@outlook.ro"
+            "firstName": "Nicole",
+            "lastName": "Daniels",
+            "email": "Nicole_Daniels@outlook.us"
         },
         {
-            "firstName": "Plesu",
-            "lastName": "Aane",
-            "email": "Plesu_Aane@outlook.ro"
+            "firstName": "Heather",
+            "lastName": "Adams",
+            "email": "Heather_Adams@yahoo.us"
         }
     ],
     "exchangeRates": [
@@ -26,37 +26,39 @@
     "commands": [
         {
             "command": "addAccount",
-            "email": "Severin_Stanescu@outlook.ro",
-            "currency": "RON",
+            "email": "Nicole_Daniels@outlook.us",
+            "currency": "USD",
             "accountType": "classic",
             "timestamp": 1
         },
         {
             "command": "addAccount",
-            "email": "Plesu_Aane@outlook.ro",
-            "currency": "RON",
+            "email": "Heather_Adams@yahoo.us",
+            "currency": "USD",
             "accountType": "classic",
             "timestamp": 2
         },
         {
             "command": "createOneTimeCard",
             "account": "RO58POOB7344468893732422",
-            "email": "Severin_Stanescu@outlook.ro",
+            "email": "Nicole_Daniels@outlook.us",
             "timestamp": 3
         },
         {
             "command": "createOneTimeCard",
             "account": "RO69POOB6209498372540635",
-            "email": "Plesu_Aane@outlook.ro",
+            "email": "Heather_Adams@yahoo.us",
             "timestamp": 4
         },
         {
             "command": "deleteCard",
+            "email": "Nicole_Daniels@outlook.us",
             "cardNumber": "8207906978464446",
             "timestamp": 5
         },
         {
             "command": "deleteCard",
+            "email": "Heather_Adams@yahoo.us",
             "cardNumber": "7901879264253296",
             "timestamp": 6
         },
@@ -66,36 +68,36 @@
         },
         {
             "command": "addAccount",
-            "email": "Severin_Stanescu@outlook.ro",
-            "currency": "RON",
+            "email": "Nicole_Daniels@outlook.us",
+            "currency": "USD",
             "accountType": "classic",
             "timestamp": 8
         },
         {
             "command": "payOnline",
-            "cardNumber": "7004757825892043",
-            "amount": 251,
+            "cardNumber": "4001829491527416",
+            "amount": 473,
             "currency": "USD",
             "timestamp": 9,
             "description": "Online payment",
-            "commerciant": "Apple",
-            "email": "Severin_Stanescu@outlook.ro"
+            "commerciant": "Amazon",
+            "email": "Nicole_Daniels@outlook.us"
         },
         {
             "command": "createCard",
             "account": "RO58POOB7344468893732422",
-            "email": "Severin_Stanescu@outlook.ro",
+            "email": "Nicole_Daniels@outlook.us",
             "timestamp": 10
         },
         {
             "command": "payOnline",
-            "cardNumber": "6796819982034243",
-            "amount": 367,
-            "currency": "RON",
+            "cardNumber": "7004757825892043",
+            "amount": 141,
+            "currency": "USD",
             "timestamp": 11,
             "description": "Online payment",
-            "commerciant": "Apple",
-            "email": "Severin_Stanescu@outlook.ro"
+            "commerciant": "H&M",
+            "email": "Nicole_Daniels@outlook.us"
         },
         {
             "command": "printUsers",
@@ -103,18 +105,19 @@
         },
         {
             "command": "deleteCard",
-            "cardNumber": "6796819982034243",
+            "email": "Nicole_Daniels@outlook.us",
+            "cardNumber": "7004757825892043",
             "timestamp": 13
         },
         {
             "command": "payOnline",
-            "cardNumber": "8207906978464446",
-            "amount": 310,
-            "currency": "RON",
+            "cardNumber": "7004757825892043",
+            "amount": 262,
+            "currency": "USD",
             "timestamp": 14,
             "description": "Online payment",
             "commerciant": "H&M",
-            "email": "Severin_Stanescu@outlook.ro"
+            "email": "Nicole_Daniels@outlook.us"
         },
         {
             "command": "printUsers",
@@ -123,19 +126,19 @@
         {
             "command": "addFunds",
             "account": "RO69POOB6209498372540635",
-            "amount": 530,
+            "amount": 944,
             "timestamp": 16
         },
         {
             "command": "addFunds",
             "account": "RO69POOB6209498372540635",
-            "amount": 791,
+            "amount": 229,
             "timestamp": 17
         },
         {
             "command": "createCard",
             "account": "RO69POOB6209498372540635",
-            "email": "Plesu_Aane@outlook.ro",
+            "email": "Heather_Adams@yahoo.us",
             "timestamp": 18
         },
         {
@@ -144,13 +147,17 @@
         },
         {
             "command": "payOnline",
-            "cardNumber": "4686471658318359",
-            "amount": 1460,
+            "cardNumber": "6796819982034243",
+            "amount": 1493,
             "currency": "RON",
             "timestamp": 20,
             "description": "Online payment",
             "commerciant": "Zara",
-            "email": "Plesu_Aane@outlook.ro"
+            "email": "Heather_Adams@yahoo.us"
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 21
         }
     ]
 }

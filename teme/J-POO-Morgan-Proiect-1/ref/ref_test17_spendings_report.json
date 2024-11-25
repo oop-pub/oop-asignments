@@ -1,35 +1,35 @@
 [ {
   "command" : "printUsers",
   "output" : [ {
-    "firstName" : "Meghan",
-    "lastName" : "Richardson",
-    "email" : "Meghan_Richardson@gmail.us",
+    "firstName" : "Simion",
+    "lastName" : "Mazilescu",
+    "email" : "Simion_Mazilescu@yahoo.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 229.0,
-      "currency" : "USD",
+      "balance" : 2613.0,
+      "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
     }, {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 541.0,
-      "currency" : "USD",
+      "balance" : 1120.0,
+      "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
     } ]
   }, {
-    "firstName" : "Matthew",
-    "lastName" : "Santiago",
-    "email" : "Matthew_Santiago@hotmail.us",
+    "firstName" : "Anthony",
+    "lastName" : "Graham",
+    "email" : "Anthony_Graham@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 631.0,
+      "balance" : 423.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
     }, {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 311.0,
+      "balance" : 334.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -39,13 +39,13 @@
 }, {
   "command" : "printUsers",
   "output" : [ {
-    "firstName" : "Meghan",
-    "lastName" : "Richardson",
-    "email" : "Meghan_Richardson@gmail.us",
+    "firstName" : "Simion",
+    "lastName" : "Mazilescu",
+    "email" : "Simion_Mazilescu@yahoo.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 131.7,
-      "currency" : "USD",
+      "balance" : 254.79999999999995,
+      "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
         "cardNumber" : "8207906978464446",
@@ -53,24 +53,24 @@
       } ]
     }, {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 552.0,
-      "currency" : "USD",
+      "balance" : 1185.0,
+      "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
     } ]
   }, {
-    "firstName" : "Matthew",
-    "lastName" : "Santiago",
-    "email" : "Matthew_Santiago@hotmail.us",
+    "firstName" : "Anthony",
+    "lastName" : "Graham",
+    "email" : "Anthony_Graham@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 631.0,
+      "balance" : 423.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
     }, {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 311.0,
+      "balance" : 334.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -91,59 +91,4 @@
     "description" : "Card not found"
   },
   "timestamp" : 24
-}, {
-  "command" : "report",
-  "output" : {
-    "IBAN" : "RO58POOB7344468893732422",
-    "balance" : 362.7,
-    "currency" : "USD",
-    "transactions" : [ {
-      "timestamp" : 18,
-      "description" : "Card payment",
-      "amount" : 66.0,
-      "commerciant" : "Apple"
-    } ]
-  },
-  "timestamp" : 25
-}, {
-  "command" : "report",
-  "output" : {
-    "IBAN" : "RO69POOB6209498372540635",
-    "balance" : 1677.0,
-    "currency" : "USD",
-    "transactions" : [ {
-      "timestamp" : 17,
-      "description" : "Visit to a local healthcare clinic",
-      "senderIBAN" : "RO90POOB5450777208072365",
-      "receiverIBAN" : "RO69POOB6209498372540635",
-      "amount" : "464.0 USD",
-      "transferType" : "received"
-    } ]
-  },
-  "timestamp" : 26
-}, {
-  "command" : "report",
-  "output" : {
-    "IBAN" : "RO90POOB5450777208072365",
-    "balance" : 1437.0,
-    "currency" : "USD",
-    "transactions" : [ {
-      "timestamp" : 17,
-      "description" : "Visit to a local healthcare clinic",
-      "senderIBAN" : "RO90POOB5450777208072365",
-      "receiverIBAN" : "RO69POOB6209498372540635",
-      "amount" : "464.0 USD",
-      "transferType" : "sent"
-    } ]
-  },
-  "timestamp" : 27
-}, {
-  "command" : "report",
-  "output" : {
-    "IBAN" : "RO65POOB8944016386845896",
-    "balance" : 459.0,
-    "currency" : "USD",
-    "transactions" : [ ]
-  },
-  "timestamp" : 28
 } ]

@@ -1,62 +1,62 @@
 [ {
   "command" : "printUsers",
   "output" : [ {
-    "firstName" : "Marioara",
-    "lastName" : "Gheorghiu",
-    "email" : "Marioara_Gheorghiu@yahoo.ro",
+    "firstName" : "Laura",
+    "lastName" : "Harris",
+    "email" : "Laura_Harris@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 148.0,
-      "currency" : "RON",
+      "balance" : 711.0,
+      "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
     }, {
       "IBAN" : "RO76POOB4035116042454483",
       "balance" : 0.0,
-      "currency" : "RON",
+      "currency" : "USD",
       "type" : "savings",
       "cards" : [ ]
     } ]
   }, {
-    "firstName" : "Aurelia",
-    "lastName" : "Popa",
-    "email" : "Aurelia_Popa@yahoo.ro",
+    "firstName" : "Julien-William",
+    "lastName" : "Martinez",
+    "email" : "Julien-William_Martinez@hotmail.fr",
     "accounts" : [ {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 174.0,
-      "currency" : "RON",
-      "type" : "classic",
-      "cards" : [ ]
-    } ]
-  }, {
-    "firstName" : "Adelaide",
-    "lastName" : "Lefevre",
-    "email" : "Adelaide_Lefevre@yahoo.fr",
-    "accounts" : [ {
-      "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 91.0,
+      "balance" : 128.0,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
     } ]
   }, {
-    "firstName" : "Amber",
-    "lastName" : "Williams",
-    "email" : "Amber_Williams@outlook.us",
+    "firstName" : "Jill",
+    "lastName" : "Russell",
+    "email" : "Jill_Russell@gmail.us",
     "accounts" : [ {
-      "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 842.0,
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 241.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
     } ]
   }, {
-    "firstName" : "Alexandria",
-    "lastName" : "Mendes",
-    "email" : "Alexandria_Mendes@yahoo.fr",
+    "firstName" : "Margaux",
+    "lastName" : "Courtois",
+    "email" : "Margaux_Courtois@gmail.fr",
+    "accounts" : [ {
+      "IBAN" : "RO65POOB8944016386845896",
+      "balance" : 586.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Marcelle-Zoe",
+    "lastName" : "Evrard",
+    "email" : "Marcelle-Zoe_Evrard@yahoo.fr",
     "accounts" : [ {
       "IBAN" : "RO58POOB2721178218599590",
-      "balance" : 636.0,
+      "balance" : 214.0,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -122,36 +122,25 @@
     "description" : "New account created"
   }, {
     "timestamp" : 20,
-    "description" : "Monthly rent payment for a flat in Bucharest",
+    "description" : "Monthly rent payment for a Parisian flat",
     "senderIBAN" : "RO69POOB6209498372540635",
     "receiverIBAN" : "RO58POOB7344468893732422",
-    "amount" : "137.0 RON",
+    "amount" : "98.0 EUR",
     "transferType" : "sent"
   }, {
     "timestamp" : 21,
-    "description" : "Metro card for public transport",
-    "senderIBAN" : "RO69POOB6209498372540635",
-    "receiverIBAN" : "RO90POOB5450777208072365",
-    "amount" : "12.0 RON",
-    "transferType" : "sent"
+    "description" : "Insufficient funds"
   }, {
     "timestamp" : 22,
     "description" : "Insufficient funds"
   }, {
     "timestamp" : 23,
-    "description" : "Insufficient funds"
+    "description" : "Cannot perform payment due to a minimum balance being set"
   }, {
     "timestamp" : 24,
     "description" : "Insufficient funds"
   } ],
   "timestamp" : 25
-}, {
-  "command" : "setAlias",
-  "output" : {
-    "timestamp" : 26,
-    "description" : "User not found"
-  },
-  "timestamp" : 26
 }, {
   "command" : "printTransactions",
   "output" : [ {
@@ -159,10 +148,10 @@
     "description" : "New account created"
   }, {
     "timestamp" : 27,
-    "description" : "Weekly groceries from Walmart",
+    "description" : "Water and electricity bills",
     "senderIBAN" : "RO65POOB8944016386845896",
     "receiverIBAN" : "RO90POOB5450777208072365",
-    "amount" : "124.0 USD",
+    "amount" : "95.0 EUR",
     "transferType" : "sent"
   } ],
   "timestamp" : 28

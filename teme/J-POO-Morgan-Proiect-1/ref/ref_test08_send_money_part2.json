@@ -1,13 +1,13 @@
 [ {
   "command" : "printUsers",
   "output" : [ {
-    "firstName" : "Ioan",
-    "lastName" : "Nemes",
-    "email" : "Ioan_Nemes@hotmail.ro",
+    "firstName" : "Patrick",
+    "lastName" : "Cabrera",
+    "email" : "Patrick_Cabrera@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 660.0,
-      "currency" : "RON",
+      "balance" : 557.0,
+      "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
         "cardNumber" : "8207906978464446",
@@ -15,23 +15,23 @@
       } ]
     } ]
   }, {
-    "firstName" : "Carla",
-    "lastName" : "Dobre",
-    "email" : "Carla_Dobre@outlook.ro",
+    "firstName" : "Leslie",
+    "lastName" : "Thomas",
+    "email" : "Leslie_Thomas@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 634.0,
-      "currency" : "RON",
+      "balance" : 6630.0,
+      "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
     } ]
   }, {
-    "firstName" : "Alice-Madeleine",
-    "lastName" : "Valette",
-    "email" : "Alice-Madeleine_Valette@yahoo.fr",
+    "firstName" : "Elise",
+    "lastName" : "Devaux",
+    "email" : "Elise_Devaux@outlook.fr",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 541.0,
+      "balance" : 6900.0,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -41,13 +41,13 @@
 }, {
   "command" : "printUsers",
   "output" : [ {
-    "firstName" : "Ioan",
-    "lastName" : "Nemes",
-    "email" : "Ioan_Nemes@hotmail.ro",
+    "firstName" : "Patrick",
+    "lastName" : "Cabrera",
+    "email" : "Patrick_Cabrera@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 709.25,
-      "currency" : "RON",
+      "balance" : 75.0,
+      "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
         "cardNumber" : "8207906978464446",
@@ -55,23 +55,23 @@
       } ]
     } ]
   }, {
-    "firstName" : "Carla",
-    "lastName" : "Dobre",
-    "email" : "Carla_Dobre@outlook.ro",
+    "firstName" : "Leslie",
+    "lastName" : "Thomas",
+    "email" : "Leslie_Thomas@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 432.0,
-      "currency" : "RON",
+      "balance" : 7011.0,
+      "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
     } ]
   }, {
-    "firstName" : "Alice-Madeleine",
-    "lastName" : "Valette",
-    "email" : "Alice-Madeleine_Valette@yahoo.fr",
+    "firstName" : "Elise",
+    "lastName" : "Devaux",
+    "email" : "Elise_Devaux@outlook.fr",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 948.3333333333335,
+      "balance" : 6980.8,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
@@ -81,13 +81,13 @@
 }, {
   "command" : "printUsers",
   "output" : [ {
-    "firstName" : "Ioan",
-    "lastName" : "Nemes",
-    "email" : "Ioan_Nemes@hotmail.ro",
+    "firstName" : "Patrick",
+    "lastName" : "Cabrera",
+    "email" : "Patrick_Cabrera@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 1408.25,
-      "currency" : "RON",
+      "balance" : 1729.0,
+      "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
         "cardNumber" : "8207906978464446",
@@ -95,23 +95,23 @@
       } ]
     } ]
   }, {
-    "firstName" : "Carla",
-    "lastName" : "Dobre",
-    "email" : "Carla_Dobre@outlook.ro",
+    "firstName" : "Leslie",
+    "lastName" : "Thomas",
+    "email" : "Leslie_Thomas@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 299.0,
-      "currency" : "RON",
+      "balance" : 11836.0,
+      "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
     } ]
   }, {
-    "firstName" : "Alice-Madeleine",
-    "lastName" : "Valette",
-    "email" : "Alice-Madeleine_Valette@yahoo.fr",
+    "firstName" : "Elise",
+    "lastName" : "Devaux",
+    "email" : "Elise_Devaux@outlook.fr",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 948.3333333333335,
+      "balance" : 6980.8,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]

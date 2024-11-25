@@ -1,17 +1,17 @@
 {
     "users": [
         {
-            "firstName": "Julie",
-            "lastName": "Pierce",
-            "email": "Julie_Pierce@gmail.us"
+            "firstName": "Ana",
+            "lastName": "Stanescu",
+            "email": "Ana_Stanescu@hotmail.ro"
         }
     ],
     "exchangeRates": [],
     "commands": [
         {
             "command": "addAccount",
-            "email": "Julie_Pierce@gmail.us",
-            "currency": "USD",
+            "email": "Ana_Stanescu@hotmail.ro",
+            "currency": "RON",
             "accountType": "classic",
             "timestamp": 1
         },
@@ -22,13 +22,13 @@
         {
             "command": "createCard",
             "account": "RO58POOB7344468893732422",
-            "email": "Julie_Pierce@gmail.us",
+            "email": "Ana_Stanescu@hotmail.ro",
             "timestamp": 3
         },
         {
             "command": "createOneTimeCard",
             "account": "RO58POOB7344468893732422",
-            "email": "Julie_Pierce@gmail.us",
+            "email": "Ana_Stanescu@hotmail.ro",
             "timestamp": 4
         },
         {
@@ -38,11 +38,12 @@
         {
             "command": "createOneTimeCard",
             "account": "RO58POOB7344468893732422",
-            "email": "Julie_Pierce@gmail.us",
+            "email": "Ana_Stanescu@hotmail.ro",
             "timestamp": 6
         },
         {
             "command": "deleteCard",
+            "email": "Ana_Stanescu@hotmail.ro",
             "cardNumber": "7004757825892043",
             "timestamp": 7
         },

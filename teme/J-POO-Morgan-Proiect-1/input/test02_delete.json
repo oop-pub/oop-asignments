@@ -1,14 +1,14 @@
 {
     "users": [
         {
-            "firstName": "Severin",
-            "lastName": "Stanescu",
-            "email": "Severin_Stanescu@outlook.ro"
+            "firstName": "Antoine",
+            "lastName": "Couturier",
+            "email": "Antoine_Couturier@yahoo.fr"
         },
         {
-            "firstName": "Thibaut",
-            "lastName": "Richard",
-            "email": "Thibaut_Richard@outlook.fr"
+            "firstName": "Dragos",
+            "lastName": "Mazilescu",
+            "email": "Dragos_Mazilescu@hotmail.ro"
         }
     ],
     "exchangeRates": [],
@@ -19,15 +19,15 @@
         },
         {
             "command": "addAccount",
-            "email": "Severin_Stanescu@outlook.ro",
-            "currency": "RON",
+            "email": "Antoine_Couturier@yahoo.fr",
+            "currency": "EUR",
             "accountType": "classic",
             "timestamp": 2
         },
         {
             "command": "addAccount",
-            "email": "Thibaut_Richard@outlook.fr",
-            "currency": "EUR",
+            "email": "Dragos_Mazilescu@hotmail.ro",
+            "currency": "RON",
             "accountType": "classic",
             "timestamp": 3
         },
@@ -37,6 +37,7 @@
         },
         {
             "command": "deleteAccount",
+            "email": "Antoine_Couturier@yahoo.fr",
             "account": "RO58POOB7344468893732422",
             "timestamp": 5
         },

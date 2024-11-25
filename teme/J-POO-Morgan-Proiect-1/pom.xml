@@ -4,9 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>oop.pub</groupId>
+    <groupId>org.poo</groupId>
     <artifactId>j-poo-morgan-phase-one</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -30,7 +31,7 @@
                             <archive>
                                 <manifest>
                                     <mainClass>
-                                        oop.pub.main.Main
+                                        org.poo.main.Main
                                     </mainClass>
                                 </manifest>
                             </archive>

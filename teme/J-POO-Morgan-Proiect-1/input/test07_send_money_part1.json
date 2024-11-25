@@ -1,14 +1,14 @@
 {
     "users": [
         {
-            "firstName": "Therese",
-            "lastName": "Chauvin-Riou",
-            "email": "Therese_Chauvin-Riou@hotmail.fr"
+            "firstName": "Madalin",
+            "lastName": "Diaconu",
+            "email": "Madalin_Diaconu@hotmail.ro"
         },
         {
-            "firstName": "Manuela",
-            "lastName": "Toma",
-            "email": "Manuela_Toma@hotmail.ro"
+            "firstName": "Iulia",
+            "lastName": "Stoica",
+            "email": "Iulia_Stoica@hotmail.ro"
         }
     ],
     "exchangeRates": [
@@ -26,20 +26,20 @@
     "commands": [
         {
             "command": "addAccount",
-            "email": "Therese_Chauvin-Riou@hotmail.fr",
-            "currency": "EUR",
+            "email": "Madalin_Diaconu@hotmail.ro",
+            "currency": "RON",
             "accountType": "classic",
             "timestamp": 1
         },
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 269,
+            "amount": 283,
             "timestamp": 2
         },
         {
             "command": "addAccount",
-            "email": "Manuela_Toma@hotmail.ro",
+            "email": "Iulia_Stoica@hotmail.ro",
             "currency": "RON",
             "accountType": "classic",
             "timestamp": 3
@@ -47,17 +47,17 @@
         {
             "command": "addFunds",
             "account": "RO69POOB6209498372540635",
-            "amount": 683,
+            "amount": 513,
             "timestamp": 4
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
             "receiver": "RO69POOB6209498372540635",
-            "amount": 29,
+            "amount": 110,
             "timestamp": 5,
-            "email": "Therese_Chauvin-Riou@hotmail.fr",
-            "description": "Shopping at Galeries Lafayette"
+            "email": "Madalin_Diaconu@hotmail.ro",
+            "description": "Miscellaneous cash expenses"
         },
         {
             "command": "printUsers",
@@ -67,10 +67,10 @@
             "command": "sendMoney",
             "account": "RO69POOB6209498372540635",
             "receiver": "RO58POOB7344468893732422",
-            "amount": 1108,
+            "amount": 890,
             "timestamp": 7,
-            "email": "Manuela_Toma@hotmail.ro",
-            "description": "Buying new shoes from Zara"
+            "email": "Iulia_Stoica@hotmail.ro",
+            "description": "Miscellaneous cash expenses"
         },
         {
             "command": "printUsers",

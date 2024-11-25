@@ -1,13 +1,13 @@
 [ {
   "command" : "printUsers",
   "output" : [ {
-    "firstName" : "Julie",
-    "lastName" : "Pierce",
-    "email" : "Julie_Pierce@gmail.us",
+    "firstName" : "Ana",
+    "lastName" : "Stanescu",
+    "email" : "Ana_Stanescu@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
       "balance" : 0.0,
-      "currency" : "USD",
+      "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
     } ]
@@ -16,13 +16,13 @@
 }, {
   "command" : "printUsers",
   "output" : [ {
-    "firstName" : "Julie",
-    "lastName" : "Pierce",
-    "email" : "Julie_Pierce@gmail.us",
+    "firstName" : "Ana",
+    "lastName" : "Stanescu",
+    "email" : "Ana_Stanescu@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
       "balance" : 0.0,
-      "currency" : "USD",
+      "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
         "cardNumber" : "8207906978464446",
@@ -35,31 +35,21 @@
   } ],
   "timestamp" : 5
 }, {
-  "command" : "deleteCard",
-  "output" : {
-    "timestamp" : 7,
-    "description" : "User not found"
-  },
-  "timestamp" : 7
-}, {
   "command" : "printUsers",
   "output" : [ {
-    "firstName" : "Julie",
-    "lastName" : "Pierce",
-    "email" : "Julie_Pierce@gmail.us",
+    "firstName" : "Ana",
+    "lastName" : "Stanescu",
+    "email" : "Ana_Stanescu@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
       "balance" : 0.0,
-      "currency" : "USD",
+      "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
         "cardNumber" : "8207906978464446",
         "status" : "active"
       }, {
         "cardNumber" : "7901879264253296",
-        "status" : "active"
-      }, {
-        "cardNumber" : "7004757825892043",
         "status" : "active"
       } ]
     } ]

@@ -1,46 +1,46 @@
 [ {
   "command" : "printUsers",
   "output" : [ {
-    "firstName" : "Flavia",
-    "lastName" : "Stanescu",
-    "email" : "Flavia_Stanescu@gmail.ro",
+    "firstName" : "Margaux",
+    "lastName" : "Nicolas",
+    "email" : "Margaux_Nicolas@gmail.fr",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 884.0,
-      "currency" : "RON",
-      "type" : "classic",
-      "cards" : [ ]
-    } ]
-  }, {
-    "firstName" : "Taylor",
-    "lastName" : "York",
-    "email" : "Taylor_York@yahoo.us",
-    "accounts" : [ {
-      "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 814.0,
-      "currency" : "USD",
-      "type" : "classic",
-      "cards" : [ ]
-    } ]
-  }, {
-    "firstName" : "Lucie",
-    "lastName" : "Leconte-Munoz",
-    "email" : "Lucie_Leconte-Munoz@gmail.fr",
-    "accounts" : [ {
-      "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 295.0,
+      "balance" : 4464.75,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
     } ]
   }, {
-    "firstName" : "Linda",
-    "lastName" : "Richards",
-    "email" : "Linda_Richards@outlook.us",
+    "firstName" : "Lucas",
+    "lastName" : "Garnier",
+    "email" : "Lucas_Garnier@outlook.fr",
+    "accounts" : [ {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 5527.75,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Georgeta",
+    "lastName" : "Nistor",
+    "email" : "Georgeta_Nistor@outlook.ro",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 3283.464285714286,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Emanoil",
+    "lastName" : "Barbu",
+    "email" : "Emanoil_Barbu@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 435.0,
-      "currency" : "USD",
+      "balance" : 3385.464285714286,
+      "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
     } ]
@@ -56,46 +56,46 @@
 }, {
   "command" : "printUsers",
   "output" : [ {
-    "firstName" : "Flavia",
-    "lastName" : "Stanescu",
-    "email" : "Flavia_Stanescu@gmail.ro",
+    "firstName" : "Margaux",
+    "lastName" : "Nicolas",
+    "email" : "Margaux_Nicolas@gmail.fr",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 1266.0,
-      "currency" : "RON",
-      "type" : "classic",
-      "cards" : [ ]
-    } ]
-  }, {
-    "firstName" : "Taylor",
-    "lastName" : "York",
-    "email" : "Taylor_York@yahoo.us",
-    "accounts" : [ {
-      "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 1422.0,
-      "currency" : "USD",
-      "type" : "classic",
-      "cards" : [ ]
-    } ]
-  }, {
-    "firstName" : "Lucie",
-    "lastName" : "Leconte-Munoz",
-    "email" : "Lucie_Leconte-Munoz@gmail.fr",
-    "accounts" : [ {
-      "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 366.0,
+      "balance" : 5389.75,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
     } ]
   }, {
-    "firstName" : "Linda",
-    "lastName" : "Richards",
-    "email" : "Linda_Richards@outlook.us",
+    "firstName" : "Lucas",
+    "lastName" : "Garnier",
+    "email" : "Lucas_Garnier@outlook.fr",
+    "accounts" : [ {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 5886.75,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Georgeta",
+    "lastName" : "Nistor",
+    "email" : "Georgeta_Nistor@outlook.ro",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 4068.464285714286,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Emanoil",
+    "lastName" : "Barbu",
+    "email" : "Emanoil_Barbu@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 802.0,
-      "currency" : "USD",
+      "balance" : 4122.464285714286,
+      "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
     } ]
@@ -108,18 +108,22 @@
     "description" : "New account created"
   }, {
     "timestamp" : 9,
-    "description" : "Split payment of 1474.00 USD",
-    "currency" : "USD",
-    "amount" : 368.5,
-    "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB7344468893732422", "RO65POOB8944016386845896", "RO90POOB5450777208072365" ],
-    "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment."
+    "description" : "Split payment of 1269.00 EUR",
+    "currency" : "EUR",
+    "amount" : 317.25,
+    "involvedAccounts" : [ "RO69POOB6209498372540635", "RO90POOB5450777208072365", "RO58POOB7344468893732422", "RO65POOB8944016386845896" ]
   }, {
     "timestamp" : 17,
-    "description" : "Split payment of 780.00 RON",
-    "currency" : "RON",
-    "amount" : 195.0,
-    "involvedAccounts" : [ "RO58POOB7344468893732422", "RO65POOB8944016386845896", "RO90POOB5450777208072365", "RO69POOB6209498372540635" ],
-    "error" : "Account RO90POOB5450777208072365 has insufficient funds for a split payment."
+    "description" : "Split payment of 186.00 EUR",
+    "currency" : "EUR",
+    "amount" : 46.5,
+    "involvedAccounts" : [ "RO58POOB7344468893732422", "RO90POOB5450777208072365", "RO65POOB8944016386845896", "RO69POOB6209498372540635" ]
+  }, {
+    "timestamp" : 18,
+    "description" : "Split payment of 3197.00 EUR",
+    "currency" : "EUR",
+    "amount" : 1598.5,
+    "involvedAccounts" : [ "RO69POOB6209498372540635", "RO58POOB7344468893732422" ]
   } ],
   "timestamp" : 19
 } ]

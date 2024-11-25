@@ -1,29 +1,29 @@
 {
     "users": [
         {
-            "firstName": "Michelle",
-            "lastName": "Mayer",
-            "email": "Michelle_Mayer@yahoo.us"
+            "firstName": "Fabian",
+            "lastName": "Ababe",
+            "email": "Fabian_Ababe@hotmail.ro"
         },
         {
-            "firstName": "David",
-            "lastName": "Turner",
-            "email": "David_Turner@gmail.us"
+            "firstName": "Monica",
+            "lastName": "Smith",
+            "email": "Monica_Smith@hotmail.us"
         },
         {
-            "firstName": "Albertina",
-            "lastName": "Nistor",
-            "email": "Albertina_Nistor@gmail.ro"
+            "firstName": "Patrick",
+            "lastName": "Giraud-Hardy",
+            "email": "Patrick_Giraud-Hardy@gmail.fr"
         },
         {
-            "firstName": "Amanda",
-            "lastName": "Nemes",
-            "email": "Amanda_Nemes@yahoo.ro"
+            "firstName": "Julia",
+            "lastName": "Dumitrescu",
+            "email": "Julia_Dumitrescu@gmail.ro"
         },
         {
-            "firstName": "Bogdana",
-            "lastName": "Toma",
-            "email": "Bogdana_Toma@hotmail.ro"
+            "firstName": "Christy",
+            "lastName": "Hess",
+            "email": "Christy_Hess@yahoo.us"
         }
     ],
     "exchangeRates": [
@@ -41,14 +41,14 @@
     "commands": [
         {
             "command": "addAccount",
-            "email": "Michelle_Mayer@yahoo.us",
-            "currency": "USD",
+            "email": "Fabian_Ababe@hotmail.ro",
+            "currency": "RON",
             "accountType": "classic",
             "timestamp": 1
         },
         {
             "command": "addAccount",
-            "email": "David_Turner@gmail.us",
+            "email": "Monica_Smith@hotmail.us",
             "currency": "USD",
             "accountType": "classic",
             "timestamp": 2
@@ -56,24 +56,24 @@
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 939,
+            "amount": 957,
             "timestamp": 3
         },
         {
             "command": "addFunds",
             "account": "RO69POOB6209498372540635",
-            "amount": 259,
+            "amount": 418,
             "timestamp": 4
         },
         {
             "command": "setAlias",
-            "account": "RO58POOB7344468893732422",
-            "alias": "Work",
+            "email": "Fabian_Ababe@hotmail.ro",
+            "alias": "Other",
             "timestamp": 5
         },
         {
             "command": "setAlias",
-            "account": "RO69POOB6209498372540635",
+            "email": "Monica_Smith@hotmail.us",
             "alias": "Other",
             "timestamp": 6
         },
@@ -81,84 +81,85 @@
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
             "receiver": "RO69POOB6209498372540635",
-            "amount": 44,
+            "amount": 248,
             "timestamp": 7,
-            "email": "Michelle_Mayer@yahoo.us",
-            "description": "Black Friday shopping spree"
+            "email": "Fabian_Ababe@hotmail.ro",
+            "description": "Electricity and gas bills"
         },
         {
             "command": "sendMoney",
             "account": "RO69POOB6209498372540635",
             "receiver": "RO58POOB7344468893732422",
-            "amount": 227,
+            "amount": 348,
             "timestamp": 8,
-            "email": "David_Turner@gmail.us",
-            "description": "Uber rides for commuting"
+            "email": "Monica_Smith@hotmail.us",
+            "description": "Netflix subscription renewal"
         },
         {
             "command": "printTransactions",
-            "email": "Michelle_Mayer@yahoo.us",
+            "email": "Fabian_Ababe@hotmail.ro",
             "timestamp": 9
         },
         {
             "command": "addAccount",
-            "email": "Albertina_Nistor@gmail.ro",
-            "currency": "RON",
+            "email": "Patrick_Giraud-Hardy@gmail.fr",
+            "currency": "EUR",
             "accountType": "classic",
             "timestamp": 10
         },
         {
             "command": "addAccount",
-            "email": "Albertina_Nistor@gmail.ro",
-            "currency": "RON",
+            "email": "Patrick_Giraud-Hardy@gmail.fr",
+            "currency": "EUR",
             "accountType": "classic",
             "timestamp": 11
         },
         {
             "command": "deleteAccount",
+            "email": "Fabian_Ababe@hotmail.ro",
             "account": "RO58POOB7344468893732422",
             "timestamp": 12
         },
         {
             "command": "addFunds",
             "account": "RO90POOB5450777208072365",
-            "amount": 989,
+            "amount": 290,
             "timestamp": 13
         },
         {
             "command": "addFunds",
             "account": "RO90POOB5450777208072365",
-            "amount": 187,
+            "amount": 18,
             "timestamp": 14
         },
         {
             "command": "addFunds",
             "account": "RO90POOB5450777208072365",
-            "amount": 619,
+            "amount": 537,
             "timestamp": 15
         },
         {
             "command": "sendMoney",
             "account": "RO90POOB5450777208072365",
             "receiver": "RO65POOB8944016386845896",
-            "amount": 1029,
+            "amount": 330,
             "timestamp": 16,
-            "email": "Albertina_Nistor@gmail.ro",
-            "description": "Metro card for public transport"
+            "email": "Patrick_Giraud-Hardy@gmail.fr",
+            "description": "Water and electricity bills"
         },
         {
             "command": "sendMoney",
             "account": "RO65POOB8944016386845896",
             "receiver": "RO58POOB7344468893732422",
-            "amount": 868,
+            "amount": 361,
             "timestamp": 17,
-            "email": "Albertina_Nistor@gmail.ro",
-            "description": "Buying new shoes from Zara"
+            "email": "Patrick_Giraud-Hardy@gmail.fr",
+            "description": "Shopping at the local Monoprix"
         },
         {
             "command": "createCard",
             "account": "RO69POOB6209498372540635",
-            "email": "David_Turner@gmail.us",
+            "email": "Monica_Smith@hotmail.us",
             "timestamp": 18
         },
         {
@@ -167,21 +168,21 @@
         },
         {
             "command": "addAccount",
-            "email": "Amanda_Nemes@yahoo.ro",
+            "email": "Julia_Dumitrescu@gmail.ro",
             "currency": "RON",
             "accountType": "classic",
             "timestamp": 20
         },
         {
             "command": "addAccount",
-            "email": "Amanda_Nemes@yahoo.ro",
+            "email": "Julia_Dumitrescu@gmail.ro",
             "currency": "RON",
             "accountType": "classic",
             "timestamp": 21
         },
         {
             "command": "addAccount",
-            "email": "Amanda_Nemes@yahoo.ro",
+            "email": "Julia_Dumitrescu@gmail.ro",
             "currency": "RON",
             "accountType": "classic",
             "timestamp": 22
@@ -189,54 +190,54 @@
         {
             "command": "addFunds",
             "account": "RO69POOB6209498372540635",
-            "amount": 544,
+            "amount": 630,
             "timestamp": 23
         },
         {
             "command": "addFunds",
             "account": "RO90POOB5450777208072365",
-            "amount": 379,
+            "amount": 959,
             "timestamp": 24
         },
         {
             "command": "addFunds",
             "account": "RO65POOB8944016386845896",
-            "amount": 211,
+            "amount": 901,
             "timestamp": 25
         },
         {
             "command": "addFunds",
             "account": "RO58POOB2721178218599590",
-            "amount": 248,
+            "amount": 287,
             "timestamp": 26
         },
         {
             "command": "addFunds",
             "account": "RO76POOB4035116042454483",
-            "amount": 378,
+            "amount": 424,
             "timestamp": 27
         },
         {
             "command": "addFunds",
             "account": "RO37POOB7013767509830666",
-            "amount": 684,
+            "amount": 103,
             "timestamp": 28
         },
         {
             "command": "addFunds",
             "account": "RO69POOB6209498372540635",
-            "amount": 908,
+            "amount": 705,
             "timestamp": 29
         },
         {
             "command": "payOnline",
             "cardNumber": "8207906978464446",
-            "amount": 397,
+            "amount": 381,
             "currency": "USD",
             "timestamp": 30,
             "description": "Online payment",
-            "commerciant": "KFC",
-            "email": "David_Turner@gmail.us"
+            "commerciant": "Nike",
+            "email": "Monica_Smith@hotmail.us"
         },
         {
             "command": "printUsers",
@@ -246,68 +247,68 @@
             "command": "sendMoney",
             "account": "RO58POOB2721178218599590",
             "receiver": "RO69POOB6209498372540635",
-            "amount": 232,
+            "amount": 215,
             "timestamp": 32,
-            "email": "Amanda_Nemes@yahoo.ro",
-            "description": "Monthly rent payment for a flat in Bucharest"
+            "email": "Julia_Dumitrescu@gmail.ro",
+            "description": "Buying new shoes from Zara"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB2721178218599590",
             "receiver": "RO90POOB5450777208072365",
-            "amount": 118,
+            "amount": 155,
             "timestamp": 33,
-            "email": "Amanda_Nemes@yahoo.ro",
-            "description": "Monthly rent payment for a flat in Bucharest"
+            "email": "Julia_Dumitrescu@gmail.ro",
+            "description": "Metro card for public transport"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB2721178218599590",
             "receiver": "RO65POOB8944016386845896",
-            "amount": 214,
+            "amount": 155,
             "timestamp": 34,
-            "email": "Amanda_Nemes@yahoo.ro",
+            "email": "Julia_Dumitrescu@gmail.ro",
             "description": "Weekly groceries from Carrefour"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB2721178218599590",
             "receiver": "RO58POOB2721178218599590",
-            "amount": 229,
+            "amount": 28,
             "timestamp": 35,
-            "email": "Amanda_Nemes@yahoo.ro",
-            "description": "Weekly groceries from Carrefour"
+            "email": "Julia_Dumitrescu@gmail.ro",
+            "description": "Electricity and gas bills"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB2721178218599590",
             "receiver": "RO76POOB4035116042454483",
-            "amount": 219,
+            "amount": 90,
             "timestamp": 36,
-            "email": "Amanda_Nemes@yahoo.ro",
-            "description": "Medical checkup at Regina Maria"
+            "email": "Julia_Dumitrescu@gmail.ro",
+            "description": "Metro card for public transport"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB2721178218599590",
             "receiver": "RO37POOB7013767509830666",
-            "amount": 121,
+            "amount": 111,
             "timestamp": 37,
-            "email": "Amanda_Nemes@yahoo.ro",
-            "description": "Monthly rent payment for a flat in Bucharest"
+            "email": "Julia_Dumitrescu@gmail.ro",
+            "description": "Buying new shoes from Zara"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB2721178218599590",
             "receiver": "RO58POOB7344468893732422",
-            "amount": 150,
+            "amount": 141,
             "timestamp": 38,
-            "email": "Amanda_Nemes@yahoo.ro",
-            "description": "Electricity and gas bills"
+            "email": "Julia_Dumitrescu@gmail.ro",
+            "description": "Monthly rent payment for a flat in Bucharest"
         },
         {
             "command": "printTransactions",
-            "email": "Amanda_Nemes@yahoo.ro",
+            "email": "Julia_Dumitrescu@gmail.ro",
             "timestamp": 39
         }
     ]
