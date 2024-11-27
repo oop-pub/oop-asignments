@@ -1,4 +1,29 @@
 [ {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 1,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 2,
+    "description" : "New card created",
+    "card" : "8207906978464446",
+    "cardHolder" : "David_Rogers@gmail.us",
+    "account" : "RO58POOB7344468893732422"
+  }, {
+    "timestamp" : 3,
+    "description" : "You have reached the minimum amount of funds, the card will be frozen"
+  }, {
+    "timestamp" : 7,
+    "description" : "The card is frozen"
+  }, {
+    "timestamp" : 8,
+    "description" : "The card is frozen"
+  }, {
+    "timestamp" : 9,
+    "description" : "The card is frozen"
+  } ],
+  "timestamp" : 11
+}, {
   "command" : "checkCardStatus",
   "output" : {
     "timestamp" : 20,
@@ -8,301 +33,55 @@
 }, {
   "command" : "printUsers",
   "output" : [ {
-    "firstName" : "Dina",
-    "lastName" : "Stoica",
-    "email" : "Dina_Stoica@hotmail.ro",
+    "firstName" : "David",
+    "lastName" : "Rogers",
+    "email" : "David_Rogers@gmail.us",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 1009.0,
-      "currency" : "RON",
+      "balance" : 1775.0,
+      "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
         "cardNumber" : "8207906978464446",
-        "status" : "active"
-      }, {
-        "cardNumber" : "7901879264253296",
-        "status" : "active"
+        "status" : "frozen"
       } ]
-    }, {
+    } ]
+  }, {
+    "firstName" : "Olivia",
+    "lastName" : "Suciu",
+    "email" : "Olivia_Suciu@yahoo.ro",
+    "accounts" : [ {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 0.0,
+      "balance" : 3.0,
       "currency" : "RON",
-      "type" : "savings",
+      "type" : "classic",
       "cards" : [ ]
     } ]
   }, {
-    "firstName" : "Vincent",
-    "lastName" : "Brunet de la Bigot",
-    "email" : "Vincent_Brunet_de_la_Bigot@hotmail.fr",
+    "firstName" : "Carla",
+    "lastName" : "Valencia",
+    "email" : "Carla_Valencia@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 0.0,
-      "currency" : "EUR",
-      "type" : "classic",
-      "cards" : [ ]
-    }, {
-      "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 0.0,
-      "currency" : "EUR",
-      "type" : "savings",
-      "cards" : [ ]
-    } ]
-  }, {
-    "firstName" : "Sergiu",
-    "lastName" : "Ardelean",
-    "email" : "Sergiu_Ardelean@yahoo.ro",
-    "accounts" : [ {
-      "IBAN" : "RO58POOB2721178218599590",
-      "balance" : 0.0,
-      "currency" : "RON",
-      "type" : "classic",
-      "cards" : [ ]
-    }, {
-      "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 0.0,
-      "currency" : "RON",
-      "type" : "savings",
-      "cards" : [ ]
-    } ]
-  }, {
-    "firstName" : "Venera",
-    "lastName" : "Tabacu",
-    "email" : "Venera_Tabacu@gmail.ro",
-    "accounts" : [ {
-      "IBAN" : "RO37POOB7013767509830666",
-      "balance" : 0.0,
-      "currency" : "RON",
-      "type" : "classic",
-      "cards" : [ ]
-    }, {
-      "IBAN" : "RO19POOB4981055641668812",
-      "balance" : 0.0,
-      "currency" : "RON",
-      "type" : "savings",
-      "cards" : [ ]
-    } ]
-  }, {
-    "firstName" : "Philippe",
-    "lastName" : "Garnier-Didier",
-    "email" : "Philippe_Garnier-Didier@hotmail.fr",
-    "accounts" : [ {
-      "IBAN" : "RO30POOB9523423715747796",
-      "balance" : 0.0,
-      "currency" : "EUR",
-      "type" : "classic",
-      "cards" : [ ]
-    }, {
-      "IBAN" : "RO79POOB3616857825600958",
-      "balance" : 0.0,
-      "currency" : "EUR",
-      "type" : "savings",
-      "cards" : [ ]
-    } ]
-  }, {
-    "firstName" : "Tara",
-    "lastName" : "Morris",
-    "email" : "Tara_Morris@hotmail.us",
-    "accounts" : [ {
-      "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 0.0,
+      "balance" : 506.33333333333337,
       "currency" : "USD",
       "type" : "classic",
-      "cards" : [ ]
-    }, {
-      "IBAN" : "RO96POOB6738272785416988",
-      "balance" : 0.0,
-      "currency" : "USD",
-      "type" : "savings",
       "cards" : [ ]
     } ]
   } ],
-  "timestamp" : 21
+  "timestamp" : 22
 }, {
   "command" : "printTransactions",
   "output" : [ {
-    "timestamp" : 1,
+    "timestamp" : 13,
     "description" : "New account created"
   }, {
-    "timestamp" : 2,
-    "description" : "New account created"
-  }, {
-    "timestamp" : 16,
-    "description" : "New card created",
-    "card" : "8207906978464446",
-    "cardHolder" : "Dina_Stoica@hotmail.ro",
-    "account" : "RO58POOB7344468893732422"
-  }, {
-    "timestamp" : 17,
-    "description" : "New card created",
-    "card" : "7901879264253296",
-    "cardHolder" : "Dina_Stoica@hotmail.ro",
-    "account" : "RO58POOB7344468893732422"
-  }, {
-    "timestamp" : 25,
-    "description" : "Metro card for public transport",
-    "senderIBAN" : "RO58POOB7344468893732422",
-    "receiverIBAN" : "RO69POOB6209498372540635",
-    "amount" : "582.0 RON",
+    "timestamp" : 21,
+    "description" : "Electricity and gas bills",
+    "senderIBAN" : "RO69POOB6209498372540635",
+    "receiverIBAN" : "RO90POOB5450777208072365",
+    "amount" : "55.0 RON",
     "transferType" : "sent"
-  }, {
-    "timestamp" : 25,
-    "description" : "Metro card for public transport",
-    "senderIBAN" : "RO58POOB7344468893732422",
-    "receiverIBAN" : "RO69POOB6209498372540635",
-    "amount" : "582.0 RON",
-    "transferType" : "received"
-  }, {
-    "timestamp" : 26,
-    "description" : "Insufficient funds"
-  }, {
-    "timestamp" : 27,
-    "description" : "Medical checkup at Regina Maria",
-    "senderIBAN" : "RO58POOB7344468893732422",
-    "receiverIBAN" : "RO65POOB8944016386845896",
-    "amount" : "1496.0 RON",
-    "transferType" : "sent"
-  }, {
-    "timestamp" : 28,
-    "description" : "Insufficient funds"
-  }, {
-    "timestamp" : 29,
-    "description" : "Insufficient funds"
-  }, {
-    "timestamp" : 30,
-    "description" : "Insufficient funds"
-  }, {
-    "timestamp" : 31,
-    "description" : "Insufficient funds"
-  }, {
-    "timestamp" : 32,
-    "description" : "Insufficient funds"
-  }, {
-    "timestamp" : 33,
-    "description" : "Insufficient funds"
-  }, {
-    "timestamp" : 34,
-    "description" : "Insufficient funds"
-  }, {
-    "timestamp" : 35,
-    "description" : "Insufficient funds"
   } ],
-  "timestamp" : 36
-}, {
-  "command" : "printUsers",
-  "output" : [ {
-    "firstName" : "Dina",
-    "lastName" : "Stoica",
-    "email" : "Dina_Stoica@hotmail.ro",
-    "accounts" : [ {
-      "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 131.0,
-      "currency" : "RON",
-      "type" : "classic",
-      "cards" : [ {
-        "cardNumber" : "8207906978464446",
-        "status" : "active"
-      }, {
-        "cardNumber" : "7901879264253296",
-        "status" : "active"
-      } ]
-    }, {
-      "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 582.0,
-      "currency" : "RON",
-      "type" : "savings",
-      "cards" : [ {
-        "cardNumber" : "7004757825892043",
-        "status" : "active"
-      } ]
-    } ]
-  }, {
-    "firstName" : "Vincent",
-    "lastName" : "Brunet de la Bigot",
-    "email" : "Vincent_Brunet_de_la_Bigot@hotmail.fr",
-    "accounts" : [ {
-      "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 0.0,
-      "currency" : "EUR",
-      "type" : "classic",
-      "cards" : [ {
-        "cardNumber" : "6796819982034243",
-        "status" : "frozen"
-      } ]
-    }, {
-      "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 3989.333333333334,
-      "currency" : "EUR",
-      "type" : "savings",
-      "cards" : [ ]
-    } ]
-  }, {
-    "firstName" : "Sergiu",
-    "lastName" : "Ardelean",
-    "email" : "Sergiu_Ardelean@yahoo.ro",
-    "accounts" : [ {
-      "IBAN" : "RO58POOB2721178218599590",
-      "balance" : 0.0,
-      "currency" : "RON",
-      "type" : "classic",
-      "cards" : [ ]
-    }, {
-      "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 0.0,
-      "currency" : "RON",
-      "type" : "savings",
-      "cards" : [ ]
-    } ]
-  }, {
-    "firstName" : "Venera",
-    "lastName" : "Tabacu",
-    "email" : "Venera_Tabacu@gmail.ro",
-    "accounts" : [ {
-      "IBAN" : "RO37POOB7013767509830666",
-      "balance" : 0.0,
-      "currency" : "RON",
-      "type" : "classic",
-      "cards" : [ ]
-    }, {
-      "IBAN" : "RO19POOB4981055641668812",
-      "balance" : 0.0,
-      "currency" : "RON",
-      "type" : "savings",
-      "cards" : [ ]
-    } ]
-  }, {
-    "firstName" : "Philippe",
-    "lastName" : "Garnier-Didier",
-    "email" : "Philippe_Garnier-Didier@hotmail.fr",
-    "accounts" : [ {
-      "IBAN" : "RO30POOB9523423715747796",
-      "balance" : 0.0,
-      "currency" : "EUR",
-      "type" : "classic",
-      "cards" : [ ]
-    }, {
-      "IBAN" : "RO79POOB3616857825600958",
-      "balance" : 0.0,
-      "currency" : "EUR",
-      "type" : "savings",
-      "cards" : [ ]
-    } ]
-  }, {
-    "firstName" : "Tara",
-    "lastName" : "Morris",
-    "email" : "Tara_Morris@hotmail.us",
-    "accounts" : [ {
-      "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 0.0,
-      "currency" : "USD",
-      "type" : "classic",
-      "cards" : [ ]
-    }, {
-      "IBAN" : "RO96POOB6738272785416988",
-      "balance" : 0.0,
-      "currency" : "USD",
-      "type" : "savings",
-      "cards" : [ ]
-    } ]
-  } ],
-  "timestamp" : 42
+  "timestamp" : 23
 } ]

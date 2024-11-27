@@ -91,7 +91,11 @@
   } ],
   "timestamp" : 18
 }, {
-  "error" : "Account couldn't be deleted - see org.poo.transactions for details",
+  "command" : "deleteAccount",
+  "output" : {
+    "error" : "Account couldn't be deleted - see org.poo.transactions for details",
+    "timestamp" : 19
+  },
   "timestamp" : 19
 }, {
   "command" : "printUsers",

@@ -135,7 +135,11 @@
     "description" : "Insufficient funds"
   }, {
     "timestamp" : 23,
-    "description" : "Cannot perform payment due to a minimum balance being set"
+    "description" : "Consultation at a private clinic",
+    "senderIBAN" : "RO69POOB6209498372540635",
+    "receiverIBAN" : "RO58POOB2721178218599590",
+    "amount" : "30.0 EUR",
+    "transferType" : "sent"
   }, {
     "timestamp" : 24,
     "description" : "Insufficient funds"
