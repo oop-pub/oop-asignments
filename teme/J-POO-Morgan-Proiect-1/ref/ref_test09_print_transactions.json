@@ -1,110 +1,40 @@
 [ {
   "command" : "printUsers",
   "output" : [ {
-    "firstName" : "Laura",
-    "lastName" : "Harris",
-    "email" : "Laura_Harris@yahoo.us",
+    "firstName" : "Laurie",
+    "lastName" : "Johnson",
+    "email" : "Laurie_Johnson@gmail.us",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 711.0,
+      "balance" : 3500.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
-    }, {
-      "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 0.0,
-      "currency" : "USD",
-      "type" : "savings",
-      "cards" : [ ]
     } ]
   }, {
-    "firstName" : "Julien-William",
-    "lastName" : "Martinez",
-    "email" : "Julien-William_Martinez@hotmail.fr",
+    "firstName" : "Alicia",
+    "lastName" : "Stafford",
+    "email" : "Alicia_Stafford@gmail.us",
     "accounts" : [ {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 128.0,
-      "currency" : "EUR",
-      "type" : "classic",
-      "cards" : [ ]
-    } ]
-  }, {
-    "firstName" : "Jill",
-    "lastName" : "Russell",
-    "email" : "Jill_Russell@gmail.us",
-    "accounts" : [ {
-      "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 241.0,
+      "balance" : 813.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
     } ]
   }, {
-    "firstName" : "Margaux",
-    "lastName" : "Courtois",
-    "email" : "Margaux_Courtois@gmail.fr",
+    "firstName" : "Denis",
+    "lastName" : "Cousin",
+    "email" : "Denis_Cousin@hotmail.fr",
     "accounts" : [ {
-      "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 586.0,
-      "currency" : "EUR",
-      "type" : "classic",
-      "cards" : [ ]
-    } ]
-  }, {
-    "firstName" : "Marcelle-Zoe",
-    "lastName" : "Evrard",
-    "email" : "Marcelle-Zoe_Evrard@yahoo.fr",
-    "accounts" : [ {
-      "IBAN" : "RO58POOB2721178218599590",
-      "balance" : 214.0,
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 29.0,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ ]
     } ]
   } ],
-  "timestamp" : 12
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 13,
-    "description" : "Card not found"
-  },
-  "timestamp" : 13
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 14,
-    "description" : "Card not found"
-  },
-  "timestamp" : 14
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 15,
-    "description" : "Card not found"
-  },
-  "timestamp" : 15
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 16,
-    "description" : "Card not found"
-  },
-  "timestamp" : 16
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 17,
-    "description" : "Card not found"
-  },
-  "timestamp" : 17
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 18,
-    "description" : "Card not found"
-  },
-  "timestamp" : 18
+  "timestamp" : 10
 }, {
   "command" : "printTransactions",
   "output" : [ {
@@ -112,51 +42,54 @@
     "description" : "New account created"
   }, {
     "timestamp" : 11,
-    "description" : "New account created"
+    "description" : "Miscellaneous online expenses",
+    "senderIBAN" : "RO58POOB7344468893732422",
+    "receiverIBAN" : "RO69POOB6209498372540635",
+    "amount" : "109.0 USD",
+    "transferType" : "sent"
+  } ],
+  "timestamp" : 14
+}, {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Laurie",
+    "lastName" : "Johnson",
+    "email" : "Laurie_Johnson@gmail.us",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 3283.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Alicia",
+    "lastName" : "Stafford",
+    "email" : "Alicia_Stafford@gmail.us",
+    "accounts" : [ {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 922.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Denis",
+    "lastName" : "Cousin",
+    "email" : "Denis_Cousin@hotmail.fr",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 29.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ]
+    }, {
+      "IBAN" : "RO65POOB8944016386845896",
+      "balance" : 283.4,
+      "currency" : "EUR",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
   } ],
   "timestamp" : 19
-}, {
-  "command" : "printTransactions",
-  "output" : [ {
-    "timestamp" : 2,
-    "description" : "New account created"
-  }, {
-    "timestamp" : 20,
-    "description" : "Monthly rent payment for a Parisian flat",
-    "senderIBAN" : "RO69POOB6209498372540635",
-    "receiverIBAN" : "RO58POOB7344468893732422",
-    "amount" : "98.0 EUR",
-    "transferType" : "sent"
-  }, {
-    "timestamp" : 21,
-    "description" : "Insufficient funds"
-  }, {
-    "timestamp" : 22,
-    "description" : "Insufficient funds"
-  }, {
-    "timestamp" : 23,
-    "description" : "Consultation at a private clinic",
-    "senderIBAN" : "RO69POOB6209498372540635",
-    "receiverIBAN" : "RO58POOB2721178218599590",
-    "amount" : "30.0 EUR",
-    "transferType" : "sent"
-  }, {
-    "timestamp" : 24,
-    "description" : "Insufficient funds"
-  } ],
-  "timestamp" : 25
-}, {
-  "command" : "printTransactions",
-  "output" : [ {
-    "timestamp" : 4,
-    "description" : "New account created"
-  }, {
-    "timestamp" : 27,
-    "description" : "Water and electricity bills",
-    "senderIBAN" : "RO65POOB8944016386845896",
-    "receiverIBAN" : "RO90POOB5450777208072365",
-    "amount" : "95.0 EUR",
-    "transferType" : "sent"
-  } ],
-  "timestamp" : 28
 } ]
