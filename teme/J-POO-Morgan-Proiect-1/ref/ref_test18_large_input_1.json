@@ -375,6 +375,39 @@
   } ],
   "timestamp" : 53
 }, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO58POOB7344468893732422",
+    "balance" : 41457.25,
+    "currency" : "INR",
+    "transactions" : [ {
+      "timestamp" : 43,
+      "description" : "Card payment",
+      "amount" : 83.0,
+      "commerciant" : "Adidas"
+    }, {
+      "timestamp" : 44,
+      "description" : "Card payment",
+      "amount" : 21280.0,
+      "commerciant" : "KFC"
+    } ],
+    "commerciants" : [ {
+      "commerciant" : "Adidas",
+      "total" : 83.0
+    }, {
+      "commerciant" : "KFC",
+      "total" : 21280.0
+    } ]
+  },
+  "timestamp" : 54
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "timestamp" : 55,
+    "description" : "Account not found"
+  },
+  "timestamp" : 55
+}, {
   "command" : "printUsers",
   "output" : [ {
     "firstName" : "Sachi",
@@ -576,6 +609,16 @@
     } ]
   } ],
   "timestamp" : 71
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO53POOB7122855990652257",
+    "balance" : 0.0,
+    "currency" : "CHF",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 75
 }, {
   "command" : "printUsers",
   "output" : [ {
@@ -1499,6 +1542,26 @@
   },
   "timestamp" : 167
 }, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO76POOB4035116042454483",
+    "balance" : 917.1964285714286,
+    "currency" : "EUR",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 170
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO19POOB4981055641668812",
+    "balance" : 520.8928571428571,
+    "currency" : "CAD",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 171
+}, {
   "command" : "printUsers",
   "output" : [ {
     "firstName" : "Sachi",
@@ -1567,7 +1630,7 @@
     "email" : "Job_Sire-Segerszoen@yandex.nl",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 944.2667410714286,
+      "balance" : 917.1964285714286,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -1922,7 +1985,7 @@
     "email" : "Job_Sire-Segerszoen@yandex.nl",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 944.2667410714286,
+      "balance" : 917.1964285714286,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {

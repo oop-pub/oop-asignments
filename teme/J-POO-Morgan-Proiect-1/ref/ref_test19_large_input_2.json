@@ -40,7 +40,7 @@
     "email" : "Leanne_Scott-Davies@yandex.nz",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 1607.3111111111111,
+      "balance" : 1597.0,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -60,7 +60,7 @@
       "cards" : [ ]
     }, {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 5150.0,
+      "balance" : 3235.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
@@ -74,7 +74,7 @@
     "email" : "Gina_Johnson@mail.com.ch",
     "accounts" : [ {
       "IBAN" : "RO58POOB2721178218599590",
-      "balance" : 583.2248520710059,
+      "balance" : 534.5384615384615,
       "currency" : "CHF",
       "type" : "classic",
       "cards" : [ {
@@ -88,7 +88,7 @@
     "email" : "Zachary_Martin@aol.ca",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 617.2962962962964,
+      "balance" : 711.6666666666667,
       "currency" : "CAD",
       "type" : "classic",
       "cards" : [ {
@@ -116,7 +116,7 @@
     "email" : "Sandra_Arnold@icloud.us",
     "accounts" : [ {
       "IBAN" : "RO19POOB4981055641668812",
-      "balance" : 8328.337006427917,
+      "balance" : 8303.626262626263,
       "currency" : "USD",
       "type" : "savings",
       "cards" : [ {
@@ -359,7 +359,7 @@
     "email" : "Leanne_Scott-Davies@yandex.nz",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 2159.311111111111,
+      "balance" : 2149.0,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -379,7 +379,7 @@
       "cards" : [ ]
     }, {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 8760.0,
+      "balance" : 6845.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
@@ -393,7 +393,7 @@
     "email" : "Gina_Johnson@mail.com.ch",
     "accounts" : [ {
       "IBAN" : "RO58POOB2721178218599590",
-      "balance" : 6896.224852071005,
+      "balance" : 6847.538461538462,
       "currency" : "CHF",
       "type" : "classic",
       "cards" : [ {
@@ -407,7 +407,7 @@
     "email" : "Zachary_Martin@aol.ca",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 1521.2962962962965,
+      "balance" : 1615.6666666666667,
       "currency" : "CAD",
       "type" : "classic",
       "cards" : [ {
@@ -435,7 +435,7 @@
     "email" : "Sandra_Arnold@icloud.us",
     "accounts" : [ {
       "IBAN" : "RO19POOB4981055641668812",
-      "balance" : 8382.337006427917,
+      "balance" : 8357.626262626263,
       "currency" : "USD",
       "type" : "savings",
       "cards" : [ {
@@ -742,7 +742,7 @@
   }, {
     "timestamp" : 27,
     "description" : "Card payment",
-    "amount" : 5.688888888888889,
+    "amount" : 16.0,
     "commerciant" : "Microsoft"
   }, {
     "timestamp" : 27,
@@ -789,7 +789,7 @@
   "command" : "report",
   "output" : {
     "IBAN" : "RO90POOB5450777208072365",
-    "balance" : 2159.311111111111,
+    "balance" : 2149.0,
     "currency" : "NZD",
     "transactions" : [ {
       "timestamp" : 113,
@@ -983,7 +983,9 @@
     "account" : "RO65POOB8944016386845896"
   }, {
     "timestamp" : 28,
-    "description" : "Insufficient funds"
+    "description" : "Card payment",
+    "amount" : 1915.0,
+    "commerciant" : "Gucci"
   }, {
     "timestamp" : 28,
     "description" : "The card has been destroyed",
@@ -1175,7 +1177,7 @@
     "email" : "Leanne_Scott-Davies@yandex.nz",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 2508.511111111111,
+      "balance" : 2498.2,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -1198,7 +1200,7 @@
       "cards" : [ ]
     }, {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 9513.975,
+      "balance" : 7598.975,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
@@ -1212,7 +1214,7 @@
     "email" : "Gina_Johnson@mail.com.ch",
     "accounts" : [ {
       "IBAN" : "RO58POOB2721178218599590",
-      "balance" : 7385.599852071005,
+      "balance" : 7336.913461538462,
       "currency" : "CHF",
       "type" : "classic",
       "cards" : [ {
@@ -1226,7 +1228,7 @@
     "email" : "Zachary_Martin@aol.ca",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 2269.2962962962965,
+      "balance" : 2363.666666666667,
       "currency" : "CAD",
       "type" : "classic",
       "cards" : [ {
@@ -1254,7 +1256,7 @@
     "email" : "Sandra_Arnold@icloud.us",
     "accounts" : [ {
       "IBAN" : "RO19POOB4981055641668812",
-      "balance" : 11094.912006427916,
+      "balance" : 11070.201262626262,
       "currency" : "USD",
       "type" : "savings",
       "cards" : [ {
@@ -1413,4 +1415,212 @@
     } ]
   } ],
   "timestamp" : 175
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO90POOB5450777208072365",
+    "balance" : 2498.2,
+    "currency" : "NZD",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 176
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO65POOB8944016386845896",
+    "balance" : 7598.975,
+    "currency" : "RON",
+    "transactions" : [ {
+      "timestamp" : 28,
+      "description" : "Card payment",
+      "amount" : 1915.0,
+      "commerciant" : "Gucci"
+    } ],
+    "commerciants" : [ {
+      "commerciant" : "Gucci",
+      "total" : 1915.0
+    } ]
+  },
+  "timestamp" : 177
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO58POOB2721178218599590",
+    "balance" : 7336.913461538462,
+    "currency" : "CHF",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 178
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO76POOB4035116042454483",
+    "balance" : 2363.666666666667,
+    "currency" : "CAD",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 179
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO37POOB7013767509830666",
+    "balance" : 2571.464285714286,
+    "currency" : "RON",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 180
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO19POOB4981055641668812",
+    "balance" : 11070.201262626262,
+    "currency" : "USD",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 181
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO30POOB9523423715747796",
+    "balance" : 2290.75,
+    "currency" : "EUR",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 182
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO79POOB3616857825600958",
+    "balance" : 1006.0,
+    "currency" : "NZD",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 183
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO00POOB5687892910835215",
+    "balance" : 558.0,
+    "currency" : "GBP",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 184
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO96POOB6738272785416988",
+    "balance" : 1107.0,
+    "currency" : "CAD",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 185
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO33POOB4049920806186500",
+    "balance" : 7476.0,
+    "currency" : "INR",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 186
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO69POOB9846198978826791",
+    "balance" : 1800.0,
+    "currency" : "RON",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 187
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO98POOB8412955460158769",
+    "balance" : 4991.636363636363,
+    "currency" : "MXN",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 188
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO32POOB0130532963818359",
+    "balance" : 212.0,
+    "currency" : "INR",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 189
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO68POOB1848616931405475",
+    "balance" : 6339.903846153846,
+    "currency" : "CAD",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 190
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO10POOB4354933866366881",
+    "balance" : 798.0,
+    "currency" : "EUR",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 191
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO33POOB9999273999620457",
+    "balance" : 189.0,
+    "currency" : "MXN",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 192
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO38POOB0964823730995794",
+    "balance" : 11308.0,
+    "currency" : "CHF",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 193
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO53POOB7122855990652257",
+    "balance" : 1024.0,
+    "currency" : "CHF",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 194
+}, {
+  "command" : "spendingsReport",
+  "output" : {
+    "IBAN" : "RO71POOB1634969878734749",
+    "balance" : 2951.0,
+    "currency" : "CHF",
+    "transactions" : [ ],
+    "commerciants" : [ ]
+  },
+  "timestamp" : 195
 } ]
