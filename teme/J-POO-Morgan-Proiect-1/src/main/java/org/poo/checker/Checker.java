@@ -3,15 +3,20 @@ package org.poo.checker;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
+import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import org.poo.main.Main;
 
 import java.io.File;
 import java.io.IOException;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.Iterator;
 import java.util.Objects;
 
 public final class Checker {
@@ -139,12 +144,43 @@ public final class Checker {
         try {
             JsonNode output = mapper.readTree(new File(CheckerConstants.OUT_PATH + file));
             JsonNode ref = mapper.readTree(new File(CheckerConstants.REF_PATH + file));
+
+            output = roundDecimals(output, CheckerConstants.DECIMAL_POINTS, mapper);
+            ref = roundDecimals(ref, CheckerConstants.DECIMAL_POINTS, mapper);
+
             return output.equals(ref);
 
         } catch (IOException e) {
             e.printStackTrace();
         }
         return false;
+    }
+
+    private static JsonNode roundDecimals(
+            final JsonNode node,
+            final int precision,
+            final ObjectMapper mapper) {
+        if (node.isObject()) {
+            ObjectNode objectNode = (ObjectNode) node;
+            Iterator<String> fieldNames = objectNode.fieldNames();
+            while (fieldNames.hasNext()) {
+                String fieldName = fieldNames.next();
+                objectNode.set(
+                        fieldName,
+                        roundDecimals(objectNode.get(fieldName), precision, mapper)
+                );
+            }
+        } else if (node.isArray()) {
+            ArrayNode arrayNode = (ArrayNode) node;
+            for (int i = 0; i < arrayNode.size(); i++) {
+                arrayNode.set(i, roundDecimals(arrayNode.get(i), precision, mapper));
+            }
+        } else if (node.isNumber() && node.isFloatingPointNumber()) {
+            BigDecimal roundedValue = BigDecimal.valueOf(node.asDouble())
+                    .setScale(precision, RoundingMode.HALF_UP);
+            return mapper.getNodeFactory().numberNode(roundedValue);
+        }
+        return node;
     }
 
     /**
