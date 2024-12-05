@@ -2235,323 +2235,151 @@
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO36POOB6500477412147025",
-    "balance" : 3184.04,
-    "currency" : "CHF",
-    "transactions" : [ {
-      "timestamp" : 449,
-      "description" : "Card payment",
-      "amount" : 25.960000000000004,
-      "commerciant" : "Nike"
-    } ],
-    "commerciants" : [ {
-      "commerciant" : "Nike",
-      "total" : 25.960000000000004
-    } ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 668
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO46POOB9051076190383154",
-    "balance" : 89633.8,
-    "currency" : "CHF",
-    "transactions" : [ {
-      "timestamp" : 450,
-      "description" : "Card payment",
-      "amount" : 299.20000000000005,
-      "commerciant" : "Gucci"
-    } ],
-    "commerciants" : [ {
-      "commerciant" : "Gucci",
-      "total" : 299.20000000000005
-    } ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 669
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO45POOB0388148432759748",
-    "balance" : 64399.6164021164,
-    "currency" : "CHF",
-    "transactions" : [ {
-      "timestamp" : 451,
-      "description" : "Card payment",
-      "amount" : 30.642857142857142,
-      "commerciant" : "Adidas"
-    } ],
-    "commerciants" : [ {
-      "commerciant" : "Adidas",
-      "total" : 30.642857142857142
-    } ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 670
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO52POOB6271107854467609",
-    "balance" : 55610.8125,
-    "currency" : "AUD",
-    "transactions" : [ {
-      "timestamp" : 452,
-      "description" : "Card payment",
-      "amount" : 177.18750000000003,
-      "commerciant" : "Google"
-    } ],
-    "commerciants" : [ {
-      "commerciant" : "Google",
-      "total" : 177.18750000000003
-    } ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 671
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO98POOB7190609943699593",
-    "balance" : 3001.909090909091,
-    "currency" : "USD",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 672
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO50POOB3359236199018963",
-    "balance" : 78054.35612535613,
-    "currency" : "NZD",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 673
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO75POOB8279679254660818",
-    "balance" : 2838.6280303030308,
-    "currency" : "EUR",
-    "transactions" : [ {
-      "timestamp" : 455,
-      "description" : "Card payment",
-      "amount" : 471.375,
-      "commerciant" : "Zara"
-    } ],
-    "commerciants" : [ {
-      "commerciant" : "Zara",
-      "total" : 471.375
-    } ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 674
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO37POOB8653914479106806",
-    "balance" : 17810.545454545456,
-    "currency" : "NZD",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 675
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO73POOB0363118755441573",
-    "balance" : 12667.0,
-    "currency" : "CHF",
-    "transactions" : [ {
-      "timestamp" : 457,
-      "description" : "Card payment",
-      "amount" : 144.0,
-      "commerciant" : "Calvin Klein"
-    } ],
-    "commerciants" : [ {
-      "commerciant" : "Calvin Klein",
-      "total" : 144.0
-    } ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 676
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO40POOB2135483650246268",
-    "balance" : 14664.0,
-    "currency" : "RON",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 677
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO75POOB1098983729823992",
-    "balance" : 4559.575757575758,
-    "currency" : "AUD",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 678
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO15POOB0048706387164463",
-    "balance" : 16266.233766233765,
-    "currency" : "MXN",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 679
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO97POOB5006417983475785",
-    "balance" : 20937.85714285714,
-    "currency" : "CAD",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 680
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO93POOB6760303931698665",
-    "balance" : 10200.0,
-    "currency" : "EUR",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 681
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO47POOB5866490978033060",
-    "balance" : 22986.23076923077,
-    "currency" : "CHF",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 682
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO45POOB6505529013808948",
-    "balance" : 2789.0,
-    "currency" : "EUR",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 683
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO01POOB3925326637526572",
-    "balance" : 102884.87227272728,
-    "currency" : "EUR",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 684
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO04POOB3492426980939341",
-    "balance" : 1823.0,
-    "currency" : "MXN",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 685
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO66POOB1088683052483887",
-    "balance" : 21821.571428571428,
-    "currency" : "MXN",
-    "transactions" : [ {
-      "timestamp" : 467,
-      "description" : "Card payment",
-      "amount" : 111.42857142857142,
-      "commerciant" : "KFC"
-    } ],
-    "commerciants" : [ {
-      "commerciant" : "KFC",
-      "total" : 111.42857142857142
-    } ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 686
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO19POOB5993192794373940",
-    "balance" : 3586.5454545454545,
-    "currency" : "NZD",
-    "transactions" : [ {
-      "timestamp" : 468,
-      "description" : "Card payment",
-      "amount" : 449.45454545454544,
-      "commerciant" : "Subway"
-    } ],
-    "commerciants" : [ {
-      "commerciant" : "Subway",
-      "total" : 449.45454545454544
-    } ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 687
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO49POOB4985907300499418",
-    "balance" : 6072.454545454546,
-    "currency" : "RON",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 688
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO69POOB2312919212921100",
-    "balance" : 4772.501428571429,
-    "currency" : "CHF",
-    "transactions" : [ {
-      "timestamp" : 470,
-      "description" : "Card payment",
-      "amount" : 2.4985714285714287,
-      "commerciant" : "Huawei"
-    } ],
-    "commerciants" : [ {
-      "commerciant" : "Huawei",
-      "total" : 2.4985714285714287
-    } ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 689
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO24POOB6002156322256357",
-    "balance" : 4042.0,
-    "currency" : "AUD",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 690
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO66POOB5231566576817248",
-    "balance" : 3629.4262626262625,
-    "currency" : "CAD",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 691
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO01POOB9893132718323396",
-    "balance" : 4672.0,
-    "currency" : "CHF",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 692
 } ]

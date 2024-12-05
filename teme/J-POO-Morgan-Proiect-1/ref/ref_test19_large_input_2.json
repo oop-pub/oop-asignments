@@ -1466,21 +1466,13 @@
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO37POOB7013767509830666",
-    "balance" : 2571.464285714286,
-    "currency" : "RON",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 180
 }, {
   "command" : "spendingsReport",
   "output" : {
-    "IBAN" : "RO19POOB4981055641668812",
-    "balance" : 10996.68181818182,
-    "currency" : "USD",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "error" : "This kind of report is not supported for a saving account"
   },
   "timestamp" : 181
 }, {
