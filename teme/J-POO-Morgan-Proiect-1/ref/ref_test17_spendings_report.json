@@ -6,13 +6,13 @@
     "email" : "Simion_Mazilescu@yahoo.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 2613.0,
+      "balance" : 6720.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
     }, {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 1120.0,
+      "balance" : 1840.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -23,13 +23,13 @@
     "email" : "Anthony_Graham@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 423.0,
+      "balance" : 1826.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
     }, {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 334.0,
+      "balance" : 15240.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -44,7 +44,7 @@
     "email" : "Simion_Mazilescu@yahoo.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 254.79999999999995,
+      "balance" : 4959.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
@@ -53,7 +53,7 @@
       } ]
     }, {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 1185.0,
+      "balance" : 2367.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
@@ -64,13 +64,13 @@
     "email" : "Anthony_Graham@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 423.0,
+      "balance" : 1826.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
     }, {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 334.0,
+      "balance" : 15240.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -80,71 +80,152 @@
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 23,
+    "timestamp" : 37,
     "description" : "Card not found"
   },
-  "timestamp" : 23
+  "timestamp" : 37
 }, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 24,
-    "description" : "Card not found"
-  },
-  "timestamp" : 24
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Simion",
+    "lastName" : "Mazilescu",
+    "email" : "Simion_Mazilescu@yahoo.ro",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 20413.4,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "8207906978464446",
+        "status" : "active"
+      }, {
+        "cardNumber" : "6796819982034243",
+        "status" : "active"
+      } ]
+    }, {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 9061.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "1322658752653937",
+        "status" : "active"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Anthony",
+    "lastName" : "Graham",
+    "email" : "Anthony_Graham@yahoo.us",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 1148.2142857142858,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "7901879264253296",
+        "status" : "active"
+      }, {
+        "cardNumber" : "0466992784477761",
+        "status" : "active"
+      } ]
+    }, {
+      "IBAN" : "RO65POOB8944016386845896",
+      "balance" : 13324.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "7004757825892043",
+        "status" : "active"
+      } ]
+    } ]
+  } ],
+  "timestamp" : 38
 }, {
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO58POOB7344468893732422",
-    "balance" : 1535.8,
+    "balance" : 20413.4,
     "currency" : "RON",
     "transactions" : [ {
       "timestamp" : 11,
       "description" : "Card payment",
-      "amount" : 945.0,
-      "commerciant" : "KFC"
+      "amount" : 16.0,
+      "commerciant" : "eMAG"
     }, {
       "timestamp" : 12,
       "description" : "Card payment",
-      "amount" : 1348.2,
-      "commerciant" : "Apple"
+      "amount" : 1218.0,
+      "commerciant" : "Zara Home"
+    }, {
+      "timestamp" : 18,
+      "description" : "Card payment",
+      "amount" : 1457.4,
+      "commerciant" : "Debt Collector"
+    }, {
+      "timestamp" : 26,
+      "description" : "Card payment",
+      "amount" : 1264.2,
+      "commerciant" : "H&M"
     } ],
     "commerciants" : [ {
-      "commerciant" : "Apple",
-      "total" : 1348.2
+      "commerciant" : "Debt Collector",
+      "total" : 1457.4
     }, {
-      "commerciant" : "KFC",
-      "total" : 945.0
+      "commerciant" : "H&M",
+      "total" : 1264.2
+    }, {
+      "commerciant" : "Zara Home",
+      "total" : 1218.0
+    }, {
+      "commerciant" : "eMAG",
+      "total" : 16.0
     } ]
   },
-  "timestamp" : 25
+  "timestamp" : 39
 }, {
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO69POOB6209498372540635",
-    "balance" : 3907.666666666667,
+    "balance" : 9061.0,
     "currency" : "RON",
     "transactions" : [ ],
     "commerciants" : [ ]
   },
-  "timestamp" : 26
+  "timestamp" : 40
 }, {
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO90POOB5450777208072365",
-    "balance" : 2634.0,
+    "balance" : 1148.2142857142858,
     "currency" : "USD",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "transactions" : [ {
+      "timestamp" : 27,
+      "description" : "Card payment",
+      "amount" : 426.0,
+      "commerciant" : "Amazon"
+    } ],
+    "commerciants" : [ {
+      "commerciant" : "Amazon",
+      "total" : 426.0
+    } ]
   },
-  "timestamp" : 27
+  "timestamp" : 41
 }, {
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO65POOB8944016386845896",
-    "balance" : 1302.0,
+    "balance" : 13324.0,
     "currency" : "USD",
-    "transactions" : [ ],
-    "commerciants" : [ ]
+    "transactions" : [ {
+      "timestamp" : 28,
+      "description" : "Card payment",
+      "amount" : 285.0,
+      "commerciant" : "Zara"
+    } ],
+    "commerciants" : [ {
+      "commerciant" : "Zara",
+      "total" : 285.0
+    } ]
   },
-  "timestamp" : 28
+  "timestamp" : 42
 } ]

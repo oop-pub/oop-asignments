@@ -55,25 +55,25 @@
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 2613,
+            "amount": 6720,
             "timestamp": 5
         },
         {
             "command": "addFunds",
             "account": "RO69POOB6209498372540635",
-            "amount": 1120,
+            "amount": 1840,
             "timestamp": 6
         },
         {
             "command": "addFunds",
             "account": "RO90POOB5450777208072365",
-            "amount": 423,
+            "amount": 1826,
             "timestamp": 7
         },
         {
             "command": "addFunds",
             "account": "RO65POOB8944016386845896",
-            "amount": 334,
+            "amount": 15240,
             "timestamp": 8
         },
         {
@@ -89,31 +89,31 @@
         {
             "command": "payOnline",
             "cardNumber": "8207906978464446",
-            "amount": 225,
-            "currency": "EUR",
+            "amount": 16,
+            "currency": "RON",
             "timestamp": 11,
             "description": "Online payment",
-            "commerciant": "KFC",
+            "commerciant": "eMAG",
             "email": "Simion_Mazilescu@yahoo.ro"
         },
         {
             "command": "payOnline",
             "cardNumber": "8207906978464446",
-            "amount": 321,
+            "amount": 290,
             "currency": "EUR",
             "timestamp": 12,
             "description": "Online payment",
-            "commerciant": "Apple",
+            "commerciant": "Zara Home",
             "email": "Simion_Mazilescu@yahoo.ro"
         },
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
-            "amount": 65,
+            "amount": 527,
             "receiver": "RO69POOB6209498372540635",
             "timestamp": 13,
             "email": "Simion_Mazilescu@yahoo.ro",
-            "description": "Metro card for public transport"
+            "description": "Cinema tickets for a weekend outing"
         },
         {
             "command": "printUsers",
@@ -122,105 +122,210 @@
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 849,
+            "amount": 985,
             "timestamp": 15
         },
         {
             "command": "addFunds",
             "account": "RO90POOB5450777208072365",
-            "amount": 1819,
+            "amount": 877,
             "timestamp": 16
         },
         {
             "command": "sendMoney",
             "account": "RO90POOB5450777208072365",
-            "amount": 544,
+            "amount": 1224,
             "receiver": "RO69POOB6209498372540635",
             "timestamp": 17,
             "email": "Anthony_Graham@yahoo.us",
-            "description": "Black Friday shopping spree"
+            "description": "Miscellaneous cash expenses"
         },
         {
             "command": "payOnline",
             "cardNumber": "8207906978464446",
-            "amount": 303,
-            "currency": "RON",
+            "amount": 347,
+            "currency": "EUR",
             "timestamp": 18,
             "description": "Online payment",
-            "commerciant": "Samsung",
+            "commerciant": "Debt Collector",
             "email": "Simion_Mazilescu@yahoo.ro"
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO65POOB8944016386845896",
+            "amount": 2133,
+            "receiver": "RO58POOB7344468893732422",
+            "timestamp": 19,
+            "email": "Anthony_Graham@yahoo.us",
+            "description": "Education expenses"
         },
         {
             "command": "addFunds",
             "account": "RO58POOB7344468893732422",
-            "amount": 735,
-            "timestamp": 19
-        },
-        {
-            "command": "addFunds",
-            "account": "RO69POOB6209498372540635",
-            "amount": 184,
+            "amount": 1446,
             "timestamp": 20
         },
         {
             "command": "addFunds",
-            "account": "RO90POOB5450777208072365",
-            "amount": 936,
+            "account": "RO69POOB6209498372540635",
+            "amount": 982,
             "timestamp": 21
         },
         {
             "command": "addFunds",
-            "account": "RO65POOB8944016386845896",
-            "amount": 968,
+            "account": "RO90POOB5450777208072365",
+            "amount": 867,
             "timestamp": 22
         },
         {
-            "command": "payOnline",
-            "cardNumber": "4001829491527416",
-            "amount": 221,
-            "currency": "EUR",
-            "timestamp": 23,
-            "description": "Online payment",
-            "commerciant": "Samsung",
-            "email": "Anthony_Graham@yahoo.us"
+            "command": "addFunds",
+            "account": "RO65POOB8944016386845896",
+            "amount": 502,
+            "timestamp": 23
         },
         {
-            "command": "payOnline",
-            "cardNumber": "6769125583796385",
-            "amount": 292,
-            "currency": "USD",
-            "timestamp": 24,
-            "description": "Online payment",
-            "commerciant": "McDonalds",
-            "email": "Anthony_Graham@yahoo.us"
+            "command": "createCard",
+            "account": "RO90POOB5450777208072365",
+            "email": "Anthony_Graham@yahoo.us",
+            "timestamp": 24
         },
         {
-            "command": "spendingsReport",
-            "startTimestamp": 7,
-            "endTimestamp": 14,
-            "account": "RO58POOB7344468893732422",
+            "command": "createCard",
+            "account": "RO65POOB8944016386845896",
+            "email": "Anthony_Graham@yahoo.us",
             "timestamp": 25
         },
         {
-            "command": "spendingsReport",
-            "startTimestamp": 3,
-            "endTimestamp": 15,
-            "account": "RO69POOB6209498372540635",
-            "timestamp": 26
+            "command": "payOnline",
+            "cardNumber": "8207906978464446",
+            "amount": 301,
+            "currency": "EUR",
+            "timestamp": 26,
+            "description": "Online payment",
+            "commerciant": "H&M",
+            "email": "Simion_Mazilescu@yahoo.ro"
         },
         {
-            "command": "spendingsReport",
-            "startTimestamp": 15,
-            "endTimestamp": 19,
+            "command": "payOnline",
+            "cardNumber": "7901879264253296",
+            "amount": 426,
+            "currency": "USD",
+            "timestamp": 27,
+            "description": "Online payment",
+            "commerciant": "Amazon",
+            "email": "Anthony_Graham@yahoo.us"
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "7004757825892043",
+            "amount": 285,
+            "currency": "USD",
+            "timestamp": 28,
+            "description": "Online payment",
+            "commerciant": "Zara",
+            "email": "Anthony_Graham@yahoo.us"
+        },
+        {
+            "command": "createOneTimeCard",
+            "account": "RO58POOB7344468893732422",
+            "email": "Simion_Mazilescu@yahoo.ro",
+            "timestamp": 29
+        },
+        {
+            "command": "createOneTimeCard",
             "account": "RO90POOB5450777208072365",
-            "timestamp": 27
+            "email": "Anthony_Graham@yahoo.us",
+            "timestamp": 30
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 6241,
+            "timestamp": 31
+        },
+        {
+            "command": "addFunds",
+            "account": "RO90POOB5450777208072365",
+            "amount": 38,
+            "timestamp": 32
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "7901879264253296",
+            "amount": 3351,
+            "currency": "RON",
+            "timestamp": 33,
+            "description": "Online payment",
+            "commerciant": "H&M",
+            "email": "Anthony_Graham@yahoo.us"
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "8207906978464446",
+            "amount": 450,
+            "currency": "RON",
+            "timestamp": 34,
+            "description": "Online payment",
+            "commerciant": "H&M",
+            "email": "Simion_Mazilescu@yahoo.ro"
+        },
+        {
+            "command": "createCard",
+            "account": "RO69POOB6209498372540635",
+            "email": "Simion_Mazilescu@yahoo.ro",
+            "timestamp": 35
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "4686471658318359",
+            "amount": 428,
+            "currency": "RON",
+            "timestamp": 36,
+            "description": "Online payment",
+            "commerciant": "Apple",
+            "email": "Anthony_Graham@yahoo.us"
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "1322658752611111",
+            "amount": 354,
+            "currency": "RON",
+            "timestamp": 37,
+            "description": "Online payment",
+            "commerciant": "Dristor Kebab",
+            "email": "Simion_Mazilescu@yahoo.ro"
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 38
         },
         {
             "command": "spendingsReport",
-            "startTimestamp": 23,
-            "endTimestamp": 27,
+            "startTimestamp": 1,
+            "endTimestamp": 33,
+            "account": "RO58POOB7344468893732422",
+            "timestamp": 39
+        },
+        {
+            "command": "spendingsReport",
+            "startTimestamp": 0,
+            "endTimestamp": 38,
+            "account": "RO69POOB6209498372540635",
+            "timestamp": 40
+        },
+        {
+            "command": "spendingsReport",
+            "startTimestamp": 10,
+            "endTimestamp": 30,
+            "account": "RO90POOB5450777208072365",
+            "timestamp": 41
+        },
+        {
+            "command": "spendingsReport",
+            "startTimestamp": 5,
+            "endTimestamp": 36,
             "account": "RO65POOB8944016386845896",
-            "timestamp": 28
+            "timestamp": 42
         }
     ]
 }
