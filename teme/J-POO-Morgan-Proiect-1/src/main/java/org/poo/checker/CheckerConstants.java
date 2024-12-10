@@ -22,6 +22,7 @@ public final class CheckerConstants {
 
     public static final String EMPTY_STR = "";
     public static final String DIGIT_REGEX = "\\D+";
+    public static final String DECIMALS_REGEX = "[0-9]+(\\.[0-9]+)? [A-Z]{3}";
 
     public static final int DECIMAL_POINTS = 3;
 

@@ -18,6 +18,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.Objects;
+import java.util.regex.Pattern;
 
 public final class Checker {
     private static int gitScore;
@@ -179,6 +180,15 @@ public final class Checker {
             BigDecimal roundedValue = BigDecimal.valueOf(node.asDouble())
                     .setScale(precision, RoundingMode.HALF_UP);
             return mapper.getNodeFactory().numberNode(roundedValue);
+        } else if (node.isTextual() && Pattern.matches(
+                CheckerConstants.DECIMALS_REGEX, node.asText())) {
+            String[] words = node.asText().split(" ");
+
+            BigDecimal roundedValue = BigDecimal.valueOf(Double.parseDouble(words[0]))
+                    .setScale(precision, RoundingMode.HALF_UP);
+            String actualValue = roundedValue + " " + words[1];
+
+            return mapper.getNodeFactory().textNode(actualValue);
         }
         return node;
     }
