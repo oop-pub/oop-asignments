@@ -18,9 +18,17 @@
 
 ## Tests
 
-Tests Basic 1 - 8: Infrastructure \
-Tests Functional 9 - 17: Advanced \
-Tests Flow 18 - 20: Large Input
+Tests Basic 1 - 10: Infrastructure \
+Tests Functional 11 - 17: Advanced \
+Tests Flow 18 - 20: Large Input
 
 1. test01_user_updates - 2p
+2. test02_upgrade_plan - 2p
+3. test04_commisions - 2p
+4. test05_savings_update - 2p
+5. test06_cashback - 2p
+6. test07_simple_split_payment - 2p
+7. test08_advanced_split_payment - 2p
+8. test09_business_account_simple - 2p
+9. test10_business_account_limits - 2p
 

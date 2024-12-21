@@ -8,6 +8,20 @@
             "occupation": "racing driver"
         },
         {
+            "firstName": "Olimpian",
+            "lastName": "Albu",
+            "email": "Olimpian_Albu@yahoo.ro",
+            "birthDate": "1984-01-26",
+            "occupation": "electrician"
+        },
+        {
+            "firstName": "Andre",
+            "lastName": "Glenn",
+            "email": "Andre_Glenn@outlook.us",
+            "birthDate": "2000-12-24",
+            "occupation": "electrician"
+        },
+        {
             "firstName": "Pamfil",
             "lastName": "Nemes",
             "email": "Pamfil_Nemes@hotmail.ro",
@@ -33,14 +47,14 @@
         {
             "commerciant": "KFC",
             "id": 106,
-            "account": "RO58POOB7344468893732422",
+            "account": "RO22POOB3875162728202296",
             "type": "Food",
             "cashbackStrategy": "spendingThreshold"
         },
         {
             "commerciant": "Nike",
             "id": 88,
-            "account": "RO69POOB6209498372540635",
+            "account": "RO28POOB5923933391234057",
             "type": "Clothes",
             "cashbackStrategy": "nrOfTransactions"
         }
@@ -55,26 +69,6 @@
             "from": "USD",
             "to": "EUR",
             "rate": 0.8
-        },
-        {
-            "from": "EUR",
-            "to": "USD",
-            "rate": 1.1
-        },
-        {
-            "from": "EUR",
-            "to": "RON",
-            "rate": 4.2
-        },
-        {
-            "from": "RON",
-            "to": "USD",
-            "rate": 3.3
-        },
-        {
-            "from": "RON",
-            "to": "EUR",
-            "rate": 0.2
         }
     ],
     "commands": [
@@ -90,66 +84,63 @@
             "timestamp": 2
         },
         {
+            "command": "printUsers",
+            "timestamp": 3
+        },
+        {
             "command": "addAccount",
             "email": "Amza_Stoica@yahoo.ro",
             "currency": "RON",
             "accountType": "savings",
             "interestRate": 0.78,
-            "timestamp": 3
+            "timestamp": 4
         },
         {
             "command": "addFunds",
             "email": "Amza_Stoica@yahoo.ro",
             "account": "RO69POOB6209498372540635",
             "amount": 610,
-            "timestamp": 4
+            "timestamp": 5
         },
         {
             "command": "withdrawSavings",
             "account": "RO69POOB6209498372540635",
             "amount": 347.0,
             "currency": "RON",
-            "timestamp": 5
+            "timestamp": 6
         },
         {
             "command": "printUsers",
-            "timestamp": 6
+            "timestamp": 7
+        },
+        {
+            "command": "addAccount",
+            "email": "Andre_Glenn@outlook.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 8
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO69POOB6209498372540635",
+            "amount": 263.0,
+            "receiver": "RO90POOB5450777208072365",
+            "timestamp": 9,
+            "email": "Amza_Stoica@yahoo.ro",
+            "description": "Electricity and gas bills"
         },
         {
             "command": "addAccount",
             "email": "Pamfil_Nemes@hotmail.ro",
             "currency": "RON",
             "accountType": "classic",
-            "timestamp": 7
+            "timestamp": 10
         },
         {
             "command": "addFunds",
             "email": "Amza_Stoica@yahoo.ro",
             "account": "RO58POOB7344468893732422",
             "amount": 327,
-            "timestamp": 8
-        },
-        {
-            "command": "createCard",
-            "account": "RO58POOB7344468893732422",
-            "email": "Amza_Stoica@yahoo.ro",
-            "timestamp": 9
-        },
-        {
-            "command": "payOnline",
-            "email": "Amza_Stoica@yahoo.ro",
-            "cardNumber": "8207906978464446",
-            "amount": 157,
-            "currency": "RON",
-            "timestamp": 10,
-            "description": "Online payment",
-            "commerciant": "Nike"
-        },
-        {
-            "command": "addAccount",
-            "email": "Pamfil_Nemes@hotmail.ro",
-            "currency": "RON",
-            "accountType": "classic",
             "timestamp": 11
         },
         {
@@ -159,32 +150,57 @@
             "timestamp": 12
         },
         {
-            "command": "addFunds",
+            "command": "payOnline",
             "email": "Amza_Stoica@yahoo.ro",
-            "account": "RO69POOB6209498372540635",
-            "amount": 199,
-            "timestamp": 13
+            "cardNumber": "8207906978464446",
+            "amount": 157,
+            "currency": "RON",
+            "timestamp": 13,
+            "description": "Online payment",
+            "commerciant": "Nike"
         },
         {
             "command": "addAccount",
-            "email": "Adrian_Waters@yahoo.us",
-            "currency": "USD",
+            "email": "Pamfil_Nemes@hotmail.ro",
+            "currency": "RON",
             "accountType": "classic",
             "timestamp": 14
         },
         {
-            "command": "withdrawSavings",
+            "command": "createCard",
             "account": "RO69POOB6209498372540635",
-            "amount": 124.0,
-            "currency": "RON",
+            "email": "Amza_Stoica@yahoo.ro",
             "timestamp": 15
         },
         {
             "command": "addFunds",
             "email": "Amza_Stoica@yahoo.ro",
             "account": "RO69POOB6209498372540635",
-            "amount": 731,
+            "amount": 199,
             "timestamp": 16
+        },
+        {
+            "command": "addAccount",
+            "email": "Adrian_Waters@yahoo.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 17
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO69POOB6209498372540635",
+            "amount": 124.0,
+            "receiver": "RO90POOB5450777208072365",
+            "timestamp": 18,
+            "email": "Amza_Stoica@yahoo.ro",
+            "description": "Miscellaneous cash expenses"
+        },
+        {
+            "command": "addFunds",
+            "email": "Amza_Stoica@yahoo.ro",
+            "account": "RO69POOB6209498372540635",
+            "amount": 731,
+            "timestamp": 19
         },
         {
             "command": "payOnline",
@@ -192,28 +208,42 @@
             "cardNumber": "7901879264253296",
             "amount": 132,
             "currency": "RON",
-            "timestamp": 17,
+            "timestamp": 20,
             "description": "Online payment",
             "commerciant": "Nike"
         },
         {
+            "command": "printTransactions",
+            "email": "Amza_Stoica@yahoo.ro",
+            "timestamp": 21
+        },
+        {
             "command": "printUsers",
-            "timestamp": 18
+            "timestamp": 22
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "amount": 170.0,
+            "receiver": "RO90POOB5450777208072365",
+            "timestamp": 23,
+            "email": "Amza_Stoica@yahoo.ro",
+            "description": "Buying new shoes from Zara"
         },
         {
             "command": "printTransactions",
             "email": "Amza_Stoica@yahoo.ro",
-            "timestamp": 19
+            "timestamp": 24
         },
         {
             "command": "deleteAccount",
             "email": "Amza_Stoica@yahoo.ro",
             "account": "RO58POOB7344468893732422",
-            "timestamp": 20
+            "timestamp": 25
         },
         {
             "command": "printUsers",
-            "timestamp": 21
+            "timestamp": 26
         }
     ]
 }

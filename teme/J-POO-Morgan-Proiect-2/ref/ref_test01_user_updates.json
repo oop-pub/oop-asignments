@@ -6,6 +6,16 @@
     "email" : "Adrian_Waters@yahoo.us",
     "accounts" : [ ]
   }, {
+    "firstName" : "Olimpian",
+    "lastName" : "Albu",
+    "email" : "Olimpian_Albu@yahoo.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Andre",
+    "lastName" : "Glenn",
+    "email" : "Andre_Glenn@outlook.us",
+    "accounts" : [ ]
+  }, {
     "firstName" : "Pamfil",
     "lastName" : "Nemes",
     "email" : "Pamfil_Nemes@hotmail.ro",
@@ -30,6 +40,16 @@
     "email" : "Adrian_Waters@yahoo.us",
     "accounts" : [ ]
   }, {
+    "firstName" : "Olimpian",
+    "lastName" : "Albu",
+    "email" : "Olimpian_Albu@yahoo.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Andre",
+    "lastName" : "Glenn",
+    "email" : "Andre_Glenn@outlook.us",
+    "accounts" : [ ]
+  }, {
     "firstName" : "Pamfil",
     "lastName" : "Nemes",
     "email" : "Pamfil_Nemes@hotmail.ro",
@@ -44,12 +64,6 @@
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
-    }, {
-      "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 610.0,
-      "currency" : "RON",
-      "type" : "savings",
-      "cards" : [ ]
     } ]
   }, {
     "firstName" : "Erica",
@@ -57,56 +71,42 @@
     "email" : "Erica_Mocanu@hotmail.ro",
     "accounts" : [ ]
   } ],
-  "timestamp" : 6
+  "timestamp" : 3
 }, {
   "command" : "printUsers",
   "output" : [ {
     "firstName" : "Adrian",
     "lastName" : "Waters",
     "email" : "Adrian_Waters@yahoo.us",
-    "accounts" : [ {
-      "IBAN" : "RO58POOB2721178218599590",
-      "balance" : 0.0,
-      "currency" : "USD",
-      "type" : "classic",
-      "cards" : [ ]
-    } ]
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Olimpian",
+    "lastName" : "Albu",
+    "email" : "Olimpian_Albu@yahoo.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Andre",
+    "lastName" : "Glenn",
+    "email" : "Andre_Glenn@outlook.us",
+    "accounts" : [ ]
   }, {
     "firstName" : "Pamfil",
     "lastName" : "Nemes",
     "email" : "Pamfil_Nemes@hotmail.ro",
-    "accounts" : [ {
-      "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 0.0,
-      "currency" : "RON",
-      "type" : "classic",
-      "cards" : [ ]
-    }, {
-      "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 0.0,
-      "currency" : "RON",
-      "type" : "classic",
-      "cards" : [ ]
-    } ]
+    "accounts" : [ ]
   }, {
     "firstName" : "Amza",
     "lastName" : "Stoica",
     "email" : "Amza_Stoica@yahoo.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 38.0,
+      "balance" : 347.0,
       "currency" : "RON",
       "type" : "classic",
-      "cards" : [ {
-        "cardNumber" : "8207906978464446",
-        "status" : "active"
-      }, {
-        "cardNumber" : "7901879264253296",
-        "status" : "active"
-      } ]
+      "cards" : [ ]
     }, {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 1540.0,
+      "balance" : 263.0,
       "currency" : "RON",
       "type" : "savings",
       "cards" : [ ]
@@ -117,52 +117,68 @@
     "email" : "Erica_Mocanu@hotmail.ro",
     "accounts" : [ ]
   } ],
-  "timestamp" : 18
+  "timestamp" : 7
 }, {
   "command" : "printTransactions",
   "output" : [ {
     "timestamp" : 2,
     "description" : "New account created"
   }, {
-    "timestamp" : 3,
+    "timestamp" : 4,
     "description" : "New account created"
   }, {
-    "timestamp" : 5,
+    "timestamp" : 6,
+    "description" : "Savings withdrawal",
+    "savingsAccountIBAN" : "RO69POOB6209498372540635",
+    "classicAccountIBAN" : "RO58POOB7344468893732422",
+    "amount" : 347.0
+  }, {
+    "timestamp" : 6,
     "description" : "You don't have the minimum age required."
   }, {
+    "timestamp" : 6,
+    "description" : "Savings withdrawal",
+    "savingsAccountIBAN" : "RO69POOB6209498372540635",
+    "classicAccountIBAN" : "RO58POOB7344468893732422",
+    "amount" : 347.0
+  }, {
     "timestamp" : 9,
+    "description" : "Electricity and gas bills",
+    "senderIBAN" : "RO69POOB6209498372540635",
+    "receiverIBAN" : "RO90POOB5450777208072365",
+    "amount" : "263.0 RON",
+    "transferType" : "sent"
+  }, {
+    "timestamp" : 12,
     "description" : "New card created",
     "card" : "8207906978464446",
     "cardHolder" : "Amza_Stoica@yahoo.ro",
     "account" : "RO58POOB7344468893732422"
   }, {
-    "timestamp" : 10,
+    "timestamp" : 13,
     "description" : "Card payment",
     "amount" : 157.0,
     "commerciant" : "Nike"
   }, {
-    "timestamp" : 12,
+    "timestamp" : 15,
     "description" : "New card created",
     "card" : "7901879264253296",
     "cardHolder" : "Amza_Stoica@yahoo.ro",
-    "account" : "RO58POOB7344468893732422"
+    "account" : "RO69POOB6209498372540635"
   }, {
-    "timestamp" : 15,
-    "description" : "You don't have the minimum age required."
+    "timestamp" : 18,
+    "description" : "Miscellaneous cash expenses",
+    "senderIBAN" : "RO69POOB6209498372540635",
+    "receiverIBAN" : "RO90POOB5450777208072365",
+    "amount" : "124.0 RON",
+    "transferType" : "sent"
   }, {
-    "timestamp" : 17,
+    "timestamp" : 20,
     "description" : "Card payment",
     "amount" : 132.0,
     "commerciant" : "Nike"
   } ],
-  "timestamp" : 19
-}, {
-  "command" : "deleteAccount",
-  "output" : {
-    "error" : "Account couldn't be deleted - see org.poo.transactions for details",
-    "timestamp" : 20
-  },
-  "timestamp" : 20
+  "timestamp" : 21
 }, {
   "command" : "printUsers",
   "output" : [ {
@@ -170,8 +186,24 @@
     "lastName" : "Waters",
     "email" : "Adrian_Waters@yahoo.us",
     "accounts" : [ {
-      "IBAN" : "RO58POOB2721178218599590",
+      "IBAN" : "RO76POOB4035116042454483",
       "balance" : 0.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Olimpian",
+    "lastName" : "Albu",
+    "email" : "Olimpian_Albu@yahoo.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Andre",
+    "lastName" : "Glenn",
+    "email" : "Andre_Glenn@outlook.us",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 1290.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -181,13 +213,13 @@
     "lastName" : "Nemes",
     "email" : "Pamfil_Nemes@hotmail.ro",
     "accounts" : [ {
-      "IBAN" : "RO90POOB5450777208072365",
+      "IBAN" : "RO65POOB8944016386845896",
       "balance" : 0.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
     }, {
-      "IBAN" : "RO65POOB8944016386845896",
+      "IBAN" : "RO58POOB2721178218599590",
       "balance" : 0.0,
       "currency" : "RON",
       "type" : "classic",
@@ -199,22 +231,22 @@
     "email" : "Amza_Stoica@yahoo.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 38.0,
+      "balance" : 517.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
         "cardNumber" : "8207906978464446",
         "status" : "active"
-      }, {
-        "cardNumber" : "7901879264253296",
-        "status" : "active"
       } ]
     }, {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 1540.0,
+      "balance" : 674.0,
       "currency" : "RON",
       "type" : "savings",
-      "cards" : [ ]
+      "cards" : [ {
+        "cardNumber" : "7901879264253296",
+        "status" : "active"
+      } ]
     } ]
   }, {
     "firstName" : "Erica",
@@ -222,5 +254,156 @@
     "email" : "Erica_Mocanu@hotmail.ro",
     "accounts" : [ ]
   } ],
-  "timestamp" : 21
+  "timestamp" : 22
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 2,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 4,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 6,
+    "description" : "Savings withdrawal",
+    "savingsAccountIBAN" : "RO69POOB6209498372540635",
+    "classicAccountIBAN" : "RO58POOB7344468893732422",
+    "amount" : 347.0
+  }, {
+    "timestamp" : 6,
+    "description" : "You don't have the minimum age required."
+  }, {
+    "timestamp" : 6,
+    "description" : "Savings withdrawal",
+    "savingsAccountIBAN" : "RO69POOB6209498372540635",
+    "classicAccountIBAN" : "RO58POOB7344468893732422",
+    "amount" : 347.0
+  }, {
+    "timestamp" : 9,
+    "description" : "Electricity and gas bills",
+    "senderIBAN" : "RO69POOB6209498372540635",
+    "receiverIBAN" : "RO90POOB5450777208072365",
+    "amount" : "263.0 RON",
+    "transferType" : "sent"
+  }, {
+    "timestamp" : 12,
+    "description" : "New card created",
+    "card" : "8207906978464446",
+    "cardHolder" : "Amza_Stoica@yahoo.ro",
+    "account" : "RO58POOB7344468893732422"
+  }, {
+    "timestamp" : 13,
+    "description" : "Card payment",
+    "amount" : 157.0,
+    "commerciant" : "Nike"
+  }, {
+    "timestamp" : 15,
+    "description" : "New card created",
+    "card" : "7901879264253296",
+    "cardHolder" : "Amza_Stoica@yahoo.ro",
+    "account" : "RO69POOB6209498372540635"
+  }, {
+    "timestamp" : 18,
+    "description" : "Miscellaneous cash expenses",
+    "senderIBAN" : "RO69POOB6209498372540635",
+    "receiverIBAN" : "RO90POOB5450777208072365",
+    "amount" : "124.0 RON",
+    "transferType" : "sent"
+  }, {
+    "timestamp" : 20,
+    "description" : "Card payment",
+    "amount" : 132.0,
+    "commerciant" : "Nike"
+  }, {
+    "timestamp" : 23,
+    "description" : "Buying new shoes from Zara",
+    "senderIBAN" : "RO58POOB7344468893732422",
+    "receiverIBAN" : "RO90POOB5450777208072365",
+    "amount" : "170.0 RON",
+    "transferType" : "sent"
+  } ],
+  "timestamp" : 24
+}, {
+  "command" : "deleteAccount",
+  "output" : {
+    "error" : "Account couldn't be deleted - see org.poo.transactions for details",
+    "timestamp" : 25
+  },
+  "timestamp" : 25
+}, {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Adrian",
+    "lastName" : "Waters",
+    "email" : "Adrian_Waters@yahoo.us",
+    "accounts" : [ {
+      "IBAN" : "RO76POOB4035116042454483",
+      "balance" : 0.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Olimpian",
+    "lastName" : "Albu",
+    "email" : "Olimpian_Albu@yahoo.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Andre",
+    "lastName" : "Glenn",
+    "email" : "Andre_Glenn@outlook.us",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 1856.67,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Pamfil",
+    "lastName" : "Nemes",
+    "email" : "Pamfil_Nemes@hotmail.ro",
+    "accounts" : [ {
+      "IBAN" : "RO65POOB8944016386845896",
+      "balance" : 0.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ]
+    }, {
+      "IBAN" : "RO58POOB2721178218599590",
+      "balance" : 0.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Amza",
+    "lastName" : "Stoica",
+    "email" : "Amza_Stoica@yahoo.ro",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 347.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "8207906978464446",
+        "status" : "active"
+      } ]
+    }, {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 674.0,
+      "currency" : "RON",
+      "type" : "savings",
+      "cards" : [ {
+        "cardNumber" : "7901879264253296",
+        "status" : "active"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Erica",
+    "lastName" : "Mocanu",
+    "email" : "Erica_Mocanu@hotmail.ro",
+    "accounts" : [ ]
+  } ],
+  "timestamp" : 26
 } ]
