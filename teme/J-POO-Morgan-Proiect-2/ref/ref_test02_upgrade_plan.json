@@ -60,7 +60,7 @@
     "email" : "Chad_Robinson@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 125.0,
+      "balance" : 102.78,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -125,7 +125,9 @@
     "description" : "New account created"
   }, {
     "timestamp" : 4,
-    "description" : "Insufficient funds"
+    "description" : "Upgrade plan",
+    "accountIBAN" : "RO58POOB7344468893732422",
+    "newPlanType" : "silver"
   }, {
     "timestamp" : 8,
     "description" : "Miscellaneous online expenses",
@@ -143,7 +145,7 @@
     "email" : "Chad_Robinson@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 684.0,
+      "balance" : 606.22,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -208,7 +210,9 @@
     "description" : "New account created"
   }, {
     "timestamp" : 4,
-    "description" : "Insufficient funds"
+    "description" : "Upgrade plan",
+    "accountIBAN" : "RO58POOB7344468893732422",
+    "newPlanType" : "silver"
   }, {
     "timestamp" : 8,
     "description" : "Miscellaneous online expenses",
@@ -218,7 +222,9 @@
     "transferType" : "sent"
   }, {
     "timestamp" : 11,
-    "description" : "Insufficient funds"
+    "description" : "Upgrade plan",
+    "accountIBAN" : "RO58POOB7344468893732422",
+    "newPlanType" : "gold"
   } ],
   "timestamp" : 13
 }, {
@@ -236,7 +242,7 @@
     "email" : "Chad_Robinson@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 213.0,
+      "balance" : 135.22,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -301,13 +307,15 @@
     "description" : "New account created"
   }, {
     "timestamp" : 19,
-    "description" : "Insufficient funds"
+    "description" : "Upgrade plan",
+    "accountIBAN" : "RO90POOB5450777208072365",
+    "newPlanType" : "silver"
   } ],
   "timestamp" : 20
 }, {
   "command" : "deleteAccount",
   "output" : {
-    "error" : "Account couldn't be deleted - see org.poo.transactions for details",
+    "success" : "Account deleted",
     "timestamp" : 21
   },
   "timestamp" : 21
@@ -319,7 +327,7 @@
     "email" : "Chad_Robinson@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 213.0,
+      "balance" : 135.22,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -363,13 +371,7 @@
     "firstName" : "Timothee",
     "lastName" : "Le Jacquet",
     "email" : "Timothee_Le_Jacquet@outlook.fr",
-    "accounts" : [ {
-      "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 20.0,
-      "currency" : "EUR",
-      "type" : "classic",
-      "cards" : [ ]
-    } ]
+    "accounts" : [ ]
   }, {
     "firstName" : "John",
     "lastName" : "Fowler",

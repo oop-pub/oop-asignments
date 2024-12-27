@@ -356,7 +356,9 @@
     "transferType" : "sent"
   }, {
     "timestamp" : 54,
-    "description" : "Insufficient funds"
+    "description" : "Upgrade plan",
+    "accountIBAN" : "RO37POOB7013767509830666",
+    "newPlanType" : "silver"
   }, {
     "timestamp" : 56,
     "description" : "Card payment",
@@ -396,7 +398,7 @@
     "email" : "Brandi_Schultz@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
-      "balance" : 2068.0,
+      "balance" : 2046.57,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -537,7 +539,8 @@
     "newPlanType" : "gold"
   }, {
     "timestamp" : 67,
-    "description" : "Insufficient funds"
+    "description" : "Cash withdrawal of 600.0",
+    "amount" : 600.0
   } ],
   "timestamp" : 68
 }, {
@@ -569,7 +572,7 @@
     "email" : "Brandi_Schultz@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
-      "balance" : 2068.0,
+      "balance" : 2046.57,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -614,7 +617,7 @@
     "email" : "Jason_Carpenter@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 1343.67,
+      "balance" : 102.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {

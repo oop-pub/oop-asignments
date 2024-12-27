@@ -4,7 +4,7 @@
     "IBAN" : "RO58POOB7344468893732422",
     "balance" : 1276.37,
     "currency" : "USD",
-    "transaction" : [ {
+    "transactions" : [ {
       "timestamp" : 4,
       "description" : "Card payment",
       "amount" : 497.0,
@@ -40,7 +40,7 @@
       "amount" : 54.45,
       "commerciant" : "H&M"
     } ],
-    "commerciant" : [ {
+    "commerciants" : [ {
       "commerciant" : "Apple",
       "total" : 124.0
     }, {
@@ -57,7 +57,7 @@
     "email" : "Tiffany_Leonard@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 1439.09,
+      "balance" : 1135.76,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -91,9 +91,9 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO58POOB7344468893732422",
-    "balance" : 1439.09,
+    "balance" : 1135.76,
     "currency" : "USD",
-    "transaction" : [ {
+    "transactions" : [ {
       "timestamp" : 4,
       "description" : "Card payment",
       "amount" : 497.0,
@@ -129,7 +129,7 @@
       "amount" : 54.45,
       "commerciant" : "H&M"
     } ],
-    "commerciant" : [ {
+    "commerciants" : [ {
       "commerciant" : "Apple",
       "total" : 124.0
     }, {
@@ -177,10 +177,10 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO69POOB6209498372540635",
-    "balance" : 1024.0,
+    "balance" : 265.67,
     "currency" : "USD",
-    "transaction" : [ ],
-    "commerciant" : [ ]
+    "transactions" : [ ],
+    "commerciants" : [ ]
   },
   "timestamp" : 117
 } ]
