@@ -1,0 +1,526 @@
+{
+  "users": [
+    {
+      "firstName": "Aimee",
+      "lastName": "Pruvost",
+      "email": "Aimee_Pruvost@outlook.fr",
+      "birthDate": "2002-04-17",
+      "occupation": "student"
+    },
+    {
+      "firstName": "Amelie",
+      "lastName": "Hoareau Le Courtois",
+      "email": "Amelie_Hoareau_Le_Courtois@yahoo.fr",
+      "birthDate": "1971-03-29",
+      "occupation": "electrician"
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Richmond",
+      "email": "Michael_Richmond@gmail.us",
+      "birthDate": "1999-06-29",
+      "occupation": "student"
+    },
+    {
+      "firstName": "Brandi",
+      "lastName": "Schultz",
+      "email": "Brandi_Schultz@outlook.us",
+      "birthDate": "2002-09-13",
+      "occupation": "student"
+    },
+    {
+      "firstName": "Laurent",
+      "lastName": "Chauvet",
+      "email": "Laurent_Chauvet@hotmail.fr",
+      "birthDate": "2001-04-15",
+      "occupation": "student"
+    },
+    {
+      "firstName": "Nathalie",
+      "lastName": "Weiss",
+      "email": "Nathalie_Weiss@yahoo.fr",
+      "birthDate": "1997-06-11",
+      "occupation": "programmer"
+    },
+    {
+      "firstName": "Philippe-Georges",
+      "lastName": "Da Silva",
+      "email": "Philippe-Georges_Da_Silva@yahoo.fr",
+      "birthDate": "1989-10-14",
+      "occupation": "actor"
+    },
+    {
+      "firstName": "Zenovia",
+      "lastName": "Nemes",
+      "email": "Zenovia_Nemes@outlook.ro",
+      "birthDate": "1990-11-15",
+      "occupation": "barber"
+    },
+    {
+      "firstName": "Rafael",
+      "lastName": "Gheorghiu",
+      "email": "Rafael_Gheorghiu@yahoo.ro",
+      "birthDate": "1999-08-06",
+      "occupation": "student"
+    },
+    {
+      "firstName": "Jason",
+      "lastName": "Carpenter",
+      "email": "Jason_Carpenter@hotmail.us",
+      "birthDate": "2001-04-24",
+      "occupation": "student"
+    },
+    {
+      "firstName": "Cynthia",
+      "lastName": "Turner",
+      "email": "Cynthia_Turner@hotmail.us",
+      "birthDate": "2005-09-22",
+      "occupation": "student"
+    },
+    {
+      "firstName": "Salomea",
+      "lastName": "Mocanu",
+      "email": "Salomea_Mocanu@gmail.ro",
+      "birthDate": "1978-09-04",
+      "occupation": "cashier"
+    },
+    {
+      "firstName": "Melanie",
+      "lastName": "Garcia",
+      "email": "Melanie_Garcia@gmail.us",
+      "birthDate": "2002-03-17",
+      "occupation": "barber"
+    },
+    {
+      "firstName": "Suzanne",
+      "lastName": "Benard",
+      "email": "Suzanne_Benard@hotmail.fr",
+      "birthDate": "2005-03-15",
+      "occupation": "student"
+    },
+    {
+      "firstName": "Dennis",
+      "lastName": "Norris",
+      "email": "Dennis_Norris@yahoo.us",
+      "birthDate": "1974-12-21",
+      "occupation": "economist"
+    },
+    {
+      "firstName": "Jeana",
+      "lastName": "Nistor",
+      "email": "Jeana_Nistor@gmail.ro",
+      "birthDate": "1980-02-24",
+      "occupation": "racing driver"
+    },
+    {
+      "firstName": "Catalin",
+      "lastName": "Toma",
+      "email": "Catalin_Toma@outlook.ro",
+      "birthDate": "2001-02-14",
+      "occupation": "student"
+    },
+    {
+      "firstName": "Billy",
+      "lastName": "Greene",
+      "email": "Billy_Greene@gmail.us",
+      "birthDate": "2000-10-08",
+      "occupation": "racing driver"
+    },
+    {
+      "firstName": "Kelly",
+      "lastName": "Kelley",
+      "email": "Kelly_Kelley@hotmail.us",
+      "birthDate": "2004-03-02",
+      "occupation": "student"
+    },
+    {
+      "firstName": "Dorli",
+      "lastName": "Albu",
+      "email": "Dorli_Albu@hotmail.ro",
+      "birthDate": "1983-07-30",
+      "occupation": "actor"
+    }
+  ],
+  "commerciants": [
+    {
+      "commerciant": "Burger King",
+      "id": 106,
+      "account": "RO22POOB3875162728202296",
+      "type": "Food",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "KFC",
+      "id": 106,
+      "account": "RO28POOB5923933391234057",
+      "type": "Food",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "Amazon",
+      "id": 126,
+      "account": "RO25POOB4386521661484930",
+      "type": "Tech",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "Samsung",
+      "id": 116,
+      "account": "RO32POOB8964686295716974",
+      "type": "Tech",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "McDonalds",
+      "id": 98,
+      "account": "RO75POOB9251835314648427",
+      "type": "Food",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "Nike",
+      "id": 88,
+      "account": "RO15POOB4333403266660236",
+      "type": "Clothes",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "H&M",
+      "id": 83,
+      "account": "RO95POOB9807857732666986",
+      "type": "Clothes",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "Microsoft",
+      "id": 126,
+      "account": "RO66POOB9463355196372136",
+      "type": "Tech",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "Apple",
+      "id": 113,
+      "account": "RO01POOB5884922951883378",
+      "type": "Tech",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "Zara",
+      "id": 79,
+      "account": "RO17POOB8495306331082091",
+      "type": "Clothes",
+      "cashbackStrategy": "nrOfTransactions"
+    }
+  ],
+  "exchangeRates": [
+    {
+      "from": "EUR",
+      "to": "USD",
+      "rate": 0.9
+    },
+    {
+      "from": "EUR",
+      "to": "RON",
+      "rate": 4.2
+    }
+  ],
+  "commands": [
+    {
+      "command": "addAccount",
+      "email": "Jason_Carpenter@hotmail.us",
+      "currency": "USD",
+      "accountType": "classic",
+      "timestamp": 1
+    },
+    {
+      "command": "addFunds",
+      "email": "Jason_Carpenter@hotmail.us",
+      "account": "RO58POOB7344468893732422",
+      "amount": 977,
+      "timestamp": 8
+    },
+    {
+      "command": "addAccount",
+      "email": "Jeana_Nistor@gmail.ro",
+      "currency": "RON",
+      "accountType": "classic",
+      "timestamp": 9
+    },
+    {
+      "command": "addFunds",
+      "email": "Jeana_Nistor@gmail.ro",
+      "account": "RO69POOB6209498372540635",
+      "amount": 513,
+      "timestamp": 15
+    },
+    {
+      "command": "addAccount",
+      "email": "Rafael_Gheorghiu@yahoo.ro",
+      "currency": "RON",
+      "accountType": "classic",
+      "timestamp": 16
+    },
+    {
+      "command": "addFunds",
+      "email": "Rafael_Gheorghiu@yahoo.ro",
+      "account": "RO90POOB5450777208072365",
+      "amount": 156,
+      "timestamp": 22
+    },
+    {
+      "command": "addAccount",
+      "email": "Suzanne_Benard@hotmail.fr",
+      "currency": "EUR",
+      "accountType": "classic",
+      "timestamp": 23
+    },
+    {
+      "command": "addFunds",
+      "email": "Suzanne_Benard@hotmail.fr",
+      "account": "RO65POOB8944016386845896",
+      "amount": 34,
+      "timestamp": 32
+    },
+    {
+      "command": "addAccount",
+      "email": "Aimee_Pruvost@outlook.fr",
+      "currency": "EUR",
+      "accountType": "classic",
+      "timestamp": 33
+    },
+    {
+      "command": "addFunds",
+      "email": "Aimee_Pruvost@outlook.fr",
+      "account": "RO58POOB2721178218599590",
+      "amount": 685,
+      "timestamp": 36
+    },
+    {
+      "command": "addAccount",
+      "email": "Dennis_Norris@yahoo.us",
+      "currency": "USD",
+      "accountType": "classic",
+      "timestamp": 37
+    },
+    {
+      "command": "createCard",
+      "account": "RO76POOB4035116042454483",
+      "email": "Dennis_Norris@yahoo.us",
+      "timestamp": 38
+    },
+    {
+      "command": "printUsers",
+      "timestamp": 39
+    },
+    {
+      "command": "addFunds",
+      "email": "Dennis_Norris@yahoo.us",
+      "account": "RO76POOB4035116042454483",
+      "amount": 646,
+      "timestamp": 40
+    },
+    {
+      "command": "sendMoney",
+      "account": "RO76POOB4035116042454483",
+      "receiver": "",
+      "amount": 455.0,
+      "timestamp": 41,
+      "email": "Dennis_Norris@yahoo.us",
+      "description": "Monthly rent payment for an apartment"
+    },
+    {
+      "command": "addFunds",
+      "email": "Dennis_Norris@yahoo.us",
+      "account": "RO76POOB4035116042454483",
+      "amount": 100200.0,
+      "timestamp": 42
+    },
+    {
+      "command": "cashWithdrawal",
+      "cardNumber": "8207906978464446",
+      "amount": 100000,
+      "email": "Dennis_Norris@yahoo.us",
+      "location": "Hendersonside",
+      "timestamp": 43
+    },
+    {
+      "command": "printTransactions",
+      "email": "Dennis_Norris@yahoo.us",
+      "timestamp": 44
+    },
+    {
+      "command": "printUsers",
+      "timestamp": 45
+    },
+    {
+      "command": "addAccount",
+      "email": "Brandi_Schultz@outlook.us",
+      "currency": "USD",
+      "accountType": "classic",
+      "timestamp": 46
+    },
+    {
+      "command": "addFunds",
+      "email": "Brandi_Schultz@outlook.us",
+      "account": "RO37POOB7013767509830666",
+      "amount": 23,
+      "timestamp": 47
+    },
+    {
+      "command": "createCard",
+      "account": "RO37POOB7013767509830666",
+      "email": "Brandi_Schultz@outlook.us",
+      "timestamp": 48
+    },
+    {
+      "command": "payOnline",
+      "email": "Brandi_Schultz@outlook.us",
+      "cardNumber": "7901879264253296",
+      "amount": 18,
+      "currency": "USD",
+      "timestamp": 49,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "payOnline",
+      "email": "Brandi_Schultz@outlook.us",
+      "cardNumber": "7901879264253296",
+      "amount": 10,
+      "currency": "EUR",
+      "timestamp": 50,
+      "description": "Online payment",
+      "commerciant": "Microsoft"
+    },
+    {
+      "command": "sendMoney",
+      "account": "RO37POOB7013767509830666",
+      "receiver": "RO76POOB4035116042454483",
+      "amount": 3.0,
+      "timestamp": 51,
+      "email": "Brandi_Schultz@outlook.us",
+      "description": "Visit to a local healthcare clinic"
+    },
+    {
+      "command": "printTransactions",
+      "email": "Brandi_Schultz@outlook.us",
+      "timestamp": 52
+    },
+    {
+      "command": "addFunds",
+      "email": "Brandi_Schultz@outlook.us",
+      "account": "RO37POOB7013767509830666",
+      "amount": 310,
+      "timestamp": 53
+    },
+    {
+      "command": "upgradePlan",
+      "account": "RO37POOB7013767509830666",
+      "newPlanType": "silver",
+      "timestamp": 54
+    },
+    {
+      "command": "addFunds",
+      "email": "Brandi_Schultz@outlook.us",
+      "account": "RO37POOB7013767509830666",
+      "amount": 1000.0,
+      "timestamp": 55
+    },
+    {
+      "command": "payOnline",
+      "email": "Brandi_Schultz@outlook.us",
+      "cardNumber": "7901879264253296",
+      "amount": 244,
+      "currency": "USD",
+      "timestamp": 56,
+      "description": "Online payment",
+      "commerciant": "Burger King"
+    },
+    {
+      "command": "sendMoney",
+      "account": "RO37POOB7013767509830666",
+      "receiver": "",
+      "amount": 259.0,
+      "timestamp": 57,
+      "email": "Brandi_Schultz@outlook.us",
+      "description": "Netflix subscription renewal"
+    },
+    {
+      "command": "addFunds",
+      "email": "Brandi_Schultz@outlook.us",
+      "account": "RO37POOB7013767509830666",
+      "amount": 1000.0,
+      "timestamp": 58
+    },
+    {
+      "command": "cashWithdrawal",
+      "cardNumber": "7901879264253296",
+      "amount": 600,
+      "email": "Brandi_Schultz@outlook.us",
+      "location": "Huizinge",
+      "timestamp": 59
+    },
+    {
+      "command": "printTransactions",
+      "email": "Brandi_Schultz@outlook.us",
+      "timestamp": 60
+    },
+    {
+      "command": "printUsers",
+      "timestamp": 61
+    },
+    {
+      "command": "addFunds",
+      "email": "Jason_Carpenter@hotmail.us",
+      "account": "RO58POOB7344468893732422",
+      "amount": 1000.0,
+      "timestamp": 62
+    },
+    {
+      "command": "createOneTimeCard",
+      "account": "RO58POOB7344468893732422",
+      "email": "Jason_Carpenter@hotmail.us",
+      "timestamp": 63
+    },
+    {
+      "command": "upgradePlan",
+      "account": "RO58POOB7344468893732422",
+      "newPlanType": "gold",
+      "timestamp": 64
+    },
+    {
+      "command": "sendMoney",
+      "account": "RO58POOB7344468893732422",
+      "receiver": "",
+      "amount": 110.0,
+      "timestamp": 65,
+      "email": "Jason_Carpenter@hotmail.us",
+      "description": "Netflix subscription renewal"
+    },
+    {
+      "command": "addFunds",
+      "email": "Jason_Carpenter@hotmail.us",
+      "account": "RO58POOB7344468893732422",
+      "amount": 1000.0,
+      "timestamp": 66
+    },
+    {
+      "command": "cashWithdrawal",
+      "cardNumber": "7004757825892043",
+      "amount": 600,
+      "email": "Jason_Carpenter@hotmail.us",
+      "location": "Allain",
+      "timestamp": 67
+    },
+    {
+      "command": "printTransactions",
+      "email": "Jason_Carpenter@hotmail.us",
+      "timestamp": 68
+    },
+    {
+      "command": "printUsers",
+      "timestamp": 69
+    }
+  ]
+}

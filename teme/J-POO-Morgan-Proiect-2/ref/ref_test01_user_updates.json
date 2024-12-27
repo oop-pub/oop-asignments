@@ -100,13 +100,13 @@
     "email" : "Amza_Stoica@yahoo.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 347.0,
+      "balance" : 0.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ ]
     }, {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 263.0,
+      "balance" : 610.0,
       "currency" : "RON",
       "type" : "savings",
       "cards" : [ ]
@@ -128,19 +128,7 @@
     "description" : "New account created"
   }, {
     "timestamp" : 6,
-    "description" : "Savings withdrawal",
-    "savingsAccountIBAN" : "RO69POOB6209498372540635",
-    "classicAccountIBAN" : "RO58POOB7344468893732422",
-    "amount" : 347.0
-  }, {
-    "timestamp" : 6,
     "description" : "You don't have the minimum age required."
-  }, {
-    "timestamp" : 6,
-    "description" : "Savings withdrawal",
-    "savingsAccountIBAN" : "RO69POOB6209498372540635",
-    "classicAccountIBAN" : "RO58POOB7344468893732422",
-    "amount" : 347.0
   }, {
     "timestamp" : 9,
     "description" : "Electricity and gas bills",
@@ -203,7 +191,7 @@
     "email" : "Andre_Glenn@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 1290.0,
+      "balance" : 116.1,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -231,7 +219,7 @@
     "email" : "Amza_Stoica@yahoo.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 517.0,
+      "balance" : 170.0,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
@@ -240,7 +228,7 @@
       } ]
     }, {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 674.0,
+      "balance" : 1021.0,
       "currency" : "RON",
       "type" : "savings",
       "cards" : [ {
@@ -265,19 +253,7 @@
     "description" : "New account created"
   }, {
     "timestamp" : 6,
-    "description" : "Savings withdrawal",
-    "savingsAccountIBAN" : "RO69POOB6209498372540635",
-    "classicAccountIBAN" : "RO58POOB7344468893732422",
-    "amount" : 347.0
-  }, {
-    "timestamp" : 6,
     "description" : "You don't have the minimum age required."
-  }, {
-    "timestamp" : 6,
-    "description" : "Savings withdrawal",
-    "savingsAccountIBAN" : "RO69POOB6209498372540635",
-    "classicAccountIBAN" : "RO58POOB7344468893732422",
-    "amount" : 347.0
   }, {
     "timestamp" : 9,
     "description" : "Electricity and gas bills",
@@ -326,7 +302,7 @@
 }, {
   "command" : "deleteAccount",
   "output" : {
-    "error" : "Account couldn't be deleted - see org.poo.transactions for details",
+    "success" : "Account deleted",
     "timestamp" : 25
   },
   "timestamp" : 25
@@ -354,7 +330,7 @@
     "email" : "Andre_Glenn@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 1856.67,
+      "balance" : 167.1,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ ]
@@ -381,17 +357,8 @@
     "lastName" : "Stoica",
     "email" : "Amza_Stoica@yahoo.ro",
     "accounts" : [ {
-      "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 347.0,
-      "currency" : "RON",
-      "type" : "classic",
-      "cards" : [ {
-        "cardNumber" : "8207906978464446",
-        "status" : "active"
-      } ]
-    }, {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 674.0,
+      "balance" : 1021.0,
       "currency" : "RON",
       "type" : "savings",
       "cards" : [ {

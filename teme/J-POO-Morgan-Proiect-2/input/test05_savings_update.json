@@ -1,0 +1,244 @@
+{
+  "users": [
+    {
+      "firstName": "Hugues",
+      "lastName": "Thierry",
+      "email": "Hugues_Thierry@gmail.fr",
+      "birthDate": "1980-04-26",
+      "occupation": "influencer"
+    },
+    {
+      "firstName": "Caroline",
+      "lastName": "Leleu",
+      "email": "Caroline_Leleu@outlook.fr",
+      "birthDate": "1989-04-05",
+      "occupation": "programmer"
+    },
+    {
+      "firstName": "Georges-Isaac",
+      "lastName": "Lemoine",
+      "email": "Georges-Isaac_Lemoine@outlook.fr",
+      "birthDate": "1976-01-15",
+      "occupation": "firefighter"
+    },
+    {
+      "firstName": "Marie",
+      "lastName": "Davis",
+      "email": "Marie_Davis@yahoo.us",
+      "birthDate": "1978-03-19",
+      "occupation": "actor"
+    },
+    {
+      "firstName": "Simi",
+      "lastName": "Pop",
+      "email": "Simi_Pop@outlook.ro",
+      "birthDate": "2001-03-09",
+      "occupation": "cashier"
+    },
+    {
+      "firstName": "Emily",
+      "lastName": "Walker",
+      "email": "Emily_Walker@gmail.us",
+      "birthDate": "1979-11-01",
+      "occupation": "actor"
+    },
+    {
+      "firstName": "Kyle",
+      "lastName": "Evans",
+      "email": "Kyle_Evans@hotmail.us",
+      "birthDate": "1999-10-08",
+      "occupation": "teacher"
+    },
+    {
+      "firstName": "Olimpiu",
+      "lastName": "Suciu",
+      "email": "Olimpiu_Suciu@outlook.ro",
+      "birthDate": "1994-02-17",
+      "occupation": "librarian"
+    },
+    {
+      "firstName": "Dorothee",
+      "lastName": "Marchal",
+      "email": "Dorothee_Marchal@gmail.fr",
+      "birthDate": "1994-04-15",
+      "occupation": "doctor"
+    },
+    {
+      "firstName": "Roland",
+      "lastName": "Pottier",
+      "email": "Roland_Pottier@gmail.fr",
+      "birthDate": "1991-10-31",
+      "occupation": "doctor"
+    }
+  ],
+  "commerciants": [
+    {
+      "commerciant": "Zara",
+      "id": 79,
+      "account": "RO22POOB3875162728202296",
+      "type": "Clothes",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "KFC",
+      "id": 106,
+      "account": "RO28POOB5923933391234057",
+      "type": "Food",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "Samsung",
+      "id": 116,
+      "account": "RO25POOB4386521661484930",
+      "type": "Tech",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "Burger King",
+      "id": 106,
+      "account": "RO32POOB8964686295716974",
+      "type": "Food",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "Amazon",
+      "id": 126,
+      "account": "RO75POOB9251835314648427",
+      "type": "Tech",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "Microsoft",
+      "id": 126,
+      "account": "RO15POOB4333403266660236",
+      "type": "Tech",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "H&M",
+      "id": 83,
+      "account": "RO95POOB9807857732666986",
+      "type": "Clothes",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "Apple",
+      "id": 113,
+      "account": "RO66POOB9463355196372136",
+      "type": "Tech",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "McDonalds",
+      "id": 98,
+      "account": "RO01POOB5884922951883378",
+      "type": "Food",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "Nike",
+      "id": 88,
+      "account": "RO17POOB8495306331082091",
+      "type": "Clothes",
+      "cashbackStrategy": "nrOfTransactions"
+    }
+  ],
+  "exchangeRates": [
+    {
+      "from": "USD",
+      "to": "EUR",
+      "rate": 0.9
+    },
+    {
+      "from": "EUR",
+      "to": "RON",
+      "rate": 5.0
+    }
+  ],
+  "commands": [
+    {
+      "command": "addAccount",
+      "email": "Caroline_Leleu@outlook.fr",
+      "currency": "EUR",
+      "accountType": "savings",
+      "interestRate": 0.08,
+      "timestamp": 1
+    },
+    {
+      "command": "createCard",
+      "account": "RO58POOB7344468893732422",
+      "email": "Caroline_Leleu@outlook.fr",
+      "timestamp": 2
+    },
+    {
+      "command": "addFunds",
+      "email": "Caroline_Leleu@outlook.fr",
+      "account": "RO58POOB7344468893732422",
+      "amount": 599,
+      "timestamp": 3
+    },
+    {
+      "command": "addInterest",
+      "account": "RO58POOB7344468893732422",
+      "timestamp": 4
+    },
+    {
+      "command": "printUsers",
+      "timestamp": 5
+    },
+    {
+      "command": "cashWithdrawal",
+      "cardNumber": "8207906978464446",
+      "amount": 639.0,
+      "email": "Caroline_Leleu@outlook.fr",
+      "location": "Ranginuku",
+      "timestamp": 6
+    },
+    {
+      "command": "printTransactions",
+      "email": "Caroline_Leleu@outlook.fr",
+      "timestamp": 7
+    },
+    {
+      "command": "withdrawSavings",
+      "account": "RO58POOB7344468893732422",
+      "amount": 4.0,
+      "currency": "EUR",
+      "timestamp": 8
+    },
+    {
+      "command": "printTransactions",
+      "email": "Caroline_Leleu@outlook.fr",
+      "timestamp": 9
+    },
+    {
+      "command": "addFunds",
+      "email": "Caroline_Leleu@outlook.fr",
+      "account": "RO58POOB7344468893732422",
+      "amount": 103,
+      "timestamp": 10
+    },
+    {
+      "command": "withdrawSavings",
+      "account": "RO58POOB7344468893732422",
+      "amount": 106.92,
+      "currency": "EUR",
+      "timestamp": 11
+    },
+    {
+      "command": "printTransactions",
+      "email": "Caroline_Leleu@outlook.fr",
+      "timestamp": 12
+    },
+    {
+      "command": "deleteAccount",
+      "email": "Caroline_Leleu@outlook.fr",
+      "account": "RO58POOB7344468893732422",
+      "timestamp": 13
+    },
+    {
+      "command": "printUsers",
+      "timestamp": 14
+    }
+  ]
+}
