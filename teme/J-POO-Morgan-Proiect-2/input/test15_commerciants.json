@@ -1,0 +1,2247 @@
+{
+  "users": [
+    {
+      "firstName": "Martha",
+      "lastName": "Shaffer",
+      "email": "Martha_Shaffer@outlook.us",
+      "birthDate": "2000-08-10",
+      "occupation": "doctor"
+    },
+    {
+      "firstName": "Paul",
+      "lastName": "Al",
+      "email": "Paul_Al@hotmail.us",
+      "birthDate": "1988-08-22",
+      "occupation": "racing driver"
+    },
+    {
+      "firstName": "Lucie",
+      "lastName": "Dupre",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "birthDate": "1988-04-19",
+      "occupation": "construction worker"
+    },
+    {
+      "firstName": "Jacqueline",
+      "lastName": "Barton",
+      "email": "Jacqueline_Barton@yahoo.us",
+      "birthDate": "2005-04-20",
+      "occupation": "student"
+    },
+    {
+      "firstName": "Jeannine",
+      "lastName": "de Evrard",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "birthDate": "2002-02-14",
+      "occupation": "student"
+    },
+    {
+      "firstName": "Blanduzia",
+      "lastName": "Ionescu",
+      "email": "Blanduzia_Ionescu@hotmail.ro",
+      "birthDate": "1988-11-19",
+      "occupation": "designer"
+    },
+    {
+      "firstName": "Nathalie",
+      "lastName": "Marchand",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "birthDate": "2004-07-04",
+      "occupation": "student"
+    },
+    {
+      "firstName": "Jeffrey",
+      "lastName": "Gonzales",
+      "email": "Jeffrey_Gonzales@outlook.us",
+      "birthDate": "2004-02-25",
+      "occupation": "student"
+    },
+    {
+      "firstName": "Celine-Virginie",
+      "lastName": "Gregoire",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "birthDate": "2000-10-18",
+      "occupation": "footballer"
+    },
+    {
+      "firstName": "Brittany",
+      "lastName": "Wood",
+      "email": "Brittany_Wood@gmail.us",
+      "birthDate": "2002-05-25",
+      "occupation": "teacher"
+    },
+    {
+      "firstName": "Jordan",
+      "lastName": "Rodriguez",
+      "email": "Jordan_Rodriguez@outlook.us",
+      "birthDate": "2000-02-06",
+      "occupation": "cashier"
+    },
+    {
+      "firstName": "Traian",
+      "lastName": "Tomescu",
+      "email": "Traian_Tomescu@outlook.ro",
+      "birthDate": "1991-05-07",
+      "occupation": "pyrotechnician"
+    },
+    {
+      "firstName": "Tammie",
+      "lastName": "Newman",
+      "email": "Tammie_Newman@outlook.us",
+      "birthDate": "1984-09-21",
+      "occupation": "economist"
+    },
+    {
+      "firstName": "Jennifer",
+      "lastName": "Turner",
+      "email": "Jennifer_Turner@outlook.us",
+      "birthDate": "1985-03-19",
+      "occupation": "influencer"
+    },
+    {
+      "firstName": "Draga",
+      "lastName": "Gheorghiu",
+      "email": "Draga_Gheorghiu@yahoo.ro",
+      "birthDate": "1999-03-25",
+      "occupation": "student"
+    }
+  ],
+  "commerciants": [
+    {
+      "commerciant": "Nike",
+      "id": 88,
+      "account": "RO22POOB3875162728202296",
+      "type": "Clothes",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "H&M",
+      "id": 83,
+      "account": "RO28POOB5923933391234057",
+      "type": "Clothes",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "Burger King",
+      "id": 106,
+      "account": "RO25POOB4386521661484930",
+      "type": "Food",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "Amazon",
+      "id": 126,
+      "account": "RO32POOB8964686295716974",
+      "type": "Tech",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "Microsoft",
+      "id": 126,
+      "account": "RO75POOB9251835314648427",
+      "type": "Tech",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "KFC",
+      "id": 106,
+      "account": "RO15POOB4333403266660236",
+      "type": "Food",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "Samsung",
+      "id": 116,
+      "account": "RO95POOB9807857732666986",
+      "type": "Tech",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "Zara",
+      "id": 79,
+      "account": "RO66POOB9463355196372136",
+      "type": "Clothes",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "McDonalds",
+      "id": 98,
+      "account": "RO01POOB5884922951883378",
+      "type": "Food",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "Apple",
+      "id": 113,
+      "account": "RO17POOB8495306331082091",
+      "type": "Tech",
+      "cashbackStrategy": "spendingThreshold"
+    }
+  ],
+  "exchangeRates": [
+    {
+      "from": "USD",
+      "to": "RON",
+      "rate": 0.3
+    },
+    {
+      "from": "USD",
+      "to": "EUR",
+      "rate": 0.8
+    }
+  ],
+  "commands": [
+    {
+      "command": "addAccount",
+      "email": "Martha_Shaffer@outlook.us",
+      "currency": "USD",
+      "accountType": "classic",
+      "timestamp": 1
+    },
+    {
+      "command": "createCard",
+      "account": "RO58POOB7344468893732422",
+      "email": "Martha_Shaffer@outlook.us",
+      "timestamp": 4
+    },
+    {
+      "command": "addFunds",
+      "email": "Martha_Shaffer@outlook.us",
+      "account": "RO58POOB7344468893732422",
+      "amount": 623,
+      "timestamp": 5
+    },
+    {
+      "command": "addAccount",
+      "email": "Paul_Al@hotmail.us",
+      "currency": "USD",
+      "accountType": "classic",
+      "timestamp": 6
+    },
+    {
+      "command": "createCard",
+      "account": "RO69POOB6209498372540635",
+      "email": "Paul_Al@hotmail.us",
+      "timestamp": 10
+    },
+    {
+      "command": "addFunds",
+      "email": "Paul_Al@hotmail.us",
+      "account": "RO69POOB6209498372540635",
+      "amount": 205,
+      "timestamp": 11
+    },
+    {
+      "command": "addAccount",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "currency": "EUR",
+      "accountType": "classic",
+      "timestamp": 12
+    },
+    {
+      "command": "createCard",
+      "account": "RO90POOB5450777208072365",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "timestamp": 15
+    },
+    {
+      "command": "addFunds",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "account": "RO90POOB5450777208072365",
+      "amount": 96,
+      "timestamp": 16
+    },
+    {
+      "command": "addAccount",
+      "email": "Jacqueline_Barton@yahoo.us",
+      "currency": "USD",
+      "accountType": "classic",
+      "timestamp": 17
+    },
+    {
+      "command": "createCard",
+      "account": "RO65POOB8944016386845896",
+      "email": "Jacqueline_Barton@yahoo.us",
+      "timestamp": 21
+    },
+    {
+      "command": "addFunds",
+      "email": "Jacqueline_Barton@yahoo.us",
+      "account": "RO65POOB8944016386845896",
+      "amount": 282,
+      "timestamp": 22
+    },
+    {
+      "command": "addAccount",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "currency": "EUR",
+      "accountType": "classic",
+      "timestamp": 23
+    },
+    {
+      "command": "createCard",
+      "account": "RO58POOB2721178218599590",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "timestamp": 25
+    },
+    {
+      "command": "addFunds",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "account": "RO58POOB2721178218599590",
+      "amount": 758,
+      "timestamp": 26
+    },
+    {
+      "command": "addAccount",
+      "email": "Blanduzia_Ionescu@hotmail.ro",
+      "currency": "RON",
+      "accountType": "classic",
+      "timestamp": 27
+    },
+    {
+      "command": "createCard",
+      "account": "RO76POOB4035116042454483",
+      "email": "Blanduzia_Ionescu@hotmail.ro",
+      "timestamp": 32
+    },
+    {
+      "command": "addFunds",
+      "email": "Blanduzia_Ionescu@hotmail.ro",
+      "account": "RO76POOB4035116042454483",
+      "amount": 936,
+      "timestamp": 33
+    },
+    {
+      "command": "addAccount",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "currency": "EUR",
+      "accountType": "classic",
+      "timestamp": 34
+    },
+    {
+      "command": "createCard",
+      "account": "RO37POOB7013767509830666",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "timestamp": 40
+    },
+    {
+      "command": "addFunds",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "account": "RO37POOB7013767509830666",
+      "amount": 406,
+      "timestamp": 41
+    },
+    {
+      "command": "addAccount",
+      "email": "Jeffrey_Gonzales@outlook.us",
+      "currency": "USD",
+      "accountType": "classic",
+      "timestamp": 42
+    },
+    {
+      "command": "createCard",
+      "account": "RO19POOB4981055641668812",
+      "email": "Jeffrey_Gonzales@outlook.us",
+      "timestamp": 45
+    },
+    {
+      "command": "addFunds",
+      "email": "Jeffrey_Gonzales@outlook.us",
+      "account": "RO19POOB4981055641668812",
+      "amount": 905,
+      "timestamp": 46
+    },
+    {
+      "command": "addAccount",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "currency": "EUR",
+      "accountType": "classic",
+      "timestamp": 47
+    },
+    {
+      "command": "createCard",
+      "account": "RO30POOB9523423715747796",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "timestamp": 53
+    },
+    {
+      "command": "addFunds",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "account": "RO30POOB9523423715747796",
+      "amount": 338,
+      "timestamp": 54
+    },
+    {
+      "command": "addAccount",
+      "email": "Brittany_Wood@gmail.us",
+      "currency": "USD",
+      "accountType": "classic",
+      "timestamp": 55
+    },
+    {
+      "command": "createCard",
+      "account": "RO79POOB3616857825600958",
+      "email": "Brittany_Wood@gmail.us",
+      "timestamp": 58
+    },
+    {
+      "command": "addFunds",
+      "email": "Brittany_Wood@gmail.us",
+      "account": "RO79POOB3616857825600958",
+      "amount": 614,
+      "timestamp": 59
+    },
+    {
+      "command": "addAccount",
+      "email": "Jordan_Rodriguez@outlook.us",
+      "currency": "USD",
+      "accountType": "classic",
+      "timestamp": 60
+    },
+    {
+      "command": "createCard",
+      "account": "RO00POOB5687892910835215",
+      "email": "Jordan_Rodriguez@outlook.us",
+      "timestamp": 66
+    },
+    {
+      "command": "addFunds",
+      "email": "Jordan_Rodriguez@outlook.us",
+      "account": "RO00POOB5687892910835215",
+      "amount": 162,
+      "timestamp": 67
+    },
+    {
+      "command": "addAccount",
+      "email": "Traian_Tomescu@outlook.ro",
+      "currency": "RON",
+      "accountType": "classic",
+      "timestamp": 68
+    },
+    {
+      "command": "createCard",
+      "account": "RO96POOB6738272785416988",
+      "email": "Traian_Tomescu@outlook.ro",
+      "timestamp": 70
+    },
+    {
+      "command": "addFunds",
+      "email": "Traian_Tomescu@outlook.ro",
+      "account": "RO96POOB6738272785416988",
+      "amount": 217,
+      "timestamp": 71
+    },
+    {
+      "command": "addAccount",
+      "email": "Tammie_Newman@outlook.us",
+      "currency": "USD",
+      "accountType": "classic",
+      "timestamp": 72
+    },
+    {
+      "command": "createCard",
+      "account": "RO33POOB4049920806186500",
+      "email": "Tammie_Newman@outlook.us",
+      "timestamp": 77
+    },
+    {
+      "command": "addFunds",
+      "email": "Tammie_Newman@outlook.us",
+      "account": "RO33POOB4049920806186500",
+      "amount": 655,
+      "timestamp": 78
+    },
+    {
+      "command": "addAccount",
+      "email": "Jennifer_Turner@outlook.us",
+      "currency": "USD",
+      "accountType": "classic",
+      "timestamp": 79
+    },
+    {
+      "command": "createCard",
+      "account": "RO69POOB9846198978826791",
+      "email": "Jennifer_Turner@outlook.us",
+      "timestamp": 82
+    },
+    {
+      "command": "addFunds",
+      "email": "Jennifer_Turner@outlook.us",
+      "account": "RO69POOB9846198978826791",
+      "amount": 59,
+      "timestamp": 83
+    },
+    {
+      "command": "addAccount",
+      "email": "Draga_Gheorghiu@yahoo.ro",
+      "currency": "RON",
+      "accountType": "classic",
+      "timestamp": 84
+    },
+    {
+      "command": "createCard",
+      "account": "RO98POOB8412955460158769",
+      "email": "Draga_Gheorghiu@yahoo.ro",
+      "timestamp": 86
+    },
+    {
+      "command": "addFunds",
+      "email": "Draga_Gheorghiu@yahoo.ro",
+      "account": "RO98POOB8412955460158769",
+      "amount": 702,
+      "timestamp": 87
+    },
+    {
+      "command": "printUsers",
+      "timestamp": 88
+    },
+    {
+      "command": "payOnline",
+      "email": "Blanduzia_Ionescu@hotmail.ro",
+      "cardNumber": "1322658752653937",
+      "amount": 37.0,
+      "currency": "RON",
+      "timestamp": 89,
+      "description": "Online payment",
+      "commerciant": "McDonalds"
+    },
+    {
+      "command": "addFunds",
+      "email": "Blanduzia_Ionescu@hotmail.ro",
+      "account": "RO76POOB4035116042454483",
+      "amount": 583,
+      "timestamp": 90
+    },
+    {
+      "command": "payOnline",
+      "email": "Blanduzia_Ionescu@hotmail.ro",
+      "cardNumber": "1322658752653937",
+      "amount": 162.0,
+      "currency": "RON",
+      "timestamp": 91,
+      "description": "Online payment",
+      "commerciant": "McDonalds"
+    },
+    {
+      "command": "payOnline",
+      "email": "Tammie_Newman@outlook.us",
+      "cardNumber": "5779026319169555",
+      "amount": 490.0,
+      "currency": "RON",
+      "timestamp": 92,
+      "description": "Online payment",
+      "commerciant": "KFC"
+    },
+    {
+      "command": "addFunds",
+      "email": "Tammie_Newman@outlook.us",
+      "account": "RO33POOB4049920806186500",
+      "amount": 663,
+      "timestamp": 93
+    },
+    {
+      "command": "payOnline",
+      "email": "Tammie_Newman@outlook.us",
+      "cardNumber": "5779026319169555",
+      "amount": 421.0,
+      "currency": "USD",
+      "timestamp": 94,
+      "description": "Online payment",
+      "commerciant": "KFC"
+    },
+    {
+      "command": "payOnline",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "cardNumber": "4686471658318359",
+      "amount": 459.0,
+      "currency": "EUR",
+      "timestamp": 95,
+      "description": "Online payment",
+      "commerciant": "KFC"
+    },
+    {
+      "command": "addFunds",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "account": "RO58POOB2721178218599590",
+      "amount": 560,
+      "timestamp": 96
+    },
+    {
+      "command": "payOnline",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "cardNumber": "4686471658318359",
+      "amount": 438.0,
+      "currency": "EUR",
+      "timestamp": 97,
+      "description": "Online payment",
+      "commerciant": "KFC"
+    },
+    {
+      "command": "printUsers",
+      "timestamp": 98
+    },
+    {
+      "command": "payOnline",
+      "email": "Traian_Tomescu@outlook.ro",
+      "cardNumber": "7746115164990298",
+      "amount": 117.3,
+      "currency": "USD",
+      "timestamp": 99,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Traian_Tomescu@outlook.ro",
+      "account": "RO96POOB6738272785416988",
+      "amount": 491,
+      "timestamp": 102
+    },
+    {
+      "command": "payOnline",
+      "email": "Traian_Tomescu@outlook.ro",
+      "cardNumber": "7746115164990298",
+      "amount": 113.0,
+      "currency": "RON",
+      "timestamp": 103,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Traian_Tomescu@outlook.ro",
+      "account": "RO96POOB6738272785416988",
+      "amount": 484,
+      "timestamp": 109
+    },
+    {
+      "command": "payOnline",
+      "email": "Traian_Tomescu@outlook.ro",
+      "cardNumber": "7746115164990298",
+      "amount": 120.0,
+      "currency": "RON",
+      "timestamp": 110,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Traian_Tomescu@outlook.ro",
+      "account": "RO96POOB6738272785416988",
+      "amount": 913,
+      "timestamp": 113
+    },
+    {
+      "command": "payOnline",
+      "email": "Traian_Tomescu@outlook.ro",
+      "cardNumber": "7746115164990298",
+      "amount": 373.0,
+      "currency": "RON",
+      "timestamp": 114,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Traian_Tomescu@outlook.ro",
+      "account": "RO96POOB6738272785416988",
+      "amount": 26,
+      "timestamp": 119
+    },
+    {
+      "command": "addFunds",
+      "email": "Traian_Tomescu@outlook.ro",
+      "account": "RO96POOB6738272785416988",
+      "amount": 710,
+      "timestamp": 120
+    },
+    {
+      "command": "payOnline",
+      "email": "Jacqueline_Barton@yahoo.us",
+      "cardNumber": "6796819982034243",
+      "amount": 152.5,
+      "currency": "EUR",
+      "timestamp": 121,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Jacqueline_Barton@yahoo.us",
+      "account": "RO65POOB8944016386845896",
+      "amount": 236,
+      "timestamp": 123
+    },
+    {
+      "command": "payOnline",
+      "email": "Jacqueline_Barton@yahoo.us",
+      "cardNumber": "6796819982034243",
+      "amount": 218.0,
+      "currency": "USD",
+      "timestamp": 124,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Jacqueline_Barton@yahoo.us",
+      "account": "RO65POOB8944016386845896",
+      "amount": 403,
+      "timestamp": 127
+    },
+    {
+      "command": "payOnline",
+      "email": "Jacqueline_Barton@yahoo.us",
+      "cardNumber": "6796819982034243",
+      "amount": 167.5,
+      "currency": "EUR",
+      "timestamp": 128,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Jacqueline_Barton@yahoo.us",
+      "account": "RO65POOB8944016386845896",
+      "amount": 559,
+      "timestamp": 132
+    },
+    {
+      "command": "payOnline",
+      "email": "Jacqueline_Barton@yahoo.us",
+      "cardNumber": "6796819982034243",
+      "amount": 161.0,
+      "currency": "USD",
+      "timestamp": 133,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Jacqueline_Barton@yahoo.us",
+      "account": "RO65POOB8944016386845896",
+      "amount": 380,
+      "timestamp": 136
+    },
+    {
+      "command": "addFunds",
+      "email": "Jacqueline_Barton@yahoo.us",
+      "account": "RO65POOB8944016386845896",
+      "amount": 676,
+      "timestamp": 137
+    },
+    {
+      "command": "payOnline",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "cardNumber": "0466992784477761",
+      "amount": 52.38,
+      "currency": "RON",
+      "timestamp": 138,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "account": "RO37POOB7013767509830666",
+      "amount": 265,
+      "timestamp": 143
+    },
+    {
+      "command": "payOnline",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "cardNumber": "0466992784477761",
+      "amount": 28.0,
+      "currency": "EUR",
+      "timestamp": 144,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "account": "RO37POOB7013767509830666",
+      "amount": 572,
+      "timestamp": 150
+    },
+    {
+      "command": "payOnline",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "cardNumber": "0466992784477761",
+      "amount": 30.95,
+      "currency": "RON",
+      "timestamp": 151,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "account": "RO37POOB7013767509830666",
+      "amount": 939,
+      "timestamp": 153
+    },
+    {
+      "command": "payOnline",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "cardNumber": "0466992784477761",
+      "amount": 38.0,
+      "currency": "EUR",
+      "timestamp": 154,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "account": "RO37POOB7013767509830666",
+      "amount": 138,
+      "timestamp": 160
+    },
+    {
+      "command": "addFunds",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "account": "RO37POOB7013767509830666",
+      "amount": 271,
+      "timestamp": 161
+    },
+    {
+      "command": "printUsers",
+      "timestamp": 162
+    },
+    {
+      "command": "payOnline",
+      "email": "Traian_Tomescu@outlook.ro",
+      "cardNumber": "7746115164990298",
+      "amount": 67.5,
+      "currency": "USD",
+      "timestamp": 163,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Traian_Tomescu@outlook.ro",
+      "account": "RO96POOB6738272785416988",
+      "amount": 808,
+      "timestamp": 168
+    },
+    {
+      "command": "payOnline",
+      "email": "Traian_Tomescu@outlook.ro",
+      "cardNumber": "7746115164990298",
+      "amount": 995.4,
+      "currency": "EUR",
+      "timestamp": 169,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Traian_Tomescu@outlook.ro",
+      "account": "RO96POOB6738272785416988",
+      "amount": 175,
+      "timestamp": 175
+    },
+    {
+      "command": "addFunds",
+      "email": "Traian_Tomescu@outlook.ro",
+      "account": "RO96POOB6738272785416988",
+      "amount": 274,
+      "timestamp": 176
+    },
+    {
+      "command": "payOnline",
+      "email": "Tammie_Newman@outlook.us",
+      "cardNumber": "5779026319169555",
+      "amount": 103.0,
+      "currency": "USD",
+      "timestamp": 177,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Tammie_Newman@outlook.us",
+      "account": "RO33POOB4049920806186500",
+      "amount": 56,
+      "timestamp": 179
+    },
+    {
+      "command": "payOnline",
+      "email": "Tammie_Newman@outlook.us",
+      "cardNumber": "5779026319169555",
+      "amount": 213.0,
+      "currency": "USD",
+      "timestamp": 180,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Tammie_Newman@outlook.us",
+      "account": "RO33POOB4049920806186500",
+      "amount": 123,
+      "timestamp": 184
+    },
+    {
+      "command": "addFunds",
+      "email": "Tammie_Newman@outlook.us",
+      "account": "RO33POOB4049920806186500",
+      "amount": 606,
+      "timestamp": 185
+    },
+    {
+      "command": "payOnline",
+      "email": "Blanduzia_Ionescu@hotmail.ro",
+      "cardNumber": "1322658752653937",
+      "amount": 375.0,
+      "currency": "RON",
+      "timestamp": 186,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Blanduzia_Ionescu@hotmail.ro",
+      "account": "RO76POOB4035116042454483",
+      "amount": 712,
+      "timestamp": 192
+    },
+    {
+      "command": "payOnline",
+      "email": "Blanduzia_Ionescu@hotmail.ro",
+      "cardNumber": "1322658752653937",
+      "amount": 264.6,
+      "currency": "EUR",
+      "timestamp": 193,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Blanduzia_Ionescu@hotmail.ro",
+      "account": "RO76POOB4035116042454483",
+      "amount": 732,
+      "timestamp": 198
+    },
+    {
+      "command": "addFunds",
+      "email": "Blanduzia_Ionescu@hotmail.ro",
+      "account": "RO76POOB4035116042454483",
+      "amount": 517,
+      "timestamp": 199
+    },
+    {
+      "command": "printUsers",
+      "timestamp": 200
+    },
+    {
+      "command": "payOnline",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "cardNumber": "0466992784477761",
+      "amount": 299.0,
+      "currency": "EUR",
+      "timestamp": 201,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "account": "RO37POOB7013767509830666",
+      "amount": 446,
+      "timestamp": 204
+    },
+    {
+      "command": "payOnline",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "cardNumber": "0466992784477761",
+      "amount": 486.0,
+      "currency": "EUR",
+      "timestamp": 205,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "account": "RO37POOB7013767509830666",
+      "amount": 381,
+      "timestamp": 207
+    },
+    {
+      "command": "payOnline",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "cardNumber": "0466992784477761",
+      "amount": 423.0,
+      "currency": "EUR",
+      "timestamp": 208,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "account": "RO37POOB7013767509830666",
+      "amount": 272,
+      "timestamp": 214
+    },
+    {
+      "command": "payOnline",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "cardNumber": "0466992784477761",
+      "amount": 117.62,
+      "currency": "RON",
+      "timestamp": 215,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "account": "RO37POOB7013767509830666",
+      "amount": 275,
+      "timestamp": 218
+    },
+    {
+      "command": "payOnline",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "cardNumber": "0466992784477761",
+      "amount": 304.8,
+      "currency": "USD",
+      "timestamp": 219,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "account": "RO37POOB7013767509830666",
+      "amount": 91,
+      "timestamp": 222
+    },
+    {
+      "command": "payOnline",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "cardNumber": "0466992784477761",
+      "amount": 75.48,
+      "currency": "RON",
+      "timestamp": 223,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "account": "RO37POOB7013767509830666",
+      "amount": 951,
+      "timestamp": 226
+    },
+    {
+      "command": "payOnline",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "cardNumber": "0466992784477761",
+      "amount": 332.0,
+      "currency": "EUR",
+      "timestamp": 227,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "account": "RO37POOB7013767509830666",
+      "amount": 758,
+      "timestamp": 233
+    },
+    {
+      "command": "payOnline",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "cardNumber": "0466992784477761",
+      "amount": 324.0,
+      "currency": "EUR",
+      "timestamp": 234,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "account": "RO37POOB7013767509830666",
+      "amount": 398,
+      "timestamp": 236
+    },
+    {
+      "command": "payOnline",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "cardNumber": "0466992784477761",
+      "amount": 111.19,
+      "currency": "RON",
+      "timestamp": 237,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "account": "RO37POOB7013767509830666",
+      "amount": 260,
+      "timestamp": 242
+    },
+    {
+      "command": "payOnline",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "cardNumber": "0466992784477761",
+      "amount": 322.0,
+      "currency": "EUR",
+      "timestamp": 243,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "account": "RO37POOB7013767509830666",
+      "amount": 225,
+      "timestamp": 246
+    },
+    {
+      "command": "addFunds",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "account": "RO37POOB7013767509830666",
+      "amount": 601,
+      "timestamp": 247
+    },
+    {
+      "command": "payOnline",
+      "email": "Tammie_Newman@outlook.us",
+      "cardNumber": "5779026319169555",
+      "amount": 396.67,
+      "currency": "RON",
+      "timestamp": 248,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Tammie_Newman@outlook.us",
+      "account": "RO33POOB4049920806186500",
+      "amount": 396,
+      "timestamp": 252
+    },
+    {
+      "command": "payOnline",
+      "email": "Tammie_Newman@outlook.us",
+      "cardNumber": "5779026319169555",
+      "amount": 180.0,
+      "currency": "USD",
+      "timestamp": 253,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Tammie_Newman@outlook.us",
+      "account": "RO33POOB4049920806186500",
+      "amount": 632,
+      "timestamp": 258
+    },
+    {
+      "command": "payOnline",
+      "email": "Tammie_Newman@outlook.us",
+      "cardNumber": "5779026319169555",
+      "amount": 355.0,
+      "currency": "USD",
+      "timestamp": 259,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Tammie_Newman@outlook.us",
+      "account": "RO33POOB4049920806186500",
+      "amount": 529,
+      "timestamp": 261
+    },
+    {
+      "command": "payOnline",
+      "email": "Tammie_Newman@outlook.us",
+      "cardNumber": "5779026319169555",
+      "amount": 341.0,
+      "currency": "USD",
+      "timestamp": 262,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Tammie_Newman@outlook.us",
+      "account": "RO33POOB4049920806186500",
+      "amount": 713,
+      "timestamp": 264
+    },
+    {
+      "command": "payOnline",
+      "email": "Tammie_Newman@outlook.us",
+      "cardNumber": "5779026319169555",
+      "amount": 444.0,
+      "currency": "USD",
+      "timestamp": 265,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Tammie_Newman@outlook.us",
+      "account": "RO33POOB4049920806186500",
+      "amount": 583,
+      "timestamp": 267
+    },
+    {
+      "command": "payOnline",
+      "email": "Tammie_Newman@outlook.us",
+      "cardNumber": "5779026319169555",
+      "amount": 188.75,
+      "currency": "EUR",
+      "timestamp": 268,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Tammie_Newman@outlook.us",
+      "account": "RO33POOB4049920806186500",
+      "amount": 563,
+      "timestamp": 270
+    },
+    {
+      "command": "payOnline",
+      "email": "Tammie_Newman@outlook.us",
+      "cardNumber": "5779026319169555",
+      "amount": 261.0,
+      "currency": "USD",
+      "timestamp": 271,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Tammie_Newman@outlook.us",
+      "account": "RO33POOB4049920806186500",
+      "amount": 463,
+      "timestamp": 273
+    },
+    {
+      "command": "payOnline",
+      "email": "Tammie_Newman@outlook.us",
+      "cardNumber": "5779026319169555",
+      "amount": 33.0,
+      "currency": "USD",
+      "timestamp": 274,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Tammie_Newman@outlook.us",
+      "account": "RO33POOB4049920806186500",
+      "amount": 170,
+      "timestamp": 278
+    },
+    {
+      "command": "payOnline",
+      "email": "Tammie_Newman@outlook.us",
+      "cardNumber": "5779026319169555",
+      "amount": 322.0,
+      "currency": "USD",
+      "timestamp": 279,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Tammie_Newman@outlook.us",
+      "account": "RO33POOB4049920806186500",
+      "amount": 19,
+      "timestamp": 285
+    },
+    {
+      "command": "payOnline",
+      "email": "Tammie_Newman@outlook.us",
+      "cardNumber": "5779026319169555",
+      "amount": 241.0,
+      "currency": "USD",
+      "timestamp": 286,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Tammie_Newman@outlook.us",
+      "account": "RO33POOB4049920806186500",
+      "amount": 801,
+      "timestamp": 291
+    },
+    {
+      "command": "addFunds",
+      "email": "Tammie_Newman@outlook.us",
+      "account": "RO33POOB4049920806186500",
+      "amount": 652,
+      "timestamp": 292
+    },
+    {
+      "command": "payOnline",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "cardNumber": "7317745095154687",
+      "amount": 190.0,
+      "currency": "EUR",
+      "timestamp": 293,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "account": "RO30POOB9523423715747796",
+      "amount": 914,
+      "timestamp": 299
+    },
+    {
+      "command": "payOnline",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "cardNumber": "7317745095154687",
+      "amount": 124.0,
+      "currency": "EUR",
+      "timestamp": 300,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "account": "RO30POOB9523423715747796",
+      "amount": 954,
+      "timestamp": 303
+    },
+    {
+      "command": "payOnline",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "cardNumber": "7317745095154687",
+      "amount": 359.0,
+      "currency": "EUR",
+      "timestamp": 304,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "account": "RO30POOB9523423715747796",
+      "amount": 442,
+      "timestamp": 308
+    },
+    {
+      "command": "payOnline",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "cardNumber": "7317745095154687",
+      "amount": 231.0,
+      "currency": "EUR",
+      "timestamp": 309,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "account": "RO30POOB9523423715747796",
+      "amount": 433,
+      "timestamp": 312
+    },
+    {
+      "command": "payOnline",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "cardNumber": "7317745095154687",
+      "amount": 19.0,
+      "currency": "EUR",
+      "timestamp": 313,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "account": "RO30POOB9523423715747796",
+      "amount": 766,
+      "timestamp": 316
+    },
+    {
+      "command": "payOnline",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "cardNumber": "7317745095154687",
+      "amount": 302.0,
+      "currency": "EUR",
+      "timestamp": 317,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "account": "RO30POOB9523423715747796",
+      "amount": 804,
+      "timestamp": 319
+    },
+    {
+      "command": "payOnline",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "cardNumber": "7317745095154687",
+      "amount": 114.05,
+      "currency": "RON",
+      "timestamp": 320,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "account": "RO30POOB9523423715747796",
+      "amount": 648,
+      "timestamp": 325
+    },
+    {
+      "command": "payOnline",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "cardNumber": "7317745095154687",
+      "amount": 305.0,
+      "currency": "EUR",
+      "timestamp": 326,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "account": "RO30POOB9523423715747796",
+      "amount": 660,
+      "timestamp": 329
+    },
+    {
+      "command": "payOnline",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "cardNumber": "7317745095154687",
+      "amount": 361.0,
+      "currency": "EUR",
+      "timestamp": 330,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "account": "RO30POOB9523423715747796",
+      "amount": 744,
+      "timestamp": 332
+    },
+    {
+      "command": "payOnline",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "cardNumber": "7317745095154687",
+      "amount": 472.0,
+      "currency": "EUR",
+      "timestamp": 333,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "account": "RO30POOB9523423715747796",
+      "amount": 75,
+      "timestamp": 336
+    },
+    {
+      "command": "addFunds",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "account": "RO30POOB9523423715747796",
+      "amount": 563,
+      "timestamp": 337
+    },
+    {
+      "command": "payOnline",
+      "email": "Paul_Al@hotmail.us",
+      "cardNumber": "7901879264253296",
+      "amount": 150.0,
+      "currency": "RON",
+      "timestamp": 338,
+      "description": "Online payment",
+      "commerciant": "Amazon"
+    },
+    {
+      "command": "addFunds",
+      "email": "Paul_Al@hotmail.us",
+      "account": "RO69POOB6209498372540635",
+      "amount": 657,
+      "timestamp": 341
+    },
+    {
+      "command": "payOnline",
+      "email": "Paul_Al@hotmail.us",
+      "cardNumber": "7901879264253296",
+      "amount": 182.0,
+      "currency": "USD",
+      "timestamp": 342,
+      "description": "Online payment",
+      "commerciant": "Amazon"
+    },
+    {
+      "command": "addFunds",
+      "email": "Paul_Al@hotmail.us",
+      "account": "RO69POOB6209498372540635",
+      "amount": 86,
+      "timestamp": 347
+    },
+    {
+      "command": "payOnline",
+      "email": "Paul_Al@hotmail.us",
+      "cardNumber": "7901879264253296",
+      "amount": 370.0,
+      "currency": "USD",
+      "timestamp": 348,
+      "description": "Online payment",
+      "commerciant": "Amazon"
+    },
+    {
+      "command": "addFunds",
+      "email": "Paul_Al@hotmail.us",
+      "account": "RO69POOB6209498372540635",
+      "amount": 967,
+      "timestamp": 350
+    },
+    {
+      "command": "payOnline",
+      "email": "Paul_Al@hotmail.us",
+      "cardNumber": "7901879264253296",
+      "amount": 150.0,
+      "currency": "RON",
+      "timestamp": 351,
+      "description": "Online payment",
+      "commerciant": "Amazon"
+    },
+    {
+      "command": "addFunds",
+      "email": "Paul_Al@hotmail.us",
+      "account": "RO69POOB6209498372540635",
+      "amount": 709,
+      "timestamp": 353
+    },
+    {
+      "command": "payOnline",
+      "email": "Paul_Al@hotmail.us",
+      "cardNumber": "7901879264253296",
+      "amount": 442.0,
+      "currency": "USD",
+      "timestamp": 354,
+      "description": "Online payment",
+      "commerciant": "Amazon"
+    },
+    {
+      "command": "addFunds",
+      "email": "Paul_Al@hotmail.us",
+      "account": "RO69POOB6209498372540635",
+      "amount": 248,
+      "timestamp": 357
+    },
+    {
+      "command": "payOnline",
+      "email": "Paul_Al@hotmail.us",
+      "cardNumber": "7901879264253296",
+      "amount": 548.75,
+      "currency": "EUR",
+      "timestamp": 358,
+      "description": "Online payment",
+      "commerciant": "Amazon"
+    },
+    {
+      "command": "addFunds",
+      "email": "Paul_Al@hotmail.us",
+      "account": "RO69POOB6209498372540635",
+      "amount": 845,
+      "timestamp": 363
+    },
+    {
+      "command": "payOnline",
+      "email": "Paul_Al@hotmail.us",
+      "cardNumber": "7901879264253296",
+      "amount": 202.0,
+      "currency": "USD",
+      "timestamp": 364,
+      "description": "Online payment",
+      "commerciant": "Amazon"
+    },
+    {
+      "command": "addFunds",
+      "email": "Paul_Al@hotmail.us",
+      "account": "RO69POOB6209498372540635",
+      "amount": 343,
+      "timestamp": 368
+    },
+    {
+      "command": "payOnline",
+      "email": "Paul_Al@hotmail.us",
+      "cardNumber": "7901879264253296",
+      "amount": 4.0,
+      "currency": "USD",
+      "timestamp": 369,
+      "description": "Online payment",
+      "commerciant": "Amazon"
+    },
+    {
+      "command": "addFunds",
+      "email": "Paul_Al@hotmail.us",
+      "account": "RO69POOB6209498372540635",
+      "amount": 696,
+      "timestamp": 371
+    },
+    {
+      "command": "payOnline",
+      "email": "Paul_Al@hotmail.us",
+      "cardNumber": "7901879264253296",
+      "amount": 463.33,
+      "currency": "RON",
+      "timestamp": 372,
+      "description": "Online payment",
+      "commerciant": "Amazon"
+    },
+    {
+      "command": "addFunds",
+      "email": "Paul_Al@hotmail.us",
+      "account": "RO69POOB6209498372540635",
+      "amount": 972,
+      "timestamp": 378
+    },
+    {
+      "command": "payOnline",
+      "email": "Paul_Al@hotmail.us",
+      "cardNumber": "7901879264253296",
+      "amount": 229.0,
+      "currency": "USD",
+      "timestamp": 379,
+      "description": "Online payment",
+      "commerciant": "Amazon"
+    },
+    {
+      "command": "addFunds",
+      "email": "Paul_Al@hotmail.us",
+      "account": "RO69POOB6209498372540635",
+      "amount": 487,
+      "timestamp": 382
+    },
+    {
+      "command": "addFunds",
+      "email": "Paul_Al@hotmail.us",
+      "account": "RO69POOB6209498372540635",
+      "amount": 96,
+      "timestamp": 383
+    },
+    {
+      "command": "printUsers",
+      "timestamp": 384
+    },
+    {
+      "command": "payOnline",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "cardNumber": "0466992784477761",
+      "amount": 97.14,
+      "currency": "RON",
+      "timestamp": 385,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "payOnline",
+      "email": "Tammie_Newman@outlook.us",
+      "cardNumber": "5779026319169555",
+      "amount": 411.0,
+      "currency": "USD",
+      "timestamp": 390,
+      "description": "Online payment",
+      "commerciant": "Amazon"
+    },
+    {
+      "command": "payOnline",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "cardNumber": "7317745095154687",
+      "amount": 102.0,
+      "currency": "EUR",
+      "timestamp": 396,
+      "description": "Online payment",
+      "commerciant": "Amazon"
+    },
+    {
+      "command": "payOnline",
+      "email": "Paul_Al@hotmail.us",
+      "cardNumber": "7901879264253296",
+      "amount": 208.75,
+      "currency": "EUR",
+      "timestamp": 402,
+      "description": "Online payment",
+      "commerciant": "Amazon"
+    },
+    {
+      "command": "printUsers",
+      "timestamp": 408
+    },
+    {
+      "command": "addFunds",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "account": "RO90POOB5450777208072365",
+      "amount": 23.81,
+      "timestamp": 409
+    },
+    {
+      "command": "upgradePlan",
+      "account": "RO90POOB5450777208072365",
+      "newPlanType": "silver",
+      "timestamp": 410
+    },
+    {
+      "command": "addFunds",
+      "email": "Martha_Shaffer@outlook.us",
+      "account": "RO58POOB7344468893732422",
+      "amount": 333.33,
+      "timestamp": 411
+    },
+    {
+      "command": "upgradePlan",
+      "account": "RO58POOB7344468893732422",
+      "newPlanType": "silver",
+      "timestamp": 412
+    },
+    {
+      "command": "addFunds",
+      "email": "Paul_Al@hotmail.us",
+      "account": "RO69POOB6209498372540635",
+      "amount": 333.33,
+      "timestamp": 413
+    },
+    {
+      "command": "upgradePlan",
+      "account": "RO69POOB6209498372540635",
+      "newPlanType": "silver",
+      "timestamp": 414
+    },
+    {
+      "command": "addFunds",
+      "email": "Celine-Virginie_Gregoire@outlook.fr",
+      "account": "RO30POOB9523423715747796",
+      "amount": 23.81,
+      "timestamp": 415
+    },
+    {
+      "command": "upgradePlan",
+      "account": "RO30POOB9523423715747796",
+      "newPlanType": "silver",
+      "timestamp": 416
+    },
+    {
+      "command": "addFunds",
+      "email": "Blanduzia_Ionescu@hotmail.ro",
+      "account": "RO76POOB4035116042454483",
+      "amount": 100.0,
+      "timestamp": 417
+    },
+    {
+      "command": "upgradePlan",
+      "account": "RO76POOB4035116042454483",
+      "newPlanType": "silver",
+      "timestamp": 418
+    },
+    {
+      "command": "printUsers",
+      "timestamp": 419
+    },
+    {
+      "command": "payOnline",
+      "email": "Jennifer_Turner@outlook.us",
+      "cardNumber": "1952612794872207",
+      "amount": 46.0,
+      "currency": "USD",
+      "timestamp": 420,
+      "description": "Online payment",
+      "commerciant": "Apple"
+    },
+    {
+      "command": "addFunds",
+      "email": "Jennifer_Turner@outlook.us",
+      "account": "RO69POOB9846198978826791",
+      "amount": 379,
+      "timestamp": 424
+    },
+    {
+      "command": "payOnline",
+      "email": "Jennifer_Turner@outlook.us",
+      "cardNumber": "1952612794872207",
+      "amount": 315.0,
+      "currency": "USD",
+      "timestamp": 425,
+      "description": "Online payment",
+      "commerciant": "Apple"
+    },
+    {
+      "command": "addFunds",
+      "email": "Jennifer_Turner@outlook.us",
+      "account": "RO69POOB9846198978826791",
+      "amount": 697,
+      "timestamp": 428
+    },
+    {
+      "command": "payOnline",
+      "email": "Jennifer_Turner@outlook.us",
+      "cardNumber": "1952612794872207",
+      "amount": 68.0,
+      "currency": "USD",
+      "timestamp": 429,
+      "description": "Online payment",
+      "commerciant": "Apple"
+    },
+    {
+      "command": "addFunds",
+      "email": "Jennifer_Turner@outlook.us",
+      "account": "RO69POOB9846198978826791",
+      "amount": 853,
+      "timestamp": 435
+    },
+    {
+      "command": "payOnline",
+      "email": "Jennifer_Turner@outlook.us",
+      "cardNumber": "1952612794872207",
+      "amount": 561.25,
+      "currency": "EUR",
+      "timestamp": 436,
+      "description": "Online payment",
+      "commerciant": "Apple"
+    },
+    {
+      "command": "addFunds",
+      "email": "Jennifer_Turner@outlook.us",
+      "account": "RO69POOB9846198978826791",
+      "amount": 347,
+      "timestamp": 438
+    },
+    {
+      "command": "printTransactions",
+      "email": "Jennifer_Turner@outlook.us",
+      "timestamp": 439
+    },
+    {
+      "command": "payOnline",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "cardNumber": "4686471658318359",
+      "amount": 357.6,
+      "currency": "USD",
+      "timestamp": 440,
+      "description": "Online payment",
+      "commerciant": "Microsoft"
+    },
+    {
+      "command": "addFunds",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "account": "RO58POOB2721178218599590",
+      "amount": 804,
+      "timestamp": 445
+    },
+    {
+      "command": "payOnline",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "cardNumber": "4686471658318359",
+      "amount": 107.38,
+      "currency": "RON",
+      "timestamp": 446,
+      "description": "Online payment",
+      "commerciant": "Microsoft"
+    },
+    {
+      "command": "addFunds",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "account": "RO58POOB2721178218599590",
+      "amount": 260,
+      "timestamp": 449
+    },
+    {
+      "command": "payOnline",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "cardNumber": "4686471658318359",
+      "amount": 484.0,
+      "currency": "EUR",
+      "timestamp": 450,
+      "description": "Online payment",
+      "commerciant": "Microsoft"
+    },
+    {
+      "command": "addFunds",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "account": "RO58POOB2721178218599590",
+      "amount": 549,
+      "timestamp": 453
+    },
+    {
+      "command": "payOnline",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "cardNumber": "4686471658318359",
+      "amount": 48.33,
+      "currency": "RON",
+      "timestamp": 454,
+      "description": "Online payment",
+      "commerciant": "Microsoft"
+    },
+    {
+      "command": "addFunds",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "account": "RO58POOB2721178218599590",
+      "amount": 738,
+      "timestamp": 457
+    },
+    {
+      "command": "printTransactions",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "timestamp": 458
+    },
+    {
+      "command": "payOnline",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "cardNumber": "7004757825892043",
+      "amount": 54.0,
+      "currency": "EUR",
+      "timestamp": 459,
+      "description": "Online payment",
+      "commerciant": "Apple"
+    },
+    {
+      "command": "addFunds",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "account": "RO90POOB5450777208072365",
+      "amount": 291,
+      "timestamp": 461
+    },
+    {
+      "command": "payOnline",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "cardNumber": "7004757825892043",
+      "amount": 300.0,
+      "currency": "EUR",
+      "timestamp": 462,
+      "description": "Online payment",
+      "commerciant": "Apple"
+    },
+    {
+      "command": "addFunds",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "account": "RO90POOB5450777208072365",
+      "amount": 900,
+      "timestamp": 465
+    },
+    {
+      "command": "payOnline",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "cardNumber": "7004757825892043",
+      "amount": 106.0,
+      "currency": "EUR",
+      "timestamp": 466,
+      "description": "Online payment",
+      "commerciant": "Apple"
+    },
+    {
+      "command": "addFunds",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "account": "RO90POOB5450777208072365",
+      "amount": 780,
+      "timestamp": 471
+    },
+    {
+      "command": "payOnline",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "cardNumber": "7004757825892043",
+      "amount": 431.0,
+      "currency": "EUR",
+      "timestamp": 472,
+      "description": "Online payment",
+      "commerciant": "Apple"
+    },
+    {
+      "command": "addFunds",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "account": "RO90POOB5450777208072365",
+      "amount": 387,
+      "timestamp": 478
+    },
+    {
+      "command": "printTransactions",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "timestamp": 479
+    },
+    {
+      "command": "printUsers",
+      "timestamp": 480
+    },
+    {
+      "command": "addFunds",
+      "email": "Nathalie_Marchand@outlook.fr",
+      "account": "RO37POOB7013767509830666",
+      "amount": 83.33,
+      "timestamp": 481
+    },
+    {
+      "command": "upgradePlan",
+      "account": "RO37POOB7013767509830666",
+      "newPlanType": "gold",
+      "timestamp": 482
+    },
+    {
+      "command": "addFunds",
+      "email": "Draga_Gheorghiu@yahoo.ro",
+      "account": "RO98POOB8412955460158769",
+      "amount": 350.0,
+      "timestamp": 483
+    },
+    {
+      "command": "upgradePlan",
+      "account": "RO98POOB8412955460158769",
+      "newPlanType": "gold",
+      "timestamp": 484
+    },
+    {
+      "command": "addFunds",
+      "email": "Jeffrey_Gonzales@outlook.us",
+      "account": "RO19POOB4981055641668812",
+      "amount": 1166.67,
+      "timestamp": 485
+    },
+    {
+      "command": "upgradePlan",
+      "account": "RO19POOB4981055641668812",
+      "newPlanType": "gold",
+      "timestamp": 486
+    },
+    {
+      "command": "addFunds",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "account": "RO58POOB2721178218599590",
+      "amount": 83.33,
+      "timestamp": 487
+    },
+    {
+      "command": "upgradePlan",
+      "account": "RO58POOB2721178218599590",
+      "newPlanType": "gold",
+      "timestamp": 488
+    },
+    {
+      "command": "addFunds",
+      "email": "Jacqueline_Barton@yahoo.us",
+      "account": "RO65POOB8944016386845896",
+      "amount": 1166.67,
+      "timestamp": 489
+    },
+    {
+      "command": "upgradePlan",
+      "account": "RO65POOB8944016386845896",
+      "newPlanType": "gold",
+      "timestamp": 490
+    },
+    {
+      "command": "addFunds",
+      "email": "Traian_Tomescu@outlook.ro",
+      "account": "RO96POOB6738272785416988",
+      "amount": 350.0,
+      "timestamp": 491
+    },
+    {
+      "command": "upgradePlan",
+      "account": "RO96POOB6738272785416988",
+      "newPlanType": "gold",
+      "timestamp": 492
+    },
+    {
+      "command": "addFunds",
+      "email": "Brittany_Wood@gmail.us",
+      "account": "RO79POOB3616857825600958",
+      "amount": 1166.67,
+      "timestamp": 493
+    },
+    {
+      "command": "upgradePlan",
+      "account": "RO79POOB3616857825600958",
+      "newPlanType": "gold",
+      "timestamp": 494
+    },
+    {
+      "command": "addFunds",
+      "email": "Jordan_Rodriguez@outlook.us",
+      "account": "RO00POOB5687892910835215",
+      "amount": 1166.67,
+      "timestamp": 495
+    },
+    {
+      "command": "upgradePlan",
+      "account": "RO00POOB5687892910835215",
+      "newPlanType": "gold",
+      "timestamp": 496
+    },
+    {
+      "command": "addFunds",
+      "email": "Tammie_Newman@outlook.us",
+      "account": "RO33POOB4049920806186500",
+      "amount": 1166.67,
+      "timestamp": 497
+    },
+    {
+      "command": "upgradePlan",
+      "account": "RO33POOB4049920806186500",
+      "newPlanType": "gold",
+      "timestamp": 498
+    },
+    {
+      "command": "addFunds",
+      "email": "Jennifer_Turner@outlook.us",
+      "account": "RO69POOB9846198978826791",
+      "amount": 1166.67,
+      "timestamp": 499
+    },
+    {
+      "command": "upgradePlan",
+      "account": "RO69POOB9846198978826791",
+      "newPlanType": "gold",
+      "timestamp": 500
+    },
+    {
+      "command": "printUsers",
+      "timestamp": 501
+    },
+    {
+      "command": "addFunds",
+      "email": "Jennifer_Turner@outlook.us",
+      "account": "RO69POOB9846198978826791",
+      "amount": 1663.33,
+      "timestamp": 502
+    },
+    {
+      "command": "payOnline",
+      "email": "Jennifer_Turner@outlook.us",
+      "cardNumber": "1952612794872207",
+      "amount": 2079,
+      "currency": "EUR",
+      "timestamp": 503,
+      "description": "Online payment",
+      "commerciant": "Burger King"
+    },
+    {
+      "command": "addFunds",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "account": "RO58POOB2721178218599590",
+      "amount": 118.81,
+      "timestamp": 504
+    },
+    {
+      "command": "payOnline",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "cardNumber": "4686471658318359",
+      "amount": 118,
+      "currency": "EUR",
+      "timestamp": 505,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "addFunds",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "account": "RO90POOB5450777208072365",
+      "amount": 118.81,
+      "timestamp": 506
+    },
+    {
+      "command": "payOnline",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "cardNumber": "7004757825892043",
+      "amount": 28,
+      "currency": "RON",
+      "timestamp": 507,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "printUsers",
+      "timestamp": 508
+    },
+    {
+      "command": "addFunds",
+      "email": "Jennifer_Turner@outlook.us",
+      "account": "RO69POOB9846198978826791",
+      "amount": 333.33,
+      "timestamp": 509
+    },
+    {
+      "command": "payOnline",
+      "email": "Jennifer_Turner@outlook.us",
+      "cardNumber": "1952612794872207",
+      "amount": 333,
+      "currency": "USD",
+      "timestamp": 510,
+      "description": "Online payment",
+      "commerciant": "Zara"
+    },
+    {
+      "command": "printTransactions",
+      "email": "Jennifer_Turner@outlook.us",
+      "timestamp": 511
+    },
+    {
+      "command": "addFunds",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "account": "RO58POOB2721178218599590",
+      "amount": 23.81,
+      "timestamp": 512
+    },
+    {
+      "command": "payOnline",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "cardNumber": "4686471658318359",
+      "amount": 23,
+      "currency": "EUR",
+      "timestamp": 513,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "printTransactions",
+      "email": "Jeannine_de_Evrard@outlook.fr",
+      "timestamp": 514
+    },
+    {
+      "command": "addFunds",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "account": "RO90POOB5450777208072365",
+      "amount": 23.81,
+      "timestamp": 515
+    },
+    {
+      "command": "payOnline",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "cardNumber": "7004757825892043",
+      "amount": 23,
+      "currency": "EUR",
+      "timestamp": 516,
+      "description": "Online payment",
+      "commerciant": "H&M"
+    },
+    {
+      "command": "printTransactions",
+      "email": "Lucie_Dupre@hotmail.fr",
+      "timestamp": 517
+    },
+    {
+      "command": "printUsers",
+      "timestamp": 518
+    }
+  ]
+}

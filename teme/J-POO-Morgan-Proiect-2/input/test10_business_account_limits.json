@@ -1,0 +1,327 @@
+{
+  "users": [
+    {
+      "firstName": "William",
+      "lastName": "Patterson",
+      "email": "William_Patterson@outlook.us",
+      "birthDate": "2000-09-02",
+      "occupation": "teacher"
+    },
+    {
+      "firstName": "Aurica",
+      "lastName": "Mocanu",
+      "email": "Aurica_Mocanu@gmail.ro",
+      "birthDate": "1998-10-27",
+      "occupation": "programmer"
+    },
+    {
+      "firstName": "Sanda",
+      "lastName": "Nistor",
+      "email": "Sanda_Nistor@gmail.ro",
+      "birthDate": "1988-04-22",
+      "occupation": "economist"
+    },
+    {
+      "firstName": "James",
+      "lastName": "Torres",
+      "email": "James_Torres@hotmail.us",
+      "birthDate": "1975-04-10",
+      "occupation": "actor"
+    },
+    {
+      "firstName": "Catrina",
+      "lastName": "Mazilescu",
+      "email": "Catrina_Mazilescu@outlook.ro",
+      "birthDate": "1994-05-19",
+      "occupation": "footballer"
+    },
+    {
+      "firstName": "Suzanne",
+      "lastName": "Moreau",
+      "email": "Suzanne_Moreau@yahoo.fr",
+      "birthDate": "1989-05-25",
+      "occupation": "doctor"
+    },
+    {
+      "firstName": "James",
+      "lastName": "Munoz",
+      "email": "James_Munoz@yahoo.us",
+      "birthDate": "1991-06-28",
+      "occupation": "barber"
+    },
+    {
+      "firstName": "Audrey",
+      "lastName": "Duhamel",
+      "email": "Audrey_Duhamel@gmail.fr",
+      "birthDate": "2001-12-15",
+      "occupation": "firefighter"
+    },
+    {
+      "firstName": "Marcel",
+      "lastName": "Aane",
+      "email": "Marcel_Aane@outlook.ro",
+      "birthDate": "1985-05-15",
+      "occupation": "programmer"
+    },
+    {
+      "firstName": "Stefan",
+      "lastName": "Albu",
+      "email": "Stefan_Albu@hotmail.ro",
+      "birthDate": "1987-02-21",
+      "occupation": "librarian"
+    }
+  ],
+  "commerciants": [
+    {
+      "commerciant": "McDonalds",
+      "id": 98,
+      "account": "RO22POOB3875162728202296",
+      "type": "Food",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "Samsung",
+      "id": 116,
+      "account": "RO28POOB5923933391234057",
+      "type": "Tech",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "H&M",
+      "id": 83,
+      "account": "RO25POOB4386521661484930",
+      "type": "Clothes",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "Zara",
+      "id": 79,
+      "account": "RO32POOB8964686295716974",
+      "type": "Clothes",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "Microsoft",
+      "id": 126,
+      "account": "RO75POOB9251835314648427",
+      "type": "Tech",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "Burger King",
+      "id": 106,
+      "account": "RO15POOB4333403266660236",
+      "type": "Food",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "Apple",
+      "id": 113,
+      "account": "RO95POOB9807857732666986",
+      "type": "Tech",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "Amazon",
+      "id": 126,
+      "account": "RO66POOB9463355196372136",
+      "type": "Tech",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "KFC",
+      "id": 106,
+      "account": "RO01POOB5884922951883378",
+      "type": "Food",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "Nike",
+      "id": 88,
+      "account": "RO17POOB8495306331082091",
+      "type": "Clothes",
+      "cashbackStrategy": "nrOfTransactions"
+    }
+  ],
+  "exchangeRates": [
+    {
+      "from": "USD",
+      "to": "EUR",
+      "rate": 0.9
+    },
+    {
+      "from": "EUR",
+      "to": "RON",
+      "rate": 5.0
+    }
+  ],
+  "commands": [
+    {
+      "command": "addAccount",
+      "email": "Audrey_Duhamel@gmail.fr",
+      "currency": "EUR",
+      "accountType": "classic",
+      "timestamp": 1
+    },
+    {
+      "command": "addAccount",
+      "email": "Marcel_Aane@outlook.ro",
+      "currency": "RON",
+      "accountType": "classic",
+      "timestamp": 17
+    },
+    {
+      "command": "addAccount",
+      "email": "Aurica_Mocanu@gmail.ro",
+      "currency": "RON",
+      "accountType": "classic",
+      "timestamp": 30
+    },
+    {
+      "command": "addFunds",
+      "email": "Aurica_Mocanu@gmail.ro",
+      "account": "RO90POOB5450777208072365",
+      "amount": 142,
+      "timestamp": 31
+    },
+    {
+      "command": "addAccount",
+      "email": "Aurica_Mocanu@gmail.ro",
+      "currency": "RON",
+      "accountType": "business",
+      "timestamp": 32
+    },
+    {
+      "command": "addNewBusinessAssociate",
+      "account": "RO65POOB8944016386845896",
+      "role": "employee",
+      "email": "Audrey_Duhamel@gmail.fr",
+      "timestamp": 33
+    },
+    {
+      "command": "addFunds",
+      "email": "Audrey_Duhamel@gmail.fr",
+      "account": "RO58POOB7344468893732422",
+      "amount": 840,
+      "timestamp": 34
+    },
+    {
+      "command": "addFunds",
+      "email": "Audrey_Duhamel@gmail.fr",
+      "account": "RO65POOB8944016386845896",
+      "amount": 110.0,
+      "timestamp": 35
+    },
+    {
+      "command": "addNewBusinessAssociate",
+      "account": "RO65POOB8944016386845896",
+      "role": "manager",
+      "email": "Marcel_Aane@outlook.ro",
+      "timestamp": 36
+    },
+    {
+      "command": "changeSpendingLimit",
+      "email": "Marcel_Aane@outlook.ro",
+      "account": "RO65POOB8944016386845896",
+      "amount": 15,
+      "timestamp": 37
+    },
+    {
+      "command": "businessReport",
+      "startTimestamp": 0,
+      "endTimestamp": 37,
+      "account": "RO65POOB8944016386845896",
+      "type": "transaction",
+      "timestamp": 38
+    },
+    {
+      "command": "addFunds",
+      "email": "Marcel_Aane@outlook.ro",
+      "account": "RO65POOB8944016386845896",
+      "amount": 2830.0,
+      "timestamp": 39
+    },
+    {
+      "command": "payOnline",
+      "email": "Audrey_Duhamel@gmail.fr",
+      "cardNumber": "4001829491527416",
+      "amount": 1386.6,
+      "currency": "USD",
+      "timestamp": 40,
+      "description": "Online payment",
+      "commerciant": 3016
+    },
+    {
+      "command": "changeSpendingLimit",
+      "email": "Aurica_Mocanu@gmail.ro",
+      "account": "RO65POOB8944016386845896",
+      "amount": 479,
+      "timestamp": 41
+    },
+    {
+      "command": "payOnline",
+      "email": "Audrey_Duhamel@gmail.fr",
+      "cardNumber": "6769125583796385",
+      "amount": 2450.0,
+      "currency": "EUR",
+      "timestamp": 42,
+      "description": "Online payment",
+      "commerciant": 149
+    },
+    {
+      "command": "addFunds",
+      "email": "Marcel_Aane@outlook.ro",
+      "account": "RO65POOB8944016386845896",
+      "amount": 106.0,
+      "timestamp": 43
+    },
+    {
+      "command": "changeSpendingLimit",
+      "email": "Aurica_Mocanu@gmail.ro",
+      "account": "RO65POOB8944016386845896",
+      "amount": 233,
+      "timestamp": 44
+    },
+    {
+      "command": "payOnline",
+      "email": "Audrey_Duhamel@gmail.fr",
+      "cardNumber": "2827143779240285",
+      "amount": 2300.0,
+      "currency": "EUR",
+      "timestamp": 45,
+      "description": "Online payment",
+      "commerciant": 3198
+    },
+    {
+      "command": "changeDepositLimit",
+      "email": "Aurica_Mocanu@gmail.ro",
+      "account": "RO65POOB8944016386845896",
+      "amount": 22,
+      "timestamp": 46
+    },
+    {
+      "command": "addFunds",
+      "email": "Marcel_Aane@outlook.ro",
+      "account": "RO65POOB8944016386845896",
+      "amount": 438.0,
+      "timestamp": 47
+    },
+    {
+      "command": "sendMoney",
+      "account": "RO65POOB8944016386845896",
+      "amount": 1144.0,
+      "receiver": "RO58POOB7344468893732422",
+      "timestamp": 48,
+      "email": "Aurica_Mocanu@gmail.ro",
+      "description": "Miscellaneous cash expenses"
+    },
+    {
+      "command": "businessReport",
+      "startTimestamp": 0,
+      "endTimestamp": 47,
+      "account": "RO65POOB8944016386845896",
+      "type": "transaction",
+      "timestamp": 49
+    }
+  ]
+}

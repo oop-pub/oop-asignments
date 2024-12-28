@@ -1,0 +1,367 @@
+{
+  "users": [
+    {
+      "firstName": "Emile",
+      "lastName": "Dupuis",
+      "email": "Emile_Dupuis@gmail.fr",
+      "birthDate": "2001-01-28",
+      "occupation": "cashier"
+    },
+    {
+      "firstName": "Christophe-Adrien",
+      "lastName": "Coulon",
+      "email": "Christophe-Adrien_Coulon@hotmail.fr",
+      "birthDate": "1976-07-30",
+      "occupation": "pharmacist"
+    },
+    {
+      "firstName": "Anemona",
+      "lastName": "Cristea",
+      "email": "Anemona_Cristea@yahoo.ro",
+      "birthDate": "2000-11-05",
+      "occupation": "actor"
+    },
+    {
+      "firstName": "Marioara",
+      "lastName": "Gheorghiu",
+      "email": "Marioara_Gheorghiu@gmail.ro",
+      "birthDate": "1982-11-06",
+      "occupation": "programmer"
+    },
+    {
+      "firstName": "Amber",
+      "lastName": "Williams",
+      "email": "Amber_Williams@hotmail.us",
+      "birthDate": "1971-09-12",
+      "occupation": "programmer"
+    },
+    {
+      "firstName": "Eugene",
+      "lastName": "Riviere-Joubert",
+      "email": "Eugene_Riviere-Joubert@outlook.fr",
+      "birthDate": "2001-07-20",
+      "occupation": "politician"
+    },
+    {
+      "firstName": "Saveta",
+      "lastName": "Dobre",
+      "email": "Saveta_Dobre@gmail.ro",
+      "birthDate": "1993-03-06",
+      "occupation": "programmer"
+    },
+    {
+      "firstName": "Adela",
+      "lastName": "Ardelean",
+      "email": "Adela_Ardelean@yahoo.ro",
+      "birthDate": "1970-08-25",
+      "occupation": "influencer"
+    },
+    {
+      "firstName": "Kelly",
+      "lastName": "Williams",
+      "email": "Kelly_Williams@outlook.us",
+      "birthDate": "1985-12-18",
+      "occupation": "actor"
+    },
+    {
+      "firstName": "Noemi-Anais",
+      "lastName": "Boulay",
+      "email": "Noemi-Anais_Boulay@yahoo.fr",
+      "birthDate": "1970-11-27",
+      "occupation": "pyrotechnician"
+    }
+  ],
+  "commerciants": [
+    {
+      "commerciant": "Nike",
+      "id": 88,
+      "account": "RO22POOB3875162728202296",
+      "type": "Clothes",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "Apple",
+      "id": 113,
+      "account": "RO28POOB5923933391234057",
+      "type": "Tech",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "H&M",
+      "id": 83,
+      "account": "RO25POOB4386521661484930",
+      "type": "Clothes",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "Microsoft",
+      "id": 126,
+      "account": "RO32POOB8964686295716974",
+      "type": "Tech",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "Burger King",
+      "id": 106,
+      "account": "RO75POOB9251835314648427",
+      "type": "Food",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "Amazon",
+      "id": 126,
+      "account": "RO15POOB4333403266660236",
+      "type": "Tech",
+      "cashbackStrategy": "spendingThreshold"
+    },
+    {
+      "commerciant": "Samsung",
+      "id": 116,
+      "account": "RO95POOB9807857732666986",
+      "type": "Tech",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "McDonalds",
+      "id": 98,
+      "account": "RO66POOB9463355196372136",
+      "type": "Food",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "KFC",
+      "id": 106,
+      "account": "RO01POOB5884922951883378",
+      "type": "Food",
+      "cashbackStrategy": "nrOfTransactions"
+    },
+    {
+      "commerciant": "Zara",
+      "id": 79,
+      "account": "RO17POOB8495306331082091",
+      "type": "Clothes",
+      "cashbackStrategy": "spendingThreshold"
+    }
+  ],
+  "exchangeRates": [
+    {
+      "from": "USD",
+      "to": "RON",
+      "rate": 0.3
+    },
+    {
+      "from": "USD",
+      "to": "EUR",
+      "rate": 0.8
+    }
+  ],
+  "commands": [
+    {
+      "command": "addAccount",
+      "email": "Noemi-Anais_Boulay@yahoo.fr",
+      "currency": "EUR",
+      "accountType": "classic",
+      "timestamp": 1
+    },
+    {
+      "command": "addAccount",
+      "email": "Eugene_Riviere-Joubert@outlook.fr",
+      "currency": "EUR",
+      "accountType": "classic",
+      "timestamp": 6
+    },
+    {
+      "command": "addAccount",
+      "email": "Saveta_Dobre@gmail.ro",
+      "currency": "RON",
+      "accountType": "classic",
+      "timestamp": 14
+    },
+    {
+      "command": "addAccount",
+      "email": "Anemona_Cristea@yahoo.ro",
+      "currency": "RON",
+      "accountType": "classic",
+      "timestamp": 25
+    },
+    {
+      "command": "addAccount",
+      "email": "Emile_Dupuis@gmail.fr",
+      "currency": "EUR",
+      "accountType": "business",
+      "timestamp": 36
+    },
+    {
+      "command": "createCard",
+      "account": "RO58POOB2721178218599590",
+      "email": "Emile_Dupuis@gmail.fr",
+      "timestamp": 37
+    },
+    {
+      "command": "addFunds",
+      "email": "Emile_Dupuis@gmail.fr",
+      "account": "RO58POOB2721178218599590",
+      "amount": 3633.0,
+      "timestamp": 38
+    },
+    {
+      "command": "addNewBusinessAssociate",
+      "account": "RO58POOB2721178218599590",
+      "role": "employee",
+      "email": "Saveta_Dobre@gmail.ro",
+      "timestamp": 39
+    },
+    {
+      "command": "addNewBusinessAssociate",
+      "account": "RO58POOB2721178218599590",
+      "role": "employee",
+      "email": "Noemi-Anais_Boulay@yahoo.fr",
+      "timestamp": 49
+    },
+    {
+      "command": "changeSpendingLimit",
+      "email": "Emile_Dupuis@gmail.fr",
+      "account": "RO58POOB2721178218599590",
+      "amount": 89,
+      "timestamp": 70
+    },
+    {
+      "command": "addNewBusinessAssociate",
+      "account": "RO58POOB2721178218599590",
+      "role": "manager",
+      "email": "Eugene_Riviere-Joubert@outlook.fr",
+      "timestamp": 71
+    },
+    {
+      "command": "addNewBusinessAssociate",
+      "account": "RO58POOB2721178218599590",
+      "role": "manager",
+      "email": "Anemona_Cristea@yahoo.ro",
+      "timestamp": 78
+    },
+    {
+      "command": "createCard",
+      "account": "RO58POOB2721178218599590",
+      "email": "Emile_Dupuis@gmail.fr",
+      "timestamp": 82
+    },
+    {
+      "command": "createCard",
+      "account": "RO58POOB2721178218599590",
+      "email": "Emile_Dupuis@gmail.fr",
+      "timestamp": 97
+    },
+    {
+      "command": "createCard",
+      "account": "RO58POOB2721178218599590",
+      "email": "Emile_Dupuis@gmail.fr",
+      "timestamp": 104
+    },
+    {
+      "command": "createCard",
+      "account": "RO58POOB2721178218599590",
+      "email": "Emile_Dupuis@gmail.fr",
+      "timestamp": 113
+    },
+    {
+      "command": "payOnline",
+      "email": "Anemona_Cristea@yahoo.ro",
+      "cardNumber": "4686471658318359",
+      "amount": 321,
+      "currency": "EUR",
+      "timestamp": 117,
+      "description": "Online payment",
+      "commerciant": "Samsung"
+    },
+    {
+      "command": "addFunds",
+      "email": "Eugene_Riviere-Joubert@outlook.fr",
+      "account": "RO58POOB2721178218599590",
+      "amount": 1236.0,
+      "timestamp": 118
+    },
+    {
+      "command": "addFunds",
+      "email": "Anemona_Cristea@yahoo.ro",
+      "account": "RO58POOB2721178218599590",
+      "amount": 1494.0,
+      "timestamp": 133
+    },
+    {
+      "command": "addFunds",
+      "email": "Noemi-Anais_Boulay@yahoo.fr",
+      "account": "RO58POOB7344468893732422",
+      "amount": 620,
+      "timestamp": 151
+    },
+    {
+      "command": "payOnline",
+      "email": "Emile_Dupuis@gmail.fr",
+      "cardNumber": "8207906978464446",
+      "amount": 144,
+      "currency": "EUR",
+      "timestamp": 160,
+      "description": "Online payment",
+      "commerciant": "Amazon"
+    },
+    {
+      "command": "addFunds",
+      "email": "Eugene_Riviere-Joubert@outlook.fr",
+      "account": "RO69POOB6209498372540635",
+      "amount": 201,
+      "timestamp": 161
+    },
+    {
+      "command": "payOnline",
+      "email": "Emile_Dupuis@gmail.fr",
+      "cardNumber": "7004757825892043",
+      "amount": 48,
+      "currency": "USD",
+      "timestamp": 176,
+      "description": "Online payment",
+      "commerciant": "KFC"
+    },
+    {
+      "command": "addFunds",
+      "email": "Eugene_Riviere-Joubert@outlook.fr",
+      "account": "RO58POOB2721178218599590",
+      "amount": 1617.0,
+      "timestamp": 177
+    },
+    {
+      "command": "addFunds",
+      "email": "Anemona_Cristea@yahoo.ro",
+      "account": "RO58POOB2721178218599590",
+      "amount": 1188.0,
+      "timestamp": 197
+    },
+    {
+      "command": "payOnline",
+      "email": "Eugene_Riviere-Joubert@outlook.fr",
+      "cardNumber": "8207906978464446",
+      "amount": 72,
+      "currency": "RON",
+      "timestamp": 212,
+      "description": "Online payment",
+      "commerciant": "Apple"
+    },
+    {
+      "command": "payOnline",
+      "email": "Saveta_Dobre@gmail.ro",
+      "cardNumber": "4686471658318359",
+      "amount": 71,
+      "currency": "EUR",
+      "timestamp": 215,
+      "description": "Online payment",
+      "commerciant": "Amazon"
+    },
+    {
+      "command": "businessReport",
+      "startTimestamp": 1,
+      "endTimestamp": 222,
+      "account": "RO58POOB2721178218599590",
+      "type": "transaction",
+      "timestamp": 223
+    }
+  ]
+}
