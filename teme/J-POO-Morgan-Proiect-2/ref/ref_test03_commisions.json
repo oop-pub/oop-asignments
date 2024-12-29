@@ -65,7 +65,7 @@
   "command" : "cashWithdrawal",
   "output" : {
     "timestamp" : 15,
-    "description" : "Card not found"
+    "description" : "Card has already been used"
   },
   "timestamp" : 15
 }, {
@@ -136,6 +136,9 @@
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
+        "cardNumber" : "7901879264253296",
+        "status" : "active"
+      }, {
         "cardNumber" : "7004757825892043",
         "status" : "active"
       } ]
