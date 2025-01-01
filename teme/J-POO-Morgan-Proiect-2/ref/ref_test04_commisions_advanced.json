@@ -154,7 +154,8 @@
     "account" : "RO76POOB4035116042454483"
   }, {
     "timestamp" : 43,
-    "description" : "Insufficient funds"
+    "description" : "Cash withdrawal of 100000.0",
+    "amount" : 100000.0
   } ],
   "timestamp" : 44
 }, {
@@ -259,7 +260,7 @@
     "email" : "Dennis_Norris@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 100846.0,
+      "balance" : 79374.57,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -366,7 +367,8 @@
     "commerciant" : "Burger King"
   }, {
     "timestamp" : 59,
-    "description" : "Insufficient funds"
+    "description" : "Cash withdrawal of 600.0",
+    "amount" : 600.0
   } ],
   "timestamp" : 60
 }, {
@@ -398,7 +400,7 @@
     "email" : "Brandi_Schultz@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
-      "balance" : 2046.57,
+      "balance" : 1917.63,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -480,7 +482,7 @@
     "email" : "Dennis_Norris@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 100849.0,
+      "balance" : 79377.57,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -572,7 +574,7 @@
     "email" : "Brandi_Schultz@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
-      "balance" : 2046.57,
+      "balance" : 1917.63,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -617,7 +619,7 @@
     "email" : "Jason_Carpenter@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 102.0,
+      "balance" : 2773.43,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -657,7 +659,7 @@
     "email" : "Dennis_Norris@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 100849.0,
+      "balance" : 79377.57,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {

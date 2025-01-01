@@ -79,7 +79,8 @@
     "currency" : "EUR"
   }, {
     "timestamp" : 6,
-    "description" : "Insufficient funds"
+    "description" : "Cash withdrawal of 639.0",
+    "amount" : 639.0
   } ],
   "timestamp" : 7
 }, {
@@ -100,7 +101,8 @@
     "currency" : "EUR"
   }, {
     "timestamp" : 6,
-    "description" : "Insufficient funds"
+    "description" : "Cash withdrawal of 639.0",
+    "amount" : 639.0
   }, {
     "timestamp" : 8,
     "description" : "You do not have a classic account."
@@ -124,7 +126,8 @@
     "currency" : "EUR"
   }, {
     "timestamp" : 6,
-    "description" : "Insufficient funds"
+    "description" : "Cash withdrawal of 639.0",
+    "amount" : 639.0
   }, {
     "timestamp" : 8,
     "description" : "You do not have a classic account."
@@ -153,7 +156,7 @@
     "email" : "Caroline_Leleu@outlook.fr",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 749.92,
+      "balance" : 621.86,
       "currency" : "EUR",
       "type" : "savings",
       "cards" : [ {
