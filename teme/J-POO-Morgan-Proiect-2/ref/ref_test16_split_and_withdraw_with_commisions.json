@@ -1,0 +1,1403 @@
+[ {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Timothee",
+    "lastName" : "Mahe Le Martineau",
+    "email" : "Timothee_Mahe_Le_Martineau@outlook.fr",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 619.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "8207906978464446",
+        "status" : "active"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Cecile-Eleonore",
+    "lastName" : "Rocher",
+    "email" : "Cecile-Eleonore_Rocher@gmail.fr",
+    "accounts" : [ {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 555.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "7901879264253296",
+        "status" : "active"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Claudine",
+    "lastName" : "Chauvin de la Devaux",
+    "email" : "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 366.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "7004757825892043",
+        "status" : "active"
+      } ]
+    }, {
+      "IBAN" : "RO65POOB8944016386845896",
+      "balance" : 684.0,
+      "currency" : "EUR",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Judith",
+    "lastName" : "Edwards",
+    "email" : "Judith_Edwards@outlook.us",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB2721178218599590",
+      "balance" : 25.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "6796819982034243",
+        "status" : "active"
+      } ]
+    }, {
+      "IBAN" : "RO76POOB4035116042454483",
+      "balance" : 481.0,
+      "currency" : "USD",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Ion",
+    "lastName" : "Toma",
+    "email" : "Ion_Toma@yahoo.ro",
+    "accounts" : [ {
+      "IBAN" : "RO37POOB7013767509830666",
+      "balance" : 835.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "4686471658318359",
+        "status" : "active"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Jaclyn",
+    "lastName" : "Carter",
+    "email" : "Jaclyn_Carter@outlook.us",
+    "accounts" : [ {
+      "IBAN" : "RO19POOB4981055641668812",
+      "balance" : 164.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "1322658752653937",
+        "status" : "active"
+      } ]
+    }, {
+      "IBAN" : "RO30POOB9523423715747796",
+      "balance" : 338.0,
+      "currency" : "USD",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Corey",
+    "lastName" : "Moreno",
+    "email" : "Corey_Moreno@outlook.us",
+    "accounts" : [ {
+      "IBAN" : "RO79POOB3616857825600958",
+      "balance" : 488.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "0466992784477761",
+        "status" : "active"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Dina",
+    "lastName" : "Stoica",
+    "email" : "Dina_Stoica@gmail.ro",
+    "accounts" : [ {
+      "IBAN" : "RO00POOB5687892910835215",
+      "balance" : 383.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "5088727507344799",
+        "status" : "active"
+      } ]
+    }, {
+      "IBAN" : "RO96POOB6738272785416988",
+      "balance" : 37.0,
+      "currency" : "RON",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Katie",
+    "lastName" : "Jimenez",
+    "email" : "Katie_Jimenez@outlook.us",
+    "accounts" : [ {
+      "IBAN" : "RO33POOB4049920806186500",
+      "balance" : 891.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "7317745095154687",
+        "status" : "active"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Christian",
+    "lastName" : "Lawrence DDS",
+    "email" : "Christian_Lawrence_DDS@yahoo.us",
+    "accounts" : [ {
+      "IBAN" : "RO69POOB9846198978826791",
+      "balance" : 594.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "3951521356076921",
+        "status" : "active"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Matthew",
+    "lastName" : "Hernandez",
+    "email" : "Matthew_Hernandez@gmail.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Emily",
+    "lastName" : "Escobar",
+    "email" : "Emily_Escobar@hotmail.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Jonathan",
+    "lastName" : "Brewer",
+    "email" : "Jonathan_Brewer@yahoo.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Casiana",
+    "lastName" : "Diaconescu",
+    "email" : "Casiana_Diaconescu@yahoo.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Danielle",
+    "lastName" : "Mack",
+    "email" : "Danielle_Mack@yahoo.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Heather",
+    "lastName" : "Adams",
+    "email" : "Heather_Adams@outlook.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Antoinette",
+    "lastName" : "Benard",
+    "email" : "Antoinette_Benard@outlook.fr",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Mihnea",
+    "lastName" : "Nistor",
+    "email" : "Mihnea_Nistor@outlook.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Anastasia",
+    "lastName" : "Mocanu",
+    "email" : "Anastasia_Mocanu@hotmail.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Dina",
+    "lastName" : "Stoica",
+    "email" : "Dina_Stoica@gmail.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Margaret",
+    "lastName" : "Antoine",
+    "email" : "Margaret_Antoine@hotmail.fr",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Shane",
+    "lastName" : "Williams",
+    "email" : "Shane_Williams@yahoo.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Heather",
+    "lastName" : "Adams",
+    "email" : "Heather_Adams@outlook.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Anastasia",
+    "lastName" : "Mocanu",
+    "email" : "Anastasia_Mocanu@hotmail.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Antoinette",
+    "lastName" : "Benard",
+    "email" : "Antoinette_Benard@outlook.fr",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Aurore",
+    "lastName" : "Ferrand",
+    "email" : "Aurore_Ferrand@hotmail.fr",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Stelian",
+    "lastName" : "Aane",
+    "email" : "Stelian_Aane@gmail.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Nicole",
+    "lastName" : "Daniels",
+    "email" : "Nicole_Daniels@hotmail.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Danielle",
+    "lastName" : "Mack",
+    "email" : "Danielle_Mack@yahoo.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Aurore",
+    "lastName" : "Ferrand",
+    "email" : "Aurore_Ferrand@hotmail.fr",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Casiana",
+    "lastName" : "Diaconescu",
+    "email" : "Casiana_Diaconescu@yahoo.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Jonathan",
+    "lastName" : "Brewer",
+    "email" : "Jonathan_Brewer@yahoo.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Margaret",
+    "lastName" : "Antoine",
+    "email" : "Margaret_Antoine@hotmail.fr",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Nicole",
+    "lastName" : "Daniels",
+    "email" : "Nicole_Daniels@hotmail.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Jill",
+    "lastName" : "Russell",
+    "email" : "Jill_Russell@hotmail.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Stelian",
+    "lastName" : "Aane",
+    "email" : "Stelian_Aane@gmail.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Ion",
+    "lastName" : "Toma",
+    "email" : "Ion_Toma@yahoo.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Matthew",
+    "lastName" : "Hernandez",
+    "email" : "Matthew_Hernandez@gmail.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Shane",
+    "lastName" : "Williams",
+    "email" : "Shane_Williams@yahoo.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Corey",
+    "lastName" : "Moreno",
+    "email" : "Corey_Moreno@outlook.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Christian",
+    "lastName" : "Lawrence DDS",
+    "email" : "Christian_Lawrence_DDS@yahoo.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Linda",
+    "lastName" : "Peters",
+    "email" : "Linda_Peters@yahoo.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Linda",
+    "lastName" : "Peters",
+    "email" : "Linda_Peters@yahoo.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Peter",
+    "lastName" : "Hall",
+    "email" : "Peter_Hall@hotmail.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Denise",
+    "lastName" : "de la Renaud",
+    "email" : "Denise_de_la_Renaud@outlook.fr",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Katie",
+    "lastName" : "Jimenez",
+    "email" : "Katie_Jimenez@outlook.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Judith",
+    "lastName" : "Edwards",
+    "email" : "Judith_Edwards@outlook.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Peter",
+    "lastName" : "Hall",
+    "email" : "Peter_Hall@hotmail.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Charlotte",
+    "lastName" : "Allain",
+    "email" : "Charlotte_Allain@yahoo.fr",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Alix",
+    "lastName" : "Brunel",
+    "email" : "Alix_Brunel@hotmail.fr",
+    "accounts" : [ ]
+  } ],
+  "timestamp" : 221
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 223,
+    "description" : "User not found"
+  },
+  "timestamp" : 223
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 1,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 14,
+    "description" : "New card created",
+    "card" : "8207906978464446",
+    "cardHolder" : "Timothee_Mahe_Le_Martineau@outlook.fr",
+    "account" : "RO58POOB7344468893732422"
+  } ],
+  "timestamp" : 224
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 225,
+    "description" : "User not found"
+  },
+  "timestamp" : 225
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 77,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 94,
+    "description" : "New card created",
+    "card" : "6796819982034243",
+    "cardHolder" : "Judith_Edwards@outlook.us",
+    "account" : "RO58POOB2721178218599590"
+  }, {
+    "timestamp" : 96,
+    "description" : "New account created"
+  } ],
+  "timestamp" : 226
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 227,
+    "description" : "User not found"
+  },
+  "timestamp" : 227
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 156,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 164,
+    "description" : "New card created",
+    "card" : "5088727507344799",
+    "cardHolder" : "Dina_Stoica@gmail.ro",
+    "account" : "RO00POOB5687892910835215"
+  }, {
+    "timestamp" : 166,
+    "description" : "New account created"
+  } ],
+  "timestamp" : 228
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 230,
+    "description" : "User not found"
+  },
+  "timestamp" : 230
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 207,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 219,
+    "description" : "New card created",
+    "card" : "3951521356076921",
+    "cardHolder" : "Christian_Lawrence_DDS@yahoo.us",
+    "account" : "RO69POOB9846198978826791"
+  } ],
+  "timestamp" : 231
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 232,
+    "description" : "User not found"
+  },
+  "timestamp" : 232
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 123,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 131,
+    "description" : "New card created",
+    "card" : "1322658752653937",
+    "cardHolder" : "Jaclyn_Carter@outlook.us",
+    "account" : "RO19POOB4981055641668812"
+  }, {
+    "timestamp" : 133,
+    "description" : "New account created"
+  } ],
+  "timestamp" : 233
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 234,
+    "description" : "User not found"
+  },
+  "timestamp" : 234
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 38,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 57,
+    "description" : "New card created",
+    "card" : "7004757825892043",
+    "cardHolder" : "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
+    "account" : "RO90POOB5450777208072365"
+  }, {
+    "timestamp" : 59,
+    "description" : "New account created"
+  } ],
+  "timestamp" : 235
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 236,
+    "description" : "User not found"
+  },
+  "timestamp" : 236
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 107,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 121,
+    "description" : "New card created",
+    "card" : "4686471658318359",
+    "cardHolder" : "Ion_Toma@yahoo.ro",
+    "account" : "RO37POOB7013767509830666"
+  } ],
+  "timestamp" : 237
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 238,
+    "description" : "User not found"
+  },
+  "timestamp" : 238
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 187,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 205,
+    "description" : "New card created",
+    "card" : "7317745095154687",
+    "cardHolder" : "Katie_Jimenez@outlook.us",
+    "account" : "RO33POOB4049920806186500"
+  } ],
+  "timestamp" : 239
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 240,
+    "description" : "User not found"
+  },
+  "timestamp" : 240
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 142,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 154,
+    "description" : "New card created",
+    "card" : "0466992784477761",
+    "cardHolder" : "Corey_Moreno@outlook.us",
+    "account" : "RO79POOB3616857825600958"
+  } ],
+  "timestamp" : 241
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 243,
+    "description" : "User not found"
+  },
+  "timestamp" : 243
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 16,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 36,
+    "description" : "New card created",
+    "card" : "7901879264253296",
+    "cardHolder" : "Cecile-Eleonore_Rocher@gmail.fr",
+    "account" : "RO69POOB6209498372540635"
+  } ],
+  "timestamp" : 244
+}, {
+  "command" : "rejectSplitPayment",
+  "output" : {
+    "timestamp" : 256,
+    "description" : "User not found"
+  },
+  "timestamp" : 256
+}, {
+  "command" : "rejectSplitPayment",
+  "output" : {
+    "timestamp" : 257,
+    "description" : "User not found"
+  },
+  "timestamp" : 257
+}, {
+  "command" : "rejectSplitPayment",
+  "output" : {
+    "timestamp" : 258,
+    "description" : "User not found"
+  },
+  "timestamp" : 258
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 259,
+    "description" : "User not found"
+  },
+  "timestamp" : 259
+}, {
+  "command" : "rejectSplitPayment",
+  "output" : {
+    "timestamp" : 260,
+    "description" : "User not found"
+  },
+  "timestamp" : 260
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 261,
+    "description" : "User not found"
+  },
+  "timestamp" : 261
+}, {
+  "command" : "rejectSplitPayment",
+  "output" : {
+    "timestamp" : 262,
+    "description" : "User not found"
+  },
+  "timestamp" : 262
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 263,
+    "description" : "User not found"
+  },
+  "timestamp" : 263
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 264,
+    "description" : "User not found"
+  },
+  "timestamp" : 264
+}, {
+  "command" : "rejectSplitPayment",
+  "output" : {
+    "timestamp" : 265,
+    "description" : "User not found"
+  },
+  "timestamp" : 265
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 266,
+    "description" : "User not found"
+  },
+  "timestamp" : 266
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 279,
+    "description" : "User not found"
+  },
+  "timestamp" : 279
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 280,
+    "description" : "User not found"
+  },
+  "timestamp" : 280
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 281,
+    "description" : "User not found"
+  },
+  "timestamp" : 281
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 282,
+    "description" : "User not found"
+  },
+  "timestamp" : 282
+}, {
+  "command" : "rejectSplitPayment",
+  "output" : {
+    "timestamp" : 283,
+    "description" : "User not found"
+  },
+  "timestamp" : 283
+}, {
+  "command" : "rejectSplitPayment",
+  "output" : {
+    "timestamp" : 284,
+    "description" : "User not found"
+  },
+  "timestamp" : 284
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 285,
+    "description" : "User not found"
+  },
+  "timestamp" : 285
+}, {
+  "command" : "rejectSplitPayment",
+  "output" : {
+    "timestamp" : 286,
+    "description" : "User not found"
+  },
+  "timestamp" : 286
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 287,
+    "description" : "User not found"
+  },
+  "timestamp" : 287
+}, {
+  "command" : "rejectSplitPayment",
+  "output" : {
+    "timestamp" : 288,
+    "description" : "User not found"
+  },
+  "timestamp" : 288
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 289,
+    "description" : "User not found"
+  },
+  "timestamp" : 289
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 290,
+    "description" : "User not found"
+  },
+  "timestamp" : 290
+}, {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Timothee",
+    "lastName" : "Mahe Le Martineau",
+    "email" : "Timothee_Mahe_Le_Martineau@outlook.fr",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 2392.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "8207906978464446",
+        "status" : "active"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Cecile-Eleonore",
+    "lastName" : "Rocher",
+    "email" : "Cecile-Eleonore_Rocher@gmail.fr",
+    "accounts" : [ {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 1827.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "7901879264253296",
+        "status" : "active"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Claudine",
+    "lastName" : "Chauvin de la Devaux",
+    "email" : "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 1191.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "7004757825892043",
+        "status" : "active"
+      } ]
+    }, {
+      "IBAN" : "RO65POOB8944016386845896",
+      "balance" : 1308.0,
+      "currency" : "EUR",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Judith",
+    "lastName" : "Edwards",
+    "email" : "Judith_Edwards@outlook.us",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB2721178218599590",
+      "balance" : 25.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "6796819982034243",
+        "status" : "active"
+      } ]
+    }, {
+      "IBAN" : "RO76POOB4035116042454483",
+      "balance" : 481.0,
+      "currency" : "USD",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Ion",
+    "lastName" : "Toma",
+    "email" : "Ion_Toma@yahoo.ro",
+    "accounts" : [ {
+      "IBAN" : "RO37POOB7013767509830666",
+      "balance" : 1233.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "4686471658318359",
+        "status" : "active"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Jaclyn",
+    "lastName" : "Carter",
+    "email" : "Jaclyn_Carter@outlook.us",
+    "accounts" : [ {
+      "IBAN" : "RO19POOB4981055641668812",
+      "balance" : 1330.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "1322658752653937",
+        "status" : "active"
+      } ]
+    }, {
+      "IBAN" : "RO30POOB9523423715747796",
+      "balance" : 1646.0,
+      "currency" : "USD",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Corey",
+    "lastName" : "Moreno",
+    "email" : "Corey_Moreno@outlook.us",
+    "accounts" : [ {
+      "IBAN" : "RO79POOB3616857825600958",
+      "balance" : 988.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "0466992784477761",
+        "status" : "active"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Dina",
+    "lastName" : "Stoica",
+    "email" : "Dina_Stoica@gmail.ro",
+    "accounts" : [ {
+      "IBAN" : "RO00POOB5687892910835215",
+      "balance" : 1121.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "5088727507344799",
+        "status" : "active"
+      } ]
+    }, {
+      "IBAN" : "RO96POOB6738272785416988",
+      "balance" : 535.0,
+      "currency" : "RON",
+      "type" : "savings",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Katie",
+    "lastName" : "Jimenez",
+    "email" : "Katie_Jimenez@outlook.us",
+    "accounts" : [ {
+      "IBAN" : "RO33POOB4049920806186500",
+      "balance" : 1595.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "7317745095154687",
+        "status" : "active"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Christian",
+    "lastName" : "Lawrence DDS",
+    "email" : "Christian_Lawrence_DDS@yahoo.us",
+    "accounts" : [ {
+      "IBAN" : "RO69POOB9846198978826791",
+      "balance" : 1693.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "3951521356076921",
+        "status" : "active"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Matthew",
+    "lastName" : "Hernandez",
+    "email" : "Matthew_Hernandez@gmail.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Emily",
+    "lastName" : "Escobar",
+    "email" : "Emily_Escobar@hotmail.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Jonathan",
+    "lastName" : "Brewer",
+    "email" : "Jonathan_Brewer@yahoo.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Casiana",
+    "lastName" : "Diaconescu",
+    "email" : "Casiana_Diaconescu@yahoo.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Danielle",
+    "lastName" : "Mack",
+    "email" : "Danielle_Mack@yahoo.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Heather",
+    "lastName" : "Adams",
+    "email" : "Heather_Adams@outlook.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Antoinette",
+    "lastName" : "Benard",
+    "email" : "Antoinette_Benard@outlook.fr",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Mihnea",
+    "lastName" : "Nistor",
+    "email" : "Mihnea_Nistor@outlook.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Anastasia",
+    "lastName" : "Mocanu",
+    "email" : "Anastasia_Mocanu@hotmail.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Dina",
+    "lastName" : "Stoica",
+    "email" : "Dina_Stoica@gmail.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Margaret",
+    "lastName" : "Antoine",
+    "email" : "Margaret_Antoine@hotmail.fr",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Shane",
+    "lastName" : "Williams",
+    "email" : "Shane_Williams@yahoo.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Heather",
+    "lastName" : "Adams",
+    "email" : "Heather_Adams@outlook.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Anastasia",
+    "lastName" : "Mocanu",
+    "email" : "Anastasia_Mocanu@hotmail.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Antoinette",
+    "lastName" : "Benard",
+    "email" : "Antoinette_Benard@outlook.fr",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Aurore",
+    "lastName" : "Ferrand",
+    "email" : "Aurore_Ferrand@hotmail.fr",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Stelian",
+    "lastName" : "Aane",
+    "email" : "Stelian_Aane@gmail.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Nicole",
+    "lastName" : "Daniels",
+    "email" : "Nicole_Daniels@hotmail.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Danielle",
+    "lastName" : "Mack",
+    "email" : "Danielle_Mack@yahoo.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Aurore",
+    "lastName" : "Ferrand",
+    "email" : "Aurore_Ferrand@hotmail.fr",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Casiana",
+    "lastName" : "Diaconescu",
+    "email" : "Casiana_Diaconescu@yahoo.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Jonathan",
+    "lastName" : "Brewer",
+    "email" : "Jonathan_Brewer@yahoo.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Margaret",
+    "lastName" : "Antoine",
+    "email" : "Margaret_Antoine@hotmail.fr",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Nicole",
+    "lastName" : "Daniels",
+    "email" : "Nicole_Daniels@hotmail.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Jill",
+    "lastName" : "Russell",
+    "email" : "Jill_Russell@hotmail.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Stelian",
+    "lastName" : "Aane",
+    "email" : "Stelian_Aane@gmail.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Ion",
+    "lastName" : "Toma",
+    "email" : "Ion_Toma@yahoo.ro",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Matthew",
+    "lastName" : "Hernandez",
+    "email" : "Matthew_Hernandez@gmail.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Shane",
+    "lastName" : "Williams",
+    "email" : "Shane_Williams@yahoo.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Corey",
+    "lastName" : "Moreno",
+    "email" : "Corey_Moreno@outlook.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Christian",
+    "lastName" : "Lawrence DDS",
+    "email" : "Christian_Lawrence_DDS@yahoo.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Linda",
+    "lastName" : "Peters",
+    "email" : "Linda_Peters@yahoo.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Linda",
+    "lastName" : "Peters",
+    "email" : "Linda_Peters@yahoo.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Peter",
+    "lastName" : "Hall",
+    "email" : "Peter_Hall@hotmail.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Denise",
+    "lastName" : "de la Renaud",
+    "email" : "Denise_de_la_Renaud@outlook.fr",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Katie",
+    "lastName" : "Jimenez",
+    "email" : "Katie_Jimenez@outlook.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Judith",
+    "lastName" : "Edwards",
+    "email" : "Judith_Edwards@outlook.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Peter",
+    "lastName" : "Hall",
+    "email" : "Peter_Hall@hotmail.us",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Charlotte",
+    "lastName" : "Allain",
+    "email" : "Charlotte_Allain@yahoo.fr",
+    "accounts" : [ ]
+  }, {
+    "firstName" : "Alix",
+    "lastName" : "Brunel",
+    "email" : "Alix_Brunel@hotmail.fr",
+    "accounts" : [ ]
+  } ],
+  "timestamp" : 291
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 38,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 57,
+    "description" : "New card created",
+    "card" : "7004757825892043",
+    "cardHolder" : "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
+    "account" : "RO90POOB5450777208072365"
+  }, {
+    "timestamp" : 59,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 292,
+    "description" : "Interest rate income",
+    "amount" : 1190.28,
+    "currency" : "EUR"
+  } ],
+  "timestamp" : 293
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 77,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 94,
+    "description" : "New card created",
+    "card" : "6796819982034243",
+    "cardHolder" : "Judith_Edwards@outlook.us",
+    "account" : "RO58POOB2721178218599590"
+  }, {
+    "timestamp" : 96,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 294,
+    "description" : "Interest rate income",
+    "amount" : 81.77,
+    "currency" : "USD"
+  } ],
+  "timestamp" : 295
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 123,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 131,
+    "description" : "New card created",
+    "card" : "1322658752653937",
+    "cardHolder" : "Jaclyn_Carter@outlook.us",
+    "account" : "RO19POOB4981055641668812"
+  }, {
+    "timestamp" : 133,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 296,
+    "description" : "Interest rate income",
+    "amount" : 921.76,
+    "currency" : "USD"
+  } ],
+  "timestamp" : 297
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 123,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 131,
+    "description" : "New card created",
+    "card" : "1322658752653937",
+    "cardHolder" : "Jaclyn_Carter@outlook.us",
+    "account" : "RO19POOB4981055641668812"
+  }, {
+    "timestamp" : 133,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 296,
+    "description" : "Interest rate income",
+    "amount" : 921.76,
+    "currency" : "USD"
+  }, {
+    "timestamp" : 298,
+    "description" : "Savings withdrawal",
+    "savingsAccountIBAN" : "RO30POOB9523423715747796",
+    "classicAccountIBAN" : "RO19POOB4981055641668812",
+    "amount" : 2567.76
+  }, {
+    "timestamp" : 298,
+    "description" : "Savings withdrawal",
+    "savingsAccountIBAN" : "RO30POOB9523423715747796",
+    "classicAccountIBAN" : "RO19POOB4981055641668812",
+    "amount" : 2567.76
+  } ],
+  "timestamp" : 299
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 156,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 164,
+    "description" : "New card created",
+    "card" : "5088727507344799",
+    "cardHolder" : "Dina_Stoica@gmail.ro",
+    "account" : "RO00POOB5687892910835215"
+  }, {
+    "timestamp" : 166,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 300,
+    "description" : "Interest rate income",
+    "amount" : 379.85,
+    "currency" : "RON"
+  } ],
+  "timestamp" : 301
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 305,
+    "description" : "User not found"
+  },
+  "timestamp" : 305
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 16,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 36,
+    "description" : "New card created",
+    "card" : "7901879264253296",
+    "cardHolder" : "Cecile-Eleonore_Rocher@gmail.fr",
+    "account" : "RO69POOB6209498372540635"
+  }, {
+    "timestamp" : 304,
+    "description" : "Upgrade plan",
+    "accountIBAN" : "RO69POOB6209498372540635",
+    "newPlanType" : "silver"
+  } ],
+  "timestamp" : 307
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 310,
+    "description" : "User not found"
+  },
+  "timestamp" : 310
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 77,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 94,
+    "description" : "New card created",
+    "card" : "6796819982034243",
+    "cardHolder" : "Judith_Edwards@outlook.us",
+    "account" : "RO58POOB2721178218599590"
+  }, {
+    "timestamp" : 96,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 294,
+    "description" : "Interest rate income",
+    "amount" : 81.77,
+    "currency" : "USD"
+  }, {
+    "timestamp" : 309,
+    "description" : "Upgrade plan",
+    "accountIBAN" : "RO58POOB2721178218599590",
+    "newPlanType" : "silver"
+  } ],
+  "timestamp" : 312
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 315,
+    "description" : "User not found"
+  },
+  "timestamp" : 315
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 1,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 14,
+    "description" : "New card created",
+    "card" : "8207906978464446",
+    "cardHolder" : "Timothee_Mahe_Le_Martineau@outlook.fr",
+    "account" : "RO58POOB7344468893732422"
+  }, {
+    "timestamp" : 314,
+    "description" : "Upgrade plan",
+    "accountIBAN" : "RO58POOB7344468893732422",
+    "newPlanType" : "silver"
+  } ],
+  "timestamp" : 317
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 320,
+    "description" : "User not found"
+  },
+  "timestamp" : 320
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 107,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 121,
+    "description" : "New card created",
+    "card" : "4686471658318359",
+    "cardHolder" : "Ion_Toma@yahoo.ro",
+    "account" : "RO37POOB7013767509830666"
+  }, {
+    "timestamp" : 319,
+    "description" : "Upgrade plan",
+    "accountIBAN" : "RO37POOB7013767509830666",
+    "newPlanType" : "silver"
+  } ],
+  "timestamp" : 322
+}, {
+  "command" : "acceptSplitPayment",
+  "output" : {
+    "timestamp" : 325,
+    "description" : "User not found"
+  },
+  "timestamp" : 325
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 38,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 57,
+    "description" : "New card created",
+    "card" : "7004757825892043",
+    "cardHolder" : "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
+    "account" : "RO90POOB5450777208072365"
+  }, {
+    "timestamp" : 59,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 292,
+    "description" : "Interest rate income",
+    "amount" : 1190.28,
+    "currency" : "EUR"
+  }, {
+    "timestamp" : 324,
+    "description" : "Upgrade plan",
+    "accountIBAN" : "RO90POOB5450777208072365",
+    "newPlanType" : "silver"
+  } ],
+  "timestamp" : 327
+}, {
+  "command" : "cashWithdrawal",
+  "output" : {
+    "timestamp" : 328,
+    "description" : "User not found"
+  },
+  "timestamp" : 328
+}, {
+  "command" : "cashWithdrawal",
+  "output" : {
+    "timestamp" : 329,
+    "description" : "User not found"
+  },
+  "timestamp" : 329
+}, {
+  "command" : "cashWithdrawal",
+  "output" : {
+    "timestamp" : 330,
+    "description" : "User not found"
+  },
+  "timestamp" : 330
+}, {
+  "command" : "cashWithdrawal",
+  "output" : {
+    "timestamp" : 331,
+    "description" : "User not found"
+  },
+  "timestamp" : 331
+}, {
+  "command" : "cashWithdrawal",
+  "output" : {
+    "timestamp" : 332,
+    "description" : "User not found"
+  },
+  "timestamp" : 332
+} ]

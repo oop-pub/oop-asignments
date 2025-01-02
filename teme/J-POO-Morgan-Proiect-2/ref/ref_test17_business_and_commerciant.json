@@ -1,0 +1,429 @@
+[ {
+  "command" : "businessReport",
+  "output" : {
+    "IBAN" : "RO98POOB8412955460158769",
+    "balance" : 495.0,
+    "currency" : "RON",
+    "spending limit" : 328.0,
+    "deposit limit" : 500.0,
+    "statistics type" : "transaction",
+    "managers" : [ {
+      "username" : "Stanescu Henrieta",
+      "spent" : 0.0,
+      "deposited" : 495.0
+    } ],
+    "employees" : [ {
+      "username" : "Stanescu Henrieta",
+      "spent" : 0.0,
+      "deposited" : 495.0
+    }, {
+      "username" : "Gomes-Nicolas Patrick",
+      "spent" : 0.0,
+      "deposited" : 0.0
+    }, {
+      "username" : "Dobre Ghita",
+      "spent" : 0.0,
+      "deposited" : 0.0
+    }, {
+      "username" : "du Mahe Edouard",
+      "spent" : 0.0,
+      "deposited" : 0.0
+    } ],
+    "total spent" : 0.0,
+    "total deposited" : 990.0
+  },
+  "timestamp" : 215
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "IBAN" : "RO32POOB0130532963818359",
+    "balance" : 117.0,
+    "currency" : "EUR",
+    "spending limit" : 808.0,
+    "deposit limit" : 100.0,
+    "statistics type" : "transaction",
+    "managers" : [ ],
+    "employees" : [ ],
+    "total spent" : 0.0,
+    "total deposited" : 0.0
+  },
+  "timestamp" : 216
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "IBAN" : "RO68POOB1848616931405475",
+    "balance" : 26.0,
+    "currency" : "RON",
+    "spending limit" : 995.0,
+    "deposit limit" : 500.0,
+    "statistics type" : "transaction",
+    "managers" : [ ],
+    "employees" : [ ],
+    "total spent" : 0.0,
+    "total deposited" : 0.0
+  },
+  "timestamp" : 217
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "IBAN" : "RO10POOB4354933866366881",
+    "balance" : 247.0,
+    "currency" : "EUR",
+    "spending limit" : 114.0,
+    "deposit limit" : 100.0,
+    "statistics type" : "transaction",
+    "managers" : [ ],
+    "employees" : [ ],
+    "total spent" : 0.0,
+    "total deposited" : 0.0
+  },
+  "timestamp" : 218
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 249,
+    "description" : "Card not found"
+  },
+  "timestamp" : 249
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 255,
+    "description" : "Card not found"
+  },
+  "timestamp" : 255
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 261,
+    "description" : "Card not found"
+  },
+  "timestamp" : 261
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 269,
+    "description" : "Card not found"
+  },
+  "timestamp" : 269
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 276,
+    "description" : "Card not found"
+  },
+  "timestamp" : 276
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 281,
+    "description" : "Card not found"
+  },
+  "timestamp" : 281
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 284,
+    "description" : "Card not found"
+  },
+  "timestamp" : 284
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 287,
+    "description" : "Card not found"
+  },
+  "timestamp" : 287
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 294,
+    "description" : "Card not found"
+  },
+  "timestamp" : 294
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 302,
+    "description" : "Card not found"
+  },
+  "timestamp" : 302
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 309,
+    "description" : "Card not found"
+  },
+  "timestamp" : 309
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 314,
+    "description" : "Card not found"
+  },
+  "timestamp" : 314
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 321,
+    "description" : "Card not found"
+  },
+  "timestamp" : 321
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 324,
+    "description" : "Card not found"
+  },
+  "timestamp" : 324
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 327,
+    "description" : "Card not found"
+  },
+  "timestamp" : 327
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 331,
+    "description" : "Card not found"
+  },
+  "timestamp" : 331
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 335,
+    "description" : "Card not found"
+  },
+  "timestamp" : 335
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 342,
+    "description" : "Card not found"
+  },
+  "timestamp" : 342
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 348,
+    "description" : "Card not found"
+  },
+  "timestamp" : 348
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 351,
+    "description" : "Card not found"
+  },
+  "timestamp" : 351
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "IBAN" : "RO98POOB8412955460158769",
+    "balance" : 1152.0,
+    "currency" : "RON",
+    "spending limit" : 328.0,
+    "deposit limit" : 500.0,
+    "statistics type" : "transaction",
+    "managers" : [ {
+      "username" : "Stanescu Henrieta",
+      "spent" : 0.0,
+      "deposited" : 632.0
+    }, {
+      "username" : "Becker Theophile",
+      "spent" : 0.0,
+      "deposited" : 150.0
+    }, {
+      "username" : "Marin Clara",
+      "spent" : 0.0,
+      "deposited" : 175.0
+    }, {
+      "username" : "Pop Dorinel",
+      "spent" : 0.0,
+      "deposited" : 195.0
+    } ],
+    "employees" : [ {
+      "username" : "Stanescu Henrieta",
+      "spent" : 0.0,
+      "deposited" : 632.0
+    }, {
+      "username" : "Gomes-Nicolas Patrick",
+      "spent" : 0.0,
+      "deposited" : 0.0
+    }, {
+      "username" : "Dobre Ghita",
+      "spent" : 0.0,
+      "deposited" : 0.0
+    }, {
+      "username" : "du Mahe Edouard",
+      "spent" : 0.0,
+      "deposited" : 0.0
+    }, {
+      "username" : "Stevens Briana",
+      "spent" : 0.0,
+      "deposited" : 0.0
+    }, {
+      "username" : "Poirier Francois",
+      "spent" : 0.0,
+      "deposited" : 0.0
+    } ],
+    "total spent" : 0.0,
+    "total deposited" : 1784.0
+  },
+  "timestamp" : 357
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "IBAN" : "RO32POOB0130532963818359",
+    "balance" : 291.0,
+    "currency" : "EUR",
+    "spending limit" : 808.0,
+    "deposit limit" : 100.0,
+    "statistics type" : "transaction",
+    "managers" : [ {
+      "username" : "Marin Clara",
+      "spent" : 0.0,
+      "deposited" : 174.0
+    } ],
+    "employees" : [ {
+      "username" : "Stevens Briana",
+      "spent" : 0.0,
+      "deposited" : 0.0
+    }, {
+      "username" : "Becker Theophile",
+      "spent" : 0.0,
+      "deposited" : 0.0
+    }, {
+      "username" : "Pop Dorinel",
+      "spent" : 0.0,
+      "deposited" : 0.0
+    }, {
+      "username" : "Poirier Francois",
+      "spent" : 0.0,
+      "deposited" : 0.0
+    } ],
+    "total spent" : 0.0,
+    "total deposited" : 174.0
+  },
+  "timestamp" : 358
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "IBAN" : "RO68POOB1848616931405475",
+    "balance" : 1499.0,
+    "currency" : "RON",
+    "spending limit" : 674.0,
+    "deposit limit" : 500.0,
+    "statistics type" : "transaction",
+    "managers" : [ {
+      "username" : "Becker Theophile",
+      "spent" : 0.0,
+      "deposited" : 171.0
+    }, {
+      "username" : "Pop Dorinel",
+      "spent" : 0.0,
+      "deposited" : 190.0
+    } ],
+    "employees" : [ {
+      "username" : "Stevens Briana",
+      "spent" : 0.0,
+      "deposited" : 316.0
+    }, {
+      "username" : "Marin Clara",
+      "spent" : 0.0,
+      "deposited" : 312.0
+    }, {
+      "username" : "Poirier Francois",
+      "spent" : 0.0,
+      "deposited" : 484.0
+    } ],
+    "total spent" : 0.0,
+    "total deposited" : 1473.0
+  },
+  "timestamp" : 359
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "IBAN" : "RO10POOB4354933866366881",
+    "balance" : 1087.0,
+    "currency" : "EUR",
+    "spending limit" : 854.0,
+    "deposit limit" : 100.0,
+    "statistics type" : "transaction",
+    "managers" : [ {
+      "username" : "Stevens Briana",
+      "spent" : 0.0,
+      "deposited" : 199.0
+    }, {
+      "username" : "Marin Clara",
+      "spent" : 0.0,
+      "deposited" : 156.0
+    }, {
+      "username" : "Poirier Francois",
+      "spent" : 0.0,
+      "deposited" : 149.0
+    } ],
+    "employees" : [ {
+      "username" : "Becker Theophile",
+      "spent" : 0.0,
+      "deposited" : 157.0
+    }, {
+      "username" : "Pop Dorinel",
+      "spent" : 0.0,
+      "deposited" : 179.0
+    } ],
+    "total spent" : 0.0,
+    "total deposited" : 840.0
+  },
+  "timestamp" : 360
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "IBAN" : "RO98POOB8412955460158769",
+    "balance" : 1152.0,
+    "currency" : "RON",
+    "spending limit" : 328.0,
+    "deposit limit" : 500.0,
+    "statistics type" : "commerciant",
+    "commerciants" : [ ]
+  },
+  "timestamp" : 363
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "IBAN" : "RO32POOB0130532963818359",
+    "balance" : 291.0,
+    "currency" : "EUR",
+    "spending limit" : 808.0,
+    "deposit limit" : 100.0,
+    "statistics type" : "commerciant",
+    "commerciants" : [ ]
+  },
+  "timestamp" : 364
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "IBAN" : "RO68POOB1848616931405475",
+    "balance" : 1499.0,
+    "currency" : "RON",
+    "spending limit" : 674.0,
+    "deposit limit" : 500.0,
+    "statistics type" : "commerciant",
+    "commerciants" : [ ]
+  },
+  "timestamp" : 365
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "IBAN" : "RO10POOB4354933866366881",
+    "balance" : 1087.0,
+    "currency" : "EUR",
+    "spending limit" : 854.0,
+    "deposit limit" : 100.0,
+    "statistics type" : "commerciant",
+    "commerciants" : [ ]
+  },
+  "timestamp" : 366
+} ]

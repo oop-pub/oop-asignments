@@ -153,14 +153,6 @@
     "timestamp" : 7,
     "description" : "New account created"
   }, {
-    "timestamp" : 28,
-    "description" : "Split payment of 2032.00 USD",
-    "splitPaymentType" : "equal",
-    "currency" : "USD",
-    "amount" : 677.33,
-    "involvedAccounts" : [ "RO37POOB7013767509830666", "RO69POOB6209498372540635", "RO76POOB4035116042454483" ],
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment."
-  }, {
     "timestamp" : 57,
     "description" : "Black Friday shopping spree",
     "senderIBAN" : "RO37POOB7013767509830666",
@@ -209,14 +201,6 @@
     "receiverIBAN" : "RO69POOB6209498372540635",
     "amount" : "550.0 EUR",
     "transferType" : "received"
-  }, {
-    "timestamp" : 28,
-    "description" : "Split payment of 2032.00 USD",
-    "splitPaymentType" : "equal",
-    "currency" : "USD",
-    "amount" : 677.33,
-    "involvedAccounts" : [ "RO37POOB7013767509830666", "RO69POOB6209498372540635", "RO76POOB4035116042454483" ],
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment."
   } ],
   "timestamp" : 73
 }, {
@@ -273,14 +257,6 @@
   "output" : [ {
     "timestamp" : 7,
     "description" : "New account created"
-  }, {
-    "timestamp" : 28,
-    "description" : "Split payment of 2032.00 USD",
-    "splitPaymentType" : "equal",
-    "currency" : "USD",
-    "amount" : 677.33,
-    "involvedAccounts" : [ "RO37POOB7013767509830666", "RO69POOB6209498372540635", "RO76POOB4035116042454483" ],
-    "error" : "Account RO76POOB4035116042454483 has insufficient funds for a split payment."
   }, {
     "timestamp" : 57,
     "description" : "Black Friday shopping spree",
