@@ -1,4 +1,11 @@
 [ {
+  "command" : "sendMoney",
+  "output" : {
+    "timestamp" : 6,
+    "description" : "Commerciant not found"
+  },
+  "timestamp" : 6
+}, {
   "command" : "printUsers",
   "output" : [ {
     "firstName" : "Julieta",

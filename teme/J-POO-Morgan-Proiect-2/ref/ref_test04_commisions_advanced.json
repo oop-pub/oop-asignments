@@ -142,6 +142,13 @@
   } ],
   "timestamp" : 39
 }, {
+  "command" : "sendMoney",
+  "output" : {
+    "timestamp" : 41,
+    "description" : "Commerciant not found"
+  },
+  "timestamp" : 41
+}, {
   "command" : "printTransactions",
   "output" : [ {
     "timestamp" : 37,
@@ -329,6 +336,13 @@
     "transferType" : "sent"
   } ],
   "timestamp" : 52
+}, {
+  "command" : "sendMoney",
+  "output" : {
+    "timestamp" : 57,
+    "description" : "Commerciant not found"
+  },
+  "timestamp" : 57
 }, {
   "command" : "printTransactions",
   "output" : [ {
@@ -523,6 +537,13 @@
     "accounts" : [ ]
   } ],
   "timestamp" : 61
+}, {
+  "command" : "sendMoney",
+  "output" : {
+    "timestamp" : 65,
+    "description" : "Commerciant not found"
+  },
+  "timestamp" : 65
 }, {
   "command" : "printTransactions",
   "output" : [ {
