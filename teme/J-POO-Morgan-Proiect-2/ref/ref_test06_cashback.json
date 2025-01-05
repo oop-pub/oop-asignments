@@ -2,40 +2,40 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO58POOB7344468893732422",
-    "balance" : 912.68,
+    "balance" : 485.73,
     "currency" : "USD",
     "transactions" : [ {
       "timestamp" : 4,
       "description" : "Card payment",
-      "amount" : 497.0,
+      "amount" : 487.0,
       "commerciant" : "H&M"
     }, {
       "timestamp" : 5,
       "description" : "Card payment",
-      "amount" : 124.0,
+      "amount" : 114.0,
       "commerciant" : "Apple"
     }, {
       "timestamp" : 7,
       "description" : "Card payment",
-      "amount" : 481.25,
+      "amount" : 531.25,
       "commerciant" : "H&M"
     }, {
       "timestamp" : 12,
       "description" : "Card payment",
-      "amount" : 329.0,
+      "amount" : 319.0,
       "commerciant" : "H&M"
     }, {
       "timestamp" : 34,
       "description" : "Card payment",
-      "amount" : 605.0,
+      "amount" : 1011.1,
       "commerciant" : "H&M"
     } ],
     "commerciants" : [ {
       "commerciant" : "Apple",
-      "total" : 124.0
+      "total" : 114.0
     }, {
       "commerciant" : "H&M",
-      "total" : 1912.25
+      "total" : 2348.35
     } ]
   },
   "timestamp" : 42
@@ -47,7 +47,7 @@
     "email" : "Tiffany_Leonard@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 954.35,
+      "balance" : 527.4,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -81,40 +81,40 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO58POOB7344468893732422",
-    "balance" : 954.35,
+    "balance" : 527.4,
     "currency" : "USD",
     "transactions" : [ {
       "timestamp" : 4,
       "description" : "Card payment",
-      "amount" : 497.0,
+      "amount" : 487.0,
       "commerciant" : "H&M"
     }, {
       "timestamp" : 5,
       "description" : "Card payment",
-      "amount" : 124.0,
+      "amount" : 114.0,
       "commerciant" : "Apple"
     }, {
       "timestamp" : 7,
       "description" : "Card payment",
-      "amount" : 481.25,
+      "amount" : 531.25,
       "commerciant" : "H&M"
     }, {
       "timestamp" : 12,
       "description" : "Card payment",
-      "amount" : 329.0,
+      "amount" : 319.0,
       "commerciant" : "H&M"
     }, {
       "timestamp" : 34,
       "description" : "Card payment",
-      "amount" : 605.0,
+      "amount" : 1011.1,
       "commerciant" : "H&M"
     } ],
     "commerciants" : [ {
       "commerciant" : "Apple",
-      "total" : 124.0
+      "total" : 114.0
     }, {
       "commerciant" : "H&M",
-      "total" : 1912.25
+      "total" : 2348.35
     } ]
   },
   "timestamp" : 47
@@ -128,10 +128,31 @@
 }, {
   "command" : "payOnline",
   "output" : {
+    "timestamp" : 52,
+    "description" : "Card not found"
+  },
+  "timestamp" : 52
+}, {
+  "command" : "payOnline",
+  "output" : {
     "timestamp" : 57,
     "description" : "Card not found"
   },
   "timestamp" : 57
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 66,
+    "description" : "Card not found"
+  },
+  "timestamp" : 66
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 68,
+    "description" : "Card not found"
+  },
+  "timestamp" : 68
 }, {
   "command" : "payOnline",
   "output" : {
@@ -149,10 +170,31 @@
 }, {
   "command" : "payOnline",
   "output" : {
+    "timestamp" : 92,
+    "description" : "Card not found"
+  },
+  "timestamp" : 92
+}, {
+  "command" : "payOnline",
+  "output" : {
     "timestamp" : 99,
     "description" : "Card not found"
   },
   "timestamp" : 99
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 108,
+    "description" : "Card not found"
+  },
+  "timestamp" : 108
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 111,
+    "description" : "Card not found"
+  },
+  "timestamp" : 111
 }, {
   "command" : "spendingsReport",
   "output" : {

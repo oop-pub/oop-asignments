@@ -1,394 +1,394 @@
 {
-  "users": [
-    {
-      "firstName": "Tiffany",
-      "lastName": "Leonard",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "birthDate": "1975-11-20",
-      "occupation": "teacher"
-    },
-    {
-      "firstName": "Robert",
-      "lastName": "Yu",
-      "email": "Robert_Yu@gmail.us",
-      "birthDate": "1995-09-18",
-      "occupation": "pyrotechnician"
-    },
-    {
-      "firstName": "Patrick",
-      "lastName": "Robinson",
-      "email": "Patrick_Robinson@outlook.us",
-      "birthDate": "1975-08-07",
-      "occupation": "farmer"
-    },
-    {
-      "firstName": "Debra",
-      "lastName": "Buchanan",
-      "email": "Debra_Buchanan@outlook.us",
-      "birthDate": "1987-06-28",
-      "occupation": "footballer"
-    },
-    {
-      "firstName": "Iulian",
-      "lastName": "Dumitrescu",
-      "email": "Iulian_Dumitrescu@gmail.ro",
-      "birthDate": "1974-10-29",
-      "occupation": "farmer"
-    }
-  ],
-  "commerciants": [
-    {
-      "commerciant": "Amazon",
-      "id": 126,
-      "account": "RO22POOB3875162728202296",
-      "type": "Tech",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "Samsung",
-      "id": 116,
-      "account": "RO28POOB5923933391234057",
-      "type": "Tech",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "Microsoft",
-      "id": 126,
-      "account": "RO25POOB4386521661484930",
-      "type": "Tech",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "Nike",
-      "id": 88,
-      "account": "RO32POOB8964686295716974",
-      "type": "Clothes",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "Burger King",
-      "id": 106,
-      "account": "RO75POOB9251835314648427",
-      "type": "Food",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "Apple",
-      "id": 113,
-      "account": "RO15POOB4333403266660236",
-      "type": "Tech",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "Zara",
-      "id": 79,
-      "account": "RO95POOB9807857732666986",
-      "type": "Clothes",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "McDonalds",
-      "id": 98,
-      "account": "RO66POOB9463355196372136",
-      "type": "Food",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "H&M",
-      "id": 83,
-      "account": "RO01POOB5884922951883378",
-      "type": "Clothes",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "KFC",
-      "id": 106,
-      "account": "RO17POOB8495306331082091",
-      "type": "Food",
-      "cashbackStrategy": "spendingThreshold"
-    }
-  ],
-  "exchangeRates": [
-    {
-      "from": "USD",
-      "to": "RON",
-      "rate": 0.3
-    },
-    {
-      "from": "USD",
-      "to": "EUR",
-      "rate": 0.8
-    }
-  ],
-  "commands": [
-    {
-      "command": "addAccount",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "currency": "USD",
-      "accountType": "classic",
-      "timestamp": 1
-    },
-    {
-      "command": "createCard",
-      "account": "RO58POOB7344468893732422",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "timestamp": 2
-    },
-    {
-      "command": "addFunds",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "account": "RO58POOB7344468893732422",
-      "amount": 1868.0,
-      "timestamp": 3
-    },
-    {
-      "command": "payOnline",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "cardNumber": "8207906978464446",
-      "amount": 497.0,
-      "currency": "USD",
-      "timestamp": 4,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "payOnline",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "cardNumber": "8207906978464446",
-      "amount": 124.0,
-      "currency": "USD",
-      "timestamp": 5,
-      "description": "Online payment",
-      "commerciant": "Apple"
-    },
-    {
-      "command": "addFunds",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "account": "RO58POOB7344468893732422",
-      "amount": 1085.0,
-      "timestamp": 6
-    },
-    {
-      "command": "payOnline",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "cardNumber": "8207906978464446",
-      "amount": 385.0,
-      "currency": "EUR",
-      "timestamp": 7,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "payOnline",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "cardNumber": "8207906978464446",
-      "amount": 329.0,
-      "currency": "USD",
-      "timestamp": 12,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "payOnline",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "cardNumber": "8207906978464446",
-      "amount": 521.4,
-      "currency": "RON",
-      "timestamp": 19,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "payOnline",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "cardNumber": "8207906978464446",
-      "amount": 683.1,
-      "currency": "RON",
-      "timestamp": 30,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "payOnline",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "cardNumber": "8207906978464446",
-      "amount": 181.5,
-      "currency": "RON",
-      "timestamp": 34,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "spendingsReport",
-      "startTimestamp": 0,
-      "endTimestamp": 41,
-      "account": "RO58POOB7344468893732422",
-      "timestamp": 42
-    },
-    {
-      "command": "addFunds",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "account": "RO58POOB7344468893732422",
-      "amount": 375.0,
-      "timestamp": 43
-    },
-    {
-      "command": "upgradePlan",
-      "account": "RO58POOB7344468893732422",
-      "newPlanType": "silver",
-      "timestamp": 44
-    },
-    {
-      "command": "cashWithdrawal",
-      "cardNumber": "8207906978464446",
-      "amount": 607.0,
-      "email": "Tiffany_Leonard@hotmail.us",
-      "location": "Ranginuku",
-      "timestamp": 45
-    },
-    {
-      "command": "printUsers",
-      "timestamp": 46
-    },
-    {
-      "command": "spendingsReport",
-      "startTimestamp": 1,
-      "endTimestamp": 46,
-      "account": "RO58POOB7344468893732422",
-      "timestamp": 47
-    },
-    {
-      "command": "deleteAccount",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "account": "RO58POOB7344468893732422",
-      "timestamp": 48
-    },
-    {
-      "command": "addAccount",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "currency": "USD",
-      "accountType": "classic",
-      "timestamp": 49
-    },
-    {
-      "command": "addFunds",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "account": "RO69POOB6209498372540635",
-      "amount": 1099.0,
-      "timestamp": 50
-    },
-    {
-      "command": "upgradePlan",
-      "account": "RO69POOB6209498372540635",
-      "newPlanType": "gold",
-      "timestamp": 51
-    },
-    {
-      "command": "payOnline",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "cardNumber": "8207906978464446",
-      "amount": 105.0,
-      "currency": "USD",
-      "timestamp": 52,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "payOnline",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "cardNumber": "6769125583796385",
-      "amount": 260.0,
-      "currency": "USD",
-      "timestamp": 57,
-      "description": "Online payment",
-      "commerciant": "Apple"
-    },
-    {
-      "command": "payOnline",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "cardNumber": "8207906978464446",
-      "amount": 188.0,
-      "currency": "USD",
-      "timestamp": 66,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "payOnline",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "cardNumber": "8207906978464446",
-      "amount": 163.0,
-      "currency": "USD",
-      "timestamp": 68,
-      "description": "Online payment",
-      "commerciant": "Apple"
-    },
-    {
-      "command": "payOnline",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "cardNumber": "6097867366365266",
-      "amount": 192.5,
-      "currency": "EUR",
-      "timestamp": 79,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "payOnline",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "cardNumber": "9341628021029699",
-      "amount": 108.0,
-      "currency": "USD",
-      "timestamp": 88,
-      "description": "Online payment",
-      "commerciant": "Apple"
-    },
-    {
-      "command": "payOnline",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "cardNumber": "8207906978464446",
-      "amount": 46.0,
-      "currency": "USD",
-      "timestamp": 92,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "payOnline",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "cardNumber": "6097867366365266",
-      "amount": 499.4,
-      "currency": "EUR",
-      "timestamp": 99,
-      "description": "Online payment",
-      "commerciant": "Apple"
-    },
-    {
-      "command": "payOnline",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "cardNumber": "8207906978464446",
-      "amount": 140.0,
-      "currency": "USD",
-      "timestamp": 108,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "payOnline",
-      "email": "Tiffany_Leonard@hotmail.us",
-      "cardNumber": "8207906978464446",
-      "amount": 92.0,
-      "currency": "USD",
-      "timestamp": 111,
-      "description": "Online payment",
-      "commerciant": "Apple"
-    },
-    {
-      "command": "spendingsReport",
-      "startTimestamp": 0,
-      "endTimestamp": 115,
-      "account": "RO69POOB6209498372540635",
-      "timestamp": 117
-    }
-  ]
+    "users": [
+        {
+            "firstName": "Tiffany",
+            "lastName": "Leonard",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "birthDate": "1975-11-20",
+            "occupation": "teacher"
+        },
+        {
+            "firstName": "Robert",
+            "lastName": "Yu",
+            "email": "Robert_Yu@gmail.us",
+            "birthDate": "1995-09-18",
+            "occupation": "pyrotechnician"
+        },
+        {
+            "firstName": "Patrick",
+            "lastName": "Robinson",
+            "email": "Patrick_Robinson@outlook.us",
+            "birthDate": "1975-08-07",
+            "occupation": "farmer"
+        },
+        {
+            "firstName": "Debra",
+            "lastName": "Buchanan",
+            "email": "Debra_Buchanan@outlook.us",
+            "birthDate": "1987-06-28",
+            "occupation": "footballer"
+        },
+        {
+            "firstName": "Iulian",
+            "lastName": "Dumitrescu",
+            "email": "Iulian_Dumitrescu@gmail.ro",
+            "birthDate": "1974-10-29",
+            "occupation": "farmer"
+        }
+    ],
+    "commerciants": [
+        {
+            "commerciant": "Amazon",
+            "id": 118,
+            "account": "RO22POOB3875162728202296",
+            "type": "Tech",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Samsung",
+            "id": 113,
+            "account": "RO28POOB5923933391234057",
+            "type": "Tech",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "Microsoft",
+            "id": 116,
+            "account": "RO25POOB4386521661484930",
+            "type": "Tech",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Nike",
+            "id": 90,
+            "account": "RO32POOB8964686295716974",
+            "type": "Clothes",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "Burger King",
+            "id": 108,
+            "account": "RO75POOB9251835314648427",
+            "type": "Food",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Apple",
+            "id": 112,
+            "account": "RO15POOB4333403266660236",
+            "type": "Tech",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Zara",
+            "id": 79,
+            "account": "RO95POOB9807857732666986",
+            "type": "Clothes",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "McDonalds",
+            "id": 99,
+            "account": "RO66POOB9463355196372136",
+            "type": "Food",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "H&M",
+            "id": 84,
+            "account": "RO01POOB5884922951883378",
+            "type": "Clothes",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "KFC",
+            "id": 100,
+            "account": "RO17POOB8495306331082091",
+            "type": "Food",
+            "cashbackStrategy": "spendingThreshold"
+        }
+    ],
+    "exchangeRates": [
+        {
+            "from": "USD",
+            "to": "RON",
+            "rate": 0.3
+        },
+        {
+            "from": "USD",
+            "to": "EUR",
+            "rate": 0.8
+        }
+    ],
+    "commands": [
+        {
+            "command": "addAccount",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 1
+        },
+        {
+            "command": "createCard",
+            "account": "RO58POOB7344468893732422",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "timestamp": 2
+        },
+        {
+            "command": "addFunds",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "account": "RO58POOB7344468893732422",
+            "amount": 1868.0,
+            "timestamp": 3
+        },
+        {
+            "command": "payOnline",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "cardNumber": "8207906978464446",
+            "amount": 487.0,
+            "currency": "USD",
+            "timestamp": 4,
+            "description": "Online payment",
+            "commerciant": "H&M"
+        },
+        {
+            "command": "payOnline",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "cardNumber": "8207906978464446",
+            "amount": 114.0,
+            "currency": "USD",
+            "timestamp": 5,
+            "description": "Online payment",
+            "commerciant": "Apple"
+        },
+        {
+            "command": "addFunds",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "account": "RO58POOB7344468893732422",
+            "amount": 1085.0,
+            "timestamp": 6
+        },
+        {
+            "command": "payOnline",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "cardNumber": "8207906978464446",
+            "amount": 425.0,
+            "currency": "EUR",
+            "timestamp": 7,
+            "description": "Online payment",
+            "commerciant": "H&M"
+        },
+        {
+            "command": "payOnline",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "cardNumber": "8207906978464446",
+            "amount": 319.0,
+            "currency": "USD",
+            "timestamp": 12,
+            "description": "Online payment",
+            "commerciant": "H&M"
+        },
+        {
+            "command": "payOnline",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "cardNumber": "8207906978464446",
+            "amount": 493.33,
+            "currency": "RON",
+            "timestamp": 19,
+            "description": "Online payment",
+            "commerciant": "H&M"
+        },
+        {
+            "command": "payOnline",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "cardNumber": "8207906978464446",
+            "amount": 656.67,
+            "currency": "RON",
+            "timestamp": 30,
+            "description": "Online payment",
+            "commerciant": "H&M"
+        },
+        {
+            "command": "payOnline",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "cardNumber": "8207906978464446",
+            "amount": 303.33,
+            "currency": "RON",
+            "timestamp": 34,
+            "description": "Online payment",
+            "commerciant": "H&M"
+        },
+        {
+            "command": "spendingsReport",
+            "startTimestamp": 0,
+            "endTimestamp": 41,
+            "account": "RO58POOB7344468893732422",
+            "timestamp": 42
+        },
+        {
+            "command": "addFunds",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "account": "RO58POOB7344468893732422",
+            "amount": 375.0,
+            "timestamp": 43
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO58POOB7344468893732422",
+            "newPlanType": "silver",
+            "timestamp": 44
+        },
+        {
+            "command": "cashWithdrawal",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "cardNumber": "8207906978464446",
+            "amount": 529.67,
+            "location": "Sandoz (AR)",
+            "timestamp": 45
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 46
+        },
+        {
+            "command": "spendingsReport",
+            "startTimestamp": 1,
+            "endTimestamp": 46,
+            "account": "RO58POOB7344468893732422",
+            "timestamp": 47
+        },
+        {
+            "command": "deleteAccount",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "account": "RO58POOB7344468893732422",
+            "timestamp": 48
+        },
+        {
+            "command": "addAccount",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 49
+        },
+        {
+            "command": "addFunds",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "account": "RO69POOB6209498372540635",
+            "amount": 1099.0,
+            "timestamp": 50
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO69POOB6209498372540635",
+            "newPlanType": "gold",
+            "timestamp": 51
+        },
+        {
+            "command": "payOnline",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "cardNumber": "4001829491527416",
+            "amount": 95.0,
+            "currency": "USD",
+            "timestamp": 52,
+            "description": "Online payment",
+            "commerciant": "H&M"
+        },
+        {
+            "command": "payOnline",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "cardNumber": "6769125583796385",
+            "amount": 250.0,
+            "currency": "USD",
+            "timestamp": 57,
+            "description": "Online payment",
+            "commerciant": "Apple"
+        },
+        {
+            "command": "payOnline",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "cardNumber": "2827143779240285",
+            "amount": 178.0,
+            "currency": "USD",
+            "timestamp": 66,
+            "description": "Online payment",
+            "commerciant": "H&M"
+        },
+        {
+            "command": "payOnline",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "cardNumber": "4491799876006556",
+            "amount": 153.0,
+            "currency": "USD",
+            "timestamp": 68,
+            "description": "Online payment",
+            "commerciant": "Apple"
+        },
+        {
+            "command": "payOnline",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "cardNumber": "1752095065063305",
+            "amount": 206.25,
+            "currency": "EUR",
+            "timestamp": 79,
+            "description": "Online payment",
+            "commerciant": "H&M"
+        },
+        {
+            "command": "payOnline",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "cardNumber": "9341628021029699",
+            "amount": 98.0,
+            "currency": "USD",
+            "timestamp": 88,
+            "description": "Online payment",
+            "commerciant": "Apple"
+        },
+        {
+            "command": "payOnline",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "cardNumber": "4374966931133138",
+            "amount": 36.0,
+            "currency": "USD",
+            "timestamp": 92,
+            "description": "Online payment",
+            "commerciant": "H&M"
+        },
+        {
+            "command": "payOnline",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "cardNumber": "6097867366365266",
+            "amount": 555.0,
+            "currency": "EUR",
+            "timestamp": 99,
+            "description": "Online payment",
+            "commerciant": "Apple"
+        },
+        {
+            "command": "payOnline",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "cardNumber": "9284968684427386",
+            "amount": 130.0,
+            "currency": "USD",
+            "timestamp": 108,
+            "description": "Online payment",
+            "commerciant": "H&M"
+        },
+        {
+            "command": "payOnline",
+            "email": "Tiffany_Leonard@hotmail.us",
+            "cardNumber": "9317979456445303",
+            "amount": 82.0,
+            "currency": "USD",
+            "timestamp": 111,
+            "description": "Online payment",
+            "commerciant": "Apple"
+        },
+        {
+            "command": "spendingsReport",
+            "startTimestamp": 0,
+            "endTimestamp": 115,
+            "account": "RO69POOB6209498372540635",
+            "timestamp": 117
+        }
+    ]
 }

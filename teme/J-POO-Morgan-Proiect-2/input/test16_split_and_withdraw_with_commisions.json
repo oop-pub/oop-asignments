@@ -1,1449 +1,1686 @@
 {
-  "users": [
-    {
-      "firstName": "Timothee",
-      "lastName": "Mahe Le Martineau",
-      "email": "Timothee_Mahe_Le_Martineau@outlook.fr",
-      "birthDate": "2003-06-12",
-      "occupation": "firefighter"
-    },
-    {
-      "firstName": "Cecile-Eleonore",
-      "lastName": "Rocher",
-      "email": "Cecile-Eleonore_Rocher@gmail.fr",
-      "birthDate": "1995-04-02",
-      "occupation": "farmer"
-    },
-    {
-      "firstName": "Claudine",
-      "lastName": "Chauvin de la Devaux",
-      "email": "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
-      "birthDate": "2000-08-29",
-      "occupation": "cashier"
-    },
-    {
-      "firstName": "Judith",
-      "lastName": "Edwards",
-      "email": "Judith_Edwards@outlook.us",
-      "birthDate": "2000-02-12",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Ion",
-      "lastName": "Toma",
-      "email": "Ion_Toma@yahoo.ro",
-      "birthDate": "2010-04-01",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Jaclyn",
-      "lastName": "Carter",
-      "email": "Jaclyn_Carter@outlook.us",
-      "birthDate": "1987-08-09",
-      "occupation": "pharmacist"
-    },
-    {
-      "firstName": "Corey",
-      "lastName": "Moreno",
-      "email": "Corey_Moreno@outlook.us",
-      "birthDate": "2007-07-04",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Dina",
-      "lastName": "Stoica",
-      "email": "Dina_Stoica@gmail.ro",
-      "birthDate": "2015-06-30",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Katie",
-      "lastName": "Jimenez",
-      "email": "Katie_Jimenez@outlook.us",
-      "birthDate": "2007-01-10",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Christian",
-      "lastName": "Lawrence DDS",
-      "email": "Christian_Lawrence_DDS@yahoo.us",
-      "birthDate": "2002-09-05",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Matthew",
-      "lastName": "Hernandez",
-      "email": "Matthew_Hernandez@gmail.us",
-      "birthDate": "2007-04-01",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Emily",
-      "lastName": "Escobar",
-      "email": "Emily_Escobar@hotmail.us",
-      "birthDate": "2001-02-25",
-      "occupation": "influencer"
-    },
-    {
-      "firstName": "Jonathan",
-      "lastName": "Brewer",
-      "email": "Jonathan_Brewer@yahoo.us",
-      "birthDate": "2009-08-30",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Casiana",
-      "lastName": "Diaconescu",
-      "email": "Casiana_Diaconescu@yahoo.ro",
-      "birthDate": "2000-04-18",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Danielle",
-      "lastName": "Mack",
-      "email": "Danielle_Mack@yahoo.us",
-      "birthDate": "2005-03-28",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Heather",
-      "lastName": "Adams",
-      "email": "Heather_Adams@outlook.us",
-      "birthDate": "2002-07-16",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Antoinette",
-      "lastName": "Benard",
-      "email": "Antoinette_Benard@outlook.fr",
-      "birthDate": "2004-09-21",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Mihnea",
-      "lastName": "Nistor",
-      "email": "Mihnea_Nistor@outlook.ro",
-      "birthDate": "1981-12-13",
-      "occupation": "designer"
-    },
-    {
-      "firstName": "Anastasia",
-      "lastName": "Mocanu",
-      "email": "Anastasia_Mocanu@hotmail.ro",
-      "birthDate": "2011-09-16",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Dina",
-      "lastName": "Stoica",
-      "email": "Dina_Stoica@gmail.ro",
-      "birthDate": "2015-06-30",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Margaret",
-      "lastName": "Antoine",
-      "email": "Margaret_Antoine@hotmail.fr",
-      "birthDate": "2005-01-21",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Shane",
-      "lastName": "Williams",
-      "email": "Shane_Williams@yahoo.us",
-      "birthDate": "2001-12-05",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Heather",
-      "lastName": "Adams",
-      "email": "Heather_Adams@outlook.us",
-      "birthDate": "2002-07-16",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Anastasia",
-      "lastName": "Mocanu",
-      "email": "Anastasia_Mocanu@hotmail.ro",
-      "birthDate": "2011-09-16",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Antoinette",
-      "lastName": "Benard",
-      "email": "Antoinette_Benard@outlook.fr",
-      "birthDate": "2004-09-21",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Aurore",
-      "lastName": "Ferrand",
-      "email": "Aurore_Ferrand@hotmail.fr",
-      "birthDate": "2007-08-15",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Stelian",
-      "lastName": "Aane",
-      "email": "Stelian_Aane@gmail.ro",
-      "birthDate": "2010-09-07",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Nicole",
-      "lastName": "Daniels",
-      "email": "Nicole_Daniels@hotmail.us",
-      "birthDate": "2000-03-17",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Danielle",
-      "lastName": "Mack",
-      "email": "Danielle_Mack@yahoo.us",
-      "birthDate": "2005-03-28",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Aurore",
-      "lastName": "Ferrand",
-      "email": "Aurore_Ferrand@hotmail.fr",
-      "birthDate": "2007-08-15",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Casiana",
-      "lastName": "Diaconescu",
-      "email": "Casiana_Diaconescu@yahoo.ro",
-      "birthDate": "2000-04-18",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Jonathan",
-      "lastName": "Brewer",
-      "email": "Jonathan_Brewer@yahoo.us",
-      "birthDate": "2009-08-30",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Margaret",
-      "lastName": "Antoine",
-      "email": "Margaret_Antoine@hotmail.fr",
-      "birthDate": "2005-01-21",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Nicole",
-      "lastName": "Daniels",
-      "email": "Nicole_Daniels@hotmail.us",
-      "birthDate": "2000-03-17",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Jill",
-      "lastName": "Russell",
-      "email": "Jill_Russell@hotmail.us",
-      "birthDate": "1978-02-08",
-      "occupation": "footballer"
-    },
-    {
-      "firstName": "Stelian",
-      "lastName": "Aane",
-      "email": "Stelian_Aane@gmail.ro",
-      "birthDate": "2010-09-07",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Ion",
-      "lastName": "Toma",
-      "email": "Ion_Toma@yahoo.ro",
-      "birthDate": "2010-04-01",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Matthew",
-      "lastName": "Hernandez",
-      "email": "Matthew_Hernandez@gmail.us",
-      "birthDate": "2007-04-01",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Shane",
-      "lastName": "Williams",
-      "email": "Shane_Williams@yahoo.us",
-      "birthDate": "2001-12-05",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Corey",
-      "lastName": "Moreno",
-      "email": "Corey_Moreno@outlook.us",
-      "birthDate": "2007-07-04",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Christian",
-      "lastName": "Lawrence DDS",
-      "email": "Christian_Lawrence_DDS@yahoo.us",
-      "birthDate": "2002-09-05",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Linda",
-      "lastName": "Peters",
-      "email": "Linda_Peters@yahoo.us",
-      "birthDate": "2006-01-23",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Linda",
-      "lastName": "Peters",
-      "email": "Linda_Peters@yahoo.us",
-      "birthDate": "2006-01-23",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Peter",
-      "lastName": "Hall",
-      "email": "Peter_Hall@hotmail.us",
-      "birthDate": "2008-08-20",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Denise",
-      "lastName": "de la Renaud",
-      "email": "Denise_de_la_Renaud@outlook.fr",
-      "birthDate": "1976-01-14",
-      "occupation": "construction worker"
-    },
-    {
-      "firstName": "Katie",
-      "lastName": "Jimenez",
-      "email": "Katie_Jimenez@outlook.us",
-      "birthDate": "2007-01-10",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Judith",
-      "lastName": "Edwards",
-      "email": "Judith_Edwards@outlook.us",
-      "birthDate": "2000-02-12",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Peter",
-      "lastName": "Hall",
-      "email": "Peter_Hall@hotmail.us",
-      "birthDate": "2008-08-20",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Charlotte",
-      "lastName": "Allain",
-      "email": "Charlotte_Allain@yahoo.fr",
-      "birthDate": "1973-04-01",
-      "occupation": "programmer"
-    },
-    {
-      "firstName": "Alix",
-      "lastName": "Brunel",
-      "email": "Alix_Brunel@hotmail.fr",
-      "birthDate": "1974-04-21",
-      "occupation": "doctor"
-    }
-  ],
-  "commerciants": [
-    {
-      "commerciant": "Microsoft",
-      "id": 126,
-      "account": "RO22POOB3875162728202296",
-      "type": "Tech",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "Nike",
-      "id": 88,
-      "account": "RO28POOB5923933391234057",
-      "type": "Clothes",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "McDonalds",
-      "id": 98,
-      "account": "RO25POOB4386521661484930",
-      "type": "Food",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "H&M",
-      "id": 83,
-      "account": "RO32POOB8964686295716974",
-      "type": "Clothes",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "KFC",
-      "id": 106,
-      "account": "RO75POOB9251835314648427",
-      "type": "Food",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "Apple",
-      "id": 113,
-      "account": "RO15POOB4333403266660236",
-      "type": "Tech",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "Amazon",
-      "id": 126,
-      "account": "RO95POOB9807857732666986",
-      "type": "Tech",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "Samsung",
-      "id": 116,
-      "account": "RO66POOB9463355196372136",
-      "type": "Tech",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "Zara",
-      "id": 79,
-      "account": "RO01POOB5884922951883378",
-      "type": "Clothes",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "Burger King",
-      "id": 106,
-      "account": "RO17POOB8495306331082091",
-      "type": "Food",
-      "cashbackStrategy": "spendingThreshold"
-    }
-  ],
-  "exchangeRates": [
-    {
-      "from": "EUR",
-      "to": "USD",
-      "rate": 0.9
-    },
-    {
-      "from": "EUR",
-      "to": "RON",
-      "rate": 4.2
-    }
-  ],
-  "commands": [
-    {
-      "command": "addAccount",
-      "email": "Timothee_Mahe_Le_Martineau@outlook.fr",
-      "currency": "EUR",
-      "accountType": "classic",
-      "timestamp": 1
-    },
-    {
-      "command": "createOneTimeCard",
-      "account": "RO58POOB7344468893732422",
-      "email": "Timothee_Mahe_Le_Martineau@outlook.fr",
-      "timestamp": 14
-    },
-    {
-      "command": "addFunds",
-      "email": "Timothee_Mahe_Le_Martineau@outlook.fr",
-      "account": "RO58POOB7344468893732422",
-      "amount": 619,
-      "timestamp": 15
-    },
-    {
-      "command": "addAccount",
-      "email": "Cecile-Eleonore_Rocher@gmail.fr",
-      "currency": "EUR",
-      "accountType": "classic",
-      "timestamp": 16
-    },
-    {
-      "command": "createOneTimeCard",
-      "account": "RO69POOB6209498372540635",
-      "email": "Cecile-Eleonore_Rocher@gmail.fr",
-      "timestamp": 36
-    },
-    {
-      "command": "addFunds",
-      "email": "Cecile-Eleonore_Rocher@gmail.fr",
-      "account": "RO69POOB6209498372540635",
-      "amount": 555,
-      "timestamp": 37
-    },
-    {
-      "command": "addAccount",
-      "email": "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
-      "currency": "EUR",
-      "accountType": "classic",
-      "timestamp": 38
-    },
-    {
-      "command": "createOneTimeCard",
-      "account": "RO90POOB5450777208072365",
-      "email": "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
-      "timestamp": 57
-    },
-    {
-      "command": "addFunds",
-      "email": "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
-      "account": "RO90POOB5450777208072365",
-      "amount": 366,
-      "timestamp": 58
-    },
-    {
-      "command": "addAccount",
-      "email": "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
-      "currency": "EUR",
-      "accountType": "savings",
-      "interestRate": 0.91,
-      "timestamp": 59
-    },
-    {
-      "command": "addFunds",
-      "email": "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
-      "account": "RO65POOB8944016386845896",
-      "amount": 684,
-      "timestamp": 76
-    },
-    {
-      "command": "addAccount",
-      "email": "Judith_Edwards@outlook.us",
-      "currency": "USD",
-      "accountType": "classic",
-      "timestamp": 77
-    },
-    {
-      "command": "createOneTimeCard",
-      "account": "RO58POOB2721178218599590",
-      "email": "Judith_Edwards@outlook.us",
-      "timestamp": 94
-    },
-    {
-      "command": "addFunds",
-      "email": "Judith_Edwards@outlook.us",
-      "account": "RO58POOB2721178218599590",
-      "amount": 25,
-      "timestamp": 95
-    },
-    {
-      "command": "addAccount",
-      "email": "Judith_Edwards@outlook.us",
-      "currency": "USD",
-      "accountType": "savings",
-      "interestRate": 0.17,
-      "timestamp": 96
-    },
-    {
-      "command": "addFunds",
-      "email": "Judith_Edwards@outlook.us",
-      "account": "RO76POOB4035116042454483",
-      "amount": 481,
-      "timestamp": 106
-    },
-    {
-      "command": "addAccount",
-      "email": "Ion_Toma@yahoo.ro",
-      "currency": "RON",
-      "accountType": "classic",
-      "timestamp": 107
-    },
-    {
-      "command": "createCard",
-      "account": "RO37POOB7013767509830666",
-      "email": "Ion_Toma@yahoo.ro",
-      "timestamp": 121
-    },
-    {
-      "command": "addFunds",
-      "email": "Ion_Toma@yahoo.ro",
-      "account": "RO37POOB7013767509830666",
-      "amount": 835,
-      "timestamp": 122
-    },
-    {
-      "command": "addAccount",
-      "email": "Jaclyn_Carter@outlook.us",
-      "currency": "USD",
-      "accountType": "classic",
-      "timestamp": 123
-    },
-    {
-      "command": "createCard",
-      "account": "RO19POOB4981055641668812",
-      "email": "Jaclyn_Carter@outlook.us",
-      "timestamp": 131
-    },
-    {
-      "command": "addFunds",
-      "email": "Jaclyn_Carter@outlook.us",
-      "account": "RO19POOB4981055641668812",
-      "amount": 164,
-      "timestamp": 132
-    },
-    {
-      "command": "addAccount",
-      "email": "Jaclyn_Carter@outlook.us",
-      "currency": "USD",
-      "accountType": "savings",
-      "interestRate": 0.56,
-      "timestamp": 133
-    },
-    {
-      "command": "addFunds",
-      "email": "Jaclyn_Carter@outlook.us",
-      "account": "RO30POOB9523423715747796",
-      "amount": 338,
-      "timestamp": 141
-    },
-    {
-      "command": "addAccount",
-      "email": "Corey_Moreno@outlook.us",
-      "currency": "USD",
-      "accountType": "classic",
-      "timestamp": 142
-    },
-    {
-      "command": "createCard",
-      "account": "RO79POOB3616857825600958",
-      "email": "Corey_Moreno@outlook.us",
-      "timestamp": 154
-    },
-    {
-      "command": "addFunds",
-      "email": "Corey_Moreno@outlook.us",
-      "account": "RO79POOB3616857825600958",
-      "amount": 488,
-      "timestamp": 155
-    },
-    {
-      "command": "addAccount",
-      "email": "Dina_Stoica@gmail.ro",
-      "currency": "RON",
-      "accountType": "classic",
-      "timestamp": 156
-    },
-    {
-      "command": "createCard",
-      "account": "RO00POOB5687892910835215",
-      "email": "Dina_Stoica@gmail.ro",
-      "timestamp": 164
-    },
-    {
-      "command": "addFunds",
-      "email": "Dina_Stoica@gmail.ro",
-      "account": "RO00POOB5687892910835215",
-      "amount": 383,
-      "timestamp": 165
-    },
-    {
-      "command": "addAccount",
-      "email": "Dina_Stoica@gmail.ro",
-      "currency": "RON",
-      "accountType": "savings",
-      "interestRate": 0.71,
-      "timestamp": 166
-    },
-    {
-      "command": "addFunds",
-      "email": "Dina_Stoica@gmail.ro",
-      "account": "RO96POOB6738272785416988",
-      "amount": 37,
-      "timestamp": 186
-    },
-    {
-      "command": "addAccount",
-      "email": "Katie_Jimenez@outlook.us",
-      "currency": "USD",
-      "accountType": "classic",
-      "timestamp": 187
-    },
-    {
-      "command": "createOneTimeCard",
-      "account": "RO33POOB4049920806186500",
-      "email": "Katie_Jimenez@outlook.us",
-      "timestamp": 205
-    },
-    {
-      "command": "addFunds",
-      "email": "Katie_Jimenez@outlook.us",
-      "account": "RO33POOB4049920806186500",
-      "amount": 891,
-      "timestamp": 206
-    },
-    {
-      "command": "addAccount",
-      "email": "Christian_Lawrence_DDS@yahoo.us",
-      "currency": "USD",
-      "accountType": "classic",
-      "timestamp": 207
-    },
-    {
-      "command": "createCard",
-      "account": "RO69POOB9846198978826791",
-      "email": "Christian_Lawrence_DDS@yahoo.us",
-      "timestamp": 219
-    },
-    {
-      "command": "addFunds",
-      "email": "Christian_Lawrence_DDS@yahoo.us",
-      "account": "RO69POOB9846198978826791",
-      "amount": 594,
-      "timestamp": 220
-    },
-    {
-      "command": "printUsers",
-      "timestamp": 221
-    },
-    {
-      "command": "splitPayment",
-      "splitPaymentType": "custom",
-      "accounts": [
-        "RO58POOB7344468893732422",
-        "RO58POOB2721178218599590",
-        "RO00POOB5687892910835215",
-        "RO69POOB9846198978826791",
-        "RO19POOB4981055641668812",
-        "RO90POOB5450777208072365",
-        "RO37POOB7013767509830666",
-        "RO33POOB4049920806186500",
-        "RO79POOB3616857825600958",
-        "RO69POOB6209498372540635"
-      ],
-      "amount": 3531.99,
-      "amountForUsers": [
-        538.89,
-        6,
-        326.4,
-        203,
-        135,
-        270.0,
-        785.7,
-        761,
-        26,
-        480.0
-      ],
-      "currency": "USD",
-      "timestamp": 222
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO58POOB7344468893732422",
-      "splitPaymentType": "custom",
-      "timestamp": 223
-    },
-    {
-      "command": "printTransactions",
-      "email": "Timothee_Mahe_Le_Martineau@outlook.fr",
-      "timestamp": 224
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO58POOB2721178218599590",
-      "splitPaymentType": "custom",
-      "timestamp": 225
-    },
-    {
-      "command": "printTransactions",
-      "email": "Judith_Edwards@outlook.us",
-      "timestamp": 226
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO00POOB5687892910835215",
-      "splitPaymentType": "custom",
-      "timestamp": 227
-    },
-    {
-      "command": "printTransactions",
-      "email": "Dina_Stoica@gmail.ro",
-      "timestamp": 228
-    },
-    {
-      "command": "splitPayment",
-      "splitPaymentType": "equal",
-      "accounts": [
-        "RO58POOB7344468893732422",
-        "RO65POOB8944016386845896",
-        "RO69POOB9846198978826791",
-        "RO90POOB5450777208072365",
-        "RO19POOB4981055641668812",
-        "RO69POOB6209498372540635",
-        "RO37POOB7013767509830666",
-        "RO33POOB4049920806186500",
-        "RO96POOB6738272785416988",
-        "RO00POOB5687892910835215"
-      ],
-      "amount": 2362,
-      "currency": "EUR",
-      "timestamp": 229
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO69POOB9846198978826791",
-      "splitPaymentType": "custom",
-      "timestamp": 230
-    },
-    {
-      "command": "printTransactions",
-      "email": "Christian_Lawrence_DDS@yahoo.us",
-      "timestamp": 231
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO19POOB4981055641668812",
-      "splitPaymentType": "custom",
-      "timestamp": 232
-    },
-    {
-      "command": "printTransactions",
-      "email": "Jaclyn_Carter@outlook.us",
-      "timestamp": 233
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO90POOB5450777208072365",
-      "splitPaymentType": "custom",
-      "timestamp": 234
-    },
-    {
-      "command": "printTransactions",
-      "email": "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
-      "timestamp": 235
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO37POOB7013767509830666",
-      "splitPaymentType": "custom",
-      "timestamp": 236
-    },
-    {
-      "command": "printTransactions",
-      "email": "Ion_Toma@yahoo.ro",
-      "timestamp": 237
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO33POOB4049920806186500",
-      "splitPaymentType": "custom",
-      "timestamp": 238
-    },
-    {
-      "command": "printTransactions",
-      "email": "Katie_Jimenez@outlook.us",
-      "timestamp": 239
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO79POOB3616857825600958",
-      "splitPaymentType": "custom",
-      "timestamp": 240
-    },
-    {
-      "command": "printTransactions",
-      "email": "Corey_Moreno@outlook.us",
-      "timestamp": 241
-    },
-    {
-      "command": "splitPayment",
-      "splitPaymentType": "equal",
-      "accounts": [
-        "RO69POOB9846198978826791",
-        "RO00POOB5687892910835215",
-        "RO37POOB7013767509830666",
-        "RO33POOB4049920806186500",
-        "RO30POOB9523423715747796",
-        "RO58POOB7344468893732422",
-        "RO96POOB6738272785416988",
-        "RO65POOB8944016386845896",
-        "RO79POOB3616857825600958",
-        "RO69POOB6209498372540635"
-      ],
-      "amount": 3253,
-      "currency": "USD",
-      "timestamp": 242
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO69POOB6209498372540635",
-      "splitPaymentType": "custom",
-      "timestamp": 243
-    },
-    {
-      "command": "printTransactions",
-      "email": "Cecile-Eleonore_Rocher@gmail.fr",
-      "timestamp": 244
-    },
-    {
-      "command": "addFunds",
-      "email": "Timothee_Mahe_Le_Martineau@outlook.fr",
-      "account": "RO58POOB7344468893732422",
-      "amount": 800,
-      "timestamp": 245
-    },
-    {
-      "command": "addFunds",
-      "email": "Cecile-Eleonore_Rocher@gmail.fr",
-      "account": "RO69POOB6209498372540635",
-      "amount": 915,
-      "timestamp": 246
-    },
-    {
-      "command": "addFunds",
-      "email": "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
-      "account": "RO90POOB5450777208072365",
-      "amount": 76,
-      "timestamp": 247
-    },
-    {
-      "command": "addFunds",
-      "email": "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
-      "account": "RO65POOB8944016386845896",
-      "amount": 151,
-      "timestamp": 248
-    },
-    {
-      "command": "addFunds",
-      "email": "Ion_Toma@yahoo.ro",
-      "account": "RO37POOB7013767509830666",
-      "amount": 123,
-      "timestamp": 249
-    },
-    {
-      "command": "addFunds",
-      "email": "Jaclyn_Carter@outlook.us",
-      "account": "RO19POOB4981055641668812",
-      "amount": 613,
-      "timestamp": 250
-    },
-    {
-      "command": "addFunds",
-      "email": "Jaclyn_Carter@outlook.us",
-      "account": "RO30POOB9523423715747796",
-      "amount": 567,
-      "timestamp": 251
-    },
-    {
-      "command": "addFunds",
-      "email": "Dina_Stoica@gmail.ro",
-      "account": "RO00POOB5687892910835215",
-      "amount": 618,
-      "timestamp": 252
-    },
-    {
-      "command": "addFunds",
-      "email": "Dina_Stoica@gmail.ro",
-      "account": "RO96POOB6738272785416988",
-      "amount": 351,
-      "timestamp": 253
-    },
-    {
-      "command": "addFunds",
-      "email": "Katie_Jimenez@outlook.us",
-      "account": "RO33POOB4049920806186500",
-      "amount": 128,
-      "timestamp": 254
-    },
-    {
-      "command": "addFunds",
-      "email": "Christian_Lawrence_DDS@yahoo.us",
-      "account": "RO69POOB9846198978826791",
-      "amount": 165,
-      "timestamp": 255
-    },
-    {
-      "command": "rejectSplitPayment",
-      "email": "RO58POOB7344468893732422",
-      "splitPaymentType": "equal",
-      "timestamp": 256
-    },
-    {
-      "command": "rejectSplitPayment",
-      "email": "RO69POOB6209498372540635",
-      "splitPaymentType": "equal",
-      "timestamp": 257
-    },
-    {
-      "command": "rejectSplitPayment",
-      "email": "RO90POOB5450777208072365",
-      "splitPaymentType": "equal",
-      "timestamp": 258
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO65POOB8944016386845896",
-      "splitPaymentType": "equal",
-      "timestamp": 259
-    },
-    {
-      "command": "rejectSplitPayment",
-      "email": "RO37POOB7013767509830666",
-      "splitPaymentType": "equal",
-      "timestamp": 260
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO19POOB4981055641668812",
-      "splitPaymentType": "equal",
-      "timestamp": 261
-    },
-    {
-      "command": "rejectSplitPayment",
-      "email": "RO30POOB9523423715747796",
-      "splitPaymentType": "equal",
-      "timestamp": 262
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO00POOB5687892910835215",
-      "splitPaymentType": "equal",
-      "timestamp": 263
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO96POOB6738272785416988",
-      "splitPaymentType": "equal",
-      "timestamp": 264
-    },
-    {
-      "command": "rejectSplitPayment",
-      "email": "RO33POOB4049920806186500",
-      "splitPaymentType": "equal",
-      "timestamp": 265
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO69POOB9846198978826791",
-      "splitPaymentType": "equal",
-      "timestamp": 266
-    },
-    {
-      "command": "addFunds",
-      "email": "Timothee_Mahe_Le_Martineau@outlook.fr",
-      "account": "RO58POOB7344468893732422",
-      "amount": 973,
-      "timestamp": 267
-    },
-    {
-      "command": "addFunds",
-      "email": "Cecile-Eleonore_Rocher@gmail.fr",
-      "account": "RO69POOB6209498372540635",
-      "amount": 357,
-      "timestamp": 268
-    },
-    {
-      "command": "addFunds",
-      "email": "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
-      "account": "RO90POOB5450777208072365",
-      "amount": 749,
-      "timestamp": 269
-    },
-    {
-      "command": "addFunds",
-      "email": "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
-      "account": "RO65POOB8944016386845896",
-      "amount": 473,
-      "timestamp": 270
-    },
-    {
-      "command": "addFunds",
-      "email": "Ion_Toma@yahoo.ro",
-      "account": "RO37POOB7013767509830666",
-      "amount": 275,
-      "timestamp": 271
-    },
-    {
-      "command": "addFunds",
-      "email": "Jaclyn_Carter@outlook.us",
-      "account": "RO19POOB4981055641668812",
-      "amount": 553,
-      "timestamp": 272
-    },
-    {
-      "command": "addFunds",
-      "email": "Jaclyn_Carter@outlook.us",
-      "account": "RO30POOB9523423715747796",
-      "amount": 741,
-      "timestamp": 273
-    },
-    {
-      "command": "addFunds",
-      "email": "Corey_Moreno@outlook.us",
-      "account": "RO79POOB3616857825600958",
-      "amount": 500,
-      "timestamp": 274
-    },
-    {
-      "command": "addFunds",
-      "email": "Dina_Stoica@gmail.ro",
-      "account": "RO00POOB5687892910835215",
-      "amount": 120,
-      "timestamp": 275
-    },
-    {
-      "command": "addFunds",
-      "email": "Dina_Stoica@gmail.ro",
-      "account": "RO96POOB6738272785416988",
-      "amount": 147,
-      "timestamp": 276
-    },
-    {
-      "command": "addFunds",
-      "email": "Katie_Jimenez@outlook.us",
-      "account": "RO33POOB4049920806186500",
-      "amount": 576,
-      "timestamp": 277
-    },
-    {
-      "command": "addFunds",
-      "email": "Christian_Lawrence_DDS@yahoo.us",
-      "account": "RO69POOB9846198978826791",
-      "amount": 934,
-      "timestamp": 278
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO58POOB7344468893732422",
-      "splitPaymentType": "equal",
-      "timestamp": 279
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO69POOB6209498372540635",
-      "splitPaymentType": "equal",
-      "timestamp": 280
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO90POOB5450777208072365",
-      "splitPaymentType": "equal",
-      "timestamp": 281
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO65POOB8944016386845896",
-      "splitPaymentType": "equal",
-      "timestamp": 282
-    },
-    {
-      "command": "rejectSplitPayment",
-      "email": "RO37POOB7013767509830666",
-      "splitPaymentType": "equal",
-      "timestamp": 283
-    },
-    {
-      "command": "rejectSplitPayment",
-      "email": "RO19POOB4981055641668812",
-      "splitPaymentType": "equal",
-      "timestamp": 284
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO30POOB9523423715747796",
-      "splitPaymentType": "equal",
-      "timestamp": 285
-    },
-    {
-      "command": "rejectSplitPayment",
-      "email": "RO79POOB3616857825600958",
-      "splitPaymentType": "equal",
-      "timestamp": 286
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO00POOB5687892910835215",
-      "splitPaymentType": "equal",
-      "timestamp": 287
-    },
-    {
-      "command": "rejectSplitPayment",
-      "email": "RO96POOB6738272785416988",
-      "splitPaymentType": "equal",
-      "timestamp": 288
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO33POOB4049920806186500",
-      "splitPaymentType": "equal",
-      "timestamp": 289
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO69POOB9846198978826791",
-      "splitPaymentType": "equal",
-      "timestamp": 290
-    },
-    {
-      "command": "printUsers",
-      "timestamp": 291
-    },
-    {
-      "command": "addInterest",
-      "account": "RO65POOB8944016386845896",
-      "timestamp": 292
-    },
-    {
-      "command": "printTransactions",
-      "email": "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
-      "timestamp": 293
-    },
-    {
-      "command": "addInterest",
-      "account": "RO76POOB4035116042454483",
-      "timestamp": 294
-    },
-    {
-      "command": "printTransactions",
-      "email": "Judith_Edwards@outlook.us",
-      "timestamp": 295
-    },
-    {
-      "command": "addInterest",
-      "account": "RO30POOB9523423715747796",
-      "timestamp": 296
-    },
-    {
-      "command": "printTransactions",
-      "email": "Jaclyn_Carter@outlook.us",
-      "timestamp": 297
-    },
-    {
-      "command": "withdrawSavings",
-      "account": "RO30POOB9523423715747796",
-      "amount": 2567.76,
-      "currency": "USD",
-      "timestamp": 298
-    },
-    {
-      "command": "printTransactions",
-      "email": "Jaclyn_Carter@outlook.us",
-      "timestamp": 299
-    },
-    {
-      "command": "addInterest",
-      "account": "RO96POOB6738272785416988",
-      "timestamp": 300
-    },
-    {
-      "command": "printTransactions",
-      "email": "Dina_Stoica@gmail.ro",
-      "timestamp": 301
-    },
-    {
-      "command": "splitPayment",
-      "splitPaymentType": "custom",
-      "accounts": [
-        "RO69POOB6209498372540635",
-        "RO58POOB2721178218599590",
-        "RO58POOB7344468893732422",
-        "RO37POOB7013767509830666",
-        "RO90POOB5450777208072365"
-      ],
-      "amount": 2551.1,
-      "amountForUsers": [
-        854,
-        11.7,
-        356,
-        638.4,
-        691
-      ],
-      "currency": "EUR",
-      "timestamp": 302
-    },
-    {
-      "command": "addFunds",
-      "email": "Cecile-Eleonore_Rocher@gmail.fr",
-      "account": "RO69POOB6209498372540635",
-      "amount": 23.81,
-      "timestamp": 303
-    },
-    {
-      "command": "upgradePlan",
-      "account": "RO69POOB6209498372540635",
-      "newPlanType": "silver",
-      "timestamp": 304
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO69POOB6209498372540635",
-      "splitPaymentType": "custom",
-      "timestamp": 305
-    },
-    {
-      "command": "addFunds",
-      "email": "Cecile-Eleonore_Rocher@gmail.fr",
-      "account": "RO69POOB6209498372540635",
-      "amount": 128.81,
-      "timestamp": 306
-    },
-    {
-      "command": "printTransactions",
-      "email": "Cecile-Eleonore_Rocher@gmail.fr",
-      "timestamp": 307
-    },
-    {
-      "command": "addFunds",
-      "email": "Judith_Edwards@outlook.us",
-      "account": "RO58POOB2721178218599590",
-      "amount": 333.33,
-      "timestamp": 308
-    },
-    {
-      "command": "upgradePlan",
-      "account": "RO58POOB2721178218599590",
-      "newPlanType": "silver",
-      "timestamp": 309
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO58POOB2721178218599590",
-      "splitPaymentType": "custom",
-      "timestamp": 310
-    },
-    {
-      "command": "addFunds",
-      "email": "Judith_Edwards@outlook.us",
-      "account": "RO58POOB2721178218599590",
-      "amount": 1736.67,
-      "timestamp": 311
-    },
-    {
-      "command": "printTransactions",
-      "email": "Judith_Edwards@outlook.us",
-      "timestamp": 312
-    },
-    {
-      "command": "addFunds",
-      "email": "Timothee_Mahe_Le_Martineau@outlook.fr",
-      "account": "RO58POOB7344468893732422",
-      "amount": 23.81,
-      "timestamp": 313
-    },
-    {
-      "command": "upgradePlan",
-      "account": "RO58POOB7344468893732422",
-      "newPlanType": "silver",
-      "timestamp": 314
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO58POOB7344468893732422",
-      "splitPaymentType": "custom",
-      "timestamp": 315
-    },
-    {
-      "command": "addFunds",
-      "email": "Timothee_Mahe_Le_Martineau@outlook.fr",
-      "account": "RO58POOB7344468893732422",
-      "amount": 125.95,
-      "timestamp": 316
-    },
-    {
-      "command": "printTransactions",
-      "email": "Timothee_Mahe_Le_Martineau@outlook.fr",
-      "timestamp": 317
-    },
-    {
-      "command": "addFunds",
-      "email": "Ion_Toma@yahoo.ro",
-      "account": "RO37POOB7013767509830666",
-      "amount": 100.0,
-      "timestamp": 318
-    },
-    {
-      "command": "upgradePlan",
-      "account": "RO37POOB7013767509830666",
-      "newPlanType": "silver",
-      "timestamp": 319
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO37POOB7013767509830666",
-      "splitPaymentType": "custom",
-      "timestamp": 320
-    },
-    {
-      "command": "addFunds",
-      "email": "Ion_Toma@yahoo.ro",
-      "account": "RO37POOB7013767509830666",
-      "amount": 683.0,
-      "timestamp": 321
-    },
-    {
-      "command": "printTransactions",
-      "email": "Ion_Toma@yahoo.ro",
-      "timestamp": 322
-    },
-    {
-      "command": "addFunds",
-      "email": "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
-      "account": "RO90POOB5450777208072365",
-      "amount": 23.81,
-      "timestamp": 323
-    },
-    {
-      "command": "upgradePlan",
-      "account": "RO90POOB5450777208072365",
-      "newPlanType": "silver",
-      "timestamp": 324
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "RO90POOB5450777208072365",
-      "splitPaymentType": "custom",
-      "timestamp": 325
-    },
-    {
-      "command": "addFunds",
-      "email": "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
-      "account": "RO90POOB5450777208072365",
-      "amount": 161.43,
-      "timestamp": 326
-    },
-    {
-      "command": "printTransactions",
-      "email": "Claudine_Chauvin_de_la_Devaux@yahoo.fr",
-      "timestamp": 327
-    },
-    {
-      "command": "cashWithdrawal",
-      "cardNumber": "7901879264253296",
-      "amount": 686,
-      "location": "Nyon",
-      "timestamp": 328
-    },
-    {
-      "command": "cashWithdrawal",
-      "cardNumber": "6796819982034243",
-      "amount": 568,
-      "location": "Rey-Dessus",
-      "timestamp": 329
-    },
-    {
-      "command": "cashWithdrawal",
-      "cardNumber": "8207906978464446",
-      "amount": 688,
-      "location": "Nyon",
-      "timestamp": 330
-    },
-    {
-      "command": "cashWithdrawal",
-      "cardNumber": "4686471658318359",
-      "amount": 710,
-      "location": "Nyon",
-      "timestamp": 331
-    },
-    {
-      "command": "cashWithdrawal",
-      "cardNumber": "7004757825892043",
-      "amount": 676,
-      "location": "Allain",
-      "timestamp": 332
-    }
-  ]
+    "users": [
+        {
+            "firstName": "Emily",
+            "lastName": "Jimenez",
+            "email": "Emily_Jimenez@outlook.us",
+            "birthDate": "2009-02-11",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Toma",
+            "lastName": "Tomescu",
+            "email": "Toma_Tomescu@gmail.ro",
+            "birthDate": "2002-07-28",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Toma",
+            "lastName": "Tomescu",
+            "email": "Toma_Tomescu@gmail.ro",
+            "birthDate": "2002-07-28",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Miron",
+            "lastName": "Dochioiu",
+            "email": "Miron_Dochioiu@hotmail.ro",
+            "birthDate": "1990-06-15",
+            "occupation": "doctor"
+        },
+        {
+            "firstName": "Theresa",
+            "lastName": "West",
+            "email": "Theresa_West@hotmail.us",
+            "birthDate": "1982-12-28",
+            "occupation": "librarian"
+        },
+        {
+            "firstName": "Mary",
+            "lastName": "Vasquez",
+            "email": "Mary_Vasquez@outlook.us",
+            "birthDate": "2011-07-16",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Judith",
+            "lastName": "Edwards",
+            "email": "Judith_Edwards@outlook.us",
+            "birthDate": "2000-04-11",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Fabian",
+            "lastName": "Ababe",
+            "email": "Fabian_Ababe@yahoo.ro",
+            "birthDate": "2009-04-18",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Mary",
+            "lastName": "Vasquez",
+            "email": "Mary_Vasquez@outlook.us",
+            "birthDate": "2011-07-16",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Andrea",
+            "lastName": "Jimenez",
+            "email": "Andrea_Jimenez@outlook.us",
+            "birthDate": "1995-08-29",
+            "occupation": "electrician"
+        },
+        {
+            "firstName": "Nicole",
+            "lastName": "Daniels",
+            "email": "Nicole_Daniels@gmail.us",
+            "birthDate": "1999-08-19",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Gilbert",
+            "lastName": "Le Cousin",
+            "email": "Gilbert_Le_Cousin@hotmail.fr",
+            "birthDate": "1982-01-29",
+            "occupation": "engineer"
+        },
+        {
+            "firstName": "Margaux",
+            "lastName": "Courtois",
+            "email": "Margaux_Courtois@yahoo.fr",
+            "birthDate": "2008-01-03",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Roger",
+            "lastName": "Blanchard",
+            "email": "Roger_Blanchard@hotmail.fr",
+            "birthDate": "2001-02-18",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Eric",
+            "lastName": "Preda",
+            "email": "Eric_Preda@hotmail.ro",
+            "birthDate": "2006-03-27",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Cecile",
+            "lastName": "Moreno",
+            "email": "Cecile_Moreno@hotmail.fr",
+            "birthDate": "2014-01-21",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Monica",
+            "lastName": "Lopez",
+            "email": "Monica_Lopez@hotmail.us",
+            "birthDate": "1996-06-05",
+            "occupation": "librarian"
+        },
+        {
+            "firstName": "Michael",
+            "lastName": "Robertson",
+            "email": "Michael_Robertson@yahoo.us",
+            "birthDate": "2002-12-27",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Denis",
+            "lastName": "Dupuy",
+            "email": "Denis_Dupuy@outlook.fr",
+            "birthDate": "1977-09-03",
+            "occupation": "designer"
+        },
+        {
+            "firstName": "Margaux",
+            "lastName": "Courtois",
+            "email": "Margaux_Courtois@yahoo.fr",
+            "birthDate": "2008-01-03",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Vincent",
+            "lastName": "Brunet de la Bigot",
+            "email": "Vincent_Brunet_de_la_Bigot@outlook.fr",
+            "birthDate": "2013-09-21",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Michael",
+            "lastName": "Robertson",
+            "email": "Michael_Robertson@yahoo.us",
+            "birthDate": "2002-12-27",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Matthieu",
+            "lastName": "Cordier",
+            "email": "Matthieu_Cordier@gmail.fr",
+            "birthDate": "2007-07-18",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Shannon",
+            "lastName": "Yates",
+            "email": "Shannon_Yates@hotmail.us",
+            "birthDate": "1998-10-11",
+            "occupation": "racing driver"
+        },
+        {
+            "firstName": "Marcel",
+            "lastName": "Ionita",
+            "email": "Marcel_Ionita@gmail.ro",
+            "birthDate": "2006-03-20",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Roland",
+            "lastName": "du Leconte",
+            "email": "Roland_du_Leconte@hotmail.fr",
+            "birthDate": "1992-07-21",
+            "occupation": "designer"
+        },
+        {
+            "firstName": "Anastasie",
+            "lastName": "Dufour",
+            "email": "Anastasie_Dufour@hotmail.fr",
+            "birthDate": "2006-07-20",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Monica",
+            "lastName": "Smith",
+            "email": "Monica_Smith@hotmail.us",
+            "birthDate": "2009-03-17",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Fabian",
+            "lastName": "Ababe",
+            "email": "Fabian_Ababe@yahoo.ro",
+            "birthDate": "2009-04-18",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Heather",
+            "lastName": "Adams",
+            "email": "Heather_Adams@yahoo.us",
+            "birthDate": "2000-11-24",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Judith",
+            "lastName": "Edwards",
+            "email": "Judith_Edwards@outlook.us",
+            "birthDate": "2000-04-11",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Amanda",
+            "lastName": "Mason",
+            "email": "Amanda_Mason@yahoo.us",
+            "birthDate": "2014-03-28",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Arthur",
+            "lastName": "Gautier",
+            "email": "Arthur_Gautier@gmail.fr",
+            "birthDate": "2001-11-24",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Heather",
+            "lastName": "Adams",
+            "email": "Heather_Adams@yahoo.us",
+            "birthDate": "2000-11-24",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Arthur",
+            "lastName": "Gautier",
+            "email": "Arthur_Gautier@gmail.fr",
+            "birthDate": "2001-11-24",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Amanda",
+            "lastName": "Mason",
+            "email": "Amanda_Mason@yahoo.us",
+            "birthDate": "2014-03-28",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Marcel",
+            "lastName": "Ionita",
+            "email": "Marcel_Ionita@gmail.ro",
+            "birthDate": "2006-03-20",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Cecile",
+            "lastName": "Moreno",
+            "email": "Cecile_Moreno@hotmail.fr",
+            "birthDate": "2014-01-21",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Julia",
+            "lastName": "Lee",
+            "email": "Julia_Lee@yahoo.us",
+            "birthDate": "2010-12-05",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Eric",
+            "lastName": "Preda",
+            "email": "Eric_Preda@hotmail.ro",
+            "birthDate": "2006-03-27",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Vincent",
+            "lastName": "Brunet de la Bigot",
+            "email": "Vincent_Brunet_de_la_Bigot@outlook.fr",
+            "birthDate": "2013-09-21",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Roger",
+            "lastName": "Blanchard",
+            "email": "Roger_Blanchard@hotmail.fr",
+            "birthDate": "2001-02-18",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Monica",
+            "lastName": "Smith",
+            "email": "Monica_Smith@hotmail.us",
+            "birthDate": "2009-03-17",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Dochia",
+            "lastName": "Stoica",
+            "email": "Dochia_Stoica@yahoo.ro",
+            "birthDate": "1992-08-01",
+            "occupation": "librarian"
+        },
+        {
+            "firstName": "Charlotte",
+            "lastName": "Allain",
+            "email": "Charlotte_Allain@yahoo.fr",
+            "birthDate": "1989-01-31",
+            "occupation": "farmer"
+        },
+        {
+            "firstName": "Matthieu",
+            "lastName": "Cordier",
+            "email": "Matthieu_Cordier@gmail.fr",
+            "birthDate": "2007-07-18",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Anastasie",
+            "lastName": "Dufour",
+            "email": "Anastasie_Dufour@hotmail.fr",
+            "birthDate": "2006-07-20",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Emily",
+            "lastName": "Jimenez",
+            "email": "Emily_Jimenez@outlook.us",
+            "birthDate": "2009-02-11",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Julia",
+            "lastName": "Lee",
+            "email": "Julia_Lee@yahoo.us",
+            "birthDate": "2010-12-05",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Nicole",
+            "lastName": "Daniels",
+            "email": "Nicole_Daniels@gmail.us",
+            "birthDate": "1999-08-19",
+            "occupation": "student"
+        }
+    ],
+    "commerciants": [
+        {
+            "commerciant": "Burger King",
+            "id": 108,
+            "account": "RO22POOB3875162728202296",
+            "type": "Food",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Nike",
+            "id": 90,
+            "account": "RO28POOB5923933391234057",
+            "type": "Clothes",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "Apple",
+            "id": 112,
+            "account": "RO25POOB4386521661484930",
+            "type": "Tech",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "H&M",
+            "id": 84,
+            "account": "RO32POOB8964686295716974",
+            "type": "Clothes",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Amazon",
+            "id": 118,
+            "account": "RO75POOB9251835314648427",
+            "type": "Tech",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Zara",
+            "id": 79,
+            "account": "RO15POOB4333403266660236",
+            "type": "Clothes",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "McDonalds",
+            "id": 99,
+            "account": "RO95POOB9807857732666986",
+            "type": "Food",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Samsung",
+            "id": 113,
+            "account": "RO66POOB9463355196372136",
+            "type": "Tech",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "KFC",
+            "id": 100,
+            "account": "RO01POOB5884922951883378",
+            "type": "Food",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "Microsoft",
+            "id": 116,
+            "account": "RO17POOB8495306331082091",
+            "type": "Tech",
+            "cashbackStrategy": "nrOfTransactions"
+        }
+    ],
+    "exchangeRates": [
+        {
+            "from": "EUR",
+            "to": "USD",
+            "rate": 0.9
+        },
+        {
+            "from": "EUR",
+            "to": "RON",
+            "rate": 4.2
+        }
+    ],
+    "commands": [
+        {
+            "command": "addAccount",
+            "email": "Emily_Jimenez@outlook.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 1
+        },
+        {
+            "command": "createOneTimeCard",
+            "account": "RO58POOB7344468893732422",
+            "email": "Emily_Jimenez@outlook.us",
+            "timestamp": 18
+        },
+        {
+            "command": "addFunds",
+            "email": "Emily_Jimenez@outlook.us",
+            "account": "RO58POOB7344468893732422",
+            "amount": 230,
+            "timestamp": 19
+        },
+        {
+            "command": "addAccount",
+            "email": "Emily_Jimenez@outlook.us",
+            "currency": "USD",
+            "accountType": "savings",
+            "interestRate": 0.06,
+            "timestamp": 20
+        },
+        {
+            "command": "addFunds",
+            "email": "Emily_Jimenez@outlook.us",
+            "account": "RO69POOB6209498372540635",
+            "amount": 202,
+            "timestamp": 35
+        },
+        {
+            "command": "addAccount",
+            "email": "Toma_Tomescu@gmail.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 36
+        },
+        {
+            "command": "createCard",
+            "account": "RO90POOB5450777208072365",
+            "email": "Toma_Tomescu@gmail.ro",
+            "timestamp": 45
+        },
+        {
+            "command": "addFunds",
+            "email": "Toma_Tomescu@gmail.ro",
+            "account": "RO90POOB5450777208072365",
+            "amount": 918,
+            "timestamp": 46
+        },
+        {
+            "command": "addAccount",
+            "email": "Toma_Tomescu@gmail.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 47
+        },
+        {
+            "command": "createCard",
+            "account": "RO65POOB8944016386845896",
+            "email": "Toma_Tomescu@gmail.ro",
+            "timestamp": 52
+        },
+        {
+            "command": "addFunds",
+            "email": "Toma_Tomescu@gmail.ro",
+            "account": "RO65POOB8944016386845896",
+            "amount": 32,
+            "timestamp": 53
+        },
+        {
+            "command": "addAccount",
+            "email": "Toma_Tomescu@gmail.ro",
+            "currency": "RON",
+            "accountType": "savings",
+            "interestRate": 0.89,
+            "timestamp": 54
+        },
+        {
+            "command": "addFunds",
+            "email": "Toma_Tomescu@gmail.ro",
+            "account": "RO58POOB2721178218599590",
+            "amount": 375,
+            "timestamp": 57
+        },
+        {
+            "command": "addAccount",
+            "email": "Miron_Dochioiu@hotmail.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 58
+        },
+        {
+            "command": "createOneTimeCard",
+            "account": "RO76POOB4035116042454483",
+            "email": "Miron_Dochioiu@hotmail.ro",
+            "timestamp": 68
+        },
+        {
+            "command": "addFunds",
+            "email": "Miron_Dochioiu@hotmail.ro",
+            "account": "RO76POOB4035116042454483",
+            "amount": 315,
+            "timestamp": 69
+        },
+        {
+            "command": "addAccount",
+            "email": "Miron_Dochioiu@hotmail.ro",
+            "currency": "RON",
+            "accountType": "savings",
+            "interestRate": 0.01,
+            "timestamp": 70
+        },
+        {
+            "command": "addFunds",
+            "email": "Miron_Dochioiu@hotmail.ro",
+            "account": "RO37POOB7013767509830666",
+            "amount": 649,
+            "timestamp": 85
+        },
+        {
+            "command": "addAccount",
+            "email": "Theresa_West@hotmail.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 86
+        },
+        {
+            "command": "createOneTimeCard",
+            "account": "RO19POOB4981055641668812",
+            "email": "Theresa_West@hotmail.us",
+            "timestamp": 104
+        },
+        {
+            "command": "addFunds",
+            "email": "Theresa_West@hotmail.us",
+            "account": "RO19POOB4981055641668812",
+            "amount": 66,
+            "timestamp": 105
+        },
+        {
+            "command": "addAccount",
+            "email": "Theresa_West@hotmail.us",
+            "currency": "USD",
+            "accountType": "savings",
+            "interestRate": 0.04,
+            "timestamp": 106
+        },
+        {
+            "command": "addFunds",
+            "email": "Theresa_West@hotmail.us",
+            "account": "RO30POOB9523423715747796",
+            "amount": 391,
+            "timestamp": 117
+        },
+        {
+            "command": "addAccount",
+            "email": "Mary_Vasquez@outlook.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 118
+        },
+        {
+            "command": "createOneTimeCard",
+            "account": "RO79POOB3616857825600958",
+            "email": "Mary_Vasquez@outlook.us",
+            "timestamp": 125
+        },
+        {
+            "command": "addFunds",
+            "email": "Mary_Vasquez@outlook.us",
+            "account": "RO79POOB3616857825600958",
+            "amount": 372,
+            "timestamp": 126
+        },
+        {
+            "command": "addAccount",
+            "email": "Judith_Edwards@outlook.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 127
+        },
+        {
+            "command": "createCard",
+            "account": "RO00POOB5687892910835215",
+            "email": "Judith_Edwards@outlook.us",
+            "timestamp": 140
+        },
+        {
+            "command": "addFunds",
+            "email": "Judith_Edwards@outlook.us",
+            "account": "RO00POOB5687892910835215",
+            "amount": 571,
+            "timestamp": 141
+        },
+        {
+            "command": "addAccount",
+            "email": "Judith_Edwards@outlook.us",
+            "currency": "USD",
+            "accountType": "savings",
+            "interestRate": 0.45,
+            "timestamp": 142
+        },
+        {
+            "command": "addFunds",
+            "email": "Judith_Edwards@outlook.us",
+            "account": "RO96POOB6738272785416988",
+            "amount": 691,
+            "timestamp": 149
+        },
+        {
+            "command": "addAccount",
+            "email": "Fabian_Ababe@yahoo.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 150
+        },
+        {
+            "command": "createCard",
+            "account": "RO33POOB4049920806186500",
+            "email": "Fabian_Ababe@yahoo.ro",
+            "timestamp": 165
+        },
+        {
+            "command": "addFunds",
+            "email": "Fabian_Ababe@yahoo.ro",
+            "account": "RO33POOB4049920806186500",
+            "amount": 646,
+            "timestamp": 166
+        },
+        {
+            "command": "addAccount",
+            "email": "Fabian_Ababe@yahoo.ro",
+            "currency": "RON",
+            "accountType": "savings",
+            "interestRate": 0.66,
+            "timestamp": 167
+        },
+        {
+            "command": "addFunds",
+            "email": "Fabian_Ababe@yahoo.ro",
+            "account": "RO69POOB9846198978826791",
+            "amount": 272,
+            "timestamp": 184
+        },
+        {
+            "command": "addAccount",
+            "email": "Mary_Vasquez@outlook.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 185
+        },
+        {
+            "command": "createOneTimeCard",
+            "account": "RO98POOB8412955460158769",
+            "email": "Mary_Vasquez@outlook.us",
+            "timestamp": 197
+        },
+        {
+            "command": "addFunds",
+            "email": "Mary_Vasquez@outlook.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 500,
+            "timestamp": 198
+        },
+        {
+            "command": "addAccount",
+            "email": "Andrea_Jimenez@outlook.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 199
+        },
+        {
+            "command": "createOneTimeCard",
+            "account": "RO32POOB0130532963818359",
+            "email": "Andrea_Jimenez@outlook.us",
+            "timestamp": 209
+        },
+        {
+            "command": "addFunds",
+            "email": "Andrea_Jimenez@outlook.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 530,
+            "timestamp": 210
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 211
+        },
+        {
+            "command": "splitPayment",
+            "splitPaymentType": "custom",
+            "accounts": [
+                "RO58POOB7344468893732422",
+                "RO90POOB5450777208072365",
+                "RO76POOB4035116042454483",
+                "RO19POOB4981055641668812",
+                "RO79POOB3616857825600958",
+                "RO00POOB5687892910835215",
+                "RO33POOB4049920806186500",
+                "RO32POOB0130532963818359"
+            ],
+            "amount": 2265.6,
+            "amountForUsers": [
+                130,
+                739.8,
+                118.8,
+                35,
+                109,
+                399,
+                237.0,
+                497
+            ],
+            "currency": "USD",
+            "timestamp": 212
+        },
+        {
+            "command": "splitPayment",
+            "splitPaymentType": "equal",
+            "accounts": [
+                "RO79POOB3616857825600958",
+                "RO76POOB4035116042454483",
+                "RO32POOB0130532963818359",
+                "RO30POOB9523423715747796",
+                "RO19POOB4981055641668812",
+                "RO98POOB8412955460158769",
+                "RO96POOB6738272785416988",
+                "RO33POOB4049920806186500",
+                "RO37POOB7013767509830666",
+                "RO69POOB9846198978826791"
+            ],
+            "amount": 3000,
+            "currency": "USD",
+            "timestamp": 213
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO58POOB7344468893732422",
+            "splitPaymentType": "custom",
+            "timestamp": 214
+        },
+        {
+            "command": "printTransactions",
+            "email": "Emily_Jimenez@outlook.us",
+            "timestamp": 215
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO90POOB5450777208072365",
+            "splitPaymentType": "custom",
+            "timestamp": 216
+        },
+        {
+            "command": "printTransactions",
+            "email": "Toma_Tomescu@gmail.ro",
+            "timestamp": 217
+        },
+        {
+            "command": "splitPayment",
+            "splitPaymentType": "equal",
+            "accounts": [
+                "RO69POOB6209498372540635",
+                "RO90POOB5450777208072365",
+                "RO58POOB2721178218599590",
+                "RO19POOB4981055641668812",
+                "RO00POOB5687892910835215",
+                "RO37POOB7013767509830666",
+                "RO32POOB0130532963818359",
+                "RO69POOB9846198978826791",
+                "RO65POOB8944016386845896",
+                "RO58POOB7344468893732422"
+            ],
+            "amount": 2021,
+            "currency": "USD",
+            "timestamp": 218
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO76POOB4035116042454483",
+            "splitPaymentType": "custom",
+            "timestamp": 219
+        },
+        {
+            "command": "printTransactions",
+            "email": "Miron_Dochioiu@hotmail.ro",
+            "timestamp": 220
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO19POOB4981055641668812",
+            "splitPaymentType": "custom",
+            "timestamp": 221
+        },
+        {
+            "command": "printTransactions",
+            "email": "Theresa_West@hotmail.us",
+            "timestamp": 222
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO79POOB3616857825600958",
+            "splitPaymentType": "custom",
+            "timestamp": 223
+        },
+        {
+            "command": "printTransactions",
+            "email": "Mary_Vasquez@outlook.us",
+            "timestamp": 224
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO00POOB5687892910835215",
+            "splitPaymentType": "custom",
+            "timestamp": 225
+        },
+        {
+            "command": "printTransactions",
+            "email": "Judith_Edwards@outlook.us",
+            "timestamp": 226
+        },
+        {
+            "command": "splitPayment",
+            "splitPaymentType": "equal",
+            "accounts": [
+                "RO58POOB7344468893732422",
+                "RO30POOB9523423715747796",
+                "RO00POOB5687892910835215",
+                "RO98POOB8412955460158769",
+                "RO33POOB4049920806186500",
+                "RO96POOB6738272785416988",
+                "RO37POOB7013767509830666",
+                "RO79POOB3616857825600958",
+                "RO76POOB4035116042454483",
+                "RO69POOB9846198978826791"
+            ],
+            "amount": 2387,
+            "currency": "USD",
+            "timestamp": 227
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO33POOB4049920806186500",
+            "splitPaymentType": "custom",
+            "timestamp": 228
+        },
+        {
+            "command": "printTransactions",
+            "email": "Fabian_Ababe@yahoo.ro",
+            "timestamp": 229
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO32POOB0130532963818359",
+            "splitPaymentType": "custom",
+            "timestamp": 230
+        },
+        {
+            "command": "printTransactions",
+            "email": "Andrea_Jimenez@outlook.us",
+            "timestamp": 231
+        },
+        {
+            "command": "addFunds",
+            "email": "Miron_Dochioiu@hotmail.ro",
+            "account": "RO76POOB4035116042454483",
+            "amount": 109,
+            "timestamp": 232
+        },
+        {
+            "command": "addFunds",
+            "email": "Miron_Dochioiu@hotmail.ro",
+            "account": "RO37POOB7013767509830666",
+            "amount": 899,
+            "timestamp": 233
+        },
+        {
+            "command": "addFunds",
+            "email": "Theresa_West@hotmail.us",
+            "account": "RO19POOB4981055641668812",
+            "amount": 567,
+            "timestamp": 234
+        },
+        {
+            "command": "addFunds",
+            "email": "Theresa_West@hotmail.us",
+            "account": "RO30POOB9523423715747796",
+            "amount": 494,
+            "timestamp": 235
+        },
+        {
+            "command": "addFunds",
+            "email": "Mary_Vasquez@outlook.us",
+            "account": "RO79POOB3616857825600958",
+            "amount": 178,
+            "timestamp": 236
+        },
+        {
+            "command": "addFunds",
+            "email": "Judith_Edwards@outlook.us",
+            "account": "RO00POOB5687892910835215",
+            "amount": 553,
+            "timestamp": 237
+        },
+        {
+            "command": "addFunds",
+            "email": "Judith_Edwards@outlook.us",
+            "account": "RO96POOB6738272785416988",
+            "amount": 950,
+            "timestamp": 238
+        },
+        {
+            "command": "addFunds",
+            "email": "Fabian_Ababe@yahoo.ro",
+            "account": "RO33POOB4049920806186500",
+            "amount": 212,
+            "timestamp": 239
+        },
+        {
+            "command": "addFunds",
+            "email": "Fabian_Ababe@yahoo.ro",
+            "account": "RO69POOB9846198978826791",
+            "amount": 549,
+            "timestamp": 240
+        },
+        {
+            "command": "addFunds",
+            "email": "Mary_Vasquez@outlook.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 861,
+            "timestamp": 241
+        },
+        {
+            "command": "addFunds",
+            "email": "Andrea_Jimenez@outlook.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 687,
+            "timestamp": 242
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO76POOB4035116042454483",
+            "splitPaymentType": "equal",
+            "timestamp": 243
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO37POOB7013767509830666",
+            "splitPaymentType": "equal",
+            "timestamp": 244
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO19POOB4981055641668812",
+            "splitPaymentType": "equal",
+            "timestamp": 245
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO30POOB9523423715747796",
+            "splitPaymentType": "equal",
+            "timestamp": 246
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO79POOB3616857825600958",
+            "splitPaymentType": "equal",
+            "timestamp": 247
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO00POOB5687892910835215",
+            "splitPaymentType": "equal",
+            "timestamp": 248
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO96POOB6738272785416988",
+            "splitPaymentType": "equal",
+            "timestamp": 249
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO33POOB4049920806186500",
+            "splitPaymentType": "equal",
+            "timestamp": 250
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO69POOB9846198978826791",
+            "splitPaymentType": "equal",
+            "timestamp": 251
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO98POOB8412955460158769",
+            "splitPaymentType": "equal",
+            "timestamp": 252
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO32POOB0130532963818359",
+            "splitPaymentType": "equal",
+            "timestamp": 253
+        },
+        {
+            "command": "addFunds",
+            "email": "Emily_Jimenez@outlook.us",
+            "account": "RO58POOB7344468893732422",
+            "amount": 797,
+            "timestamp": 254
+        },
+        {
+            "command": "addFunds",
+            "email": "Emily_Jimenez@outlook.us",
+            "account": "RO69POOB6209498372540635",
+            "amount": 91,
+            "timestamp": 255
+        },
+        {
+            "command": "addFunds",
+            "email": "Toma_Tomescu@gmail.ro",
+            "account": "RO90POOB5450777208072365",
+            "amount": 424,
+            "timestamp": 256
+        },
+        {
+            "command": "addFunds",
+            "email": "Toma_Tomescu@gmail.ro",
+            "account": "RO65POOB8944016386845896",
+            "amount": 459,
+            "timestamp": 257
+        },
+        {
+            "command": "addFunds",
+            "email": "Toma_Tomescu@gmail.ro",
+            "account": "RO58POOB2721178218599590",
+            "amount": 137,
+            "timestamp": 258
+        },
+        {
+            "command": "addFunds",
+            "email": "Miron_Dochioiu@hotmail.ro",
+            "account": "RO76POOB4035116042454483",
+            "amount": 360,
+            "timestamp": 259
+        },
+        {
+            "command": "addFunds",
+            "email": "Miron_Dochioiu@hotmail.ro",
+            "account": "RO37POOB7013767509830666",
+            "amount": 600,
+            "timestamp": 260
+        },
+        {
+            "command": "addFunds",
+            "email": "Theresa_West@hotmail.us",
+            "account": "RO19POOB4981055641668812",
+            "amount": 256,
+            "timestamp": 261
+        },
+        {
+            "command": "addFunds",
+            "email": "Theresa_West@hotmail.us",
+            "account": "RO30POOB9523423715747796",
+            "amount": 710,
+            "timestamp": 262
+        },
+        {
+            "command": "addFunds",
+            "email": "Judith_Edwards@outlook.us",
+            "account": "RO00POOB5687892910835215",
+            "amount": 804,
+            "timestamp": 263
+        },
+        {
+            "command": "addFunds",
+            "email": "Judith_Edwards@outlook.us",
+            "account": "RO96POOB6738272785416988",
+            "amount": 203,
+            "timestamp": 264
+        },
+        {
+            "command": "addFunds",
+            "email": "Fabian_Ababe@yahoo.ro",
+            "account": "RO33POOB4049920806186500",
+            "amount": 605,
+            "timestamp": 265
+        },
+        {
+            "command": "addFunds",
+            "email": "Fabian_Ababe@yahoo.ro",
+            "account": "RO69POOB9846198978826791",
+            "amount": 269,
+            "timestamp": 266
+        },
+        {
+            "command": "addFunds",
+            "email": "Andrea_Jimenez@outlook.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 953,
+            "timestamp": 267
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO58POOB7344468893732422",
+            "splitPaymentType": "equal",
+            "timestamp": 268
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO69POOB6209498372540635",
+            "splitPaymentType": "equal",
+            "timestamp": 269
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO90POOB5450777208072365",
+            "splitPaymentType": "equal",
+            "timestamp": 270
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO65POOB8944016386845896",
+            "splitPaymentType": "equal",
+            "timestamp": 271
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO58POOB2721178218599590",
+            "splitPaymentType": "equal",
+            "timestamp": 272
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO76POOB4035116042454483",
+            "splitPaymentType": "equal",
+            "timestamp": 273
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO37POOB7013767509830666",
+            "splitPaymentType": "equal",
+            "timestamp": 274
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO19POOB4981055641668812",
+            "splitPaymentType": "equal",
+            "timestamp": 275
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO30POOB9523423715747796",
+            "splitPaymentType": "equal",
+            "timestamp": 276
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO00POOB5687892910835215",
+            "splitPaymentType": "equal",
+            "timestamp": 277
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO96POOB6738272785416988",
+            "splitPaymentType": "equal",
+            "timestamp": 278
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO33POOB4049920806186500",
+            "splitPaymentType": "equal",
+            "timestamp": 279
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO69POOB9846198978826791",
+            "splitPaymentType": "equal",
+            "timestamp": 280
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO32POOB0130532963818359",
+            "splitPaymentType": "equal",
+            "timestamp": 281
+        },
+        {
+            "command": "addFunds",
+            "email": "Emily_Jimenez@outlook.us",
+            "account": "RO58POOB7344468893732422",
+            "amount": 93,
+            "timestamp": 282
+        },
+        {
+            "command": "addFunds",
+            "email": "Emily_Jimenez@outlook.us",
+            "account": "RO69POOB6209498372540635",
+            "amount": 203,
+            "timestamp": 283
+        },
+        {
+            "command": "addFunds",
+            "email": "Miron_Dochioiu@hotmail.ro",
+            "account": "RO76POOB4035116042454483",
+            "amount": 521,
+            "timestamp": 284
+        },
+        {
+            "command": "addFunds",
+            "email": "Miron_Dochioiu@hotmail.ro",
+            "account": "RO37POOB7013767509830666",
+            "amount": 759,
+            "timestamp": 285
+        },
+        {
+            "command": "addFunds",
+            "email": "Theresa_West@hotmail.us",
+            "account": "RO19POOB4981055641668812",
+            "amount": 633,
+            "timestamp": 286
+        },
+        {
+            "command": "addFunds",
+            "email": "Theresa_West@hotmail.us",
+            "account": "RO30POOB9523423715747796",
+            "amount": 309,
+            "timestamp": 287
+        },
+        {
+            "command": "addFunds",
+            "email": "Mary_Vasquez@outlook.us",
+            "account": "RO79POOB3616857825600958",
+            "amount": 450,
+            "timestamp": 288
+        },
+        {
+            "command": "addFunds",
+            "email": "Judith_Edwards@outlook.us",
+            "account": "RO00POOB5687892910835215",
+            "amount": 281,
+            "timestamp": 289
+        },
+        {
+            "command": "addFunds",
+            "email": "Judith_Edwards@outlook.us",
+            "account": "RO96POOB6738272785416988",
+            "amount": 540,
+            "timestamp": 290
+        },
+        {
+            "command": "addFunds",
+            "email": "Fabian_Ababe@yahoo.ro",
+            "account": "RO33POOB4049920806186500",
+            "amount": 266,
+            "timestamp": 291
+        },
+        {
+            "command": "addFunds",
+            "email": "Fabian_Ababe@yahoo.ro",
+            "account": "RO69POOB9846198978826791",
+            "amount": 333,
+            "timestamp": 292
+        },
+        {
+            "command": "addFunds",
+            "email": "Mary_Vasquez@outlook.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 713,
+            "timestamp": 293
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO58POOB7344468893732422",
+            "splitPaymentType": "equal",
+            "timestamp": 294
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO69POOB6209498372540635",
+            "splitPaymentType": "equal",
+            "timestamp": 295
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO76POOB4035116042454483",
+            "splitPaymentType": "equal",
+            "timestamp": 296
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO37POOB7013767509830666",
+            "splitPaymentType": "equal",
+            "timestamp": 297
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO19POOB4981055641668812",
+            "splitPaymentType": "equal",
+            "timestamp": 298
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO30POOB9523423715747796",
+            "splitPaymentType": "equal",
+            "timestamp": 299
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO79POOB3616857825600958",
+            "splitPaymentType": "equal",
+            "timestamp": 300
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO00POOB5687892910835215",
+            "splitPaymentType": "equal",
+            "timestamp": 301
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO96POOB6738272785416988",
+            "splitPaymentType": "equal",
+            "timestamp": 302
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO33POOB4049920806186500",
+            "splitPaymentType": "equal",
+            "timestamp": 303
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO69POOB9846198978826791",
+            "splitPaymentType": "equal",
+            "timestamp": 304
+        },
+        {
+            "command": "rejectSplitPayment",
+            "email": "RO98POOB8412955460158769",
+            "splitPaymentType": "equal",
+            "timestamp": 305
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 306
+        },
+        {
+            "command": "addInterest",
+            "account": "RO69POOB6209498372540635",
+            "timestamp": 307
+        },
+        {
+            "command": "printTransactions",
+            "email": "Emily_Jimenez@outlook.us",
+            "timestamp": 308
+        },
+        {
+            "command": "addInterest",
+            "account": "RO58POOB2721178218599590",
+            "timestamp": 309
+        },
+        {
+            "command": "printTransactions",
+            "email": "Toma_Tomescu@gmail.ro",
+            "timestamp": 310
+        },
+        {
+            "command": "withdrawSavings",
+            "account": "RO58POOB2721178218599590",
+            "amount": 967.68,
+            "currency": "RON",
+            "timestamp": 311
+        },
+        {
+            "command": "printTransactions",
+            "email": "Toma_Tomescu@gmail.ro",
+            "timestamp": 312
+        },
+        {
+            "command": "addInterest",
+            "account": "RO37POOB7013767509830666",
+            "timestamp": 313
+        },
+        {
+            "command": "printTransactions",
+            "email": "Miron_Dochioiu@hotmail.ro",
+            "timestamp": 314
+        },
+        {
+            "command": "addInterest",
+            "account": "RO30POOB9523423715747796",
+            "timestamp": 315
+        },
+        {
+            "command": "printTransactions",
+            "email": "Theresa_West@hotmail.us",
+            "timestamp": 316
+        },
+        {
+            "command": "withdrawSavings",
+            "account": "RO30POOB9523423715747796",
+            "amount": 1980.16,
+            "currency": "USD",
+            "timestamp": 317
+        },
+        {
+            "command": "printTransactions",
+            "email": "Theresa_West@hotmail.us",
+            "timestamp": 318
+        },
+        {
+            "command": "addInterest",
+            "account": "RO96POOB6738272785416988",
+            "timestamp": 319
+        },
+        {
+            "command": "printTransactions",
+            "email": "Judith_Edwards@outlook.us",
+            "timestamp": 320
+        },
+        {
+            "command": "addInterest",
+            "account": "RO69POOB9846198978826791",
+            "timestamp": 321
+        },
+        {
+            "command": "printTransactions",
+            "email": "Fabian_Ababe@yahoo.ro",
+            "timestamp": 322
+        },
+        {
+            "command": "splitPayment",
+            "splitPaymentType": "custom",
+            "accounts": [
+                "RO19POOB4981055641668812",
+                "RO76POOB4035116042454483",
+                "RO79POOB3616857825600958",
+                "RO90POOB5450777208072365",
+                "RO58POOB7344468893732422"
+            ],
+            "amount": 3919.33,
+            "amountForUsers": [
+                946.67,
+                582,
+                493.33,
+                1104,
+                793.33
+            ],
+            "currency": "RON",
+            "timestamp": 323
+        },
+        {
+            "command": "addFunds",
+            "email": "Theresa_West@hotmail.us",
+            "account": "RO19POOB4981055641668812",
+            "amount": 333.33,
+            "timestamp": 324
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO19POOB4981055641668812",
+            "newPlanType": "silver",
+            "timestamp": 325
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO19POOB4981055641668812",
+            "splitPaymentType": "custom",
+            "timestamp": 326
+        },
+        {
+            "command": "addFunds",
+            "email": "Theresa_West@hotmail.us",
+            "account": "RO19POOB4981055641668812",
+            "amount": 2193.33,
+            "timestamp": 327
+        },
+        {
+            "command": "printTransactions",
+            "email": "Theresa_West@hotmail.us",
+            "timestamp": 328
+        },
+        {
+            "command": "addFunds",
+            "email": "Miron_Dochioiu@hotmail.ro",
+            "account": "RO76POOB4035116042454483",
+            "amount": 100.0,
+            "timestamp": 329
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO76POOB4035116042454483",
+            "newPlanType": "silver",
+            "timestamp": 330
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO76POOB4035116042454483",
+            "splitPaymentType": "custom",
+            "timestamp": 331
+        },
+        {
+            "command": "addFunds",
+            "email": "Miron_Dochioiu@hotmail.ro",
+            "account": "RO76POOB4035116042454483",
+            "amount": 516.0,
+            "timestamp": 332
+        },
+        {
+            "command": "printTransactions",
+            "email": "Miron_Dochioiu@hotmail.ro",
+            "timestamp": 333
+        },
+        {
+            "command": "addFunds",
+            "email": "Mary_Vasquez@outlook.us",
+            "account": "RO79POOB3616857825600958",
+            "amount": 333.33,
+            "timestamp": 334
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO79POOB3616857825600958",
+            "newPlanType": "silver",
+            "timestamp": 335
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO79POOB3616857825600958",
+            "splitPaymentType": "custom",
+            "timestamp": 336
+        },
+        {
+            "command": "addFunds",
+            "email": "Mary_Vasquez@outlook.us",
+            "account": "RO79POOB3616857825600958",
+            "amount": 1906.67,
+            "timestamp": 337
+        },
+        {
+            "command": "printTransactions",
+            "email": "Mary_Vasquez@outlook.us",
+            "timestamp": 338
+        },
+        {
+            "command": "addFunds",
+            "email": "Toma_Tomescu@gmail.ro",
+            "account": "RO90POOB5450777208072365",
+            "amount": 100.0,
+            "timestamp": 339
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO90POOB5450777208072365",
+            "newPlanType": "silver",
+            "timestamp": 340
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO90POOB5450777208072365",
+            "splitPaymentType": "custom",
+            "timestamp": 341
+        },
+        {
+            "command": "addFunds",
+            "email": "Toma_Tomescu@gmail.ro",
+            "account": "RO90POOB5450777208072365",
+            "amount": 793.0,
+            "timestamp": 342
+        },
+        {
+            "command": "printTransactions",
+            "email": "Toma_Tomescu@gmail.ro",
+            "timestamp": 343
+        },
+        {
+            "command": "addFunds",
+            "email": "Emily_Jimenez@outlook.us",
+            "account": "RO58POOB7344468893732422",
+            "amount": 333.33,
+            "timestamp": 344
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO58POOB7344468893732422",
+            "newPlanType": "silver",
+            "timestamp": 345
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "RO58POOB7344468893732422",
+            "splitPaymentType": "custom",
+            "timestamp": 346
+        },
+        {
+            "command": "addFunds",
+            "email": "Emily_Jimenez@outlook.us",
+            "account": "RO58POOB7344468893732422",
+            "amount": 2476.67,
+            "timestamp": 347
+        },
+        {
+            "command": "printTransactions",
+            "email": "Emily_Jimenez@outlook.us",
+            "timestamp": 348
+        },
+        {
+            "command": "cashWithdrawal",
+            "cardNumber": "4686471658318359",
+            "amount": 550,
+            "location": "Sandoz (AR)",
+            "timestamp": 349
+        },
+        {
+            "command": "cashWithdrawal",
+            "cardNumber": "6796819982034243",
+            "amount": 644,
+            "location": "Lynnbury",
+            "timestamp": 350
+        },
+        {
+            "command": "cashWithdrawal",
+            "cardNumber": "1322658752653937",
+            "amount": 705,
+            "location": "West Miranda",
+            "timestamp": 351
+        },
+        {
+            "command": "cashWithdrawal",
+            "cardNumber": "7901879264253296",
+            "amount": 708,
+            "location": "Wieringerwerf",
+            "timestamp": 352
+        },
+        {
+            "command": "cashWithdrawal",
+            "cardNumber": "8207906978464446",
+            "amount": 537,
+            "location": "Sandoz (AR)",
+            "timestamp": 353
+        }
+    ]
 }

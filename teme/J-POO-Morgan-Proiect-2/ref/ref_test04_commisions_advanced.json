@@ -149,6 +149,13 @@
   },
   "timestamp" : 41
 }, {
+  "command" : "cashWithdrawal",
+  "output" : {
+    "timestamp" : 43,
+    "description" : "User not found"
+  },
+  "timestamp" : 43
+}, {
   "command" : "printTransactions",
   "output" : [ {
     "timestamp" : 37,
@@ -159,10 +166,6 @@
     "card" : "8207906978464446",
     "cardHolder" : "Dennis_Norris@yahoo.us",
     "account" : "RO76POOB4035116042454483"
-  }, {
-    "timestamp" : 43,
-    "description" : "Cash withdrawal of 100000.0",
-    "amount" : 100000.0
   } ],
   "timestamp" : 44
 }, {
@@ -267,7 +270,7 @@
     "email" : "Dennis_Norris@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 79374.57,
+      "balance" : 100846.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -323,10 +326,7 @@
     "timestamp" : 49,
     "description" : "Card payment",
     "amount" : 18.0,
-    "commerciant" : "Samsung"
-  }, {
-    "timestamp" : 50,
-    "description" : "Insufficient funds"
+    "commerciant" : "Nike"
   }, {
     "timestamp" : 51,
     "description" : "Visit to a local healthcare clinic",
@@ -344,6 +344,13 @@
   },
   "timestamp" : 57
 }, {
+  "command" : "cashWithdrawal",
+  "output" : {
+    "timestamp" : 59,
+    "description" : "User not found"
+  },
+  "timestamp" : 59
+}, {
   "command" : "printTransactions",
   "output" : [ {
     "timestamp" : 46,
@@ -358,10 +365,7 @@
     "timestamp" : 49,
     "description" : "Card payment",
     "amount" : 18.0,
-    "commerciant" : "Samsung"
-  }, {
-    "timestamp" : 50,
-    "description" : "Insufficient funds"
+    "commerciant" : "Nike"
   }, {
     "timestamp" : 51,
     "description" : "Visit to a local healthcare clinic",
@@ -378,11 +382,7 @@
     "timestamp" : 56,
     "description" : "Card payment",
     "amount" : 244.0,
-    "commerciant" : "Burger King"
-  }, {
-    "timestamp" : 59,
-    "description" : "Cash withdrawal of 600.0",
-    "amount" : 600.0
+    "commerciant" : "Samsung"
   } ],
   "timestamp" : 60
 }, {
@@ -414,7 +414,7 @@
     "email" : "Brandi_Schultz@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
-      "balance" : 1917.63,
+      "balance" : 2046.33,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -496,7 +496,7 @@
     "email" : "Dennis_Norris@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 79377.57,
+      "balance" : 100849.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -545,6 +545,13 @@
   },
   "timestamp" : 65
 }, {
+  "command" : "cashWithdrawal",
+  "output" : {
+    "timestamp" : 67,
+    "description" : "User not found"
+  },
+  "timestamp" : 67
+}, {
   "command" : "printTransactions",
   "output" : [ {
     "timestamp" : 1,
@@ -560,10 +567,6 @@
     "description" : "Upgrade plan",
     "accountIBAN" : "RO58POOB7344468893732422",
     "newPlanType" : "gold"
-  }, {
-    "timestamp" : 67,
-    "description" : "Cash withdrawal of 600.0",
-    "amount" : 600.0
   } ],
   "timestamp" : 68
 }, {
@@ -595,7 +598,7 @@
     "email" : "Brandi_Schultz@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
-      "balance" : 1917.63,
+      "balance" : 2046.33,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -640,7 +643,7 @@
     "email" : "Jason_Carpenter@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO58POOB7344468893732422",
-      "balance" : 2773.43,
+      "balance" : 2902.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -680,7 +683,7 @@
     "email" : "Dennis_Norris@yahoo.us",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 79377.57,
+      "balance" : 100849.0,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {

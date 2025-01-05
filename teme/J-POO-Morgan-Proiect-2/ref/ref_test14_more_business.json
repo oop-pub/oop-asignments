@@ -2,173 +2,195 @@
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO69POOB6209498372540635",
-    "balance" : 621.0,
-    "currency" : "USD",
-    "spending limit" : 111.11,
-    "deposit limit" : 993.0,
+    "balance" : 578.0,
+    "currency" : "EUR",
+    "spending limit" : 1333.33,
+    "deposit limit" : 334.0,
     "statistics type" : "transaction",
     "managers" : [ ],
     "employees" : [ {
-      "username" : "Yoder Shannon",
+      "username" : "Cristea Cornelia",
       "spent" : 0.0,
-      "deposited" : 186.0
+      "deposited" : 141.0
     }, {
-      "username" : "Mazilescu Anghelina",
+      "username" : "Aubry Benjamin",
       "spent" : 0.0,
-      "deposited" : 143.0
-    }, {
-      "username" : "Cristea Bucur",
-      "spent" : 0.0,
-      "deposited" : 129.0
+      "deposited" : 105.0
     }, {
       "username" : "Georgescu Iuliana",
       "spent" : 0.0,
-      "deposited" : 163.0
+      "deposited" : 183.0
+    }, {
+      "username" : "Leduc-Mace Alix",
+      "spent" : 0.0,
+      "deposited" : 149.0
     } ],
     "total spent" : 0.0,
-    "total deposited" : 621.0
+    "total deposited" : 578.0
   },
-  "timestamp" : 113
+  "timestamp" : 88
 }, {
   "command" : "cashWithdrawal",
   "output" : {
-    "timestamp" : 117,
+    "timestamp" : 92,
     "description" : "User not found"
   },
-  "timestamp" : 117
+  "timestamp" : 92
 }, {
   "command" : "cashWithdrawal",
   "output" : {
-    "timestamp" : 118,
+    "timestamp" : 93,
     "description" : "User not found"
   },
-  "timestamp" : 118
+  "timestamp" : 93
 }, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO69POOB6209498372540635",
-    "balance" : 5193.0,
-    "currency" : "USD",
-    "spending limit" : 111.11,
-    "deposit limit" : 993.0,
+    "balance" : 2939.2,
+    "currency" : "EUR",
+    "spending limit" : 1333.33,
+    "deposit limit" : 334.0,
     "statistics type" : "transaction",
     "managers" : [ ],
     "employees" : [ {
-      "username" : "Yoder Shannon",
+      "username" : "Cristea Cornelia",
       "spent" : 0.0,
-      "deposited" : 186.0
+      "deposited" : 141.0
     }, {
-      "username" : "Mazilescu Anghelina",
+      "username" : "Aubry Benjamin",
       "spent" : 0.0,
-      "deposited" : 143.0
-    }, {
-      "username" : "Cristea Bucur",
-      "spent" : 0.0,
-      "deposited" : 129.0
+      "deposited" : 105.0
     }, {
       "username" : "Georgescu Iuliana",
-      "spent" : 0.0,
-      "deposited" : 163.0
+      "spent" : 466.0,
+      "deposited" : 183.0
+    }, {
+      "username" : "Leduc-Mace Alix",
+      "spent" : 147.0,
+      "deposited" : 149.0
     } ],
-    "total spent" : 0.0,
-    "total deposited" : 621.0
+    "total spent" : 613.0,
+    "total deposited" : 578.0
   },
-  "timestamp" : 122
+  "timestamp" : 97
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 171,
+    "timestamp" : 147,
     "description" : "Card not found"
   },
-  "timestamp" : 171
+  "timestamp" : 147
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 172,
+    "timestamp" : 149,
     "description" : "Card not found"
+  },
+  "timestamp" : 149
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 152,
+    "description" : "Card not found"
+  },
+  "timestamp" : 152
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 157,
+    "description" : "Card not found"
+  },
+  "timestamp" : 157
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 162,
+    "description" : "Card not found"
+  },
+  "timestamp" : 162
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 164,
+    "description" : "Card not found"
+  },
+  "timestamp" : 164
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 167,
+    "description" : "Card not found"
+  },
+  "timestamp" : 167
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 169,
+    "description" : "Card not found"
+  },
+  "timestamp" : 169
+}, {
+  "command" : "businessReport",
+  "output" : {
+    "IBAN" : "RO69POOB6209498372540635",
+    "balance" : 15260.1,
+    "currency" : "EUR",
+    "spending limit" : 1333.33,
+    "deposit limit" : 334.0,
+    "statistics type" : "transaction",
+    "managers" : [ ],
+    "employees" : [ {
+      "username" : "Cristea Cornelia",
+      "spent" : 173.97,
+      "deposited" : 141.0
+    }, {
+      "username" : "Aubry Benjamin",
+      "spent" : 552.71,
+      "deposited" : 105.0
+    }, {
+      "username" : "Georgescu Iuliana",
+      "spent" : 581.0,
+      "deposited" : 183.0
+    }, {
+      "username" : "Leduc-Mace Alix",
+      "spent" : 765.0,
+      "deposited" : 149.0
+    } ],
+    "total spent" : 2072.6800000000003,
+    "total deposited" : 578.0
   },
   "timestamp" : 172
 }, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 178,
-    "description" : "Card not found"
-  },
-  "timestamp" : 178
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 187,
-    "description" : "Card not found"
-  },
-  "timestamp" : 187
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 188,
-    "description" : "Card not found"
-  },
-  "timestamp" : 188
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 191,
-    "description" : "Card not found"
-  },
-  "timestamp" : 191
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 192,
-    "description" : "Card not found"
-  },
-  "timestamp" : 192
-}, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO69POOB6209498372540635",
-    "balance" : 20754.02,
-    "currency" : "USD",
-    "spending limit" : 111.11,
-    "deposit limit" : 993.0,
-    "statistics type" : "transaction",
-    "managers" : [ ],
-    "employees" : [ {
-      "username" : "Yoder Shannon",
-      "spent" : 32.0,
-      "deposited" : 186.0
-    }, {
-      "username" : "Mazilescu Anghelina",
-      "spent" : 109.0,
-      "deposited" : 143.0
-    }, {
-      "username" : "Cristea Bucur",
-      "spent" : 0.0,
-      "deposited" : 129.0
-    }, {
-      "username" : "Georgescu Iuliana",
-      "spent" : 0.0,
-      "deposited" : 163.0
-    } ],
-    "total spent" : 141.0,
-    "total deposited" : 621.0
-  },
-  "timestamp" : 196
-}, {
-  "command" : "businessReport",
-  "output" : {
-    "IBAN" : "RO69POOB6209498372540635",
-    "balance" : 20754.02,
-    "currency" : "USD",
-    "spending limit" : 111.11,
-    "deposit limit" : 993.0,
+    "balance" : 15260.1,
+    "currency" : "EUR",
+    "spending limit" : 1333.33,
+    "deposit limit" : 334.0,
     "statistics type" : "commerciant",
     "commerciants" : [ {
-      "commerciant" : "Zara",
-      "total received" : 141.0,
+      "commerciant" : "Amazon",
+      "total received" : 143.0,
       "managers" : [ ],
-      "employees" : [ "Mazilescu Anghelina", "Yoder Shannon" ]
+      "employees" : [ "Leduc-Mace Alix" ]
+    }, {
+      "commerciant" : "Burger King",
+      "total received" : 559.71,
+      "managers" : [ ],
+      "employees" : [ "Aubry Benjamin", "Georgescu Iuliana", "Leduc-Mace Alix", "Leduc-Mace Alix" ]
+    }, {
+      "commerciant" : "McDonalds",
+      "total received" : 813.0,
+      "managers" : [ ],
+      "employees" : [ "Aubry Benjamin", "Georgescu Iuliana" ]
+    }, {
+      "commerciant" : "Microsoft",
+      "total received" : 556.97,
+      "managers" : [ ],
+      "employees" : [ "Cristea Cornelia", "Georgescu Iuliana", "Leduc-Mace Alix" ]
     } ]
   },
-  "timestamp" : 197
+  "timestamp" : 173
 } ]

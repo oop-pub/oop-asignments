@@ -2,31 +2,31 @@
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO58POOB2721178218599590",
-    "balance" : 8400.33,
+    "balance" : 9544.0,
     "currency" : "EUR",
-    "spending limit" : 89.0,
-    "deposit limit" : 1333.33,
+    "spending limit" : 339.0,
+    "deposit limit" : 119.05,
     "statistics type" : "transaction",
     "managers" : [ {
-      "username" : "Riviere-Joubert Eugene",
-      "spent" : 192.0,
-      "deposited" : 2853.0
+      "username" : "Diaconu Artemisa",
+      "spent" : 186.0,
+      "deposited" : 3357.0
     }, {
-      "username" : "Cristea Anemona",
-      "spent" : 321.0,
-      "deposited" : 2682.0
+      "username" : "Coulon Christophe-Adrien",
+      "spent" : 214.0,
+      "deposited" : 3005.0
     } ],
     "employees" : [ {
-      "username" : "Dobre Saveta",
-      "spent" : 71.0,
+      "username" : "Becker Antoine",
+      "spent" : 0.0,
       "deposited" : 0.0
     }, {
-      "username" : "Boulay Noemi-Anais",
+      "username" : "Johnson John",
       "spent" : 0.0,
       "deposited" : 0.0
     } ],
-    "total spent" : 584.0,
-    "total deposited" : 5535.0
+    "total spent" : 400.0,
+    "total deposited" : 6362.0
   },
-  "timestamp" : 223
+  "timestamp" : 280
 } ]

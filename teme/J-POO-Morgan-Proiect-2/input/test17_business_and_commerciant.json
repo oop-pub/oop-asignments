@@ -1,1280 +1,1683 @@
 {
-  "users": [
-    {
-      "firstName": "Jean",
-      "lastName": "Breton",
-      "email": "Jean_Breton@yahoo.fr",
-      "birthDate": "1973-02-16",
-      "occupation": "construction worker"
-    },
-    {
-      "firstName": "Teea",
-      "lastName": "Dima",
-      "email": "Teea_Dima@outlook.ro",
-      "birthDate": "1982-10-12",
-      "occupation": "electrician"
-    },
-    {
-      "firstName": "Theophile",
-      "lastName": "Becker",
-      "email": "Theophile_Becker@outlook.fr",
-      "birthDate": "1980-09-24",
-      "occupation": "racing driver"
-    },
-    {
-      "firstName": "Clara",
-      "lastName": "Marin",
-      "email": "Clara_Marin@outlook.ro",
-      "birthDate": "1981-09-08",
-      "occupation": "librarian"
-    },
-    {
-      "firstName": "Arthur",
-      "lastName": "de la Nguyen",
-      "email": "Arthur_de_la_Nguyen@hotmail.fr",
-      "birthDate": "1990-12-14",
-      "occupation": "farmer"
-    },
-    {
-      "firstName": "Patrick",
-      "lastName": "Gomes-Nicolas",
-      "email": "Patrick_Gomes-Nicolas@yahoo.fr",
-      "birthDate": "2002-10-07",
-      "occupation": "electrician"
-    },
-    {
-      "firstName": "Lucas",
-      "lastName": "Garnier",
-      "email": "Lucas_Garnier@yahoo.fr",
-      "birthDate": "1971-10-10",
-      "occupation": "designer"
-    },
-    {
-      "firstName": "Edouard",
-      "lastName": "du Mahe",
-      "email": "Edouard_du_Mahe@gmail.fr",
-      "birthDate": "1983-01-20",
-      "occupation": "farmer"
-    },
-    {
-      "firstName": "Barry",
-      "lastName": "Christian",
-      "email": "Barry_Christian@yahoo.us",
-      "birthDate": "1983-06-05",
-      "occupation": "racing driver"
-    },
-    {
-      "firstName": "Victor",
-      "lastName": "du Bailly",
-      "email": "Victor_du_Bailly@gmail.fr",
-      "birthDate": "1975-06-04",
-      "occupation": "politician"
-    },
-    {
-      "firstName": "Dorinel",
-      "lastName": "Pop",
-      "email": "Dorinel_Pop@gmail.ro",
-      "birthDate": "1975-04-19",
-      "occupation": "electrician"
-    },
-    {
-      "firstName": "Codrut",
-      "lastName": "Dochioiu",
-      "email": "Codrut_Dochioiu@outlook.ro",
-      "birthDate": "2003-06-28",
-      "occupation": "programmer"
-    },
-    {
-      "firstName": "Alex",
-      "lastName": "Fouquet",
-      "email": "Alex_Fouquet@gmail.fr",
-      "birthDate": "1985-01-06",
-      "occupation": "cashier"
-    },
-    {
-      "firstName": "Samuel",
-      "lastName": "West",
-      "email": "Samuel_West@gmail.us",
-      "birthDate": "2000-08-11",
-      "occupation": "pharmacist"
-    },
-    {
-      "firstName": "Noemi",
-      "lastName": "Hubert",
-      "email": "Noemi_Hubert@yahoo.fr",
-      "birthDate": "1983-01-27",
-      "occupation": "farmer"
-    },
-    {
-      "firstName": "Francois",
-      "lastName": "Poirier",
-      "email": "Francois_Poirier@yahoo.fr",
-      "birthDate": "2003-05-22",
-      "occupation": "farmer"
-    },
-    {
-      "firstName": "Briana",
-      "lastName": "Stevens",
-      "email": "Briana_Stevens@yahoo.us",
-      "birthDate": "1997-10-28",
-      "occupation": "influencer"
-    },
-    {
-      "firstName": "Geanina",
-      "lastName": "Eftimie",
-      "email": "Geanina_Eftimie@hotmail.ro",
-      "birthDate": "1998-02-02",
-      "occupation": "actor"
-    },
-    {
-      "firstName": "Henrieta",
-      "lastName": "Stanescu",
-      "email": "Henrieta_Stanescu@yahoo.ro",
-      "birthDate": "1984-03-03",
-      "occupation": "influencer"
-    },
-    {
-      "firstName": "Ghita",
-      "lastName": "Dobre",
-      "email": "Ghita_Dobre@outlook.ro",
-      "birthDate": "2001-05-07",
-      "occupation": "designer"
-    }
-  ],
-  "commerciants": [
-    {
-      "commerciant": "Zara",
-      "id": 79,
-      "account": "RO22POOB3875162728202296",
-      "type": "Clothes",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "Burger King",
-      "id": 106,
-      "account": "RO28POOB5923933391234057",
-      "type": "Food",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "H&M",
-      "id": 83,
-      "account": "RO25POOB4386521661484930",
-      "type": "Clothes",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "Amazon",
-      "id": 126,
-      "account": "RO32POOB8964686295716974",
-      "type": "Tech",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "Apple",
-      "id": 113,
-      "account": "RO75POOB9251835314648427",
-      "type": "Tech",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "Nike",
-      "id": 88,
-      "account": "RO15POOB4333403266660236",
-      "type": "Clothes",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "Samsung",
-      "id": 116,
-      "account": "RO95POOB9807857732666986",
-      "type": "Tech",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "Microsoft",
-      "id": 126,
-      "account": "RO66POOB9463355196372136",
-      "type": "Tech",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "KFC",
-      "id": 106,
-      "account": "RO01POOB5884922951883378",
-      "type": "Food",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "McDonalds",
-      "id": 98,
-      "account": "RO17POOB8495306331082091",
-      "type": "Food",
-      "cashbackStrategy": "spendingThreshold"
-    }
-  ],
-  "exchangeRates": [
-    {
-      "from": "USD",
-      "to": "EUR",
-      "rate": 0.9
-    },
-    {
-      "from": "EUR",
-      "to": "RON",
-      "rate": 5.0
-    }
-  ],
-  "commands": [
-    {
-      "command": "addAccount",
-      "email": "Dorinel_Pop@gmail.ro",
-      "currency": "RON",
-      "accountType": "classic",
-      "timestamp": 1
-    },
-    {
-      "command": "addFunds",
-      "email": "Dorinel_Pop@gmail.ro",
-      "account": "RO58POOB7344468893732422",
-      "amount": 648,
-      "timestamp": 13
-    },
-    {
-      "command": "addAccount",
-      "email": "Briana_Stevens@yahoo.us",
-      "currency": "USD",
-      "accountType": "classic",
-      "timestamp": 14
-    },
-    {
-      "command": "addFunds",
-      "email": "Briana_Stevens@yahoo.us",
-      "account": "RO69POOB6209498372540635",
-      "amount": 591,
-      "timestamp": 20
-    },
-    {
-      "command": "addAccount",
-      "email": "Noemi_Hubert@yahoo.fr",
-      "currency": "EUR",
-      "accountType": "classic",
-      "timestamp": 21
-    },
-    {
-      "command": "addFunds",
-      "email": "Noemi_Hubert@yahoo.fr",
-      "account": "RO90POOB5450777208072365",
-      "amount": 306,
-      "timestamp": 24
-    },
-    {
-      "command": "addAccount",
-      "email": "Barry_Christian@yahoo.us",
-      "currency": "USD",
-      "accountType": "classic",
-      "timestamp": 25
-    },
-    {
-      "command": "addFunds",
-      "email": "Barry_Christian@yahoo.us",
-      "account": "RO65POOB8944016386845896",
-      "amount": 913,
-      "timestamp": 45
-    },
-    {
-      "command": "addAccount",
-      "email": "Henrieta_Stanescu@yahoo.ro",
-      "currency": "RON",
-      "accountType": "classic",
-      "timestamp": 46
-    },
-    {
-      "command": "addFunds",
-      "email": "Henrieta_Stanescu@yahoo.ro",
-      "account": "RO58POOB2721178218599590",
-      "amount": 438,
-      "timestamp": 51
-    },
-    {
-      "command": "addAccount",
-      "email": "Teea_Dima@outlook.ro",
-      "currency": "RON",
-      "accountType": "classic",
-      "timestamp": 52
-    },
-    {
-      "command": "addFunds",
-      "email": "Teea_Dima@outlook.ro",
-      "account": "RO76POOB4035116042454483",
-      "amount": 930,
-      "timestamp": 59
-    },
-    {
-      "command": "addAccount",
-      "email": "Theophile_Becker@outlook.fr",
-      "currency": "EUR",
-      "accountType": "classic",
-      "timestamp": 60
-    },
-    {
-      "command": "addFunds",
-      "email": "Theophile_Becker@outlook.fr",
-      "account": "RO37POOB7013767509830666",
-      "amount": 310,
-      "timestamp": 63
-    },
-    {
-      "command": "addAccount",
-      "email": "Ghita_Dobre@outlook.ro",
-      "currency": "RON",
-      "accountType": "classic",
-      "timestamp": 64
-    },
-    {
-      "command": "addFunds",
-      "email": "Ghita_Dobre@outlook.ro",
-      "account": "RO19POOB4981055641668812",
-      "amount": 707,
-      "timestamp": 79
-    },
-    {
-      "command": "addAccount",
-      "email": "Francois_Poirier@yahoo.fr",
-      "currency": "EUR",
-      "accountType": "classic",
-      "timestamp": 80
-    },
-    {
-      "command": "addFunds",
-      "email": "Francois_Poirier@yahoo.fr",
-      "account": "RO30POOB9523423715747796",
-      "amount": 468,
-      "timestamp": 96
-    },
-    {
-      "command": "addAccount",
-      "email": "Samuel_West@gmail.us",
-      "currency": "USD",
-      "accountType": "classic",
-      "timestamp": 97
-    },
-    {
-      "command": "addFunds",
-      "email": "Samuel_West@gmail.us",
-      "account": "RO79POOB3616857825600958",
-      "amount": 611,
-      "timestamp": 112
-    },
-    {
-      "command": "addAccount",
-      "email": "Henrieta_Stanescu@yahoo.ro",
-      "currency": "RON",
-      "accountType": "classic",
-      "timestamp": 113
-    },
-    {
-      "command": "addAccount",
-      "email": "Patrick_Gomes-Nicolas@yahoo.fr",
-      "currency": "EUR",
-      "accountType": "classic",
-      "timestamp": 120
-    },
-    {
-      "command": "addAccount",
-      "email": "Ghita_Dobre@outlook.ro",
-      "currency": "RON",
-      "accountType": "classic",
-      "timestamp": 129
-    },
-    {
-      "command": "addAccount",
-      "email": "Edouard_du_Mahe@gmail.fr",
-      "currency": "EUR",
-      "accountType": "classic",
-      "timestamp": 138
-    },
-    {
-      "command": "addAccount",
-      "email": "Henrieta_Stanescu@yahoo.ro",
-      "currency": "RON",
-      "accountType": "business",
-      "timestamp": 157
-    },
-    {
-      "command": "addFunds",
-      "email": "Henrieta_Stanescu@yahoo.ro",
-      "account": "RO98POOB8412955460158769",
-      "amount": 495,
-      "timestamp": 175
-    },
-    {
-      "command": "changeSpendingLimit",
-      "email": "Henrieta_Stanescu@yahoo.ro",
-      "account": "RO98POOB8412955460158769",
-      "amount": 328,
-      "timestamp": 176
-    },
-    {
-      "command": "setMinimumBalance",
-      "account": "RO98POOB8412955460158769",
-      "amount": 16,
-      "timestamp": 177
-    },
-    {
-      "command": "addAccount",
-      "email": "Patrick_Gomes-Nicolas@yahoo.fr",
-      "currency": "EUR",
-      "accountType": "business",
-      "timestamp": 178
-    },
-    {
-      "command": "addFunds",
-      "email": "Patrick_Gomes-Nicolas@yahoo.fr",
-      "account": "RO32POOB0130532963818359",
-      "amount": 117,
-      "timestamp": 189
-    },
-    {
-      "command": "changeSpendingLimit",
-      "email": "Patrick_Gomes-Nicolas@yahoo.fr",
-      "account": "RO32POOB0130532963818359",
-      "amount": 808,
-      "timestamp": 190
-    },
-    {
-      "command": "setMinimumBalance",
-      "account": "RO32POOB0130532963818359",
-      "amount": 62,
-      "timestamp": 191
-    },
-    {
-      "command": "addAccount",
-      "email": "Ghita_Dobre@outlook.ro",
-      "currency": "RON",
-      "accountType": "business",
-      "timestamp": 192
-    },
-    {
-      "command": "addFunds",
-      "email": "Ghita_Dobre@outlook.ro",
-      "account": "RO68POOB1848616931405475",
-      "amount": 26,
-      "timestamp": 198
-    },
-    {
-      "command": "changeSpendingLimit",
-      "email": "Ghita_Dobre@outlook.ro",
-      "account": "RO68POOB1848616931405475",
-      "amount": 995,
-      "timestamp": 199
-    },
-    {
-      "command": "setMinimumBalance",
-      "account": "RO68POOB1848616931405475",
-      "amount": 98,
-      "timestamp": 200
-    },
-    {
-      "command": "addAccount",
-      "email": "Edouard_du_Mahe@gmail.fr",
-      "currency": "EUR",
-      "accountType": "business",
-      "timestamp": 201
-    },
-    {
-      "command": "addFunds",
-      "email": "Edouard_du_Mahe@gmail.fr",
-      "account": "RO10POOB4354933866366881",
-      "amount": 247,
-      "timestamp": 207
-    },
-    {
-      "command": "changeSpendingLimit",
-      "email": "Edouard_du_Mahe@gmail.fr",
-      "account": "RO10POOB4354933866366881",
-      "amount": 114,
-      "timestamp": 208
-    },
-    {
-      "command": "setMinimumBalance",
-      "account": "RO10POOB4354933866366881",
-      "amount": 50,
-      "timestamp": 209
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO98POOB8412955460158769",
-      "role": "employee",
-      "email": "Henrieta_Stanescu@yahoo.ro",
-      "timestamp": 210
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO98POOB8412955460158769",
-      "role": "manager",
-      "email": "Henrieta_Stanescu@yahoo.ro",
-      "timestamp": 211
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO98POOB8412955460158769",
-      "role": "employee",
-      "email": "Patrick_Gomes-Nicolas@yahoo.fr",
-      "timestamp": 212
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO98POOB8412955460158769",
-      "role": "employee",
-      "email": "Ghita_Dobre@outlook.ro",
-      "timestamp": 213
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO98POOB8412955460158769",
-      "role": "employee",
-      "email": "Edouard_du_Mahe@gmail.fr",
-      "timestamp": 214
-    },
-    {
-      "command": "businessReport",
-      "startTimestamp": 0,
-      "endTimestamp": 213,
-      "account": "RO98POOB8412955460158769",
-      "type": "transaction",
-      "timestamp": 215
-    },
-    {
-      "command": "businessReport",
-      "startTimestamp": 1,
-      "endTimestamp": 215,
-      "account": "RO32POOB0130532963818359",
-      "type": "transaction",
-      "timestamp": 216
-    },
-    {
-      "command": "businessReport",
-      "startTimestamp": 0,
-      "endTimestamp": 216,
-      "account": "RO68POOB1848616931405475",
-      "type": "transaction",
-      "timestamp": 217
-    },
-    {
-      "command": "businessReport",
-      "startTimestamp": 1,
-      "endTimestamp": 217,
-      "account": "RO10POOB4354933866366881",
-      "type": "transaction",
-      "timestamp": 218
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO98POOB8412955460158769",
-      "role": "employee",
-      "email": "Briana_Stevens@yahoo.us",
-      "timestamp": 219
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO32POOB0130532963818359",
-      "role": "employee",
-      "email": "Briana_Stevens@yahoo.us",
-      "timestamp": 220
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO68POOB1848616931405475",
-      "role": "employee",
-      "email": "Briana_Stevens@yahoo.us",
-      "timestamp": 221
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO10POOB4354933866366881",
-      "role": "manager",
-      "email": "Briana_Stevens@yahoo.us",
-      "timestamp": 222
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO98POOB8412955460158769",
-      "role": "manager",
-      "email": "Theophile_Becker@outlook.fr",
-      "timestamp": 223
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO32POOB0130532963818359",
-      "role": "employee",
-      "email": "Theophile_Becker@outlook.fr",
-      "timestamp": 224
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO68POOB1848616931405475",
-      "role": "manager",
-      "email": "Theophile_Becker@outlook.fr",
-      "timestamp": 225
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO10POOB4354933866366881",
-      "role": "employee",
-      "email": "Theophile_Becker@outlook.fr",
-      "timestamp": 226
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO98POOB8412955460158769",
-      "role": "manager",
-      "email": "Clara_Marin@outlook.ro",
-      "timestamp": 227
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO32POOB0130532963818359",
-      "role": "manager",
-      "email": "Clara_Marin@outlook.ro",
-      "timestamp": 228
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO68POOB1848616931405475",
-      "role": "employee",
-      "email": "Clara_Marin@outlook.ro",
-      "timestamp": 229
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO10POOB4354933866366881",
-      "role": "manager",
-      "email": "Clara_Marin@outlook.ro",
-      "timestamp": 230
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO98POOB8412955460158769",
-      "role": "manager",
-      "email": "Dorinel_Pop@gmail.ro",
-      "timestamp": 231
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO32POOB0130532963818359",
-      "role": "employee",
-      "email": "Dorinel_Pop@gmail.ro",
-      "timestamp": 232
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO68POOB1848616931405475",
-      "role": "manager",
-      "email": "Dorinel_Pop@gmail.ro",
-      "timestamp": 233
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO10POOB4354933866366881",
-      "role": "employee",
-      "email": "Dorinel_Pop@gmail.ro",
-      "timestamp": 234
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO98POOB8412955460158769",
-      "role": "employee",
-      "email": "Francois_Poirier@yahoo.fr",
-      "timestamp": 235
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO32POOB0130532963818359",
-      "role": "employee",
-      "email": "Francois_Poirier@yahoo.fr",
-      "timestamp": 236
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO68POOB1848616931405475",
-      "role": "employee",
-      "email": "Francois_Poirier@yahoo.fr",
-      "timestamp": 237
-    },
-    {
-      "command": "addNewBusinessAssociate",
-      "account": "RO10POOB4354933866366881",
-      "role": "manager",
-      "email": "Francois_Poirier@yahoo.fr",
-      "timestamp": 238
-    },
-    {
-      "command": "addFunds",
-      "email": "Henrieta_Stanescu@yahoo.ro",
-      "account": "RO98POOB8412955460158769",
-      "amount": 137.0,
-      "timestamp": 239
-    },
-    {
-      "command": "addFunds",
-      "email": "Theophile_Becker@outlook.fr",
-      "account": "RO98POOB8412955460158769",
-      "amount": 150.0,
-      "timestamp": 240
-    },
-    {
-      "command": "addFunds",
-      "email": "Clara_Marin@outlook.ro",
-      "account": "RO98POOB8412955460158769",
-      "amount": 175.0,
-      "timestamp": 241
-    },
-    {
-      "command": "addFunds",
-      "email": "Dorinel_Pop@gmail.ro",
-      "account": "RO98POOB8412955460158769",
-      "amount": 195.0,
-      "timestamp": 242
-    },
-    {
-      "command": "addFunds",
-      "email": "Clara_Marin@outlook.ro",
-      "account": "RO32POOB0130532963818359",
-      "amount": 174.0,
-      "timestamp": 243
-    },
-    {
-      "command": "addFunds",
-      "email": "Theophile_Becker@outlook.fr",
-      "account": "RO68POOB1848616931405475",
-      "amount": 171.0,
-      "timestamp": 244
-    },
-    {
-      "command": "addFunds",
-      "email": "Dorinel_Pop@gmail.ro",
-      "account": "RO68POOB1848616931405475",
-      "amount": 190.0,
-      "timestamp": 245
-    },
-    {
-      "command": "addFunds",
-      "email": "Briana_Stevens@yahoo.us",
-      "account": "RO10POOB4354933866366881",
-      "amount": 199.0,
-      "timestamp": 246
-    },
-    {
-      "command": "addFunds",
-      "email": "Clara_Marin@outlook.ro",
-      "account": "RO10POOB4354933866366881",
-      "amount": 156.0,
-      "timestamp": 247
-    },
-    {
-      "command": "addFunds",
-      "email": "Francois_Poirier@yahoo.fr",
-      "account": "RO10POOB4354933866366881",
-      "amount": 149.0,
-      "timestamp": 248
-    },
-    {
-      "command": "payOnline",
-      "email": "Briana_Stevens@yahoo.us",
-      "cardNumber": "4001829491527416",
-      "amount": 290.0,
-      "currency": "RON",
-      "timestamp": 249,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "changeSpendingLimit",
-      "email": "Edouard_du_Mahe@gmail.fr",
-      "account": "RO68POOB1848616931405475",
-      "amount": 256,
-      "timestamp": 253
-    },
-    {
-      "command": "addFunds",
-      "email": "Briana_Stevens@yahoo.us",
-      "account": "RO68POOB1848616931405475",
-      "amount": 129.0,
-      "timestamp": 254
-    },
-    {
-      "command": "payOnline",
-      "email": "Briana_Stevens@yahoo.us",
-      "cardNumber": "6769125583796385",
-      "amount": 452.0,
-      "currency": "RON",
-      "timestamp": 255,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "addFunds",
-      "email": "Briana_Stevens@yahoo.us",
-      "account": "RO68POOB1848616931405475",
-      "amount": 13.0,
-      "timestamp": 260
-    },
-    {
-      "command": "payOnline",
-      "email": "Briana_Stevens@yahoo.us",
-      "cardNumber": "2827143779240285",
-      "amount": 34.0,
-      "currency": "RON",
-      "timestamp": 261,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "changeSpendingLimit",
-      "email": "Edouard_du_Mahe@gmail.fr",
-      "account": "RO68POOB1848616931405475",
-      "amount": 489,
-      "timestamp": 267
-    },
-    {
-      "command": "addFunds",
-      "email": "Briana_Stevens@yahoo.us",
-      "account": "RO68POOB1848616931405475",
-      "amount": 37.0,
-      "timestamp": 268
-    },
-    {
-      "command": "payOnline",
-      "email": "Briana_Stevens@yahoo.us",
-      "cardNumber": "4491799876006556",
-      "amount": 550.0,
-      "currency": "EUR",
-      "timestamp": 269,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "changeSpendingLimit",
-      "email": "Edouard_du_Mahe@gmail.fr",
-      "account": "RO68POOB1848616931405475",
-      "amount": 487,
-      "timestamp": 273
-    },
-    {
-      "command": "addFunds",
-      "email": "Briana_Stevens@yahoo.us",
-      "account": "RO68POOB1848616931405475",
-      "amount": 108.0,
-      "timestamp": 274
-    },
-    {
-      "command": "addFunds",
-      "email": "Briana_Stevens@yahoo.us",
-      "account": "RO68POOB1848616931405475",
-      "amount": 29.0,
-      "timestamp": 275
-    },
-    {
-      "command": "payOnline",
-      "email": "Clara_Marin@outlook.ro",
-      "cardNumber": "1752095065063305",
-      "amount": 52.5,
-      "currency": "USD",
-      "timestamp": 276,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "addFunds",
-      "email": "Clara_Marin@outlook.ro",
-      "account": "RO68POOB1848616931405475",
-      "amount": 17.0,
-      "timestamp": 280
-    },
-    {
-      "command": "payOnline",
-      "email": "Clara_Marin@outlook.ro",
-      "cardNumber": "9341628021029699",
-      "amount": 136.2,
-      "currency": "USD",
-      "timestamp": 281,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "addFunds",
-      "email": "Clara_Marin@outlook.ro",
-      "account": "RO68POOB1848616931405475",
-      "amount": 66.0,
-      "timestamp": 283
-    },
-    {
-      "command": "payOnline",
-      "email": "Clara_Marin@outlook.ro",
-      "cardNumber": "4374966931133138",
-      "amount": 383.0,
-      "currency": "RON",
-      "timestamp": 284,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "addFunds",
-      "email": "Clara_Marin@outlook.ro",
-      "account": "RO68POOB1848616931405475",
-      "amount": 110.0,
-      "timestamp": 286
-    },
-    {
-      "command": "payOnline",
-      "email": "Clara_Marin@outlook.ro",
-      "cardNumber": "6097867366365266",
-      "amount": 755.0,
-      "currency": "EUR",
-      "timestamp": 287,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "changeSpendingLimit",
-      "email": "Edouard_du_Mahe@gmail.fr",
-      "account": "RO68POOB1848616931405475",
-      "amount": 528,
-      "timestamp": 291
-    },
-    {
-      "command": "addFunds",
-      "email": "Clara_Marin@outlook.ro",
-      "account": "RO68POOB1848616931405475",
-      "amount": 32.0,
-      "timestamp": 292
-    },
-    {
-      "command": "addFunds",
-      "email": "Clara_Marin@outlook.ro",
-      "account": "RO68POOB1848616931405475",
-      "amount": 87.0,
-      "timestamp": 293
-    },
-    {
-      "command": "payOnline",
-      "email": "Francois_Poirier@yahoo.fr",
-      "cardNumber": "9284968684427386",
-      "amount": 77.0,
-      "currency": "RON",
-      "timestamp": 294,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "changeSpendingLimit",
-      "email": "Edouard_du_Mahe@gmail.fr",
-      "account": "RO68POOB1848616931405475",
-      "amount": 674,
-      "timestamp": 300
-    },
-    {
-      "command": "addFunds",
-      "email": "Francois_Poirier@yahoo.fr",
-      "account": "RO68POOB1848616931405475",
-      "amount": 95.0,
-      "timestamp": 301
-    },
-    {
-      "command": "payOnline",
-      "email": "Francois_Poirier@yahoo.fr",
-      "cardNumber": "9317979456445303",
-      "amount": 121.8,
-      "currency": "USD",
-      "timestamp": 302,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "addFunds",
-      "email": "Francois_Poirier@yahoo.fr",
-      "account": "RO68POOB1848616931405475",
-      "amount": 92.0,
-      "timestamp": 308
-    },
-    {
-      "command": "payOnline",
-      "email": "Francois_Poirier@yahoo.fr",
-      "cardNumber": "2411524438886950",
-      "amount": 178.0,
-      "currency": "RON",
-      "timestamp": 309,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "addFunds",
-      "email": "Francois_Poirier@yahoo.fr",
-      "account": "RO68POOB1848616931405475",
-      "amount": 139.0,
-      "timestamp": 313
-    },
-    {
-      "command": "payOnline",
-      "email": "Francois_Poirier@yahoo.fr",
-      "cardNumber": "8482522718940812",
-      "amount": 575.0,
-      "currency": "EUR",
-      "timestamp": 314,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "addFunds",
-      "email": "Francois_Poirier@yahoo.fr",
-      "account": "RO68POOB1848616931405475",
-      "amount": 143.0,
-      "timestamp": 319
-    },
-    {
-      "command": "addFunds",
-      "email": "Francois_Poirier@yahoo.fr",
-      "account": "RO68POOB1848616931405475",
-      "amount": 15.0,
-      "timestamp": 320
-    },
-    {
-      "command": "payOnline",
-      "email": "Theophile_Becker@outlook.fr",
-      "cardNumber": "0909939046574276",
-      "amount": 378.0,
-      "currency": "EUR",
-      "timestamp": 321,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "addFunds",
-      "email": "Theophile_Becker@outlook.fr",
-      "account": "RO10POOB4354933866366881",
-      "amount": 12.0,
-      "timestamp": 323
-    },
-    {
-      "command": "payOnline",
-      "email": "Theophile_Becker@outlook.fr",
-      "cardNumber": "6149001534774049",
-      "amount": 81.0,
-      "currency": "EUR",
-      "timestamp": 324,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "addFunds",
-      "email": "Theophile_Becker@outlook.fr",
-      "account": "RO10POOB4354933866366881",
-      "amount": 113.0,
-      "timestamp": 326
-    },
-    {
-      "command": "payOnline",
-      "email": "Theophile_Becker@outlook.fr",
-      "cardNumber": "1689085620476974",
-      "amount": 338.0,
-      "currency": "EUR",
-      "timestamp": 327,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "addFunds",
-      "email": "Theophile_Becker@outlook.fr",
-      "account": "RO10POOB4354933866366881",
-      "amount": 12.0,
-      "timestamp": 330
-    },
-    {
-      "command": "payOnline",
-      "email": "Theophile_Becker@outlook.fr",
-      "cardNumber": "1532206051720830",
-      "amount": 35.0,
-      "currency": "EUR",
-      "timestamp": 331,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "addFunds",
-      "email": "Theophile_Becker@outlook.fr",
-      "account": "RO10POOB4354933866366881",
-      "amount": 38.0,
-      "timestamp": 333
-    },
-    {
-      "command": "addFunds",
-      "email": "Theophile_Becker@outlook.fr",
-      "account": "RO10POOB4354933866366881",
-      "amount": 95.0,
-      "timestamp": 334
-    },
-    {
-      "command": "payOnline",
-      "email": "Dorinel_Pop@gmail.ro",
-      "cardNumber": "5618142873067979",
-      "amount": 205.0,
-      "currency": "EUR",
-      "timestamp": 335,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "addFunds",
-      "email": "Dorinel_Pop@gmail.ro",
-      "account": "RO10POOB4354933866366881",
-      "amount": 33.0,
-      "timestamp": 341
-    },
-    {
-      "command": "payOnline",
-      "email": "Dorinel_Pop@gmail.ro",
-      "cardNumber": "1003132631143043",
-      "amount": 285.0,
-      "currency": "EUR",
-      "timestamp": 342,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "changeSpendingLimit",
-      "email": "Edouard_du_Mahe@gmail.fr",
-      "account": "RO10POOB4354933866366881",
-      "amount": 854,
-      "timestamp": 346
-    },
-    {
-      "command": "addFunds",
-      "email": "Dorinel_Pop@gmail.ro",
-      "account": "RO10POOB4354933866366881",
-      "amount": 34.0,
-      "timestamp": 347
-    },
-    {
-      "command": "payOnline",
-      "email": "Dorinel_Pop@gmail.ro",
-      "cardNumber": "6784853611217398",
-      "amount": 243.0,
-      "currency": "EUR",
-      "timestamp": 348,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "addFunds",
-      "email": "Dorinel_Pop@gmail.ro",
-      "account": "RO10POOB4354933866366881",
-      "amount": 59.0,
-      "timestamp": 350
-    },
-    {
-      "command": "payOnline",
-      "email": "Dorinel_Pop@gmail.ro",
-      "cardNumber": "5555143074802594",
-      "amount": 90.0,
-      "currency": "USD",
-      "timestamp": 351,
-      "description": "Online payment",
-      "commerciant": "H&M"
-    },
-    {
-      "command": "addFunds",
-      "email": "Dorinel_Pop@gmail.ro",
-      "account": "RO10POOB4354933866366881",
-      "amount": 36.0,
-      "timestamp": 355
-    },
-    {
-      "command": "addFunds",
-      "email": "Dorinel_Pop@gmail.ro",
-      "account": "RO10POOB4354933866366881",
-      "amount": 17.0,
-      "timestamp": 356
-    },
-    {
-      "command": "businessReport",
-      "startTimestamp": 0,
-      "endTimestamp": 355,
-      "account": "RO98POOB8412955460158769",
-      "type": "transaction",
-      "timestamp": 357
-    },
-    {
-      "command": "businessReport",
-      "startTimestamp": 1,
-      "endTimestamp": 357,
-      "account": "RO32POOB0130532963818359",
-      "type": "transaction",
-      "timestamp": 358
-    },
-    {
-      "command": "businessReport",
-      "startTimestamp": 0,
-      "endTimestamp": 357,
-      "account": "RO68POOB1848616931405475",
-      "type": "transaction",
-      "timestamp": 359
-    },
-    {
-      "command": "businessReport",
-      "startTimestamp": 0,
-      "endTimestamp": 359,
-      "account": "RO10POOB4354933866366881",
-      "type": "transaction",
-      "timestamp": 360
-    },
-    {
-      "command": "addFunds",
-      "email": "Henrieta_Stanescu@yahoo.ro",
-      "account": "RO98POOB8412955460158769",
-      "amount": 1012.0,
-      "timestamp": 361
-    },
-    {
-      "command": "sendMoney",
-      "account": "RO98POOB8412955460158769",
-      "amount": 1228.0,
-      "receiver": "RO25POOB4386521661484930",
-      "timestamp": 362,
-      "email": "Henrieta_Stanescu@yahoo.ro",
-      "description": "Electricity and gas bills"
-    },
-    {
-      "command": "businessReport",
-      "startTimestamp": 0,
-      "endTimestamp": 361,
-      "account": "RO98POOB8412955460158769",
-      "type": "commerciant",
-      "timestamp": 363
-    },
-    {
-      "command": "businessReport",
-      "startTimestamp": 0,
-      "endTimestamp": 362,
-      "account": "RO32POOB0130532963818359",
-      "type": "commerciant",
-      "timestamp": 364
-    },
-    {
-      "command": "businessReport",
-      "startTimestamp": 1,
-      "endTimestamp": 364,
-      "account": "RO68POOB1848616931405475",
-      "type": "commerciant",
-      "timestamp": 365
-    },
-    {
-      "command": "businessReport",
-      "startTimestamp": 0,
-      "endTimestamp": 364,
-      "account": "RO10POOB4354933866366881",
-      "type": "commerciant",
-      "timestamp": 366
-    }
-  ]
+    "users": [
+        {
+            "firstName": "Sergiu",
+            "lastName": "Ardelean",
+            "email": "Sergiu_Ardelean@gmail.ro",
+            "birthDate": "1986-06-08",
+            "occupation": "doctor"
+        },
+        {
+            "firstName": "Venera",
+            "lastName": "Tabacu",
+            "email": "Venera_Tabacu@gmail.ro",
+            "birthDate": "1973-08-27",
+            "occupation": "driver"
+        },
+        {
+            "firstName": "Giorgian",
+            "lastName": "Barbu",
+            "email": "Giorgian_Barbu@yahoo.ro",
+            "birthDate": "1975-12-19",
+            "occupation": "programmer"
+        },
+        {
+            "firstName": "Gerald",
+            "lastName": "Murphy MD",
+            "email": "Gerald_Murphy_MD@outlook.us",
+            "birthDate": "2003-01-08",
+            "occupation": "firefighter"
+        },
+        {
+            "firstName": "Angela",
+            "lastName": "Combs",
+            "email": "Angela_Combs@gmail.us",
+            "birthDate": "1979-05-09",
+            "occupation": "doctor"
+        },
+        {
+            "firstName": "Clara",
+            "lastName": "Marin",
+            "email": "Clara_Marin@outlook.ro",
+            "birthDate": "1981-05-15",
+            "occupation": "programmer"
+        },
+        {
+            "firstName": "Arthur",
+            "lastName": "de la Nguyen",
+            "email": "Arthur_de_la_Nguyen@gmail.fr",
+            "birthDate": "1975-12-07",
+            "occupation": "director"
+        },
+        {
+            "firstName": "Patrick",
+            "lastName": "Gomes-Nicolas",
+            "email": "Patrick_Gomes-Nicolas@gmail.fr",
+            "birthDate": "1977-08-07",
+            "occupation": "librarian"
+        },
+        {
+            "firstName": "Lucas",
+            "lastName": "Garnier",
+            "email": "Lucas_Garnier@hotmail.fr",
+            "birthDate": "1977-09-15",
+            "occupation": "firefighter"
+        },
+        {
+            "firstName": "Edouard",
+            "lastName": "du Mahe",
+            "email": "Edouard_du_Mahe@yahoo.fr",
+            "birthDate": "1979-04-17",
+            "occupation": "engineer"
+        },
+        {
+            "firstName": "Barry",
+            "lastName": "Christian",
+            "email": "Barry_Christian@hotmail.us",
+            "birthDate": "1992-01-13",
+            "occupation": "pharmacist"
+        },
+        {
+            "firstName": "John",
+            "lastName": "Johnson",
+            "email": "John_Johnson@outlook.us",
+            "birthDate": "1994-07-06",
+            "occupation": "politician"
+        },
+        {
+            "firstName": "Noemi",
+            "lastName": "Navarro",
+            "email": "Noemi_Navarro@yahoo.fr",
+            "birthDate": "1993-09-15",
+            "occupation": "economist"
+        },
+        {
+            "firstName": "Steven",
+            "lastName": "Cortez",
+            "email": "Steven_Cortez@yahoo.us",
+            "birthDate": "1993-06-03",
+            "occupation": "doctor"
+        },
+        {
+            "firstName": "Michele",
+            "lastName": "Pons",
+            "email": "Michele_Pons@hotmail.fr",
+            "birthDate": "1978-07-25",
+            "occupation": "cashier"
+        },
+        {
+            "firstName": "Maryse",
+            "lastName": "du Hubert",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "birthDate": "1973-02-18",
+            "occupation": "doctor"
+        },
+        {
+            "firstName": "Regina",
+            "lastName": "Green",
+            "email": "Regina_Green@yahoo.us",
+            "birthDate": "1994-04-12",
+            "occupation": "actor"
+        },
+        {
+            "firstName": "Claire",
+            "lastName": "Jacques",
+            "email": "Claire_Jacques@gmail.fr",
+            "birthDate": "1975-06-04",
+            "occupation": "politician"
+        },
+        {
+            "firstName": "Geanina",
+            "lastName": "Eftimie",
+            "email": "Geanina_Eftimie@gmail.ro",
+            "birthDate": "1975-04-19",
+            "occupation": "electrician"
+        },
+        {
+            "firstName": "Henrieta",
+            "lastName": "Stanescu",
+            "email": "Henrieta_Stanescu@outlook.ro",
+            "birthDate": "2003-06-28",
+            "occupation": "programmer"
+        }
+    ],
+    "commerciants": [
+        {
+            "commerciant": "Zara",
+            "id": 79,
+            "account": "RO22POOB3875162728202296",
+            "type": "Clothes",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "Apple",
+            "id": 112,
+            "account": "RO28POOB5923933391234057",
+            "type": "Tech",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Microsoft",
+            "id": 116,
+            "account": "RO25POOB4386521661484930",
+            "type": "Tech",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Samsung",
+            "id": 113,
+            "account": "RO32POOB8964686295716974",
+            "type": "Tech",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Amazon",
+            "id": 118,
+            "account": "RO75POOB9251835314648427",
+            "type": "Tech",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Nike",
+            "id": 90,
+            "account": "RO15POOB4333403266660236",
+            "type": "Clothes",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "KFC",
+            "id": 100,
+            "account": "RO95POOB9807857732666986",
+            "type": "Food",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Burger King",
+            "id": 108,
+            "account": "RO66POOB9463355196372136",
+            "type": "Food",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "McDonalds",
+            "id": 99,
+            "account": "RO01POOB5884922951883378",
+            "type": "Food",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "H&M",
+            "id": 84,
+            "account": "RO17POOB8495306331082091",
+            "type": "Clothes",
+            "cashbackStrategy": "nrOfTransactions"
+        }
+    ],
+    "exchangeRates": [
+        {
+            "from": "USD",
+            "to": "EUR",
+            "rate": 0.9
+        },
+        {
+            "from": "EUR",
+            "to": "RON",
+            "rate": 5.0
+        }
+    ],
+    "commands": [
+        {
+            "command": "addAccount",
+            "email": "Giorgian_Barbu@yahoo.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 1
+        },
+        {
+            "command": "addFunds",
+            "email": "Giorgian_Barbu@yahoo.ro",
+            "account": "RO58POOB7344468893732422",
+            "amount": 875,
+            "timestamp": 9
+        },
+        {
+            "command": "addAccount",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 10
+        },
+        {
+            "command": "addFunds",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO69POOB6209498372540635",
+            "amount": 651,
+            "timestamp": 26
+        },
+        {
+            "command": "addAccount",
+            "email": "Edouard_du_Mahe@yahoo.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 27
+        },
+        {
+            "command": "addFunds",
+            "email": "Edouard_du_Mahe@yahoo.fr",
+            "account": "RO90POOB5450777208072365",
+            "amount": 374,
+            "timestamp": 48
+        },
+        {
+            "command": "addAccount",
+            "email": "Clara_Marin@outlook.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 49
+        },
+        {
+            "command": "addFunds",
+            "email": "Clara_Marin@outlook.ro",
+            "account": "RO65POOB8944016386845896",
+            "amount": 333,
+            "timestamp": 66
+        },
+        {
+            "command": "addAccount",
+            "email": "Venera_Tabacu@gmail.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 67
+        },
+        {
+            "command": "addFunds",
+            "email": "Venera_Tabacu@gmail.ro",
+            "account": "RO58POOB2721178218599590",
+            "amount": 593,
+            "timestamp": 77
+        },
+        {
+            "command": "addAccount",
+            "email": "Noemi_Navarro@yahoo.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 78
+        },
+        {
+            "command": "addFunds",
+            "email": "Noemi_Navarro@yahoo.fr",
+            "account": "RO76POOB4035116042454483",
+            "amount": 218,
+            "timestamp": 97
+        },
+        {
+            "command": "addAccount",
+            "email": "Patrick_Gomes-Nicolas@gmail.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 98
+        },
+        {
+            "command": "addFunds",
+            "email": "Patrick_Gomes-Nicolas@gmail.fr",
+            "account": "RO37POOB7013767509830666",
+            "amount": 725,
+            "timestamp": 113
+        },
+        {
+            "command": "addAccount",
+            "email": "Angela_Combs@gmail.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 114
+        },
+        {
+            "command": "addFunds",
+            "email": "Angela_Combs@gmail.us",
+            "account": "RO19POOB4981055641668812",
+            "amount": 498,
+            "timestamp": 123
+        },
+        {
+            "command": "addAccount",
+            "email": "Steven_Cortez@yahoo.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 124
+        },
+        {
+            "command": "addFunds",
+            "email": "Steven_Cortez@yahoo.us",
+            "account": "RO30POOB9523423715747796",
+            "amount": 215,
+            "timestamp": 133
+        },
+        {
+            "command": "addAccount",
+            "email": "Michele_Pons@hotmail.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 134
+        },
+        {
+            "command": "addFunds",
+            "email": "Michele_Pons@hotmail.fr",
+            "account": "RO79POOB3616857825600958",
+            "amount": 137,
+            "timestamp": 147
+        },
+        {
+            "command": "addAccount",
+            "email": "Noemi_Navarro@yahoo.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 148
+        },
+        {
+            "command": "addAccount",
+            "email": "Barry_Christian@hotmail.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 150
+        },
+        {
+            "command": "addAccount",
+            "email": "Steven_Cortez@yahoo.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 170
+        },
+        {
+            "command": "addAccount",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 183
+        },
+        {
+            "command": "addAccount",
+            "email": "Noemi_Navarro@yahoo.fr",
+            "currency": "EUR",
+            "accountType": "business",
+            "timestamp": 200
+        },
+        {
+            "command": "addFunds",
+            "email": "Noemi_Navarro@yahoo.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 156,
+            "timestamp": 212
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Noemi_Navarro@yahoo.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 386,
+            "timestamp": 213
+        },
+        {
+            "command": "setMinimumBalance",
+            "account": "RO98POOB8412955460158769",
+            "amount": 33,
+            "timestamp": 214
+        },
+        {
+            "command": "addAccount",
+            "email": "Barry_Christian@hotmail.us",
+            "currency": "USD",
+            "accountType": "business",
+            "timestamp": 215
+        },
+        {
+            "command": "addFunds",
+            "email": "Barry_Christian@hotmail.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 342,
+            "timestamp": 225
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Barry_Christian@hotmail.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 648,
+            "timestamp": 226
+        },
+        {
+            "command": "setMinimumBalance",
+            "account": "RO32POOB0130532963818359",
+            "amount": 28,
+            "timestamp": 227
+        },
+        {
+            "command": "addAccount",
+            "email": "Steven_Cortez@yahoo.us",
+            "currency": "USD",
+            "accountType": "business",
+            "timestamp": 228
+        },
+        {
+            "command": "addFunds",
+            "email": "Steven_Cortez@yahoo.us",
+            "account": "RO68POOB1848616931405475",
+            "amount": 779,
+            "timestamp": 248
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Steven_Cortez@yahoo.us",
+            "account": "RO68POOB1848616931405475",
+            "amount": 63,
+            "timestamp": 249
+        },
+        {
+            "command": "setMinimumBalance",
+            "account": "RO68POOB1848616931405475",
+            "amount": 47,
+            "timestamp": 250
+        },
+        {
+            "command": "addAccount",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "currency": "EUR",
+            "accountType": "business",
+            "timestamp": 251
+        },
+        {
+            "command": "addFunds",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO10POOB4354933866366881",
+            "amount": 913,
+            "timestamp": 271
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO10POOB4354933866366881",
+            "amount": 826,
+            "timestamp": 272
+        },
+        {
+            "command": "setMinimumBalance",
+            "account": "RO10POOB4354933866366881",
+            "amount": 24,
+            "timestamp": 273
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO98POOB8412955460158769",
+            "role": "employee",
+            "email": "Barry_Christian@hotmail.us",
+            "timestamp": 274
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO98POOB8412955460158769",
+            "role": "employee",
+            "email": "Steven_Cortez@yahoo.us",
+            "timestamp": 275
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO98POOB8412955460158769",
+            "role": "employee",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "timestamp": 276
+        },
+        {
+            "command": "businessReport",
+            "startTimestamp": 1,
+            "endTimestamp": 276,
+            "account": "RO98POOB8412955460158769",
+            "type": "transaction",
+            "timestamp": 277
+        },
+        {
+            "command": "businessReport",
+            "startTimestamp": 0,
+            "endTimestamp": 277,
+            "account": "RO32POOB0130532963818359",
+            "type": "transaction",
+            "timestamp": 278
+        },
+        {
+            "command": "businessReport",
+            "startTimestamp": 1,
+            "endTimestamp": 278,
+            "account": "RO68POOB1848616931405475",
+            "type": "transaction",
+            "timestamp": 279
+        },
+        {
+            "command": "businessReport",
+            "startTimestamp": 1,
+            "endTimestamp": 279,
+            "account": "RO10POOB4354933866366881",
+            "type": "transaction",
+            "timestamp": 280
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO98POOB8412955460158769",
+            "role": "employee",
+            "email": "Barry_Christian@hotmail.us",
+            "timestamp": 281
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO32POOB0130532963818359",
+            "role": "employee",
+            "email": "Barry_Christian@hotmail.us",
+            "timestamp": 282
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO68POOB1848616931405475",
+            "role": "employee",
+            "email": "Barry_Christian@hotmail.us",
+            "timestamp": 283
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO10POOB4354933866366881",
+            "role": "manager",
+            "email": "Barry_Christian@hotmail.us",
+            "timestamp": 284
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO98POOB8412955460158769",
+            "role": "manager",
+            "email": "Venera_Tabacu@gmail.ro",
+            "timestamp": 285
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO32POOB0130532963818359",
+            "role": "employee",
+            "email": "Venera_Tabacu@gmail.ro",
+            "timestamp": 286
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO68POOB1848616931405475",
+            "role": "manager",
+            "email": "Venera_Tabacu@gmail.ro",
+            "timestamp": 287
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO10POOB4354933866366881",
+            "role": "employee",
+            "email": "Venera_Tabacu@gmail.ro",
+            "timestamp": 288
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO98POOB8412955460158769",
+            "role": "manager",
+            "email": "Gerald_Murphy_MD@outlook.us",
+            "timestamp": 289
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO32POOB0130532963818359",
+            "role": "employee",
+            "email": "Gerald_Murphy_MD@outlook.us",
+            "timestamp": 290
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO68POOB1848616931405475",
+            "role": "employee",
+            "email": "Gerald_Murphy_MD@outlook.us",
+            "timestamp": 291
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO10POOB4354933866366881",
+            "role": "employee",
+            "email": "Gerald_Murphy_MD@outlook.us",
+            "timestamp": 292
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO98POOB8412955460158769",
+            "role": "employee",
+            "email": "Angela_Combs@gmail.us",
+            "timestamp": 293
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO32POOB0130532963818359",
+            "role": "employee",
+            "email": "Angela_Combs@gmail.us",
+            "timestamp": 294
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO68POOB1848616931405475",
+            "role": "manager",
+            "email": "Angela_Combs@gmail.us",
+            "timestamp": 295
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO10POOB4354933866366881",
+            "role": "employee",
+            "email": "Angela_Combs@gmail.us",
+            "timestamp": 296
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO98POOB8412955460158769",
+            "role": "employee",
+            "email": "Claire_Jacques@gmail.fr",
+            "timestamp": 297
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO32POOB0130532963818359",
+            "role": "manager",
+            "email": "Claire_Jacques@gmail.fr",
+            "timestamp": 298
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO68POOB1848616931405475",
+            "role": "employee",
+            "email": "Claire_Jacques@gmail.fr",
+            "timestamp": 299
+        },
+        {
+            "command": "addNewBusinessAssociate",
+            "account": "RO10POOB4354933866366881",
+            "role": "employee",
+            "email": "Claire_Jacques@gmail.fr",
+            "timestamp": 300
+        },
+        {
+            "command": "addFunds",
+            "email": "Venera_Tabacu@gmail.ro",
+            "account": "RO98POOB8412955460158769",
+            "amount": 191.0,
+            "timestamp": 301
+        },
+        {
+            "command": "addFunds",
+            "email": "Gerald_Murphy_MD@outlook.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 136.0,
+            "timestamp": 302
+        },
+        {
+            "command": "addFunds",
+            "email": "Claire_Jacques@gmail.fr",
+            "account": "RO32POOB0130532963818359",
+            "amount": 132.0,
+            "timestamp": 303
+        },
+        {
+            "command": "addFunds",
+            "email": "Venera_Tabacu@gmail.ro",
+            "account": "RO68POOB1848616931405475",
+            "amount": 102.0,
+            "timestamp": 304
+        },
+        {
+            "command": "addFunds",
+            "email": "Angela_Combs@gmail.us",
+            "account": "RO68POOB1848616931405475",
+            "amount": 191.0,
+            "timestamp": 305
+        },
+        {
+            "command": "addFunds",
+            "email": "Barry_Christian@hotmail.us",
+            "account": "RO10POOB4354933866366881",
+            "amount": 105.0,
+            "timestamp": 306
+        },
+        {
+            "command": "payOnline",
+            "email": "Barry_Christian@hotmail.us",
+            "cardNumber": "4001829491527416",
+            "amount": 64.8,
+            "currency": "USD",
+            "timestamp": 307,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Barry_Christian@hotmail.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 101.0,
+            "timestamp": 310
+        },
+        {
+            "command": "payOnline",
+            "email": "Barry_Christian@hotmail.us",
+            "cardNumber": "6769125583796385",
+            "amount": 6.8,
+            "currency": "RON",
+            "timestamp": 311,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Barry_Christian@hotmail.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 56.0,
+            "timestamp": 315
+        },
+        {
+            "command": "payOnline",
+            "email": "Barry_Christian@hotmail.us",
+            "cardNumber": "2827143779240285",
+            "amount": 493.0,
+            "currency": "EUR",
+            "timestamp": 316,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 584,
+            "timestamp": 320
+        },
+        {
+            "command": "addFunds",
+            "email": "Barry_Christian@hotmail.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 136.0,
+            "timestamp": 321
+        },
+        {
+            "command": "payOnline",
+            "email": "Barry_Christian@hotmail.us",
+            "cardNumber": "4491799876006556",
+            "amount": 59.2,
+            "currency": "RON",
+            "timestamp": 322,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 495,
+            "timestamp": 324
+        },
+        {
+            "command": "addFunds",
+            "email": "Barry_Christian@hotmail.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 85.0,
+            "timestamp": 325
+        },
+        {
+            "command": "addFunds",
+            "email": "Barry_Christian@hotmail.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 111.0,
+            "timestamp": 326
+        },
+        {
+            "command": "payOnline",
+            "email": "Steven_Cortez@yahoo.us",
+            "cardNumber": "1752095065063305",
+            "amount": 453.0,
+            "currency": "EUR",
+            "timestamp": 327,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Steven_Cortez@yahoo.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 109.0,
+            "timestamp": 333
+        },
+        {
+            "command": "payOnline",
+            "email": "Steven_Cortez@yahoo.us",
+            "cardNumber": "9341628021029699",
+            "amount": 380.0,
+            "currency": "EUR",
+            "timestamp": 334,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Steven_Cortez@yahoo.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 68.0,
+            "timestamp": 337
+        },
+        {
+            "command": "payOnline",
+            "email": "Steven_Cortez@yahoo.us",
+            "cardNumber": "4374966931133138",
+            "amount": 23.0,
+            "currency": "RON",
+            "timestamp": 338,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Steven_Cortez@yahoo.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 13.0,
+            "timestamp": 343
+        },
+        {
+            "command": "payOnline",
+            "email": "Steven_Cortez@yahoo.us",
+            "cardNumber": "6097867366365266",
+            "amount": 34.0,
+            "currency": "EUR",
+            "timestamp": 344,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 489,
+            "timestamp": 350
+        },
+        {
+            "command": "addFunds",
+            "email": "Steven_Cortez@yahoo.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 37.0,
+            "timestamp": 351
+        },
+        {
+            "command": "addFunds",
+            "email": "Steven_Cortez@yahoo.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 83.0,
+            "timestamp": 352
+        },
+        {
+            "command": "payOnline",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "cardNumber": "9284968684427386",
+            "amount": 248.0,
+            "currency": "EUR",
+            "timestamp": 353,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 75,
+            "timestamp": 358
+        },
+        {
+            "command": "addFunds",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 30.0,
+            "timestamp": 359
+        },
+        {
+            "command": "payOnline",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "cardNumber": "9317979456445303",
+            "amount": 478.0,
+            "currency": "EUR",
+            "timestamp": 360,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 98,
+            "timestamp": 364
+        },
+        {
+            "command": "addFunds",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 124.0,
+            "timestamp": 365
+        },
+        {
+            "command": "payOnline",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "cardNumber": "2411524438886950",
+            "amount": 429.0,
+            "currency": "EUR",
+            "timestamp": 366,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 66.0,
+            "timestamp": 368
+        },
+        {
+            "command": "payOnline",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "cardNumber": "8482522718940812",
+            "amount": 76.6,
+            "currency": "RON",
+            "timestamp": 369,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 110.0,
+            "timestamp": 371
+        },
+        {
+            "command": "addFunds",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 96.0,
+            "timestamp": 372
+        },
+        {
+            "command": "payOnline",
+            "email": "Barry_Christian@hotmail.us",
+            "cardNumber": "0909939046574276",
+            "amount": 269.0,
+            "currency": "EUR",
+            "timestamp": 373,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Barry_Christian@hotmail.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 139.0,
+            "timestamp": 375
+        },
+        {
+            "command": "payOnline",
+            "email": "Barry_Christian@hotmail.us",
+            "cardNumber": "6149001534774049",
+            "amount": 69.8,
+            "currency": "RON",
+            "timestamp": 376,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 674,
+            "timestamp": 382
+        },
+        {
+            "command": "addFunds",
+            "email": "Barry_Christian@hotmail.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 95.0,
+            "timestamp": 383
+        },
+        {
+            "command": "payOnline",
+            "email": "Barry_Christian@hotmail.us",
+            "cardNumber": "1689085620476974",
+            "amount": 365.4,
+            "currency": "USD",
+            "timestamp": 384,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Barry_Christian@hotmail.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 92.0,
+            "timestamp": 390
+        },
+        {
+            "command": "payOnline",
+            "email": "Barry_Christian@hotmail.us",
+            "cardNumber": "1532206051720830",
+            "amount": 178.0,
+            "currency": "EUR",
+            "timestamp": 391,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Barry_Christian@hotmail.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 139.0,
+            "timestamp": 395
+        },
+        {
+            "command": "addFunds",
+            "email": "Barry_Christian@hotmail.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 62.0,
+            "timestamp": 396
+        },
+        {
+            "command": "payOnline",
+            "email": "Angela_Combs@gmail.us",
+            "cardNumber": "5618142873067979",
+            "amount": 171.0,
+            "currency": "EUR",
+            "timestamp": 397,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 414,
+            "timestamp": 403
+        },
+        {
+            "command": "addFunds",
+            "email": "Angela_Combs@gmail.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 41.0,
+            "timestamp": 404
+        },
+        {
+            "command": "payOnline",
+            "email": "Angela_Combs@gmail.us",
+            "cardNumber": "1003132631143043",
+            "amount": 52.0,
+            "currency": "EUR",
+            "timestamp": 405,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Angela_Combs@gmail.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 12.0,
+            "timestamp": 411
+        },
+        {
+            "command": "payOnline",
+            "email": "Angela_Combs@gmail.us",
+            "cardNumber": "6784853611217398",
+            "amount": 81.0,
+            "currency": "EUR",
+            "timestamp": 412,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Angela_Combs@gmail.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 113.0,
+            "timestamp": 414
+        },
+        {
+            "command": "payOnline",
+            "email": "Angela_Combs@gmail.us",
+            "cardNumber": "5555143074802594",
+            "amount": 338.0,
+            "currency": "EUR",
+            "timestamp": 415,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Angela_Combs@gmail.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 12.0,
+            "timestamp": 418
+        },
+        {
+            "command": "addFunds",
+            "email": "Angela_Combs@gmail.us",
+            "account": "RO98POOB8412955460158769",
+            "amount": 22.0,
+            "timestamp": 419
+        },
+        {
+            "command": "payOnline",
+            "email": "Claire_Jacques@gmail.fr",
+            "cardNumber": "7241081314709295",
+            "amount": 136.8,
+            "currency": "USD",
+            "timestamp": 420,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Claire_Jacques@gmail.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 107.0,
+            "timestamp": 422
+        },
+        {
+            "command": "payOnline",
+            "email": "Claire_Jacques@gmail.fr",
+            "cardNumber": "7255424823552585",
+            "amount": 453.0,
+            "currency": "EUR",
+            "timestamp": 423,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Claire_Jacques@gmail.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 33.0,
+            "timestamp": 429
+        },
+        {
+            "command": "payOnline",
+            "email": "Claire_Jacques@gmail.fr",
+            "cardNumber": "6330276215468334",
+            "amount": 285.0,
+            "currency": "EUR",
+            "timestamp": 430,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 854,
+            "timestamp": 434
+        },
+        {
+            "command": "addFunds",
+            "email": "Claire_Jacques@gmail.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 34.0,
+            "timestamp": 435
+        },
+        {
+            "command": "payOnline",
+            "email": "Claire_Jacques@gmail.fr",
+            "cardNumber": "3274766564127905",
+            "amount": 243.0,
+            "currency": "EUR",
+            "timestamp": 436,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Claire_Jacques@gmail.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 59.0,
+            "timestamp": 438
+        },
+        {
+            "command": "addFunds",
+            "email": "Claire_Jacques@gmail.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 12.0,
+            "timestamp": 439
+        },
+        {
+            "command": "payOnline",
+            "email": "Barry_Christian@hotmail.us",
+            "cardNumber": "3146505796386360",
+            "amount": 143.0,
+            "currency": "USD",
+            "timestamp": 440,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Barry_Christian@hotmail.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 36.0,
+            "timestamp": 446
+        },
+        {
+            "command": "payOnline",
+            "email": "Barry_Christian@hotmail.us",
+            "cardNumber": "2524615092540192",
+            "amount": 110.0,
+            "currency": "USD",
+            "timestamp": 447,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Barry_Christian@hotmail.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 48.0,
+            "timestamp": 449
+        },
+        {
+            "command": "payOnline",
+            "email": "Barry_Christian@hotmail.us",
+            "cardNumber": "3091165430920148",
+            "amount": 351.0,
+            "currency": "USD",
+            "timestamp": 450,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO32POOB0130532963818359",
+            "amount": 505,
+            "timestamp": 453
+        },
+        {
+            "command": "addFunds",
+            "email": "Barry_Christian@hotmail.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 13.0,
+            "timestamp": 454
+        },
+        {
+            "command": "payOnline",
+            "email": "Barry_Christian@hotmail.us",
+            "cardNumber": "8829901909775810",
+            "amount": 398.0,
+            "currency": "USD",
+            "timestamp": 455,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO32POOB0130532963818359",
+            "amount": 863,
+            "timestamp": 457
+        },
+        {
+            "command": "addFunds",
+            "email": "Barry_Christian@hotmail.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 63.0,
+            "timestamp": 458
+        },
+        {
+            "command": "addFunds",
+            "email": "Barry_Christian@hotmail.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 37.0,
+            "timestamp": 459
+        },
+        {
+            "command": "payOnline",
+            "email": "Venera_Tabacu@gmail.ro",
+            "cardNumber": "6369814641701052",
+            "amount": 76.67,
+            "currency": "EUR",
+            "timestamp": 460,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Venera_Tabacu@gmail.ro",
+            "account": "RO32POOB0130532963818359",
+            "amount": 70.0,
+            "timestamp": 465
+        },
+        {
+            "command": "payOnline",
+            "email": "Venera_Tabacu@gmail.ro",
+            "cardNumber": "3000569291689360",
+            "amount": 333.0,
+            "currency": "USD",
+            "timestamp": 466,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Venera_Tabacu@gmail.ro",
+            "account": "RO32POOB0130532963818359",
+            "amount": 137.0,
+            "timestamp": 472
+        },
+        {
+            "command": "payOnline",
+            "email": "Venera_Tabacu@gmail.ro",
+            "cardNumber": "2417279835438504",
+            "amount": 381.0,
+            "currency": "USD",
+            "timestamp": 473,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Venera_Tabacu@gmail.ro",
+            "account": "RO32POOB0130532963818359",
+            "amount": 35.0,
+            "timestamp": 478
+        },
+        {
+            "command": "payOnline",
+            "email": "Venera_Tabacu@gmail.ro",
+            "cardNumber": "5966934360051751",
+            "amount": 178.0,
+            "currency": "USD",
+            "timestamp": 479,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO32POOB0130532963818359",
+            "amount": 933,
+            "timestamp": 482
+        },
+        {
+            "command": "addFunds",
+            "email": "Venera_Tabacu@gmail.ro",
+            "account": "RO32POOB0130532963818359",
+            "amount": 138.0,
+            "timestamp": 483
+        },
+        {
+            "command": "addFunds",
+            "email": "Venera_Tabacu@gmail.ro",
+            "account": "RO32POOB0130532963818359",
+            "amount": 123.0,
+            "timestamp": 484
+        },
+        {
+            "command": "payOnline",
+            "email": "Gerald_Murphy_MD@outlook.us",
+            "cardNumber": "6508416890789031",
+            "amount": 186.0,
+            "currency": "USD",
+            "timestamp": 485,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO32POOB0130532963818359",
+            "amount": 960,
+            "timestamp": 488
+        },
+        {
+            "command": "addFunds",
+            "email": "Gerald_Murphy_MD@outlook.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 146.0,
+            "timestamp": 489
+        },
+        {
+            "command": "payOnline",
+            "email": "Gerald_Murphy_MD@outlook.us",
+            "cardNumber": "3809732164195341",
+            "amount": 359.0,
+            "currency": "USD",
+            "timestamp": 490,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO32POOB0130532963818359",
+            "amount": 953,
+            "timestamp": 492
+        },
+        {
+            "command": "addFunds",
+            "email": "Gerald_Murphy_MD@outlook.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 99.0,
+            "timestamp": 493
+        },
+        {
+            "command": "payOnline",
+            "email": "Gerald_Murphy_MD@outlook.us",
+            "cardNumber": "0267422869650815",
+            "amount": 470.0,
+            "currency": "RON",
+            "timestamp": 494,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Gerald_Murphy_MD@outlook.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 13.0,
+            "timestamp": 496
+        },
+        {
+            "command": "payOnline",
+            "email": "Gerald_Murphy_MD@outlook.us",
+            "cardNumber": "1457852519992246",
+            "amount": 415.0,
+            "currency": "USD",
+            "timestamp": 497,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Gerald_Murphy_MD@outlook.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 130.0,
+            "timestamp": 502
+        },
+        {
+            "command": "addFunds",
+            "email": "Gerald_Murphy_MD@outlook.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 123.0,
+            "timestamp": 503
+        },
+        {
+            "command": "payOnline",
+            "email": "Angela_Combs@gmail.us",
+            "cardNumber": "6792490678859930",
+            "amount": 272.22,
+            "currency": "EUR",
+            "timestamp": 504,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO32POOB0130532963818359",
+            "amount": 45,
+            "timestamp": 510
+        },
+        {
+            "command": "addFunds",
+            "email": "Angela_Combs@gmail.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 84.0,
+            "timestamp": 511
+        },
+        {
+            "command": "payOnline",
+            "email": "Angela_Combs@gmail.us",
+            "cardNumber": "1343753776079745",
+            "amount": 307.0,
+            "currency": "USD",
+            "timestamp": 512,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "addFunds",
+            "email": "Angela_Combs@gmail.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 54.0,
+            "timestamp": 518
+        },
+        {
+            "command": "payOnline",
+            "email": "Angela_Combs@gmail.us",
+            "cardNumber": "7827735796451635",
+            "amount": 510.0,
+            "currency": "EUR",
+            "timestamp": 519,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO32POOB0130532963818359",
+            "amount": 934,
+            "timestamp": 523
+        },
+        {
+            "command": "addFunds",
+            "email": "Angela_Combs@gmail.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 112.0,
+            "timestamp": 524
+        },
+        {
+            "command": "payOnline",
+            "email": "Angela_Combs@gmail.us",
+            "cardNumber": "4556563957367902",
+            "amount": 410.0,
+            "currency": "USD",
+            "timestamp": 525,
+            "description": "Online payment",
+            "commerciant": "Zara"
+        },
+        {
+            "command": "changeSpendingLimit",
+            "email": "Maryse_du_Hubert@hotmail.fr",
+            "account": "RO32POOB0130532963818359",
+            "amount": 635,
+            "timestamp": 529
+        },
+        {
+            "command": "addFunds",
+            "email": "Angela_Combs@gmail.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 77.0,
+            "timestamp": 530
+        },
+        {
+            "command": "addFunds",
+            "email": "Angela_Combs@gmail.us",
+            "account": "RO32POOB0130532963818359",
+            "amount": 144.0,
+            "timestamp": 531
+        },
+        {
+            "command": "businessReport",
+            "startTimestamp": 0,
+            "endTimestamp": 530,
+            "account": "RO98POOB8412955460158769",
+            "type": "transaction",
+            "timestamp": 532
+        },
+        {
+            "command": "businessReport",
+            "startTimestamp": 1,
+            "endTimestamp": 532,
+            "account": "RO32POOB0130532963818359",
+            "type": "transaction",
+            "timestamp": 533
+        },
+        {
+            "command": "businessReport",
+            "startTimestamp": 1,
+            "endTimestamp": 533,
+            "account": "RO68POOB1848616931405475",
+            "type": "transaction",
+            "timestamp": 534
+        },
+        {
+            "command": "businessReport",
+            "startTimestamp": 1,
+            "endTimestamp": 534,
+            "account": "RO10POOB4354933866366881",
+            "type": "transaction",
+            "timestamp": 535
+        },
+        {
+            "command": "addFunds",
+            "email": "Noemi_Navarro@yahoo.fr",
+            "account": "RO98POOB8412955460158769",
+            "amount": 1929.0,
+            "timestamp": 536
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO98POOB8412955460158769",
+            "amount": 1337.0,
+            "receiver": "RO22POOB3875162728202296",
+            "timestamp": 537,
+            "email": "Noemi_Navarro@yahoo.fr",
+            "description": "Tickets for a French comedy show"
+        },
+        {
+            "command": "businessReport",
+            "startTimestamp": 1,
+            "endTimestamp": 537,
+            "account": "RO98POOB8412955460158769",
+            "type": "commerciant",
+            "timestamp": 538
+        },
+        {
+            "command": "businessReport",
+            "startTimestamp": 0,
+            "endTimestamp": 537,
+            "account": "RO32POOB0130532963818359",
+            "type": "commerciant",
+            "timestamp": 539
+        },
+        {
+            "command": "businessReport",
+            "startTimestamp": 0,
+            "endTimestamp": 539,
+            "account": "RO68POOB1848616931405475",
+            "type": "commerciant",
+            "timestamp": 540
+        },
+        {
+            "command": "businessReport",
+            "startTimestamp": 1,
+            "endTimestamp": 540,
+            "account": "RO10POOB4354933866366881",
+            "type": "commerciant",
+            "timestamp": 541
+        }
+    ]
 }

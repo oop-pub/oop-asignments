@@ -1,59 +1,59 @@
 {
     "users": [
         {
-            "firstName": "Adrian",
-            "lastName": "Waters",
-            "email": "Adrian_Waters@yahoo.us",
-            "birthDate": "1979-09-01",
-            "occupation": "racing driver"
-        },
-        {
-            "firstName": "Olimpian",
-            "lastName": "Albu",
-            "email": "Olimpian_Albu@yahoo.ro",
+            "firstName": "Carla",
+            "lastName": "Dobre",
+            "email": "Carla_Dobre@yahoo.ro",
             "birthDate": "1984-01-26",
             "occupation": "electrician"
         },
         {
-            "firstName": "Andre",
-            "lastName": "Glenn",
-            "email": "Andre_Glenn@outlook.us",
+            "firstName": "Leslie",
+            "lastName": "Turner",
+            "email": "Leslie_Turner@outlook.us",
             "birthDate": "2000-12-24",
             "occupation": "electrician"
         },
         {
-            "firstName": "Pamfil",
-            "lastName": "Nemes",
-            "email": "Pamfil_Nemes@hotmail.ro",
-            "birthDate": "1998-03-30",
+            "firstName": "Niculina",
+            "lastName": "Popa",
+            "email": "Niculina_Popa@outlook.ro",
+            "birthDate": "1970-12-20",
+            "occupation": "barber"
+        },
+        {
+            "firstName": "Tami",
+            "lastName": "Hughes",
+            "email": "Tami_Hughes@hotmail.us",
+            "birthDate": "1999-08-20",
             "occupation": "student"
         },
         {
-            "firstName": "Amza",
-            "lastName": "Stoica",
-            "email": "Amza_Stoica@yahoo.ro",
-            "birthDate": "2008-11-10",
+            "firstName": "Jessica",
+            "lastName": "Chandler",
+            "email": "Jessica_Chandler@hotmail.us",
+            "birthDate": "2010-09-21",
             "occupation": "student"
         },
         {
-            "firstName": "Erica",
-            "lastName": "Mocanu",
-            "email": "Erica_Mocanu@hotmail.ro",
-            "birthDate": "2007-09-24",
+            "firstName": "Simone-Christiane",
+            "lastName": "Poulain",
+            "email": "Simone-Christiane_Poulain@gmail.fr",
+            "birthDate": "2013-07-28",
             "occupation": "student"
         }
     ],
     "commerciants": [
         {
-            "commerciant": "KFC",
-            "id": 106,
+            "commerciant": "Apple",
+            "id": 112,
             "account": "RO22POOB3875162728202296",
-            "type": "Food",
+            "type": "Tech",
             "cashbackStrategy": "spendingThreshold"
         },
         {
             "commerciant": "Nike",
-            "id": 88,
+            "id": 90,
             "account": "RO28POOB5923933391234057",
             "type": "Clothes",
             "cashbackStrategy": "nrOfTransactions"
@@ -61,14 +61,14 @@
     ],
     "exchangeRates": [
         {
-            "from": "RON",
+            "from": "EUR",
             "to": "USD",
-            "rate": 0.3
+            "rate": 0.9
         },
         {
-            "from": "USD",
-            "to": "EUR",
-            "rate": 0.8
+            "from": "EUR",
+            "to": "RON",
+            "rate": 4.2
         }
     ],
     "commands": [
@@ -78,8 +78,8 @@
         },
         {
             "command": "addAccount",
-            "email": "Amza_Stoica@yahoo.ro",
-            "currency": "RON",
+            "email": "Jessica_Chandler@hotmail.us",
+            "currency": "USD",
             "accountType": "classic",
             "timestamp": 2
         },
@@ -89,24 +89,24 @@
         },
         {
             "command": "addAccount",
-            "email": "Amza_Stoica@yahoo.ro",
-            "currency": "RON",
+            "email": "Jessica_Chandler@hotmail.us",
+            "currency": "USD",
             "accountType": "savings",
-            "interestRate": 0.78,
+            "interestRate": 0.87,
             "timestamp": 4
         },
         {
             "command": "addFunds",
-            "email": "Amza_Stoica@yahoo.ro",
+            "email": "Jessica_Chandler@hotmail.us",
             "account": "RO69POOB6209498372540635",
-            "amount": 610,
+            "amount": 734,
             "timestamp": 5
         },
         {
             "command": "withdrawSavings",
             "account": "RO69POOB6209498372540635",
-            "amount": 347.0,
-            "currency": "RON",
+            "amount": 68.0,
+            "currency": "USD",
             "timestamp": 6
         },
         {
@@ -115,106 +115,106 @@
         },
         {
             "command": "addAccount",
-            "email": "Andre_Glenn@outlook.us",
-            "currency": "USD",
+            "email": "Niculina_Popa@outlook.ro",
+            "currency": "RON",
             "accountType": "classic",
             "timestamp": 8
         },
         {
             "command": "sendMoney",
             "account": "RO69POOB6209498372540635",
-            "amount": 263.0,
+            "amount": 666.0,
             "receiver": "RO90POOB5450777208072365",
             "timestamp": 9,
-            "email": "Amza_Stoica@yahoo.ro",
-            "description": "Electricity and gas bills"
+            "email": "Jessica_Chandler@hotmail.us",
+            "description": "Visit to a local healthcare clinic"
         },
         {
             "command": "addAccount",
-            "email": "Pamfil_Nemes@hotmail.ro",
-            "currency": "RON",
+            "email": "Tami_Hughes@hotmail.us",
+            "currency": "USD",
             "accountType": "classic",
             "timestamp": 10
         },
         {
             "command": "addFunds",
-            "email": "Amza_Stoica@yahoo.ro",
+            "email": "Jessica_Chandler@hotmail.us",
             "account": "RO58POOB7344468893732422",
-            "amount": 327,
+            "amount": 373,
             "timestamp": 11
         },
         {
             "command": "createCard",
             "account": "RO58POOB7344468893732422",
-            "email": "Amza_Stoica@yahoo.ro",
+            "email": "Jessica_Chandler@hotmail.us",
             "timestamp": 12
         },
         {
             "command": "payOnline",
-            "email": "Amza_Stoica@yahoo.ro",
+            "email": "Jessica_Chandler@hotmail.us",
             "cardNumber": "8207906978464446",
-            "amount": 157,
+            "amount": 206,
             "currency": "RON",
             "timestamp": 13,
             "description": "Online payment",
-            "commerciant": "Nike"
+            "commerciant": "Apple"
         },
         {
             "command": "addAccount",
-            "email": "Pamfil_Nemes@hotmail.ro",
-            "currency": "RON",
+            "email": "Tami_Hughes@hotmail.us",
+            "currency": "USD",
             "accountType": "classic",
             "timestamp": 14
         },
         {
             "command": "createCard",
             "account": "RO69POOB6209498372540635",
-            "email": "Amza_Stoica@yahoo.ro",
+            "email": "Jessica_Chandler@hotmail.us",
             "timestamp": 15
         },
         {
             "command": "addFunds",
-            "email": "Amza_Stoica@yahoo.ro",
+            "email": "Jessica_Chandler@hotmail.us",
             "account": "RO69POOB6209498372540635",
-            "amount": 199,
+            "amount": 502,
             "timestamp": 16
         },
         {
             "command": "addAccount",
-            "email": "Adrian_Waters@yahoo.us",
-            "currency": "USD",
+            "email": "Carla_Dobre@yahoo.ro",
+            "currency": "RON",
             "accountType": "classic",
             "timestamp": 17
         },
         {
             "command": "sendMoney",
             "account": "RO69POOB6209498372540635",
-            "amount": 124.0,
+            "amount": 968.0,
             "receiver": "RO90POOB5450777208072365",
             "timestamp": 18,
-            "email": "Amza_Stoica@yahoo.ro",
-            "description": "Miscellaneous cash expenses"
+            "email": "Jessica_Chandler@hotmail.us",
+            "description": "Weekly groceries from Walmart"
         },
         {
             "command": "addFunds",
-            "email": "Amza_Stoica@yahoo.ro",
+            "email": "Jessica_Chandler@hotmail.us",
             "account": "RO69POOB6209498372540635",
-            "amount": 731,
+            "amount": 68,
             "timestamp": 19
         },
         {
             "command": "payOnline",
-            "email": "Amza_Stoica@yahoo.ro",
+            "email": "Jessica_Chandler@hotmail.us",
             "cardNumber": "7901879264253296",
-            "amount": 132,
-            "currency": "RON",
+            "amount": 481,
+            "currency": "USD",
             "timestamp": 20,
             "description": "Online payment",
             "commerciant": "Nike"
         },
         {
             "command": "printTransactions",
-            "email": "Amza_Stoica@yahoo.ro",
+            "email": "Jessica_Chandler@hotmail.us",
             "timestamp": 21
         },
         {
@@ -224,20 +224,20 @@
         {
             "command": "sendMoney",
             "account": "RO58POOB7344468893732422",
-            "amount": 170.0,
+            "amount": 167.0,
             "receiver": "RO90POOB5450777208072365",
             "timestamp": 23,
-            "email": "Amza_Stoica@yahoo.ro",
-            "description": "Buying new shoes from Zara"
+            "email": "Jessica_Chandler@hotmail.us",
+            "description": "Black Friday shopping spree"
         },
         {
             "command": "printTransactions",
-            "email": "Amza_Stoica@yahoo.ro",
+            "email": "Jessica_Chandler@hotmail.us",
             "timestamp": 24
         },
         {
             "command": "deleteAccount",
-            "email": "Amza_Stoica@yahoo.ro",
+            "email": "Jessica_Chandler@hotmail.us",
             "account": "RO58POOB7344468893732422",
             "timestamp": 25
         },

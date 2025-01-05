@@ -1,253 +1,253 @@
 {
-  "users": [
-    {
-      "firstName": "Consuela",
-      "lastName": "Mazilescu",
-      "email": "Consuela_Mazilescu@gmail.ro",
-      "birthDate": "1988-02-11",
-      "occupation": "librarian"
-    },
-    {
-      "firstName": "Aurica",
-      "lastName": "Dinu",
-      "email": "Aurica_Dinu@outlook.ro",
-      "birthDate": "1993-11-08",
-      "occupation": "racing driver"
-    },
-    {
-      "firstName": "Rada",
-      "lastName": "Nita",
-      "email": "Rada_Nita@gmail.ro",
-      "birthDate": "2000-01-08",
-      "occupation": "student"
-    }
-  ],
-  "commerciants": [
-    {
-      "commerciant": "Zara",
-      "id": 79,
-      "account": "RO22POOB3875162728202296",
-      "type": "Clothes",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "Samsung",
-      "id": 116,
-      "account": "RO28POOB5923933391234057",
-      "type": "Tech",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "Burger King",
-      "id": 106,
-      "account": "RO25POOB4386521661484930",
-      "type": "Food",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "Apple",
-      "id": 113,
-      "account": "RO32POOB8964686295716974",
-      "type": "Tech",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "H&M",
-      "id": 83,
-      "account": "RO75POOB9251835314648427",
-      "type": "Clothes",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "Microsoft",
-      "id": 126,
-      "account": "RO15POOB4333403266660236",
-      "type": "Tech",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "KFC",
-      "id": 106,
-      "account": "RO95POOB9807857732666986",
-      "type": "Food",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "Nike",
-      "id": 88,
-      "account": "RO66POOB9463355196372136",
-      "type": "Clothes",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "McDonalds",
-      "id": 98,
-      "account": "RO01POOB5884922951883378",
-      "type": "Food",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "Amazon",
-      "id": 126,
-      "account": "RO17POOB8495306331082091",
-      "type": "Tech",
-      "cashbackStrategy": "nrOfTransactions"
-    }
-  ],
-  "exchangeRates": [
-    {
-      "from": "USD",
-      "to": "RON",
-      "rate": 0.3
-    },
-    {
-      "from": "USD",
-      "to": "EUR",
-      "rate": 0.8
-    }
-  ],
-  "commands": [
-    {
-      "command": "addAccount",
-      "email": "Aurica_Dinu@outlook.ro",
-      "currency": "RON",
-      "accountType": "classic",
-      "timestamp": 1
-    },
-    {
-      "command": "addAccount",
-      "email": "Rada_Nita@gmail.ro",
-      "currency": "RON",
-      "accountType": "classic",
-      "timestamp": 2
-    },
-    {
-      "command": "addFunds",
-      "email": "Aurica_Dinu@outlook.ro",
-      "account": "RO58POOB7344468893732422",
-      "amount": 513,
-      "timestamp": 3
-    },
-    {
-      "command": "createCard",
-      "account": "RO58POOB7344468893732422",
-      "email": "Aurica_Dinu@outlook.ro",
-      "timestamp": 4
-    },
-    {
-      "command": "payOnline",
-      "email": "Aurica_Dinu@outlook.ro",
-      "cardNumber": "8207906978464446",
-      "amount": 401,
-      "currency": "RON",
-      "timestamp": 5,
-      "description": "Online payment",
-      "commerciant": "Samsung"
-    },
-    {
-      "command": "sendMoney",
-      "account": "RO58POOB7344468893732422",
-      "amount": 101.0,
-      "receiver": "RO69POOB6209498372540635",
-      "timestamp": 6,
-      "email": "Aurica_Dinu@outlook.ro",
-      "description": "Cinema tickets for a weekend outing"
-    },
-    {
-      "command": "addFunds",
-      "email": "Aurica_Dinu@outlook.ro",
-      "account": "RO58POOB7344468893732422",
-      "amount": 721,
-      "timestamp": 7
-    },
-    {
-      "command": "cashWithdrawal",
-      "cardNumber": "8207906978464446",
-      "amount": 314.0,
-      "email": "Aurica_Dinu@outlook.ro",
-      "location": "Wagner",
-      "timestamp": 8
-    },
-    {
-      "command": "printTransactions",
-      "email": "Aurica_Dinu@outlook.ro",
-      "timestamp": 9
-    },
-    {
-      "command": "cashWithdrawal",
-      "cardNumber": "8207906978464446",
-      "amount": 418.0,
-      "email": "Aurica_Dinu@outlook.ro",
-      "location": "Sandersberg",
-      "timestamp": 10
-    },
-    {
-      "command": "printUsers",
-      "timestamp": 11
-    },
-    {
-      "command": "addFunds",
-      "email": "Rada_Nita@gmail.ro",
-      "account": "RO69POOB6209498372540635",
-      "amount": 281,
-      "timestamp": 12
-    },
-    {
-      "command": "createOneTimeCard",
-      "account": "RO69POOB6209498372540635",
-      "email": "Rada_Nita@gmail.ro",
-      "timestamp": 13
-    },
-    {
-      "command": "payOnline",
-      "email": "Rada_Nita@gmail.ro",
-      "cardNumber": "7901879264253296",
-      "amount": 354,
-      "currency": "RON",
-      "timestamp": 14,
-      "description": "Online payment",
-      "commerciant": "Microsoft"
-    },
-    {
-      "command": "cashWithdrawal",
-      "cardNumber": "7901879264253296",
-      "amount": 623.0,
-      "email": "Rada_Nita@gmail.ro",
-      "location": "Allain",
-      "timestamp": 15
-    },
-    {
-      "command": "printTransactions",
-      "email": "Rada_Nita@gmail.ro",
-      "timestamp": 16
-    },
-    {
-      "command": "addFunds",
-      "email": "Rada_Nita@gmail.ro",
-      "account": "RO69POOB6209498372540635",
-      "amount": 495,
-      "timestamp": 17
-    },
-    {
-      "command": "sendMoney",
-      "account": "RO69POOB6209498372540635",
-      "receiver": "RO58POOB7344468893732422",
-      "amount": 257.0,
-      "timestamp": 18,
-      "email": "Rada_Nita@gmail.ro",
-      "description": "Miscellaneous cash expenses"
-    },
-    {
-      "command": "cashWithdrawal",
-      "cardNumber": "8207906978464446",
-      "amount": 257.0,
-      "email": "Aurica_Dinu@outlook.ro",
-      "location": "Wagner",
-      "timestamp": 19
-    },
-    {
-      "command": "printUsers",
-      "timestamp": 20
-    }
-  ]
+    "users": [
+        {
+            "firstName": "Consuela",
+            "lastName": "Mazilescu",
+            "email": "Consuela_Mazilescu@gmail.ro",
+            "birthDate": "1988-02-11",
+            "occupation": "librarian"
+        },
+        {
+            "firstName": "Aurica",
+            "lastName": "Dinu",
+            "email": "Aurica_Dinu@outlook.ro",
+            "birthDate": "1993-11-08",
+            "occupation": "racing driver"
+        },
+        {
+            "firstName": "Rada",
+            "lastName": "Nita",
+            "email": "Rada_Nita@gmail.ro",
+            "birthDate": "2000-01-08",
+            "occupation": "student"
+        }
+    ],
+    "commerciants": [
+        {
+            "commerciant": "Zara",
+            "id": 79,
+            "account": "RO22POOB3875162728202296",
+            "type": "Clothes",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "Samsung",
+            "id": 113,
+            "account": "RO28POOB5923933391234057",
+            "type": "Tech",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Burger King",
+            "id": 108,
+            "account": "RO25POOB4386521661484930",
+            "type": "Food",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "Apple",
+            "id": 112,
+            "account": "RO32POOB8964686295716974",
+            "type": "Tech",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "H&M",
+            "id": 84,
+            "account": "RO75POOB9251835314648427",
+            "type": "Clothes",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Microsoft",
+            "id": 116,
+            "account": "RO15POOB4333403266660236",
+            "type": "Tech",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "KFC",
+            "id": 100,
+            "account": "RO95POOB9807857732666986",
+            "type": "Food",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "Nike",
+            "id": 90,
+            "account": "RO66POOB9463355196372136",
+            "type": "Clothes",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "McDonalds",
+            "id": 99,
+            "account": "RO01POOB5884922951883378",
+            "type": "Food",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Amazon",
+            "id": 118,
+            "account": "RO17POOB8495306331082091",
+            "type": "Tech",
+            "cashbackStrategy": "nrOfTransactions"
+        }
+    ],
+    "exchangeRates": [
+        {
+            "from": "USD",
+            "to": "RON",
+            "rate": 0.3
+        },
+        {
+            "from": "USD",
+            "to": "EUR",
+            "rate": 0.8
+        }
+    ],
+    "commands": [
+        {
+            "command": "addAccount",
+            "email": "Aurica_Dinu@outlook.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 1
+        },
+        {
+            "command": "addAccount",
+            "email": "Rada_Nita@gmail.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 2
+        },
+        {
+            "command": "addFunds",
+            "email": "Aurica_Dinu@outlook.ro",
+            "account": "RO58POOB7344468893732422",
+            "amount": 513,
+            "timestamp": 3
+        },
+        {
+            "command": "createCard",
+            "account": "RO58POOB7344468893732422",
+            "email": "Aurica_Dinu@outlook.ro",
+            "timestamp": 4
+        },
+        {
+            "command": "payOnline",
+            "email": "Aurica_Dinu@outlook.ro",
+            "cardNumber": "8207906978464446",
+            "amount": 401,
+            "currency": "RON",
+            "timestamp": 5,
+            "description": "Online payment",
+            "commerciant": "Samsung"
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "amount": 101.0,
+            "receiver": "RO69POOB6209498372540635",
+            "timestamp": 6,
+            "email": "Aurica_Dinu@outlook.ro",
+            "description": "Cinema tickets for a weekend outing"
+        },
+        {
+            "command": "addFunds",
+            "email": "Aurica_Dinu@outlook.ro",
+            "account": "RO58POOB7344468893732422",
+            "amount": 721,
+            "timestamp": 7
+        },
+        {
+            "command": "cashWithdrawal",
+            "email": "Aurica_Dinu@outlook.ro",
+            "cardNumber": "8207906978464446",
+            "amount": 778.0,
+            "location": "Lynnbury",
+            "timestamp": 8
+        },
+        {
+            "command": "printTransactions",
+            "email": "Aurica_Dinu@outlook.ro",
+            "timestamp": 9
+        },
+        {
+            "command": "cashWithdrawal",
+            "email": "Aurica_Dinu@outlook.ro",
+            "cardNumber": "8207906978464446",
+            "amount": 55.0,
+            "location": "West Miranda",
+            "timestamp": 10
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 11
+        },
+        {
+            "command": "addFunds",
+            "email": "Rada_Nita@gmail.ro",
+            "account": "RO69POOB6209498372540635",
+            "amount": 731,
+            "timestamp": 12
+        },
+        {
+            "command": "createOneTimeCard",
+            "account": "RO69POOB6209498372540635",
+            "email": "Rada_Nita@gmail.ro",
+            "timestamp": 13
+        },
+        {
+            "command": "payOnline",
+            "email": "Rada_Nita@gmail.ro",
+            "cardNumber": "7901879264253296",
+            "amount": 428,
+            "currency": "RON",
+            "timestamp": 14,
+            "description": "Online payment",
+            "commerciant": "H&M"
+        },
+        {
+            "command": "cashWithdrawal",
+            "email": "Rada_Nita@gmail.ro",
+            "cardNumber": "7901879264253296",
+            "amount": 1283.0,
+            "location": "Lake Thomas",
+            "timestamp": 15
+        },
+        {
+            "command": "printTransactions",
+            "email": "Rada_Nita@gmail.ro",
+            "timestamp": 16
+        },
+        {
+            "command": "addFunds",
+            "email": "Rada_Nita@gmail.ro",
+            "account": "RO69POOB6209498372540635",
+            "amount": 675,
+            "timestamp": 17
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO69POOB6209498372540635",
+            "receiver": "RO58POOB7344468893732422",
+            "amount": 183.0,
+            "timestamp": 18,
+            "email": "Rada_Nita@gmail.ro",
+            "description": "Medical checkup at Regina Maria"
+        },
+        {
+            "command": "cashWithdrawal",
+            "email": "Aurica_Dinu@outlook.ro",
+            "cardNumber": "8207906978464446",
+            "amount": 172.0,
+            "location": "Lynnbury",
+            "timestamp": 19
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 20
+        }
+    ]
 }

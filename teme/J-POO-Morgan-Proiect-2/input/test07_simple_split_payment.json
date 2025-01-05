@@ -1,311 +1,311 @@
 {
-  "users": [
-    {
-      "firstName": "Julieta",
-      "lastName": "Aane",
-      "email": "Julieta_Aane@outlook.ro",
-      "birthDate": "1998-09-07",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Manuel",
-      "lastName": "Lawrence",
-      "email": "Manuel_Lawrence@yahoo.us",
-      "birthDate": "2002-11-07",
-      "occupation": "footballer"
-    },
-    {
-      "firstName": "Mark",
-      "lastName": "Roberts",
-      "email": "Mark_Roberts@outlook.us",
-      "birthDate": "1998-12-21",
-      "occupation": "actor"
-    },
-    {
-      "firstName": "Odette-Alex",
-      "lastName": "Pasquier",
-      "email": "Odette-Alex_Pasquier@gmail.fr",
-      "birthDate": "2001-01-13",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Victoria",
-      "lastName": "Love",
-      "email": "Victoria_Love@hotmail.us",
-      "birthDate": "1998-05-17",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Narcis",
-      "lastName": "Dochioiu",
-      "email": "Narcis_Dochioiu@hotmail.ro",
-      "birthDate": "2001-09-13",
-      "occupation": "barber"
-    },
-    {
-      "firstName": "Jesus",
-      "lastName": "Molina",
-      "email": "Jesus_Molina@gmail.us",
-      "birthDate": "2006-01-13",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Gina",
-      "lastName": "Clayton",
-      "email": "Gina_Clayton@hotmail.us",
-      "birthDate": "1990-12-30",
-      "occupation": "barber"
-    },
-    {
-      "firstName": "Dominique",
-      "lastName": "Gay",
-      "email": "Dominique_Gay@yahoo.fr",
-      "birthDate": "2002-08-08",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Joseph",
-      "lastName": "Horn",
-      "email": "Joseph_Horn@yahoo.us",
-      "birthDate": "1977-11-17",
-      "occupation": "pyrotechnician"
-    }
-  ],
-  "commerciants": [
-    {
-      "commerciant": "Samsung",
-      "id": 116,
-      "account": "RO22POOB3875162728202296",
-      "type": "Tech",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "Zara",
-      "id": 79,
-      "account": "RO28POOB5923933391234057",
-      "type": "Clothes",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "Burger King",
-      "id": 106,
-      "account": "RO25POOB4386521661484930",
-      "type": "Food",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "Apple",
-      "id": 113,
-      "account": "RO32POOB8964686295716974",
-      "type": "Tech",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "Nike",
-      "id": 88,
-      "account": "RO75POOB9251835314648427",
-      "type": "Clothes",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "Amazon",
-      "id": 126,
-      "account": "RO15POOB4333403266660236",
-      "type": "Tech",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "Microsoft",
-      "id": 126,
-      "account": "RO95POOB9807857732666986",
-      "type": "Tech",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "KFC",
-      "id": 106,
-      "account": "RO66POOB9463355196372136",
-      "type": "Food",
-      "cashbackStrategy": "spendingThreshold"
-    },
-    {
-      "commerciant": "McDonalds",
-      "id": 98,
-      "account": "RO01POOB5884922951883378",
-      "type": "Food",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "H&M",
-      "id": 83,
-      "account": "RO17POOB8495306331082091",
-      "type": "Clothes",
-      "cashbackStrategy": "nrOfTransactions"
-    }
-  ],
-  "exchangeRates": [
-    {
-      "from": "EUR",
-      "to": "USD",
-      "rate": 0.9
-    },
-    {
-      "from": "EUR",
-      "to": "RON",
-      "rate": 4.2
-    }
-  ],
-  "commands": [
-    {
-      "command": "addAccount",
-      "email": "Julieta_Aane@outlook.ro",
-      "currency": "RON",
-      "accountType": "classic",
-      "timestamp": 1
-    },
-    {
-      "command": "addAccount",
-      "email": "Manuel_Lawrence@yahoo.us",
-      "currency": "USD",
-      "accountType": "classic",
-      "timestamp": 2
-    },
-    {
-      "command": "addFunds",
-      "email": "Julieta_Aane@outlook.ro",
-      "account": "RO58POOB7344468893732422",
-      "amount": 1261.0,
-      "timestamp": 3
-    },
-    {
-      "command": "addFunds",
-      "email": "Manuel_Lawrence@yahoo.us",
-      "account": "RO69POOB6209498372540635",
-      "amount": 926.0,
-      "timestamp": 4
-    },
-    {
-      "command": "splitPayment",
-      "splitPaymentType": "custom",
-      "accounts": [
-        "RO69POOB6209498372540635",
-        "RO58POOB7344468893732422"
-      ],
-      "amount": 167.1,
-      "amountForUsers": [
-        89.1,
-        78
-      ],
-      "currency": "RON",
-      "timestamp": 5
-    },
-    {
-      "command": "sendMoney",
-      "account": "RO58POOB7344468893732422",
-      "receiver": "",
-      "amount": 1261.0,
-      "timestamp": 6,
-      "email": "Julieta_Aane@outlook.ro",
-      "description": "Buying new shoes from Zara"
-    },
-    {
-      "command": "printUsers",
-      "timestamp": 7
-    },
-    {
-      "command": "printTransactions",
-      "email": "Julieta_Aane@outlook.ro",
-      "timestamp": 8
-    },
-    {
-      "command": "spendingsReport",
-      "startTimestamp": 0,
-      "endTimestamp": 7,
-      "account": "RO58POOB7344468893732422",
-      "timestamp": 9
-    },
-    {
-      "command": "deleteAccount",
-      "email": "Julieta_Aane@outlook.ro",
-      "account": "RO58POOB7344468893732422",
-      "timestamp": 10
-    },
-    {
-      "command": "addAccount",
-      "email": "Julieta_Aane@outlook.ro",
-      "currency": "RON",
-      "accountType": "classic",
-      "timestamp": 11
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "Manuel_Lawrence@yahoo.us",
-      "splitPaymentType": "custom",
-      "timestamp": 12
-    },
-    {
-      "command": "sendMoney",
-      "account": "RO69POOB6209498372540635",
-      "receiver": "RO90POOB5450777208072365",
-      "amount": 5087.3,
-      "timestamp": 13,
-      "email": "Manuel_Lawrence@yahoo.us",
-      "description": "Electricity and internet bills"
-    },
-    {
-      "command": "printTransactions",
-      "email": "Manuel_Lawrence@yahoo.us",
-      "timestamp": 14
-    },
-    {
-      "command": "deleteAccount",
-      "email": "Manuel_Lawrence@yahoo.us",
-      "account": "RO69POOB6209498372540635",
-      "timestamp": 15
-    },
-    {
-      "command": "addAccount",
-      "email": "Manuel_Lawrence@yahoo.us",
-      "currency": "USD",
-      "accountType": "classic",
-      "timestamp": 16
-    },
-    {
-      "command": "addFunds",
-      "email": "Manuel_Lawrence@yahoo.us",
-      "account": "RO65POOB8944016386845896",
-      "amount": 1088.0,
-      "timestamp": 17
-    },
-    {
-      "command": "printUsers",
-      "timestamp": 18
-    },
-    {
-      "command": "payOnline",
-      "email": "Julieta_Aane@outlook.ro",
-      "cardNumber": "4001829491527416",
-      "amount": 472,
-      "currency": "RON",
-      "timestamp": 19,
-      "description": "Online payment",
-      "commerciant": "Burger King"
-    },
-    {
-      "command": "acceptSplitPayment",
-      "email": "Julieta_Aane@outlook.ro",
-      "splitPaymentType": "custom",
-      "timestamp": 20
-    },
-    {
-      "command": "printTransactions",
-      "email": "Julieta_Aane@outlook.ro",
-      "timestamp": 21
-    },
-    {
-      "command": "printTransactions",
-      "email": "Manuel_Lawrence@yahoo.us",
-      "timestamp": 22
-    }
-  ]
+    "users": [
+        {
+            "firstName": "Julieta",
+            "lastName": "Aane",
+            "email": "Julieta_Aane@outlook.ro",
+            "birthDate": "1998-09-07",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Manuel",
+            "lastName": "Lawrence",
+            "email": "Manuel_Lawrence@yahoo.us",
+            "birthDate": "2002-11-07",
+            "occupation": "footballer"
+        },
+        {
+            "firstName": "Mark",
+            "lastName": "Roberts",
+            "email": "Mark_Roberts@outlook.us",
+            "birthDate": "1998-12-21",
+            "occupation": "actor"
+        },
+        {
+            "firstName": "Odette-Alex",
+            "lastName": "Pasquier",
+            "email": "Odette-Alex_Pasquier@gmail.fr",
+            "birthDate": "2001-01-13",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Victoria",
+            "lastName": "Love",
+            "email": "Victoria_Love@hotmail.us",
+            "birthDate": "1998-05-17",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Narcis",
+            "lastName": "Dochioiu",
+            "email": "Narcis_Dochioiu@hotmail.ro",
+            "birthDate": "2001-09-13",
+            "occupation": "barber"
+        },
+        {
+            "firstName": "Jesus",
+            "lastName": "Molina",
+            "email": "Jesus_Molina@gmail.us",
+            "birthDate": "2006-01-13",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Gina",
+            "lastName": "Clayton",
+            "email": "Gina_Clayton@hotmail.us",
+            "birthDate": "1990-12-30",
+            "occupation": "barber"
+        },
+        {
+            "firstName": "Dominique",
+            "lastName": "Gay",
+            "email": "Dominique_Gay@yahoo.fr",
+            "birthDate": "2002-08-08",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Joseph",
+            "lastName": "Horn",
+            "email": "Joseph_Horn@yahoo.us",
+            "birthDate": "1977-11-17",
+            "occupation": "pyrotechnician"
+        }
+    ],
+    "commerciants": [
+        {
+            "commerciant": "Samsung",
+            "id": 113,
+            "account": "RO22POOB3875162728202296",
+            "type": "Tech",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "Zara",
+            "id": 79,
+            "account": "RO28POOB5923933391234057",
+            "type": "Clothes",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "Burger King",
+            "id": 108,
+            "account": "RO25POOB4386521661484930",
+            "type": "Food",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Apple",
+            "id": 112,
+            "account": "RO32POOB8964686295716974",
+            "type": "Tech",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Nike",
+            "id": 90,
+            "account": "RO75POOB9251835314648427",
+            "type": "Clothes",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Amazon",
+            "id": 118,
+            "account": "RO15POOB4333403266660236",
+            "type": "Tech",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "Microsoft",
+            "id": 116,
+            "account": "RO95POOB9807857732666986",
+            "type": "Tech",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "KFC",
+            "id": 100,
+            "account": "RO66POOB9463355196372136",
+            "type": "Food",
+            "cashbackStrategy": "spendingThreshold"
+        },
+        {
+            "commerciant": "McDonalds",
+            "id": 99,
+            "account": "RO01POOB5884922951883378",
+            "type": "Food",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "H&M",
+            "id": 84,
+            "account": "RO17POOB8495306331082091",
+            "type": "Clothes",
+            "cashbackStrategy": "nrOfTransactions"
+        }
+    ],
+    "exchangeRates": [
+        {
+            "from": "EUR",
+            "to": "USD",
+            "rate": 0.9
+        },
+        {
+            "from": "EUR",
+            "to": "RON",
+            "rate": 4.2
+        }
+    ],
+    "commands": [
+        {
+            "command": "addAccount",
+            "email": "Julieta_Aane@outlook.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 1
+        },
+        {
+            "command": "addAccount",
+            "email": "Manuel_Lawrence@yahoo.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 2
+        },
+        {
+            "command": "addFunds",
+            "email": "Julieta_Aane@outlook.ro",
+            "account": "RO58POOB7344468893732422",
+            "amount": 1261.0,
+            "timestamp": 3
+        },
+        {
+            "command": "addFunds",
+            "email": "Manuel_Lawrence@yahoo.us",
+            "account": "RO69POOB6209498372540635",
+            "amount": 926.0,
+            "timestamp": 4
+        },
+        {
+            "command": "splitPayment",
+            "splitPaymentType": "custom",
+            "accounts": [
+                "RO69POOB6209498372540635",
+                "RO58POOB7344468893732422"
+            ],
+            "amount": 168.0,
+            "amountForUsers": [
+                90.0,
+                78
+            ],
+            "currency": "RON",
+            "timestamp": 5
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "receiver": "",
+            "amount": 1261.0,
+            "timestamp": 6,
+            "email": "Julieta_Aane@outlook.ro",
+            "description": "Buying new shoes from Zara"
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 7
+        },
+        {
+            "command": "printTransactions",
+            "email": "Julieta_Aane@outlook.ro",
+            "timestamp": 8
+        },
+        {
+            "command": "spendingsReport",
+            "startTimestamp": 0,
+            "endTimestamp": 7,
+            "account": "RO58POOB7344468893732422",
+            "timestamp": 9
+        },
+        {
+            "command": "deleteAccount",
+            "email": "Julieta_Aane@outlook.ro",
+            "account": "RO58POOB7344468893732422",
+            "timestamp": 10
+        },
+        {
+            "command": "addAccount",
+            "email": "Julieta_Aane@outlook.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 11
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "Manuel_Lawrence@yahoo.us",
+            "splitPaymentType": "custom",
+            "timestamp": 12
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO69POOB6209498372540635",
+            "receiver": "RO90POOB5450777208072365",
+            "amount": 926.0,
+            "timestamp": 13,
+            "email": "Manuel_Lawrence@yahoo.us",
+            "description": "Electricity and internet bills"
+        },
+        {
+            "command": "printTransactions",
+            "email": "Manuel_Lawrence@yahoo.us",
+            "timestamp": 14
+        },
+        {
+            "command": "deleteAccount",
+            "email": "Manuel_Lawrence@yahoo.us",
+            "account": "RO69POOB6209498372540635",
+            "timestamp": 15
+        },
+        {
+            "command": "addAccount",
+            "email": "Manuel_Lawrence@yahoo.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 16
+        },
+        {
+            "command": "addFunds",
+            "email": "Manuel_Lawrence@yahoo.us",
+            "account": "RO65POOB8944016386845896",
+            "amount": 1088.0,
+            "timestamp": 17
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 18
+        },
+        {
+            "command": "payOnline",
+            "email": "Julieta_Aane@outlook.ro",
+            "cardNumber": "4001829491527416",
+            "amount": 481,
+            "currency": "RON",
+            "timestamp": 19,
+            "description": "Online payment",
+            "commerciant": "Burger King"
+        },
+        {
+            "command": "acceptSplitPayment",
+            "email": "Julieta_Aane@outlook.ro",
+            "splitPaymentType": "custom",
+            "timestamp": 20
+        },
+        {
+            "command": "printTransactions",
+            "email": "Julieta_Aane@outlook.ro",
+            "timestamp": 21
+        },
+        {
+            "command": "printTransactions",
+            "email": "Manuel_Lawrence@yahoo.us",
+            "timestamp": 22
+        }
+    ]
 }

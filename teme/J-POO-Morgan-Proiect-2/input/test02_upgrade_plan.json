@@ -1,236 +1,236 @@
 {
-  "users": [
-    {
-      "firstName": "Chad",
-      "lastName": "Robinson",
-      "email": "Chad_Robinson@hotmail.us",
-      "birthDate": "2003-03-09",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Madeleine",
-      "lastName": "De Oliveira",
-      "email": "Madeleine_De_Oliveira@hotmail.fr",
-      "birthDate": "2001-12-24",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Nae",
-      "lastName": "Mazilescu",
-      "email": "Nae_Mazilescu@hotmail.ro",
-      "birthDate": "1999-03-19",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Nicusor",
-      "lastName": "Ene",
-      "email": "Nicusor_Ene@outlook.ro",
-      "birthDate": "1998-05-31",
-      "occupation": "student"
-    },
-    {
-      "firstName": "Melanie",
-      "lastName": "Hickman",
-      "email": "Melanie_Hickman@hotmail.us",
-      "birthDate": "1985-04-14",
-      "occupation": "farmer"
-    },
-    {
-      "firstName": "Wendy",
-      "lastName": "Lambert",
-      "email": "Wendy_Lambert@gmail.us",
-      "birthDate": "1985-04-01",
-      "occupation": "influencer"
-    },
-    {
-      "firstName": "Smaranda",
-      "lastName": "Stan",
-      "email": "Smaranda_Stan@hotmail.ro",
-      "birthDate": "2000-10-08",
-      "occupation": "economist"
-    },
-    {
-      "firstName": "Laura",
-      "lastName": "Reeves",
-      "email": "Laura_Reeves@yahoo.us",
-      "birthDate": "1973-07-05",
-      "occupation": "construction worker"
-    },
-    {
-      "firstName": "Timothee",
-      "lastName": "Le Jacquet",
-      "email": "Timothee_Le_Jacquet@outlook.fr",
-      "birthDate": "2000-11-30",
-      "occupation": "firefighter"
-    },
-    {
-      "firstName": "John",
-      "lastName": "Fowler",
-      "email": "John_Fowler@gmail.us",
-      "birthDate": "2002-04-21",
-      "occupation": "doctor"
-    }
-  ],
-  "commerciants": [
-    {
-      "commerciant": "Zara",
-      "id": 79,
-      "account": "RO22POOB3875162728202296",
-      "type": "Clothes",
-      "cashbackStrategy": "nrOfTransactions"
-    },
-    {
-      "commerciant": "Microsoft",
-      "id": 126,
-      "account": "RO28POOB5923933391234057",
-      "type": "Tech",
-      "cashbackStrategy": "spendingThreshold"
-    }
-  ],
-  "exchangeRates": [
-    {
-      "from": "USD",
-      "to": "EUR",
-      "rate": 0.9
-    },
-    {
-      "from": "EUR",
-      "to": "RON",
-      "rate": 5.0
-    }
-  ],
-  "commands": [
-    {
-      "command": "printUsers",
-      "timestamp": 1
-    },
-    {
-      "command": "addAccount",
-      "email": "Chad_Robinson@hotmail.us",
-      "currency": "USD",
-      "accountType": "classic",
-      "timestamp": 2
-    },
-    {
-      "command": "addFunds",
-      "email": "Chad_Robinson@hotmail.us",
-      "account": "RO58POOB7344468893732422",
-      "amount": 125.0,
-      "timestamp": 3
-    },
-    {
-      "command": "upgradePlan",
-      "account": "RO58POOB7344468893732422",
-      "newPlanType": "silver",
-      "timestamp": 4
-    },
-    {
-      "command": "addAccount",
-      "email": "John_Fowler@gmail.us",
-      "currency": "USD",
-      "accountType": "classic",
-      "timestamp": 5
-    },
-    {
-      "command": "printUsers",
-      "timestamp": 6
-    },
-    {
-      "command": "addFunds",
-      "email": "Chad_Robinson@hotmail.us",
-      "account": "RO58POOB7344468893732422",
-      "amount": 304.0,
-      "timestamp": 7
-    },
-    {
-      "command": "sendMoney",
-      "account": "RO58POOB7344468893732422",
-      "receiver": "RO69POOB6209498372540635",
-      "amount": 31.0,
-      "timestamp": 8,
-      "email": "Chad_Robinson@hotmail.us",
-      "description": "Miscellaneous online expenses"
-    },
-    {
-      "command": "printTransactions",
-      "email": "Chad_Robinson@hotmail.us",
-      "timestamp": 9
-    },
-    {
-      "command": "addFunds",
-      "email": "Chad_Robinson@hotmail.us",
-      "account": "RO58POOB7344468893732422",
-      "amount": 286.0,
-      "timestamp": 10
-    },
-    {
-      "command": "upgradePlan",
-      "account": "RO58POOB7344468893732422",
-      "newPlanType": "gold",
-      "timestamp": 11
-    },
-    {
-      "command": "printUsers",
-      "timestamp": 12
-    },
-    {
-      "command": "printTransactions",
-      "email": "Chad_Robinson@hotmail.us",
-      "timestamp": 13
-    },
-    {
-      "command": "sendMoney",
-      "account": "RO58POOB7344468893732422",
-      "amount": 471.0,
-      "receiver": "RO69POOB6209498372540635",
-      "timestamp": 14,
-      "email": "Chad_Robinson@hotmail.us",
-      "description": "Monthly rent payment for an apartment"
-    },
-    {
-      "command": "deleteAccount",
-      "email": "Chad_Robinson@hotmail.us",
-      "account": "RO58POOB7344468893732422",
-      "timestamp": 15
-    },
-    {
-      "command": "printUsers",
-      "timestamp": 16
-    },
-    {
-      "command": "addAccount",
-      "email": "Timothee_Le_Jacquet@outlook.fr",
-      "currency": "EUR",
-      "accountType": "classic",
-      "timestamp": 17
-    },
-    {
-      "command": "addFunds",
-      "email": "Timothee_Le_Jacquet@outlook.fr",
-      "account": "RO90POOB5450777208072365",
-      "amount": 20.0,
-      "timestamp": 18
-    },
-    {
-      "command": "upgradePlan",
-      "account": "RO90POOB5450777208072365",
-      "newPlanType": "silver",
-      "timestamp": 19
-    },
-    {
-      "command": "printTransactions",
-      "email": "Timothee_Le_Jacquet@outlook.fr",
-      "timestamp": 20
-    },
-    {
-      "command": "deleteAccount",
-      "email": "Timothee_Le_Jacquet@outlook.fr",
-      "account": "RO90POOB5450777208072365",
-      "timestamp": 21
-    },
-    {
-      "command": "printUsers",
-      "timestamp": 22
-    }
-  ]
+    "users": [
+        {
+            "firstName": "Chad",
+            "lastName": "Robinson",
+            "email": "Chad_Robinson@hotmail.us",
+            "birthDate": "2003-03-09",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Madeleine",
+            "lastName": "De Oliveira",
+            "email": "Madeleine_De_Oliveira@hotmail.fr",
+            "birthDate": "2001-12-24",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Nae",
+            "lastName": "Mazilescu",
+            "email": "Nae_Mazilescu@hotmail.ro",
+            "birthDate": "1999-03-19",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Nicusor",
+            "lastName": "Ene",
+            "email": "Nicusor_Ene@outlook.ro",
+            "birthDate": "1998-05-31",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Melanie",
+            "lastName": "Hickman",
+            "email": "Melanie_Hickman@hotmail.us",
+            "birthDate": "1985-04-14",
+            "occupation": "farmer"
+        },
+        {
+            "firstName": "Wendy",
+            "lastName": "Lambert",
+            "email": "Wendy_Lambert@gmail.us",
+            "birthDate": "1985-04-01",
+            "occupation": "influencer"
+        },
+        {
+            "firstName": "Smaranda",
+            "lastName": "Stan",
+            "email": "Smaranda_Stan@hotmail.ro",
+            "birthDate": "2000-10-08",
+            "occupation": "economist"
+        },
+        {
+            "firstName": "Laura",
+            "lastName": "Reeves",
+            "email": "Laura_Reeves@yahoo.us",
+            "birthDate": "1973-07-05",
+            "occupation": "construction worker"
+        },
+        {
+            "firstName": "Timothee",
+            "lastName": "Le Jacquet",
+            "email": "Timothee_Le_Jacquet@outlook.fr",
+            "birthDate": "2000-11-30",
+            "occupation": "firefighter"
+        },
+        {
+            "firstName": "John",
+            "lastName": "Fowler",
+            "email": "John_Fowler@gmail.us",
+            "birthDate": "2002-04-21",
+            "occupation": "doctor"
+        }
+    ],
+    "commerciants": [
+        {
+            "commerciant": "Zara",
+            "id": 79,
+            "account": "RO22POOB3875162728202296",
+            "type": "Clothes",
+            "cashbackStrategy": "nrOfTransactions"
+        },
+        {
+            "commerciant": "Microsoft",
+            "id": 116,
+            "account": "RO28POOB5923933391234057",
+            "type": "Tech",
+            "cashbackStrategy": "spendingThreshold"
+        }
+    ],
+    "exchangeRates": [
+        {
+            "from": "USD",
+            "to": "EUR",
+            "rate": 0.9
+        },
+        {
+            "from": "EUR",
+            "to": "RON",
+            "rate": 5.0
+        }
+    ],
+    "commands": [
+        {
+            "command": "printUsers",
+            "timestamp": 1
+        },
+        {
+            "command": "addAccount",
+            "email": "Chad_Robinson@hotmail.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 2
+        },
+        {
+            "command": "addFunds",
+            "email": "Chad_Robinson@hotmail.us",
+            "account": "RO58POOB7344468893732422",
+            "amount": 125.0,
+            "timestamp": 3
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO58POOB7344468893732422",
+            "newPlanType": "silver",
+            "timestamp": 4
+        },
+        {
+            "command": "addAccount",
+            "email": "John_Fowler@gmail.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 5
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 6
+        },
+        {
+            "command": "addFunds",
+            "email": "Chad_Robinson@hotmail.us",
+            "account": "RO58POOB7344468893732422",
+            "amount": 304.0,
+            "timestamp": 7
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "receiver": "RO69POOB6209498372540635",
+            "amount": 122.0,
+            "timestamp": 8,
+            "email": "Chad_Robinson@hotmail.us",
+            "description": "Miscellaneous online expenses"
+        },
+        {
+            "command": "printTransactions",
+            "email": "Chad_Robinson@hotmail.us",
+            "timestamp": 9
+        },
+        {
+            "command": "addFunds",
+            "email": "Chad_Robinson@hotmail.us",
+            "account": "RO58POOB7344468893732422",
+            "amount": 286.0,
+            "timestamp": 10
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO58POOB7344468893732422",
+            "newPlanType": "gold",
+            "timestamp": 11
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 12
+        },
+        {
+            "command": "printTransactions",
+            "email": "Chad_Robinson@hotmail.us",
+            "timestamp": 13
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO58POOB7344468893732422",
+            "amount": 593.0,
+            "receiver": "RO69POOB6209498372540635",
+            "timestamp": 14,
+            "email": "Chad_Robinson@hotmail.us",
+            "description": "Monthly rent payment for an apartment"
+        },
+        {
+            "command": "deleteAccount",
+            "email": "Chad_Robinson@hotmail.us",
+            "account": "RO58POOB7344468893732422",
+            "timestamp": 15
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 16
+        },
+        {
+            "command": "addAccount",
+            "email": "Timothee_Le_Jacquet@outlook.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 17
+        },
+        {
+            "command": "addFunds",
+            "email": "Timothee_Le_Jacquet@outlook.fr",
+            "account": "RO90POOB5450777208072365",
+            "amount": 20.0,
+            "timestamp": 18
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO90POOB5450777208072365",
+            "newPlanType": "silver",
+            "timestamp": 19
+        },
+        {
+            "command": "printTransactions",
+            "email": "Timothee_Le_Jacquet@outlook.fr",
+            "timestamp": 20
+        },
+        {
+            "command": "deleteAccount",
+            "email": "Timothee_Le_Jacquet@outlook.fr",
+            "account": "RO90POOB5450777208072365",
+            "timestamp": 21
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 22
+        }
+    ]
 }
