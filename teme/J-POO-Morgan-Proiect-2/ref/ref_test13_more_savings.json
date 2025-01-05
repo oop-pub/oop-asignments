@@ -1420,54 +1420,47 @@
   } ],
   "timestamp" : 458
 }, {
-  "command" : "changeSpendingLimit",
+  "command" : "payOnline",
   "output" : {
-    "timestamp" : 576,
-    "description" : "You must be owner in order to change spending limit."
+    "timestamp" : 541,
+    "description" : "Card not found"
   },
-  "timestamp" : 576
+  "timestamp" : 541
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 577,
+    "timestamp" : 542,
     "description" : "Card not found"
   },
-  "timestamp" : 577
+  "timestamp" : 542
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 578,
+    "timestamp" : 543,
     "description" : "Card not found"
   },
-  "timestamp" : 578
+  "timestamp" : 543
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 579,
+    "timestamp" : 544,
     "description" : "Card not found"
   },
-  "timestamp" : 579
+  "timestamp" : 544
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 580,
+    "timestamp" : 545,
     "description" : "Card not found"
   },
-  "timestamp" : 580
+  "timestamp" : 545
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 581,
+    "timestamp" : 547,
     "description" : "Card not found"
   },
-  "timestamp" : 581
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 583,
-    "description" : "Card not found"
-  },
-  "timestamp" : 583
+  "timestamp" : 547
 }, {
   "command" : "printUsers",
   "output" : [ {
@@ -1638,80 +1631,73 @@
     "email" : "Michael_Sampson_MD@hotmail.us",
     "accounts" : [ ]
   } ],
-  "timestamp" : 586
-}, {
-  "command" : "changeDepositLimit",
-  "output" : {
-    "timestamp" : 587,
-    "description" : "You must be owner in order to change spending limit."
-  },
-  "timestamp" : 587
+  "timestamp" : 550
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 708,
+    "timestamp" : 603,
     "description" : "Card not found"
   },
-  "timestamp" : 708
+  "timestamp" : 603
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 709,
+    "timestamp" : 604,
     "description" : "Card not found"
   },
-  "timestamp" : 709
+  "timestamp" : 604
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 710,
+    "timestamp" : 605,
     "description" : "Card not found"
   },
-  "timestamp" : 710
+  "timestamp" : 605
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 711,
+    "timestamp" : 606,
     "description" : "Card not found"
   },
-  "timestamp" : 711
+  "timestamp" : 606
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 712,
+    "timestamp" : 607,
     "description" : "Card not found"
   },
-  "timestamp" : 712
+  "timestamp" : 607
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 713,
+    "timestamp" : 608,
     "description" : "Card not found"
   },
-  "timestamp" : 713
+  "timestamp" : 608
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 714,
+    "timestamp" : 609,
     "description" : "Card not found"
   },
-  "timestamp" : 714
+  "timestamp" : 609
 }, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO68POOB1848616931405475",
-    "balance" : 13261.0,
+    "balance" : 4837.0,
     "currency" : "USD",
-    "spending limit" : 1666.67,
-    "deposit limit" : 1666.67,
+    "spending limit" : 24.0,
+    "deposit limit" : 1300.0,
     "statistics type" : "commerciant",
     "commerciants" : [ {
-      "commerciant" : "McDonalds",
-      "total received" : 1013.0,
-      "managers" : [ ],
-      "employees" : [ "Goodwin Brandy" ]
+      "commerciant" : "Burger King",
+      "total received" : 3236.0,
+      "managers" : [ "Goodwin Brandy" ],
+      "employees" : [ ]
     } ]
   },
-  "timestamp" : 715
+  "timestamp" : 610
 }, {
   "command" : "printUsers",
   "output" : [ {
@@ -1763,7 +1749,7 @@
     "email" : "Brandy_Goodwin@gmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 13261.0,
+      "balance" : 4837.0,
       "currency" : "USD",
       "type" : "business",
       "cards" : [ ]
@@ -1882,50 +1868,14 @@
     "email" : "Michael_Sampson_MD@hotmail.us",
     "accounts" : [ ]
   } ],
-  "timestamp" : 716
+  "timestamp" : 611
 }, {
   "command" : "cashWithdrawal",
   "output" : {
-    "timestamp" : 719,
+    "timestamp" : 614,
     "description" : "Card not found"
   },
-  "timestamp" : 719
-}, {
-  "command" : "printTransactions",
-  "output" : [ {
-    "timestamp" : 34,
-    "description" : "New account created"
-  }, {
-    "timestamp" : 93,
-    "description" : "You do not have a classic account."
-  }, {
-    "timestamp" : 186,
-    "description" : "You do not have a classic account."
-  }, {
-    "timestamp" : 453,
-    "description" : "New account created"
-  }, {
-    "timestamp" : 454,
-    "description" : "New account created"
-  }, {
-    "timestamp" : 457,
-    "description" : "You do not have a classic account."
-  }, {
-    "timestamp" : 582,
-    "description" : "Monthly rent payment for an apartment",
-    "senderIBAN" : "RO68POOB1848616931405475",
-    "receiverIBAN" : "RO90POOB5450777208072365",
-    "amount" : "76.0 USD",
-    "transferType" : "received"
-  } ],
-  "timestamp" : 720
-}, {
-  "command" : "cashWithdrawal",
-  "output" : {
-    "timestamp" : 722,
-    "description" : "Card not found"
-  },
-  "timestamp" : 722
+  "timestamp" : 614
 }, {
   "command" : "printTransactions",
   "output" : [ {
@@ -1948,14 +1898,14 @@
     "timestamp" : 240,
     "description" : "You don't have the minimum age required."
   } ],
-  "timestamp" : 723
+  "timestamp" : 615
 }, {
   "command" : "cashWithdrawal",
   "output" : {
-    "timestamp" : 725,
+    "timestamp" : 617,
     "description" : "Card not found"
   },
-  "timestamp" : 725
+  "timestamp" : 617
 }, {
   "command" : "printTransactions",
   "output" : [ {
@@ -1977,14 +1927,50 @@
     "timestamp" : 457,
     "description" : "You do not have a classic account."
   }, {
-    "timestamp" : 582,
+    "timestamp" : 546,
     "description" : "Monthly rent payment for an apartment",
     "senderIBAN" : "RO68POOB1848616931405475",
     "receiverIBAN" : "RO90POOB5450777208072365",
     "amount" : "76.0 USD",
     "transferType" : "received"
   } ],
-  "timestamp" : 726
+  "timestamp" : 618
+}, {
+  "command" : "cashWithdrawal",
+  "output" : {
+    "timestamp" : 620,
+    "description" : "Card not found"
+  },
+  "timestamp" : 620
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 34,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 93,
+    "description" : "You do not have a classic account."
+  }, {
+    "timestamp" : 186,
+    "description" : "You do not have a classic account."
+  }, {
+    "timestamp" : 453,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 454,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 457,
+    "description" : "You do not have a classic account."
+  }, {
+    "timestamp" : 546,
+    "description" : "Monthly rent payment for an apartment",
+    "senderIBAN" : "RO68POOB1848616931405475",
+    "receiverIBAN" : "RO90POOB5450777208072365",
+    "amount" : "76.0 USD",
+    "transferType" : "received"
+  } ],
+  "timestamp" : 621
 }, {
   "command" : "printUsers",
   "output" : [ {
@@ -1998,7 +1984,7 @@
     "email" : "Stephane_Buisson@gmail.fr",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 1399.78,
+      "balance" : 1411.78,
       "currency" : "EUR",
       "type" : "savings",
       "cards" : [ ]
@@ -2036,7 +2022,7 @@
     "email" : "Brandy_Goodwin@gmail.us",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 13763.0,
+      "balance" : 5619.0,
       "currency" : "USD",
       "type" : "business",
       "cards" : [ ]
@@ -2107,19 +2093,19 @@
     "email" : "Alexander_Mendoza@outlook.us",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 1212.0,
+      "balance" : 1102.0,
       "currency" : "USD",
       "type" : "savings",
       "cards" : [ ]
     }, {
       "IBAN" : "RO38POOB0964823730995794",
-      "balance" : 156.0,
+      "balance" : 162.0,
       "currency" : "USD",
       "type" : "savings",
       "cards" : [ ]
     }, {
       "IBAN" : "RO53POOB7122855990652257",
-      "balance" : 868.0,
+      "balance" : 1060.0,
       "currency" : "USD",
       "type" : "savings",
       "cards" : [ ]
@@ -2155,5 +2141,5 @@
     "email" : "Michael_Sampson_MD@hotmail.us",
     "accounts" : [ ]
   } ],
-  "timestamp" : 727
+  "timestamp" : 622
 } ]
