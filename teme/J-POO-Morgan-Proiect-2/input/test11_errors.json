@@ -1,11 +1,11 @@
 {
     "users": [
         {
-            "firstName": "Robert",
-            "lastName": "Bates",
-            "email": "Robert_Bates@yahoo.us",
-            "birthDate": "1987-08-28",
-            "occupation": "pharmacist"
+            "firstName": "Eusebiu",
+            "lastName": "Ionescu",
+            "email": "Eusebiu_Ionescu@outlook.ro",
+            "birthDate": "2013-09-19",
+            "occupation": "student"
         },
         {
             "firstName": "Elodia",
@@ -15,10 +15,17 @@
             "occupation": "student"
         },
         {
-            "firstName": "Elodia",
-            "lastName": "Ababe",
-            "email": "Elodia_Ababe@yahoo.ro",
-            "birthDate": "1998-03-03",
+            "firstName": "Bernadette",
+            "lastName": "de Delmas",
+            "email": "Bernadette_de_Delmas@gmail.fr",
+            "birthDate": "2011-04-11",
+            "occupation": "student"
+        },
+        {
+            "firstName": "Zamfira",
+            "lastName": "Stancu",
+            "email": "Zamfira_Stancu@hotmail.ro",
+            "birthDate": "1999-08-31",
             "occupation": "student"
         },
         {
@@ -29,41 +36,6 @@
             "occupation": "pyrotechnician"
         },
         {
-            "firstName": "Eusebiu",
-            "lastName": "Ionescu",
-            "email": "Eusebiu_Ionescu@outlook.ro",
-            "birthDate": "2013-09-19",
-            "occupation": "student"
-        },
-        {
-            "firstName": "Bernadette",
-            "lastName": "de Delmas",
-            "email": "Bernadette_de_Delmas@gmail.fr",
-            "birthDate": "2011-04-11",
-            "occupation": "student"
-        },
-        {
-            "firstName": "Zamfira",
-            "lastName": "Stancu",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "birthDate": "1999-08-31",
-            "occupation": "student"
-        },
-        {
-            "firstName": "Suzanne",
-            "lastName": "Moreau",
-            "email": "Suzanne_Moreau@gmail.fr",
-            "birthDate": "2004-08-01",
-            "occupation": "student"
-        },
-        {
-            "firstName": "Deborah",
-            "lastName": "Marshall",
-            "email": "Deborah_Marshall@hotmail.us",
-            "birthDate": "1988-12-08",
-            "occupation": "programmer"
-        },
-        {
             "firstName": "Dida",
             "lastName": "Manole",
             "email": "Dida_Manole@hotmail.ro",
@@ -71,10 +43,10 @@
             "occupation": "engineer"
         },
         {
-            "firstName": "Joshua",
-            "lastName": "Neal",
-            "email": "Joshua_Neal@outlook.us",
-            "birthDate": "1998-04-08",
+            "firstName": "Chantal",
+            "lastName": "Michel",
+            "email": "Chantal_Michel@outlook.fr",
+            "birthDate": "2007-03-17",
             "occupation": "student"
         },
         {
@@ -85,53 +57,11 @@
             "occupation": "student"
         },
         {
-            "firstName": "Chantal",
-            "lastName": "Michel",
-            "email": "Chantal_Michel@outlook.fr",
-            "birthDate": "2007-03-17",
-            "occupation": "student"
-        },
-        {
-            "firstName": "Bernadette",
-            "lastName": "de Delmas",
-            "email": "Bernadette_de_Delmas@gmail.fr",
-            "birthDate": "2011-04-11",
-            "occupation": "student"
-        },
-        {
-            "firstName": "Chantal",
-            "lastName": "Michel",
-            "email": "Chantal_Michel@outlook.fr",
-            "birthDate": "2007-03-17",
-            "occupation": "student"
-        },
-        {
-            "firstName": "Marcel",
-            "lastName": "Hubert",
-            "email": "Marcel_Hubert@outlook.fr",
-            "birthDate": "2002-08-20",
-            "occupation": "student"
-        },
-        {
-            "firstName": "Zamfira",
-            "lastName": "Stancu",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "birthDate": "1999-08-31",
-            "occupation": "student"
-        },
-        {
-            "firstName": "Rebecca",
-            "lastName": "Johnson",
-            "email": "Rebecca_Johnson@yahoo.us",
-            "birthDate": "2012-04-01",
-            "occupation": "student"
-        },
-        {
-            "firstName": "Eusebiu",
-            "lastName": "Ionescu",
-            "email": "Eusebiu_Ionescu@outlook.ro",
-            "birthDate": "2013-09-19",
-            "occupation": "student"
+            "firstName": "Robert",
+            "lastName": "Bates",
+            "email": "Robert_Bates@yahoo.us",
+            "birthDate": "1987-08-28",
+            "occupation": "pharmacist"
         },
         {
             "firstName": "Marcel",
@@ -162,11 +92,11 @@
             "occupation": "programmer"
         },
         {
-            "firstName": "Ioana",
-            "lastName": "Ababe",
-            "email": "Ioana_Ababe@yahoo.ro",
-            "birthDate": "2008-09-04",
-            "occupation": "student"
+            "firstName": "Deborah",
+            "lastName": "Marshall",
+            "email": "Deborah_Marshall@hotmail.us",
+            "birthDate": "1988-12-08",
+            "occupation": "programmer"
         },
         {
             "firstName": "Joshua",
@@ -263,17 +193,18 @@
     "commands": [
         {
             "command": "addAccount",
-            "email": "Robert_Bates@yahoo.us",
-            "currency": "USD",
+            "email": "Eusebiu_Ionescu@outlook.ro",
+            "currency": "RON",
             "accountType": "classic",
             "timestamp": 1
         },
         {
             "command": "addAccount",
-            "email": "Elodia_Ababe@yahoo.ro",
+            "email": "Eusebiu_Ionescu@outlook.ro",
             "currency": "RON",
-            "accountType": "classic",
-            "timestamp": 14
+            "accountType": "savings",
+            "interestRate": 0.67,
+            "timestamp": 12
         },
         {
             "command": "addAccount",
@@ -284,1768 +215,1253 @@
         },
         {
             "command": "addAccount",
-            "email": "Norman_Aane@gmail.ro",
-            "currency": "RON",
-            "accountType": "classic",
-            "timestamp": 50
-        },
-        {
-            "command": "addAccount",
-            "email": "Eusebiu_Ionescu@outlook.ro",
-            "currency": "RON",
-            "accountType": "classic",
-            "timestamp": 70
-        },
-        {
-            "command": "addAccount",
-            "email": "Eusebiu_Ionescu@outlook.ro",
-            "currency": "RON",
-            "accountType": "savings",
-            "interestRate": 0.31,
-            "timestamp": 86
-        },
-        {
-            "command": "addAccount",
             "email": "Bernadette_de_Delmas@gmail.fr",
             "currency": "EUR",
             "accountType": "classic",
-            "timestamp": 106
+            "timestamp": 35
         },
         {
             "command": "addAccount",
             "email": "Bernadette_de_Delmas@gmail.fr",
             "currency": "EUR",
             "accountType": "savings",
-            "interestRate": 0.34,
-            "timestamp": 112
+            "interestRate": 0.15,
+            "timestamp": 46
         },
         {
             "command": "addAccount",
             "email": "Zamfira_Stancu@hotmail.ro",
             "currency": "RON",
             "accountType": "classic",
-            "timestamp": 114
+            "timestamp": 51
         },
         {
             "command": "addAccount",
-            "email": "Suzanne_Moreau@gmail.fr",
-            "currency": "EUR",
+            "email": "Norman_Aane@gmail.ro",
+            "currency": "RON",
             "accountType": "classic",
-            "timestamp": 133
-        },
-        {
-            "command": "addAccount",
-            "email": "Deborah_Marshall@hotmail.us",
-            "currency": "USD",
-            "accountType": "classic",
-            "timestamp": 135
+            "timestamp": 65
         },
         {
             "command": "addAccount",
             "email": "Dida_Manole@hotmail.ro",
             "currency": "RON",
             "accountType": "classic",
-            "timestamp": 149
-        },
-        {
-            "command": "addAccount",
-            "email": "Joshua_Neal@outlook.us",
-            "currency": "USD",
-            "accountType": "classic",
-            "timestamp": 155
-        },
-        {
-            "command": "addAccount",
-            "email": "Rebecca_Johnson@yahoo.us",
-            "currency": "USD",
-            "accountType": "classic",
-            "timestamp": 164
-        },
-        {
-            "command": "addAccount",
-            "email": "Rebecca_Johnson@yahoo.us",
-            "currency": "USD",
-            "accountType": "savings",
-            "interestRate": 0.86,
-            "timestamp": 181
+            "timestamp": 78
         },
         {
             "command": "addAccount",
             "email": "Chantal_Michel@outlook.fr",
             "currency": "EUR",
             "accountType": "classic",
-            "timestamp": 184
+            "timestamp": 89
         },
         {
             "command": "addAccount",
             "email": "Chantal_Michel@outlook.fr",
             "currency": "EUR",
             "accountType": "savings",
-            "interestRate": 0.02,
-            "timestamp": 186
-        },
-        {
-            "command": "addAccount",
-            "email": "Bernadette_de_Delmas@gmail.fr",
-            "currency": "EUR",
-            "accountType": "classic",
-            "timestamp": 194
-        },
-        {
-            "command": "addAccount",
-            "email": "Bernadette_de_Delmas@gmail.fr",
-            "currency": "EUR",
-            "accountType": "savings",
-            "interestRate": 0.3,
-            "timestamp": 209
-        },
-        {
-            "command": "addAccount",
-            "email": "Chantal_Michel@outlook.fr",
-            "currency": "EUR",
-            "accountType": "classic",
-            "timestamp": 227
-        },
-        {
-            "command": "addAccount",
-            "email": "Chantal_Michel@outlook.fr",
-            "currency": "EUR",
-            "accountType": "savings",
-            "interestRate": 0.31,
-            "timestamp": 248
-        },
-        {
-            "command": "addAccount",
-            "email": "Marcel_Hubert@outlook.fr",
-            "currency": "EUR",
-            "accountType": "classic",
-            "timestamp": 259
-        },
-        {
-            "command": "addAccount",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "currency": "RON",
-            "accountType": "classic",
-            "timestamp": 262
+            "interestRate": 0.62,
+            "timestamp": 102
         },
         {
             "command": "addAccount",
             "email": "Rebecca_Johnson@yahoo.us",
             "currency": "USD",
             "accountType": "classic",
-            "timestamp": 280
+            "timestamp": 121
         },
         {
             "command": "addAccount",
             "email": "Rebecca_Johnson@yahoo.us",
             "currency": "USD",
-            "accountType": "savings",
-            "interestRate": 0.05,
-            "timestamp": 289
-        },
-        {
-            "command": "addAccount",
-            "email": "Eusebiu_Ionescu@outlook.ro",
-            "currency": "RON",
-            "accountType": "classic",
-            "timestamp": 303
-        },
-        {
-            "command": "addAccount",
-            "email": "Eusebiu_Ionescu@outlook.ro",
-            "currency": "RON",
-            "accountType": "savings",
-            "interestRate": 1.0,
-            "timestamp": 316
-        },
-        {
-            "command": "addAccount",
-            "email": "Marcel_Hubert@outlook.fr",
-            "currency": "EUR",
-            "accountType": "classic",
-            "timestamp": 318
-        },
-        {
-            "command": "addAccount",
-            "email": "Ioana_Ababe@yahoo.ro",
-            "currency": "RON",
-            "accountType": "classic",
-            "timestamp": 337
-        },
-        {
-            "command": "addAccount",
-            "email": "Ioana_Ababe@yahoo.ro",
-            "currency": "RON",
             "accountType": "savings",
             "interestRate": 0.57,
-            "timestamp": 348
+            "timestamp": 141
+        },
+        {
+            "command": "addAccount",
+            "email": "Robert_Bates@yahoo.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 150
+        },
+        {
+            "command": "addAccount",
+            "email": "Marcel_Hubert@outlook.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 170
+        },
+        {
+            "command": "addAccount",
+            "email": "Ioana_Ababe@yahoo.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 176
+        },
+        {
+            "command": "addAccount",
+            "email": "Ioana_Ababe@yahoo.ro",
+            "currency": "RON",
+            "accountType": "savings",
+            "interestRate": 0.03,
+            "timestamp": 186
         },
         {
             "command": "addAccount",
             "email": "Suzanne_Moreau@gmail.fr",
             "currency": "EUR",
             "accountType": "classic",
-            "timestamp": 364
+            "timestamp": 205
         },
         {
             "command": "addAccount",
             "email": "David_Price@gmail.us",
             "currency": "USD",
             "accountType": "classic",
-            "timestamp": 369
+            "timestamp": 207
         },
         {
             "command": "addAccount",
-            "email": "Ioana_Ababe@yahoo.ro",
-            "currency": "RON",
+            "email": "Deborah_Marshall@hotmail.us",
+            "currency": "USD",
             "accountType": "classic",
-            "timestamp": 374
-        },
-        {
-            "command": "addAccount",
-            "email": "Ioana_Ababe@yahoo.ro",
-            "currency": "RON",
-            "accountType": "savings",
-            "interestRate": 0.73,
-            "timestamp": 387
+            "timestamp": 221
         },
         {
             "command": "addAccount",
             "email": "Joshua_Neal@outlook.us",
             "currency": "USD",
             "accountType": "classic",
-            "timestamp": 405
+            "timestamp": 227
         },
         {
             "command": "addFunds",
-            "email": "Robert_Bates@yahoo.us",
+            "email": "Eusebiu_Ionescu@outlook.ro",
             "account": "RO58POOB7344468893732422",
-            "amount": 1730.0,
-            "timestamp": 415
+            "amount": 1492.0,
+            "timestamp": 236
         },
         {
             "command": "addFunds",
-            "email": "Elodia_Ababe@yahoo.ro",
+            "email": "Eusebiu_Ionescu@outlook.ro",
             "account": "RO69POOB6209498372540635",
-            "amount": 1959.0,
-            "timestamp": 435
+            "amount": 1008.0,
+            "timestamp": 239
         },
         {
             "command": "addFunds",
             "email": "Elodia_Ababe@yahoo.ro",
             "account": "RO90POOB5450777208072365",
-            "amount": 1972.0,
-            "timestamp": 456
+            "amount": 1789.0,
+            "timestamp": 241
+        },
+        {
+            "command": "addFunds",
+            "email": "Bernadette_de_Delmas@gmail.fr",
+            "account": "RO65POOB8944016386845896",
+            "amount": 1428.0,
+            "timestamp": 249
+        },
+        {
+            "command": "addFunds",
+            "email": "Bernadette_de_Delmas@gmail.fr",
+            "account": "RO58POOB2721178218599590",
+            "amount": 1516.0,
+            "timestamp": 258
+        },
+        {
+            "command": "addFunds",
+            "email": "Zamfira_Stancu@hotmail.ro",
+            "account": "RO76POOB4035116042454483",
+            "amount": 1241.0,
+            "timestamp": 279
         },
         {
             "command": "addFunds",
             "email": "Norman_Aane@gmail.ro",
-            "account": "RO65POOB8944016386845896",
-            "amount": 1386.0,
-            "timestamp": 470
-        },
-        {
-            "command": "addFunds",
-            "email": "Eusebiu_Ionescu@outlook.ro",
-            "account": "RO58POOB2721178218599590",
-            "amount": 1867.0,
-            "timestamp": 481
-        },
-        {
-            "command": "addFunds",
-            "email": "Eusebiu_Ionescu@outlook.ro",
-            "account": "RO76POOB4035116042454483",
-            "amount": 1605.0,
-            "timestamp": 488
-        },
-        {
-            "command": "addFunds",
-            "email": "Bernadette_de_Delmas@gmail.fr",
             "account": "RO37POOB7013767509830666",
-            "amount": 1660.0,
-            "timestamp": 492
-        },
-        {
-            "command": "addFunds",
-            "email": "Bernadette_de_Delmas@gmail.fr",
-            "account": "RO19POOB4981055641668812",
-            "amount": 1056.0,
-            "timestamp": 508
-        },
-        {
-            "command": "addFunds",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "account": "RO30POOB9523423715747796",
-            "amount": 1541.0,
-            "timestamp": 516
-        },
-        {
-            "command": "addFunds",
-            "email": "Suzanne_Moreau@gmail.fr",
-            "account": "RO79POOB3616857825600958",
-            "amount": 1398.0,
-            "timestamp": 537
-        },
-        {
-            "command": "addFunds",
-            "email": "Deborah_Marshall@hotmail.us",
-            "account": "RO00POOB5687892910835215",
-            "amount": 1946.0,
-            "timestamp": 542
+            "amount": 1057.0,
+            "timestamp": 290
         },
         {
             "command": "addFunds",
             "email": "Dida_Manole@hotmail.ro",
+            "account": "RO19POOB4981055641668812",
+            "amount": 1244.0,
+            "timestamp": 308
+        },
+        {
+            "command": "addFunds",
+            "email": "Chantal_Michel@outlook.fr",
+            "account": "RO30POOB9523423715747796",
+            "amount": 1708.0,
+            "timestamp": 311
+        },
+        {
+            "command": "addFunds",
+            "email": "Chantal_Michel@outlook.fr",
+            "account": "RO79POOB3616857825600958",
+            "amount": 1905.0,
+            "timestamp": 325
+        },
+        {
+            "command": "addFunds",
+            "email": "Rebecca_Johnson@yahoo.us",
+            "account": "RO00POOB5687892910835215",
+            "amount": 1795.0,
+            "timestamp": 338
+        },
+        {
+            "command": "addFunds",
+            "email": "Rebecca_Johnson@yahoo.us",
             "account": "RO96POOB6738272785416988",
-            "amount": 1306.0,
-            "timestamp": 560
+            "amount": 1571.0,
+            "timestamp": 340
         },
         {
             "command": "addFunds",
-            "email": "Joshua_Neal@outlook.us",
+            "email": "Robert_Bates@yahoo.us",
             "account": "RO33POOB4049920806186500",
-            "amount": 1382.0,
-            "timestamp": 579
+            "amount": 1450.0,
+            "timestamp": 351
         },
         {
             "command": "addFunds",
-            "email": "Rebecca_Johnson@yahoo.us",
+            "email": "Marcel_Hubert@outlook.fr",
             "account": "RO69POOB9846198978826791",
-            "amount": 1141.0,
-            "timestamp": 594
+            "amount": 1105.0,
+            "timestamp": 367
         },
         {
             "command": "addFunds",
-            "email": "Rebecca_Johnson@yahoo.us",
+            "email": "Ioana_Ababe@yahoo.ro",
             "account": "RO98POOB8412955460158769",
-            "amount": 1359.0,
-            "timestamp": 610
+            "amount": 1946.0,
+            "timestamp": 372
         },
         {
             "command": "addFunds",
-            "email": "Chantal_Michel@outlook.fr",
+            "email": "Ioana_Ababe@yahoo.ro",
             "account": "RO32POOB0130532963818359",
-            "amount": 1506.0,
-            "timestamp": 614
-        },
-        {
-            "command": "addFunds",
-            "email": "Chantal_Michel@outlook.fr",
-            "account": "RO68POOB1848616931405475",
-            "amount": 1579.0,
-            "timestamp": 616
-        },
-        {
-            "command": "addFunds",
-            "email": "Bernadette_de_Delmas@gmail.fr",
-            "account": "RO10POOB4354933866366881",
-            "amount": 1212.0,
-            "timestamp": 636
-        },
-        {
-            "command": "addFunds",
-            "email": "Bernadette_de_Delmas@gmail.fr",
-            "account": "RO33POOB9999273999620457",
-            "amount": 1464.0,
-            "timestamp": 656
-        },
-        {
-            "command": "addFunds",
-            "email": "Chantal_Michel@outlook.fr",
-            "account": "RO38POOB0964823730995794",
-            "amount": 1061.0,
-            "timestamp": 659
-        },
-        {
-            "command": "addFunds",
-            "email": "Chantal_Michel@outlook.fr",
-            "account": "RO53POOB7122855990652257",
-            "amount": 1119.0,
-            "timestamp": 663
-        },
-        {
-            "command": "addFunds",
-            "email": "Marcel_Hubert@outlook.fr",
-            "account": "RO71POOB1634969878734749",
-            "amount": 1906.0,
-            "timestamp": 675
-        },
-        {
-            "command": "addFunds",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "account": "RO09POOB4346339013848470",
-            "amount": 1383.0,
-            "timestamp": 681
-        },
-        {
-            "command": "addFunds",
-            "email": "Rebecca_Johnson@yahoo.us",
-            "account": "RO50POOB3913194831046423",
-            "amount": 1269.0,
-            "timestamp": 693
-        },
-        {
-            "command": "addFunds",
-            "email": "Rebecca_Johnson@yahoo.us",
-            "account": "RO89POOB4455583483378897",
-            "amount": 1495.0,
-            "timestamp": 703
-        },
-        {
-            "command": "addFunds",
-            "email": "Eusebiu_Ionescu@outlook.ro",
-            "account": "RO36POOB6500477412147025",
-            "amount": 1758.0,
-            "timestamp": 709
-        },
-        {
-            "command": "addFunds",
-            "email": "Eusebiu_Ionescu@outlook.ro",
-            "account": "RO46POOB9051076190383154",
-            "amount": 1268.0,
-            "timestamp": 714
-        },
-        {
-            "command": "addFunds",
-            "email": "Marcel_Hubert@outlook.fr",
-            "account": "RO45POOB0388148432759748",
-            "amount": 1849.0,
-            "timestamp": 724
-        },
-        {
-            "command": "addFunds",
-            "email": "Ioana_Ababe@yahoo.ro",
-            "account": "RO52POOB6271107854467609",
-            "amount": 1640.0,
-            "timestamp": 726
-        },
-        {
-            "command": "addFunds",
-            "email": "Ioana_Ababe@yahoo.ro",
-            "account": "RO98POOB7190609943699593",
-            "amount": 1397.0,
-            "timestamp": 736
+            "amount": 1582.0,
+            "timestamp": 385
         },
         {
             "command": "addFunds",
             "email": "Suzanne_Moreau@gmail.fr",
-            "account": "RO50POOB3359236199018963",
-            "amount": 1643.0,
-            "timestamp": 743
+            "account": "RO68POOB1848616931405475",
+            "amount": 1282.0,
+            "timestamp": 403
         },
         {
             "command": "addFunds",
             "email": "David_Price@gmail.us",
-            "account": "RO75POOB8279679254660818",
-            "amount": 1718.0,
-            "timestamp": 752
+            "account": "RO10POOB4354933866366881",
+            "amount": 1959.0,
+            "timestamp": 423
         },
         {
             "command": "addFunds",
-            "email": "Ioana_Ababe@yahoo.ro",
-            "account": "RO37POOB8653914479106806",
-            "amount": 1606.0,
-            "timestamp": 762
-        },
-        {
-            "command": "addFunds",
-            "email": "Ioana_Ababe@yahoo.ro",
-            "account": "RO73POOB0363118755441573",
-            "amount": 1937.0,
-            "timestamp": 778
+            "email": "Deborah_Marshall@hotmail.us",
+            "account": "RO33POOB9999273999620457",
+            "amount": 1972.0,
+            "timestamp": 444
         },
         {
             "command": "addFunds",
             "email": "Joshua_Neal@outlook.us",
-            "account": "RO40POOB2135483650246268",
-            "amount": 1608.0,
-            "timestamp": 785
+            "account": "RO38POOB0964823730995794",
+            "amount": 1386.0,
+            "timestamp": 458
         },
         {
             "command": "payOnline",
-            "email": "Robert_Bates@yahoo.us",
+            "email": "Eusebiu_Ionescu@outlook.ro",
             "cardNumber": "4001829491527416",
-            "amount": 462,
-            "currency": "USD",
-            "timestamp": 791,
+            "amount": 303,
+            "currency": "RON",
+            "timestamp": 469,
             "description": "Online payment",
-            "commerciant": "McDonalds"
+            "commerciant": "Zara"
         },
         {
             "command": "payOnline",
-            "email": "Elodia_Ababe@yahoo.ro",
+            "email": "Eusebiu_Ionescu@outlook.ro",
             "cardNumber": "6769125583796385",
-            "amount": 70,
+            "amount": 32,
             "currency": "USD",
-            "timestamp": 810,
+            "timestamp": 485,
             "description": "Online payment",
-            "commerciant": "Burger King"
+            "commerciant": "Samsung"
         },
         {
             "command": "payOnline",
             "email": "Elodia_Ababe@yahoo.ro",
             "cardNumber": "2827143779240285",
-            "amount": 447,
+            "amount": 474,
             "currency": "RON",
-            "timestamp": 831,
+            "timestamp": 506,
             "description": "Online payment",
-            "commerciant": "Burger King"
+            "commerciant": "Samsung"
         },
         {
             "command": "payOnline",
-            "email": "Norman_Aane@gmail.ro",
+            "email": "Bernadette_de_Delmas@gmail.fr",
             "cardNumber": "4491799876006556",
-            "amount": 61,
-            "currency": "RON",
-            "timestamp": 833,
+            "amount": 192,
+            "currency": "EUR",
+            "timestamp": 517,
             "description": "Online payment",
             "commerciant": "Amazon"
         },
         {
             "command": "payOnline",
-            "email": "Eusebiu_Ionescu@outlook.ro",
+            "email": "Bernadette_de_Delmas@gmail.fr",
             "cardNumber": "1752095065063305",
-            "amount": 314,
-            "currency": "RON",
-            "timestamp": 851,
+            "amount": 33,
+            "currency": "EUR",
+            "timestamp": 523,
             "description": "Online payment",
-            "commerciant": "H&M"
+            "commerciant": "Apple"
         },
         {
             "command": "upgradePlan",
-            "account": "RO30POOB9523423715747796",
+            "account": "RO76POOB4035116042454483",
             "newPlanType": "student",
-            "timestamp": 860
+            "timestamp": 525
         },
         {
             "command": "upgradePlan",
-            "account": "RO00POOB5687892910835215",
+            "account": "RO10POOB4354933866366881",
             "newPlanType": "student",
-            "timestamp": 861
+            "timestamp": 526
         },
         {
             "command": "cashWithdrawal",
-            "email": "David_Price@gmail.us",
+            "email": "Zamfira_Stancu@hotmail.ro",
             "cardNumber": "9341628021029699",
-            "amount": 1212.0,
+            "amount": 123.0,
             "location": "Rachaelfort",
-            "timestamp": 862
+            "timestamp": 527
         },
         {
             "command": "cashWithdrawal",
-            "email": "Elodia_Ababe@yahoo.ro",
+            "email": "Marcel_Hubert@outlook.fr",
             "cardNumber": "4374966931133138",
-            "amount": 137.0,
-            "location": "Sandersberg",
-            "timestamp": 865
+            "amount": 701.0,
+            "location": "Sandoz (AR)",
+            "timestamp": 532
         },
         {
             "command": "cashWithdrawal",
-            "email": "Ioana_Ababe@yahoo.ro",
+            "email": "Rebecca_Johnson@yahoo.us",
             "cardNumber": "6097867366365266",
-            "amount": 1329.0,
-            "location": "West Miranda",
-            "timestamp": 876
+            "amount": 698.0,
+            "location": "Lynnbury",
+            "timestamp": 545
         },
         {
             "command": "cashWithdrawal",
-            "email": "Suzanne_Moreau@gmail.fr",
+            "email": "Eusebiu_Ionescu@outlook.ro",
             "cardNumber": "9284968684427386",
-            "amount": 1477.0,
-            "location": "Rachaelfort",
-            "timestamp": 895
+            "amount": 992.0,
+            "location": "Sandoz (AR)",
+            "timestamp": 555
         },
         {
             "command": "upgradePlan",
             "account": "RO40POOB0182949152741667",
             "newPlanType": "silver",
-            "timestamp": 905
+            "timestamp": 560
         },
         {
             "command": "addAccount",
             "email": "Norman_Aane@gmail.ro",
             "currency": "RON",
             "accountType": "classic",
-            "timestamp": 906
+            "timestamp": 561
         },
         {
             "command": "upgradePlan",
-            "account": "RO75POOB1098983729823992",
+            "account": "RO53POOB7122855990652257",
             "newPlanType": "silver",
-            "timestamp": 907
+            "timestamp": 562
         },
         {
             "command": "addFunds",
             "email": "Norman_Aane@gmail.ro",
-            "account": "RO75POOB1098983729823992",
+            "account": "RO53POOB7122855990652257",
             "amount": 100.0,
-            "timestamp": 908
+            "timestamp": 563
         },
         {
             "command": "upgradePlan",
-            "account": "RO75POOB1098983729823992",
+            "account": "RO53POOB7122855990652257",
             "newPlanType": "silver",
-            "timestamp": 909
+            "timestamp": 564
         },
         {
             "command": "printTransactions",
             "email": "Norman_Aane@gmail.ro",
-            "timestamp": 910
+            "timestamp": 565
         },
         {
             "command": "printUsers",
-            "timestamp": 911
+            "timestamp": 566
         },
         {
             "command": "deleteAccount",
             "email": "Norman_Aane@gmail.ro",
-            "account": "RO75POOB1098983729823992",
-            "timestamp": 912
+            "account": "RO53POOB7122855990652257",
+            "timestamp": 567
         },
         {
             "command": "printUsers",
-            "timestamp": 913
+            "timestamp": 568
         },
         {
             "command": "addAccount",
-            "email": "Chantal_Michel@outlook.fr",
-            "currency": "EUR",
-            "accountType": "classic",
-            "timestamp": 914
-        },
-        {
-            "command": "addFunds",
-            "email": "Chantal_Michel@outlook.fr",
-            "account": "RO15POOB0048706387164463",
-            "amount": 86.0,
-            "timestamp": 915
-        },
-        {
-            "command": "addAccount",
-            "email": "Joshua_Neal@outlook.us",
-            "currency": "USD",
-            "accountType": "classic",
-            "timestamp": 916
-        },
-        {
-            "command": "addFunds",
-            "email": "Joshua_Neal@outlook.us",
-            "account": "RO97POOB5006417983475785",
-            "amount": 86.0,
-            "timestamp": 917
-        },
-        {
-            "command": "addAccount",
-            "email": "Dida_Manole@hotmail.ro",
+            "email": "Norman_Aane@gmail.ro",
             "currency": "RON",
             "accountType": "classic",
-            "timestamp": 918
+            "timestamp": 569
         },
         {
             "command": "addFunds",
-            "email": "Dida_Manole@hotmail.ro",
-            "account": "RO93POOB6760303931698665",
-            "amount": 10.0,
-            "timestamp": 919
+            "email": "Norman_Aane@gmail.ro",
+            "account": "RO71POOB1634969878734749",
+            "amount": 109.0,
+            "timestamp": 570
         },
         {
             "command": "addAccount",
             "email": "Deborah_Marshall@hotmail.us",
             "currency": "USD",
             "accountType": "classic",
-            "timestamp": 920
+            "timestamp": 571
         },
         {
             "command": "addFunds",
             "email": "Deborah_Marshall@hotmail.us",
-            "account": "RO47POOB5866490978033060",
-            "amount": 92.0,
-            "timestamp": 921
+            "account": "RO09POOB4346339013848470",
+            "amount": 52.0,
+            "timestamp": 572
         },
         {
             "command": "addAccount",
-            "email": "Chantal_Michel@outlook.fr",
-            "currency": "EUR",
+            "email": "Eusebiu_Ionescu@outlook.ro",
+            "currency": "RON",
             "accountType": "classic",
-            "timestamp": 922
+            "timestamp": 573
+        },
+        {
+            "command": "addFunds",
+            "email": "Eusebiu_Ionescu@outlook.ro",
+            "account": "RO50POOB3913194831046423",
+            "amount": 72.0,
+            "timestamp": 574
+        },
+        {
+            "command": "addAccount",
+            "email": "Ioana_Ababe@yahoo.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 575
+        },
+        {
+            "command": "addFunds",
+            "email": "Ioana_Ababe@yahoo.ro",
+            "account": "RO89POOB4455583483378897",
+            "amount": 77.0,
+            "timestamp": 576
+        },
+        {
+            "command": "addAccount",
+            "email": "Joshua_Neal@outlook.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 577
+        },
+        {
+            "command": "addFunds",
+            "email": "Joshua_Neal@outlook.us",
+            "account": "RO36POOB6500477412147025",
+            "amount": 122.0,
+            "timestamp": 578
+        },
+        {
+            "command": "addFunds",
+            "email": "Eusebiu_Ionescu@outlook.ro",
+            "account": "RO58POOB7344468893732422",
+            "amount": 100.0,
+            "timestamp": 579
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO58POOB7344468893732422",
+            "newPlanType": "silver",
+            "timestamp": 580
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO58POOB7344468893732422",
+            "newPlanType": "student",
+            "timestamp": 581
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO58POOB7344468893732422",
+            "newPlanType": "standard",
+            "timestamp": 582
+        },
+        {
+            "command": "addFunds",
+            "email": "Eusebiu_Ionescu@outlook.ro",
+            "account": "RO69POOB6209498372540635",
+            "amount": 100.0,
+            "timestamp": 583
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO69POOB6209498372540635",
+            "newPlanType": "silver",
+            "timestamp": 584
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO69POOB6209498372540635",
+            "newPlanType": "student",
+            "timestamp": 585
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO69POOB6209498372540635",
+            "newPlanType": "standard",
+            "timestamp": 586
+        },
+        {
+            "command": "addFunds",
+            "email": "Elodia_Ababe@yahoo.ro",
+            "account": "RO90POOB5450777208072365",
+            "amount": 100.0,
+            "timestamp": 587
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO90POOB5450777208072365",
+            "newPlanType": "silver",
+            "timestamp": 588
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO90POOB5450777208072365",
+            "newPlanType": "student",
+            "timestamp": 589
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO90POOB5450777208072365",
+            "newPlanType": "standard",
+            "timestamp": 590
+        },
+        {
+            "command": "addFunds",
+            "email": "Bernadette_de_Delmas@gmail.fr",
+            "account": "RO65POOB8944016386845896",
+            "amount": 23.81,
+            "timestamp": 591
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO65POOB8944016386845896",
+            "newPlanType": "silver",
+            "timestamp": 592
+        },
+        {
+            "command": "addFunds",
+            "email": "Bernadette_de_Delmas@gmail.fr",
+            "account": "RO58POOB2721178218599590",
+            "amount": 23.81,
+            "timestamp": 593
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO58POOB2721178218599590",
+            "newPlanType": "silver",
+            "timestamp": 594
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO58POOB2721178218599590",
+            "newPlanType": "student",
+            "timestamp": 595
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO58POOB2721178218599590",
+            "newPlanType": "standard",
+            "timestamp": 596
+        },
+        {
+            "command": "addFunds",
+            "email": "Zamfira_Stancu@hotmail.ro",
+            "account": "RO76POOB4035116042454483",
+            "amount": 100.0,
+            "timestamp": 597
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO76POOB4035116042454483",
+            "newPlanType": "silver",
+            "timestamp": 598
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO76POOB4035116042454483",
+            "newPlanType": "student",
+            "timestamp": 599
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO76POOB4035116042454483",
+            "newPlanType": "standard",
+            "timestamp": 600
+        },
+        {
+            "command": "addFunds",
+            "email": "Norman_Aane@gmail.ro",
+            "account": "RO37POOB7013767509830666",
+            "amount": 100.0,
+            "timestamp": 601
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO37POOB7013767509830666",
+            "newPlanType": "silver",
+            "timestamp": 602
+        },
+        {
+            "command": "addFunds",
+            "email": "Dida_Manole@hotmail.ro",
+            "account": "RO19POOB4981055641668812",
+            "amount": 100.0,
+            "timestamp": 603
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO19POOB4981055641668812",
+            "newPlanType": "silver",
+            "timestamp": 604
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO19POOB4981055641668812",
+            "newPlanType": "student",
+            "timestamp": 605
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO19POOB4981055641668812",
+            "newPlanType": "standard",
+            "timestamp": 606
         },
         {
             "command": "addFunds",
             "email": "Chantal_Michel@outlook.fr",
-            "account": "RO45POOB6505529013808948",
-            "amount": 142.0,
-            "timestamp": 923
+            "account": "RO30POOB9523423715747796",
+            "amount": 23.81,
+            "timestamp": 607
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO30POOB9523423715747796",
+            "newPlanType": "silver",
+            "timestamp": 608
+        },
+        {
+            "command": "addFunds",
+            "email": "Chantal_Michel@outlook.fr",
+            "account": "RO79POOB3616857825600958",
+            "amount": 23.81,
+            "timestamp": 609
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO79POOB3616857825600958",
+            "newPlanType": "silver",
+            "timestamp": 610
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO79POOB3616857825600958",
+            "newPlanType": "student",
+            "timestamp": 611
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO79POOB3616857825600958",
+            "newPlanType": "standard",
+            "timestamp": 612
+        },
+        {
+            "command": "addFunds",
+            "email": "Rebecca_Johnson@yahoo.us",
+            "account": "RO00POOB5687892910835215",
+            "amount": 333.33,
+            "timestamp": 613
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO00POOB5687892910835215",
+            "newPlanType": "silver",
+            "timestamp": 614
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO00POOB5687892910835215",
+            "newPlanType": "student",
+            "timestamp": 615
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO00POOB5687892910835215",
+            "newPlanType": "standard",
+            "timestamp": 616
+        },
+        {
+            "command": "addFunds",
+            "email": "Rebecca_Johnson@yahoo.us",
+            "account": "RO96POOB6738272785416988",
+            "amount": 333.33,
+            "timestamp": 617
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO96POOB6738272785416988",
+            "newPlanType": "silver",
+            "timestamp": 618
         },
         {
             "command": "addFunds",
             "email": "Robert_Bates@yahoo.us",
-            "account": "RO58POOB7344468893732422",
-            "amount": 333.33,
-            "timestamp": 924
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO58POOB7344468893732422",
-            "newPlanType": "silver",
-            "timestamp": 925
-        },
-        {
-            "command": "addFunds",
-            "email": "Elodia_Ababe@yahoo.ro",
-            "account": "RO69POOB6209498372540635",
-            "amount": 100.0,
-            "timestamp": 926
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO69POOB6209498372540635",
-            "newPlanType": "silver",
-            "timestamp": 927
-        },
-        {
-            "command": "addFunds",
-            "email": "Elodia_Ababe@yahoo.ro",
-            "account": "RO90POOB5450777208072365",
-            "amount": 100.0,
-            "timestamp": 928
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO90POOB5450777208072365",
-            "newPlanType": "silver",
-            "timestamp": 929
-        },
-        {
-            "command": "addFunds",
-            "email": "Norman_Aane@gmail.ro",
-            "account": "RO65POOB8944016386845896",
-            "amount": 100.0,
-            "timestamp": 930
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO65POOB8944016386845896",
-            "newPlanType": "silver",
-            "timestamp": 931
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO65POOB8944016386845896",
-            "newPlanType": "student",
-            "timestamp": 932
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO65POOB8944016386845896",
-            "newPlanType": "standard",
-            "timestamp": 933
-        },
-        {
-            "command": "addFunds",
-            "email": "Eusebiu_Ionescu@outlook.ro",
-            "account": "RO58POOB2721178218599590",
-            "amount": 100.0,
-            "timestamp": 934
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO58POOB2721178218599590",
-            "newPlanType": "silver",
-            "timestamp": 935
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO58POOB2721178218599590",
-            "newPlanType": "student",
-            "timestamp": 936
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO58POOB2721178218599590",
-            "newPlanType": "standard",
-            "timestamp": 937
-        },
-        {
-            "command": "addFunds",
-            "email": "Eusebiu_Ionescu@outlook.ro",
-            "account": "RO76POOB4035116042454483",
-            "amount": 100.0,
-            "timestamp": 938
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO76POOB4035116042454483",
-            "newPlanType": "silver",
-            "timestamp": 939
-        },
-        {
-            "command": "addFunds",
-            "email": "Bernadette_de_Delmas@gmail.fr",
-            "account": "RO37POOB7013767509830666",
-            "amount": 23.81,
-            "timestamp": 940
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO37POOB7013767509830666",
-            "newPlanType": "silver",
-            "timestamp": 941
-        },
-        {
-            "command": "addFunds",
-            "email": "Bernadette_de_Delmas@gmail.fr",
-            "account": "RO19POOB4981055641668812",
-            "amount": 23.81,
-            "timestamp": 942
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO19POOB4981055641668812",
-            "newPlanType": "silver",
-            "timestamp": 943
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO19POOB4981055641668812",
-            "newPlanType": "student",
-            "timestamp": 944
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO19POOB4981055641668812",
-            "newPlanType": "standard",
-            "timestamp": 945
-        },
-        {
-            "command": "addFunds",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "account": "RO30POOB9523423715747796",
-            "amount": 100.0,
-            "timestamp": 946
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO30POOB9523423715747796",
-            "newPlanType": "silver",
-            "timestamp": 947
-        },
-        {
-            "command": "addFunds",
-            "email": "Suzanne_Moreau@gmail.fr",
-            "account": "RO79POOB3616857825600958",
-            "amount": 23.81,
-            "timestamp": 948
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO79POOB3616857825600958",
-            "newPlanType": "silver",
-            "timestamp": 949
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO79POOB3616857825600958",
-            "newPlanType": "student",
-            "timestamp": 950
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO79POOB3616857825600958",
-            "newPlanType": "standard",
-            "timestamp": 951
-        },
-        {
-            "command": "addFunds",
-            "email": "Deborah_Marshall@hotmail.us",
-            "account": "RO00POOB5687892910835215",
-            "amount": 333.33,
-            "timestamp": 952
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO00POOB5687892910835215",
-            "newPlanType": "silver",
-            "timestamp": 953
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO00POOB5687892910835215",
-            "newPlanType": "student",
-            "timestamp": 954
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO00POOB5687892910835215",
-            "newPlanType": "standard",
-            "timestamp": 955
-        },
-        {
-            "command": "addFunds",
-            "email": "Dida_Manole@hotmail.ro",
-            "account": "RO96POOB6738272785416988",
-            "amount": 100.0,
-            "timestamp": 956
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO96POOB6738272785416988",
-            "newPlanType": "silver",
-            "timestamp": 957
-        },
-        {
-            "command": "addFunds",
-            "email": "Joshua_Neal@outlook.us",
             "account": "RO33POOB4049920806186500",
             "amount": 333.33,
-            "timestamp": 958
+            "timestamp": 619
         },
         {
             "command": "upgradePlan",
             "account": "RO33POOB4049920806186500",
             "newPlanType": "silver",
-            "timestamp": 959
+            "timestamp": 620
         },
         {
             "command": "upgradePlan",
             "account": "RO33POOB4049920806186500",
             "newPlanType": "student",
-            "timestamp": 960
+            "timestamp": 621
         },
         {
             "command": "upgradePlan",
             "account": "RO33POOB4049920806186500",
             "newPlanType": "standard",
-            "timestamp": 961
+            "timestamp": 622
         },
         {
             "command": "addFunds",
-            "email": "Rebecca_Johnson@yahoo.us",
+            "email": "Marcel_Hubert@outlook.fr",
             "account": "RO69POOB9846198978826791",
-            "amount": 333.33,
-            "timestamp": 962
+            "amount": 23.81,
+            "timestamp": 623
         },
         {
             "command": "upgradePlan",
             "account": "RO69POOB9846198978826791",
             "newPlanType": "silver",
-            "timestamp": 963
-        },
-        {
-            "command": "addFunds",
-            "email": "Rebecca_Johnson@yahoo.us",
-            "account": "RO98POOB8412955460158769",
-            "amount": 333.33,
-            "timestamp": 964
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO98POOB8412955460158769",
-            "newPlanType": "silver",
-            "timestamp": 965
-        },
-        {
-            "command": "addFunds",
-            "email": "Chantal_Michel@outlook.fr",
-            "account": "RO32POOB0130532963818359",
-            "amount": 23.81,
-            "timestamp": 966
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO32POOB0130532963818359",
-            "newPlanType": "silver",
-            "timestamp": 967
-        },
-        {
-            "command": "addFunds",
-            "email": "Chantal_Michel@outlook.fr",
-            "account": "RO68POOB1848616931405475",
-            "amount": 23.81,
-            "timestamp": 968
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO68POOB1848616931405475",
-            "newPlanType": "silver",
-            "timestamp": 969
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO68POOB1848616931405475",
-            "newPlanType": "student",
-            "timestamp": 970
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO68POOB1848616931405475",
-            "newPlanType": "standard",
-            "timestamp": 971
-        },
-        {
-            "command": "addFunds",
-            "email": "Bernadette_de_Delmas@gmail.fr",
-            "account": "RO10POOB4354933866366881",
-            "amount": 23.81,
-            "timestamp": 972
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO10POOB4354933866366881",
-            "newPlanType": "silver",
-            "timestamp": 973
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO10POOB4354933866366881",
-            "newPlanType": "student",
-            "timestamp": 974
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO10POOB4354933866366881",
-            "newPlanType": "standard",
-            "timestamp": 975
-        },
-        {
-            "command": "addFunds",
-            "email": "Bernadette_de_Delmas@gmail.fr",
-            "account": "RO33POOB9999273999620457",
-            "amount": 23.81,
-            "timestamp": 976
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO33POOB9999273999620457",
-            "newPlanType": "silver",
-            "timestamp": 977
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO33POOB9999273999620457",
-            "newPlanType": "student",
-            "timestamp": 978
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO33POOB9999273999620457",
-            "newPlanType": "standard",
-            "timestamp": 979
-        },
-        {
-            "command": "addFunds",
-            "email": "Chantal_Michel@outlook.fr",
-            "account": "RO38POOB0964823730995794",
-            "amount": 23.81,
-            "timestamp": 980
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO38POOB0964823730995794",
-            "newPlanType": "silver",
-            "timestamp": 981
-        },
-        {
-            "command": "addFunds",
-            "email": "Chantal_Michel@outlook.fr",
-            "account": "RO53POOB7122855990652257",
-            "amount": 23.81,
-            "timestamp": 982
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO53POOB7122855990652257",
-            "newPlanType": "silver",
-            "timestamp": 983
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO53POOB7122855990652257",
-            "newPlanType": "student",
-            "timestamp": 984
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO53POOB7122855990652257",
-            "newPlanType": "standard",
-            "timestamp": 985
-        },
-        {
-            "command": "addFunds",
-            "email": "Marcel_Hubert@outlook.fr",
-            "account": "RO71POOB1634969878734749",
-            "amount": 23.81,
-            "timestamp": 986
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO71POOB1634969878734749",
-            "newPlanType": "silver",
-            "timestamp": 987
-        },
-        {
-            "command": "addFunds",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "account": "RO09POOB4346339013848470",
-            "amount": 100.0,
-            "timestamp": 988
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO09POOB4346339013848470",
-            "newPlanType": "silver",
-            "timestamp": 989
-        },
-        {
-            "command": "addFunds",
-            "email": "Rebecca_Johnson@yahoo.us",
-            "account": "RO50POOB3913194831046423",
-            "amount": 333.33,
-            "timestamp": 990
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO50POOB3913194831046423",
-            "newPlanType": "silver",
-            "timestamp": 991
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO50POOB3913194831046423",
-            "newPlanType": "student",
-            "timestamp": 992
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO50POOB3913194831046423",
-            "newPlanType": "standard",
-            "timestamp": 993
-        },
-        {
-            "command": "addFunds",
-            "email": "Rebecca_Johnson@yahoo.us",
-            "account": "RO89POOB4455583483378897",
-            "amount": 333.33,
-            "timestamp": 994
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO89POOB4455583483378897",
-            "newPlanType": "silver",
-            "timestamp": 995
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO89POOB4455583483378897",
-            "newPlanType": "student",
-            "timestamp": 996
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO89POOB4455583483378897",
-            "newPlanType": "standard",
-            "timestamp": 997
-        },
-        {
-            "command": "addFunds",
-            "email": "Eusebiu_Ionescu@outlook.ro",
-            "account": "RO36POOB6500477412147025",
-            "amount": 100.0,
-            "timestamp": 998
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO36POOB6500477412147025",
-            "newPlanType": "silver",
-            "timestamp": 999
-        },
-        {
-            "command": "addFunds",
-            "email": "Eusebiu_Ionescu@outlook.ro",
-            "account": "RO46POOB9051076190383154",
-            "amount": 100.0,
-            "timestamp": 1000
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO46POOB9051076190383154",
-            "newPlanType": "silver",
-            "timestamp": 1001
-        },
-        {
-            "command": "addFunds",
-            "email": "Marcel_Hubert@outlook.fr",
-            "account": "RO45POOB0388148432759748",
-            "amount": 23.81,
-            "timestamp": 1002
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO45POOB0388148432759748",
-            "newPlanType": "silver",
-            "timestamp": 1003
+            "timestamp": 624
         },
         {
             "command": "addFunds",
             "email": "Ioana_Ababe@yahoo.ro",
-            "account": "RO52POOB6271107854467609",
+            "account": "RO98POOB8412955460158769",
             "amount": 100.0,
-            "timestamp": 1004
+            "timestamp": 625
         },
         {
             "command": "upgradePlan",
-            "account": "RO52POOB6271107854467609",
+            "account": "RO98POOB8412955460158769",
             "newPlanType": "silver",
-            "timestamp": 1005
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO52POOB6271107854467609",
-            "newPlanType": "student",
-            "timestamp": 1006
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO52POOB6271107854467609",
-            "newPlanType": "standard",
-            "timestamp": 1007
+            "timestamp": 626
         },
         {
             "command": "addFunds",
             "email": "Ioana_Ababe@yahoo.ro",
-            "account": "RO98POOB7190609943699593",
+            "account": "RO32POOB0130532963818359",
             "amount": 100.0,
-            "timestamp": 1008
+            "timestamp": 627
         },
         {
             "command": "upgradePlan",
-            "account": "RO98POOB7190609943699593",
+            "account": "RO32POOB0130532963818359",
             "newPlanType": "silver",
-            "timestamp": 1009
+            "timestamp": 628
         },
         {
             "command": "upgradePlan",
-            "account": "RO98POOB7190609943699593",
+            "account": "RO32POOB0130532963818359",
             "newPlanType": "student",
-            "timestamp": 1010
+            "timestamp": 629
         },
         {
             "command": "upgradePlan",
-            "account": "RO98POOB7190609943699593",
+            "account": "RO32POOB0130532963818359",
             "newPlanType": "standard",
-            "timestamp": 1011
+            "timestamp": 630
         },
         {
             "command": "addFunds",
             "email": "Suzanne_Moreau@gmail.fr",
-            "account": "RO50POOB3359236199018963",
+            "account": "RO68POOB1848616931405475",
             "amount": 23.81,
-            "timestamp": 1012
+            "timestamp": 631
         },
         {
             "command": "upgradePlan",
-            "account": "RO50POOB3359236199018963",
+            "account": "RO68POOB1848616931405475",
             "newPlanType": "silver",
-            "timestamp": 1013
+            "timestamp": 632
         },
         {
             "command": "upgradePlan",
-            "account": "RO50POOB3359236199018963",
+            "account": "RO68POOB1848616931405475",
             "newPlanType": "student",
-            "timestamp": 1014
+            "timestamp": 633
         },
         {
             "command": "upgradePlan",
-            "account": "RO50POOB3359236199018963",
+            "account": "RO68POOB1848616931405475",
             "newPlanType": "standard",
-            "timestamp": 1015
+            "timestamp": 634
         },
         {
             "command": "addFunds",
             "email": "David_Price@gmail.us",
-            "account": "RO75POOB8279679254660818",
+            "account": "RO10POOB4354933866366881",
             "amount": 333.33,
-            "timestamp": 1016
+            "timestamp": 635
         },
         {
             "command": "upgradePlan",
-            "account": "RO75POOB8279679254660818",
+            "account": "RO10POOB4354933866366881",
             "newPlanType": "silver",
-            "timestamp": 1017
-        },
-        {
-            "command": "addFunds",
-            "email": "Ioana_Ababe@yahoo.ro",
-            "account": "RO37POOB8653914479106806",
-            "amount": 100.0,
-            "timestamp": 1018
+            "timestamp": 636
         },
         {
             "command": "upgradePlan",
-            "account": "RO37POOB8653914479106806",
-            "newPlanType": "silver",
-            "timestamp": 1019
-        },
-        {
-            "command": "addFunds",
-            "email": "Ioana_Ababe@yahoo.ro",
-            "account": "RO73POOB0363118755441573",
-            "amount": 100.0,
-            "timestamp": 1020
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO73POOB0363118755441573",
-            "newPlanType": "silver",
-            "timestamp": 1021
-        },
-        {
-            "command": "addFunds",
-            "email": "Joshua_Neal@outlook.us",
-            "account": "RO40POOB2135483650246268",
-            "amount": 333.33,
-            "timestamp": 1022
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO40POOB2135483650246268",
-            "newPlanType": "silver",
-            "timestamp": 1023
-        },
-        {
-            "command": "addFunds",
-            "email": "Chantal_Michel@outlook.fr",
-            "account": "RO15POOB0048706387164463",
-            "amount": 23.81,
-            "timestamp": 1024
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO15POOB0048706387164463",
-            "newPlanType": "silver",
-            "timestamp": 1025
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO15POOB0048706387164463",
+            "account": "RO10POOB4354933866366881",
             "newPlanType": "student",
-            "timestamp": 1026
+            "timestamp": 637
         },
         {
             "command": "upgradePlan",
-            "account": "RO15POOB0048706387164463",
+            "account": "RO10POOB4354933866366881",
             "newPlanType": "standard",
-            "timestamp": 1027
-        },
-        {
-            "command": "addFunds",
-            "email": "Joshua_Neal@outlook.us",
-            "account": "RO97POOB5006417983475785",
-            "amount": 333.33,
-            "timestamp": 1028
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO97POOB5006417983475785",
-            "newPlanType": "silver",
-            "timestamp": 1029
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO97POOB5006417983475785",
-            "newPlanType": "student",
-            "timestamp": 1030
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO97POOB5006417983475785",
-            "newPlanType": "standard",
-            "timestamp": 1031
-        },
-        {
-            "command": "addFunds",
-            "email": "Dida_Manole@hotmail.ro",
-            "account": "RO93POOB6760303931698665",
-            "amount": 100.0,
-            "timestamp": 1032
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO93POOB6760303931698665",
-            "newPlanType": "silver",
-            "timestamp": 1033
+            "timestamp": 638
         },
         {
             "command": "addFunds",
             "email": "Deborah_Marshall@hotmail.us",
-            "account": "RO47POOB5866490978033060",
+            "account": "RO33POOB9999273999620457",
             "amount": 333.33,
-            "timestamp": 1034
+            "timestamp": 639
         },
         {
             "command": "upgradePlan",
-            "account": "RO47POOB5866490978033060",
+            "account": "RO33POOB9999273999620457",
             "newPlanType": "silver",
-            "timestamp": 1035
-        },
-        {
-            "command": "addFunds",
-            "email": "Chantal_Michel@outlook.fr",
-            "account": "RO45POOB6505529013808948",
-            "amount": 23.81,
-            "timestamp": 1036
+            "timestamp": 640
         },
         {
             "command": "upgradePlan",
-            "account": "RO45POOB6505529013808948",
+            "account": "RO33POOB9999273999620457",
+            "newPlanType": "student",
+            "timestamp": 641
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO33POOB9999273999620457",
+            "newPlanType": "standard",
+            "timestamp": 642
+        },
+        {
+            "command": "addFunds",
+            "email": "Joshua_Neal@outlook.us",
+            "account": "RO38POOB0964823730995794",
+            "amount": 333.33,
+            "timestamp": 643
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO38POOB0964823730995794",
             "newPlanType": "silver",
-            "timestamp": 1037
+            "timestamp": 644
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO38POOB0964823730995794",
+            "newPlanType": "student",
+            "timestamp": 645
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO38POOB0964823730995794",
+            "newPlanType": "standard",
+            "timestamp": 646
+        },
+        {
+            "command": "addFunds",
+            "email": "Norman_Aane@gmail.ro",
+            "account": "RO71POOB1634969878734749",
+            "amount": 100.0,
+            "timestamp": 647
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO71POOB1634969878734749",
+            "newPlanType": "silver",
+            "timestamp": 648
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO71POOB1634969878734749",
+            "newPlanType": "student",
+            "timestamp": 649
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO71POOB1634969878734749",
+            "newPlanType": "standard",
+            "timestamp": 650
+        },
+        {
+            "command": "addFunds",
+            "email": "Deborah_Marshall@hotmail.us",
+            "account": "RO09POOB4346339013848470",
+            "amount": 333.33,
+            "timestamp": 651
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO09POOB4346339013848470",
+            "newPlanType": "silver",
+            "timestamp": 652
+        },
+        {
+            "command": "addFunds",
+            "email": "Eusebiu_Ionescu@outlook.ro",
+            "account": "RO50POOB3913194831046423",
+            "amount": 100.0,
+            "timestamp": 653
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO50POOB3913194831046423",
+            "newPlanType": "silver",
+            "timestamp": 654
+        },
+        {
+            "command": "addFunds",
+            "email": "Ioana_Ababe@yahoo.ro",
+            "account": "RO89POOB4455583483378897",
+            "amount": 100.0,
+            "timestamp": 655
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO89POOB4455583483378897",
+            "newPlanType": "silver",
+            "timestamp": 656
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO89POOB4455583483378897",
+            "newPlanType": "student",
+            "timestamp": 657
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO89POOB4455583483378897",
+            "newPlanType": "standard",
+            "timestamp": 658
+        },
+        {
+            "command": "addFunds",
+            "email": "Joshua_Neal@outlook.us",
+            "account": "RO36POOB6500477412147025",
+            "amount": 333.33,
+            "timestamp": 659
+        },
+        {
+            "command": "upgradePlan",
+            "account": "RO36POOB6500477412147025",
+            "newPlanType": "silver",
+            "timestamp": 660
         },
         {
             "command": "printUsers",
-            "timestamp": 1038
+            "timestamp": 661
         },
         {
             "command": "addAccount",
-            "email": "Zamfira_Stancu@hotmail.ro",
+            "email": "Elodia_Ababe@yahoo.ro",
             "currency": "RON",
             "accountType": "classic",
-            "timestamp": 1039
+            "timestamp": 662
         },
         {
             "command": "createOneTimeCard",
-            "account": "RO01POOB3925326637526572",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "timestamp": 1043
+            "account": "RO46POOB9051076190383154",
+            "email": "Elodia_Ababe@yahoo.ro",
+            "timestamp": 667
         },
         {
             "command": "addFunds",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "account": "RO01POOB3925326637526572",
+            "email": "Elodia_Ababe@yahoo.ro",
+            "account": "RO46POOB9051076190383154",
             "amount": 1200.0,
-            "timestamp": 1044
+            "timestamp": 668
         },
         {
             "command": "addAccount",
-            "email": "Zamfira_Stancu@hotmail.ro",
+            "email": "Elodia_Ababe@yahoo.ro",
             "currency": "RON",
             "accountType": "classic",
-            "timestamp": 1045
-        },
-        {
-            "command": "createCard",
-            "account": "RO04POOB3492426980939341",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "timestamp": 1047
-        },
-        {
-            "command": "addFunds",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "account": "RO04POOB3492426980939341",
-            "amount": 1200.0,
-            "timestamp": 1048
-        },
-        {
-            "command": "addAccount",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "currency": "RON",
-            "accountType": "classic",
-            "timestamp": 1049
+            "timestamp": 669
         },
         {
             "command": "createOneTimeCard",
-            "account": "RO66POOB1088683052483887",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "timestamp": 1051
+            "account": "RO45POOB0388148432759748",
+            "email": "Elodia_Ababe@yahoo.ro",
+            "timestamp": 673
         },
         {
             "command": "addFunds",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "account": "RO66POOB1088683052483887",
+            "email": "Elodia_Ababe@yahoo.ro",
+            "account": "RO45POOB0388148432759748",
             "amount": 1200.0,
-            "timestamp": 1052
+            "timestamp": 674
+        },
+        {
+            "command": "addAccount",
+            "email": "Elodia_Ababe@yahoo.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 675
+        },
+        {
+            "command": "createOneTimeCard",
+            "account": "RO52POOB6271107854467609",
+            "email": "Elodia_Ababe@yahoo.ro",
+            "timestamp": 679
+        },
+        {
+            "command": "addFunds",
+            "email": "Elodia_Ababe@yahoo.ro",
+            "account": "RO52POOB6271107854467609",
+            "amount": 1200.0,
+            "timestamp": 680
         },
         {
             "command": "printUsers",
-            "timestamp": 1053
+            "timestamp": 681
         },
         {
             "command": "payOnline",
-            "email": "Zamfira_Stancu@hotmail.ro",
+            "email": "Elodia_Ababe@yahoo.ro",
             "cardNumber": "7004757825892043",
-            "amount": 93,
-            "currency": "USD",
-            "timestamp": 1054,
+            "amount": 1260,
+            "currency": "EUR",
+            "timestamp": 682,
+            "description": "Online payment",
+            "commerciant": "Samsung"
+        },
+        {
+            "command": "payOnline",
+            "email": "Elodia_Ababe@yahoo.ro",
+            "cardNumber": "7004757825892043",
+            "amount": 359,
+            "currency": "RON",
+            "timestamp": 687,
+            "description": "Online payment",
+            "commerciant": "KFC"
+        },
+        {
+            "command": "payOnline",
+            "email": "Elodia_Ababe@yahoo.ro",
+            "cardNumber": "7004757825892043",
+            "amount": 378,
+            "currency": "RON",
+            "timestamp": 691,
+            "description": "Online payment",
+            "commerciant": "Microsoft"
+        },
+        {
+            "command": "payOnline",
+            "email": "Elodia_Ababe@yahoo.ro",
+            "cardNumber": "7004757825892043",
+            "amount": 310,
+            "currency": "RON",
+            "timestamp": 695,
             "description": "Online payment",
             "commerciant": "H&M"
         },
         {
-            "command": "payOnline",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "cardNumber": "7004757825892043",
-            "amount": 306,
-            "currency": "RON",
-            "timestamp": 1057,
-            "description": "Online payment",
-            "commerciant": "Microsoft"
-        },
-        {
-            "command": "payOnline",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "cardNumber": "7004757825892043",
-            "amount": 392,
-            "currency": "RON",
-            "timestamp": 1061,
-            "description": "Online payment",
-            "commerciant": "Amazon"
-        },
-        {
-            "command": "payOnline",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "cardNumber": "7004757825892043",
-            "amount": 312,
-            "currency": "RON",
-            "timestamp": 1065,
-            "description": "Online payment",
-            "commerciant": "McDonalds"
-        },
-        {
             "command": "printUsers",
-            "timestamp": 1070
+            "timestamp": 701
         },
         {
             "command": "addFunds",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "account": "RO66POOB1088683052483887",
+            "email": "Elodia_Ababe@yahoo.ro",
+            "account": "RO52POOB6271107854467609",
             "amount": 300.0,
-            "timestamp": 1071
+            "timestamp": 702
         },
         {
             "command": "cashWithdrawal",
             "cardNumber": "7004757825892043",
+            "email": "Elodia_Ababe@yahoo.ro",
             "amount": 300,
-            "location": "Rachaelfort",
-            "timestamp": 1072
+            "location": "Sandoz (AR)",
+            "timestamp": 703
         },
         {
             "command": "printUsers",
-            "timestamp": 1073
+            "timestamp": 704
         },
         {
             "command": "addAccount",
-            "email": "Zamfira_Stancu@hotmail.ro",
+            "email": "Elodia_Ababe@yahoo.ro",
             "currency": "RON",
             "accountType": "classic",
-            "timestamp": 1074
+            "timestamp": 705
         },
         {
             "command": "addFunds",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "account": "RO19POOB5993192794373940",
+            "email": "Elodia_Ababe@yahoo.ro",
+            "account": "RO98POOB7190609943699593",
             "amount": 300.0,
-            "timestamp": 1075
+            "timestamp": 706
         },
         {
             "command": "createCard",
-            "account": "RO19POOB5993192794373940",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "timestamp": 1076
+            "account": "RO98POOB7190609943699593",
+            "email": "Elodia_Ababe@yahoo.ro",
+            "timestamp": 707
         },
         {
             "command": "payOnline",
-            "email": "Zamfira_Stancu@hotmail.ro",
+            "email": "Elodia_Ababe@yahoo.ro",
             "cardNumber": "6796819982034243",
-            "amount": 90,
-            "currency": "USD",
-            "timestamp": 1077,
+            "amount": 300,
+            "currency": "RON",
+            "timestamp": 708,
             "description": "Online payment",
             "commerciant": "Microsoft"
         },
         {
             "command": "printUsers",
-            "timestamp": 1078
+            "timestamp": 709
         },
         {
             "command": "deleteAccount",
-            "email": "Zamfira_Stancu@hotmail.ro",
-            "account": "RO19POOB5993192794373940",
-            "timestamp": 1079
+            "email": "Elodia_Ababe@yahoo.ro",
+            "account": "RO98POOB7190609943699593",
+            "timestamp": 710
         },
         {
             "command": "upgradePlan",
-            "account": "RO66POOB1088683052483887",
+            "account": "RO52POOB6271107854467609",
             "newPlanType": "silver",
-            "timestamp": 1080
+            "timestamp": 711
         },
         {
             "command": "upgradePlan",
-            "account": "RO66POOB1088683052483887",
+            "account": "RO52POOB6271107854467609",
             "newPlanType": "student",
-            "timestamp": 1081
+            "timestamp": 712
         },
         {
             "command": "addFunds",
             "email": "Eusebiu_Ionescu@outlook.ro",
-            "account": "RO76POOB4035116042454483",
+            "account": "RO69POOB6209498372540635",
             "amount": 1000.0,
-            "timestamp": 1082
+            "timestamp": 713
         },
         {
             "command": "upgradePlan",
-            "account": "RO76POOB4035116042454483",
+            "account": "RO69POOB6209498372540635",
             "newPlanType": "gold",
-            "timestamp": 1083
-        },
-        {
-            "command": "withdrawSavings",
-            "account": "RO76POOB4035116042454483",
-            "amount": 2705.0,
-            "currency": "RON",
-            "timestamp": 1084
+            "timestamp": 714
         },
         {
             "command": "addFunds",
             "email": "Bernadette_de_Delmas@gmail.fr",
-            "account": "RO19POOB4981055641668812",
+            "account": "RO58POOB2721178218599590",
             "amount": 1000.0,
-            "timestamp": 1085
+            "timestamp": 715
         },
         {
             "command": "upgradePlan",
-            "account": "RO19POOB4981055641668812",
+            "account": "RO58POOB2721178218599590",
             "newPlanType": "gold",
-            "timestamp": 1086
-        },
-        {
-            "command": "addFunds",
-            "email": "Rebecca_Johnson@yahoo.us",
-            "account": "RO98POOB8412955460158769",
-            "amount": 1000.0,
-            "timestamp": 1087
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO98POOB8412955460158769",
-            "newPlanType": "gold",
-            "timestamp": 1088
-        },
-        {
-            "command": "withdrawSavings",
-            "account": "RO98POOB8412955460158769",
-            "amount": 2692.33,
-            "currency": "USD",
-            "timestamp": 1089
+            "timestamp": 716
         },
         {
             "command": "addFunds",
             "email": "Chantal_Michel@outlook.fr",
-            "account": "RO68POOB1848616931405475",
+            "account": "RO79POOB3616857825600958",
             "amount": 1000.0,
-            "timestamp": 1090
+            "timestamp": 717
         },
         {
             "command": "upgradePlan",
-            "account": "RO68POOB1848616931405475",
+            "account": "RO79POOB3616857825600958",
             "newPlanType": "gold",
-            "timestamp": 1091
-        },
-        {
-            "command": "addFunds",
-            "email": "Bernadette_de_Delmas@gmail.fr",
-            "account": "RO33POOB9999273999620457",
-            "amount": 1000.0,
-            "timestamp": 1092
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO33POOB9999273999620457",
-            "newPlanType": "gold",
-            "timestamp": 1093
+            "timestamp": 718
         },
         {
             "command": "withdrawSavings",
-            "account": "RO33POOB9999273999620457",
-            "amount": 2487.81,
+            "account": "RO79POOB3616857825600958",
+            "amount": 2928.81,
             "currency": "EUR",
-            "timestamp": 1094
-        },
-        {
-            "command": "addFunds",
-            "email": "Chantal_Michel@outlook.fr",
-            "account": "RO53POOB7122855990652257",
-            "amount": 1000.0,
-            "timestamp": 1095
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO53POOB7122855990652257",
-            "newPlanType": "gold",
-            "timestamp": 1096
+            "timestamp": 719
         },
         {
             "command": "addFunds",
             "email": "Rebecca_Johnson@yahoo.us",
-            "account": "RO89POOB4455583483378897",
+            "account": "RO96POOB6738272785416988",
             "amount": 1000.0,
-            "timestamp": 1097
+            "timestamp": 720
         },
         {
             "command": "upgradePlan",
-            "account": "RO89POOB4455583483378897",
+            "account": "RO96POOB6738272785416988",
             "newPlanType": "gold",
-            "timestamp": 1098
-        },
-        {
-            "command": "withdrawSavings",
-            "account": "RO89POOB4455583483378897",
-            "amount": 2828.33,
-            "currency": "USD",
-            "timestamp": 1099
-        },
-        {
-            "command": "addFunds",
-            "email": "Eusebiu_Ionescu@outlook.ro",
-            "account": "RO46POOB9051076190383154",
-            "amount": 1000.0,
-            "timestamp": 1100
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO46POOB9051076190383154",
-            "newPlanType": "gold",
-            "timestamp": 1101
+            "timestamp": 721
         },
         {
             "command": "addFunds",
             "email": "Ioana_Ababe@yahoo.ro",
-            "account": "RO98POOB7190609943699593",
+            "account": "RO32POOB0130532963818359",
             "amount": 1000.0,
-            "timestamp": 1102
+            "timestamp": 722
         },
         {
             "command": "upgradePlan",
-            "account": "RO98POOB7190609943699593",
+            "account": "RO32POOB0130532963818359",
             "newPlanType": "gold",
-            "timestamp": 1103
-        },
-        {
-            "command": "withdrawSavings",
-            "account": "RO98POOB7190609943699593",
-            "amount": 2497.0,
-            "currency": "RON",
-            "timestamp": 1104
-        },
-        {
-            "command": "addFunds",
-            "email": "Ioana_Ababe@yahoo.ro",
-            "account": "RO73POOB0363118755441573",
-            "amount": 1000.0,
-            "timestamp": 1105
-        },
-        {
-            "command": "upgradePlan",
-            "account": "RO73POOB0363118755441573",
-            "newPlanType": "gold",
-            "timestamp": 1106
+            "timestamp": 723
         }
     ]
 }

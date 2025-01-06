@@ -2,195 +2,202 @@
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO69POOB6209498372540635",
-    "balance" : 578.0,
-    "currency" : "EUR",
-    "spending limit" : 1333.33,
-    "deposit limit" : 334.0,
+    "balance" : 0.0,
+    "currency" : "RON",
+    "spending limit" : 500.0,
+    "deposit limit" : 135.0,
     "statistics type" : "transaction",
     "managers" : [ ],
     "employees" : [ {
-      "username" : "Cristea Cornelia",
+      "username" : "Stanescu Damian",
       "spent" : 0.0,
-      "deposited" : 141.0
+      "deposited" : 0.0
     }, {
-      "username" : "Aubry Benjamin",
+      "username" : "Voinea Valentin",
       "spent" : 0.0,
-      "deposited" : 105.0
+      "deposited" : 0.0
     }, {
-      "username" : "Georgescu Iuliana",
+      "username" : "Albu Pompilia",
       "spent" : 0.0,
-      "deposited" : 183.0
+      "deposited" : 0.0
     }, {
-      "username" : "Leduc-Mace Alix",
+      "username" : "King Daniel",
       "spent" : 0.0,
-      "deposited" : 149.0
+      "deposited" : 0.0
     } ],
     "total spent" : 0.0,
-    "total deposited" : 578.0
+    "total deposited" : 0.0
   },
-  "timestamp" : 88
+  "timestamp" : 75
 }, {
   "command" : "cashWithdrawal",
   "output" : {
-    "timestamp" : 92,
+    "timestamp" : 79,
     "description" : "User not found"
   },
-  "timestamp" : 92
+  "timestamp" : 79
 }, {
   "command" : "cashWithdrawal",
   "output" : {
-    "timestamp" : 93,
+    "timestamp" : 80,
     "description" : "User not found"
   },
-  "timestamp" : 93
+  "timestamp" : 80
 }, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO69POOB6209498372540635",
-    "balance" : 2939.2,
-    "currency" : "EUR",
-    "spending limit" : 1333.33,
-    "deposit limit" : 334.0,
+    "balance" : 2628.07,
+    "currency" : "RON",
+    "spending limit" : 500.0,
+    "deposit limit" : 135.0,
     "statistics type" : "transaction",
     "managers" : [ ],
     "employees" : [ {
-      "username" : "Cristea Cornelia",
+      "username" : "Stanescu Damian",
+      "spent" : 253.0,
+      "deposited" : 0.0
+    }, {
+      "username" : "Voinea Valentin",
+      "spent" : 342.0,
+      "deposited" : 0.0
+    }, {
+      "username" : "Albu Pompilia",
       "spent" : 0.0,
-      "deposited" : 141.0
+      "deposited" : 0.0
     }, {
-      "username" : "Aubry Benjamin",
+      "username" : "King Daniel",
       "spent" : 0.0,
-      "deposited" : 105.0
-    }, {
-      "username" : "Georgescu Iuliana",
-      "spent" : 466.0,
-      "deposited" : 183.0
-    }, {
-      "username" : "Leduc-Mace Alix",
-      "spent" : 147.0,
-      "deposited" : 149.0
+      "deposited" : 0.0
     } ],
-    "total spent" : 613.0,
-    "total deposited" : 578.0
+    "total spent" : 595.0,
+    "total deposited" : 0.0
   },
-  "timestamp" : 97
+  "timestamp" : 84
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 147,
+    "timestamp" : 136,
     "description" : "Card not found"
   },
-  "timestamp" : 147
+  "timestamp" : 136
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 149,
+    "timestamp" : 137,
     "description" : "Card not found"
   },
-  "timestamp" : 149
+  "timestamp" : 137
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 152,
+    "timestamp" : 138,
     "description" : "Card not found"
   },
-  "timestamp" : 152
+  "timestamp" : 138
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 157,
+    "timestamp" : 142,
     "description" : "Card not found"
   },
-  "timestamp" : 157
+  "timestamp" : 142
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 162,
+    "timestamp" : 143,
     "description" : "Card not found"
   },
-  "timestamp" : 162
+  "timestamp" : 143
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 164,
+    "timestamp" : 148,
     "description" : "Card not found"
   },
-  "timestamp" : 164
+  "timestamp" : 148
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 167,
+    "timestamp" : 153,
     "description" : "Card not found"
   },
-  "timestamp" : 167
+  "timestamp" : 153
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 169,
+    "timestamp" : 156,
     "description" : "Card not found"
   },
-  "timestamp" : 169
+  "timestamp" : 156
+}, {
+  "command" : "payOnline",
+  "output" : {
+    "timestamp" : 158,
+    "description" : "Card not found"
+  },
+  "timestamp" : 158
 }, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO69POOB6209498372540635",
-    "balance" : 15260.1,
-    "currency" : "EUR",
-    "spending limit" : 1333.33,
-    "deposit limit" : 334.0,
+    "balance" : 13323.89,
+    "currency" : "RON",
+    "spending limit" : 500.0,
+    "deposit limit" : 135.0,
     "statistics type" : "transaction",
     "managers" : [ ],
     "employees" : [ {
-      "username" : "Cristea Cornelia",
-      "spent" : 173.97,
-      "deposited" : 141.0
+      "username" : "Stanescu Damian",
+      "spent" : 253.0,
+      "deposited" : 0.0
     }, {
-      "username" : "Aubry Benjamin",
-      "spent" : 552.71,
-      "deposited" : 105.0
+      "username" : "Voinea Valentin",
+      "spent" : 854.05,
+      "deposited" : 0.0
     }, {
-      "username" : "Georgescu Iuliana",
-      "spent" : 581.0,
-      "deposited" : 183.0
+      "username" : "Albu Pompilia",
+      "spent" : 0.0,
+      "deposited" : 0.0
     }, {
-      "username" : "Leduc-Mace Alix",
-      "spent" : 765.0,
-      "deposited" : 149.0
+      "username" : "King Daniel",
+      "spent" : 0.0,
+      "deposited" : 0.0
     } ],
-    "total spent" : 2072.6800000000003,
-    "total deposited" : 578.0
+    "total spent" : 1107.05,
+    "total deposited" : 0.0
   },
-  "timestamp" : 172
+  "timestamp" : 161
 }, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO69POOB6209498372540635",
-    "balance" : 15260.1,
-    "currency" : "EUR",
-    "spending limit" : 1333.33,
-    "deposit limit" : 334.0,
+    "balance" : 13323.89,
+    "currency" : "RON",
+    "spending limit" : 500.0,
+    "deposit limit" : 135.0,
     "statistics type" : "commerciant",
     "commerciants" : [ {
       "commerciant" : "Amazon",
-      "total received" : 143.0,
+      "total received" : 220.05,
       "managers" : [ ],
-      "employees" : [ "Leduc-Mace Alix" ]
+      "employees" : [ "Voinea Valentin" ]
     }, {
-      "commerciant" : "Burger King",
-      "total received" : 559.71,
+      "commerciant" : "H&M",
+      "total received" : 253.0,
       "managers" : [ ],
-      "employees" : [ "Aubry Benjamin", "Georgescu Iuliana", "Leduc-Mace Alix", "Leduc-Mace Alix" ]
+      "employees" : [ "Stanescu Damian" ]
     }, {
-      "commerciant" : "McDonalds",
-      "total received" : 813.0,
+      "commerciant" : "Samsung",
+      "total received" : 342.0,
       "managers" : [ ],
-      "employees" : [ "Aubry Benjamin", "Georgescu Iuliana" ]
+      "employees" : [ "Voinea Valentin" ]
     }, {
-      "commerciant" : "Microsoft",
-      "total received" : 556.97,
+      "commerciant" : "Zara",
+      "total received" : 292.0,
       "managers" : [ ],
-      "employees" : [ "Cristea Cornelia", "Georgescu Iuliana", "Leduc-Mace Alix" ]
+      "employees" : [ "Voinea Valentin", "Voinea Valentin" ]
     } ]
   },
-  "timestamp" : 173
+  "timestamp" : 162
 } ]
