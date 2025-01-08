@@ -5,7 +5,7 @@
     "balance" : 119.0,
     "currency" : "USD",
     "spending limit" : 280.0,
-    "deposit limit" : 107.14,
+    "deposit limit" : 107.14285714285714,
     "statistics type" : "transaction",
     "managers" : [ ],
     "employees" : [ {
@@ -32,7 +32,7 @@
     "balance" : 39.0,
     "currency" : "USD",
     "spending limit" : 896.0,
-    "deposit limit" : 107.14,
+    "deposit limit" : 107.14285714285714,
     "statistics type" : "transaction",
     "managers" : [ ],
     "employees" : [ ],
@@ -78,560 +78,364 @@
   },
   "timestamp" : 297
 }, {
-  "command" : "changeSpendingLimit",
+  "command" : "payOnline",
   "output" : {
-    "timestamp" : 300,
-    "description" : "You must be owner in order to change spending limit."
+    "timestamp" : 304,
+    "description" : "Card not found"
   },
-  "timestamp" : 300
+  "timestamp" : 304
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 302,
+    "timestamp" : 307,
     "description" : "Card not found"
   },
-  "timestamp" : 302
+  "timestamp" : 307
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 305,
+    "timestamp" : 313,
     "description" : "Card not found"
   },
-  "timestamp" : 305
-}, {
-  "command" : "changeSpendingLimit",
-  "output" : {
-    "timestamp" : 309,
-    "description" : "You must be owner in order to change spending limit."
-  },
-  "timestamp" : 309
+  "timestamp" : 313
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 311,
+    "timestamp" : 319,
     "description" : "Card not found"
   },
-  "timestamp" : 311
+  "timestamp" : 319
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 317,
+    "timestamp" : 325,
     "description" : "Card not found"
   },
-  "timestamp" : 317
+  "timestamp" : 325
 }, {
   "command" : "payOnline",
-  "output" : {
-    "timestamp" : 323,
-    "description" : "Card not found"
-  },
-  "timestamp" : 323
-}, {
-  "command" : "changeSpendingLimit",
-  "output" : {
-    "timestamp" : 326,
-    "description" : "You must be owner in order to change spending limit."
-  },
-  "timestamp" : 326
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 328,
-    "description" : "Card not found"
-  },
-  "timestamp" : 328
-}, {
-  "command" : "changeSpendingLimit",
   "output" : {
     "timestamp" : 330,
-    "description" : "You must be owner in order to change spending limit."
+    "description" : "Card not found"
   },
   "timestamp" : 330
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 332,
+    "timestamp" : 334,
     "description" : "Card not found"
   },
-  "timestamp" : 332
-}, {
-  "command" : "changeSpendingLimit",
-  "output" : {
-    "timestamp" : 337,
-    "description" : "You must be owner in order to change spending limit."
-  },
-  "timestamp" : 337
+  "timestamp" : 334
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 340,
+    "timestamp" : 342,
     "description" : "Card not found"
   },
-  "timestamp" : 340
+  "timestamp" : 342
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 347,
+    "timestamp" : 349,
     "description" : "Card not found"
   },
-  "timestamp" : 347
-}, {
-  "command" : "changeSpendingLimit",
-  "output" : {
-    "timestamp" : 351,
-    "description" : "You must be owner in order to change spending limit."
-  },
-  "timestamp" : 351
+  "timestamp" : 349
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 353,
+    "timestamp" : 355,
     "description" : "Card not found"
   },
-  "timestamp" : 353
+  "timestamp" : 355
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 357,
+    "timestamp" : 359,
     "description" : "Card not found"
   },
-  "timestamp" : 357
-}, {
-  "command" : "changeSpendingLimit",
-  "output" : {
-    "timestamp" : 360,
-    "description" : "You must be owner in order to change spending limit."
-  },
-  "timestamp" : 360
+  "timestamp" : 359
 }, {
   "command" : "payOnline",
-  "output" : {
-    "timestamp" : 363,
-    "description" : "Card not found"
-  },
-  "timestamp" : 363
-}, {
-  "command" : "changeSpendingLimit",
   "output" : {
     "timestamp" : 365,
-    "description" : "You must be owner in order to change spending limit."
+    "description" : "Card not found"
   },
   "timestamp" : 365
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 367,
+    "timestamp" : 369,
     "description" : "Card not found"
   },
-  "timestamp" : 367
+  "timestamp" : 369
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 370,
+    "timestamp" : 372,
     "description" : "Card not found"
   },
-  "timestamp" : 370
-}, {
-  "command" : "changeSpendingLimit",
-  "output" : {
-    "timestamp" : 376,
-    "description" : "You must be owner in order to change spending limit."
-  },
-  "timestamp" : 376
+  "timestamp" : 372
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 378,
+    "timestamp" : 380,
     "description" : "Card not found"
   },
-  "timestamp" : 378
-}, {
-  "command" : "changeSpendingLimit",
-  "output" : {
-    "timestamp" : 384,
-    "description" : "You must be owner in order to change spending limit."
-  },
-  "timestamp" : 384
+  "timestamp" : 380
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 387,
+    "timestamp" : 389,
     "description" : "Card not found"
   },
-  "timestamp" : 387
-}, {
-  "command" : "changeSpendingLimit",
-  "output" : {
-    "timestamp" : 390,
-    "description" : "You must be owner in order to change spending limit."
-  },
-  "timestamp" : 390
+  "timestamp" : 389
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 392,
+    "timestamp" : 394,
     "description" : "Card not found"
   },
-  "timestamp" : 392
+  "timestamp" : 394
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 398,
+    "timestamp" : 400,
     "description" : "Card not found"
   },
-  "timestamp" : 398
-}, {
-  "command" : "changeSpendingLimit",
-  "output" : {
-    "timestamp" : 404,
-    "description" : "You must be owner in order to change spending limit."
-  },
-  "timestamp" : 404
+  "timestamp" : 400
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 406,
+    "timestamp" : 408,
     "description" : "Card not found"
   },
-  "timestamp" : 406
-}, {
-  "command" : "changeSpendingLimit",
-  "output" : {
-    "timestamp" : 410,
-    "description" : "You must be owner in order to change spending limit."
-  },
-  "timestamp" : 410
+  "timestamp" : 408
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 413,
+    "timestamp" : 415,
     "description" : "Card not found"
   },
-  "timestamp" : 413
+  "timestamp" : 415
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 416,
+    "timestamp" : 418,
     "description" : "Card not found"
   },
-  "timestamp" : 416
+  "timestamp" : 418
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 420,
+    "timestamp" : 422,
     "description" : "Card not found"
   },
-  "timestamp" : 420
+  "timestamp" : 422
 }, {
   "command" : "payOnline",
   "output" : {
-    "timestamp" : 423,
+    "timestamp" : 425,
     "description" : "Card not found"
   },
-  "timestamp" : 423
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 427,
-    "description" : "Card not found"
-  },
-  "timestamp" : 427
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 431,
-    "description" : "Card not found"
-  },
-  "timestamp" : 431
-}, {
-  "command" : "changeSpendingLimit",
-  "output" : {
-    "timestamp" : 434,
-    "description" : "You must be owner in order to change spending limit."
-  },
-  "timestamp" : 434
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 436,
-    "description" : "Card not found"
-  },
-  "timestamp" : 436
-}, {
-  "command" : "changeSpendingLimit",
-  "output" : {
-    "timestamp" : 440,
-    "description" : "You must be owner in order to change spending limit."
-  },
-  "timestamp" : 440
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 442,
-    "description" : "Card not found"
-  },
-  "timestamp" : 442
-}, {
-  "command" : "changeSpendingLimit",
-  "output" : {
-    "timestamp" : 445,
-    "description" : "You must be owner in order to change spending limit."
-  },
-  "timestamp" : 445
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 448,
-    "description" : "Card not found"
-  },
-  "timestamp" : 448
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 452,
-    "description" : "Card not found"
-  },
-  "timestamp" : 452
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 457,
-    "description" : "Card not found"
-  },
-  "timestamp" : 457
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 465,
-    "description" : "Card not found"
-  },
-  "timestamp" : 465
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 473,
-    "description" : "Card not found"
-  },
-  "timestamp" : 473
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 478,
-    "description" : "Card not found"
-  },
-  "timestamp" : 478
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 481,
-    "description" : "Card not found"
-  },
-  "timestamp" : 481
-}, {
-  "command" : "payOnline",
-  "output" : {
-    "timestamp" : 485,
-    "description" : "Card not found"
-  },
-  "timestamp" : 485
+  "timestamp" : 425
 }, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO98POOB8412955460158769",
-    "balance" : 1339.0,
+    "balance" : 1254.0,
     "currency" : "USD",
-    "spending limit" : 280.0,
-    "deposit limit" : 107.14,
+    "spending limit" : 868.0,
+    "deposit limit" : 107.14285714285714,
     "statistics type" : "transaction",
     "managers" : [ {
-      "username" : "Albu Dida",
+      "username" : "Mocanu Mirela",
       "spent" : 0.0,
-      "deposited" : 163.0
+      "deposited" : 145.0
+    }, {
+      "username" : "Ellis DDS Alexander",
+      "spent" : 0.0,
+      "deposited" : 144.0
+    }, {
+      "username" : "Vallee Genevieve",
+      "spent" : 0.0,
+      "deposited" : 146.0
     } ],
     "employees" : [ {
       "username" : "Lee Joe",
       "spent" : 0.0,
-      "deposited" : 301.0
+      "deposited" : 163.0
     }, {
       "username" : "Albu Dida",
       "spent" : 0.0,
-      "deposited" : 163.0
+      "deposited" : 40.0
     }, {
       "username" : "Marin Silvia",
       "spent" : 0.0,
-      "deposited" : 40.0
-    }, {
-      "username" : "Cristea Erica",
-      "spent" : 0.0,
       "deposited" : 84.0
     }, {
-      "username" : "Ellis DDS Alexander",
+      "username" : "Poulain Gilbert",
       "spent" : 0.0,
       "deposited" : 281.0
     }, {
       "username" : "Booker James",
       "spent" : 0.0,
       "deposited" : 132.0
-    }, {
-      "username" : "Dumitrescu Carina",
-      "spent" : 0.0,
-      "deposited" : 219.0
     } ],
     "total spent" : 0.0,
-    "total deposited" : 1383.0
+    "total deposited" : 1135.0
   },
-  "timestamp" : 493
+  "timestamp" : 429
 }, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO32POOB0130532963818359",
-    "balance" : 571.0,
+    "balance" : 1024.0,
     "currency" : "USD",
-    "spending limit" : 896.0,
-    "deposit limit" : 107.14,
+    "spending limit" : 94.0,
+    "deposit limit" : 107.14285714285714,
     "statistics type" : "transaction",
     "managers" : [ {
-      "username" : "Albu Dida",
+      "username" : "Mocanu Mirela",
       "spent" : 0.0,
       "deposited" : 200.0
     }, {
-      "username" : "Cristea Erica",
+      "username" : "Poulain Gilbert",
       "spent" : 0.0,
       "deposited" : 165.0
     }, {
       "username" : "Booker James",
       "spent" : 0.0,
       "deposited" : 167.0
-    } ],
-    "employees" : [ {
+    }, {
       "username" : "Ellis DDS Alexander",
       "spent" : 0.0,
-      "deposited" : 0.0
-    }, {
-      "username" : "Dumitrescu Carina",
+      "deposited" : 152.0
+    } ],
+    "employees" : [ {
+      "username" : "Vallee Genevieve",
       "spent" : 0.0,
-      "deposited" : 0.0
+      "deposited" : 301.0
     } ],
     "total spent" : 0.0,
-    "total deposited" : 532.0
+    "total deposited" : 985.0
   },
-  "timestamp" : 494
+  "timestamp" : 430
 }, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO68POOB1848616931405475",
-    "balance" : 1763.0,
+    "balance" : 859.0,
     "currency" : "RON",
-    "spending limit" : 495.0,
+    "spending limit" : 473.0,
     "deposit limit" : 500.0,
     "statistics type" : "transaction",
     "managers" : [ {
-      "username" : "Ellis DDS Alexander",
+      "username" : "Mocanu Mirela",
       "spent" : 0.0,
-      "deposited" : 152.0
+      "deposited" : 110.0
+    } ],
+    "employees" : [ {
+      "username" : "Poulain Gilbert",
+      "spent" : 0.0,
+      "deposited" : 0.0
     }, {
       "username" : "Booker James",
       "spent" : 0.0,
-      "deposited" : 110.0
+      "deposited" : 0.0
     }, {
-      "username" : "Dumitrescu Carina",
+      "username" : "Ellis DDS Alexander",
       "spent" : 0.0,
-      "deposited" : 116.0
-    } ],
-    "employees" : [ {
-      "username" : "Albu Dida",
-      "spent" : 0.0,
-      "deposited" : 965.0
+      "deposited" : 0.0
     }, {
-      "username" : "Cristea Erica",
+      "username" : "Vallee Genevieve",
       "spent" : 0.0,
-      "deposited" : 420.0
+      "deposited" : 0.0
     } ],
     "total spent" : 0.0,
-    "total deposited" : 1763.0
+    "total deposited" : 110.0
   },
-  "timestamp" : 495
+  "timestamp" : 431
 }, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO10POOB4354933866366881",
-    "balance" : 1322.0,
+    "balance" : 1117.0,
     "currency" : "RON",
     "spending limit" : 500.0,
     "deposit limit" : 500.0,
     "statistics type" : "transaction",
     "managers" : [ {
-      "username" : "Albu Dida",
+      "username" : "Mocanu Mirela",
+      "spent" : 0.0,
+      "deposited" : 116.0
+    }, {
+      "username" : "Poulain Gilbert",
       "spent" : 0.0,
       "deposited" : 124.0
     }, {
-      "username" : "Cristea Erica",
-      "spent" : 0.0,
-      "deposited" : 136.0
-    }, {
       "username" : "Ellis DDS Alexander",
       "spent" : 0.0,
-      "deposited" : 146.0
-    }, {
-      "username" : "Dumitrescu Carina",
-      "spent" : 0.0,
-      "deposited" : 175.0
+      "deposited" : 136.0
     } ],
     "employees" : [ {
       "username" : "Booker James",
       "spent" : 0.0,
       "deposited" : 0.0
+    }, {
+      "username" : "Vallee Genevieve",
+      "spent" : 0.0,
+      "deposited" : 0.0
     } ],
     "total spent" : 0.0,
-    "total deposited" : 581.0
+    "total deposited" : 376.0
   },
-  "timestamp" : 496
+  "timestamp" : 432
 }, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO98POOB8412955460158769",
-    "balance" : 2541.77,
+    "balance" : 1282.27,
     "currency" : "USD",
-    "spending limit" : 280.0,
-    "deposit limit" : 107.14,
+    "spending limit" : 868.0,
+    "deposit limit" : 107.14285714285714,
     "statistics type" : "commerciant",
     "commerciants" : [ ]
   },
-  "timestamp" : 499
+  "timestamp" : 435
 }, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO32POOB0130532963818359",
-    "balance" : 571.0,
+    "balance" : 1024.0,
     "currency" : "USD",
-    "spending limit" : 896.0,
-    "deposit limit" : 107.14,
+    "spending limit" : 94.0,
+    "deposit limit" : 107.14285714285714,
     "statistics type" : "commerciant",
     "commerciants" : [ ]
   },
-  "timestamp" : 500
+  "timestamp" : 436
 }, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO68POOB1848616931405475",
-    "balance" : 1763.0,
+    "balance" : 859.0,
     "currency" : "RON",
-    "spending limit" : 495.0,
+    "spending limit" : 473.0,
     "deposit limit" : 500.0,
     "statistics type" : "commerciant",
     "commerciants" : [ ]
   },
-  "timestamp" : 501
+  "timestamp" : 437
 }, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO10POOB4354933866366881",
-    "balance" : 1322.0,
+    "balance" : 1117.0,
     "currency" : "RON",
     "spending limit" : 500.0,
     "deposit limit" : 500.0,
     "statistics type" : "commerciant",
     "commerciants" : [ ]
   },
-  "timestamp" : 502
+  "timestamp" : 438
 } ]

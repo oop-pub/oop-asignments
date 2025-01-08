@@ -41,7 +41,7 @@
     "email" : "Marvin_Peterson@zoho.ch",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 1076.21,
+      "balance" : 1076.212375,
       "currency" : "CHF",
       "type" : "classic",
       "cards" : [ {
@@ -55,7 +55,7 @@
     "email" : "Alwin_Dowerg@yandex.de",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 806.17,
+      "balance" : 806.1704,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -83,7 +83,7 @@
     "email" : "Karen_McIsaac@zoho.nz",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 239.99,
+      "balance" : 239.98523076923072,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -153,7 +153,7 @@
     "email" : "Dott._Arsenio_Bellucc@mail.com.it",
     "accounts" : [ {
       "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 1159.92,
+      "balance" : 1159.9184,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -209,7 +209,7 @@
     "email" : "Rene_Plourde@protonmail.ca",
     "accounts" : [ {
       "IBAN" : "RO98POOB8412955460158769",
-      "balance" : 747.26,
+      "balance" : 747.2632,
       "currency" : "CAD",
       "type" : "classic",
       "cards" : [ {
@@ -404,7 +404,7 @@
   }, {
     "timestamp" : 287,
     "description" : "Card payment",
-    "amount" : 74.94,
+    "amount" : 74.9375,
     "commerciant" : "KFC"
   }, {
     "timestamp" : 287,
@@ -423,7 +423,7 @@
     "description" : "Weekly groceries from Countdown",
     "senderIBAN" : "RO38POOB0964823730995794",
     "receiverIBAN" : "RO90POOB5450777208072365",
-    "amount" : "281.88 CHF",
+    "amount" : "281.875 CHF",
     "transferType" : "received"
   }, {
     "timestamp" : 318,
@@ -485,7 +485,7 @@
   }, {
     "timestamp" : 292,
     "description" : "Card payment",
-    "amount" : 278.15,
+    "amount" : 278.1538461538462,
     "commerciant" : "Burger King"
   } ],
   "timestamp" : 332
@@ -505,7 +505,7 @@
     "description" : "Ola rides for commuting",
     "senderIBAN" : "RO96POOB6738272785416988",
     "receiverIBAN" : "RO37POOB7013767509830666",
-    "amount" : "11.58 EUR",
+    "amount" : "11.584285714285715 EUR",
     "transferType" : "received"
   } ],
   "timestamp" : 334
@@ -684,7 +684,7 @@
     "description" : "Booking a holiday in the Swiss Alps",
     "senderIBAN" : "RO90POOB5450777208072365",
     "receiverIBAN" : "RO68POOB1848616931405475",
-    "amount" : "602.18 EUR",
+    "amount" : "602.1818181818181 EUR",
     "transferType" : "received"
   } ],
   "timestamp" : 354
@@ -731,7 +731,7 @@
     "description" : "Monthly health insurance payment",
     "senderIBAN" : "RO58POOB2721178218599590",
     "receiverIBAN" : "RO33POOB9999273999620457",
-    "amount" : "181.6 EUR",
+    "amount" : "181.60000000000002 EUR",
     "transferType" : "received"
   } ],
   "timestamp" : 358
@@ -785,7 +785,7 @@
     "email" : "Dominic_Nicholson@gmail.gb",
     "accounts" : [ {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 973.78,
+      "balance" : 973.7777777777778,
       "currency" : "GBP",
       "type" : "classic",
       "cards" : [ {
@@ -799,7 +799,7 @@
     "email" : "Marvin_Peterson@zoho.ch",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 536.53,
+      "balance" : 536.5318194444445,
       "currency" : "CHF",
       "type" : "classic",
       "cards" : [ {
@@ -813,7 +813,7 @@
     "email" : "Alwin_Dowerg@yandex.de",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 736.17,
+      "balance" : 736.1704,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -827,7 +827,7 @@
     "email" : "Angel_Ene@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB2721178218599590",
-      "balance" : 48.18,
+      "balance" : 48.18399999999997,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
@@ -850,7 +850,7 @@
     "email" : "Karen_McIsaac@zoho.nz",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 115.55,
+      "balance" : 115.54078632478628,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -864,7 +864,7 @@
     "email" : "Anni_Dorr@icloud.de",
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
-      "balance" : 781.58,
+      "balance" : 781.5842857142857,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -920,7 +920,7 @@
     "email" : "Dott._Arsenio_Bellucc@mail.com.it",
     "accounts" : [ {
       "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 1089.92,
+      "balance" : 1089.9184,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -948,7 +948,7 @@
     "email" : "Briana_Galloway@outlook.au",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 712.33,
+      "balance" : 712.3333333333334,
       "currency" : "AUD",
       "type" : "classic",
       "cards" : [ {
@@ -994,7 +994,7 @@
     "email" : "Rene_Plourde@protonmail.ca",
     "accounts" : [ {
       "IBAN" : "RO98POOB8412955460158769",
-      "balance" : 646.15,
+      "balance" : 646.1520888888889,
       "currency" : "CAD",
       "type" : "classic",
       "cards" : [ {
@@ -1022,7 +1022,7 @@
     "email" : "Isabel_Grande_Sales@hotmail.es",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 717.29,
+      "balance" : 717.2918181818181,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -1036,7 +1036,7 @@
     "email" : "Tony_Wallace@mail.com.au",
     "accounts" : [ {
       "IBAN" : "RO10POOB4354933866366881",
-      "balance" : 902.33,
+      "balance" : 902.3333333333334,
       "currency" : "AUD",
       "type" : "classic",
       "cards" : [ {
@@ -1050,7 +1050,7 @@
     "email" : "Iris_Sanders-Kramer@outlook.nl",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 1424.8,
+      "balance" : 1424.8000000000002,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -1073,7 +1073,7 @@
     "email" : "Anna_Robson@hushmail.nz",
     "accounts" : [ {
       "IBAN" : "RO38POOB0964823730995794",
-      "balance" : 992.74,
+      "balance" : 992.7355555555556,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -1087,7 +1087,7 @@
     "email" : "Lucy_Baker-Clark@mail.com.gb",
     "accounts" : [ {
       "IBAN" : "RO53POOB7122855990652257",
-      "balance" : 0.78,
+      "balance" : 0.7777777777777786,
       "currency" : "GBP",
       "type" : "classic",
       "cards" : [ {
@@ -1124,7 +1124,7 @@
     "email" : "Connie_Hart@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO09POOB4346339013848470",
-      "balance" : 0.0,
+      "balance" : 0.002222222222229675,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -1138,7 +1138,7 @@
     "email" : "Bruce_Smith@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO50POOB3913194831046423",
-      "balance" : 0.0,
+      "balance" : 0.002222222222229675,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -1180,7 +1180,7 @@
     "email" : "Isabella_Edwards@hotmail.nz",
     "accounts" : [ {
       "IBAN" : "RO46POOB9051076190383154",
-      "balance" : 1.56,
+      "balance" : 1.5555555555555571,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -1236,7 +1236,7 @@
     "email" : "Yolanda_Smith@mail.com.us",
     "accounts" : [ {
       "IBAN" : "RO50POOB3359236199018963",
-      "balance" : 0.0,
+      "balance" : 0.002222222222229675,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -1331,7 +1331,7 @@
     "email" : "Dominic_Nicholson@gmail.gb",
     "accounts" : [ {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 973.78,
+      "balance" : 973.7777777777778,
       "currency" : "GBP",
       "type" : "classic",
       "cards" : [ {
@@ -1345,7 +1345,7 @@
     "email" : "Marvin_Peterson@zoho.ch",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 536.53,
+      "balance" : 536.5318194444445,
       "currency" : "CHF",
       "type" : "classic",
       "cards" : [ {
@@ -1359,7 +1359,7 @@
     "email" : "Alwin_Dowerg@yandex.de",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 736.17,
+      "balance" : 736.1704,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -1373,7 +1373,7 @@
     "email" : "Angel_Ene@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB2721178218599590",
-      "balance" : 48.18,
+      "balance" : 48.18399999999997,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
@@ -1396,7 +1396,7 @@
     "email" : "Karen_McIsaac@zoho.nz",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 115.55,
+      "balance" : 115.54078632478628,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -1410,7 +1410,7 @@
     "email" : "Anni_Dorr@icloud.de",
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
-      "balance" : 781.58,
+      "balance" : 781.5842857142857,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -1466,7 +1466,7 @@
     "email" : "Dott._Arsenio_Bellucc@mail.com.it",
     "accounts" : [ {
       "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 1089.92,
+      "balance" : 1089.9184,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -1494,7 +1494,7 @@
     "email" : "Briana_Galloway@outlook.au",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 712.33,
+      "balance" : 712.3333333333334,
       "currency" : "AUD",
       "type" : "classic",
       "cards" : [ {
@@ -1540,7 +1540,7 @@
     "email" : "Rene_Plourde@protonmail.ca",
     "accounts" : [ {
       "IBAN" : "RO98POOB8412955460158769",
-      "balance" : 646.15,
+      "balance" : 646.1520888888889,
       "currency" : "CAD",
       "type" : "classic",
       "cards" : [ {
@@ -1568,7 +1568,7 @@
     "email" : "Isabel_Grande_Sales@hotmail.es",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 717.29,
+      "balance" : 717.2918181818181,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -1582,7 +1582,7 @@
     "email" : "Tony_Wallace@mail.com.au",
     "accounts" : [ {
       "IBAN" : "RO10POOB4354933866366881",
-      "balance" : 902.33,
+      "balance" : 902.3333333333334,
       "currency" : "AUD",
       "type" : "classic",
       "cards" : [ {
@@ -1596,7 +1596,7 @@
     "email" : "Iris_Sanders-Kramer@outlook.nl",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 1424.8,
+      "balance" : 1424.8000000000002,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -1619,7 +1619,7 @@
     "email" : "Anna_Robson@hushmail.nz",
     "accounts" : [ {
       "IBAN" : "RO38POOB0964823730995794",
-      "balance" : 992.74,
+      "balance" : 992.7355555555556,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -1633,7 +1633,7 @@
     "email" : "Lucy_Baker-Clark@mail.com.gb",
     "accounts" : [ {
       "IBAN" : "RO53POOB7122855990652257",
-      "balance" : 0.78,
+      "balance" : 0.7777777777777786,
       "currency" : "GBP",
       "type" : "classic",
       "cards" : [ {
@@ -1670,7 +1670,7 @@
     "email" : "Connie_Hart@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO09POOB4346339013848470",
-      "balance" : 0.0,
+      "balance" : 0.002222222222229675,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -1684,7 +1684,7 @@
     "email" : "Bruce_Smith@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO50POOB3913194831046423",
-      "balance" : 0.0,
+      "balance" : 0.002222222222229675,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -1726,7 +1726,7 @@
     "email" : "Isabella_Edwards@hotmail.nz",
     "accounts" : [ {
       "IBAN" : "RO46POOB9051076190383154",
-      "balance" : 1.56,
+      "balance" : 1.5555555555555571,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -1782,7 +1782,7 @@
     "email" : "Yolanda_Smith@mail.com.us",
     "accounts" : [ {
       "IBAN" : "RO50POOB3359236199018963",
-      "balance" : 0.0,
+      "balance" : 0.002222222222229675,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -2034,7 +2034,7 @@
     "email" : "Dominic_Nicholson@gmail.gb",
     "accounts" : [ {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 973.78,
+      "balance" : 973.7777777777778,
       "currency" : "GBP",
       "type" : "classic",
       "cards" : [ {
@@ -2048,7 +2048,7 @@
     "email" : "Marvin_Peterson@zoho.ch",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 536.53,
+      "balance" : 536.5318194444445,
       "currency" : "CHF",
       "type" : "classic",
       "cards" : [ {
@@ -2062,7 +2062,7 @@
     "email" : "Alwin_Dowerg@yandex.de",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 736.17,
+      "balance" : 736.1704,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -2076,7 +2076,7 @@
     "email" : "Angel_Ene@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB2721178218599590",
-      "balance" : 48.18,
+      "balance" : 48.18399999999997,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
@@ -2085,7 +2085,7 @@
       } ]
     }, {
       "IBAN" : "RO75POOB1098983729823992",
-      "balance" : 1918.11,
+      "balance" : 1918.1072000000001,
       "currency" : "RON",
       "type" : "savings",
       "cards" : [ {
@@ -2099,7 +2099,7 @@
     "email" : "Karen_McIsaac@zoho.nz",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 115.55,
+      "balance" : 115.54078632478628,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -2113,7 +2113,7 @@
     "email" : "Anni_Dorr@icloud.de",
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
-      "balance" : 781.58,
+      "balance" : 781.5842857142857,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -2169,7 +2169,7 @@
     "email" : "Dott._Arsenio_Bellucc@mail.com.it",
     "accounts" : [ {
       "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 1089.92,
+      "balance" : 1089.9184,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -2197,7 +2197,7 @@
     "email" : "Briana_Galloway@outlook.au",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 712.33,
+      "balance" : 712.3333333333334,
       "currency" : "AUD",
       "type" : "classic",
       "cards" : [ {
@@ -2206,7 +2206,7 @@
       } ]
     }, {
       "IBAN" : "RO15POOB0048706387164463",
-      "balance" : 1921.15,
+      "balance" : 1921.152024,
       "currency" : "AUD",
       "type" : "savings",
       "cards" : [ {
@@ -2229,7 +2229,7 @@
       } ]
     }, {
       "IBAN" : "RO97POOB5006417983475785",
-      "balance" : 3683.82,
+      "balance" : 3683.8199999999997,
       "currency" : "INR",
       "type" : "savings",
       "cards" : [ {
@@ -2243,7 +2243,7 @@
     "email" : "Rene_Plourde@protonmail.ca",
     "accounts" : [ {
       "IBAN" : "RO98POOB8412955460158769",
-      "balance" : 646.15,
+      "balance" : 646.1520888888889,
       "currency" : "CAD",
       "type" : "classic",
       "cards" : [ {
@@ -2271,7 +2271,7 @@
     "email" : "Isabel_Grande_Sales@hotmail.es",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 717.29,
+      "balance" : 717.2918181818181,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -2285,7 +2285,7 @@
     "email" : "Tony_Wallace@mail.com.au",
     "accounts" : [ {
       "IBAN" : "RO10POOB4354933866366881",
-      "balance" : 902.33,
+      "balance" : 902.3333333333334,
       "currency" : "AUD",
       "type" : "classic",
       "cards" : [ {
@@ -2299,7 +2299,7 @@
     "email" : "Iris_Sanders-Kramer@outlook.nl",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 1424.8,
+      "balance" : 1424.8000000000002,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -2308,7 +2308,7 @@
       } ]
     }, {
       "IBAN" : "RO93POOB6760303931698665",
-      "balance" : 1641.89,
+      "balance" : 1641.8892,
       "currency" : "EUR",
       "type" : "savings",
       "cards" : [ {
@@ -2349,7 +2349,7 @@
     "email" : "Anna_Robson@hushmail.nz",
     "accounts" : [ {
       "IBAN" : "RO38POOB0964823730995794",
-      "balance" : 992.74,
+      "balance" : 992.7355555555556,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -2363,7 +2363,7 @@
     "email" : "Lucy_Baker-Clark@mail.com.gb",
     "accounts" : [ {
       "IBAN" : "RO53POOB7122855990652257",
-      "balance" : 0.78,
+      "balance" : 0.7777777777777786,
       "currency" : "GBP",
       "type" : "classic",
       "cards" : [ {
@@ -2400,7 +2400,7 @@
     "email" : "Connie_Hart@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO09POOB4346339013848470",
-      "balance" : 0.0,
+      "balance" : 0.002222222222229675,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -2409,13 +2409,13 @@
       } ]
     }, {
       "IBAN" : "RO45POOB6505529013808948",
-      "balance" : 7159.24,
+      "balance" : 7159.239999999998,
       "currency" : "USD",
       "type" : "business",
       "cards" : [ ]
     }, {
       "IBAN" : "RO01POOB3925326637526572",
-      "balance" : 6436.68,
+      "balance" : 6436.6799999999985,
       "currency" : "USD",
       "type" : "business",
       "cards" : [ ]
@@ -2426,7 +2426,7 @@
     "email" : "Bruce_Smith@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO50POOB3913194831046423",
-      "balance" : 0.0,
+      "balance" : 0.002222222222229675,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -2468,7 +2468,7 @@
     "email" : "Isabella_Edwards@hotmail.nz",
     "accounts" : [ {
       "IBAN" : "RO46POOB9051076190383154",
-      "balance" : 1.56,
+      "balance" : 1.5555555555555571,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -2524,7 +2524,7 @@
     "email" : "Yolanda_Smith@mail.com.us",
     "accounts" : [ {
       "IBAN" : "RO50POOB3359236199018963",
-      "balance" : 0.0,
+      "balance" : 0.002222222222229675,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -2591,31 +2591,10 @@
   } ],
   "timestamp" : 877
 }, {
-  "command" : "changeSpendingLimit",
-  "output" : {
-    "timestamp" : 880,
-    "description" : "You must be owner in order to change spending limit."
-  },
-  "timestamp" : 880
-}, {
-  "command" : "changeSpendingLimit",
-  "output" : {
-    "timestamp" : 881,
-    "description" : "You must be owner in order to change spending limit."
-  },
-  "timestamp" : 881
-}, {
-  "command" : "changeSpendingLimit",
-  "output" : {
-    "timestamp" : 882,
-    "description" : "You must be owner in order to change spending limit."
-  },
-  "timestamp" : 882
-}, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO45POOB6505529013808948",
-    "balance" : 14755.24,
+    "balance" : 14755.239999999998,
     "currency" : "USD",
     "spending limit" : 840.0,
     "deposit limit" : 306.0,
@@ -2682,10 +2661,10 @@
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO01POOB3925326637526572",
-    "balance" : 12078.68,
+    "balance" : 12078.679999999998,
     "currency" : "USD",
     "spending limit" : 16.0,
-    "deposit limit" : 111.11,
+    "deposit limit" : 111.1111111111111,
     "statistics type" : "transaction",
     "managers" : [ {
       "username" : "Arsenio Bellucc Dott.",
@@ -2749,22 +2728,22 @@
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO04POOB3492426980939341",
-    "balance" : 906.14,
+    "balance" : 85.40753142857139,
     "currency" : "EUR",
-    "spending limit" : 100.0,
+    "spending limit" : 958.0,
     "deposit limit" : 100.0,
     "statistics type" : "transaction",
     "managers" : [ {
       "username" : "Sanders-Kramer Iris",
-      "spent" : 34.17,
+      "spent" : 854.9078285714286,
       "deposited" : 940.0
     } ],
     "employees" : [ {
       "username" : "Sanders-Kramer Iris",
-      "spent" : 34.17,
+      "spent" : 854.9078285714286,
       "deposited" : 940.0
     } ],
-    "total spent" : 68.34,
+    "total spent" : 1709.8156571428572,
     "total deposited" : 1880.0
   },
   "timestamp" : 922
@@ -2774,7 +2753,7 @@
     "IBAN" : "RO66POOB1088683052483887",
     "balance" : 619.0,
     "currency" : "EUR",
-    "spending limit" : 100.0,
+    "spending limit" : 500.0,
     "deposit limit" : 100.0,
     "statistics type" : "transaction",
     "managers" : [ {
@@ -2797,7 +2776,7 @@
     "IBAN" : "RO19POOB5993192794373940",
     "balance" : 540.0,
     "currency" : "EUR",
-    "spending limit" : 100.0,
+    "spending limit" : 838.0,
     "deposit limit" : 100.0,
     "statistics type" : "transaction",
     "managers" : [ {
@@ -2820,7 +2799,7 @@
     "IBAN" : "RO19POOB5993192794373940",
     "balance" : 540.0,
     "currency" : "EUR",
-    "spending limit" : 100.0,
+    "spending limit" : 838.0,
     "deposit limit" : 100.0,
     "statistics type" : "commerciant",
     "commerciants" : [ ]
@@ -3040,7 +3019,7 @@
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO45POOB6505529013808948",
-    "balance" : 16774.24,
+    "balance" : 16774.239999999998,
     "currency" : "USD",
     "spending limit" : 840.0,
     "deposit limit" : 306.0,
@@ -3145,7 +3124,7 @@
     "email" : "Dominic_Nicholson@gmail.gb",
     "accounts" : [ {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 973.78,
+      "balance" : 973.7777777777778,
       "currency" : "GBP",
       "type" : "classic",
       "cards" : [ {
@@ -3159,7 +3138,7 @@
     "email" : "Marvin_Peterson@zoho.ch",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 536.53,
+      "balance" : 536.5318194444445,
       "currency" : "CHF",
       "type" : "classic",
       "cards" : [ {
@@ -3173,7 +3152,7 @@
     "email" : "Alwin_Dowerg@yandex.de",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 736.17,
+      "balance" : 736.1704,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -3187,7 +3166,7 @@
     "email" : "Angel_Ene@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB2721178218599590",
-      "balance" : 48.18,
+      "balance" : 48.18399999999997,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
@@ -3196,7 +3175,7 @@
       } ]
     }, {
       "IBAN" : "RO75POOB1098983729823992",
-      "balance" : 1918.11,
+      "balance" : 1918.1072000000001,
       "currency" : "RON",
       "type" : "savings",
       "cards" : [ {
@@ -3210,7 +3189,7 @@
     "email" : "Karen_McIsaac@zoho.nz",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 115.55,
+      "balance" : 115.54078632478628,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -3224,7 +3203,7 @@
     "email" : "Anni_Dorr@icloud.de",
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
-      "balance" : 781.58,
+      "balance" : 781.5842857142857,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -3280,7 +3259,7 @@
     "email" : "Dott._Arsenio_Bellucc@mail.com.it",
     "accounts" : [ {
       "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 1089.92,
+      "balance" : 1089.9184,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -3308,7 +3287,7 @@
     "email" : "Briana_Galloway@outlook.au",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 712.33,
+      "balance" : 712.3333333333334,
       "currency" : "AUD",
       "type" : "classic",
       "cards" : [ {
@@ -3317,7 +3296,7 @@
       } ]
     }, {
       "IBAN" : "RO15POOB0048706387164463",
-      "balance" : 1921.15,
+      "balance" : 1921.152024,
       "currency" : "AUD",
       "type" : "savings",
       "cards" : [ {
@@ -3340,7 +3319,7 @@
       } ]
     }, {
       "IBAN" : "RO97POOB5006417983475785",
-      "balance" : 3683.82,
+      "balance" : 3683.8199999999997,
       "currency" : "INR",
       "type" : "savings",
       "cards" : [ {
@@ -3354,7 +3333,7 @@
     "email" : "Rene_Plourde@protonmail.ca",
     "accounts" : [ {
       "IBAN" : "RO98POOB8412955460158769",
-      "balance" : 646.15,
+      "balance" : 646.1520888888889,
       "currency" : "CAD",
       "type" : "classic",
       "cards" : [ {
@@ -3382,7 +3361,7 @@
     "email" : "Isabel_Grande_Sales@hotmail.es",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 717.29,
+      "balance" : 717.2918181818181,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -3396,7 +3375,7 @@
     "email" : "Tony_Wallace@mail.com.au",
     "accounts" : [ {
       "IBAN" : "RO10POOB4354933866366881",
-      "balance" : 902.33,
+      "balance" : 902.3333333333334,
       "currency" : "AUD",
       "type" : "classic",
       "cards" : [ {
@@ -3410,7 +3389,7 @@
     "email" : "Iris_Sanders-Kramer@outlook.nl",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 1424.8,
+      "balance" : 1424.8000000000002,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -3419,7 +3398,7 @@
       } ]
     }, {
       "IBAN" : "RO93POOB6760303931698665",
-      "balance" : 1641.89,
+      "balance" : 1641.8892,
       "currency" : "EUR",
       "type" : "savings",
       "cards" : [ {
@@ -3428,7 +3407,7 @@
       } ]
     }, {
       "IBAN" : "RO04POOB3492426980939341",
-      "balance" : 906.14,
+      "balance" : 85.40753142857139,
       "currency" : "EUR",
       "type" : "business",
       "cards" : [ {
@@ -3460,7 +3439,7 @@
     "email" : "Anna_Robson@hushmail.nz",
     "accounts" : [ {
       "IBAN" : "RO38POOB0964823730995794",
-      "balance" : 992.74,
+      "balance" : 992.7355555555556,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -3474,7 +3453,7 @@
     "email" : "Lucy_Baker-Clark@mail.com.gb",
     "accounts" : [ {
       "IBAN" : "RO53POOB7122855990652257",
-      "balance" : 0.78,
+      "balance" : 0.7777777777777786,
       "currency" : "GBP",
       "type" : "classic",
       "cards" : [ {
@@ -3511,7 +3490,7 @@
     "email" : "Connie_Hart@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO09POOB4346339013848470",
-      "balance" : 0.0,
+      "balance" : 0.002222222222229675,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -3520,13 +3499,13 @@
       } ]
     }, {
       "IBAN" : "RO45POOB6505529013808948",
-      "balance" : 16774.24,
+      "balance" : 16774.239999999998,
       "currency" : "USD",
       "type" : "business",
       "cards" : [ ]
     }, {
       "IBAN" : "RO01POOB3925326637526572",
-      "balance" : 12078.68,
+      "balance" : 12078.679999999998,
       "currency" : "USD",
       "type" : "business",
       "cards" : [ ]
@@ -3537,7 +3516,7 @@
     "email" : "Bruce_Smith@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO50POOB3913194831046423",
-      "balance" : 0.0,
+      "balance" : 0.002222222222229675,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -3579,7 +3558,7 @@
     "email" : "Isabella_Edwards@hotmail.nz",
     "accounts" : [ {
       "IBAN" : "RO46POOB9051076190383154",
-      "balance" : 1.56,
+      "balance" : 1.5555555555555571,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -3635,7 +3614,7 @@
     "email" : "Yolanda_Smith@mail.com.us",
     "accounts" : [ {
       "IBAN" : "RO50POOB3359236199018963",
-      "balance" : 0.0,
+      "balance" : 0.002222222222229675,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -3723,7 +3702,7 @@
     "email" : "Dominic_Nicholson@gmail.gb",
     "accounts" : [ {
       "IBAN" : "RO69POOB6209498372540635",
-      "balance" : 973.78,
+      "balance" : 973.7777777777778,
       "currency" : "GBP",
       "type" : "classic",
       "cards" : [ {
@@ -3737,7 +3716,7 @@
     "email" : "Marvin_Peterson@zoho.ch",
     "accounts" : [ {
       "IBAN" : "RO90POOB5450777208072365",
-      "balance" : 536.53,
+      "balance" : 536.5318194444445,
       "currency" : "CHF",
       "type" : "classic",
       "cards" : [ {
@@ -3751,7 +3730,7 @@
     "email" : "Alwin_Dowerg@yandex.de",
     "accounts" : [ {
       "IBAN" : "RO65POOB8944016386845896",
-      "balance" : 736.17,
+      "balance" : 736.1704,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -3765,7 +3744,7 @@
     "email" : "Angel_Ene@hotmail.ro",
     "accounts" : [ {
       "IBAN" : "RO58POOB2721178218599590",
-      "balance" : 48.18,
+      "balance" : 48.18399999999997,
       "currency" : "RON",
       "type" : "classic",
       "cards" : [ {
@@ -3774,7 +3753,7 @@
       } ]
     }, {
       "IBAN" : "RO75POOB1098983729823992",
-      "balance" : 1918.11,
+      "balance" : 1918.1072000000001,
       "currency" : "RON",
       "type" : "savings",
       "cards" : [ {
@@ -3788,7 +3767,7 @@
     "email" : "Karen_McIsaac@zoho.nz",
     "accounts" : [ {
       "IBAN" : "RO76POOB4035116042454483",
-      "balance" : 115.55,
+      "balance" : 115.54078632478628,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -3802,7 +3781,7 @@
     "email" : "Anni_Dorr@icloud.de",
     "accounts" : [ {
       "IBAN" : "RO37POOB7013767509830666",
-      "balance" : 781.58,
+      "balance" : 781.5842857142857,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -3858,7 +3837,7 @@
     "email" : "Dott._Arsenio_Bellucc@mail.com.it",
     "accounts" : [ {
       "IBAN" : "RO00POOB5687892910835215",
-      "balance" : 1089.92,
+      "balance" : 1089.9184,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -3886,7 +3865,7 @@
     "email" : "Briana_Galloway@outlook.au",
     "accounts" : [ {
       "IBAN" : "RO33POOB4049920806186500",
-      "balance" : 712.33,
+      "balance" : 712.3333333333334,
       "currency" : "AUD",
       "type" : "classic",
       "cards" : [ {
@@ -3895,7 +3874,7 @@
       } ]
     }, {
       "IBAN" : "RO15POOB0048706387164463",
-      "balance" : 1921.15,
+      "balance" : 1921.152024,
       "currency" : "AUD",
       "type" : "savings",
       "cards" : [ {
@@ -3918,7 +3897,7 @@
       } ]
     }, {
       "IBAN" : "RO97POOB5006417983475785",
-      "balance" : 3683.82,
+      "balance" : 3683.8199999999997,
       "currency" : "INR",
       "type" : "savings",
       "cards" : [ {
@@ -3932,7 +3911,7 @@
     "email" : "Rene_Plourde@protonmail.ca",
     "accounts" : [ {
       "IBAN" : "RO98POOB8412955460158769",
-      "balance" : 646.15,
+      "balance" : 646.1520888888889,
       "currency" : "CAD",
       "type" : "classic",
       "cards" : [ {
@@ -3960,7 +3939,7 @@
     "email" : "Isabel_Grande_Sales@hotmail.es",
     "accounts" : [ {
       "IBAN" : "RO68POOB1848616931405475",
-      "balance" : 717.29,
+      "balance" : 717.2918181818181,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -3974,7 +3953,7 @@
     "email" : "Tony_Wallace@mail.com.au",
     "accounts" : [ {
       "IBAN" : "RO10POOB4354933866366881",
-      "balance" : 902.33,
+      "balance" : 902.3333333333334,
       "currency" : "AUD",
       "type" : "classic",
       "cards" : [ {
@@ -3988,7 +3967,7 @@
     "email" : "Iris_Sanders-Kramer@outlook.nl",
     "accounts" : [ {
       "IBAN" : "RO33POOB9999273999620457",
-      "balance" : 1424.8,
+      "balance" : 1424.8000000000002,
       "currency" : "EUR",
       "type" : "classic",
       "cards" : [ {
@@ -3997,7 +3976,7 @@
       } ]
     }, {
       "IBAN" : "RO93POOB6760303931698665",
-      "balance" : 1641.89,
+      "balance" : 1641.8892,
       "currency" : "EUR",
       "type" : "savings",
       "cards" : [ {
@@ -4006,7 +3985,7 @@
       } ]
     }, {
       "IBAN" : "RO04POOB3492426980939341",
-      "balance" : 906.14,
+      "balance" : 85.40753142857139,
       "currency" : "EUR",
       "type" : "business",
       "cards" : [ {
@@ -4038,7 +4017,7 @@
     "email" : "Anna_Robson@hushmail.nz",
     "accounts" : [ {
       "IBAN" : "RO38POOB0964823730995794",
-      "balance" : 992.74,
+      "balance" : 992.7355555555556,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -4052,7 +4031,7 @@
     "email" : "Lucy_Baker-Clark@mail.com.gb",
     "accounts" : [ {
       "IBAN" : "RO53POOB7122855990652257",
-      "balance" : 0.78,
+      "balance" : 0.7777777777777786,
       "currency" : "GBP",
       "type" : "classic",
       "cards" : [ {
@@ -4089,7 +4068,7 @@
     "email" : "Connie_Hart@hotmail.us",
     "accounts" : [ {
       "IBAN" : "RO09POOB4346339013848470",
-      "balance" : 0.0,
+      "balance" : 0.002222222222229675,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -4098,13 +4077,13 @@
       } ]
     }, {
       "IBAN" : "RO45POOB6505529013808948",
-      "balance" : 16774.24,
+      "balance" : 16774.239999999998,
       "currency" : "USD",
       "type" : "business",
       "cards" : [ ]
     }, {
       "IBAN" : "RO01POOB3925326637526572",
-      "balance" : 12078.68,
+      "balance" : 12078.679999999998,
       "currency" : "USD",
       "type" : "business",
       "cards" : [ ]
@@ -4115,7 +4094,7 @@
     "email" : "Bruce_Smith@hushmail.us",
     "accounts" : [ {
       "IBAN" : "RO50POOB3913194831046423",
-      "balance" : 0.0,
+      "balance" : 0.002222222222229675,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -4157,7 +4136,7 @@
     "email" : "Isabella_Edwards@hotmail.nz",
     "accounts" : [ {
       "IBAN" : "RO46POOB9051076190383154",
-      "balance" : 1.56,
+      "balance" : 1.5555555555555571,
       "currency" : "NZD",
       "type" : "classic",
       "cards" : [ {
@@ -4213,7 +4192,7 @@
     "email" : "Yolanda_Smith@mail.com.us",
     "accounts" : [ {
       "IBAN" : "RO50POOB3359236199018963",
-      "balance" : 0.0,
+      "balance" : 0.002222222222229675,
       "currency" : "USD",
       "type" : "classic",
       "cards" : [ {
@@ -4293,7 +4272,7 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO69POOB6209498372540635",
-    "balance" : 973.78,
+    "balance" : 973.7777777777778,
     "currency" : "GBP",
     "transactions" : [ ],
     "commerciants" : [ ]
@@ -4303,17 +4282,17 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO90POOB5450777208072365",
-    "balance" : 536.53,
+    "balance" : 536.5318194444445,
     "currency" : "CHF",
     "transactions" : [ {
       "timestamp" : 287,
       "description" : "Card payment",
-      "amount" : 74.94,
+      "amount" : 74.9375,
       "commerciant" : "KFC"
     } ],
     "commerciants" : [ {
       "commerciant" : "KFC",
-      "total" : 74.94
+      "total" : 74.9375
     } ]
   },
   "timestamp" : 1029
@@ -4321,7 +4300,7 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO65POOB8944016386845896",
-    "balance" : 736.17,
+    "balance" : 736.1704,
     "currency" : "EUR",
     "transactions" : [ ],
     "commerciants" : [ ]
@@ -4331,7 +4310,7 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO58POOB2721178218599590",
-    "balance" : 48.18,
+    "balance" : 48.18399999999997,
     "currency" : "RON",
     "transactions" : [ ],
     "commerciants" : [ ]
@@ -4341,17 +4320,17 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO76POOB4035116042454483",
-    "balance" : 115.55,
+    "balance" : 115.54078632478628,
     "currency" : "NZD",
     "transactions" : [ {
       "timestamp" : 292,
       "description" : "Card payment",
-      "amount" : 278.15,
+      "amount" : 278.1538461538462,
       "commerciant" : "Burger King"
     } ],
     "commerciants" : [ {
       "commerciant" : "Burger King",
-      "total" : 278.15
+      "total" : 278.1538461538462
     } ]
   },
   "timestamp" : 1032
@@ -4359,7 +4338,7 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO37POOB7013767509830666",
-    "balance" : 781.58,
+    "balance" : 781.5842857142857,
     "currency" : "EUR",
     "transactions" : [ ],
     "commerciants" : [ ]
@@ -4399,7 +4378,7 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO00POOB5687892910835215",
-    "balance" : 1089.92,
+    "balance" : 1089.9184,
     "currency" : "EUR",
     "transactions" : [ ],
     "commerciants" : [ ]
@@ -4419,7 +4398,7 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO33POOB4049920806186500",
-    "balance" : 712.33,
+    "balance" : 712.3333333333334,
     "currency" : "AUD",
     "transactions" : [ ],
     "commerciants" : [ ]
@@ -4439,7 +4418,7 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO98POOB8412955460158769",
-    "balance" : 646.15,
+    "balance" : 646.1520888888889,
     "currency" : "CAD",
     "transactions" : [ ],
     "commerciants" : [ ]
@@ -4459,7 +4438,7 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO68POOB1848616931405475",
-    "balance" : 717.29,
+    "balance" : 717.2918181818181,
     "currency" : "EUR",
     "transactions" : [ {
       "timestamp" : 288,
@@ -4477,7 +4456,7 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO10POOB4354933866366881",
-    "balance" : 902.33,
+    "balance" : 902.3333333333334,
     "currency" : "AUD",
     "transactions" : [ ],
     "commerciants" : [ ]
@@ -4487,7 +4466,7 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO33POOB9999273999620457",
-    "balance" : 1424.8,
+    "balance" : 1424.8000000000002,
     "currency" : "EUR",
     "transactions" : [ ],
     "commerciants" : [ ]
@@ -4497,7 +4476,7 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO38POOB0964823730995794",
-    "balance" : 992.74,
+    "balance" : 992.7355555555556,
     "currency" : "NZD",
     "transactions" : [ ],
     "commerciants" : [ ]
@@ -4507,7 +4486,7 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO53POOB7122855990652257",
-    "balance" : 0.78,
+    "balance" : 0.7777777777777786,
     "currency" : "GBP",
     "transactions" : [ ],
     "commerciants" : [ ]
@@ -4527,7 +4506,7 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO09POOB4346339013848470",
-    "balance" : 0.0,
+    "balance" : 0.002222222222229675,
     "currency" : "USD",
     "transactions" : [ ],
     "commerciants" : [ ]
@@ -4537,7 +4516,7 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO50POOB3913194831046423",
-    "balance" : 0.0,
+    "balance" : 0.002222222222229675,
     "currency" : "USD",
     "transactions" : [ ],
     "commerciants" : [ ]
@@ -4567,7 +4546,7 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO46POOB9051076190383154",
-    "balance" : 1.56,
+    "balance" : 1.5555555555555571,
     "currency" : "NZD",
     "transactions" : [ ],
     "commerciants" : [ ]
@@ -4607,7 +4586,7 @@
   "command" : "spendingsReport",
   "output" : {
     "IBAN" : "RO50POOB3359236199018963",
-    "balance" : 0.0,
+    "balance" : 0.002222222222229675,
     "currency" : "USD",
     "transactions" : [ ],
     "commerciants" : [ ]

@@ -47,7 +47,7 @@
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO69POOB6209498372540635",
-    "balance" : 2628.07,
+    "balance" : 2628.063,
     "currency" : "RON",
     "spending limit" : 500.0,
     "deposit limit" : 135.0,
@@ -141,7 +141,7 @@
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO69POOB6209498372540635",
-    "balance" : 13323.89,
+    "balance" : 13323.888625,
     "currency" : "RON",
     "spending limit" : 500.0,
     "deposit limit" : 135.0,
@@ -172,14 +172,14 @@
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO69POOB6209498372540635",
-    "balance" : 13323.89,
+    "balance" : 13323.888625,
     "currency" : "RON",
     "spending limit" : 500.0,
     "deposit limit" : 135.0,
     "statistics type" : "commerciant",
     "commerciants" : [ {
       "commerciant" : "Amazon",
-      "total received" : 220.05,
+      "total received" : 220.04999999999998,
       "managers" : [ ],
       "employees" : [ "Voinea Valentin" ]
     }, {

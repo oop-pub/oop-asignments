@@ -11,8 +11,8 @@
     "IBAN" : "RO65POOB8944016386845896",
     "balance" : 0.0,
     "currency" : "USD",
-    "spending limit" : 107.14,
-    "deposit limit" : 107.14,
+    "spending limit" : 107.14285714285714,
+    "deposit limit" : 107.14285714285714,
     "statistics type" : "transaction",
     "managers" : [ {
       "username" : "Pop Zaharia",
@@ -53,7 +53,7 @@
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO65POOB8944016386845896",
-    "balance" : 155.36,
+    "balance" : 155.35800000000017,
     "currency" : "USD",
     "spending limit" : 564.0,
     "deposit limit" : 104.0,

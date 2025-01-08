@@ -448,7 +448,7 @@
     "description" : "Split payment of 4411.00 EUR",
     "splitPaymentType" : "equal",
     "currency" : "EUR",
-    "amount" : 735.17,
+    "amount" : 735.1666666666666,
     "involvedAccounts" : [ "RO79POOB3616857825600958", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO58POOB2721178218599590", "RO90POOB5450777208072365", "RO37POOB7013767509830666" ],
     "error" : "Account RO58POOB7344468893732422 has insufficient funds for a split payment."
   }, {
@@ -467,12 +467,12 @@
   }, {
     "timestamp" : 177,
     "description" : "Card payment",
-    "amount" : 132.44,
+    "amount" : 132.44444444444446,
     "commerciant" : "Zara"
   }, {
     "timestamp" : 211,
     "description" : "Card payment",
-    "amount" : 235.56,
+    "amount" : 235.55555555555557,
     "commerciant" : "Apple"
   } ],
   "timestamp" : 212
@@ -527,7 +527,7 @@
     "description" : "Split payment of 4411.00 EUR",
     "splitPaymentType" : "equal",
     "currency" : "EUR",
-    "amount" : 735.17,
+    "amount" : 735.1666666666666,
     "involvedAccounts" : [ "RO79POOB3616857825600958", "RO76POOB4035116042454483", "RO58POOB7344468893732422", "RO58POOB2721178218599590", "RO90POOB5450777208072365", "RO37POOB7013767509830666" ],
     "error" : "Account RO58POOB7344468893732422 has insufficient funds for a split payment."
   }, {
@@ -538,7 +538,7 @@
   }, {
     "timestamp" : 163,
     "description" : "Card payment",
-    "amount" : 538.89,
+    "amount" : 538.8888888888889,
     "commerciant" : "Microsoft"
   } ],
   "timestamp" : 218
