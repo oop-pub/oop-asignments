@@ -2097,7 +2097,7 @@
   "command" : "changeDepositLimit",
   "output" : {
     "timestamp" : 794,
-    "description" : "You must be owner in order to change spending limit."
+    "description" : "You must be owner in order to change deposit limit."
   },
   "timestamp" : 794
 }, {
@@ -2265,17 +2265,9 @@
       "spent" : 0.0,
       "deposited" : 923.0
     }, {
-      "username" : "del Ripoll Nicodemo",
-      "spent" : 0.0,
-      "deposited" : 0.0
-    }, {
       "username" : "du Mendes Thibault",
       "spent" : 0.0,
       "deposited" : 451.0
-    }, {
-      "username" : "Charette Gregoire",
-      "spent" : 0.0,
-      "deposited" : 0.0
     } ],
     "employees" : [ {
       "username" : "Manuel Baez Anaya Victor",

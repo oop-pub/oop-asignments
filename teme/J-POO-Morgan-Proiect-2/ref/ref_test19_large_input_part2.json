@@ -2594,7 +2594,7 @@
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO45POOB6505529013808948",
-    "balance" : 14755.239999999998,
+    "balance" : 15781.239999999998,
     "currency" : "USD",
     "spending limit" : 840.0,
     "deposit limit" : 306.0,
@@ -2630,7 +2630,7 @@
     }, {
       "username" : "Sanders-Kramer Iris",
       "spent" : 0.0,
-      "deposited" : 77.78
+      "deposited" : 1103.78
     } ],
     "employees" : [ {
       "username" : "Ene Angel",
@@ -2648,20 +2648,16 @@
       "username" : "Ouellet Karine",
       "spent" : 0.0,
       "deposited" : 0.0
-    }, {
-      "username" : "Sanders-Kramer Iris",
-      "spent" : 0.0,
-      "deposited" : 77.78
     } ],
     "total spent" : 0.0,
-    "total deposited" : 14833.02
+    "total deposited" : 15781.24
   },
   "timestamp" : 920
 }, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO01POOB3925326637526572",
-    "balance" : 12078.679999999998,
+    "balance" : 13194.679999999998,
     "currency" : "USD",
     "spending limit" : 16.0,
     "deposit limit" : 111.1111111111111,
@@ -2689,7 +2685,7 @@
     }, {
       "username" : "Sanders-Kramer Iris",
       "spent" : 0.0,
-      "deposited" : 77.78
+      "deposited" : 1193.78
     } ],
     "employees" : [ {
       "username" : "Ene Angel",
@@ -2715,89 +2711,61 @@
       "username" : "Beuchat Roland",
       "spent" : 0.0,
       "deposited" : 0.0
-    }, {
-      "username" : "Sanders-Kramer Iris",
-      "spent" : 0.0,
-      "deposited" : 77.78
     } ],
     "total spent" : 0.0,
-    "total deposited" : 12156.460000000001
+    "total deposited" : 13194.68
   },
   "timestamp" : 921
 }, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO04POOB3492426980939341",
-    "balance" : 85.40753142857139,
+    "balance" : 1189.4075314285712,
     "currency" : "EUR",
     "spending limit" : 958.0,
     "deposit limit" : 100.0,
     "statistics type" : "transaction",
-    "managers" : [ {
-      "username" : "Sanders-Kramer Iris",
-      "spent" : 854.9078285714286,
-      "deposited" : 940.0
-    } ],
-    "employees" : [ {
-      "username" : "Sanders-Kramer Iris",
-      "spent" : 854.9078285714286,
-      "deposited" : 940.0
-    } ],
-    "total spent" : 1709.8156571428572,
-    "total deposited" : 1880.0
+    "managers" : [ ],
+    "employees" : [ ],
+    "total spent" : 0.0,
+    "total deposited" : 0.0
   },
   "timestamp" : 922
 }, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO66POOB1088683052483887",
-    "balance" : 619.0,
+    "balance" : 1658.0,
     "currency" : "EUR",
     "spending limit" : 500.0,
     "deposit limit" : 100.0,
     "statistics type" : "transaction",
-    "managers" : [ {
-      "username" : "Sanders-Kramer Iris",
-      "spent" : 0.0,
-      "deposited" : 619.0
-    } ],
-    "employees" : [ {
-      "username" : "Sanders-Kramer Iris",
-      "spent" : 0.0,
-      "deposited" : 619.0
-    } ],
+    "managers" : [ ],
+    "employees" : [ ],
     "total spent" : 0.0,
-    "total deposited" : 1238.0
+    "total deposited" : 0.0
   },
   "timestamp" : 923
 }, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO19POOB5993192794373940",
-    "balance" : 540.0,
+    "balance" : 2292.0,
     "currency" : "EUR",
     "spending limit" : 838.0,
     "deposit limit" : 100.0,
     "statistics type" : "transaction",
-    "managers" : [ {
-      "username" : "Sanders-Kramer Iris",
-      "spent" : 0.0,
-      "deposited" : 540.0
-    } ],
-    "employees" : [ {
-      "username" : "Sanders-Kramer Iris",
-      "spent" : 0.0,
-      "deposited" : 540.0
-    } ],
+    "managers" : [ ],
+    "employees" : [ ],
     "total spent" : 0.0,
-    "total deposited" : 1080.0
+    "total deposited" : 0.0
   },
   "timestamp" : 924
 }, {
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO19POOB5993192794373940",
-    "balance" : 540.0,
+    "balance" : 2292.0,
     "currency" : "EUR",
     "spending limit" : 838.0,
     "deposit limit" : 100.0,
@@ -3019,7 +2987,7 @@
   "command" : "businessReport",
   "output" : {
     "IBAN" : "RO45POOB6505529013808948",
-    "balance" : 16774.239999999998,
+    "balance" : 19306.239999999998,
     "currency" : "USD",
     "spending limit" : 840.0,
     "deposit limit" : 306.0,
@@ -3055,7 +3023,7 @@
     }, {
       "username" : "Sanders-Kramer Iris",
       "spent" : 0.0,
-      "deposited" : 77.78
+      "deposited" : 2609.7799999999997
     } ],
     "employees" : [ {
       "username" : "Ene Angel",
@@ -3074,10 +3042,6 @@
       "spent" : 0.0,
       "deposited" : 0.0
     }, {
-      "username" : "Sanders-Kramer Iris",
-      "spent" : 0.0,
-      "deposited" : 77.78
-    }, {
       "username" : "Hovel Erdogan",
       "spent" : 0.0,
       "deposited" : 0.0
@@ -3090,16 +3054,12 @@
       "spent" : 0.0,
       "deposited" : 0.0
     }, {
-      "username" : "Magana Zepeda Juana",
-      "spent" : 0.0,
-      "deposited" : 7733.78
-    }, {
       "username" : "Peterson Marvin",
       "spent" : 0.0,
       "deposited" : 0.0
     } ],
     "total spent" : 0.0,
-    "total deposited" : 24585.799999999996
+    "total deposited" : 19306.239999999998
   },
   "timestamp" : 964
 }, {
@@ -3407,7 +3367,7 @@
       } ]
     }, {
       "IBAN" : "RO04POOB3492426980939341",
-      "balance" : 85.40753142857139,
+      "balance" : 1189.4075314285712,
       "currency" : "EUR",
       "type" : "business",
       "cards" : [ {
@@ -3416,7 +3376,7 @@
       } ]
     }, {
       "IBAN" : "RO66POOB1088683052483887",
-      "balance" : 619.0,
+      "balance" : 1658.0,
       "currency" : "EUR",
       "type" : "business",
       "cards" : [ {
@@ -3425,7 +3385,7 @@
       } ]
     }, {
       "IBAN" : "RO19POOB5993192794373940",
-      "balance" : 540.0,
+      "balance" : 2292.0,
       "currency" : "EUR",
       "type" : "business",
       "cards" : [ {
@@ -3499,13 +3459,13 @@
       } ]
     }, {
       "IBAN" : "RO45POOB6505529013808948",
-      "balance" : 16774.239999999998,
+      "balance" : 19306.239999999998,
       "currency" : "USD",
       "type" : "business",
       "cards" : [ ]
     }, {
       "IBAN" : "RO01POOB3925326637526572",
-      "balance" : 12078.679999999998,
+      "balance" : 13194.679999999998,
       "currency" : "USD",
       "type" : "business",
       "cards" : [ ]
@@ -3985,7 +3945,7 @@
       } ]
     }, {
       "IBAN" : "RO04POOB3492426980939341",
-      "balance" : 85.40753142857139,
+      "balance" : 1189.4075314285712,
       "currency" : "EUR",
       "type" : "business",
       "cards" : [ {
@@ -3994,7 +3954,7 @@
       } ]
     }, {
       "IBAN" : "RO66POOB1088683052483887",
-      "balance" : 619.0,
+      "balance" : 1658.0,
       "currency" : "EUR",
       "type" : "business",
       "cards" : [ {
@@ -4003,7 +3963,7 @@
       } ]
     }, {
       "IBAN" : "RO19POOB5993192794373940",
-      "balance" : 540.0,
+      "balance" : 2292.0,
       "currency" : "EUR",
       "type" : "business",
       "cards" : [ {
@@ -4077,13 +4037,13 @@
       } ]
     }, {
       "IBAN" : "RO45POOB6505529013808948",
-      "balance" : 16774.239999999998,
+      "balance" : 19306.239999999998,
       "currency" : "USD",
       "type" : "business",
       "cards" : [ ]
     }, {
       "IBAN" : "RO01POOB3925326637526572",
-      "balance" : 12078.679999999998,
+      "balance" : 13194.679999999998,
       "currency" : "USD",
       "type" : "business",
       "cards" : [ ]
