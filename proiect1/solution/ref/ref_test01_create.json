@@ -1,0 +1,67 @@
+[ {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Joshua",
+    "lastName" : "Wood",
+    "email" : "Joshua_Wood@gmail.us",
+    "accounts" : [ ]
+  } ],
+  "timestamp" : 1
+}, {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Joshua",
+    "lastName" : "Wood",
+    "email" : "Joshua_Wood@gmail.us",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 0.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "8207906978464446",
+        "status" : "active"
+      } ]
+    } ]
+  } ],
+  "timestamp" : 4
+}, {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Joshua",
+    "lastName" : "Wood",
+    "email" : "Joshua_Wood@gmail.us",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 271.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "8207906978464446",
+        "status" : "active"
+      } ]
+    } ]
+  } ],
+  "timestamp" : 6
+}, {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Joshua",
+    "lastName" : "Wood",
+    "email" : "Joshua_Wood@gmail.us",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 788.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "8207906978464446",
+        "status" : "active"
+      }, {
+        "cardNumber" : "7901879264253296",
+        "status" : "active"
+      } ]
+    } ]
+  } ],
+  "timestamp" : 9
+} ]

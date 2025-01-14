@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "credentials": {
+        "name": "Eduard",
+        "password": "secret",
+        "accountType": "standard",
+        "country": "Romania",
+        "balance": "50"
+      }
+    },
+    {
+      "credentials": {
+        "name": "Mihail",
+        "password": "discret",
+        "accountType": "premium",
+        "country": "Russia",
+        "balance": "1337"
+      }
+    }
+  ],
+  "movies": [
+    {
+      "name": "John Wick: Chapter 3 - Parabellum",
+      "year": 2019,
+      "duration": 131,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "actors": [
+        "Laurence Fishburne",
+        "Halle Berry",
+        "Keanu Reeves"
+      ],
+      "countriesBanned": [
+        "Russia"
+      ]
+    },
+    {
+      "name": "Titanic",
+      "year": 2019,
+      "duration": 131,
+      "genres": [
+        "Action",
+        "Thriller",
+        "Crime"
+      ],
+      "actors": [
+        "Laurence Fishburne",
+        "Halle Berry",
+        "Keanu Reeves"
+      ],
+      "countriesBanned": [
+        "Russia"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "change page",
+      "page": "register"
+    },
+    {
+      "type": "on page",
+      "feature": "register",
+      "credentials": {
+        "name": "Ramsi",
+        "password": "numiplacevelea",
+        "accountType": "standard",
+        "country": "Russia",
+        "balance": "300"
+      }
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "on page",
+      "page": "movies",
+      "feature": "filter",
+      "filters": {
+        "sort": {
+          "rating": "decreasing",
+          "duration": "decreasing"
+        }
+      }
+    }
+  ]
+}

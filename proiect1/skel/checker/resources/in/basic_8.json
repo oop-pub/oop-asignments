@@ -1,0 +1,863 @@
+{
+  "users": [
+    {
+      "credentials": {
+        "name": "Eduard",
+        "password": "secret",
+        "accountType": "premium",
+        "country": "India",
+        "balance": "50"
+      }
+    },
+    {
+      "credentials": {
+        "name": "Mihail",
+        "password": "discret",
+        "accountType": "premium",
+        "country": "China",
+        "balance": "1337"
+      }
+    },
+    {
+      "credentials": {
+        "name": "Iancu",
+        "password": "corega",
+        "accountType": "premium",
+        "country": "Japan",
+        "balance": "50"
+      }
+    },
+    {
+      "credentials": {
+        "name": "Geani",
+        "password": "GNI",
+        "accountType": "premium",
+        "country": "Russia",
+        "balance": "50"
+      }
+    },
+    {
+      "credentials": {
+        "name": "Ion",
+        "password": "GLN",
+        "accountType": "premium",
+        "country": "Brazil",
+        "balance": "50"
+      }
+    }
+  ],
+  "movies": [
+    {
+      "name": "Lord, Save Us from Your Followers",
+      "year": 1998,
+      "duration": 125,
+      "genres": [
+        "Comedy",
+        "Western",
+        "Mystery"
+      ],
+      "countriesBanned": [
+        "Russia",
+        "Saudi Arabia",
+        "Zimbabwe"
+      ],
+      "actors": [
+        "Camey Ingold",
+        "Grace Volleth",
+        "Jermaine D'Ruel",
+        "Anselma Saxelby"
+      ]
+    },
+    {
+      "name": "My Sassy Girl",
+      "year": 2005,
+      "duration": 125,
+      "genres": [
+        "Comedy",
+        "Mystery",
+        "Fantasy"
+      ],
+      "countriesBanned": [
+        "Dominican Republic",
+        "Indonesia",
+        "Japan"
+      ],
+      "actors": [
+        "Mabel MacAless",
+        "Iggy MacUchadair",
+        "Arni Harrow",
+        "Reg Kelleher"
+      ]
+    },
+    {
+      "name": "Take the Money and Run",
+      "year": 2006,
+      "duration": 134,
+      "genres": [
+        "Thriller",
+        "Western",
+        "Mystery"
+      ],
+      "countriesBanned": [
+        "Indonesia",
+        "China",
+        "India"
+      ],
+      "actors": [
+        "Hailey Evequot",
+        "Fenelia Maryott",
+        "Gloriane Haughton",
+        "Evvie Asbery"
+      ]
+    },
+    {
+      "name": "Penelope",
+      "year": 2008,
+      "duration": 166,
+      "genres": [
+        "Fantasy",
+        "Drama",
+        "Thriller"
+      ],
+      "countriesBanned": [
+        "Azerbaijan",
+        "China",
+        "India"
+      ],
+      "actors": [
+        "Elnore Neild",
+        "Gay Cobbing",
+        "Guntar Holton",
+        "Merry Troni"
+      ]
+    },
+    {
+      "name": "Kiwi!",
+      "year": 2002,
+      "duration": 82,
+      "genres": [
+        "Western",
+        "Mystery",
+        "Romance"
+      ],
+      "countriesBanned": [
+        "Brazil",
+        "China",
+        "Russia"
+      ],
+      "actors": [
+        "Carleen Pidgeon",
+        "Lois Gibling",
+        "Colver Corss",
+        "Mora Piotrkowski"
+      ]
+    },
+    {
+      "name": "Little Foxes, The",
+      "year": 1999,
+      "duration": 128,
+      "genres": [
+        "Horror",
+        "Action",
+        "Thriller"
+      ],
+      "countriesBanned": [
+        "Brazil",
+        "Philippines",
+        "Poland"
+      ],
+      "actors": [
+        "Coleen Verheijden",
+        "Dean McCooke",
+        "Melamie Griswaite",
+        "Clementine Loding"
+      ]
+    },
+    {
+      "name": "The Empty Hours",
+      "year": 2003,
+      "duration": 106,
+      "genres": [
+        "Fantasy",
+        "Thriller",
+        "Mystery"
+      ],
+      "countriesBanned": [
+        "Indonesia",
+        "Brazil",
+        "Uganda"
+      ],
+      "actors": [
+        "Holly Sandbrook",
+        "Phyllys Lindsell",
+        "Bendick Bointon",
+        "Dani Duigenan"
+      ]
+    },
+    {
+      "name": "Jason's Lyric",
+      "year": 1994,
+      "duration": 103,
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Western"
+      ],
+      "countriesBanned": [
+        "Romania",
+        "China",
+        "Finland"
+      ],
+      "actors": [
+        "Hoebart Lipscomb",
+        "Romain Fehners",
+        "Sam Restall",
+        "Tildy Kenaway"
+      ]
+    },
+    {
+      "name": "Comet in Moominland",
+      "year": 2000,
+      "duration": 91,
+      "genres": [
+        "Mystery",
+        "Horror",
+        "Western"
+      ],
+      "countriesBanned": [
+        "Brazil",
+        "China",
+        "Colombia"
+      ],
+      "actors": [
+        "Bertina Kemshell",
+        "Marshall Bysshe",
+        "Dexter Rickaert",
+        "Zack Brandel"
+      ]
+    },
+    {
+      "name": "Bag It",
+      "year": 2008,
+      "duration": 149,
+      "genres": [
+        "Drama",
+        "Horror",
+        "Fantasy"
+      ],
+      "countriesBanned": [
+        "China",
+        "Sweden",
+        "Finland"
+      ],
+      "actors": [
+        "Rivy Aitken",
+        "Farra Simnor",
+        "Korie Sager",
+        "Pauli Stapford"
+      ]
+    },
+    {
+      "name": "Shaolin Temple (Shao Lin si)",
+      "year": 1987,
+      "duration": 135,
+      "genres": [
+        "Horror",
+        "Western",
+        "Drama"
+      ],
+      "countriesBanned": [
+        "China",
+        "Norway",
+        "United States"
+      ],
+      "actors": [
+        "Dallon Audenis",
+        "Anica Wrigley",
+        "Perrine Baskwell",
+        "Pammie Bowmaker"
+      ]
+    },
+    {
+      "name": "Belphecor: Curse of the Mummy (Belphégor - Le fantôme du Louvre)",
+      "year": 1988,
+      "duration": 178,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Fantasy"
+      ],
+      "countriesBanned": [
+        "China",
+        "Sweden",
+        "Costa Rica"
+      ],
+      "actors": [
+        "Florella Snoday",
+        "Obie Dowsing",
+        "Lynnea Denington",
+        "Chrystal Evreux"
+      ]
+    },
+    {
+      "name": "Endangered Species",
+      "year": 1994,
+      "duration": 79,
+      "genres": [
+        "Mystery",
+        "Fantasy",
+        "Drama"
+      ],
+      "countriesBanned": [
+        "France",
+        "South Africa",
+        "Indonesia"
+      ],
+      "actors": [
+        "Morry Lunny",
+        "Freda Werrett",
+        "Jewel Gareisr",
+        "Carine Cucinotta"
+      ]
+    },
+    {
+      "name": "Celluloid Closet, The",
+      "year": 2002,
+      "duration": 155,
+      "genres": [
+        "Comedy",
+        "Thriller",
+        "Horror"
+      ],
+      "countriesBanned": [
+        "Indonesia",
+        "Argentina",
+        "China"
+      ],
+      "actors": [
+        "Betta MacAughtrie",
+        "Miltie Vousden",
+        "Rand Eliasson",
+        "Calypso Jamson"
+      ]
+    },
+    {
+      "name": "As You Like It",
+      "year": 1999,
+      "duration": 91,
+      "genres": [
+        "Romance",
+        "Horror",
+        "Thriller"
+      ],
+      "countriesBanned": [
+        "China",
+        "Venezuela",
+        "India"
+      ],
+      "actors": [
+        "Maureene Elks",
+        "Amber McGilbon",
+        "Lora Doelle",
+        "Blondelle Spyvye"
+      ]
+    },
+    {
+      "name": "The Well-Digger's Daughter",
+      "year": 1994,
+      "duration": 141,
+      "genres": [
+        "Comedy",
+        "Mystery",
+        "Drama"
+      ],
+      "countriesBanned": [
+        "China",
+        "South Africa",
+        "India"
+      ],
+      "actors": [
+        "Fallon Sutcliff",
+        "Maribeth Penas",
+        "Codee Hooks",
+        "Rubia Cotilard"
+      ]
+    },
+    {
+      "name": "Mistress",
+      "year": 2012,
+      "duration": 146,
+      "genres": [
+        "Thriller",
+        "Drama",
+        "Fantasy"
+      ],
+      "countriesBanned": [
+        "Greece",
+        "Czech Republic",
+        "Malaysia"
+      ],
+      "actors": [
+        "Maighdiln Moroney",
+        "Robinett Fennick",
+        "Candice Hacquel",
+        "Arlene Challoner"
+      ]
+    },
+    {
+      "name": "Indiana Jones and the Temple of Doom",
+      "year": 2012,
+      "duration": 88,
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Mystery"
+      ],
+      "countriesBanned": [
+        "Nigeria",
+        "Lithuania",
+        "Burkina Faso"
+      ],
+      "actors": [
+        "Samuel Murtell",
+        "Ansel Ryburn",
+        "Rickert Farmery",
+        "Ernst Malcher"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "type": "change page",
+      "page": "register"
+    },
+    {
+      "type": "on page",
+      "feature": "register",
+      "credentials": {
+        "name": "Dorel",
+        "password": "ciucas",
+        "accountType": "standard",
+        "country": "Romania",
+        "balance": "3000"
+      }
+    },
+    {
+      "type": "change page",
+      "page": "upgrades"
+    },
+    {
+      "type": "on page",
+      "feature": "buy tokens",
+      "count": "1000"
+    },
+    {
+      "type": "on page",
+      "feature": "buy premium account"
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "change page",
+      "page": "see details",
+      "movie": "Take the Money and Run"
+    },
+    {
+      "type": "on page",
+      "feature": "purchase"
+    },
+    {
+      "type": "on page",
+      "feature": "watch"
+    },
+    {
+      "type": "on page",
+      "feature": "rate",
+      "rate": 2
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "change page",
+      "page": "see details",
+      "movie": "My Sassy Girl"
+    },
+    {
+      "type": "on page",
+      "feature": "purchase"
+    },
+    {
+      "type": "on page",
+      "feature": "watch"
+    },
+    {
+      "type": "on page",
+      "feature": "rate",
+      "rate": 2
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "change page",
+      "page": "see details",
+      "movie": "Penelope"
+    },
+    {
+      "type": "on page",
+      "feature": "purchase"
+    },
+    {
+      "type": "on page",
+      "feature": "watch"
+    },
+    {
+      "type": "on page",
+      "feature": "rate",
+      "rate": 2
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "change page",
+      "page": "see details",
+      "movie": "Kiwi!"
+    },
+    {
+      "type": "on page",
+      "feature": "purchase"
+    },
+    {
+      "type": "on page",
+      "feature": "watch"
+    },
+    {
+      "type": "on page",
+      "feature": "rate",
+      "rate": 2
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "change page",
+      "page": "see details",
+      "movie": "Little Foxes, The"
+    },
+    {
+      "type": "on page",
+      "feature": "purchase"
+    },
+    {
+      "type": "on page",
+      "feature": "watch"
+    },
+    {
+      "type": "on page",
+      "feature": "rate",
+      "rate": 2
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "change page",
+      "page": "see details",
+      "movie": "The Empty Hours"
+    },
+    {
+      "type": "on page",
+      "feature": "purchase"
+    },
+    {
+      "type": "on page",
+      "feature": "watch"
+    },
+    {
+      "type": "on page",
+      "feature": "rate",
+      "rate": 2
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "change page",
+      "page": "see details",
+      "movie": "Jason's Lyric"
+    },
+    {
+      "type": "on page",
+      "feature": "purchase"
+    },
+    {
+      "type": "on page",
+      "feature": "watch"
+    },
+    {
+      "type": "on page",
+      "feature": "rate",
+      "rate": 10
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "change page",
+      "page": "see details",
+      "movie": "Comet in Moominland"
+    },
+    {
+      "type": "on page",
+      "feature": "purchase"
+    },
+    {
+      "type": "on page",
+      "feature": "watch"
+    },
+    {
+      "type": "on page",
+      "feature": "rate",
+      "rate": 6
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "change page",
+      "page": "see details",
+      "movie": "Bag It"
+    },
+    {
+      "type": "on page",
+      "feature": "purchase"
+    },
+    {
+      "type": "on page",
+      "feature": "watch"
+    },
+    {
+      "type": "on page",
+      "feature": "rate",
+      "rate": 3
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "change page",
+      "page": "see details",
+      "movie": "Shaolin Temple (Shao Lin si)"
+    },
+    {
+      "type": "on page",
+      "feature": "purchase"
+    },
+    {
+      "type": "on page",
+      "feature": "watch"
+    },
+    {
+      "type": "on page",
+      "feature": "rate",
+      "rate": 5
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "change page",
+      "page": "see details",
+      "movie": "Belphecor: Curse of the Mummy (Belphégor - Le fantôme du Louvre)"
+    },
+    {
+      "type": "on page",
+      "feature": "purchase"
+    },
+    {
+      "type": "on page",
+      "feature": "watch"
+    },
+    {
+      "type": "on page",
+      "feature": "rate",
+      "rate": 3
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "change page",
+      "page": "see details",
+      "movie": "Endangered Species"
+    },
+    {
+      "type": "on page",
+      "feature": "purchase"
+    },
+    {
+      "type": "on page",
+      "feature": "watch"
+    },
+    {
+      "type": "on page",
+      "feature": "rate",
+      "rate": 2
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "change page",
+      "page": "see details",
+      "movie": "Celluloid Closet, The"
+    },
+    {
+      "type": "on page",
+      "feature": "purchase"
+    },
+    {
+      "type": "on page",
+      "feature": "watch"
+    },
+    {
+      "type": "on page",
+      "feature": "rate",
+      "rate": 1
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "change page",
+      "page": "see details",
+      "movie": "As You Like It"
+    },
+    {
+      "type": "on page",
+      "feature": "purchase"
+    },
+    {
+      "type": "on page",
+      "feature": "watch"
+    },
+    {
+      "type": "on page",
+      "feature": "rate",
+      "rate": 2
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "change page",
+      "page": "see details",
+      "movie": "The Well-Digger's Daughter"
+    },
+    {
+      "type": "on page",
+      "feature": "purchase"
+    },
+    {
+      "type": "on page",
+      "feature": "watch"
+    },
+    {
+      "type": "on page",
+      "feature": "rate",
+      "rate": 5
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "change page",
+      "page": "see details",
+      "movie": "Mistress"
+    },
+    {
+      "type": "on page",
+      "feature": "purchase"
+    },
+    {
+      "type": "on page",
+      "feature": "watch"
+    },
+    {
+      "type": "on page",
+      "feature": "rate",
+      "rate": 4
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "change page",
+      "page": "see details",
+      "movie": "Lord, Save Us from Your Followers"
+    },
+    {
+      "type": "on page",
+      "feature": "purchase"
+    },
+    {
+      "type": "on page",
+      "feature": "watch"
+    },
+    {
+      "type": "on page",
+      "feature": "rate",
+      "rate": 2
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "change page",
+      "page": "see details",
+      "movie": "Indiana Jones and the Temple of Doom"
+    },
+    {
+      "type": "on page",
+      "feature": "purchase"
+    },
+    {
+      "type": "on page",
+      "feature": "watch"
+    },
+    {
+      "type": "change page",
+      "page": "movies"
+    },
+    {
+      "type": "on page",
+      "feature": "filter",
+      "filters": {
+        "sort": {
+          "rating": "increasing"
+        }
+      }
+    }
+  ]
+}

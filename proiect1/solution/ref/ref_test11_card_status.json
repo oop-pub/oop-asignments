@@ -1,0 +1,87 @@
+[ {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 1,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 2,
+    "description" : "New card created",
+    "card" : "8207906978464446",
+    "cardHolder" : "David_Rogers@gmail.us",
+    "account" : "RO58POOB7344468893732422"
+  }, {
+    "timestamp" : 3,
+    "description" : "You have reached the minimum amount of funds, the card will be frozen"
+  }, {
+    "timestamp" : 7,
+    "description" : "The card is frozen"
+  }, {
+    "timestamp" : 8,
+    "description" : "The card is frozen"
+  }, {
+    "timestamp" : 9,
+    "description" : "The card is frozen"
+  } ],
+  "timestamp" : 11
+}, {
+  "command" : "checkCardStatus",
+  "output" : {
+    "timestamp" : 20,
+    "description" : "Card not found"
+  },
+  "timestamp" : 20
+}, {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "David",
+    "lastName" : "Rogers",
+    "email" : "David_Rogers@gmail.us",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 1775.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "8207906978464446",
+        "status" : "frozen"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Olivia",
+    "lastName" : "Suciu",
+    "email" : "Olivia_Suciu@yahoo.ro",
+    "accounts" : [ {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 3.0,
+      "currency" : "RON",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Carla",
+    "lastName" : "Valencia",
+    "email" : "Carla_Valencia@yahoo.us",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 506.33333333333337,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  } ],
+  "timestamp" : 22
+}, {
+  "command" : "printTransactions",
+  "output" : [ {
+    "timestamp" : 13,
+    "description" : "New account created"
+  }, {
+    "timestamp" : 21,
+    "description" : "Electricity and gas bills",
+    "senderIBAN" : "RO69POOB6209498372540635",
+    "receiverIBAN" : "RO90POOB5450777208072365",
+    "amount" : "55.0 RON",
+    "transferType" : "sent"
+  } ],
+  "timestamp" : 23
+} ]
