@@ -1,0 +1,180 @@
+{
+    "users": [
+        {
+            "firstName": "David",
+            "lastName": "Rogers",
+            "email": "David_Rogers@gmail.us"
+        },
+        {
+            "firstName": "Olivia",
+            "lastName": "Suciu",
+            "email": "Olivia_Suciu@yahoo.ro"
+        },
+        {
+            "firstName": "Carla",
+            "lastName": "Valencia",
+            "email": "Carla_Valencia@yahoo.us"
+        }
+    ],
+    "exchangeRates": [
+        {
+            "from": "USD",
+            "to": "RON",
+            "rate": 0.3
+        },
+        {
+            "from": "USD",
+            "to": "EUR",
+            "rate": 0.8
+        }
+    ],
+    "commands": [
+        {
+            "command": "addAccount",
+            "email": "David_Rogers@gmail.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 1
+        },
+        {
+            "command": "createCard",
+            "account": "RO58POOB7344468893732422",
+            "email": "David_Rogers@gmail.us",
+            "timestamp": 2
+        },
+        {
+            "command": "checkCardStatus",
+            "cardNumber": "8207906978464446",
+            "timestamp": 3
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 731,
+            "timestamp": 4
+        },
+        {
+            "command": "setMinimumBalance",
+            "account": "RO58POOB7344468893732422",
+            "amount": 200,
+            "timestamp": 5
+        },
+        {
+            "command": "checkCardStatus",
+            "cardNumber": "8207906978464446",
+            "timestamp": 6
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "8207906978464446",
+            "amount": 622,
+            "currency": "USD",
+            "timestamp": 7,
+            "description": "Online payment",
+            "commerciant": "Amazon",
+            "email": "David_Rogers@gmail.us"
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "8207906978464446",
+            "amount": 250,
+            "currency": "USD",
+            "timestamp": 8,
+            "description": "Online payment",
+            "commerciant": "Nike",
+            "email": "David_Rogers@gmail.us"
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "8207906978464446",
+            "amount": 10,
+            "currency": "EUR",
+            "timestamp": 9,
+            "description": "Online payment",
+            "commerciant": "KFC",
+            "email": "David_Rogers@gmail.us"
+        },
+        {
+            "command": "checkCardStatus",
+            "cardNumber": "8207906978464446",
+            "timestamp": 10
+        },
+        {
+            "command": "printTransactions",
+            "email": "David_Rogers@gmail.us",
+            "timestamp": 11
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 138,
+            "timestamp": 12
+        },
+        {
+            "command": "addAccount",
+            "email": "Olivia_Suciu@yahoo.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 13
+        },
+        {
+            "command": "addAccount",
+            "email": "Carla_Valencia@yahoo.us",
+            "currency": "USD",
+            "accountType": "classic",
+            "timestamp": 14
+        },
+        {
+            "command": "setMinimumBalance",
+            "account": "RO69POOB6209498372540635",
+            "amount": 100,
+            "timestamp": 15
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 906,
+            "timestamp": 16
+        },
+        {
+            "command": "addFunds",
+            "account": "RO69POOB6209498372540635",
+            "amount": 58,
+            "timestamp": 17
+        },
+        {
+            "command": "addFunds",
+            "account": "RO90POOB5450777208072365",
+            "amount": 323,
+            "timestamp": 18
+        },
+        {
+            "command": "checkCardStatus",
+            "cardNumber": "8207906978464446",
+            "timestamp": 19
+        },
+        {
+            "command": "checkCardStatus",
+            "cardNumber": "4001829491527416",
+            "timestamp": 20
+        },
+        {
+            "command": "sendMoney",
+            "account": "RO69POOB6209498372540635",
+            "amount": 55,
+            "receiver": "RO90POOB5450777208072365",
+            "timestamp": 21,
+            "email": "Olivia_Suciu@yahoo.ro",
+            "description": "Electricity and gas bills"
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 22
+        },
+        {
+            "command": "printTransactions",
+            "email": "Olivia_Suciu@yahoo.ro",
+            "timestamp": 23
+        }
+    ]
+}

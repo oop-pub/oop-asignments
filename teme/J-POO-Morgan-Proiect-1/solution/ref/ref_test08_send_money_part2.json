@@ -1,0 +1,121 @@
+[ {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Patrick",
+    "lastName" : "Cabrera",
+    "email" : "Patrick_Cabrera@hotmail.us",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 557.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "8207906978464446",
+        "status" : "active"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Leslie",
+    "lastName" : "Thomas",
+    "email" : "Leslie_Thomas@yahoo.us",
+    "accounts" : [ {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 6630.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Elise",
+    "lastName" : "Devaux",
+    "email" : "Elise_Devaux@outlook.fr",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 6900.0,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  } ],
+  "timestamp" : 8
+}, {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Patrick",
+    "lastName" : "Cabrera",
+    "email" : "Patrick_Cabrera@hotmail.us",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 75.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "8207906978464446",
+        "status" : "active"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Leslie",
+    "lastName" : "Thomas",
+    "email" : "Leslie_Thomas@yahoo.us",
+    "accounts" : [ {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 7011.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Elise",
+    "lastName" : "Devaux",
+    "email" : "Elise_Devaux@outlook.fr",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 6980.8,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  } ],
+  "timestamp" : 12
+}, {
+  "command" : "printUsers",
+  "output" : [ {
+    "firstName" : "Patrick",
+    "lastName" : "Cabrera",
+    "email" : "Patrick_Cabrera@hotmail.us",
+    "accounts" : [ {
+      "IBAN" : "RO58POOB7344468893732422",
+      "balance" : 1729.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ {
+        "cardNumber" : "8207906978464446",
+        "status" : "active"
+      } ]
+    } ]
+  }, {
+    "firstName" : "Leslie",
+    "lastName" : "Thomas",
+    "email" : "Leslie_Thomas@yahoo.us",
+    "accounts" : [ {
+      "IBAN" : "RO69POOB6209498372540635",
+      "balance" : 11836.0,
+      "currency" : "USD",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  }, {
+    "firstName" : "Elise",
+    "lastName" : "Devaux",
+    "email" : "Elise_Devaux@outlook.fr",
+    "accounts" : [ {
+      "IBAN" : "RO90POOB5450777208072365",
+      "balance" : 6980.8,
+      "currency" : "EUR",
+      "type" : "classic",
+      "cards" : [ ]
+    } ]
+  } ],
+  "timestamp" : 16
+} ]

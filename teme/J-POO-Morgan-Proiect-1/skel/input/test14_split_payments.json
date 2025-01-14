@@ -1,0 +1,171 @@
+{
+    "users": [
+        {
+            "firstName": "Margaux",
+            "lastName": "Nicolas",
+            "email": "Margaux_Nicolas@gmail.fr"
+        },
+        {
+            "firstName": "Lucas",
+            "lastName": "Garnier",
+            "email": "Lucas_Garnier@outlook.fr"
+        },
+        {
+            "firstName": "Georgeta",
+            "lastName": "Nistor",
+            "email": "Georgeta_Nistor@outlook.ro"
+        },
+        {
+            "firstName": "Emanoil",
+            "lastName": "Barbu",
+            "email": "Emanoil_Barbu@hotmail.ro"
+        }
+    ],
+    "exchangeRates": [
+        {
+            "from": "EUR",
+            "to": "USD",
+            "rate": 0.9
+        },
+        {
+            "from": "EUR",
+            "to": "RON",
+            "rate": 4.2
+        }
+    ],
+    "commands": [
+        {
+            "command": "addAccount",
+            "email": "Margaux_Nicolas@gmail.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 1
+        },
+        {
+            "command": "addAccount",
+            "email": "Lucas_Garnier@outlook.fr",
+            "currency": "EUR",
+            "accountType": "classic",
+            "timestamp": 2
+        },
+        {
+            "command": "addAccount",
+            "email": "Georgeta_Nistor@outlook.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 3
+        },
+        {
+            "command": "addAccount",
+            "email": "Emanoil_Barbu@hotmail.ro",
+            "currency": "RON",
+            "accountType": "classic",
+            "timestamp": 4
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 4782,
+            "timestamp": 5
+        },
+        {
+            "command": "addFunds",
+            "account": "RO69POOB6209498372540635",
+            "amount": 5845,
+            "timestamp": 6
+        },
+        {
+            "command": "addFunds",
+            "account": "RO90POOB5450777208072365",
+            "amount": 3359,
+            "timestamp": 7
+        },
+        {
+            "command": "addFunds",
+            "account": "RO65POOB8944016386845896",
+            "amount": 3461,
+            "timestamp": 8
+        },
+        {
+            "command": "splitPayment",
+            "accounts": [
+                "RO69POOB6209498372540635",
+                "RO90POOB5450777208072365",
+                "RO58POOB7344468893732422",
+                "RO65POOB8944016386845896"
+            ],
+            "amount": 1269,
+            "currency": "EUR",
+            "timestamp": 9
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 10
+        },
+        {
+            "command": "payOnline",
+            "cardNumber": "4001829491527416",
+            "amount": 288,
+            "currency": "EUR",
+            "timestamp": 11,
+            "description": "Online payment",
+            "commerciant": "Zara",
+            "email": "Margaux_Nicolas@gmail.fr"
+        },
+        {
+            "command": "addFunds",
+            "account": "RO58POOB7344468893732422",
+            "amount": 925,
+            "timestamp": 12
+        },
+        {
+            "command": "addFunds",
+            "account": "RO69POOB6209498372540635",
+            "amount": 359,
+            "timestamp": 13
+        },
+        {
+            "command": "addFunds",
+            "account": "RO90POOB5450777208072365",
+            "amount": 785,
+            "timestamp": 14
+        },
+        {
+            "command": "addFunds",
+            "account": "RO65POOB8944016386845896",
+            "amount": 737,
+            "timestamp": 15
+        },
+        {
+            "command": "printUsers",
+            "timestamp": 16
+        },
+        {
+            "command": "splitPayment",
+            "accounts": [
+                "RO58POOB7344468893732422",
+                "RO90POOB5450777208072365",
+                "RO65POOB8944016386845896",
+                "RO69POOB6209498372540635"
+            ],
+            "amount": 186,
+            "currency": "EUR",
+            "timestamp": 17
+        },
+        {
+            "command": "splitPayment",
+            "accounts": [
+                "RO69POOB6209498372540635",
+                "RO58POOB7344468893732422"
+            ],
+            "amount": 3197,
+            "currency": "EUR",
+            "timestamp": 18
+        },
+        {
+            "command": "printTransactions",
+            "email": "Margaux_Nicolas@gmail.fr",
+            "timestamp": 19
+        }
+    ]
+}
